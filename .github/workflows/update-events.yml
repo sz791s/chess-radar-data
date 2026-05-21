@@ -1,4 +1,4 @@
-name: Update Chess Events
+name: Update Chess Data Feeds
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  update-events:
+  update-feeds:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,11 +24,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate events.json
+      - name: Generate JSON feeds
         run: python scripts/generate_events.py
 
-      - name: Commit updated events.json
+      - name: Commit updated JSON feeds
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update events feed"
-          file_pattern: events.json
+          commit_message: "Update chess data feeds"
+          file_pattern: events.json channels.json players_open.json players_women.json

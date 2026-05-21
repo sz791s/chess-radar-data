@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-21T19:26:02.235398+00:00",
-  "eventCount": 11,
+  "generatedAt": "2026-05-21T19:48:02Z",
+  "eventCount": 17,
   "events": [
     {
       "id": "titled-tuesday",
       "title": "Titled Tuesday",
       "shortTitle": "Titled Tuesday",
-      "status": "upcoming",
+      "status": "completed",
       "startDate": "2026-01-01T17:00:00Z",
       "endDate": "2026-01-01T20:00:00Z",
       "timezone": "Europe/Zurich",
@@ -40,9 +40,9 @@
       "id": "lichess-p3ctK4xS",
       "title": "GCT: Super Chess Classic Romania 2026",
       "shortTitle": "GCT: Super Chess Classic Romania 2026",
-      "status": "upcoming",
-      "startDate": "2026-05-14T13:10:00+00:00",
-      "endDate": "2026-05-23T11:10:00+00:00",
+      "status": "live",
+      "startDate": "2026-05-14T13:10:00Z",
+      "endDate": "2026-05-23T11:10:00Z",
       "timezone": "Europe/Bucharest",
       "locationName": "București, Romania",
       "isOnline": false,
@@ -50,7 +50,6 @@
       "description": "10-player round-robin",
       "categories": [
         "broadcast",
-        "standard",
         "classical"
       ],
       "playerIds": [],
@@ -77,52 +76,12 @@
       ]
     },
     {
-      "id": "lichess-YK8WhTv2",
-      "title": "25th European Women's Chess Championship 2026",
-      "shortTitle": "25th European Women's Chess Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-05-25T11:00:00+00:00",
-      "endDate": "2026-06-05T08:00:00+00:00",
-      "timezone": "Asia/Tbilisi",
-      "locationName": "Batumi, Georgia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "11-round Swiss",
-      "categories": [
-        "broadcast",
-        "standard",
-        "classical"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/25th-european-womens-chess-championship-2026/YK8WhTv2",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/25th-european-womens-chess-championship-2026/YK8WhTv2"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://ewcc2026.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1368962.aspx?art=1"
-        }
-      ]
-    },
-    {
       "id": "lichess-lc2SuBsT",
       "title": "Commonwealth Chess Championship 2026 | Youth",
       "shortTitle": "Commonwealth Chess Championship 2026 | Youth",
-      "status": "upcoming",
-      "startDate": "2026-05-17T05:00:00+00:00",
-      "endDate": "2026-05-25T03:00:00+00:00",
+      "status": "live",
+      "startDate": "2026-05-17T05:00:00Z",
+      "endDate": "2026-05-25T03:00:00Z",
       "timezone": "Asia/Colombo",
       "locationName": "Hotel Citrus, Kalutara, Sri Lanka",
       "isOnline": false,
@@ -130,8 +89,8 @@
       "description": "9 Round Swiss",
       "categories": [
         "broadcast",
-        "standard",
-        "classical"
+        "classical",
+        "junior"
       ],
       "playerIds": [],
       "channelIds": [
@@ -155,9 +114,9 @@
       "id": "lichess-ZkmOuhDQ",
       "title": "Commonwealth Chess Championship 2026 | Open",
       "shortTitle": "Commonwealth Chess Championship 2026 | Open",
-      "status": "upcoming",
-      "startDate": "2026-05-17T10:30:00+00:00",
-      "endDate": "2026-05-25T08:00:00+00:00",
+      "status": "live",
+      "startDate": "2026-05-17T10:30:00Z",
+      "endDate": "2026-05-25T08:00:00Z",
       "timezone": "Asia/Colombo",
       "locationName": "Hotel Citrus, Kalutara, Sri Lanka",
       "isOnline": false,
@@ -165,7 +124,6 @@
       "description": "9 Round Swiss",
       "categories": [
         "broadcast",
-        "standard",
         "classical"
       ],
       "playerIds": [],
@@ -187,60 +145,122 @@
       ]
     },
     {
-      "id": "lichess-tO0H69qH",
-      "title": "Mukhiddin Madamiov vs Luke McShane Blitz",
-      "shortTitle": "Mukhiddin Madamiov vs Luke McShane Blitz",
-      "status": "upcoming",
-      "startDate": "2026-05-21T19:26:02.235206+00:00",
-      "endDate": "2026-05-21T19:26:02.235210+00:00",
-      "timezone": "Asia/Tashkent",
-      "locationName": "Tashkent, Uzbekistan",
+      "id": "lichess-ImkQWYkc",
+      "title": "Drużynowe Mistrzostwa Polski Juniorów - II Liga | Mecze 11-18",
+      "shortTitle": "Drużynowe Mistrzostwa Polski Juniorów - II Liga | Mecze 11-18",
+      "status": "live",
+      "startDate": "2026-05-21T07:45:00Z",
+      "endDate": "2026-05-29T07:15:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Sypniewo, Poland",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss for teams",
       "categories": [
         "broadcast",
-        "blitz"
+        "classical",
+        "junior"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-blitz/tO0H69qH",
+      "primaryUrl": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-ii-liga--mecze-11-18/ImkQWYkc",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-blitz/tO0H69qH"
+          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-ii-liga--mecze-11-18/ImkQWYkc"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2213/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2213/final_standings_teams&1.html"
         }
       ]
     },
     {
-      "id": "lichess-G8ZFMIJJ",
-      "title": "Mukhiddin Madamiov vs Luke McShane Rapid",
-      "shortTitle": "Mukhiddin Madamiov vs Luke McShane Rapid",
-      "status": "upcoming",
-      "startDate": "2026-05-21T19:26:02.235228+00:00",
-      "endDate": "2026-05-21T19:26:02.235231+00:00",
-      "timezone": "Asia/Tashkent",
-      "locationName": "Tashkent, Uzbekistan",
+      "id": "lichess-NdOLFud9",
+      "title": "Drużynowe Mistrzostwa Polski Juniorów 2026 | Ekstraliga",
+      "shortTitle": "Drużynowe Mistrzostwa Polski Juniorów 2026 | Ekstraliga",
+      "status": "live",
+      "startDate": "2026-05-21T08:00:00Z",
+      "endDate": "2026-05-29T07:30:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Chotowa",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-player round-robin TEAM",
       "categories": [
         "broadcast",
-        "rapid"
+        "classical",
+        "junior"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-rapid/G8ZFMIJJ",
+      "primaryUrl": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-2026--ekstraliga/NdOLFud9",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-rapid/G8ZFMIJJ"
+          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-2026--ekstraliga/NdOLFud9"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2305/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2305/"
+        }
+      ]
+    },
+    {
+      "id": "lichess-AYfwz982",
+      "title": "Drużynowe Mistrzostwa Polski Juniorów 2026 | I Liga",
+      "shortTitle": "Drużynowe Mistrzostwa Polski Juniorów 2026 | I Liga",
+      "status": "live",
+      "startDate": "2026-05-21T08:00:00Z",
+      "endDate": "2026-05-29T07:30:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Chotowa",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss Team",
+      "categories": [
+        "broadcast",
+        "classical",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-2026--i-liga/AYfwz982",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-2026--i-liga/AYfwz982"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2316/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2316/"
         }
       ]
     },
@@ -248,9 +268,9 @@
       "id": "lichess-zARdQG9W",
       "title": "12th Serbian Cup \"Svetozar Gligorić\" | Women",
       "shortTitle": "12th Serbian Cup \"Svetozar Gligorić\" | Women",
-      "status": "upcoming",
-      "startDate": "2026-05-21T13:00:00+00:00",
-      "endDate": "2026-05-24T08:00:00+00:00",
+      "status": "live",
+      "startDate": "2026-05-21T13:00:00Z",
+      "endDate": "2026-05-24T08:00:00Z",
       "timezone": "Europe/Sarajevo",
       "locationName": "Paraćin, Serbia",
       "isOnline": false,
@@ -258,8 +278,8 @@
       "description": "5-round Swiss for teams",
       "categories": [
         "broadcast",
-        "standard",
-        "classical"
+        "classical",
+        "women"
       ],
       "playerIds": [],
       "channelIds": [
@@ -288,9 +308,9 @@
       "id": "lichess-8FFDJM9z",
       "title": "12th Serbian Cup \"Svetozar Gligorić\" | Open",
       "shortTitle": "12th Serbian Cup \"Svetozar Gligorić\" | Open",
-      "status": "upcoming",
-      "startDate": "2026-05-21T13:00:00+00:00",
-      "endDate": "2026-05-24T08:00:00+00:00",
+      "status": "live",
+      "startDate": "2026-05-21T13:00:00Z",
+      "endDate": "2026-05-24T08:00:00Z",
       "timezone": "Europe/Sarajevo",
       "locationName": "Paraćin, Serbia",
       "isOnline": false,
@@ -298,7 +318,6 @@
       "description": "5-round Swiss for teams",
       "categories": [
         "broadcast",
-        "standard",
         "classical"
       ],
       "playerIds": [],
@@ -325,12 +344,129 @@
       ]
     },
     {
+      "id": "lichess-f4TBr77m",
+      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 20",
+      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 20",
+      "status": "live",
+      "startDate": "2026-05-21T16:10:00Z",
+      "endDate": "2026-05-23T23:10:00Z",
+      "timezone": "America/Mexico_City",
+      "locationName": "San Luis Potosi, México",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "broadcast",
+        "classical"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-20/f4TBr77m",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-20/f4TBr77m"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://fenamac.info/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1419875.aspx?art=1"
+        }
+      ]
+    },
+    {
+      "id": "lichess-NTuZV3RI",
+      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12 Fem",
+      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12 Fem",
+      "status": "live",
+      "startDate": "2026-05-21T16:10:00Z",
+      "endDate": "2026-05-23T23:10:00Z",
+      "timezone": "America/Mexico_City",
+      "locationName": "San Luis Potosi, México",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "broadcast",
+        "classical"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12-fem/NTuZV3RI",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12-fem/NTuZV3RI"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://fenamac.info/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1420358.aspx?art=1"
+        }
+      ]
+    },
+    {
+      "id": "lichess-jje2jykw",
+      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12",
+      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12",
+      "status": "live",
+      "startDate": "2026-05-21T16:10:00Z",
+      "endDate": "2026-05-23T23:10:00Z",
+      "timezone": "America/Mexico_City",
+      "locationName": "San Luis Potosi, México",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "broadcast",
+        "classical"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12/jje2jykw",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12/jje2jykw"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://fenamac.info/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1420018.aspx?art=1"
+        }
+      ]
+    },
+    {
       "id": "lichess-KiB58Bou",
       "title": "IV Torneo Ajedrez Villa de Noblejas | GM \"Pepe\" Cuenca Jiménez  Exhibition Match",
       "shortTitle": "IV Torneo Ajedrez Villa de Noblejas | GM \"Pepe\" Cuenca Jiménez  Exhibition Match",
       "status": "upcoming",
-      "startDate": "2026-05-23T15:00:00+00:00",
-      "endDate": "2026-05-21T19:26:02.235347+00:00",
+      "startDate": "2026-05-23T15:00:00Z",
+      "endDate": null,
       "timezone": "Europe/Madrid",
       "locationName": "Noblejas, Toledo, Spain",
       "isOnline": false,
@@ -359,42 +495,135 @@
       ]
     },
     {
-      "id": "lichess-NdOLFud9",
-      "title": "Drużynowe Mistrzostwa Polski Juniorów 2026 | Ekstraliga",
-      "shortTitle": "Drużynowe Mistrzostwa Polski Juniorów 2026 | Ekstraliga",
+      "id": "lichess-YK8WhTv2",
+      "title": "25th European Women's Chess Championship 2026",
+      "shortTitle": "25th European Women's Chess Championship 2026",
       "status": "upcoming",
-      "startDate": "2026-05-21T08:00:00+00:00",
-      "endDate": "2026-05-29T07:30:00+00:00",
-      "timezone": "Europe/Warsaw",
-      "locationName": "Chotowa",
+      "startDate": "2026-05-25T11:00:00Z",
+      "endDate": "2026-06-05T08:00:00Z",
+      "timezone": "Asia/Tbilisi",
+      "locationName": "Batumi, Georgia",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-player round-robin TEAM",
+      "description": "11-round Swiss",
       "categories": [
         "broadcast",
-        "standard",
-        "classical"
+        "classical",
+        "women"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-2026--ekstraliga/NdOLFud9",
+      "primaryUrl": "https://lichess.org/broadcast/25th-european-womens-chess-championship-2026/YK8WhTv2",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-2026--ekstraliga/NdOLFud9"
+          "url": "https://lichess.org/broadcast/25th-european-womens-chess-championship-2026/YK8WhTv2"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2305/"
+          "url": "https://ewcc2026.com/"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2305/"
+          "url": "https://s2.chess-results.com/tnr1368962.aspx?art=1"
+        }
+      ]
+    },
+    {
+      "id": "norway-chess-2026",
+      "title": "Norway Chess 2026",
+      "shortTitle": "Norway Chess",
+      "status": "upcoming",
+      "startDate": "2026-05-25T13:00:00Z",
+      "endDate": "2026-06-05T21:00:00Z",
+      "timezone": "Europe/Oslo",
+      "locationName": "Oslo, Norway",
+      "isOnline": false,
+      "summary": "Elite over-the-board tournament hosted by Norway Chess.",
+      "description": "Norway Chess 2026 is scheduled for 25 May to 5 June in Oslo, with open and women's events.",
+      "categories": [
+        "classical",
+        "elite",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "norway-chess"
+      ],
+      "primaryUrl": "https://norwaychess.no/en/schedule-2026/",
+      "links": [
+        {
+          "label": "Official schedule",
+          "type": "official",
+          "url": "https://norwaychess.no/en/schedule-2026/"
+        },
+        {
+          "label": "Norway Chess",
+          "type": "watch",
+          "url": "https://norwaychess.no/en/"
+        }
+      ]
+    },
+    {
+      "id": "lichess-tO0H69qH",
+      "title": "Mukhiddin Madamiov vs Luke McShane Blitz",
+      "shortTitle": "Mukhiddin Madamiov vs Luke McShane Blitz",
+      "status": "upcoming",
+      "startDate": null,
+      "endDate": null,
+      "timezone": "Asia/Tashkent",
+      "locationName": "Tashkent, Uzbekistan",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "broadcast",
+        "blitz"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-blitz/tO0H69qH",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-blitz/tO0H69qH"
+        }
+      ]
+    },
+    {
+      "id": "lichess-G8ZFMIJJ",
+      "title": "Mukhiddin Madamiov vs Luke McShane Rapid",
+      "shortTitle": "Mukhiddin Madamiov vs Luke McShane Rapid",
+      "status": "upcoming",
+      "startDate": null,
+      "endDate": null,
+      "timezone": "Asia/Tashkent",
+      "locationName": "Tashkent, Uzbekistan",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "broadcast",
+        "rapid"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-rapid/G8ZFMIJJ",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/mukhiddin-madamiov-vs-luke-mcshane-rapid/G8ZFMIJJ"
         }
       ]
     }
