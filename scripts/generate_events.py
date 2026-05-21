@@ -46,9 +46,13 @@ try:
     lichess_url = "https://lichess.org/api/broadcast"
     
     with urlopen(lichess_url) as response:
-        data = json.loads(response.read().decode())
+    raw = response.read().decode()
 
-    for item in data[:10]:
+# Lichess sometimes returns NDJSON-like output
+lines = raw.strip().splitlines()
+
+for line in lines[:10]:
+    item = json.loads(line)
         event = {
             "id": f"lichess-{item.get('id', '')}",
             "title": item.get("name", "Lichess Broadcast"),
