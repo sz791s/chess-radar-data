@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-21T19:48:02Z",
-  "channelCount": 12,
+  "generatedAt": "2026-05-21T20:16:35Z",
+  "channelCount": 14,
   "channels": [
     {
       "id": "chesscom",
@@ -9,6 +9,7 @@
       "description": "Official Chess.com coverage, events, and broadcasts.",
       "links": {
         "website": "https://www.chess.com/",
+        "events": "https://www.chess.com/events",
         "youtube": "https://www.youtube.com/@chesscom",
         "twitch": "https://www.twitch.tv/chess"
       }
@@ -31,6 +32,7 @@
       "description": "Official International Chess Federation news and event coverage.",
       "links": {
         "website": "https://www.fide.com/",
+        "calendar": "https://calendar.fide.com/calendar.php",
         "youtube": "https://www.youtube.com/@FIDE_chess"
       }
     },
@@ -73,6 +75,25 @@
       "links": {
         "website": "https://norwaychess.no/en/",
         "youtube": "https://www.youtube.com/@NorwayChess"
+      }
+    },
+    {
+      "id": "grand-chess-tour",
+      "name": "Grand Chess Tour",
+      "category": "officialChannel",
+      "description": "Official Grand Chess Tour event coverage.",
+      "links": {
+        "website": "https://grandchesstour.org/"
+      }
+    },
+    {
+      "id": "chessbase-india",
+      "name": "ChessBase India",
+      "category": "creator",
+      "description": "ChessBase India tournament coverage, news, and videos.",
+      "links": {
+        "website": "https://www.chessbase.in/",
+        "youtube": "https://www.youtube.com/@ChessBaseIndiachannel"
       }
     },
     {
