@@ -16,7 +16,7 @@ FIDE_CALENDAR_ENDPOINT = "https://calendar.fide.com/calendar_server.php"
 USER_AGENT = "ChessRadarData/1.0 (+https://sz791s.github.io/chess-radar-data/events.json)"
 
 EVENT_STATUSES = {"upcoming", "live", "completed", "tentative"}
-SOURCE_PRIORITY = {"lichess": 0, "fide": 1, "organiser": 2, "curated": 3}
+SOURCE_PRIORITY = {"lichess": 0, "fide": 1, "channel": 2, "organiser": 3, "streamer": 4, "curated": 5}
 MONTHS = {
     "jan": 1,
     "feb": 2,
@@ -407,6 +407,199 @@ def organiser_event_links():
     return events
 
 
+def channel_event_links():
+    channels = [
+        {
+            "id": "chesscom-live-events",
+            "title": "Chess.com Live Events",
+            "summary": "Chess.com live events, tournament pages, and broadcast links.",
+            "location": "Online",
+            "isOnline": True,
+            "categories": ["online", "broadcast"],
+            "channelIds": ["chesscom"],
+            "links": [
+                {"label": "Chess.com Events", "type": "official", "url": "https://www.chess.com/events"},
+                {"label": "Chess.com TV", "type": "watch", "url": "https://www.chess.com/tv"},
+                {"label": "Chess.com Twitch", "type": "watch", "url": "https://www.twitch.tv/chess"},
+                {"label": "Chess.com YouTube", "type": "watch", "url": "https://www.youtube.com/@chesscom"},
+            ],
+        },
+        {
+            "id": "lichess-broadcast-calendar",
+            "title": "Lichess Broadcast Calendar",
+            "summary": "Lichess broadcast index with live boards for tournaments around the world.",
+            "location": "Online",
+            "isOnline": True,
+            "categories": ["online", "broadcast"],
+            "channelIds": ["lichess"],
+            "links": [
+                {"label": "Lichess Broadcasts", "type": "official", "url": "https://lichess.org/broadcast"},
+                {"label": "Lichess TV", "type": "watch", "url": "https://lichess.org/tv"},
+                {"label": "Lichess YouTube", "type": "watch", "url": "https://www.youtube.com/@lichessdotorg"},
+            ],
+        },
+        {
+            "id": "fide-event-coverage",
+            "title": "FIDE Event Coverage",
+            "summary": "FIDE official event calendar, news, and video coverage.",
+            "location": "Worldwide",
+            "isOnline": False,
+            "categories": ["classical", "rapid", "blitz", "elite"],
+            "channelIds": ["fide"],
+            "links": [
+                {"label": "FIDE Calendar", "type": "official", "url": FIDE_CALENDAR_URL},
+                {"label": "FIDE News", "type": "official", "url": "https://www.fide.com/news"},
+                {"label": "FIDE YouTube", "type": "watch", "url": "https://www.youtube.com/@FIDE_chess"},
+            ],
+        },
+        {
+            "id": "saint-louis-chess-club-broadcasts",
+            "title": "Saint Louis Chess Club Broadcasts",
+            "summary": "Saint Louis Chess Club tournament broadcasts and event coverage.",
+            "location": "Saint Louis, USA",
+            "isOnline": False,
+            "categories": ["classical", "rapid", "blitz", "broadcast", "elite"],
+            "channelIds": ["saint-louis-chess-club"],
+            "links": [
+                {"label": "Saint Louis events", "type": "official", "url": "https://saintlouischessclub.org/events"},
+                {"label": "Saint Louis Twitch", "type": "watch", "url": "https://www.twitch.tv/stlchessclub"},
+                {"label": "Saint Louis YouTube", "type": "watch", "url": "https://www.youtube.com/@STLChessClub"},
+            ],
+        },
+        {
+            "id": "freestyle-chess-broadcasts",
+            "title": "Freestyle Chess Broadcasts",
+            "summary": "Freestyle Chess event pages and official video coverage.",
+            "location": "Worldwide",
+            "isOnline": False,
+            "categories": ["freestyle", "broadcast", "elite"],
+            "channelIds": ["freestyle-chess"],
+            "links": [
+                {"label": "Freestyle Chess", "type": "official", "url": "https://www.freestyle-chess.com/"},
+                {"label": "Freestyle Chess YouTube", "type": "watch", "url": "https://www.youtube.com/@FreestyleChess"},
+            ],
+        },
+        {
+            "id": "chessbase-india-coverage",
+            "title": "ChessBase India Coverage",
+            "summary": "ChessBase India tournament coverage, live streams, news, and videos.",
+            "location": "India",
+            "isOnline": False,
+            "categories": ["broadcast"],
+            "channelIds": ["chessbase-india"],
+            "links": [
+                {"label": "ChessBase India", "type": "official", "url": "https://www.chessbase.in/"},
+                {"label": "ChessBase India YouTube", "type": "watch", "url": "https://www.youtube.com/@ChessBaseIndiachannel"},
+            ],
+        },
+    ]
+    events = []
+    for channel in channels:
+        primary_url = channel["links"][0]["url"]
+        events.append(normalize_event({
+            "id": channel["id"],
+            "title": channel["title"],
+            "shortTitle": channel["title"],
+            "status": "tentative",
+            "startDate": "2026-01-01T00:00:00Z",
+            "endDate": "2026-12-31T23:59:59Z",
+            "timezone": "UTC",
+            "locationName": channel["location"],
+            "isOnline": channel["isOnline"],
+            "summary": channel["summary"],
+            "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
+            "categories": channel["categories"],
+            "channelIds": channel["channelIds"],
+            "primaryUrl": primary_url,
+            "links": channel["links"],
+            "source": {"name": "channel", "url": primary_url, "confidence": "low"},
+        }))
+    return events
+
+
+def streamer_watch_events():
+    streamers = [
+        {
+            "id": "hikaru-streams",
+            "title": "Hikaru Streams",
+            "shortTitle": "Hikaru",
+            "summary": "GM Hikaru Nakamura's chess stream and video channels.",
+            "channelIds": ["hikaru"],
+            "links": [
+                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/gmhikaru"},
+                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/gmhikaru/schedule"},
+                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@GMHikaru"},
+            ],
+        },
+        {
+            "id": "gothamchess-videos",
+            "title": "GothamChess Videos",
+            "shortTitle": "GothamChess",
+            "summary": "Levy Rozman's chess recaps, lessons, tournament coverage, and commentary.",
+            "channelIds": ["gothamchess"],
+            "links": [{"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@GothamChess"}],
+        },
+        {
+            "id": "botezlive-streams",
+            "title": "BotezLive Streams",
+            "shortTitle": "BotezLive",
+            "summary": "Alexandra and Andrea Botez chess streams and videos.",
+            "channelIds": ["botezlive"],
+            "links": [
+                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/botezlive"},
+                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/botezlive/schedule"},
+                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@BotezLive"},
+            ],
+        },
+        {
+            "id": "anna-cramling-streams",
+            "title": "Anna Cramling Streams",
+            "shortTitle": "Anna Cramling",
+            "summary": "Anna Cramling's chess streams, videos, and event coverage.",
+            "channelIds": ["anna-cramling"],
+            "links": [
+                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/annacramling"},
+                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/annacramling/schedule"},
+                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@AnnaCramling"},
+            ],
+        },
+        {
+            "id": "eric-rosen-streams",
+            "title": "Eric Rosen Streams",
+            "shortTitle": "Eric Rosen",
+            "summary": "IM Eric Rosen's educational chess streams and videos.",
+            "channelIds": ["eric-rosen"],
+            "links": [
+                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/imrosen"},
+                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/imrosen/schedule"},
+                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@EricRosen"},
+            ],
+        },
+    ]
+    events = []
+    for streamer in streamers:
+        primary_url = streamer["links"][0]["url"]
+        events.append(normalize_event({
+            "id": streamer["id"],
+            "title": streamer["title"],
+            "shortTitle": streamer["shortTitle"],
+            "status": "tentative",
+            "startDate": "2026-01-01T00:00:00Z",
+            "endDate": "2026-12-31T23:59:59Z",
+            "timezone": "UTC",
+            "locationName": "Online",
+            "isOnline": True,
+            "summary": streamer["summary"],
+            "description": "Curated streamer watch entry. Twitch schedule links are included where known, but no live status is claimed without an authenticated source.",
+            "categories": ["online", "broadcast"],
+            "channelIds": streamer["channelIds"],
+            "primaryUrl": primary_url,
+            "links": streamer["links"],
+            "source": {"name": "streamer", "url": primary_url, "confidence": "low"},
+        }))
+    return events
+
+
 def lichess_event_from_item(item):
     tour = item.get("tour") or item
     info = tour.get("info") or {}
@@ -595,6 +788,8 @@ def build_events():
     events = []
     events.extend(collect_source("curated", curated_major_events, source_results))
     events.extend(collect_source("organiser", organiser_event_links, source_results))
+    events.extend(collect_source("channel", channel_event_links, source_results))
+    events.extend(collect_source("streamer", streamer_watch_events, source_results))
     events.extend(collect_source("lichess", fetch_lichess_broadcasts, source_results))
     events.extend(collect_source("fide", fetch_fide_calendar, source_results))
     events = future_streamer_enrichment(events)

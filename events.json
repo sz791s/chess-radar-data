@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-21T20:16:35Z",
-  "eventCount": 369,
+  "generatedAt": "2026-05-21T20:35:39Z",
+  "eventCount": 380,
   "sources": [
     {
       "name": "curated",
@@ -11,6 +11,16 @@
       "name": "organiser",
       "status": "ok",
       "count": 9
+    },
+    {
+      "name": "channel",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "name": "streamer",
+      "status": "ok",
+      "count": 5
     },
     {
       "name": "lichess",
@@ -8208,6 +8218,94 @@
       }
     },
     {
+      "id": "anna-cramling-streams",
+      "title": "Anna Cramling Streams",
+      "shortTitle": "Anna Cramling",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Anna Cramling's chess streams, videos, and event coverage.",
+      "description": "Curated streamer watch entry. Twitch schedule links are included where known, but no live status is claimed without an authenticated source.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "anna-cramling"
+      ],
+      "primaryUrl": "https://www.twitch.tv/annacramling",
+      "links": [
+        {
+          "label": "Twitch channel",
+          "type": "watch",
+          "url": "https://www.twitch.tv/annacramling"
+        },
+        {
+          "label": "Twitch schedule",
+          "type": "schedule",
+          "url": "https://www.twitch.tv/annacramling/schedule"
+        },
+        {
+          "label": "YouTube channel",
+          "type": "watch",
+          "url": "https://www.youtube.com/@AnnaCramling"
+        }
+      ],
+      "source": {
+        "name": "streamer",
+        "url": "https://www.twitch.tv/annacramling",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "botezlive-streams",
+      "title": "BotezLive Streams",
+      "shortTitle": "BotezLive",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Alexandra and Andrea Botez chess streams and videos.",
+      "description": "Curated streamer watch entry. Twitch schedule links are included where known, but no live status is claimed without an authenticated source.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "botezlive"
+      ],
+      "primaryUrl": "https://www.twitch.tv/botezlive",
+      "links": [
+        {
+          "label": "Twitch channel",
+          "type": "watch",
+          "url": "https://www.twitch.tv/botezlive"
+        },
+        {
+          "label": "Twitch schedule",
+          "type": "schedule",
+          "url": "https://www.twitch.tv/botezlive/schedule"
+        },
+        {
+          "label": "YouTube channel",
+          "type": "watch",
+          "url": "https://www.youtube.com/@BotezLive"
+        }
+      ],
+      "source": {
+        "name": "streamer",
+        "url": "https://www.twitch.tv/botezlive",
+        "confidence": "low"
+      }
+    },
+    {
       "id": "chesscom-events",
       "title": "Chess.com Events",
       "shortTitle": "Chess.com Events",
@@ -8241,6 +8339,93 @@
       }
     },
     {
+      "id": "chesscom-live-events",
+      "title": "Chess.com Live Events",
+      "shortTitle": "Chess.com Live Events",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess.com live events, tournament pages, and broadcast links.",
+      "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events",
+      "links": [
+        {
+          "label": "Chess.com Events",
+          "type": "official",
+          "url": "https://www.chess.com/events"
+        },
+        {
+          "label": "Chess.com TV",
+          "type": "watch",
+          "url": "https://www.chess.com/tv"
+        },
+        {
+          "label": "Chess.com Twitch",
+          "type": "watch",
+          "url": "https://www.twitch.tv/chess"
+        },
+        {
+          "label": "Chess.com YouTube",
+          "type": "watch",
+          "url": "https://www.youtube.com/@chesscom"
+        }
+      ],
+      "source": {
+        "name": "channel",
+        "url": "https://www.chess.com/events",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "chessbase-india-coverage",
+      "title": "ChessBase India Coverage",
+      "shortTitle": "ChessBase India Coverage",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "India",
+      "isOnline": false,
+      "summary": "ChessBase India tournament coverage, live streams, news, and videos.",
+      "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
+      "categories": [
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chessbase-india"
+      ],
+      "primaryUrl": "https://www.chessbase.in/",
+      "links": [
+        {
+          "label": "ChessBase India",
+          "type": "official",
+          "url": "https://www.chessbase.in/"
+        },
+        {
+          "label": "ChessBase India YouTube",
+          "type": "watch",
+          "url": "https://www.youtube.com/@ChessBaseIndiachannel"
+        }
+      ],
+      "source": {
+        "name": "channel",
+        "url": "https://www.chessbase.in/",
+        "confidence": "low"
+      }
+    },
+    {
       "id": "chessbase-india-events",
       "title": "ChessBase India Event Coverage",
       "shortTitle": "ChessBase India Event Coverage",
@@ -8270,6 +8455,50 @@
       "source": {
         "name": "organiser",
         "url": "https://www.chessbase.in/",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "eric-rosen-streams",
+      "title": "Eric Rosen Streams",
+      "shortTitle": "Eric Rosen",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "IM Eric Rosen's educational chess streams and videos.",
+      "description": "Curated streamer watch entry. Twitch schedule links are included where known, but no live status is claimed without an authenticated source.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "eric-rosen"
+      ],
+      "primaryUrl": "https://www.twitch.tv/imrosen",
+      "links": [
+        {
+          "label": "Twitch channel",
+          "type": "watch",
+          "url": "https://www.twitch.tv/imrosen"
+        },
+        {
+          "label": "Twitch schedule",
+          "type": "schedule",
+          "url": "https://www.twitch.tv/imrosen/schedule"
+        },
+        {
+          "label": "YouTube channel",
+          "type": "watch",
+          "url": "https://www.youtube.com/@EricRosen"
+        }
+      ],
+      "source": {
+        "name": "streamer",
+        "url": "https://www.twitch.tv/imrosen",
         "confidence": "low"
       }
     },
@@ -8309,6 +8538,92 @@
       }
     },
     {
+      "id": "fide-event-coverage",
+      "title": "FIDE Event Coverage",
+      "shortTitle": "FIDE Event Coverage",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Worldwide",
+      "isOnline": false,
+      "summary": "FIDE official event calendar, news, and video coverage.",
+      "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
+      "categories": [
+        "classical",
+        "rapid",
+        "blitz",
+        "elite"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php",
+      "links": [
+        {
+          "label": "FIDE Calendar",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "FIDE News",
+          "type": "official",
+          "url": "https://www.fide.com/news"
+        },
+        {
+          "label": "FIDE YouTube",
+          "type": "watch",
+          "url": "https://www.youtube.com/@FIDE_chess"
+        }
+      ],
+      "source": {
+        "name": "channel",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "freestyle-chess-broadcasts",
+      "title": "Freestyle Chess Broadcasts",
+      "shortTitle": "Freestyle Chess Broadcasts",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Worldwide",
+      "isOnline": false,
+      "summary": "Freestyle Chess event pages and official video coverage.",
+      "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
+      "categories": [
+        "freestyle",
+        "broadcast",
+        "elite"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "freestyle-chess"
+      ],
+      "primaryUrl": "https://www.freestyle-chess.com/",
+      "links": [
+        {
+          "label": "Freestyle Chess",
+          "type": "official",
+          "url": "https://www.freestyle-chess.com/"
+        },
+        {
+          "label": "Freestyle Chess YouTube",
+          "type": "watch",
+          "url": "https://www.youtube.com/@FreestyleChess"
+        }
+      ],
+      "source": {
+        "name": "channel",
+        "url": "https://www.freestyle-chess.com/",
+        "confidence": "low"
+      }
+    },
+    {
       "id": "freestyle-chess-events",
       "title": "Freestyle Chess Events",
       "shortTitle": "Freestyle Chess Events",
@@ -8339,6 +8654,40 @@
       "source": {
         "name": "organiser",
         "url": "https://www.freestyle-chess.com/",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "gothamchess-videos",
+      "title": "GothamChess Videos",
+      "shortTitle": "GothamChess",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Levy Rozman's chess recaps, lessons, tournament coverage, and commentary.",
+      "description": "Curated streamer watch entry. Twitch schedule links are included where known, but no live status is claimed without an authenticated source.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "gothamchess"
+      ],
+      "primaryUrl": "https://www.youtube.com/@GothamChess",
+      "links": [
+        {
+          "label": "YouTube channel",
+          "type": "watch",
+          "url": "https://www.youtube.com/@GothamChess"
+        }
+      ],
+      "source": {
+        "name": "streamer",
+        "url": "https://www.youtube.com/@GothamChess",
         "confidence": "low"
       }
     },
@@ -8375,6 +8724,94 @@
       "source": {
         "name": "organiser",
         "url": "https://grandchesstour.org/",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "hikaru-streams",
+      "title": "Hikaru Streams",
+      "shortTitle": "Hikaru",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "GM Hikaru Nakamura's chess stream and video channels.",
+      "description": "Curated streamer watch entry. Twitch schedule links are included where known, but no live status is claimed without an authenticated source.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "hikaru"
+      ],
+      "primaryUrl": "https://www.twitch.tv/gmhikaru",
+      "links": [
+        {
+          "label": "Twitch channel",
+          "type": "watch",
+          "url": "https://www.twitch.tv/gmhikaru"
+        },
+        {
+          "label": "Twitch schedule",
+          "type": "schedule",
+          "url": "https://www.twitch.tv/gmhikaru/schedule"
+        },
+        {
+          "label": "YouTube channel",
+          "type": "watch",
+          "url": "https://www.youtube.com/@GMHikaru"
+        }
+      ],
+      "source": {
+        "name": "streamer",
+        "url": "https://www.twitch.tv/gmhikaru",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "lichess-broadcast-calendar",
+      "title": "Lichess Broadcast Calendar",
+      "shortTitle": "Lichess Broadcast Calendar",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Lichess broadcast index with live boards for tournaments around the world.",
+      "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast",
+      "links": [
+        {
+          "label": "Lichess Broadcasts",
+          "type": "official",
+          "url": "https://lichess.org/broadcast"
+        },
+        {
+          "label": "Lichess TV",
+          "type": "watch",
+          "url": "https://lichess.org/tv"
+        },
+        {
+          "label": "Lichess YouTube",
+          "type": "watch",
+          "url": "https://www.youtube.com/@lichessdotorg"
+        }
+      ],
+      "source": {
+        "name": "channel",
+        "url": "https://lichess.org/broadcast",
         "confidence": "low"
       }
     },
@@ -8443,6 +8880,53 @@
       "source": {
         "name": "organiser",
         "url": "https://norwaychess.no/en/",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "saint-louis-chess-club-broadcasts",
+      "title": "Saint Louis Chess Club Broadcasts",
+      "shortTitle": "Saint Louis Chess Club Broadcasts",
+      "status": "tentative",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2026-12-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Saint Louis, USA",
+      "isOnline": false,
+      "summary": "Saint Louis Chess Club tournament broadcasts and event coverage.",
+      "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
+      "categories": [
+        "classical",
+        "rapid",
+        "blitz",
+        "broadcast",
+        "elite"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "saint-louis-chess-club"
+      ],
+      "primaryUrl": "https://saintlouischessclub.org/events",
+      "links": [
+        {
+          "label": "Saint Louis events",
+          "type": "official",
+          "url": "https://saintlouischessclub.org/events"
+        },
+        {
+          "label": "Saint Louis Twitch",
+          "type": "watch",
+          "url": "https://www.twitch.tv/stlchessclub"
+        },
+        {
+          "label": "Saint Louis YouTube",
+          "type": "watch",
+          "url": "https://www.youtube.com/@STLChessClub"
+        }
+      ],
+      "source": {
+        "name": "channel",
+        "url": "https://saintlouischessclub.org/events",
         "confidence": "low"
       }
     },
