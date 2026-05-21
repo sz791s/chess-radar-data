@@ -4,9 +4,9 @@ from urllib.request import urlopen
 
 events = []
 
-# -----------------------------
+# -----------------------------------
 # Titled Tuesday starter event
-# -----------------------------
+# -----------------------------------
 
 events.append({
     "id": "titled-tuesday",
@@ -38,23 +38,27 @@ events.append({
     ]
 })
 
-# -----------------------------
+# -----------------------------------
 # Lichess broadcasts
-# -----------------------------
+# -----------------------------------
 
 try:
     lichess_url = "https://lichess.org/api/broadcast"
-    
+
     with urlopen(lichess_url) as response:
-    raw = response.read().decode()
+        raw = response.read().decode()
 
-# Lichess sometimes returns NDJSON-like output
-lines = raw.strip().splitlines()
+    # Lichess returns NDJSON-like data
+    lines = raw.strip().splitlines()
 
-for line in lines[:10]:
-    item = json.loads(line)
+    for line in lines[:10]:
+        item = json.loads(line)
+
+        slug = item.get("slug", "")
+        broadcast_id = item.get("id", "")
+
         event = {
-            "id": f"lichess-{item.get('id', '')}",
+            "id": f"lichess-{broadcast_id}",
             "title": item.get("name", "Lichess Broadcast"),
             "shortTitle": item.get("name", "Broadcast"),
             "status": "live",
@@ -68,12 +72,12 @@ for line in lines[:10]:
             "categories": ["broadcast"],
             "playerIds": [],
             "channelIds": ["lichess"],
-            "primaryUrl": f"https://lichess.org/broadcast/{item.get('slug', '')}/{item.get('id', '')}",
+            "primaryUrl": f"https://lichess.org/broadcast/{slug}/{broadcast_id}",
             "links": [
                 {
                     "label": "Watch on Lichess",
                     "type": "watch",
-                    "url": f"https://lichess.org/broadcast/{item.get('slug', '')}/{item.get('id', '')}"
+                    "url": f"https://lichess.org/broadcast/{slug}/{broadcast_id}"
                 }
             ]
         }
@@ -83,9 +87,9 @@ for line in lines[:10]:
 except Exception as e:
     print("Could not fetch Lichess broadcasts:", e)
 
-# -----------------------------
+# -----------------------------------
 # Final output
-# -----------------------------
+# -----------------------------------
 
 output = {
     "generatedAt": datetime.now(timezone.utc).isoformat(),
