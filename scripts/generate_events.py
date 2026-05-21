@@ -44,6 +44,20 @@ ALLOWED_CATEGORIES = {
     "junior",
     "open",
     "elite",
+    "otb",
+}
+
+KNOWN_PLAYER_IDS = {
+    "anna cramling": "anna-cramling",
+    "eric rosen": "eric-rosen",
+    "fabiano caruana": "fabiano-caruana",
+    "gukesh": "gukesh-dommaraju",
+    "gukesh dommaraju": "gukesh-dommaraju",
+    "hikaru": "hikaru-nakamura",
+    "hikaru nakamura": "hikaru-nakamura",
+    "levy rozman": "gothamchess",
+    "magnus": "magnus-carlsen",
+    "magnus carlsen": "magnus-carlsen",
 }
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -153,6 +167,11 @@ def normalize_event(event):
         status = compute_status(start_date, end_date, source.get("confidence") == "low")
     links = normalize_links(event.get("links"))
     primary_url = event.get("primaryUrl") or (links[0]["url"] if links else "")
+    is_online = bool(event.get("isOnline"))
+    categories = [item for item in compact_list(event.get("categories")) if item in ALLOWED_CATEGORIES]
+    categories.append("online" if is_online else "otb")
+    categories = compact_list(categories)
+    player_ids = compact_list(event.get("playerIds") or infer_player_ids_from_text(title, event.get("summary"), event.get("description")))
     return {
         "id": slugify(event.get("id") or title),
         "title": title,
@@ -162,11 +181,11 @@ def normalize_event(event):
         "endDate": end_date,
         "timezone": event.get("timezone") or "UTC",
         "locationName": clean_text(event.get("locationName")) or ("Online" if event.get("isOnline") else "TBD"),
-        "isOnline": bool(event.get("isOnline")),
+        "isOnline": is_online,
         "summary": clean_text(event.get("summary")) or "Chess event.",
         "description": clean_text(event.get("description")) or clean_text(event.get("summary")) or "Chess event.",
-        "categories": [item for item in compact_list(event.get("categories")) if item in ALLOWED_CATEGORIES],
-        "playerIds": compact_list(event.get("playerIds")),
+        "categories": categories,
+        "playerIds": player_ids,
         "channelIds": compact_list(event.get("channelIds")),
         "primaryUrl": primary_url,
         "links": links,
@@ -310,6 +329,15 @@ def infer_categories_from_text(*parts):
     if "candidates" in text or "world cup" in text or "grand chess tour" in text or "elite" in text:
         categories.append("elite")
     return compact_list(categories)
+
+
+def infer_player_ids_from_text(*parts):
+    text = " ".join(str(part or "") for part in parts).lower()
+    player_ids = []
+    for name, player_id in KNOWN_PLAYER_IDS.items():
+        if re.search(rf"\b{re.escape(name)}\b", text):
+            player_ids.append(player_id)
+    return compact_list(player_ids)
 
 
 def curated_major_events():

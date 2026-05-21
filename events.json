@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T02:15:25Z",
+  "generatedAt": "2026-05-22T07:02:11Z",
   "eventCount": 381,
   "sources": [
     {
@@ -206,7 +206,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Superbet Chess Classic Romania.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -243,7 +245,8 @@
       "summary": "FIDE calendar event: African Youth Chess Championship 2026.",
       "description": "Time control: other",
       "categories": [
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -282,7 +285,8 @@
       "description": "10-player round-robin",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -325,7 +329,8 @@
       "summary": "FIDE calendar event: Commonwealth Chess Championship 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -363,7 +368,8 @@
       "summary": "FIDE calendar event: RADNICKICHESS IM and FM rating tournaments.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -403,7 +409,8 @@
       "categories": [
         "classical",
         "broadcast",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -443,7 +450,8 @@
       "categories": [
         "classical",
         "broadcast",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -481,7 +489,8 @@
       "summary": "FIDE calendar event: GM & IM tournaments \"Hotel Stockholm North by First hotels young talents\".",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -520,7 +529,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -546,98 +556,6 @@
       }
     },
     {
-      "id": "lichess-8ffdjm9z",
-      "title": "12th Serbian Cup \"Svetozar Gligorić\" | Open",
-      "shortTitle": "12th Serbian Cup \"Svetozar Gligorić\" | Open",
-      "status": "live",
-      "startDate": "2026-05-21T13:00:00Z",
-      "endDate": "2026-05-24T08:00:00Z",
-      "timezone": "Europe/Sarajevo",
-      "locationName": "Paraćin, Serbia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5-round Swiss for teams",
-      "categories": [
-        "classical",
-        "broadcast",
-        "team",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/12th-serbian-cup-svetozar-gligoric--open/8FFDJM9z",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/12th-serbian-cup-svetozar-gligoric--open/8FFDJM9z"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://serbiachess.org/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1400201.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "lichess-zardqg9w",
-      "title": "12th Serbian Cup \"Svetozar Gligorić\" | Women",
-      "shortTitle": "12th Serbian Cup \"Svetozar Gligorić\" | Women",
-      "status": "live",
-      "startDate": "2026-05-21T13:00:00Z",
-      "endDate": "2026-05-24T08:00:00Z",
-      "timezone": "Europe/Sarajevo",
-      "locationName": "Paraćin, Serbia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5-round Swiss for teams",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/12th-serbian-cup-svetozar-gligoric--women/zARdQG9W",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/12th-serbian-cup-svetozar-gligoric--women/zARdQG9W"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://serbiachess.org/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1400201.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      }
-    },
-    {
       "id": "lichess-jje2jykw",
       "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12",
       "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12",
@@ -651,7 +569,8 @@
       "description": "6-round Swiss",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -695,7 +614,8 @@
       "description": "6-round Swiss",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -739,7 +659,8 @@
       "description": "6-round Swiss",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -783,7 +704,8 @@
       "description": "6-round Swiss",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -827,7 +749,8 @@
       "description": "6-round Swiss",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -871,7 +794,8 @@
       "description": "6-round Swiss",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -915,7 +839,8 @@
       "description": "suizo 7 rondas",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -954,7 +879,8 @@
       "description": "suizo 7 rondas",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -993,7 +919,8 @@
       "description": "suizo 7 rondas",
       "categories": [
         "classical",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1019,45 +946,6 @@
       }
     },
     {
-      "id": "lichess-ndvxnzzy",
-      "title": "Campeonato Nacional Colombia 2026 | Sub 16 Femenino",
-      "shortTitle": "Campeonato Nacional Colombia 2026 | Sub 16 Femenino",
-      "status": "live",
-      "startDate": "2026-05-21T23:30:00Z",
-      "endDate": "2026-05-24T19:00:00Z",
-      "timezone": "America/Bogota",
-      "locationName": "Manizales, Colombia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "suizo 7 rondas",
-      "categories": [
-        "classical",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/campeonato-nacional-colombia-2026--sub-16-femenino/nDVxNzZy",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/campeonato-nacional-colombia-2026--sub-16-femenino/nDVxNzZy"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1414079.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      }
-    },
-    {
       "id": "fide-18th-salzkammergut-schachopen-22-25-may",
       "title": "18th Salzkammergut Schachopen",
       "shortTitle": "18th Salzkammergut Schachopen",
@@ -1071,7 +959,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1109,7 +998,8 @@
       "summary": "FIDE calendar event: 7th Coop Saaremaa Chess Festival - Blitz.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1148,7 +1038,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1187,7 +1078,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1226,7 +1118,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1252,6 +1145,47 @@
       }
     },
     {
+      "id": "lichess-kzhf1gfv",
+      "title": "35th Annual Chicago Open",
+      "shortTitle": "35th Annual Chicago Open",
+      "status": "live",
+      "startDate": "2026-05-22T00:15:00Z",
+      "endDate": "2026-05-25T21:15:00Z",
+      "timezone": "America/Chicago",
+      "locationName": "Wheeling, Illinois",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9 - round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/35th-annual-chicago-open/KZhF1GFV",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/35th-annual-chicago-open/KZhF1GFV"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chesstour.com/chio26.htm"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      }
+    },
+    {
       "id": "fide-15th-salento-international-chess-open-2026-23-29-may",
       "title": "15th Salento International Chess Open 2026",
       "shortTitle": "15th Salento International Chess Open 2026",
@@ -1265,7 +1199,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1304,7 +1239,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1342,7 +1278,8 @@
       "summary": "FIDE calendar event: 17TH KIIT INTERNATIONAL CHESS FESTIVAL 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1380,7 +1317,8 @@
       "summary": "FIDE calendar event: 45th Zalakaros Chess Festival – Bárczay László Memorial.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1418,7 +1356,8 @@
       "summary": "FIDE calendar event: 7th Coop Saaremaa Chess Festival - Rapid.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1456,7 +1395,8 @@
       "summary": "FIDE calendar event: Bad Ischler FIDE-rated blitz event.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1494,7 +1434,8 @@
       "summary": "FIDE calendar event: IM & FM Round Robin \"Radnicki\" Kovin 23-29 May 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1531,7 +1472,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Silves International Chess Tournament 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -1556,36 +1499,159 @@
       }
     },
     {
-      "id": "lichess-kib58bou",
-      "title": "IV Torneo Ajedrez Villa de Noblejas | GM \"Pepe\" Cuenca Jiménez Exhibition Match",
-      "shortTitle": "IV Torneo Ajedrez Villa de Noblejas | GM \"Pepe\" Cuenca Jiménez Exhibition Match",
+      "id": "lichess-jvvopsk3",
+      "title": "Gambitul Calului Rapid Ediția a 5a",
+      "shortTitle": "Gambitul Calului Rapid Ediția a 5a",
       "status": "upcoming",
-      "startDate": "2026-05-23T15:00:00Z",
-      "endDate": "2026-05-23T15:00:00Z",
-      "timezone": "Europe/Madrid",
-      "locationName": "Noblejas, Toledo, Spain",
+      "startDate": "2026-05-23T06:30:00Z",
+      "endDate": "2026-05-23T06:30:00Z",
+      "timezone": "Europe/Bucharest",
+      "locationName": "str. Regele Ferdinand nr 37, et. 2, ap. 12",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "12 Games Exhibition Match",
+      "description": "7-round Swiss",
       "categories": [
-        "blitz",
-        "broadcast"
+        "rapid",
+        "classical",
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/iv-torneo-ajedrez-villa-de-noblejas--gm-pepe-cuenca-jimenez-exhibition-match/KiB58Bou",
+      "primaryUrl": "https://lichess.org/broadcast/gambitul-calului-rapid-editia-a-5a/jvvoPsk3",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/iv-torneo-ajedrez-villa-de-noblejas--gm-pepe-cuenca-jimenez-exhibition-match/KiB58Bou"
+          "url": "https://lichess.org/broadcast/gambitul-calului-rapid-editia-a-5a/jvvoPsk3"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://info64.org/iv-torneo-ajedrez-villa-de-noblejas"
+          "url": "https://cal-cool.ro/tournaments"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "lichess-3wtrktdg",
+      "title": "VII Coop Saaremaa Chess Festival Rapid Tournament",
+      "shortTitle": "VII Coop Saaremaa Chess Festival Rapid Tournament",
+      "status": "upcoming",
+      "startDate": "2026-05-23T08:15:00Z",
+      "endDate": "2026-05-24T07:45:00Z",
+      "timezone": "Europe/Tallinn",
+      "locationName": "Kuressaare, Estonia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "11-round Swiss",
+      "categories": [
+        "rapid",
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/vii-coop-saaremaa-chess-festival-rapid-tournament/3WtrkTDg",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/vii-coop-saaremaa-chess-festival-rapid-tournament/3WtrkTDg"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://maleliit.ee/et/uudised/15-eesti/7545-vii-coop-saaremaa-malefestival-2026"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1419865.aspx?lan=1&art=0&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "lichess-uldrgtqo",
+      "title": "India Rising 2026 | Indian Qualifier",
+      "shortTitle": "India Rising 2026 | Indian Qualifier",
+      "status": "upcoming",
+      "startDate": "2026-05-23T11:00:00Z",
+      "endDate": "2026-05-23T11:00:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/india-rising-2026--indian-qualifier/ulDrGtQo",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/india-rising-2026--indian-qualifier/ulDrGtQo"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://liquipedia.net/chess/India_Rising/2026"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "lichess-2os2ixoy",
+      "title": "India Rising 2026 | Titled Qualifier",
+      "shortTitle": "India Rising 2026 | Titled Qualifier",
+      "status": "upcoming",
+      "startDate": "2026-05-23T15:00:00Z",
+      "endDate": "2026-05-23T15:00:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/india-rising-2026--titled-qualifier/2OS2IXOY",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/india-rising-2026--titled-qualifier/2OS2IXOY"
         }
       ],
       "source": {
@@ -1608,7 +1674,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "women"
+        "women",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1646,6 +1713,7 @@
       "summary": "FIDE calendar event: Norway Chess 2026.",
       "description": "Time control: other",
       "categories": [
+        "otb",
         "classical",
         "elite"
       ],
@@ -1691,7 +1759,8 @@
       "summary": "FIDE calendar event: Norway Chess Women 2026.",
       "description": "Time control: other",
       "categories": [
-        "women"
+        "women",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1731,7 +1800,8 @@
       "categories": [
         "classical",
         "broadcast",
-        "women"
+        "women",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1775,7 +1845,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1813,7 +1884,8 @@
       "summary": "FIDE calendar event: \"Stepan Avagyan Memorial\" International Round Robin Tournament.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1851,7 +1923,8 @@
       "summary": "FIDE calendar event: Asian Individual Chess Championship 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1890,7 +1963,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "women"
+        "women",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1929,7 +2003,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1967,7 +2042,8 @@
       "summary": "FIDE calendar event: Ghent Congress.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2005,7 +2081,8 @@
       "summary": "FIDE calendar event: VI IRT Internacional Ajedrez en Alicante..",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2042,7 +2119,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: 5° torneo internazionale giovanile U20 ''Città di Vigevano''.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -2079,7 +2158,8 @@
       "summary": "FIDE calendar event: IM & FM Round Robin \"Radnicki\" Kovin 30 May-5 June 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2117,7 +2197,8 @@
       "summary": "FIDE calendar event: VIII Torneo Relámpago Internacional Dama Negra.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2155,7 +2236,8 @@
       "summary": "FIDE calendar event: «4th Far West Thessaloniki Chess Festival 2026» - Memorial GM Marjanovic Slavoljub.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2193,7 +2275,8 @@
       "summary": "FIDE calendar event: European Senior Individual Chess Championship 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2231,7 +2314,8 @@
       "summary": "FIDE calendar event: IPCA World Chess Championship 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2270,7 +2354,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2308,7 +2393,8 @@
       "summary": "FIDE calendar event: XXXVI INTERNATIONAL CHESS CHAMPIONSHIP of MALOPOLSKA.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2346,7 +2432,8 @@
       "summary": "FIDE calendar event: PSY 100 years jubilee tournament - blitz.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2384,7 +2471,8 @@
       "summary": "FIDE calendar event: First Saturday GM, IM, U2250.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2422,7 +2510,8 @@
       "summary": "FIDE calendar event: PSY 100 years jubilee tournament - rapid.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2461,7 +2550,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2499,7 +2589,8 @@
       "summary": "FIDE calendar event: 3rd Uzchess Cup, Masters.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2538,7 +2629,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2576,7 +2668,8 @@
       "summary": "FIDE calendar event: 3rd Uzchess Cup, Challengers.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2614,7 +2707,8 @@
       "summary": "FIDE calendar event: 3rd Uzchess Cup, Futures.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2652,7 +2746,8 @@
       "summary": "FIDE calendar event: DAVOS CHESS FESTIVAL.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2691,7 +2786,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2729,7 +2825,8 @@
       "summary": "FIDE calendar event: XXII CHESS FESTIVAL BALTIJA CUP 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2767,7 +2864,8 @@
       "summary": "FIDE calendar event: 11th Templar Tournament.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2806,7 +2904,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2845,7 +2944,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2884,7 +2984,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2923,7 +3024,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -2960,7 +3062,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: 5th International Chess Festival Cēsis.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -2997,7 +3101,8 @@
       "summary": "FIDE calendar event: BELGRADE GM SWISS MIX TOURNAMENT.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3036,7 +3141,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3075,7 +3181,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3114,7 +3221,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3153,7 +3261,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3190,7 +3299,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: African Individual Chess Championship 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -3228,7 +3339,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3267,7 +3379,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3306,7 +3419,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3345,7 +3459,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "freestyle"
+        "freestyle",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3384,7 +3499,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3423,7 +3539,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3461,7 +3578,8 @@
       "summary": "FIDE calendar event: International Championship of Novi Sad U2400.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3500,7 +3618,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3539,7 +3658,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3577,7 +3697,8 @@
       "summary": "FIDE calendar event: 6th LLINARS INTERNATIONAL CHESS OPEN 2026.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3616,7 +3737,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3655,7 +3777,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3693,7 +3816,8 @@
       "summary": "FIDE calendar event: African Individual Blitz Chess Championship 2026.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3731,7 +3855,8 @@
       "summary": "FIDE calendar event: African Individual Rapid Chess Championship 2026.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3770,7 +3895,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3809,7 +3935,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3848,7 +3975,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3887,7 +4015,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3925,7 +4054,8 @@
       "summary": "FIDE calendar event: O pohar primatora Rajeckych Teplic.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -3964,7 +4094,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4002,7 +4133,8 @@
       "summary": "FIDE calendar event: SuperUnited Blitz Croatia.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4040,7 +4172,8 @@
       "summary": "FIDE calendar event: SuperUnited Rapid Croatia.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4078,7 +4211,8 @@
       "summary": "FIDE calendar event: Central Asian Youth Chess Championship 2026.",
       "description": "Time control: other",
       "categories": [
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4116,7 +4250,8 @@
       "summary": "FIDE calendar event: Ceske Budejovice Chess Festival 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4154,7 +4289,8 @@
       "summary": "FIDE calendar event: 10th International Chess Festival “Batumi Municipality Cup – 2026”.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4191,7 +4327,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: ACC Elective General Assembly 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -4228,7 +4366,8 @@
       "summary": "FIDE calendar event: San Bernardino SENIOR Over 50.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4267,7 +4406,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4305,7 +4445,8 @@
       "summary": "FIDE calendar event: 2026 Naroditsky Memorial - Rapid.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4344,7 +4485,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4383,7 +4525,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4422,7 +4565,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4460,7 +4604,8 @@
       "summary": "FIDE calendar event: TORNEO MAGISTRAL DE AJEDREZ CIUDAD DE LEON.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4498,7 +4643,8 @@
       "summary": "FIDE calendar event: XXXIX TORNEO MAGISTRAL DE AJEDREZ CIUDAD DE LEON..",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4536,7 +4682,8 @@
       "summary": "FIDE calendar event: 2026 Naroditsky Memorial - Blitz.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4574,7 +4721,8 @@
       "summary": "FIDE calendar event: AlphaChess Summer Classical.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4612,7 +4760,8 @@
       "summary": "FIDE calendar event: FIRST SATURDAY - GM-IM-U2250 section.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4652,7 +4801,8 @@
       "categories": [
         "classical",
         "women",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4691,7 +4841,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4730,7 +4881,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4769,7 +4921,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4807,7 +4960,8 @@
       "summary": "FIDE calendar event: 17th Chess Festival Ischia the Green Island.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4846,7 +5000,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4884,7 +5039,8 @@
       "summary": "FIDE calendar event: Bratislava Chess Masters.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4923,7 +5079,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -4962,7 +5119,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5001,7 +5159,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5040,7 +5199,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5079,7 +5239,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5118,7 +5279,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5156,7 +5318,8 @@
       "summary": "FIDE calendar event: 19th Poti International Chess Festival - Nana Aleksandria Cup.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5195,7 +5358,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5233,7 +5397,8 @@
       "summary": "FIDE calendar event: 49th Ikaros International Chess Tournament 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5270,7 +5435,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: 59th Biel International Chess Festival - Grand Masters Triathlon (GMT).",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -5307,7 +5474,8 @@
       "summary": "FIDE calendar event: 59th Biel International Chess Festival - Swiss Rapid Fischer Random Championship (960).",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5345,7 +5513,8 @@
       "summary": "FIDE calendar event: Swiss Individual Championship.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5383,7 +5552,8 @@
       "summary": "FIDE calendar event: 59th Biel International Chess Festival - Rapid Tournament (RAP).",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5421,7 +5591,8 @@
       "summary": "FIDE calendar event: Vezerkepzo Summer 2026 GM.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5459,7 +5630,8 @@
       "summary": "FIDE calendar event: Vezerkepzo Summer 2026 IM.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5497,7 +5669,8 @@
       "summary": "FIDE calendar event: Vezerkepzo Summer 2026 U2300.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5535,7 +5708,8 @@
       "summary": "FIDE calendar event: 59th Biel International Chess Festival - Free Style Chess Tournament (FSC).",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5574,7 +5748,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5613,7 +5788,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5652,7 +5828,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5691,7 +5868,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5729,7 +5907,8 @@
       "summary": "FIDE calendar event: Rudaga – Kaissa 2026 Summer.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5767,7 +5946,8 @@
       "summary": "FIDE calendar event: XXVI Obert Internacional Sant Martí 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5806,7 +5986,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5845,7 +6026,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5884,7 +6066,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5921,7 +6104,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Quantbox Chennai Grand Masters 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -5959,7 +6144,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -5997,7 +6183,8 @@
       "summary": "FIDE calendar event: 19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6035,7 +6222,8 @@
       "summary": "FIDE calendar event: 3rd Dole Open 2026.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6074,7 +6262,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6112,7 +6301,8 @@
       "summary": "FIDE calendar event: 47th International Chess Tournament of Ghent.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6151,7 +6341,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6189,7 +6380,8 @@
       "summary": "FIDE calendar event: 59th Biel International Chess Festival - Blitz Tournament (BTZ).",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6227,7 +6419,8 @@
       "summary": "FIDE calendar event: Andorra Chess Gran Prix.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6265,7 +6458,8 @@
       "summary": "FIDE calendar event: Farago Ivan Memorial 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6303,7 +6497,8 @@
       "summary": "FIDE calendar event: Farago Ivan Memorial 2026 GM.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6341,7 +6536,8 @@
       "summary": "FIDE calendar event: Vezerkepzo July 2026 IM.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6379,7 +6575,8 @@
       "summary": "FIDE calendar event: Vezerkepzo July 2026 U2300.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6417,7 +6614,8 @@
       "summary": "FIDE calendar event: 2026 CTCA International Tournament Chess Open.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6455,7 +6653,8 @@
       "summary": "FIDE calendar event: 59th Biel International Chess Festival - Week's Tournaments (WTO).",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6493,7 +6692,8 @@
       "summary": "FIDE calendar event: III Torneo Internacional de Ajedrez Jose Celso Barbosa.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6532,7 +6732,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6570,7 +6771,8 @@
       "summary": "FIDE calendar event: 30.Battle of Senta.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6608,7 +6810,8 @@
       "summary": "FIDE calendar event: 30.Battle of Senta B.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6646,7 +6849,8 @@
       "summary": "FIDE calendar event: RADNICKICHESS GM,IM and FM rating tournaments.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6689,7 +6893,8 @@
       "summary": "FIDE calendar event: RUDAR LIII - IM ROUND ROBIN.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6727,7 +6932,8 @@
       "summary": "FIDE calendar event: RUDAR XXVIIIA - FM ROUND ROBIN.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6765,7 +6971,8 @@
       "summary": "FIDE calendar event: RUDAR XXXIV - GM ROUND ROBIN.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6804,7 +7011,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6842,7 +7050,8 @@
       "summary": "FIDE calendar event: XIV Torneo Internacional Cidade de Pontevedra.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6880,7 +7089,8 @@
       "summary": "FIDE calendar event: Brasov Grand Prix Classic.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6920,7 +7130,8 @@
       "categories": [
         "classical",
         "team",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6958,7 +7169,8 @@
       "summary": "FIDE calendar event: 30th International Chess Tournament of Créon.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -6997,7 +7209,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7035,7 +7248,8 @@
       "summary": "FIDE calendar event: 7th Paul Keres Memorial Festival.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7073,7 +7287,8 @@
       "summary": "FIDE calendar event: Asian Blitz Chess Championship 2026.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7111,7 +7326,8 @@
       "summary": "FIDE calendar event: Asian Rapid Chess Championship 2026.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7150,7 +7366,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7188,7 +7405,8 @@
       "summary": "FIDE calendar event: SixDays July 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7226,7 +7444,8 @@
       "summary": "FIDE calendar event: XIII Torneo Verano Alicante.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7265,7 +7484,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7303,7 +7523,8 @@
       "summary": "FIDE calendar event: 29th PANNONIA CUP (Group A and B).",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7341,7 +7562,8 @@
       "summary": "FIDE calendar event: GCT Finals.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7379,7 +7601,8 @@
       "summary": "FIDE calendar event: Saint Louis Blitz.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7417,7 +7640,8 @@
       "summary": "FIDE calendar event: Saint Louis Rapid.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7455,7 +7679,8 @@
       "summary": "FIDE calendar event: VI Torneo Internacional FIA 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7494,7 +7719,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7532,7 +7758,8 @@
       "summary": "FIDE calendar event: RUDAR LiV - IM ROUND ROBIN.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7570,7 +7797,8 @@
       "summary": "FIDE calendar event: RUDAR XXXIXA - FM ROUND ROBIN.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7608,7 +7836,8 @@
       "summary": "FIDE calendar event: RUDAR XXXV - GM ROUND ROBIN.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7647,7 +7876,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7684,7 +7914,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: 53rd International Dortmund Chess Days - Sparkassen Chess Trophy.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -7721,7 +7953,8 @@
       "summary": "FIDE calendar event: Adolf Anderssen Memorial.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7759,7 +7992,8 @@
       "summary": "FIDE calendar event: Alba Grand Prix.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7797,7 +8031,8 @@
       "summary": "FIDE calendar event: FIDE World Amateur Blitz Chess Championship 2026.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7835,7 +8070,8 @@
       "summary": "FIDE calendar event: FIDE World Amateur Rapid Chess Championship 2026.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7873,7 +8109,8 @@
       "summary": "FIDE calendar event: Scheldemond Chess Tournament.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7912,7 +8149,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7950,7 +8188,8 @@
       "summary": "FIDE calendar event: 50 OBERT INTERNACIONAL ESCACS-CHESS CIUTAT DE BADALONA.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -7989,7 +8228,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8027,7 +8267,8 @@
       "summary": "FIDE calendar event: 19th Arad Grand Prix Classic.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8065,7 +8306,8 @@
       "summary": "FIDE calendar event: Bratislava Chess Summer.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8103,7 +8345,8 @@
       "summary": "FIDE calendar event: FIDE World University Team Chess Championship 2026 - OTB Finals.",
       "description": "Time control: other",
       "categories": [
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8141,7 +8384,8 @@
       "summary": "FIDE calendar event: XXXV Int. Chess Festival La Pobla de Lillet.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8178,7 +8422,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Asian Nations Cup 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -8216,7 +8462,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8254,7 +8501,8 @@
       "summary": "FIDE calendar event: 24th ASEAN+ Age Group Chess Championships 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8293,7 +8541,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8334,7 +8583,9 @@
         "online",
         "broadcast"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "anna-cramling"
+      ],
       "channelIds": [
         "anna-cramling"
       ],
@@ -8501,7 +8752,8 @@
       "summary": "ChessBase India tournament coverage, live streams, news, and videos.",
       "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
       "categories": [
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8539,7 +8791,8 @@
       "summary": "ChessBase India tournament coverage and videos.",
       "description": "Curated organiser source to help Chess Radar surface official chess-following opportunities. Exact individual event dates should come from stronger source entries.",
       "categories": [
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8575,7 +8828,9 @@
         "online",
         "broadcast"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "eric-rosen"
+      ],
       "channelIds": [
         "eric-rosen"
       ],
@@ -8618,7 +8873,8 @@
       "categories": [
         "classical",
         "rapid",
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8654,7 +8910,8 @@
         "classical",
         "rapid",
         "blitz",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8699,7 +8956,8 @@
       "categories": [
         "freestyle",
         "broadcast",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8738,7 +8996,8 @@
       "description": "Curated organiser source to help Chess Radar surface official chess-following opportunities. Exact individual event dates should come from stronger source entries.",
       "categories": [
         "freestyle",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8774,7 +9033,9 @@
         "online",
         "broadcast"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "gothamchess"
+      ],
       "channelIds": [
         "gothamchess"
       ],
@@ -8808,7 +9069,8 @@
         "classical",
         "rapid",
         "blitz",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -8844,7 +9106,9 @@
         "online",
         "broadcast"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "hikaru-nakamura"
+      ],
       "channelIds": [
         "hikaru"
       ],
@@ -8964,7 +9228,8 @@
       "description": "Curated organiser source to help Chess Radar surface official chess-following opportunities. Exact individual event dates should come from stronger source entries.",
       "categories": [
         "classical",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9001,7 +9266,8 @@
         "rapid",
         "blitz",
         "broadcast",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9045,7 +9311,8 @@
       "description": "Curated organiser source to help Chess Radar surface official chess-following opportunities. Exact individual event dates should come from stronger source entries.",
       "categories": [
         "classical",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9153,7 +9420,8 @@
       "categories": [
         "rapid",
         "blitz",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9187,7 +9455,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9225,7 +9494,8 @@
       "summary": "FIDE calendar event: European Fischer Random Championship 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9264,7 +9534,8 @@
       "description": "Chess tournament broadcast with live boards on Lichess.",
       "categories": [
         "blitz",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9298,7 +9569,8 @@
       "description": "Chess tournament broadcast with live boards on Lichess.",
       "categories": [
         "rapid",
-        "broadcast"
+        "broadcast",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9331,7 +9603,8 @@
       "summary": "FIDE calendar event: 4° International Chess Festival \"Gubbio City\".",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9369,7 +9642,8 @@
       "summary": "FIDE calendar event: Campionato Interprovinciale di Biella e Vercelli.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9408,7 +9682,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9445,7 +9720,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Saint Louis Masters 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -9482,7 +9759,8 @@
       "summary": "FIDE calendar event: UAE Cup 2026.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9520,7 +9798,8 @@
       "summary": "FIDE calendar event: Aeroflot Open 2026.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9557,7 +9836,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Prague Challengers 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -9593,7 +9874,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Prague Masters 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -9669,7 +9952,8 @@
       "summary": "FIDE calendar event: BUDAPEST SPRING FESTIVAL 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9707,7 +9991,8 @@
       "summary": "FIDE calendar event: 24th international chess festival in Nancy (FRANCE).",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9745,7 +10030,8 @@
       "summary": "FIDE calendar event: IV Abierto Femenino \"Villa de Zahara\" 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9784,7 +10070,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "women"
+        "women",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9823,7 +10110,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "women"
+        "women",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9861,7 +10149,8 @@
       "summary": "FIDE calendar event: Bled Chess Festival 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9899,7 +10188,8 @@
       "summary": "FIDE calendar event: RADNICKICHESS GM-IM-FM.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9938,7 +10228,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -9976,7 +10267,8 @@
       "summary": "FIDE calendar event: Budapest ONE WEEK March 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10014,7 +10306,8 @@
       "summary": "FIDE calendar event: FM RR 106 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10052,7 +10345,8 @@
       "summary": "FIDE calendar event: GM RR 104 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10090,7 +10384,8 @@
       "summary": "FIDE calendar event: IM RR 105 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10128,7 +10423,8 @@
       "summary": "FIDE calendar event: AlphaChess Classical.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10166,7 +10462,8 @@
       "summary": "FIDE calendar event: Championnat ouvert de la Mauricie 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10205,7 +10502,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10243,7 +10541,8 @@
       "summary": "FIDE calendar event: Wellness Chess Tour GP4. International Chess Competition Series.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10282,7 +10581,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10320,7 +10620,8 @@
       "summary": "FIDE calendar event: SixDays Budapest March 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10358,7 +10659,8 @@
       "summary": "FIDE calendar event: Seebach & Friends #6.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10396,7 +10698,8 @@
       "summary": "FIDE calendar event: 19th Agzamov Memorial.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10434,7 +10737,8 @@
       "summary": "FIDE calendar event: Cherepanova Memorial 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10472,7 +10776,8 @@
       "summary": "FIDE calendar event: FM RR 109 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10510,7 +10815,8 @@
       "summary": "FIDE calendar event: GM RR 107 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10548,7 +10854,8 @@
       "summary": "FIDE calendar event: IM RR 108 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10587,7 +10894,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10625,7 +10933,8 @@
       "summary": "FIDE calendar event: FM RR 111 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10663,7 +10972,8 @@
       "summary": "FIDE calendar event: IM RR 110 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10701,7 +11011,8 @@
       "summary": "FIDE calendar event: KazChess Masters 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10739,7 +11050,8 @@
       "summary": "FIDE calendar event: Pedagogical Chess Union. Neva Open.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10778,7 +11090,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10816,7 +11129,8 @@
       "summary": "FIDE calendar event: „BB Mala rokada-Mirijevo,, rating tournament up to 2300.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10855,7 +11169,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10893,7 +11208,8 @@
       "summary": "FIDE calendar event: FM RR 113 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10931,7 +11247,8 @@
       "summary": "FIDE calendar event: IM RR 112 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -10970,7 +11287,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11008,7 +11326,8 @@
       "summary": "FIDE calendar event: Ponte de Lima Chess Tournament 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11047,7 +11366,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11084,7 +11404,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Fagernes Chess International 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -11121,7 +11443,8 @@
       "summary": "FIDE calendar event: Torneig Setmana Santa 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11159,7 +11482,8 @@
       "summary": "FIDE calendar event: V Magistral \"Villa de Zahara\" - Valid for norm.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11197,7 +11521,8 @@
       "summary": "FIDE calendar event: XVIII Memorial Pedro Lezcano Montalvo 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11235,7 +11560,8 @@
       "summary": "FIDE calendar event: 1. International Chess Days Altenburg 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11273,7 +11599,8 @@
       "summary": "FIDE calendar event: 11° Festival Internazionale di Scacchi Pasqua a Montesilvano.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11311,7 +11638,8 @@
       "summary": "FIDE calendar event: 45. Chess talents tournaments.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11350,7 +11678,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11389,7 +11718,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11429,7 +11759,8 @@
       "categories": [
         "classical",
         "freestyle",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11467,7 +11798,8 @@
       "summary": "FIDE calendar event: LUGANO-PARADISO EASTER FESTIVAL.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11506,7 +11838,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11544,7 +11877,8 @@
       "summary": "FIDE calendar event: Swiss Young Masters 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11583,7 +11917,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11622,7 +11957,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11660,7 +11996,8 @@
       "summary": "FIDE calendar event: First Saturday Chess tournament series -April 2026 for GM, IM norms and for FIDE ELO.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11698,7 +12035,8 @@
       "summary": "FIDE calendar event: Bratislava Norm Week.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11735,7 +12073,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Cerrado Chess Menorca 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -11771,7 +12111,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: SLOVENIJA CHESS TOUR. ELO UP TO 2400 A & B Tournament.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -11809,7 +12151,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11848,7 +12191,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11887,7 +12231,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11926,7 +12271,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -11964,7 +12310,8 @@
       "summary": "FIDE calendar event: Oceania Youth Chess Championships 2026.",
       "description": "Time control: other",
       "categories": [
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12003,7 +12350,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12041,7 +12389,8 @@
       "summary": "FIDE calendar event: 2026 NormStorm Classic #1.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12078,7 +12427,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: IPCA Asian Chess Championship 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -12116,7 +12467,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12156,7 +12508,8 @@
       "categories": [
         "classical",
         "women",
-        "elite"
+        "elite",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12194,7 +12547,8 @@
       "summary": "FIDE calendar event: 1. Maasch & Kirsch Schach Festival.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12231,7 +12585,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: 23rd Karpov International Chess Tournament.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -12268,7 +12624,8 @@
       "summary": "FIDE calendar event: 3rd Tartu Chess Festival: 3rd Estiko Blitz.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12307,7 +12664,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12345,7 +12703,8 @@
       "summary": "FIDE calendar event: 23rd Bangkok Chess Clun Open 2026 – Masters.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12383,7 +12742,8 @@
       "summary": "FIDE calendar event: 3rd Tartu Chess Festival: Alexela Cup | 3rd Toomas Virro Memorial in Rapid Chess.",
       "description": "Time control: other",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12422,7 +12782,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12460,7 +12821,8 @@
       "summary": "FIDE calendar event: III Torneo internazionale Città di Todi.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12498,7 +12860,8 @@
       "summary": "FIDE calendar event: Pedagogical Chess Union. Neva Open.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12537,7 +12900,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12575,7 +12939,8 @@
       "summary": "FIDE calendar event: European Individual Chess Championship 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12614,7 +12979,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12653,7 +13019,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "junior"
+        "junior",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12690,7 +13057,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: SLOVENIA CHESS TOUR.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -12728,7 +13097,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12766,7 +13136,8 @@
       "summary": "FIDE calendar event: 11 International Chess Festival \"Lignano Sabbiadoro\".",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12805,7 +13176,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12844,7 +13216,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12882,7 +13255,8 @@
       "summary": "FIDE calendar event: Ljubljana Chess Festival 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12921,7 +13295,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12959,7 +13334,8 @@
       "summary": "FIDE calendar event: CIS 2026 - Serie Master e CISF.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -12997,7 +13373,8 @@
       "summary": "FIDE calendar event: RADNICKICHESS IM and FM rating tournaments.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13036,7 +13413,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13075,7 +13453,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13113,7 +13492,8 @@
       "summary": "FIDE calendar event: IM RR 114 Putnik.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13152,7 +13532,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13190,7 +13571,8 @@
       "summary": "FIDE calendar event: Pedagogical Chess Union. Open Sochi.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13229,7 +13611,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13268,7 +13651,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13307,7 +13691,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13345,7 +13730,8 @@
       "summary": "FIDE calendar event: European School Chess Championship 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13384,7 +13770,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13423,7 +13810,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13460,7 +13848,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: TePe Sigeman Chess Tournament 2026.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -13497,7 +13887,8 @@
       "summary": "FIDE calendar event: 9th Sharjah Masters 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13535,7 +13926,8 @@
       "summary": "FIDE calendar event: IM RR 116.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13573,7 +13965,8 @@
       "summary": "FIDE calendar event: AlphaChess - May Classical.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13611,7 +14004,8 @@
       "summary": "FIDE calendar event: BUCHAREST GRAND PRIX RAPID.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13649,7 +14043,8 @@
       "summary": "FIDE calendar event: Karlovy Vary OPEN 2026.",
       "description": "Time control: other",
       "categories": [
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13687,7 +14082,8 @@
       "summary": "FIDE calendar event: Ostravsky konik 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13725,7 +14121,8 @@
       "summary": "FIDE calendar event: Sardinia World Chess Festival.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13763,7 +14160,8 @@
       "summary": "FIDE calendar event: Superbet Blitz Poland.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13801,7 +14199,8 @@
       "summary": "FIDE calendar event: Superbet Rapid Poland.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13839,7 +14238,8 @@
       "summary": "FIDE calendar event: Vegagatan O1800 May 2026 Rapid Round-Robin Tournament.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13877,7 +14277,8 @@
       "summary": "FIDE calendar event: Vegagatan U1800 May 2026 Standard Round-Robin Tournament.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13914,7 +14315,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Pedagogical Chess Union. Suzdal.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -13951,7 +14354,8 @@
       "summary": "FIDE calendar event: 44. Wilhelm-Werner Gedächtnisturnier (NSV-Grandprix).",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -13989,7 +14393,8 @@
       "summary": "FIDE calendar event: GrandPrix Pluscity – Rapid 2026*.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14028,7 +14433,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14066,7 +14472,8 @@
       "summary": "FIDE calendar event: GrandPrix Pluscity – Blitz 2026*.",
       "description": "Time control: Blitz",
       "categories": [
-        "blitz"
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14105,7 +14512,8 @@
       "description": "Time control: Blitz",
       "categories": [
         "blitz",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14144,7 +14552,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14183,7 +14592,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14222,7 +14632,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14261,7 +14672,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14300,7 +14712,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "open"
+        "open",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14338,7 +14751,8 @@
       "summary": "FIDE calendar event: BUNDESTURNIER 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14416,7 +14830,8 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "team"
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14453,7 +14868,9 @@
       "isOnline": false,
       "summary": "FIDE calendar event: Pedagogical Chess Union. Nizhniy Novgorod.",
       "description": "Time control: other",
-      "categories": [],
+      "categories": [
+        "otb"
+      ],
       "playerIds": [],
       "channelIds": [
         "fide"
@@ -14490,7 +14907,8 @@
       "summary": "FIDE calendar event: V Torneig Internacional d'Escacs Actius \"CAL BATISTA\".",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14528,7 +14946,8 @@
       "summary": "FIDE calendar event: V. Csomos Janos Memorial.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14566,7 +14985,8 @@
       "summary": "FIDE calendar event: BB Mala rokada MAJ-Mirijevo,, rating tournament up to 2300.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14604,7 +15024,8 @@
       "summary": "FIDE calendar event: SixDays May 2026.",
       "description": "Time control: Standard",
       "categories": [
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14642,7 +15063,8 @@
       "summary": "FIDE calendar event: North London evening rapidplay.",
       "description": "Time control: Rapid",
       "categories": [
-        "rapid"
+        "rapid",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
@@ -14665,41 +15087,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      }
-    },
-    {
-      "id": "lichess-kzhf1gfv",
-      "title": "35th Annual Chicago Open",
-      "shortTitle": "35th Annual Chicago Open",
-      "status": "completed",
-      "startDate": "2026-05-22T00:15:00Z",
-      "endDate": "2026-05-22T00:15:00Z",
-      "timezone": "America/Chicago",
-      "locationName": "Wheeling, Illinois",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9 - round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/35th-annual-chicago-open/KZhF1GFV",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/35th-annual-chicago-open/KZhF1GFV"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       }
     }
   ]
