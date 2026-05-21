@@ -42,47 +42,18 @@ events.append({
 # Lichess broadcasts
 # -----------------------------------
 
+# -----------------------------------
+# Lichess broadcasts
+# -----------------------------------
+
 try:
     lichess_url = "https://lichess.org/api/broadcast"
 
     with urlopen(lichess_url) as response:
         raw = response.read().decode()
 
-    # Lichess returns NDJSON-like data
-    lines = raw.strip().splitlines()
-
-    for line in lines[:10]:
-        item = json.loads(line)
-
-        slug = item.get("slug", "")
-        broadcast_id = item.get("id", "")
-
-        event = {
-            "id": f"lichess-{broadcast_id}",
-            "title": item.get("name", "Lichess Broadcast"),
-            "shortTitle": item.get("name", "Broadcast"),
-            "status": "live",
-            "startDate": datetime.now(timezone.utc).isoformat(),
-            "endDate": datetime.now(timezone.utc).isoformat(),
-            "timezone": "UTC",
-            "locationName": "Online",
-            "isOnline": True,
-            "summary": "Live chess broadcast on Lichess.",
-            "description": item.get("description", ""),
-            "categories": ["broadcast"],
-            "playerIds": [],
-            "channelIds": ["lichess"],
-            "primaryUrl": f"https://lichess.org/broadcast/{slug}/{broadcast_id}",
-            "links": [
-                {
-                    "label": "Watch on Lichess",
-                    "type": "watch",
-                    "url": f"https://lichess.org/broadcast/{slug}/{broadcast_id}"
-                }
-            ]
-        }
-
-        events.append(event)
+    print("RAW RESPONSE:")
+    print(raw[:1000])
 
 except Exception as e:
     print("Could not fetch Lichess broadcasts:", e)
