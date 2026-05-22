@@ -98,6 +98,38 @@ PLAYER_COUNTRY_CODES = {
     "zhu-jiner": "CHN",
 }
 
+PLAYER_PROFILE_LINKS = {
+    "anna-cramling": {
+        "youtube": "https://www.youtube.com/@AnnaCramling",
+        "twitch": "https://www.twitch.tv/annacramling",
+    },
+    "david-howell": {
+        "officialWebsite": "https://www.howellchess.com/home",
+        "lichess": "https://lichess.org/streamer/HowellHub",
+        "twitch": "https://www.twitch.tv/howellhub",
+    },
+    "eric-rosen": {
+        "youtube": "https://www.youtube.com/@EricRosen",
+        "twitch": "https://www.twitch.tv/imrosen",
+    },
+    "hikaru-nakamura": {
+        "officialWebsite": "https://www.hikarunakamura.com/",
+        "lichess": "https://lichess.org/streamer/TSMFTXH",
+        "youtube": "https://www.youtube.com/@GMHikaru",
+        "twitch": "https://www.twitch.tv/gmhikaru",
+    },
+    "magnus-carlsen": {
+        "officialWebsite": "https://www.magnuscarlsen.com/",
+        "lichess": "https://lichess.org/@/DrNykterstein",
+    },
+    "simon-williams": {
+        "officialWebsite": "https://gingergm.com/",
+        "lichess": "https://lichess.org/streamer/gingergm",
+        "youtube": "https://www.youtube.com/c/GingerGM",
+        "twitch": "https://www.twitch.tv/gingergm",
+    },
+}
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
@@ -1065,6 +1097,7 @@ def attach_confirmed_players(events_payload, event_players_payload):
                 "title": player["title"],
                 "fideId": player["fideId"],
                 "classicalRating": player["classicalRating"],
+                "profileLinks": PLAYER_PROFILE_LINKS.get(player["playerId"], {}),
                 "status": player["status"],
                 "source": player["source"],
             }
@@ -1108,6 +1141,7 @@ def build_confirmed_players_feed(events_payload, event_players_payload, events_b
             "title": existing.get("title") or player["title"],
             "fideId": existing.get("fideId") or player["fideId"],
             "classicalRating": max(filter(None, [existing.get("classicalRating"), player["classicalRating"]]), default=None),
+            "profileLinks": PLAYER_PROFILE_LINKS.get(player_id, {}),
             "confirmedEventIds": [event["eventId"] for event in events_by_player.get(player_id, [])],
             "confirmedEvents": events_by_player.get(player_id, []),
         }
@@ -1175,6 +1209,8 @@ def build_channels():
         ("botezlive", "BotezLive", "creator", "Alexandra and Andrea Botez chess streams and videos.", {"youtube": "https://www.youtube.com/@BotezLive", "twitch": "https://www.twitch.tv/botezlive"}),
         ("anna-cramling", "Anna Cramling", "creator", "Anna Cramling's chess videos and streams.", {"youtube": "https://www.youtube.com/@AnnaCramling", "twitch": "https://www.twitch.tv/annacramling"}),
         ("eric-rosen", "Eric Rosen", "creator", "IM Eric Rosen's educational chess videos and streams.", {"youtube": "https://www.youtube.com/@EricRosen", "twitch": "https://www.twitch.tv/imrosen"}),
+        ("david-howell", "David Howell", "player", "GM David Howell's chess streams, commentary, and official site.", {"website": "https://www.howellchess.com/home", "lichess": "https://lichess.org/streamer/HowellHub", "twitch": "https://www.twitch.tv/howellhub"}),
+        ("gingergm", "GingerGM", "creator", "GM Simon Williams' GingerGM chess lessons, videos, and streams.", {"website": "https://gingergm.com/", "lichess": "https://lichess.org/streamer/gingergm", "youtube": "https://www.youtube.com/c/GingerGM", "twitch": "https://www.twitch.tv/gingergm"}),
     ]
     return {
         "generatedAt": iso_now(),
@@ -1208,7 +1244,7 @@ def player_entry(rank, name, country, country_code, events_by_player=None):
         "classicalRating": None,
         "rapidRating": None,
         "blitzRating": None,
-        "profileLinks": {},
+        "profileLinks": PLAYER_PROFILE_LINKS.get(player_id, {}),
         "confirmedEventIds": [event["eventId"] for event in confirmed_events],
         "confirmedEvents": confirmed_events,
     }
