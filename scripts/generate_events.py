@@ -22,6 +22,8 @@ CHESSDOM_CSV_URL = "https://calendar.chessdom.com/copy-of-chess-calendar-sheet1-
 CHESSMIX_CALENDAR_URL = "https://www.chessmix.com/chess-tournaments/"
 CHESS_CALENDAR_NET_URL = "https://www.chesscalendar.net/"
 CHESSCOM_TOURNAMENTS_URL = "https://www.chess.com/tournaments"
+CHESSCOM_CURRENT_EVENTS_URL = "https://www.chess.com/events/current"
+CHESSCOM_EVENTS_API_URL = "https://www.chess.com/events/v1/api/searchv2"
 US_CHESS_PLAN_AHEAD_URL = "https://new.uschess.org/plan-ahead-calendar"
 USER_AGENT = "ChessRadarData/1.0 (+https://sz791s.github.io/chess-radar-data/events.json)"
 
@@ -31,9 +33,10 @@ SOURCE_PRIORITY = {
     "fide": 1,
     "chessbase": 2,
     "chessdom": 3,
-    "organiser": 4,
-    "chessaround": 5,
-    "curated": 6,
+    "chesscom": 4,
+    "organiser": 5,
+    "chessaround": 6,
+    "curated": 7,
 }
 MONTHS = {
     "jan": 1,
@@ -293,6 +296,24 @@ def request_text(url, data=None, headers=None, timeout=20):
     request = Request(url, data=encoded, headers=request_headers)
     with urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8", "replace")
+
+
+def request_json(url, payload=None, headers=None, timeout=20):
+    request_headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+    }
+    body = None
+    method = "GET"
+    if payload is not None:
+        body = json.dumps(payload).encode("utf-8")
+        request_headers["Content-Type"] = "application/json"
+        method = "POST"
+    if headers:
+        request_headers.update(headers)
+    request = Request(url, data=body, headers=request_headers, method=method)
+    with urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8", "replace"))
 
 
 def event_duration_days(event):
@@ -773,6 +794,142 @@ def fetch_chesscom_tournaments():
     if "Daily Tournaments" in html:
         raise SourceSkipped("public Chess.com tournaments page lists ongoing daily tournaments without calendar start dates")
     return []
+
+
+def stream_duration_hours(stream):
+    start = parse_date_safely(stream.get("startAt"))
+    end = parse_date_safely(stream.get("endAt"))
+    if not start or not end:
+        return None
+    return (end - start).total_seconds() / 3600
+
+
+def chesscom_stream_link(stream):
+    stream_type = clean_text(stream.get("type")).lower()
+    channel = clean_text(stream.get("channel"))
+    if not stream_type or not channel:
+        return None
+    if stream_type == "twitch":
+        url = channel if channel.startswith("http") else f"https://www.twitch.tv/{channel}"
+        label = clean_text(stream.get("shortTitle")) or clean_text(stream.get("title")) or f"Twitch: {channel}"
+        return {"label": label, "type": "stream", "url": url}
+    if stream_type == "youtube":
+        url = channel if channel.startswith("http") else f"https://www.youtube.com/{channel}"
+        label = clean_text(stream.get("shortTitle")) or clean_text(stream.get("title")) or "YouTube stream"
+        return {"label": label, "type": "stream", "url": url}
+    return None
+
+
+def chesscom_channel_ids(event, streams):
+    ids = ["chesscom"]
+    stream_channels = {
+        "chess": "chesscom",
+        "chesscom": "chesscom",
+        "gmhikaru": "hikaru",
+        "gothamchess": "gothamchess",
+        "botezlive": "botezlive",
+        "annacramling": "anna-cramling",
+        "imrosen": "eric-rosen",
+        "howellhub": "david-howell",
+        "gingergm": "gingergm",
+    }
+    for stream in streams:
+        channel = clean_text(stream.get("channel")).lower().rstrip("/")
+        channel = channel.split("/")[-1] if "/" in channel else channel
+        if channel in stream_channels:
+            ids.append(stream_channels[channel])
+    ids.extend(infer_channel_ids_from_text(event.get("name"), event.get("featuredTitle"), event.get("eventType")))
+    return compact_list(ids)
+
+
+def chesscom_event_from_item(item):
+    event = item.get("event") or item
+    title = clean_text(event.get("name"))
+    event_id = event.get("id")
+    if not title or not event_id:
+        return None
+    slug = clean_text(event.get("slug")) or slugify(title)
+    event_url = f"https://www.chess.com/events/info/{slug}"
+    start_date = to_iso(parse_date_safely(event.get("startAt")))
+    end_date = to_iso(parse_date_safely(event.get("endAt"))) or start_date
+    player_count = event.get("playerCount")
+    round_count = event.get("roundCount")
+    streams = []
+    for stream in event.get("streams") or []:
+        duration = stream_duration_hours(stream)
+        if duration is None or duration > 16:
+            continue
+        if not parse_date_safely(stream.get("startAt")):
+            continue
+        streams.append(stream)
+    links = [
+        {"label": "Chess.com event", "type": "official", "url": event_url},
+        {"label": "Chess.com current events", "type": "source", "url": CHESSCOM_CURRENT_EVENTS_URL},
+    ]
+    for stream in streams:
+        link = chesscom_stream_link(stream)
+        if link:
+            links.append(link)
+    details = []
+    if player_count:
+        details.append(f"{player_count} listed players")
+    if round_count:
+        details.append(f"{round_count} rounds")
+    if streams:
+        details.append(f"{len(streams)} scheduled stream links")
+    description = ". ".join(details) or "Listed on the Chess.com current events page."
+    categories = infer_categories_from_text(title, event.get("featuredTitle"), event.get("eventType"), "broadcast", "online")
+    return normalize_event({
+        "id": f"chesscom-{event_id}",
+        "title": title,
+        "shortTitle": clean_text(event.get("featuredTitle")) or title,
+        "startDate": start_date,
+        "endDate": end_date,
+        "timezone": "UTC",
+        "locationName": "Online broadcast",
+        "isOnline": True,
+        "summary": f"Chess.com current event: {title}.",
+        "description": description,
+        "categories": categories,
+        "playerIds": infer_player_ids_from_text(title, event.get("featuredTitle")),
+        "channelIds": chesscom_channel_ids(event, streams),
+        "primaryUrl": event_url,
+        "links": links,
+        "source": {"name": "chesscom", "url": CHESSCOM_CURRENT_EVENTS_URL, "confidence": "medium"},
+    })
+
+
+def fetch_chesscom_current_events(limit=150):
+    events = []
+    search_after = None
+    headers = {
+        "Origin": "https://www.chess.com",
+        "Referer": CHESSCOM_CURRENT_EVENTS_URL,
+    }
+    while len(events) < limit:
+        payload = {
+            "searchFor": "",
+            "sortBy": "relevance",
+            "timeFilter": "current",
+            "size": min(50, limit - len(events)),
+            "featured": False,
+            "includeSelfServe": False,
+        }
+        if search_after:
+            payload["searchAfter"] = search_after
+        data = request_json(CHESSCOM_EVENTS_API_URL, payload=payload, headers=headers)
+        results = data.get("results") or []
+        if not results:
+            break
+        for item in results:
+            normalized = chesscom_event_from_item(item)
+            if normalized:
+                events.append(normalized)
+        next_search_after = results[-1].get("searchAfter")
+        if not next_search_after or next_search_after == search_after:
+            break
+        search_after = next_search_after
+    return events[:limit]
 
 
 def fetch_us_chess_plan_ahead():
@@ -1280,7 +1437,7 @@ def build_events():
     events.extend(collect_source("chessdom", fetch_chessdom_calendar, source_results))
     events.extend(collect_source("chessmix", fetch_chessmix_calendar, source_results))
     events.extend(collect_source("chesscalendar.net", fetch_chess_calendar_net, source_results))
-    events.extend(collect_source("chesscom", fetch_chesscom_tournaments, source_results))
+    events.extend(collect_source("chesscom", fetch_chesscom_current_events, source_results))
     events.extend(collect_source("uschess", fetch_us_chess_plan_ahead, source_results))
     events = future_streamer_enrichment(events)
     events = dedupe_events(events)

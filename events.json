@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-22T13:41:32Z",
-  "eventCount": 246,
+  "generatedAt": "2026-05-22T14:04:35Z",
+  "eventCount": 264,
   "sources": [
     {
       "name": "curated",
@@ -46,9 +46,8 @@
     },
     {
       "name": "chesscom",
-      "status": "skipped",
-      "count": 0,
-      "error": "public Chess.com tournaments page lists ongoing daily tournaments without calendar start dates"
+      "status": "ok",
+      "count": 32
     },
     {
       "name": "uschess",
@@ -58,6 +57,172 @@
     }
   ],
   "events": [
+    {
+      "id": "chesscom-25199",
+      "title": "9th RedBandit Chess Classic",
+      "shortTitle": "9th RedBandit Chess Classic",
+      "status": "live",
+      "startDate": "2026-05-01T23:30:00Z",
+      "endDate": "2026-05-30T02:15:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 9th RedBandit Chess Classic.",
+      "description": "17 listed players. 4 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/9th-redbandit-chess-classic",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/9th-redbandit-chess-classic"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25404",
+      "title": "Cerrados De Jueves - Club Mijail Tal - Grupo A",
+      "shortTitle": "Cerrados De Jueves - Club Mijail Tal - Grupo A",
+      "status": "live",
+      "startDate": "2026-05-07T23:00:00Z",
+      "endDate": "2026-06-05T01:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Cerrados De Jueves - Club Mijail Tal - Grupo A.",
+      "description": "6 listed players. 5 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/cerrados-de-jueves-ii-club-mijail-tal-grupo-a",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/cerrados-de-jueves-ii-club-mijail-tal-grupo-a"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25531",
+      "title": "28th Standard Tournament 2026, by OPAX",
+      "shortTitle": "28th Standard Tournament 2026, by OPAX",
+      "status": "live",
+      "startDate": "2026-05-08T05:00:00Z",
+      "endDate": "2026-05-22T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 28th Standard Tournament 2026, by OPAX.",
+      "description": "15 listed players. 6 rounds",
+      "categories": [
+        "classical",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/28th-standard-tournament-2026-by-opax",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/28th-standard-tournament-2026-by-opax"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25104",
+      "title": "6th U1800 Standard Tournament 2026, by SOXalandriou (A Group)",
+      "shortTitle": "6th U1800 Standard Tournament 2026, by SOXalandriou (A Group)",
+      "status": "live",
+      "startDate": "2026-05-10T05:00:00Z",
+      "endDate": "2026-05-24T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 6th U1800 Standard Tournament 2026, by SOXalandriou (A Group).",
+      "description": "28 listed players. 6 rounds",
+      "categories": [
+        "classical",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/6th-u1800-standard-tournament-2026-by-soxalandriou-a-group",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/6th-u1800-standard-tournament-2026-by-soxalandriou-a-group"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
     {
       "id": "fide-superbet-chess-classic-romania-12-24-may",
       "title": "Superbet Chess Classic Romania",
@@ -242,6 +407,47 @@
           }
         }
       ]
+    },
+    {
+      "id": "chesscom-25553",
+      "title": "2nd Continental Online Championship for Prisoners 2026",
+      "shortTitle": "2nd Continental Online Championship for Prisoners 2026",
+      "status": "live",
+      "startDate": "2026-05-12T02:00:00Z",
+      "endDate": "2026-05-22T21:59:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2nd Continental Online Championship for Prisoners 2026.",
+      "description": "408 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-continental-online-championships-prisoners",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-continental-online-championships-prisoners"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "fide-african-youth-chess-championship-2026-14-23-may",
@@ -471,6 +677,48 @@
       ]
     },
     {
+      "id": "chesscom-25973",
+      "title": "7th Libreville Chess Open 2026",
+      "shortTitle": "7th Libreville Chess Open 2026",
+      "status": "live",
+      "startDate": "2026-05-14T23:00:00Z",
+      "endDate": "2026-05-22T23:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 7th Libreville Chess Open 2026.",
+      "description": "127 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/7-edition-open-echecs-de-libreville",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/7-edition-open-echecs-de-libreville"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-radnickichess-im-and-fm-rating-tournaments-16-23-may",
       "title": "RADNICKICHESS IM and FM rating tournaments",
       "shortTitle": "RADNICKICHESS IM and FM rating tournaments",
@@ -506,6 +754,89 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25975",
+      "title": "Yesilay Turkish Senior Championship 2026",
+      "shortTitle": "Yesilay Turkish Senior Championship 2026",
+      "status": "live",
+      "startDate": "2026-05-16T13:00:00Z",
+      "endDate": "2026-05-22T15:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Yesilay Turkish Senior Championship 2026.",
+      "description": "82 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/yesilay-turkish-senior-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/yesilay-turkish-senior-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25899",
+      "title": "Yesilay Turkish Youth Championship 2026",
+      "shortTitle": "Yesilay Turkish Youth Championship 2026",
+      "status": "live",
+      "startDate": "2026-05-16T13:00:00Z",
+      "endDate": "2026-05-22T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Yesilay Turkish Youth Championship 2026.",
+      "description": "170 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/yesilay-turkish-youth-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/yesilay-turkish-youth-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -650,6 +981,130 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-25407",
+      "title": "Hotel Stockholm North Young Talents: 7th IM Tournament",
+      "shortTitle": "Hotel Stockholm North Young Talents: 7th IM Tournament",
+      "status": "live",
+      "startDate": "2026-05-18T15:00:00Z",
+      "endDate": "2026-05-23T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Hotel Stockholm North Young Talents: 7th IM Tournament.",
+      "description": "10 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/7th-im-tournament-hotel-stockholm-north-young-talents",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/7th-im-tournament-hotel-stockholm-north-young-talents"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25406",
+      "title": "Hotel Stockholm North Young Talents: 9th GM Tournament",
+      "shortTitle": "Hotel Stockholm North Young Talents: 9th GM Tournament",
+      "status": "live",
+      "startDate": "2026-05-18T15:00:00Z",
+      "endDate": "2026-05-23T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Hotel Stockholm North Young Talents: 9th GM Tournament.",
+      "description": "10 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/9th-gm-tournament-hotel-stockholm-north-young-talents",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/9th-gm-tournament-hotel-stockholm-north-young-talents"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25900",
+      "title": "IV Open Ciudad de Buenos Aires",
+      "shortTitle": "IV Open Ciudad de Buenos Aires",
+      "status": "live",
+      "startDate": "2026-05-18T22:30:00Z",
+      "endDate": "2026-05-26T00:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: IV Open Ciudad de Buenos Aires.",
+      "description": "331 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/iv-open-ciudad-de-buenos-aires",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/iv-open-ciudad-de-buenos-aires"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-5th-karshi-open-19-24-may",
       "title": "5th Karshi Open",
       "shortTitle": "5th Karshi Open",
@@ -664,11 +1119,14 @@
       "categories": [
         "classical",
         "open",
-        "otb"
+        "otb",
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide"
+        "fide",
+        "chesscom"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=16245",
       "links": [
@@ -681,11 +1139,192 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/5th-karshi-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25974",
+      "title": "Syrian Chess Championship 2026",
+      "shortTitle": "Syrian Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-05-19T07:00:00Z",
+      "endDate": "2026-05-25T15:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Syrian Chess Championship 2026.",
+      "description": "12 listed players. 11 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/syrian-chess-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/syrian-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25888",
+      "title": "2nd Nepali National Junior Chess Championship 2026",
+      "shortTitle": "2nd Nepali National Junior Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-05-20T04:15:00Z",
+      "endDate": "2026-05-22T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2nd Nepali National Junior Chess Championship 2026.",
+      "description": "93 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2nd-nepali-junior-chess-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2nd-nepali-junior-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25984",
+      "title": "Steinitz Open 2026",
+      "shortTitle": "Steinitz Open 2026",
+      "status": "live",
+      "startDate": "2026-05-21T00:00:00Z",
+      "endDate": "2026-05-24T15:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Steinitz Open 2026.",
+      "description": "142 listed players. 11 rounds. 1 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/steinitz-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/steinitz-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Stream",
+          "type": "stream",
+          "url": "https://www.youtube.com/watch?v=g9YNIt3mXsI"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25977",
+      "title": "Shanghai Haiwan Cup New Stars 2026",
+      "shortTitle": "Shanghai Haiwan Cup New Stars 2026",
+      "status": "live",
+      "startDate": "2026-05-21T03:00:00Z",
+      "endDate": "2026-05-24T10:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Shanghai Haiwan Cup New Stars 2026.",
+      "description": "8 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/shanghai-haiwan-cup-new-stars-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/shanghai-haiwan-cup-new-stars-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -784,6 +1423,47 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25982",
+      "title": "13th Cherry Blossom Chess 2026",
+      "shortTitle": "13th Cherry Blossom Chess 2026",
+      "status": "live",
+      "startDate": "2026-05-21T23:00:00Z",
+      "endDate": "2026-05-26T00:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 13th Cherry Blossom Chess 2026.",
+      "description": "96 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/13th-cherry-blossom-chess-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/13th-cherry-blossom-chess-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1083,224 +1763,62 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-15-salento-international-chess-open-ecoresort-le-sirene-23-29-may-2026",
-      "title": "15. Salento International Chess Open - Ecoresort Le Sirene",
-      "shortTitle": "15. Salento International Chess Open - Ecoresort Le Sirene",
+      "id": "chesscom-25959",
+      "title": "2026 Kapiti Rapid",
+      "shortTitle": "2026 Kapiti Rapid",
       "status": "upcoming",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-29T23:59:59Z",
+      "startDate": "2026-05-22T21:30:00Z",
+      "endDate": "2026-05-23T05:30:00Z",
       "timezone": "UTC",
-      "locationName": "Gallipoli, Italy",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 15. Salento International Chess Open - Ecoresort Le Sirene.",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Kapiti Rapid.",
+      "description": "6 rounds",
       "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/564",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/564"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-15th-salento-international-chess-open-2026-23-29-may",
-      "title": "15th Salento International Chess Open 2026",
-      "shortTitle": "15th Salento International Chess Open 2026",
-      "status": "upcoming",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-29T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Gallipoli (Lecce), Italy, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 15th Salento International Chess Open 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
+        "rapid",
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide"
+        "chesscom"
       ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13061",
+      "primaryUrl": "https://www.chess.com/events/info/2026-kapiti-rapid",
       "links": [
         {
-          "label": "FIDE calendar listing",
+          "label": "Chess.com event",
           "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13061"
+          "url": "https://www.chess.com/events/info/2026-kapiti-rapid"
         },
         {
-          "label": "FIDE calendar",
+          "label": "Chess.com current events",
           "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
     },
     {
-      "id": "fide-17-engadiner-pfingstopen-23-25-may",
-      "title": "17. Engadiner Pfingstopen",
-      "shortTitle": "17. Engadiner Pfingstopen",
-      "status": "upcoming",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-25T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zernez, SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 17. Engadiner Pfingstopen.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14658",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14658"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-17th-kiit-international-chess-festival-2026-23-30-may",
-      "title": "17TH KIIT INTERNATIONAL CHESS FESTIVAL 2026",
-      "shortTitle": "17TH KIIT INTERNATIONAL CHESS FESTIVAL 2026",
-      "status": "upcoming",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Patia, Bhubaneswar, Odisha, IND",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 17TH KIIT INTERNATIONAL CHESS FESTIVAL 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15206",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15206"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-45th-zalakaros-chess-festival-b-rczay-l-szl-memorial-23-31-may",
-      "title": "45th Zalakaros Chess Festival – Bárczay László Memorial",
-      "shortTitle": "45th Zalakaros Chess Festival – Bárczay László Memorial",
-      "status": "upcoming",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-31T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zalakaros, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 45th Zalakaros Chess Festival – Bárczay László Memorial.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14243",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14243"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-4th-munich-chess-festival-23-29-may-2026",
+      "id": "chesscom-25929",
       "title": "4th Munich Chess Festival",
       "shortTitle": "4th Munich Chess Festival",
       "status": "upcoming",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-29T23:59:59Z",
+      "startDate": "2026-05-22T22:00:00Z",
+      "endDate": "2026-05-29T21:00:00Z",
       "timezone": "UTC",
-      "locationName": "Munich, Germany",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 4th Munich Chess Festival.",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 4th Munich Chess Festival.",
+      "description": "Listed on the Chess.com current events page.",
       "categories": [
+        "online",
+        "broadcast",
         "classical",
         "otb"
       ],
@@ -1429,9 +1947,21 @@
         "mokhinur-xikmatkhonova",
         "shourya-bagdia"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/573",
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/4th-munich-chess-festival",
       "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/4th-munich-chess-festival"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -1449,8 +1979,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -3425,6 +3955,253 @@
           }
         }
       ]
+    },
+    {
+      "id": "chesscom-26009",
+      "title": "81st Texas State & Amateur Championship",
+      "shortTitle": "81st Texas State & Amateur Championship",
+      "status": "upcoming",
+      "startDate": "2026-05-22T22:00:00Z",
+      "endDate": "2026-05-25T23:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 81st Texas State & Amateur Championship.",
+      "description": "7 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/81st-texas-state-amateur-championship",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/81st-texas-state-amateur-championship"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chessaround-15-salento-international-chess-open-ecoresort-le-sirene-23-29-may-2026",
+      "title": "15. Salento International Chess Open - Ecoresort Le Sirene",
+      "shortTitle": "15. Salento International Chess Open - Ecoresort Le Sirene",
+      "status": "upcoming",
+      "startDate": "2026-05-23T00:00:00Z",
+      "endDate": "2026-05-29T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Gallipoli, Italy",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: 15. Salento International Chess Open - Ecoresort Le Sirene.",
+      "description": "Chessaround listing. Time control/type: standard.",
+      "categories": [
+        "classical",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/564",
+      "links": [
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/564"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
+        }
+      ],
+      "source": {
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-15th-salento-international-chess-open-2026-23-29-may",
+      "title": "15th Salento International Chess Open 2026",
+      "shortTitle": "15th Salento International Chess Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-05-23T00:00:00Z",
+      "endDate": "2026-05-29T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Gallipoli (Lecce), Italy, ITA",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 15th Salento International Chess Open 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13061",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=13061"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-17-engadiner-pfingstopen-23-25-may",
+      "title": "17. Engadiner Pfingstopen",
+      "shortTitle": "17. Engadiner Pfingstopen",
+      "status": "upcoming",
+      "startDate": "2026-05-23T00:00:00Z",
+      "endDate": "2026-05-25T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Zernez, SUI",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 17. Engadiner Pfingstopen.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14658",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14658"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-17th-kiit-international-chess-festival-2026-23-30-may",
+      "title": "17TH KIIT INTERNATIONAL CHESS FESTIVAL 2026",
+      "shortTitle": "17TH KIIT INTERNATIONAL CHESS FESTIVAL 2026",
+      "status": "upcoming",
+      "startDate": "2026-05-23T00:00:00Z",
+      "endDate": "2026-05-30T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Patia, Bhubaneswar, Odisha, IND",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 17TH KIIT INTERNATIONAL CHESS FESTIVAL 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15206",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=15206"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-45th-zalakaros-chess-festival-b-rczay-l-szl-memorial-23-31-may",
+      "title": "45th Zalakaros Chess Festival – Bárczay László Memorial",
+      "shortTitle": "45th Zalakaros Chess Festival – Bárczay László Memorial",
+      "status": "upcoming",
+      "startDate": "2026-05-23T00:00:00Z",
+      "endDate": "2026-05-31T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Zalakaros, HUN",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 45th Zalakaros Chess Festival – Bárczay László Memorial.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14243",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14243"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "fide-bad-ischler-fide-rated-blitz-event-23may",
