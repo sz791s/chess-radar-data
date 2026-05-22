@@ -7,7 +7,7 @@ from html import unescape
 from io import StringIO
 from pathlib import Path
 from urllib.error import URLError
-from urllib.parse import urlencode, urljoin
+from urllib.parse import urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -398,6 +398,15 @@ def infer_player_ids_from_text(*parts):
         if re.search(rf"\b{re.escape(name)}\b", text):
             player_ids.append(player_id)
     return compact_list(player_ids)
+
+
+def display_player_name(raw_name):
+    name = clean_text(raw_name)
+    if "," in name:
+        last, first = [part.strip() for part in name.split(",", 1)]
+        if first:
+            name = f"{first} {last}"
+    return re.sub(r"\s+", " ", name).strip()
 
 
 def curated_major_events():
@@ -793,6 +802,192 @@ def future_streamer_enrichment(events):
     return events
 
 
+def parse_html_cells(row_html):
+    return [clean_text(cell) for cell in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row_html, re.S | re.I)]
+
+
+def parse_chess_results_players(html, event_id, source_url, max_players=300):
+    table_match = re.search(r'<table class="CRs1"[^>]*>(.*?)</table>', html, re.S | re.I)
+    if not table_match:
+        return []
+    header_map = {}
+    players = []
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", table_match.group(1), re.S | re.I):
+        cells = parse_html_cells(row)
+        if not cells:
+            continue
+        if not header_map and any(cell.lower() in {"name", "nombre"} for cell in cells):
+            for index, cell in enumerate(cells):
+                key = cell.lower().replace(".", "").replace("-", "").replace(" ", "")
+                if key in {"name", "nombre"}:
+                    header_map["name"] = index
+                elif key in {"fed", "federation", "federacion"}:
+                    header_map["countryCode"] = index
+                elif key in {"rtgi", "elo", "rating"}:
+                    header_map["classicalRating"] = index
+                elif key in {"fideid", "fide"}:
+                    header_map["fideId"] = index
+            continue
+        if len(cells) < 4 or not cells[0].isdigit():
+            continue
+        name_index = header_map.get("name", 4)
+        if name_index >= len(cells):
+            continue
+        raw_name = cells[name_index]
+        name = display_player_name(raw_name)
+        if not name or name.lower() in {"name", "nombre"} or name.isdigit():
+            continue
+        title_index = name_index - 1
+        rating_index = header_map.get("classicalRating")
+        fide_index = header_map.get("fideId")
+        country_index = header_map.get("countryCode")
+        if country_index is None:
+            country_match = re.search(r'class="[^"]*\b([A-Z]{3})\b[^"]*"', row)
+            country_code = country_match.group(1) if country_match else None
+        else:
+            country_code = cells[country_index] if country_index < len(cells) else None
+        rating_text = cells[rating_index] if rating_index is not None and rating_index < len(cells) else ""
+        fide_text = cells[fide_index] if fide_index is not None and fide_index < len(cells) else ""
+        rating = int(rating_text) if rating_text.isdigit() and int(rating_text) > 0 else None
+        title = cells[title_index] if 0 <= title_index < len(cells) and cells[title_index] else None
+        looks_like_group = re.search(r"\b(memorial|memorijal|open|festival|junior|kadet|cadet|tournament)\b", name, re.I)
+        if looks_like_group and not any([title, rating, fide_text.isdigit()]):
+            continue
+        player = {
+            "eventId": event_id,
+            "playerId": slugify(name),
+            "name": name,
+            "countryCode": country_code or None,
+            "title": title,
+            "fideId": fide_text if fide_text.isdigit() else None,
+            "classicalRating": rating,
+            "status": "confirmed",
+            "source": {
+                "name": "chess-results",
+                "url": source_url,
+                "confidence": "high",
+            },
+        }
+        players.append(player)
+        if len(players) >= max_players:
+            break
+    return players
+
+
+def fetch_event_players_for_event(event):
+    player_links = [link for link in event.get("links", []) if link.get("type") == "players" and link.get("url")]
+    players = []
+    seen = set()
+    for link in player_links:
+        url = link["url"]
+        host = urlparse(url).netloc.lower()
+        try:
+            html = request_text(url, timeout=20)
+        except (OSError, URLError, TimeoutError, ValueError) as exc:
+            logging.error("player source failed for %s: %s", event["id"], exc)
+            continue
+        source_players = []
+        if "chess-results.com" in host:
+            source_players = parse_chess_results_players(html, event["id"], url)
+        else:
+            logging.info("No confirmed roster parser for %s", host)
+        for player in source_players:
+            key = (player["eventId"], player["playerId"])
+            if key in seen:
+                continue
+            seen.add(key)
+            players.append(player)
+    return players
+
+
+def build_event_players(events_payload):
+    players = []
+    for event in events_payload["events"]:
+        players.extend(fetch_event_players_for_event(event))
+    return {
+        "generatedAt": iso_now(),
+        "eventPlayerCount": len(players),
+        "sources": [
+            {
+                "name": "chess-results",
+                "status": "ok",
+                "count": sum(1 for player in players if player["source"]["name"] == "chess-results"),
+            }
+        ],
+        "eventPlayers": players,
+    }
+
+
+def attach_confirmed_players(events_payload, event_players_payload):
+    by_event = {}
+    for player in event_players_payload["eventPlayers"]:
+        by_event.setdefault(player["eventId"], []).append(player)
+    for event in events_payload["events"]:
+        confirmed = by_event.get(event["id"], [])
+        event["confirmedPlayerIds"] = [player["playerId"] for player in confirmed]
+        event["confirmedPlayers"] = [
+            {
+                "playerId": player["playerId"],
+                "name": player["name"],
+                "countryCode": player["countryCode"],
+                "title": player["title"],
+                "fideId": player["fideId"],
+                "classicalRating": player["classicalRating"],
+                "status": player["status"],
+                "source": player["source"],
+            }
+            for player in confirmed
+        ]
+        event["playerIds"] = compact_list(event.get("playerIds", []) + event["confirmedPlayerIds"])
+    return events_payload
+
+
+def event_summaries_by_player(events_payload, event_players_payload):
+    event_lookup = {event["id"]: event for event in events_payload["events"]}
+    by_player = {}
+    for player in event_players_payload["eventPlayers"]:
+        event = event_lookup.get(player["eventId"])
+        if not event:
+            continue
+        by_player.setdefault(player["playerId"], []).append({
+            "eventId": event["id"],
+            "title": event["title"],
+            "status": event["status"],
+            "startDate": event["startDate"],
+            "endDate": event["endDate"],
+            "locationName": event["locationName"],
+            "isOnline": event["isOnline"],
+            "categories": event["categories"],
+            "primaryUrl": event["primaryUrl"],
+            "source": player["source"],
+        })
+    return by_player
+
+
+def build_confirmed_players_feed(events_payload, event_players_payload, events_by_player):
+    players = {}
+    for player in event_players_payload["eventPlayers"]:
+        player_id = player["playerId"]
+        existing = players.get(player_id, {})
+        players[player_id] = {
+            "id": player_id,
+            "name": existing.get("name") or player["name"],
+            "countryCode": existing.get("countryCode") or player["countryCode"],
+            "title": existing.get("title") or player["title"],
+            "fideId": existing.get("fideId") or player["fideId"],
+            "classicalRating": max(filter(None, [existing.get("classicalRating"), player["classicalRating"]]), default=None),
+            "confirmedEventIds": [event["eventId"] for event in events_by_player.get(player_id, [])],
+            "confirmedEvents": events_by_player.get(player_id, []),
+        }
+    ordered_players = sorted(players.values(), key=lambda player: player["name"])
+    return {
+        "generatedAt": iso_now(),
+        "playerCount": len(ordered_players),
+        "source": "confirmedEventRosters",
+        "players": ordered_players,
+    }
+
+
 def collect_source(name, collector, source_results):
     try:
         events = collector()
@@ -866,9 +1061,12 @@ WOMEN_PLAYER_SEEDS = [
 ]
 
 
-def player_entry(rank, name, country, country_code):
+def player_entry(rank, name, country, country_code, events_by_player=None):
+    events_by_player = events_by_player or {}
+    player_id = slugify(name)
+    confirmed_events = events_by_player.get(player_id, [])
     return {
-        "id": slugify(name),
+        "id": player_id,
         "name": name,
         "country": country,
         "countryCode": country_code,
@@ -879,11 +1077,13 @@ def player_entry(rank, name, country, country_code):
         "rapidRating": None,
         "blitzRating": None,
         "profileLinks": {},
+        "confirmedEventIds": [event["eventId"] for event in confirmed_events],
+        "confirmedEvents": confirmed_events,
     }
 
 
-def build_player_feed(list_name, seeds):
-    players = [player_entry(rank, *seed) for rank, seed in enumerate(seeds[:50], start=1)]
+def build_player_feed(list_name, seeds, events_by_player=None):
+    players = [player_entry(rank, *seed, events_by_player=events_by_player) for rank, seed in enumerate(seeds[:50], start=1)]
     return {
         "generatedAt": iso_now(),
         "list": list_name,
@@ -894,10 +1094,16 @@ def build_player_feed(list_name, seeds):
 
 
 def main():
-    write_json("events.json", build_events())
+    events_payload = build_events()
+    event_players_payload = build_event_players(events_payload)
+    events_payload = attach_confirmed_players(events_payload, event_players_payload)
+    events_by_player = event_summaries_by_player(events_payload, event_players_payload)
+    write_json("events.json", events_payload)
+    write_json("event_players.json", event_players_payload)
     write_json("channels.json", build_channels())
-    write_json("players_open.json", build_player_feed("top50_open", OPEN_PLAYER_SEEDS))
-    write_json("players_women.json", build_player_feed("top50_women", WOMEN_PLAYER_SEEDS))
+    write_json("players_confirmed.json", build_confirmed_players_feed(events_payload, event_players_payload, events_by_player))
+    write_json("players_open.json", build_player_feed("top50_open", OPEN_PLAYER_SEEDS, events_by_player))
+    write_json("players_women.json", build_player_feed("top50_women", WOMEN_PLAYER_SEEDS, events_by_player))
 
 
 if __name__ == "__main__":
