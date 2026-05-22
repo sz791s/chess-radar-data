@@ -1,8 +1,10 @@
 import json
 import logging
 import re
+from csv import DictReader
 from datetime import datetime, timedelta, timezone
 from html import unescape
+from io import StringIO
 from pathlib import Path
 from urllib.error import URLError
 from urllib.parse import urlencode, urljoin
@@ -13,10 +15,26 @@ ROOT = Path(__file__).resolve().parents[1]
 LICHESS_BROADCAST_URL = "https://lichess.org/api/broadcast"
 FIDE_CALENDAR_URL = "https://calendar.fide.com/calendar.php"
 FIDE_CALENDAR_ENDPOINT = "https://calendar.fide.com/calendar_server.php"
+CHESSBASE_CALENDAR_URL = "https://en.chessbase.com/post/chess-calendar-2026"
+CHESSAROUND_CALENDAR_URL = "https://calendar.chessaround.com/"
+CHESSDOM_CALENDAR_URL = "https://calendar.chessdom.com/2026-calendar/"
+CHESSDOM_CSV_URL = "https://calendar.chessdom.com/copy-of-chess-calendar-sheet1-3/"
+CHESSMIX_CALENDAR_URL = "https://www.chessmix.com/chess-tournaments/"
+CHESS_CALENDAR_NET_URL = "https://www.chesscalendar.net/"
+CHESSCOM_TOURNAMENTS_URL = "https://www.chess.com/tournaments"
+US_CHESS_PLAN_AHEAD_URL = "https://new.uschess.org/plan-ahead-calendar"
 USER_AGENT = "ChessRadarData/1.0 (+https://sz791s.github.io/chess-radar-data/events.json)"
 
 EVENT_STATUSES = {"upcoming", "live", "completed", "tentative"}
-SOURCE_PRIORITY = {"lichess": 0, "fide": 1, "channel": 2, "organiser": 3, "streamer": 4, "curated": 5}
+SOURCE_PRIORITY = {
+    "lichess": 0,
+    "fide": 1,
+    "chessbase": 2,
+    "chessdom": 3,
+    "organiser": 4,
+    "chessaround": 5,
+    "curated": 6,
+}
 MONTHS = {
     "jan": 1,
     "feb": 2,
@@ -63,6 +81,10 @@ KNOWN_PLAYER_IDS = {
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+class SourceSkipped(Exception):
+    pass
+
+
 def now_utc():
     return datetime.now(timezone.utc)
 
@@ -91,7 +113,7 @@ def parse_date_safely(value):
     if isinstance(value, datetime):
         return value if value.tzinfo else value.replace(tzinfo=timezone.utc)
     text = str(value).strip()
-    for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%d.%m.%Y", "%d/%m/%Y", "%d %b %Y", "%d %B %Y"):
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%d.%m.%Y", "%d/%m/%Y", "%d %b %Y", "%d %B %Y", "%b %d %Y", "%B %d %Y"):
         try:
             return datetime.strptime(text, fmt).replace(tzinfo=timezone.utc)
         except ValueError:
@@ -138,6 +160,7 @@ def compact_list(values):
 def clean_text(value):
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = unescape(value)
+    value = value.replace("\u200d", " ").replace("\ufeff", " ")
     return re.sub(r"\s+", " ", value).strip()
 
 
@@ -220,11 +243,13 @@ def request_text(url, data=None, headers=None, timeout=20):
         return response.read().decode("utf-8", "replace")
 
 
-def event_in_window(event, past_days=90, future_days=365):
+def event_in_window(event, past_days=1, future_days=365):
+    if event.get("status") == "completed":
+        return False
     start = parse_date_safely(event.get("startDate"))
     end = parse_date_safely(event.get("endDate"))
     if not start and not end:
-        return event.get("status") == "tentative"
+        return False
     start = start or end
     end = end or start
     lower = now_utc() - timedelta(days=past_days)
@@ -331,6 +356,30 @@ def infer_categories_from_text(*parts):
     return compact_list(categories)
 
 
+def infer_channel_ids_from_text(*parts):
+    text = " ".join(str(part or "") for part in parts).lower()
+    channel_ids = []
+    checks = [
+        ("chess.com", "chesscom"),
+        ("chesscom", "chesscom"),
+        ("lichess", "lichess"),
+        ("fide", "fide"),
+        ("saint louis", "saint-louis-chess-club"),
+        ("sinquefield", "saint-louis-chess-club"),
+        ("freestyle", "freestyle-chess"),
+        ("fischer random", "freestyle-chess"),
+        ("norway chess", "norway-chess"),
+        ("grand chess tour", "grand-chess-tour"),
+        ("superbet", "grand-chess-tour"),
+        ("superunited", "grand-chess-tour"),
+        ("tata steel", "chessbase-india"),
+    ]
+    for needle, channel_id in checks:
+        if needle in text:
+            channel_ids.append(channel_id)
+    return compact_list(channel_ids)
+
+
 def infer_player_ids_from_text(*parts):
     text = " ".join(str(part or "") for part in parts).lower()
     player_ids = []
@@ -358,274 +407,207 @@ def curated_major_events():
             "links": [{"label": "Official schedule", "type": "official", "url": "https://norwaychess.no/en/schedule-2026/"}],
             "source": {"name": "organiser", "url": "https://norwaychess.no/en/schedule-2026/", "confidence": "high"},
         },
-        {
-            "id": "titled-tuesday",
-            "title": "Titled Tuesday",
-            "shortTitle": "Titled Tuesday",
-            "status": "tentative",
-            "startDate": "2026-01-01T17:00:00Z",
-            "endDate": "2026-12-31T20:00:00Z",
-            "timezone": "UTC",
-            "locationName": "Online",
-            "isOnline": True,
-            "summary": "Chess.com's recurring titled-player online blitz event.",
-            "description": "Titled Tuesday is a recurring Chess.com online event; exact weekly dates are not listed in this static feed.",
-            "categories": ["online", "blitz"],
-            "channelIds": ["chesscom"],
-            "primaryUrl": "https://www.chess.com/article/view/titled-tuesday",
-            "links": [
-                {"label": "Chess.com event info", "type": "official", "url": "https://www.chess.com/article/view/titled-tuesday"},
-                {"label": "Chess.com TV", "type": "watch", "url": "https://www.chess.com/tv"},
-            ],
-            "source": {"name": "chesscom", "url": "https://www.chess.com/article/view/titled-tuesday", "confidence": "medium"},
-        },
-        {
-            "id": "fide-world-rapid-blitz-2026",
-            "title": "FIDE World Rapid & Blitz 2026",
-            "shortTitle": "World Rapid & Blitz",
-            "status": "tentative",
-            "startDate": "2026-12-01T00:00:00Z",
-            "endDate": "2026-12-31T23:59:59Z",
-            "timezone": "UTC",
-            "locationName": "TBD",
-            "summary": "Annual FIDE rapid and blitz world championship event.",
-            "description": "Placeholder for the annual FIDE World Rapid & Blitz; exact 2026 dates should be confirmed before display as a firm event.",
-            "categories": ["rapid", "blitz", "elite"],
-            "channelIds": ["fide"],
-            "primaryUrl": "https://www.fide.com/",
-            "links": [{"label": "FIDE", "type": "official", "url": "https://www.fide.com/"}],
-            "source": {"name": "curated", "url": "https://www.fide.com/", "confidence": "low"},
-        },
     ]
     return [normalize_event(event) for event in raw_events]
 
 
-def organiser_event_links():
-    organisers = [
-        ("chesscom-events", "Chess.com Events", "Chess.com tournament and broadcast hub.", "Online", True, ["online"], ["chesscom"], "https://www.chess.com/events"),
-        ("fide-calendar", "FIDE Calendar", "Official FIDE calendar of rated and official tournaments.", "Worldwide", False, ["classical", "rapid", "blitz"], ["fide"], FIDE_CALENDAR_URL),
-        ("lichess-broadcasts", "Lichess Broadcasts", "Live-board broadcasts for tournaments around the world.", "Online", True, ["broadcast", "online"], ["lichess"], "https://lichess.org/broadcast"),
-        ("saint-louis-chess-club-events", "Saint Louis Chess Club Events", "Major US tournaments and Saint Louis Chess Club broadcasts.", "Saint Louis, USA", False, ["classical", "elite"], ["saint-louis-chess-club"], "https://saintlouischessclub.org/events"),
-        ("freestyle-chess-events", "Freestyle Chess Events", "Freestyle Chess event and broadcast hub.", "Worldwide", False, ["freestyle", "elite"], ["freestyle-chess"], "https://www.freestyle-chess.com/"),
-        ("norway-chess-events", "Norway Chess Events", "Norway Chess official event hub.", "Norway", False, ["classical", "elite"], ["norway-chess"], "https://norwaychess.no/en/"),
-        ("grand-chess-tour-events", "Grand Chess Tour Events", "Grand Chess Tour official event hub.", "Worldwide", False, ["classical", "rapid", "blitz", "elite"], ["grand-chess-tour"], "https://grandchesstour.org/"),
-        ("take-take-take-events", "Take Take Take Event Coverage", "Chess event coverage and commentary hub.", "Online", True, ["broadcast", "online"], ["take-take-take"], "https://www.taketaketake.com/"),
-        ("chessbase-india-events", "ChessBase India Event Coverage", "ChessBase India tournament coverage and videos.", "India", False, ["broadcast"], ["chessbase-india"], "https://www.chessbase.in/"),
-    ]
+def parse_calendar_date_range(date_text, fallback_year):
+    text = clean_text(date_text)
+    if not text:
+        return None, None, True
+    start_date, end_date, tentative = parse_fide_date_text(text, fallback_year)
+    return start_date, end_date, tentative
+
+
+def event_from_calendar_row(source_name, title, date_text, location, url, extra_text="", source_url="", confidence="medium"):
+    title = clean_text(title)
+    location = clean_text(location) or "TBD"
+    start_date, end_date, tentative = parse_calendar_date_range(date_text, now_utc().year)
+    if not title or not start_date:
+        return None
+    source_url = source_url or url
+    categories = infer_categories_from_text(title, extra_text, location)
+    channel_ids = infer_channel_ids_from_text(title, extra_text, location, url)
+    is_online = "online" in location.lower() or "chess.com" in (url or "").lower()
+    return normalize_event({
+        "id": f"{source_name}-{slugify(title)}-{slugify(date_text)}",
+        "title": title,
+        "shortTitle": title,
+        "status": "tentative" if tentative else None,
+        "startDate": start_date,
+        "endDate": end_date,
+        "timezone": "UTC",
+        "locationName": "Online" if is_online else location,
+        "isOnline": is_online,
+        "summary": f"Upcoming chess tournament: {title}.",
+        "description": extra_text or f"Listed by {source_name}: {title}.",
+        "categories": categories,
+        "channelIds": channel_ids,
+        "primaryUrl": url,
+        "links": [
+            {"label": "Event listing", "type": "official", "url": url},
+            {"label": f"{source_name} calendar", "type": "source", "url": source_url},
+        ],
+        "source": {"name": source_name, "url": source_url, "confidence": confidence if not tentative else "low"},
+    })
+
+
+def fetch_chessbase_calendar():
+    html = request_text(CHESSBASE_CALENDAR_URL)
+    story_match = re.search(r'<div class="full-story".*?</BODY>', html, re.S | re.I)
+    story = story_match.group(0) if story_match else html
+    blocks = re.findall(r"<P>(.*?)</P>", story, re.S | re.I)
     events = []
-    for event_id, title, summary, location, is_online, categories, channel_ids, url in organisers:
-        events.append(normalize_event({
-            "id": event_id,
+    current_month = None
+    year = 2026
+    for block in blocks:
+        if "<div" in block.lower() or "shop.chessbase.com" in block:
+            continue
+        month_match = re.search(r"<STRONG>(.*?)</STRONG>", block, re.S | re.I)
+        if month_match:
+            current_month = clean_text(month_match.group(1))
+            continue
+        parts = [clean_text(part) for part in re.split(r"<BR\s*/?>", block, flags=re.I)]
+        parts = [part for part in parts if part and part.lower() != "and"]
+        if len(parts) < 3:
+            continue
+        date_text, title, location = parts[0], parts[1], parts[2]
+        if not re.search(r"\d", date_text):
+            continue
+        if current_month and not any(month in date_text.lower() for month in MONTHS):
+            date_text = f"{date_text} {current_month}"
+        if not re.search(r"\d{4}", date_text):
+            date_text = f"{date_text} {year}"
+        event = event_from_calendar_row(
+            "chessbase",
+            title,
+            date_text,
+            location,
+            CHESSBASE_CALENDAR_URL,
+            "Major event listed in the ChessBase 2026 tournament calendar.",
+            CHESSBASE_CALENDAR_URL,
+            "medium",
+        )
+        if event:
+            events.append(event)
+    return events
+
+
+def fetch_chessaround_calendar(limit=250):
+    html = request_text(CHESSAROUND_CALENDAR_URL)
+    rows = re.findall(r"<li[^>]*>(.*?)</li>", html, re.S | re.I)
+    events = []
+    for row in rows:
+        hidden = clean_text(re.search(r'<span class="hidden">(.*?)</span>', row, re.S | re.I).group(1)) if re.search(r'<span class="hidden">(.*?)</span>', row, re.S | re.I) else ""
+        type_match = re.search(r'title="([^"]+)"\s+class="fa[^"]*"', row)
+        event_type = clean_text(type_match.group(1)) if type_match else hidden
+        date_match = re.search(r'<span class="date">\s*<span class="type">.*?</span>(.*?)</span>', row, re.S | re.I)
+        country_match = re.search(r'<img class="country"[^>]+alt="([^"]+)"', row, re.S | re.I)
+        location_match = re.search(r'<span class="location">.*?<a href="/tournament/view/\d+"[^>]*>(.*?)</a>', row, re.S | re.I)
+        name_match = re.search(r'<span class="name">(.*?)</span>', row, re.S | re.I)
+        detail_match = re.search(r'href="(/tournament/view/\d+)"', row)
+        players_match = re.search(r'<a class="players" href="([^"]+)"', row)
+        if not (date_match and name_match):
+            continue
+        country = clean_text(country_match.group(1)) if country_match else ""
+        city = clean_text(location_match.group(1)) if location_match else ""
+        location = ", ".join(part for part in [city, country] if part) or country or "TBD"
+        detail_url = urljoin(CHESSAROUND_CALENDAR_URL, detail_match.group(1)) if detail_match else CHESSAROUND_CALENDAR_URL
+        event = event_from_calendar_row(
+            "chessaround",
+            clean_text(name_match.group(1)),
+            clean_text(date_match.group(1)),
+            location,
+            detail_url,
+            f"Chessaround listing. Time control/type: {event_type}.",
+            CHESSAROUND_CALENDAR_URL,
+            "medium",
+        )
+        if event and event_type:
+            event["categories"] = compact_list(infer_categories_from_text(event_type, event["title"]) + event["categories"])
+        if event and players_match:
+            event["links"] = normalize_links(event["links"] + [{"label": "Starting list", "type": "players", "url": players_match.group(1)}])
+        if event:
+            events.append(event)
+        if len(events) >= limit:
+            break
+    return events
+
+
+def parse_chessdom_date(value, fallback_year=2026):
+    text = clean_text(value)
+    if not text or not re.search(r"\d", text):
+        return None
+    if not re.search(r"\d{4}", text):
+        text = f"{text} {fallback_year}"
+    return parse_date_safely(text)
+
+
+def fetch_chessdom_calendar():
+    csv_text = request_text(CHESSDOM_CSV_URL)
+    events = []
+    for row in DictReader(StringIO(csv_text)):
+        title = clean_text(row.get("Name"))
+        if not title:
+            continue
+        start = parse_chessdom_date(row.get("Start date"))
+        end = parse_chessdom_date(row.get("End date")) or start
+        if not start:
+            continue
+        location = clean_text(row.get("Location")) or "TBD"
+        url = clean_text(row.get("URL")) or CHESSDOM_CALENDAR_URL
+        extra_text = " ".join(clean_text(row.get(key)) for key in ("Type", "Format", "Category", "Players") if row.get(key))
+        event = normalize_event({
+            "id": f"chessdom-{slugify(title)}-{start.year}",
             "title": title,
             "shortTitle": title,
-            "status": "tentative",
-            "startDate": "2026-01-01T00:00:00Z",
-            "endDate": "2026-12-31T23:59:59Z",
+            "startDate": to_iso(start),
+            "endDate": to_iso(end.replace(hour=23, minute=59, second=59)),
             "timezone": "UTC",
             "locationName": location,
-            "isOnline": is_online,
-            "summary": summary,
-            "description": "Curated organiser source to help Chess Radar surface official chess-following opportunities. Exact individual event dates should come from stronger source entries.",
-            "categories": categories,
-            "channelIds": channel_ids,
+            "isOnline": "online" in location.lower(),
+            "summary": f"Upcoming chess tournament: {title}.",
+            "description": extra_text or "Listed in the Chessdom 2026 tournament calendar.",
+            "categories": infer_categories_from_text(title, extra_text, location),
+            "playerIds": infer_player_ids_from_text(title, row.get("Players")),
+            "channelIds": infer_channel_ids_from_text(title, extra_text, location, url),
             "primaryUrl": url,
-            "links": [{"label": "Official event source", "type": "official", "url": url}],
-            "source": {"name": "organiser", "url": url, "confidence": "low"},
-        }))
+            "links": [
+                {"label": "Event website", "type": "official", "url": url},
+                {"label": "Chessdom calendar", "type": "source", "url": CHESSDOM_CALENDAR_URL},
+            ],
+            "source": {"name": "chessdom", "url": CHESSDOM_CALENDAR_URL, "confidence": "medium"},
+        })
+        events.append(event)
     return events
 
 
-def channel_event_links():
-    channels = [
-        {
-            "id": "chesscom-live-events",
-            "title": "Chess.com Live Events",
-            "summary": "Chess.com live events, tournament pages, and broadcast links.",
-            "location": "Online",
-            "isOnline": True,
-            "categories": ["online", "broadcast"],
-            "channelIds": ["chesscom"],
-            "links": [
-                {"label": "Chess.com Events", "type": "official", "url": "https://www.chess.com/events"},
-                {"label": "Chess.com TV", "type": "watch", "url": "https://www.chess.com/tv"},
-                {"label": "Chess.com Twitch", "type": "watch", "url": "https://www.twitch.tv/chess"},
-                {"label": "Chess.com YouTube", "type": "watch", "url": "https://www.youtube.com/@chesscom"},
-            ],
-        },
-        {
-            "id": "lichess-broadcast-calendar",
-            "title": "Lichess Broadcast Calendar",
-            "summary": "Lichess broadcast index with live boards for tournaments around the world.",
-            "location": "Online",
-            "isOnline": True,
-            "categories": ["online", "broadcast"],
-            "channelIds": ["lichess"],
-            "links": [
-                {"label": "Lichess Broadcasts", "type": "official", "url": "https://lichess.org/broadcast"},
-                {"label": "Lichess TV", "type": "watch", "url": "https://lichess.org/tv"},
-                {"label": "Lichess YouTube", "type": "watch", "url": "https://www.youtube.com/@lichessdotorg"},
-            ],
-        },
-        {
-            "id": "fide-event-coverage",
-            "title": "FIDE Event Coverage",
-            "summary": "FIDE official event calendar, news, and video coverage.",
-            "location": "Worldwide",
-            "isOnline": False,
-            "categories": ["classical", "rapid", "blitz", "elite"],
-            "channelIds": ["fide"],
-            "links": [
-                {"label": "FIDE Calendar", "type": "official", "url": FIDE_CALENDAR_URL},
-                {"label": "FIDE News", "type": "official", "url": "https://www.fide.com/news"},
-                {"label": "FIDE YouTube", "type": "watch", "url": "https://www.youtube.com/@FIDE_chess"},
-            ],
-        },
-        {
-            "id": "saint-louis-chess-club-broadcasts",
-            "title": "Saint Louis Chess Club Broadcasts",
-            "summary": "Saint Louis Chess Club tournament broadcasts and event coverage.",
-            "location": "Saint Louis, USA",
-            "isOnline": False,
-            "categories": ["classical", "rapid", "blitz", "broadcast", "elite"],
-            "channelIds": ["saint-louis-chess-club"],
-            "links": [
-                {"label": "Saint Louis events", "type": "official", "url": "https://saintlouischessclub.org/events"},
-                {"label": "Saint Louis Twitch", "type": "watch", "url": "https://www.twitch.tv/stlchessclub"},
-                {"label": "Saint Louis YouTube", "type": "watch", "url": "https://www.youtube.com/@STLChessClub"},
-            ],
-        },
-        {
-            "id": "freestyle-chess-broadcasts",
-            "title": "Freestyle Chess Broadcasts",
-            "summary": "Freestyle Chess event pages and official video coverage.",
-            "location": "Worldwide",
-            "isOnline": False,
-            "categories": ["freestyle", "broadcast", "elite"],
-            "channelIds": ["freestyle-chess"],
-            "links": [
-                {"label": "Freestyle Chess", "type": "official", "url": "https://www.freestyle-chess.com/"},
-                {"label": "Freestyle Chess YouTube", "type": "watch", "url": "https://www.youtube.com/@FreestyleChess"},
-            ],
-        },
-        {
-            "id": "chessbase-india-coverage",
-            "title": "ChessBase India Coverage",
-            "summary": "ChessBase India tournament coverage, live streams, news, and videos.",
-            "location": "India",
-            "isOnline": False,
-            "categories": ["broadcast"],
-            "channelIds": ["chessbase-india"],
-            "links": [
-                {"label": "ChessBase India", "type": "official", "url": "https://www.chessbase.in/"},
-                {"label": "ChessBase India YouTube", "type": "watch", "url": "https://www.youtube.com/@ChessBaseIndiachannel"},
-            ],
-        },
-    ]
-    events = []
-    for channel in channels:
-        primary_url = channel["links"][0]["url"]
-        events.append(normalize_event({
-            "id": channel["id"],
-            "title": channel["title"],
-            "shortTitle": channel["title"],
-            "status": "tentative",
-            "startDate": "2026-01-01T00:00:00Z",
-            "endDate": "2026-12-31T23:59:59Z",
-            "timezone": "UTC",
-            "locationName": channel["location"],
-            "isOnline": channel["isOnline"],
-            "summary": channel["summary"],
-            "description": "Curated channel source. This entry points users toward official event and watch pages; it does not claim a channel is live.",
-            "categories": channel["categories"],
-            "channelIds": channel["channelIds"],
-            "primaryUrl": primary_url,
-            "links": channel["links"],
-            "source": {"name": "channel", "url": primary_url, "confidence": "low"},
-        }))
-    return events
+def fetch_chessmix_calendar():
+    html = request_text(CHESSMIX_CALENDAR_URL)
+    if "Subscribe now" in html or "If you are not subscribed" in html:
+        raise SourceSkipped("public Chessmix page does not expose tournament rows without a subscription")
+    return []
 
 
-def streamer_watch_events():
-    streamers = [
-        {
-            "id": "hikaru-streams",
-            "title": "Hikaru Streams",
-            "shortTitle": "Hikaru",
-            "summary": "GM Hikaru Nakamura's chess stream and video channels.",
-            "channelIds": ["hikaru"],
-            "links": [
-                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/gmhikaru"},
-                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/gmhikaru/schedule"},
-                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@GMHikaru"},
-            ],
-        },
-        {
-            "id": "gothamchess-videos",
-            "title": "GothamChess Videos",
-            "shortTitle": "GothamChess",
-            "summary": "Levy Rozman's chess recaps, lessons, tournament coverage, and commentary.",
-            "channelIds": ["gothamchess"],
-            "links": [{"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@GothamChess"}],
-        },
-        {
-            "id": "botezlive-streams",
-            "title": "BotezLive Streams",
-            "shortTitle": "BotezLive",
-            "summary": "Alexandra and Andrea Botez chess streams and videos.",
-            "channelIds": ["botezlive"],
-            "links": [
-                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/botezlive"},
-                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/botezlive/schedule"},
-                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@BotezLive"},
-            ],
-        },
-        {
-            "id": "anna-cramling-streams",
-            "title": "Anna Cramling Streams",
-            "shortTitle": "Anna Cramling",
-            "summary": "Anna Cramling's chess streams, videos, and event coverage.",
-            "channelIds": ["anna-cramling"],
-            "links": [
-                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/annacramling"},
-                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/annacramling/schedule"},
-                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@AnnaCramling"},
-            ],
-        },
-        {
-            "id": "eric-rosen-streams",
-            "title": "Eric Rosen Streams",
-            "shortTitle": "Eric Rosen",
-            "summary": "IM Eric Rosen's educational chess streams and videos.",
-            "channelIds": ["eric-rosen"],
-            "links": [
-                {"label": "Twitch channel", "type": "watch", "url": "https://www.twitch.tv/imrosen"},
-                {"label": "Twitch schedule", "type": "schedule", "url": "https://www.twitch.tv/imrosen/schedule"},
-                {"label": "YouTube channel", "type": "watch", "url": "https://www.youtube.com/@EricRosen"},
-            ],
-        },
-    ]
-    events = []
-    for streamer in streamers:
-        primary_url = streamer["links"][0]["url"]
-        events.append(normalize_event({
-            "id": streamer["id"],
-            "title": streamer["title"],
-            "shortTitle": streamer["shortTitle"],
-            "status": "tentative",
-            "startDate": "2026-01-01T00:00:00Z",
-            "endDate": "2026-12-31T23:59:59Z",
-            "timezone": "UTC",
-            "locationName": "Online",
-            "isOnline": True,
-            "summary": streamer["summary"],
-            "description": "Curated streamer watch entry. Twitch schedule links are included where known, but no live status is claimed without an authenticated source.",
-            "categories": ["online", "broadcast"],
-            "channelIds": streamer["channelIds"],
-            "primaryUrl": primary_url,
-            "links": streamer["links"],
-            "source": {"name": "streamer", "url": primary_url, "confidence": "low"},
-        }))
-    return events
+def fetch_chess_calendar_net():
+    html = request_text(CHESS_CALENDAR_NET_URL)
+    if "apps.apple.com" in html and "play.google.com" in html:
+        raise SourceSkipped("public chesscalendar.net page is an app landing page, not a dated event feed")
+    return []
+
+
+def fetch_chesscom_tournaments():
+    html = request_text(CHESSCOM_TOURNAMENTS_URL)
+    if "Daily Tournaments" in html:
+        raise SourceSkipped("public Chess.com tournaments page lists ongoing daily tournaments without calendar start dates")
+    return []
+
+
+def fetch_us_chess_plan_ahead():
+    html = request_text(US_CHESS_PLAN_AHEAD_URL)
+    if "Plan Ahead" not in html:
+        raise SourceSkipped("US Chess page did not expose parseable Plan Ahead event rows")
+    return []
 
 
 def lichess_event_from_item(item):
@@ -805,6 +787,10 @@ def collect_source(name, collector, source_results):
         events = collector()
         add_source_result(source_results, name, "ok", len(events))
         return events
+    except SourceSkipped as exc:
+        logging.info("%s source skipped: %s", name, exc)
+        add_source_result(source_results, name, "skipped", 0, exc)
+        return []
     except (OSError, URLError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
         logging.error("%s source failed: %s", name, exc)
         add_source_result(source_results, name, "error", 0, exc)
@@ -815,11 +801,15 @@ def build_events():
     source_results = []
     events = []
     events.extend(collect_source("curated", curated_major_events, source_results))
-    events.extend(collect_source("organiser", organiser_event_links, source_results))
-    events.extend(collect_source("channel", channel_event_links, source_results))
-    events.extend(collect_source("streamer", streamer_watch_events, source_results))
     events.extend(collect_source("lichess", fetch_lichess_broadcasts, source_results))
     events.extend(collect_source("fide", fetch_fide_calendar, source_results))
+    events.extend(collect_source("chessbase", fetch_chessbase_calendar, source_results))
+    events.extend(collect_source("chessaround", fetch_chessaround_calendar, source_results))
+    events.extend(collect_source("chessdom", fetch_chessdom_calendar, source_results))
+    events.extend(collect_source("chessmix", fetch_chessmix_calendar, source_results))
+    events.extend(collect_source("chesscalendar.net", fetch_chess_calendar_net, source_results))
+    events.extend(collect_source("chesscom", fetch_chesscom_tournaments, source_results))
+    events.extend(collect_source("uschess", fetch_us_chess_plan_ahead, source_results))
     events = future_streamer_enrichment(events)
     events = dedupe_events(events)
     events.sort(key=sort_event_key)
