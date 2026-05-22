@@ -324,6 +324,106 @@ def title_key(title):
     return re.sub(r"[^a-z0-9]+", " ", (title or "").lower()).strip()
 
 
+TITLE_STOPWORDS = {
+    "the",
+    "chess",
+    "tournament",
+    "championship",
+    "championships",
+    "festival",
+    "international",
+    "open",
+    "classic",
+    "classical",
+    "2025",
+    "2026",
+}
+
+DISTINCT_TITLE_TOKENS = {
+    "women",
+    "womens",
+    "girls",
+    "rapid",
+    "blitz",
+    "junior",
+    "youth",
+    "cadet",
+    "team",
+    "freestyle",
+    "fischer",
+    "random",
+    "960",
+    "amateur",
+    "masters",
+    "master",
+    "gm",
+    "im",
+    "fm",
+    "section",
+    "group",
+    "category",
+    "sub",
+    "u8",
+    "u10",
+    "u12",
+    "u14",
+    "u16",
+    "u18",
+    "u20",
+}
+
+
+def title_tokens(title):
+    normalized = (title or "").lower()
+    roman_numbers = {
+        " i ": " 1 ",
+        " ii ": " 2 ",
+        " iii ": " 3 ",
+        " iv ": " 4 ",
+        " v ": " 5 ",
+        " vi ": " 6 ",
+        " vii ": " 7 ",
+        " viii ": " 8 ",
+        " ix ": " 9 ",
+        " x ": " 10 ",
+    }
+    normalized = f" {normalized} "
+    for roman, number in roman_numbers.items():
+        normalized = normalized.replace(roman, number)
+    raw_tokens = re.findall(r"[a-z0-9]+", normalized)
+    return [token for token in raw_tokens if token not in TITLE_STOPWORDS and not re.fullmatch(r"\d+(st|nd|rd|th)?", token)]
+
+
+def title_similarity(a_title, b_title):
+    a_tokens = set(title_tokens(a_title))
+    b_tokens = set(title_tokens(b_title))
+    if not a_tokens or not b_tokens:
+        return 0
+    overlap = len(a_tokens & b_tokens)
+    return overlap / max(len(a_tokens), len(b_tokens))
+
+
+def has_conflicting_distinct_tokens(a_title, b_title):
+    a_tokens = set(title_tokens(a_title))
+    b_tokens = set(title_tokens(b_title))
+    a_distinct = a_tokens & DISTINCT_TITLE_TOKENS
+    b_distinct = b_tokens & DISTINCT_TITLE_TOKENS
+    return bool(a_distinct ^ b_distinct)
+
+
+def similar_event_title(a, b):
+    if title_key(a["title"]) == title_key(b["title"]) or a["id"] == b["id"]:
+        return True
+    if has_conflicting_distinct_tokens(a["title"], b["title"]):
+        return False
+    similarity = title_similarity(a["title"], b["title"])
+    if similarity >= 0.72:
+        return True
+    a_key = " ".join(title_tokens(a["title"]))
+    b_key = " ".join(title_tokens(b["title"]))
+    return len(a_key) >= 10 and len(b_key) >= 10 and (a_key in b_key or b_key in a_key)
+
+
 def dates_overlap(a, b):
     a_start = parse_date_safely(a.get("startDate"))
     b_start = parse_date_safely(b.get("startDate"))
@@ -359,7 +459,9 @@ def preferred_event(a, b):
         b_priority = -1
     if a_priority != b_priority:
         return (a, b) if a_priority < b_priority else (b, a)
-    return (a, b) if len(a.get("links", [])) >= len(b.get("links", [])) else (b, a)
+    a_info_score = len(a.get("links", [])) + len(a.get("playerIds", [])) + len(a.get("channelIds", [])) + len(a.get("categories", []))
+    b_info_score = len(b.get("links", [])) + len(b.get("playerIds", [])) + len(b.get("channelIds", [])) + len(b.get("categories", []))
+    return (a, b) if a_info_score >= b_info_score else (b, a)
 
 
 def dedupe_events(events):
@@ -370,9 +472,7 @@ def dedupe_events(events):
             continue
         duplicate_index = None
         for index, existing in enumerate(deduped):
-            same_title = title_key(existing["title"]) == title_key(event["title"])
-            same_slug = existing["id"] == event["id"]
-            if (same_title or same_slug) and dates_overlap(existing, event):
+            if similar_event_title(existing, event) and dates_overlap(existing, event):
                 duplicate_index = index
                 break
         if duplicate_index is None:

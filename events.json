@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-22T13:37:06Z",
-  "eventCount": 271,
+  "generatedAt": "2026-05-22T13:41:32Z",
+  "eventCount": 246,
   "sources": [
     {
       "name": "curated",
@@ -84,7 +84,8 @@
         "bogdan-daniel-deac"
       ],
       "channelIds": [
-        "fide"
+        "fide",
+        "grand-chess-tour"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=10671",
       "links": [
@@ -97,6 +98,11 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://en.chessbase.com/post/chess-calendar-2026"
         }
       ],
       "source": {
@@ -236,41 +242,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "chessbase-superbet-classic-romania-12-to-24-may-2026",
-      "title": "Superbet Classic Romania",
-      "shortTitle": "Superbet Classic Romania",
-      "status": "live",
-      "startDate": "2026-05-12T00:00:00Z",
-      "endDate": "2026-05-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Bucharest, Romania",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Superbet Classic Romania.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "grand-chess-tour"
-      ],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "fide-african-youth-chess-championship-2026-14-23-may",
@@ -500,47 +471,6 @@
       ]
     },
     {
-      "id": "fide-commonwealth-chess-championship-2026-16-26-may",
-      "title": "Commonwealth Chess Championship 2026",
-      "shortTitle": "Commonwealth Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-05-16T00:00:00Z",
-      "endDate": "2026-05-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Kaluthara, SRI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Commonwealth Chess Championship 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12932",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12932"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-radnickichess-im-and-fm-rating-tournaments-16-23-may",
       "title": "RADNICKICHESS IM and FM rating tournaments",
       "shortTitle": "RADNICKICHESS IM and FM rating tournaments",
@@ -644,7 +574,8 @@
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "lichess",
+        "fide"
       ],
       "primaryUrl": "https://lichess.org/broadcast/commonwealth-chess-championship-2026--open/ZkmOuhDQ",
       "links": [
@@ -657,6 +588,16 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1413419.aspx?lan=1&flag=30&turdet=YES&SNode=S0"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12932"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -751,194 +692,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-jje2jykw",
-      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12",
-      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12",
-      "status": "live",
-      "startDate": "2026-05-21T16:10:00Z",
-      "endDate": "2026-05-23T23:10:00Z",
-      "timezone": "America/Mexico_City",
-      "locationName": "San Luis Potosi, México",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12/jje2jykw",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12/jje2jykw"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fenamac.info/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1420018.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-ntuzv3ri",
-      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12 Fem",
-      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 12 Fem",
-      "status": "live",
-      "startDate": "2026-05-21T16:10:00Z",
-      "endDate": "2026-05-23T23:10:00Z",
-      "timezone": "America/Mexico_City",
-      "locationName": "San Luis Potosi, México",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12-fem/NTuZV3RI",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12-fem/NTuZV3RI"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fenamac.info/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1420358.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-53inpp4u",
-      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 16",
-      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 16",
-      "status": "live",
-      "startDate": "2026-05-21T16:10:00Z",
-      "endDate": "2026-05-23T23:10:00Z",
-      "timezone": "America/Mexico_City",
-      "locationName": "San Luis Potosi, México",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-16/53inPP4U",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-16/53inPP4U"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fenamac.info/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1419927.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-6lc3xfbo",
-      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 16 Fem",
-      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 16 Fem",
-      "status": "live",
-      "startDate": "2026-05-21T16:10:00Z",
-      "endDate": "2026-05-23T23:10:00Z",
-      "timezone": "America/Mexico_City",
-      "locationName": "San Luis Potosi, México",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-16-fem/6LC3XFbo",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-16-fem/6LC3XFbo"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fenamac.info/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1419949.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-f4tbr77m",
       "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 20",
       "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 20",
@@ -975,48 +728,51 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1419875.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-jqq0q7td",
-      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 20 Fem",
-      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Clásico Sub 20 Fem",
-      "status": "live",
-      "startDate": "2026-05-21T16:10:00Z",
-      "endDate": "2026-05-23T23:10:00Z",
-      "timezone": "America/Mexico_City",
-      "locationName": "San Luis Potosi, México",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-20-fem/Jqq0q7tD",
-      "links": [
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12-fem/NTuZV3RI"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1420358.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-12/jje2jykw"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1420018.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-16-fem/6LC3XFbo"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1419949.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-16/53inPP4U"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1419927.aspx?art=1"
+        },
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--clasico-sub-20-fem/Jqq0q7tD"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fenamac.info/"
         },
         {
           "label": "Standings",
@@ -1316,53 +1072,6 @@
           "label": "Official website",
           "type": "official",
           "url": "https://www.chesstour.com/chio26.htm"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-ugkqq9b2",
-      "title": "Caissa Hotel IM/GM Tournament - Guitar Group | Category A",
-      "shortTitle": "Caissa Hotel IM/GM Tournament - Guitar Group | Category A",
-      "status": "live",
-      "startDate": "2026-05-22T13:10:00Z",
-      "endDate": "2026-05-27T13:10:00Z",
-      "timezone": "Europe/Istanbul",
-      "locationName": "Altınova - Türkiye",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-a/ugkQQ9B2",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-a/ugkQQ9B2"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.caissachessclub.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1371904.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
         }
       ],
       "source": {
@@ -3718,47 +3427,6 @@
       ]
     },
     {
-      "id": "fide-7th-coop-saaremaa-chess-festival-rapid-23-24-may",
-      "title": "7th Coop Saaremaa Chess Festival - Rapid",
-      "shortTitle": "7th Coop Saaremaa Chess Festival - Rapid",
-      "status": "upcoming",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Kuressaare, EST",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 7th Coop Saaremaa Chess Festival - Rapid.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14802",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14802"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-bad-ischler-fide-rated-blitz-event-23may",
       "title": "Bad Ischler FIDE-rated blitz event",
       "shortTitle": "Bad Ischler FIDE-rated blitz event",
@@ -3943,7 +3611,8 @@
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "lichess",
+        "fide"
       ],
       "primaryUrl": "https://lichess.org/broadcast/vii-coop-saaremaa-chess-festival-rapid-tournament/3WtrkTDg",
       "links": [
@@ -3961,6 +3630,16 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s1.chess-results.com/tnr1419865.aspx?lan=1&art=0&SNode=S0"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14802"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -4051,92 +3730,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessbase-european-women-s-championship-24-may-to-6-june-2026",
-      "title": "European Women's Championship",
-      "shortTitle": "European Women's Championship",
-      "status": "upcoming",
-      "startDate": "2026-05-24T00:00:00Z",
-      "endDate": "2026-06-06T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Batumi, Georgia",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Women's Championship.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-european-women-s-chess-championship-2026-24-may-6-jun",
-      "title": "European Women's Chess Championship 2026",
-      "shortTitle": "European Women's Chess Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-05-24T00:00:00Z",
-      "endDate": "2026-06-06T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Batumi, GEO",
-      "isOnline": false,
-      "summary": "FIDE calendar event: European Women's Chess Championship 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=5200",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=5200"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-qrxgkgfg",
       "title": "Caissa Hotel IM/GM Tournament - Guitar Group | Category B",
       "shortTitle": "Caissa Hotel IM/GM Tournament - Guitar Group | Category B",
@@ -4173,6 +3766,16 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/tnr1396629.aspx?lan=1&art=1&turdet=YES&flag=30&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-a/ugkQQ9B2"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1371904.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
         }
       ],
       "source": {
@@ -4471,7 +4074,8 @@
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "lichess",
+        "fide"
       ],
       "primaryUrl": "https://lichess.org/broadcast/25th-european-womens-chess-championship-2026/YK8WhTv2",
       "links": [
@@ -4489,6 +4093,31 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1368962.aspx?art=1"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=5200"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -5409,88 +5038,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-3rd-uzchess-cup-challengers-8-15-jun",
-      "title": "3rd Uzchess Cup, Challengers",
-      "shortTitle": "3rd Uzchess Cup, Challengers",
-      "status": "upcoming",
-      "startDate": "2026-06-08T00:00:00Z",
-      "endDate": "2026-06-15T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Tashkent, UZB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 3rd Uzchess Cup, Challengers.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15415",
-      "links": [
+        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=15415"
         },
         {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-3rd-uzchess-cup-futures-8-15-jun",
-      "title": "3rd Uzchess Cup, Futures",
-      "shortTitle": "3rd Uzchess Cup, Futures",
-      "status": "upcoming",
-      "startDate": "2026-06-08T00:00:00Z",
-      "endDate": "2026-06-15T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Tashkent, UZB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 3rd Uzchess Cup, Futures.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15416",
-      "links": [
-        {
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=15416"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -10435,36 +9992,7 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessbase-world-youth-championship-u14-u16-u18-14-to-27-june-2026",
-      "title": "World Youth Championship U14, U16, U18",
-      "shortTitle": "World Youth Championship U14, U16, U18",
-      "status": "upcoming",
-      "startDate": "2026-06-14T00:00:00Z",
-      "endDate": "2026-06-27T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Montesilvano, Italy",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: World Youth Championship U14, U16, U18.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -10472,8 +10000,8 @@
         }
       ],
       "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -11383,47 +10911,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-6th-llinars-international-chess-open-2026-25-jun-4-jul",
-      "title": "6th LLINARS INTERNATIONAL CHESS OPEN 2026",
-      "shortTitle": "6th LLINARS INTERNATIONAL CHESS OPEN 2026",
-      "status": "upcoming",
-      "startDate": "2026-06-25T00:00:00Z",
-      "endDate": "2026-07-04T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Llinars del Vallès, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 6th LLINARS INTERNATIONAL CHESS OPEN 2026.",
-      "description": "Time control: other",
-      "categories": [
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15980",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15980"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-open-kasparov-chess-foundation-festival-25-30-jun",
       "title": "Open - Kasparov Chess Foundation Festival",
       "shortTitle": "Open - Kasparov Chess Foundation Festival",
@@ -11497,6 +10984,11 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=15980"
         },
         {
           "label": "Event listing",
@@ -11775,17 +11267,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-lince-and-jar-chess-open-27-jun-3-jul-2026",
-      "title": "Lince Andújar Chess Open",
-      "shortTitle": "Lince Andújar Chess Open",
+      "id": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "title": "Lince Andújar Chess Open 2026",
+      "shortTitle": "Lince Andújar Chess Open 2026",
       "status": "upcoming",
       "startDate": "2026-06-27T00:00:00Z",
       "endDate": "2026-07-03T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Andújar, Spain",
+      "locationName": "Andújar, ESP",
       "isOnline": false,
-      "summary": "Upcoming chess tournament: Lince Andújar Chess Open.",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "summary": "FIDE calendar event: Lince Andújar Chess Open 2026.",
+      "description": "Time control: Standard",
       "categories": [
         "classical",
         "open",
@@ -11878,9 +11370,21 @@
         "alonso-ferron-porras",
         "erwin-zimprich-garcia"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/577",
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
       "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14858"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -11898,8 +11402,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -13268,48 +12772,6 @@
       ]
     },
     {
-      "id": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
-      "title": "Lince Andújar Chess Open 2026",
-      "shortTitle": "Lince Andújar Chess Open 2026",
-      "status": "upcoming",
-      "startDate": "2026-06-27T00:00:00Z",
-      "endDate": "2026-07-03T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Andújar, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Lince Andújar Chess Open 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14858"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessaround-xxiv-najdorf-memorial-27-jun-5-jul-2026",
       "title": "XXIV Najdorf Memorial",
       "shortTitle": "XXIV Najdorf Memorial",
@@ -14001,47 +13463,11 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-xxxix-torneo-magistral-de-ajedrez-ciudad-de-leon-3-5-jul",
-      "title": "XXXIX TORNEO MAGISTRAL DE AJEDREZ CIUDAD DE LEON.",
-      "shortTitle": "XXXIX TORNEO MAGISTRAL DE AJEDREZ CIUDAD DE LEON.",
-      "status": "upcoming",
-      "startDate": "2026-07-03T00:00:00Z",
-      "endDate": "2026-07-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "LEON, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XXXIX TORNEO MAGISTRAL DE AJEDREZ CIUDAD DE LEON..",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13539",
-      "links": [
+        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=13539"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -16168,41 +15594,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessbase-european-youth-team-championship-16-to-26-july-2026",
-      "title": "European Youth Team Championship",
-      "shortTitle": "European Youth Team Championship",
-      "status": "upcoming",
-      "startDate": "2026-07-16T00:00:00Z",
-      "endDate": "2026-07-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Pardubice, Czech Republic",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Youth Team Championship.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "team",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessaround-10th-international-irena-warakomska-memorial-17-24-jul-2026",
       "title": "10th International Irena Warakomska Memorial",
       "shortTitle": "10th International Irena Warakomska Memorial",
@@ -16260,7 +15651,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "otb"
+        "otb",
+        "open"
       ],
       "playerIds": [],
       "channelIds": [
@@ -16277,37 +15669,7 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-19th-paleochora-open-chess-tournament-18-25-jul-2026",
-      "title": "19th Paleochora Open Chess Tournament",
-      "shortTitle": "19th Paleochora Open Chess Tournament",
-      "status": "upcoming",
-      "startDate": "2026-07-18T00:00:00Z",
-      "endDate": "2026-07-25T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Paleochora, Greece",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 19th Paleochora Open Chess Tournament.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/566",
-      "links": [
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -16320,8 +15682,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -16954,47 +16316,11 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-30-battle-of-senta-b-23-28-jul",
-      "title": "30.Battle of Senta B",
-      "shortTitle": "30.Battle of Senta B",
-      "status": "upcoming",
-      "startDate": "2026-07-23T00:00:00Z",
-      "endDate": "2026-07-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Senta, SRB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 30.Battle of Senta B.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15306",
-      "links": [
+        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=15306"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -18239,47 +17565,6 @@
         "classical",
         "otb"
       ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14612",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14612"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-      "title": "Brasov Grand Prix Classic 2026",
-      "shortTitle": "Brasov Grand Prix Classic 2026",
-      "status": "upcoming",
-      "startDate": "2026-07-25T00:00:00Z",
-      "endDate": "2026-07-31T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Brasov, Romania",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Brasov Grand Prix Classic 2026.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "otb"
-      ],
       "playerIds": [
         "martin-petrov",
         "momchil-petkov",
@@ -18303,9 +17588,21 @@
         "asaf-goldstein",
         "praveen-adwaith"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14612",
       "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14612"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -18323,8 +17620,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -18703,6 +18000,11 @@
           "url": "https://calendar.fide.com/calendar.php"
         },
         {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
           "label": "Event website",
           "type": "official",
           "url": "https://www.europechess.org/ecu-calendar-2026/"
@@ -18794,37 +18096,7 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-      "title": "35th International Chess Open Tournament of Kavala 2025",
-      "shortTitle": "35th International Chess Open Tournament of Kavala 2025",
-      "status": "upcoming",
-      "startDate": "2026-07-27T00:00:00Z",
-      "endDate": "2026-08-04T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Kavala, Greece",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 35th International Chess Open Tournament of Kavala 2025.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-      "links": [
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -18837,8 +18109,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -19622,45 +18894,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-53rd-international-dortmund-chess-days-1-9-aug-2026",
-      "title": "53rd International Dortmund Chess Days",
-      "shortTitle": "53rd International Dortmund Chess Days",
-      "status": "upcoming",
-      "startDate": "2026-08-01T00:00:00Z",
-      "endDate": "2026-08-09T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Dortmund, Germany",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 53rd International Dortmund Chess Days.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/569",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/569"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-53rd-international-dortmund-chess-days-sparkassen-chess-trophy-1-9-aug",
       "title": "53rd International Dortmund Chess Days - Sparkassen Chess Trophy",
       "shortTitle": "53rd International Dortmund Chess Days - Sparkassen Chess Trophy",
@@ -19673,7 +18906,8 @@
       "summary": "FIDE calendar event: 53rd International Dortmund Chess Days - Sparkassen Chess Trophy.",
       "description": "Time control: other",
       "categories": [
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [
@@ -19690,6 +18924,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/569"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
         }
       ],
       "source": {
@@ -20084,49 +19328,8 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14621",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14621"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-19th-arad-open-grand-prix-classic-3-9-aug-2026",
-      "title": "19th Arad Open Grand Prix Classic",
-      "shortTitle": "19th Arad Open Grand Prix Classic",
-      "status": "upcoming",
-      "startDate": "2026-08-03T00:00:00Z",
-      "endDate": "2026-08-09T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Arad, Romania",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 19th Arad Open Grand Prix Classic.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
+        "otb",
+        "open"
       ],
       "playerIds": [
         "mex",
@@ -20148,9 +19351,21 @@
         "isr",
         "mas"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/591",
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14621",
       "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14621"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -20168,8 +19383,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -22991,46 +22206,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessdom-european-youth-chess-championship-2026-2026",
-      "title": "European Youth Chess Championship 2026",
-      "shortTitle": "European Youth Chess Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-30T00:00:00Z",
-      "endDate": "2026-11-10T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Rhodes - Greece",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Youth Chess Championship 2026.",
-      "description": "Continental Classical Juniors",
-      "categories": [
-        "classical",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
-      "links": [
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "chessdom",
-        "url": "https://calendar.chessdom.com/2026-calendar/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessaround-29-offene-internationale-bayerische-schachmeisterschaft-31-oct-8-nov-2026",
       "title": "29. Offene Internationale Bayerische Schachmeisterschaft",
       "shortTitle": "29. Offene Internationale Bayerische Schachmeisterschaft",
@@ -23123,7 +22298,8 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -23133,6 +22309,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
