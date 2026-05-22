@@ -243,7 +243,15 @@ def request_text(url, data=None, headers=None, timeout=20):
         return response.read().decode("utf-8", "replace")
 
 
-def event_in_window(event, past_days=1, future_days=365):
+def event_duration_days(event):
+    start = parse_date_safely(event.get("startDate"))
+    end = parse_date_safely(event.get("endDate")) or start
+    if not start or not end:
+        return None
+    return (end - start).total_seconds() / 86400
+
+
+def event_in_window(event, past_days=1, future_days=365, max_duration_days=31):
     if event.get("status") == "completed":
         return False
     start = parse_date_safely(event.get("startDate"))
@@ -252,6 +260,9 @@ def event_in_window(event, past_days=1, future_days=365):
         return False
     start = start or end
     end = end or start
+    duration_days = event_duration_days(event)
+    if duration_days is not None and duration_days > max_duration_days:
+        return False
     lower = now_utc() - timedelta(days=past_days)
     upper = now_utc() + timedelta(days=future_days)
     return end >= lower and start <= upper
