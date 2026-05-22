@@ -78,6 +78,26 @@ KNOWN_PLAYER_IDS = {
     "magnus carlsen": "magnus-carlsen",
 }
 
+PLAYER_COUNTRY_CODES = {
+    "alireza-firouzja": "FRA",
+    "anish-giri": "NED",
+    "arjun-erigaisi": "IND",
+    "bogdan-daniel-deac": "ROU",
+    "divya-deshmukh": "IND",
+    "fabiano-caruana": "USA",
+    "gukesh-dommaraju": "IND",
+    "humpy-koneru": "IND",
+    "jorden-van-foreest": "NED",
+    "ju-wenjun": "CHN",
+    "magnus-carlsen": "NOR",
+    "maxime-vachier-lagrave": "FRA",
+    "praggnanandhaa-rameshbabu": "IND",
+    "r-praggnanandhaa": "IND",
+    "vincent-keymer": "GER",
+    "wesley-so": "USA",
+    "zhu-jiner": "CHN",
+}
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
@@ -900,10 +920,117 @@ def fetch_event_players_for_event(event):
     return players
 
 
+CURATED_TOP_PLAYER_ROSTERS = [
+    {
+        "eventTitleContains": "norway chess 2026",
+        "excludeTitleContains": "women",
+        "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high",
+        },
+        "players": [
+            "Magnus Carlsen",
+            "Vincent Keymer",
+            "Alireza Firouzja",
+            "Gukesh Dommaraju",
+            "R Praggnanandhaa",
+            "Wesley So",
+        ],
+    },
+    {
+        "eventTitleContains": "norway chess women 2026",
+        "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high",
+        },
+        "players": [
+            "Ju Wenjun",
+            "Humpy Koneru",
+            "Zhu Jiner",
+            "Divya Deshmukh",
+        ],
+    },
+    {
+        "eventTitleContains": "super chess classic romania",
+        "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high",
+        },
+        "players": [
+            "Fabiano Caruana",
+            "Anish Giri",
+            "Vincent Keymer",
+            "Alireza Firouzja",
+            "Wesley So",
+            "R Praggnanandhaa",
+            "Maxime Vachier-Lagrave",
+            "Bogdan-Daniel Deac",
+        ],
+    },
+    {
+        "eventTitleContains": "superbet chess classic romania",
+        "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high",
+        },
+        "players": [
+            "Fabiano Caruana",
+            "Anish Giri",
+            "Vincent Keymer",
+            "Alireza Firouzja",
+            "Wesley So",
+            "R Praggnanandhaa",
+            "Maxime Vachier-Lagrave",
+            "Bogdan-Daniel Deac",
+        ],
+    },
+]
+
+
+def curated_player_record(event_id, player_name, source):
+    player_id = slugify(player_name)
+    return {
+        "eventId": event_id,
+        "playerId": player_id,
+        "name": player_name,
+        "countryCode": PLAYER_COUNTRY_CODES.get(player_id),
+        "title": "GM",
+        "fideId": None,
+        "classicalRating": None,
+        "status": "confirmed",
+        "source": source,
+    }
+
+
+def curated_top_player_rosters(events):
+    players = []
+    seen = set()
+    for event in events:
+        title = event["title"].lower()
+        for roster in CURATED_TOP_PLAYER_ROSTERS:
+            include = roster["eventTitleContains"] in title
+            exclude = roster.get("excludeTitleContains") and roster["excludeTitleContains"] in title
+            if not include or exclude:
+                continue
+            for player_name in roster["players"]:
+                player = curated_player_record(event["id"], player_name, roster["source"])
+                key = (player["eventId"], player["playerId"])
+                if key in seen:
+                    continue
+                seen.add(key)
+                players.append(player)
+    return players
+
+
 def build_event_players(events_payload):
     players = []
     for event in events_payload["events"]:
         players.extend(fetch_event_players_for_event(event))
+    players.extend(curated_top_player_rosters(events_payload["events"]))
     return {
         "generatedAt": iso_now(),
         "eventPlayerCount": len(players),
@@ -912,6 +1039,11 @@ def build_event_players(events_payload):
                 "name": "chess-results",
                 "status": "ok",
                 "count": sum(1 for player in players if player["source"]["name"] == "chess-results"),
+            },
+            {
+                "name": "curated",
+                "status": "ok",
+                "count": sum(1 for player in players if player["source"]["name"] in {"official", "chessbase"}),
             }
         ],
         "eventPlayers": players,

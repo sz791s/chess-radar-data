@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T08:49:17Z",
+  "generatedAt": "2026-05-22T09:05:30Z",
   "eventCount": 271,
   "sources": [
     {
@@ -52,8 +52,9 @@
     },
     {
       "name": "uschess",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP Error 403: Forbidden"
     }
   ],
   "events": [
@@ -72,7 +73,16 @@
       "categories": [
         "otb"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "fabiano-caruana",
+        "anish-giri",
+        "vincent-keymer",
+        "alireza-firouzja",
+        "wesley-so",
+        "r-praggnanandhaa",
+        "maxime-vachier-lagrave",
+        "bogdan-daniel-deac"
+      ],
       "channelIds": [
         "fide"
       ],
@@ -94,8 +104,130 @@
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
+      "confirmedPlayerIds": [
+        "fabiano-caruana",
+        "anish-giri",
+        "vincent-keymer",
+        "alireza-firouzja",
+        "wesley-so",
+        "r-praggnanandhaa",
+        "maxime-vachier-lagrave",
+        "bogdan-daniel-deac"
+      ],
+      "confirmedPlayers": [
+        {
+          "playerId": "fabiano-caruana",
+          "name": "Fabiano Caruana",
+          "countryCode": "USA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "anish-giri",
+          "name": "Anish Giri",
+          "countryCode": "NED",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vincent-keymer",
+          "name": "Vincent Keymer",
+          "countryCode": "GER",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alireza-firouzja",
+          "name": "Alireza Firouzja",
+          "countryCode": "FRA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "wesley-so",
+          "name": "Wesley So",
+          "countryCode": "USA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "r-praggnanandhaa",
+          "name": "R Praggnanandhaa",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "maxime-vachier-lagrave",
+          "name": "Maxime Vachier-Lagrave",
+          "countryCode": "FRA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bogdan-daniel-deac",
+          "name": "Bogdan-Daniel Deac",
+          "countryCode": "ROU",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        }
+      ]
     },
     {
       "id": "chessbase-superbet-classic-romania-12-to-24-may-2026",
@@ -190,7 +322,16 @@
         "broadcast",
         "otb"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "fabiano-caruana",
+        "anish-giri",
+        "vincent-keymer",
+        "alireza-firouzja",
+        "wesley-so",
+        "r-praggnanandhaa",
+        "maxime-vachier-lagrave",
+        "bogdan-daniel-deac"
+      ],
       "channelIds": [
         "lichess"
       ],
@@ -217,8 +358,130 @@
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
       },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
+      "confirmedPlayerIds": [
+        "fabiano-caruana",
+        "anish-giri",
+        "vincent-keymer",
+        "alireza-firouzja",
+        "wesley-so",
+        "r-praggnanandhaa",
+        "maxime-vachier-lagrave",
+        "bogdan-daniel-deac"
+      ],
+      "confirmedPlayers": [
+        {
+          "playerId": "fabiano-caruana",
+          "name": "Fabiano Caruana",
+          "countryCode": "USA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "anish-giri",
+          "name": "Anish Giri",
+          "countryCode": "NED",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vincent-keymer",
+          "name": "Vincent Keymer",
+          "countryCode": "GER",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alireza-firouzja",
+          "name": "Alireza Firouzja",
+          "countryCode": "FRA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "wesley-so",
+          "name": "Wesley So",
+          "countryCode": "USA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "r-praggnanandhaa",
+          "name": "R Praggnanandhaa",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "maxime-vachier-lagrave",
+          "name": "Maxime Vachier-Lagrave",
+          "countryCode": "FRA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bogdan-daniel-deac",
+          "name": "Bogdan-Daniel Deac",
+          "countryCode": "ROU",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "chessbase",
+            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
+            "confidence": "high"
+          }
+        }
+      ]
     },
     {
       "id": "fide-commonwealth-chess-championship-2026-16-26-may",
@@ -3788,7 +4051,14 @@
         "classical",
         "elite"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "magnus-carlsen",
+        "vincent-keymer",
+        "alireza-firouzja",
+        "gukesh-dommaraju",
+        "r-praggnanandhaa",
+        "wesley-so"
+      ],
       "channelIds": [
         "fide",
         "norway-chess"
@@ -3816,8 +4086,100 @@
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
+      "confirmedPlayerIds": [
+        "magnus-carlsen",
+        "vincent-keymer",
+        "alireza-firouzja",
+        "gukesh-dommaraju",
+        "r-praggnanandhaa",
+        "wesley-so"
+      ],
+      "confirmedPlayers": [
+        {
+          "playerId": "magnus-carlsen",
+          "name": "Magnus Carlsen",
+          "countryCode": "NOR",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vincent-keymer",
+          "name": "Vincent Keymer",
+          "countryCode": "GER",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alireza-firouzja",
+          "name": "Alireza Firouzja",
+          "countryCode": "FRA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "gukesh-dommaraju",
+          "name": "Gukesh Dommaraju",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "r-praggnanandhaa",
+          "name": "R Praggnanandhaa",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "wesley-so",
+          "name": "Wesley So",
+          "countryCode": "USA",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        }
+      ]
     },
     {
       "id": "fide-norway-chess-women-2026-25-may-5-jun",
@@ -3835,7 +4197,12 @@
         "women",
         "otb"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "ju-wenjun",
+        "humpy-koneru",
+        "zhu-jiner",
+        "divya-deshmukh"
+      ],
       "channelIds": [
         "fide"
       ],
@@ -3857,8 +4224,70 @@
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
+      "confirmedPlayerIds": [
+        "ju-wenjun",
+        "humpy-koneru",
+        "zhu-jiner",
+        "divya-deshmukh"
+      ],
+      "confirmedPlayers": [
+        {
+          "playerId": "ju-wenjun",
+          "name": "Ju Wenjun",
+          "countryCode": "CHN",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "humpy-koneru",
+          "name": "Humpy Koneru",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "zhu-jiner",
+          "name": "Zhu Jiner",
+          "countryCode": "CHN",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "divya-deshmukh",
+          "name": "Divya Deshmukh",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        }
+      ]
     },
     {
       "id": "lichess-yk8whtv2",
