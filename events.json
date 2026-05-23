@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-23T02:03:14Z",
-  "eventCount": 261,
+  "generatedAt": "2026-05-23T08:06:40Z",
+  "eventCount": 260,
   "sources": [
     {
       "name": "curated",
@@ -1002,7 +1002,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Steinitz Open 2026.",
-      "description": "146 listed players. 11 rounds. 1 scheduled stream links",
+      "description": "153 listed players. 11 rounds. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast",
@@ -1049,7 +1049,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Shanghai Haiwan Cup New Stars 2026.",
-      "description": "8 listed players",
+      "description": "16 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1482,48 +1482,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-25959",
-      "title": "2026 Kapiti Rapid",
-      "shortTitle": "2026 Kapiti Rapid",
-      "status": "live",
-      "startDate": "2026-05-22T21:30:00Z",
-      "endDate": "2026-05-23T05:30:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 2026 Kapiti Rapid.",
-      "description": "30 listed players. 6 rounds",
-      "categories": [
-        "rapid",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-kapiti-rapid",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-kapiti-rapid"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -4054,7 +4012,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Qualification Dutch Championship.",
-      "description": "14 listed players. 13 rounds",
+      "description": "15 listed players. 13 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -4128,7 +4086,7 @@
       "id": "chesscom-25886",
       "title": "7th Open Blitz Tournament 2026, by SOXalandriou",
       "shortTitle": "7th Open Blitz Tournament 2026, by SOXalandriou",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-23T05:00:00Z",
       "endDate": "2026-05-23T20:00:00Z",
       "timezone": "UTC",
@@ -4171,14 +4129,14 @@
       "id": "chesscom-25904",
       "title": "Czech Woman Rapid Championship 2026",
       "shortTitle": "Czech Woman Rapid Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-23T07:20:00Z",
       "endDate": "2026-05-23T14:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Czech Woman Rapid Championship 2026.",
-      "description": "9 rounds",
+      "description": "32 listed players. 9 rounds",
       "categories": [
         "rapid",
         "online",
@@ -4210,53 +4168,11 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-tkvh1b2a",
-      "title": "XVII Rapid Tournament in Marki Poland",
-      "shortTitle": "XVII Rapid Tournament in Marki Poland",
-      "status": "upcoming",
-      "startDate": "2026-05-23T08:00:00Z",
-      "endDate": "2026-05-23T08:00:00Z",
-      "timezone": "Europe/Warsaw",
-      "locationName": "Marki, Poland",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "rapid",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/xvii-rapid-tournament-in-marki-poland/TKVh1b2A",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xvii-rapid-tournament-in-marki-poland/TKVh1b2A"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.chessmanager.com/pl-pl/tournaments/6360243030327296"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-3wtrktdg",
       "title": "VII Coop Saaremaa Chess Festival Rapid Tournament",
       "shortTitle": "VII Coop Saaremaa Chess Festival Rapid Tournament",
-      "status": "upcoming",
-      "startDate": "2026-05-23T08:15:00Z",
+      "status": "live",
+      "startDate": "2026-05-23T08:05:00Z",
       "endDate": "2026-05-24T07:45:00Z",
       "timezone": "Europe/Tallinn",
       "locationName": "Kuressaare, Estonia",
@@ -4385,6 +4301,47 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25902",
+      "title": "IV IRT de Xadrez Rápido Beeoz Sports",
+      "shortTitle": "IV IRT de Xadrez Rápido Beeoz Sports",
+      "status": "upcoming",
+      "startDate": "2026-05-23T15:30:00Z",
+      "endDate": "2026-05-23T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: IV IRT de Xadrez Rápido Beeoz Sports.",
+      "description": "6 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/iv-irt-de-xadrez-rapido-beeoz-sports",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/iv-irt-de-xadrez-rapido-beeoz-sports"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
