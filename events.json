@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-23T08:06:40Z",
-  "eventCount": 260,
+  "generatedAt": "2026-05-23T13:00:10Z",
+  "eventCount": 261,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 31
+      "count": 34
     },
     {
       "name": "uschess",
@@ -405,192 +405,6 @@
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-p3ctk4xs",
-      "title": "GCT: Super Chess Classic Romania 2026",
-      "shortTitle": "GCT: Super Chess Classic Romania 2026",
-      "status": "live",
-      "startDate": "2026-05-14T13:10:00Z",
-      "endDate": "2026-05-23T11:10:00Z",
-      "timezone": "Europe/Bucharest",
-      "locationName": "București, Romania",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [
-        "fabiano-caruana",
-        "anish-giri",
-        "vincent-keymer",
-        "alireza-firouzja",
-        "wesley-so",
-        "r-praggnanandhaa",
-        "maxime-vachier-lagrave",
-        "bogdan-daniel-deac"
-      ],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/gct-super-chess-classic-romania-2026/p3ctK4xS",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/gct-super-chess-classic-romania-2026/p3ctK4xS"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-super-chess-classic-romania/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-super-chess-classic-romania/results/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [
-        "fabiano-caruana",
-        "anish-giri",
-        "vincent-keymer",
-        "alireza-firouzja",
-        "wesley-so",
-        "r-praggnanandhaa",
-        "maxime-vachier-lagrave",
-        "bogdan-daniel-deac"
-      ],
-      "confirmedPlayers": [
-        {
-          "playerId": "fabiano-caruana",
-          "name": "Fabiano Caruana",
-          "countryCode": "USA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anish-giri",
-          "name": "Anish Giri",
-          "countryCode": "NED",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vincent-keymer",
-          "name": "Vincent Keymer",
-          "countryCode": "GER",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alireza-firouzja",
-          "name": "Alireza Firouzja",
-          "countryCode": "FRA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "wesley-so",
-          "name": "Wesley So",
-          "countryCode": "USA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "r-praggnanandhaa",
-          "name": "R Praggnanandhaa",
-          "countryCode": "IND",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "maxime-vachier-lagrave",
-          "name": "Maxime Vachier-Lagrave",
-          "countryCode": "FRA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "bogdan-daniel-deac",
-          "name": "Bogdan-Daniel Deac",
-          "countryCode": "ROU",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        }
-      ]
     },
     {
       "id": "fide-radnickichess-im-and-fm-rating-tournaments-16-23-may",
@@ -1002,7 +816,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Steinitz Open 2026.",
-      "description": "153 listed players. 11 rounds. 1 scheduled stream links",
+      "description": "162 listed players. 11 rounds. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast",
@@ -1387,6 +1201,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-26066",
+      "title": "Shri Dhanpat Rai Sachdeva Memorial Below 1800 FIDE Rated",
+      "shortTitle": "Shri Dhanpat Rai Sachdeva Memorial Below 1800 FIDE Rated",
+      "status": "live",
+      "startDate": "2026-05-22T04:00:00Z",
+      "endDate": "2026-05-24T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Shri Dhanpat Rai Sachdeva Memorial Below 1800 FIDE Rated.",
+      "description": "657 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/shri-dhanpat-rai-sachdeva-memorial-below-1800-fide-rated",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/shri-dhanpat-rai-sachdeva-memorial-below-1800-fide-rated"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-odtrxscm",
       "title": "18th BPB Limburg Open | Match",
       "shortTitle": "18th BPB Limburg Open | Match",
@@ -1434,48 +1290,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1421329.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-xbx2kgb7",
-      "title": "Perth Congress | Major",
-      "shortTitle": "Perth Congress | Major",
-      "status": "live",
-      "startDate": "2026-05-22T17:36:31Z",
-      "endDate": "2026-05-25T14:15:00Z",
-      "timezone": "Europe/London",
-      "locationName": "Perth",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7 Round Swiiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/perth-congress--major/Xbx2KGb7",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/perth-congress--major/Xbx2KGb7"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1404201.aspx"
         }
       ],
       "source": {
@@ -4227,37 +4041,37 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-uldrgtqo",
-      "title": "India Rising 2026 | Indian Qualifier",
-      "shortTitle": "India Rising 2026 | Indian Qualifier",
+      "id": "lichess-gugsepnf",
+      "title": "FedeU-CENFOTEC 2026 | Absoluto",
+      "shortTitle": "FedeU-CENFOTEC 2026 | Absoluto",
       "status": "upcoming",
-      "startDate": "2026-05-23T11:00:00Z",
-      "endDate": "2026-05-23T11:00:00Z",
-      "timezone": "Asia/Hong_Kong",
-      "locationName": "Online",
-      "isOnline": true,
+      "startDate": "2026-05-23T15:00:00Z",
+      "endDate": "2026-05-23T15:00:00Z",
+      "timezone": "America/Costa_Rica",
+      "locationName": "Auditorio Richard Beck Hemickle, Universidad CENFOTEC, San José, Costa Rica",
+      "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "description": "6 rondas",
       "categories": [
         "classical",
         "broadcast",
-        "online"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/india-rising-2026--indian-qualifier/ulDrGtQo",
+      "primaryUrl": "https://lichess.org/broadcast/fedeu-cenfotec-2026--absoluto/gUgSEPnF",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/india-rising-2026--indian-qualifier/ulDrGtQo"
+          "url": "https://lichess.org/broadcast/fedeu-cenfotec-2026--absoluto/gUgSEPnF"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://liquipedia.net/chess/India_Rising/2026"
+          "url": "https://s2.chess-results.com/tnr1422262.aspx?lan=2&turdet=YES&SNode=S0"
         }
       ],
       "source": {
@@ -4336,6 +4150,96 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-26076",
+      "title": "2026 Washington Open",
+      "shortTitle": "2026 Washington Open",
+      "status": "upcoming",
+      "startDate": "2026-05-23T17:00:00Z",
+      "endDate": "2026-05-24T07:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Washington Open.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-washington-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-washington-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25985",
+      "title": "5to Torneo Batalla de Las Piedras - Las Piedras Shopping Blitz Open",
+      "shortTitle": "5to Torneo Batalla de Las Piedras - Las Piedras Shopping Blitz Open",
+      "status": "upcoming",
+      "startDate": "2026-05-23T19:00:00Z",
+      "endDate": "2026-05-23T22:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 5to Torneo Batalla de Las Piedras - Las Piedras Shopping Blitz Open.",
+      "description": "9 rounds. 1 scheduled stream links",
+      "categories": [
+        "blitz",
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/5to-torneo-batalla-de-las-piedras-las-piedras-shopping-blitz-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/5to-torneo-batalla-de-las-piedras-las-piedras-shopping-blitz-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "5to Torneo Batalla de Las Piedras",
+          "type": "stream",
+          "url": "https://www.twitch.tv/tacticamente"
         }
       ],
       "source": {
@@ -8317,7 +8221,6 @@
         "otb"
       ],
       "playerIds": [
-        "anton-demchenko",
         "paulius-pultinevicius",
         "emin-ohanyan",
         "jiri-stocek",
@@ -8466,7 +8369,6 @@
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
-        "anton-demchenko",
         "paulius-pultinevicius",
         "emin-ohanyan",
         "jiri-stocek",
@@ -8591,21 +8493,6 @@
         "sumin-kim"
       ],
       "confirmedPlayers": [
-        {
-          "playerId": "anton-demchenko",
-          "name": "Anton Demchenko",
-          "countryCode": "SLO",
-          "title": "GM",
-          "fideId": "4160258",
-          "classicalRating": 2611,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
         {
           "playerId": "paulius-pultinevicius",
           "name": "Paulius Pultinevicius",
