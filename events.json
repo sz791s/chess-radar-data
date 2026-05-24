@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T02:12:09Z",
+  "generatedAt": "2026-05-24T08:16:56Z",
   "eventCount": 253,
   "sources": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 30
+      "count": 28
     },
     {
       "name": "uschess",
@@ -652,7 +652,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Steinitz Open 2026.",
-      "description": "169 listed players. 11 rounds. 1 scheduled stream links",
+      "description": "176 listed players. 11 rounds. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast",
@@ -903,7 +903,7 @@
       "shortTitle": "Shri Dhanpat Rai Sachdeva Memorial Below 1800 FIDE Rated",
       "status": "live",
       "startDate": "2026-05-22T04:00:00Z",
-      "endDate": "2026-05-24T13:00:00Z",
+      "endDate": "2026-05-24T18:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
@@ -935,6 +935,54 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-ptjg51tb",
+      "title": "13. Krefelder Pfingstopen 2026",
+      "shortTitle": "13. Krefelder Pfingstopen 2026",
+      "status": "live",
+      "startDate": "2026-05-22T16:45:00Z",
+      "endDate": "2026-05-26T13:45:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Krefeld, Germany",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/13-krefelder-pfingstopen-2026/pTJg51tB",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/13-krefelder-pfingstopen-2026/pTJg51tB"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.turm-krefeld.de/index.php/turniere/pfingst-open"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1421361.aspx?lan=0&SNode=S0&tno=1421361&zeilen=99999"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1108,7 +1156,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 4th Munich Chess Festival.",
-      "description": "104 listed players",
+      "description": "119 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1346,6 +1394,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-7th-coop-saaremaa-chess-festival-rapid-23-24-may",
+      "title": "7th Coop Saaremaa Chess Festival - Rapid",
+      "shortTitle": "7th Coop Saaremaa Chess Festival - Rapid",
+      "status": "live",
+      "startDate": "2026-05-23T00:00:00Z",
+      "endDate": "2026-05-24T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Kuressaare, EST",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 7th Coop Saaremaa Chess Festival - Rapid.",
+      "description": "Time control: Rapid",
+      "categories": [
+        "rapid",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14802",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14802"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-im-fm-round-robin-radnicki-kovin-23-29-may-2026-23-29-may",
       "title": "IM & FM Round Robin \"Radnicki\" Kovin 23-29 May 2026",
       "shortTitle": "IM & FM Round Robin \"Radnicki\" Kovin 23-29 May 2026",
@@ -1387,47 +1476,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-25927",
-      "title": "Qualification Dutch Championship",
-      "shortTitle": "Qualification Dutch Championship",
-      "status": "live",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-24T06:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Qualification Dutch Championship.",
-      "description": "15 listed players. 13 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/qualification-dutch-championship",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/qualification-dutch-championship"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-silves-international-chess-tournament-2026-23-30-may",
       "title": "Silves International Chess Tournament 2026",
       "shortTitle": "Silves International Chess Tournament 2026",
@@ -1463,65 +1511,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-3wtrktdg",
-      "title": "VII Coop Saaremaa Chess Festival Rapid Tournament",
-      "shortTitle": "VII Coop Saaremaa Chess Festival Rapid Tournament",
-      "status": "live",
-      "startDate": "2026-05-23T08:05:00Z",
-      "endDate": "2026-05-24T07:35:00Z",
-      "timezone": "Europe/Tallinn",
-      "locationName": "Kuressaare, Estonia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "11-round Swiss",
-      "categories": [
-        "rapid",
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "fide"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/vii-coop-saaremaa-chess-festival-rapid-tournament/3WtrkTDg",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/vii-coop-saaremaa-chess-festival-rapid-tournament/3WtrkTDg"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://maleliit.ee/et/uudised/15-eesti/7545-vii-coop-saaremaa-malefestival-2026"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1419865.aspx?lan=1&art=0&SNode=S0"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14802"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1581,80 +1570,104 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-26076",
-      "title": "2026 Washington Open",
-      "shortTitle": "2026 Washington Open",
+      "id": "lichess-qrxgkgfg",
+      "title": "Caissa Hotel IM/GM Tournament - Guitar Group | Category B",
+      "shortTitle": "Caissa Hotel IM/GM Tournament - Guitar Group | Category B",
       "status": "live",
-      "startDate": "2026-05-23T17:00:00Z",
-      "endDate": "2026-05-24T07:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 2026 Washington Open.",
-      "description": "65 listed players",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-washington-open",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-washington-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-tqobfoog",
-      "title": "Bratislava Regional Rapid & Freestyle Championships 2026 | Rapid - Reti Memorial",
-      "shortTitle": "Bratislava Regional Rapid & Freestyle Championships 2026 | Rapid - Reti Memorial",
-      "status": "upcoming",
-      "startDate": "2026-05-24T07:15:00Z",
-      "endDate": "2026-05-24T07:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Pezinok, Slovakia",
+      "startDate": "2026-05-24T07:10:00Z",
+      "endDate": "2026-05-28T11:10:00Z",
+      "timezone": "Europe/Istanbul",
+      "locationName": "Altınova - Türkiye",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "description": "10-player round-robin",
       "categories": [
-        "rapid",
+        "classical",
         "broadcast",
-        "freestyle",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/bratislava-regional-rapid--freestyle-championships-2026--rapid-reti-memorial/tqoBFoOg",
+      "primaryUrl": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-b/QrXGkGfG",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/bratislava-regional-rapid--freestyle-championships-2026--rapid-reti-memorial/tqoBFoOg"
+          "url": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-b/QrXGkGfG"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.caissachessclub.com/"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://chess-results.com/tnr1405010.aspx?lan=1&art=1"
+          "url": "https://s3.chess-results.com/tnr1396629.aspx?lan=1&art=1&turdet=YES&flag=30&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-a/ugkQQ9B2"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1371904.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-cqtopnld",
+      "title": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Rápido 25+5 Sub 12",
+      "shortTitle": "Olimpiada Nacional CONADE San Luis Potosí 2026 | Rápido 25+5 Sub 12",
+      "status": "upcoming",
+      "startDate": "2026-05-24T16:05:00Z",
+      "endDate": "2026-05-24T16:05:00Z",
+      "timezone": "America/Mexico_City",
+      "locationName": "San Luis Potosi, México",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7-round Swiss",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--rapido-255-sub-12/CQtOpnLD",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--rapido-255-sub-12/CQtOpnLD"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://fenamac.info/"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--rapido-255-sub-16/4U9mn1zY"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/olimpiada-nacional-conade-san-luis-potosi-2026--rapido-255-sub-20/ElniOXzP"
         }
       ],
       "source": {
