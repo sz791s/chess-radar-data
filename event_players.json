@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-24T19:01:28Z",
-  "eventPlayerCount": 582,
+  "generatedAt": "2026-05-25T02:31:02Z",
+  "eventPlayerCount": 575,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 568
+      "count": 569
     },
     {
       "name": "curated",
       "status": "ok",
-      "count": 14
+      "count": 6
     }
   ],
   "eventPlayers": [
@@ -5656,6 +5656,21 @@
     },
     {
       "eventId": "chessaround-9-open-bohumin-2026-4-12-jul-2026",
+      "playerId": "kornel-garwacki",
+      "name": "Kornel Garwacki",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21856206",
+      "classicalRating": 1967,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-9-open-bohumin-2026-4-12-jul-2026",
       "playerId": "katarzyna-krajewska",
       "name": "Katarzyna Krajewska",
       "countryCode": "POL",
@@ -8531,126 +8546,6 @@
       "source": {
         "name": "chess-results",
         "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "fabiano-caruana",
-      "name": "Fabiano Caruana",
-      "countryCode": "USA",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "anish-giri",
-      "name": "Anish Giri",
-      "countryCode": "NED",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "vincent-keymer",
-      "name": "Vincent Keymer",
-      "countryCode": "GER",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "alireza-firouzja",
-      "name": "Alireza Firouzja",
-      "countryCode": "FRA",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "wesley-so",
-      "name": "Wesley So",
-      "countryCode": "USA",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "r-praggnanandhaa",
-      "name": "R Praggnanandhaa",
-      "countryCode": "IND",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "maxime-vachier-lagrave",
-      "name": "Maxime Vachier-Lagrave",
-      "countryCode": "FRA",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-superbet-chess-classic-romania-12-24-may",
-      "playerId": "bogdan-daniel-deac",
-      "name": "Bogdan-Daniel Deac",
-      "countryCode": "ROU",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
         "confidence": "high"
       }
     },

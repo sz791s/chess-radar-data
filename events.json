@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T19:01:16Z",
-  "eventCount": 249,
+  "generatedAt": "2026-05-25T02:30:49Z",
+  "eventCount": 245,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 25
+      "count": 22
     },
     {
       "name": "uschess",
@@ -82,47 +82,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/9th-redbandit-chess-classic"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-26003",
-      "title": "Madison Area Chess Club - May The Force Be With You 2026",
-      "shortTitle": "Madison Area Chess Club - May The Force Be With You 2026",
-      "status": "live",
-      "startDate": "2026-05-06T21:30:00Z",
-      "endDate": "2026-05-28T01:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Madison Area Chess Club - May The Force Be With You 2026.",
-      "description": "4 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/madison-area-chess-club-may-the-force-be-with-you-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/madison-area-chess-club-may-the-force-be-with-you-2026"
         },
         {
           "label": "Chess.com current events",
@@ -178,233 +137,6 @@
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-25104",
-      "title": "6th U1800 Standard Tournament 2026, by SOXalandriou (A Group)",
-      "shortTitle": "6th U1800 Standard Tournament 2026, by SOXalandriou (A Group)",
-      "status": "live",
-      "startDate": "2026-05-10T05:00:00Z",
-      "endDate": "2026-05-24T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 6th U1800 Standard Tournament 2026, by SOXalandriou (A Group).",
-      "description": "28 listed players. 6 rounds",
-      "categories": [
-        "classical",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/6th-u1800-standard-tournament-2026-by-soxalandriou-a-group",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/6th-u1800-standard-tournament-2026-by-soxalandriou-a-group"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-superbet-chess-classic-romania-12-24-may",
-      "title": "Superbet Chess Classic Romania",
-      "shortTitle": "Superbet Chess Classic Romania",
-      "status": "live",
-      "startDate": "2026-05-12T00:00:00Z",
-      "endDate": "2026-05-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Bucharest, ROU",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Superbet Chess Classic Romania.",
-      "description": "Time control: other",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [
-        "fabiano-caruana",
-        "anish-giri",
-        "vincent-keymer",
-        "alireza-firouzja",
-        "wesley-so",
-        "r-praggnanandhaa",
-        "maxime-vachier-lagrave",
-        "bogdan-daniel-deac"
-      ],
-      "channelIds": [
-        "fide",
-        "grand-chess-tour"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=10671",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=10671"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [
-        "fabiano-caruana",
-        "anish-giri",
-        "vincent-keymer",
-        "alireza-firouzja",
-        "wesley-so",
-        "r-praggnanandhaa",
-        "maxime-vachier-lagrave",
-        "bogdan-daniel-deac"
-      ],
-      "confirmedPlayers": [
-        {
-          "playerId": "fabiano-caruana",
-          "name": "Fabiano Caruana",
-          "countryCode": "USA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anish-giri",
-          "name": "Anish Giri",
-          "countryCode": "NED",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vincent-keymer",
-          "name": "Vincent Keymer",
-          "countryCode": "GER",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alireza-firouzja",
-          "name": "Alireza Firouzja",
-          "countryCode": "FRA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "wesley-so",
-          "name": "Wesley So",
-          "countryCode": "USA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "r-praggnanandhaa",
-          "name": "R Praggnanandhaa",
-          "countryCode": "IND",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "maxime-vachier-lagrave",
-          "name": "Maxime Vachier-Lagrave",
-          "countryCode": "FRA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "bogdan-daniel-deac",
-          "name": "Bogdan-Daniel Deac",
-          "countryCode": "ROU",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chessbase",
-            "url": "https://en.chessbase.com/post/super-classic-romania-2026-live",
-            "confidence": "high"
-          }
-        }
-      ]
     },
     {
       "id": "lichess-lc2subst",
@@ -540,48 +272,6 @@
       "source": {
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-5th-karshi-open-19-24-may",
-      "title": "5th Karshi Open",
-      "shortTitle": "5th Karshi Open",
-      "status": "live",
-      "startDate": "2026-05-19T00:00:00Z",
-      "endDate": "2026-05-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Karshi, UZB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 5th Karshi Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16245",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16245"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -755,43 +445,48 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-26052",
-      "title": "Check & Mate Open",
-      "shortTitle": "Check & Mate Open",
+      "id": "lichess-aqcujvnk",
+      "title": "39. Internationale Haßlocher Schachtage",
+      "shortTitle": "39. Internationale Haßlocher Schachtage",
       "status": "live",
-      "startDate": "2026-05-22T03:00:00Z",
-      "endDate": "2026-05-25T01:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Check & Mate Open.",
-      "description": "95 listed players",
+      "startDate": "2026-05-22T16:45:00Z",
+      "endDate": "2026-05-25T12:15:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Haßloch",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7-round Swiss",
       "categories": [
-        "online",
+        "classical",
         "broadcast",
-        "open"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "chesscom"
+        "lichess"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/check-mate-open",
+      "primaryUrl": "https://lichess.org/broadcast/39-internationale-halocher-schachtage/AqcUjvnK",
       "links": [
         {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/check-mate-open"
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/39-internationale-halocher-schachtage/AqcUjvnK"
         },
         {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.schachclub-1926-hassloch.de/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1349842.aspx"
         }
       ],
       "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1156,47 +851,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-7th-coop-saaremaa-chess-festival-rapid-23-24-may",
-      "title": "7th Coop Saaremaa Chess Festival - Rapid",
-      "shortTitle": "7th Coop Saaremaa Chess Festival - Rapid",
-      "status": "live",
-      "startDate": "2026-05-23T00:00:00Z",
-      "endDate": "2026-05-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Kuressaare, EST",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 7th Coop Saaremaa Chess Festival - Rapid.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14802",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14802"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-im-fm-round-robin-radnicki-kovin-23-29-may-2026-23-29-may",
       "title": "IM & FM Round Robin \"Radnicki\" Kovin 23-29 May 2026",
       "shortTitle": "IM & FM Round Robin \"Radnicki\" Kovin 23-29 May 2026",
@@ -1321,6 +975,48 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-cthmdxnk",
+      "title": "Round Robin Chess Club Radnick Kovin 23-29 May 2026 | IM",
+      "shortTitle": "Round Robin Chess Club Radnick Kovin 23-29 May 2026 | IM",
+      "status": "live",
+      "startDate": "2026-05-23T15:00:00Z",
+      "endDate": "2026-05-29T08:00:00Z",
+      "timezone": "Europe/Belgrade",
+      "locationName": "Kovin, Serbia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/round-robin-chess-club-radnick-kovin-23-29-may-2026--im/CthMDxnk",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/round-robin-chess-club-radnick-kovin-23-29-may-2026--im/CthMDxnk"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1365613.aspx?art=1"
         }
       ],
       "source": {
@@ -11300,6 +10996,7 @@
         "veronika-vancakova",
         "alex-macosek",
         "jan-didi",
+        "kornel-garwacki",
         "katarzyna-krajewska",
         "mat-j-lorenc",
         "otto-hurtak",
@@ -11345,6 +11042,7 @@
         "veronika-vancakova",
         "alex-macosek",
         "jan-didi",
+        "kornel-garwacki",
         "katarzyna-krajewska",
         "mat-j-lorenc",
         "otto-hurtak",
@@ -11554,6 +11252,21 @@
           "title": null,
           "fideId": "312428",
           "classicalRating": 1973,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "kornel-garwacki",
+          "name": "Kornel Garwacki",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "21856206",
+          "classicalRating": 1967,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
