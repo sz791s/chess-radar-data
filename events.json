@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T09:48:12Z",
-  "eventCount": 81,
+  "generatedAt": "2026-05-25T14:33:52Z",
+  "eventCount": 80,
   "sources": [
     {
       "name": "curated",
@@ -233,7 +233,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 13th Cherry Blossom Chess 2026.",
-      "description": "105 listed players. 9 rounds",
+      "description": "108 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -307,117 +307,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-j7hm1s3h",
-      "title": "Perth Congress | Open",
-      "shortTitle": "Perth Congress | Open",
-      "status": "live",
-      "startDate": "2026-05-22T16:52:21Z",
-      "endDate": "2026-05-25T14:15:00Z",
-      "timezone": "Europe/London",
-      "locationName": "Perth, Scotland",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7 Round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/perth-congress--open/j7Hm1S3H",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/perth-congress--open/j7Hm1S3H"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1404136.aspx"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/perth-congress--major/Xbx2KGb7"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1404201.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-odtrxscm",
-      "title": "18th BPB Limburg Open | Match",
-      "shortTitle": "18th BPB Limburg Open | Match",
-      "status": "live",
-      "startDate": "2026-05-22T17:00:00Z",
-      "endDate": "2026-05-25T13:00:00Z",
-      "timezone": "Europe/Amsterdam",
-      "locationName": "Maastricht",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "4 round match",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/18th-bpb-limburg-open--match/ODtRxScm",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/18th-bpb-limburg-open--match/ODtRxScm"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://limburgopen.nl/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1421348.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/18th-bpb-limburg-open--open/1YCj0QmP"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1421329.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-25929",
       "title": "4th Munich Chess Festival",
       "shortTitle": "4th Munich Chess Festival",
@@ -428,7 +317,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 4th Munich Chess Festival.",
-      "description": "118 listed players",
+      "description": "119 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -638,6 +527,54 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-s24kx8fr",
+      "title": "Munich Chess Festival 2026 | Open A",
+      "shortTitle": "Munich Chess Festival 2026 | Open A",
+      "status": "live",
+      "startDate": "2026-05-23T16:15:00Z",
+      "endDate": "2026-05-29T08:15:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "München, Germany",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/munich-chess-festival-2026--open-a/s24kx8Fr",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/munich-chess-festival-2026--open-a/s24kx8Fr"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "http://www.schachfestivalmuenchen.de/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1329313.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-25868",
       "title": "German Youth Championships 2026",
       "shortTitle": "German Youth Championships 2026",
@@ -648,7 +585,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: German Youth Championships 2026.",
-      "description": "60 listed players",
+      "description": "164 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -730,7 +667,7 @@
       "id": "lichess-yk8whtv2",
       "title": "25th European Women's Chess Championship 2026",
       "shortTitle": "25th European Women's Chess Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-25T11:15:00Z",
       "endDate": "2026-06-05T08:15:00Z",
       "timezone": "Asia/Tbilisi",
@@ -1349,6 +1286,7 @@
         "patrick-eichschmied",
         "zuzana-stara",
         "iulia-cristiana-stefan",
+        "srdjan-basaric",
         "miroslav-trangos",
         "andrej-stubljar",
         "stjepan-tomic",
@@ -1396,8 +1334,7 @@
         "anatoly-fridman",
         "luka-d-radic",
         "marko-pahljina",
-        "alexander-wiener",
-        "aljaz-skarlovnik"
+        "alexander-wiener"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/563",
@@ -1525,6 +1462,7 @@
         "patrick-eichschmied",
         "zuzana-stara",
         "iulia-cristiana-stefan",
+        "srdjan-basaric",
         "miroslav-trangos",
         "andrej-stubljar",
         "stjepan-tomic",
@@ -1572,8 +1510,7 @@
         "anatoly-fridman",
         "luka-d-radic",
         "marko-pahljina",
-        "alexander-wiener",
-        "aljaz-skarlovnik"
+        "alexander-wiener"
       ],
       "confirmedPlayers": [
         {
@@ -3092,6 +3029,21 @@
           }
         },
         {
+          "playerId": "srdjan-basaric",
+          "name": "Srdjan Basaric",
+          "countryCode": "CRO",
+          "title": "AIM",
+          "fideId": "14512130",
+          "classicalRating": 2003,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "miroslav-trangos",
           "name": "Miroslav Trangos",
           "countryCode": "SVK",
@@ -3803,21 +3755,6 @@
           "title": null,
           "fideId": "1636081",
           "classicalRating": 1912,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "aljaz-skarlovnik",
-          "name": "Aljaz Skarlovnik",
-          "countryCode": "SLO",
-          "title": null,
-          "fideId": "14647303",
-          "classicalRating": 1907,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -7854,6 +7791,7 @@
         "goutham-krishna-h",
         "eduard-andreev",
         "marcos-llaneza-vega",
+        "jakub-rabatin",
         "shivika-rohilla",
         "shaig-guliyev",
         "suvankar-maity",
@@ -7900,6 +7838,7 @@
         "goutham-krishna-h",
         "eduard-andreev",
         "marcos-llaneza-vega",
+        "jakub-rabatin",
         "shivika-rohilla",
         "shaig-guliyev",
         "suvankar-maity",
@@ -7956,6 +7895,21 @@
           "title": "IM",
           "fideId": "2253585",
           "classicalRating": 2358,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "jakub-rabatin",
+          "name": "Jakub Rabatin",
+          "countryCode": "CZE",
+          "title": "FM",
+          "fideId": "329517",
+          "classicalRating": 2324,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
