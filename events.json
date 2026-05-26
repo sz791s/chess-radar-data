@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T09:36:13Z",
-  "eventCount": 240,
+  "generatedAt": "2026-05-26T14:43:01Z",
+  "eventCount": 241,
   "sources": [
     {
       "name": "curated",
@@ -238,11 +238,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2213/final_standings_teams&1.html"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-ii-liga--mecze-1-10/sdNlQ1r9"
         }
       ],
       "source": {
@@ -703,7 +698,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: German Youth Championships 2026.",
-      "description": "234 listed players",
+      "description": "751 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1267,6 +1262,49 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-3izfp6kc",
+      "title": "Torneo por Equipos COLEGIO SAN BARTOLOME",
+      "shortTitle": "Torneo por Equipos COLEGIO SAN BARTOLOME",
+      "status": "upcoming",
+      "startDate": "2026-05-27T14:00:00Z",
+      "endDate": "2026-05-27T14:00:00Z",
+      "timezone": "America/Bogota",
+      "locationName": "Bogotá, Colombia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round swiss for teams",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "team",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/torneo-por-equipos-colegio-san-bartolome/3IZFp6KC",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/torneo-por-equipos-colegio-san-bartolome/3IZFp6KC"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1405677.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -2266,6 +2304,7 @@
         "enkhbaatar-enkhnar",
         "milan-s-popovic",
         "david-stevanic",
+        "gert-schnider",
         "milan-franic",
         "nenad-fercec",
         "nikola-sedlak",
@@ -2275,6 +2314,7 @@
         "miroslav-zufic",
         "das-arshiya",
         "muhamed-sisic",
+        "nico-marakovits",
         "ena-cvitan",
         "marko-rubil",
         "roshan-sethuraman",
@@ -2372,6 +2412,7 @@
         "ivo-novak",
         "zvan-sosic",
         "renato-ognjan",
+        "herbert-goelles",
         "arthur-hinteregger",
         "vladimir-zinchenko",
         "boris-grbac",
@@ -2403,10 +2444,7 @@
         "boris-sauper",
         "radmila-svaljek",
         "borna-mihokovic",
-        "andrej-stojkovic",
-        "anatoly-fridman",
-        "luka-d-radic",
-        "marko-pahljina"
+        "andrej-stojkovic"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/563",
@@ -2442,6 +2480,7 @@
         "enkhbaatar-enkhnar",
         "milan-s-popovic",
         "david-stevanic",
+        "gert-schnider",
         "milan-franic",
         "nenad-fercec",
         "nikola-sedlak",
@@ -2451,6 +2490,7 @@
         "miroslav-zufic",
         "das-arshiya",
         "muhamed-sisic",
+        "nico-marakovits",
         "ena-cvitan",
         "marko-rubil",
         "roshan-sethuraman",
@@ -2548,6 +2588,7 @@
         "ivo-novak",
         "zvan-sosic",
         "renato-ognjan",
+        "herbert-goelles",
         "arthur-hinteregger",
         "vladimir-zinchenko",
         "boris-grbac",
@@ -2579,10 +2620,7 @@
         "boris-sauper",
         "radmila-svaljek",
         "borna-mihokovic",
-        "andrej-stojkovic",
-        "anatoly-fridman",
-        "luka-d-radic",
-        "marko-pahljina"
+        "andrej-stojkovic"
       ],
       "confirmedPlayers": [
         {
@@ -2721,6 +2759,21 @@
           }
         },
         {
+          "playerId": "gert-schnider",
+          "name": "Gert Schnider",
+          "countryCode": "AUT",
+          "title": "IM",
+          "fideId": "1606310",
+          "classicalRating": 2354,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "milan-franic",
           "name": "Milan Franic",
           "countryCode": "CRO",
@@ -2847,6 +2900,21 @@
           "title": "FM",
           "fideId": "14419530",
           "classicalRating": 2292,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nico-marakovits",
+          "name": "Nico Marakovits",
+          "countryCode": "AUT",
+          "title": "FM",
+          "fideId": "1653253",
+          "classicalRating": 2282,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -4311,6 +4379,21 @@
           }
         },
         {
+          "playerId": "herbert-goelles",
+          "name": "Herbert Goelles",
+          "countryCode": "AUT",
+          "title": null,
+          "fideId": "1643673",
+          "classicalRating": 1974,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "arthur-hinteregger",
           "name": "Arthur Hinteregger",
           "countryCode": "AUT",
@@ -4782,51 +4865,6 @@
           "title": null,
           "fideId": "79300170",
           "classicalRating": 1918,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anatoly-fridman",
-          "name": "Anatoly Fridman",
-          "countryCode": "FID",
-          "title": null,
-          "fideId": "24166952",
-          "classicalRating": 1917,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "luka-d-radic",
-          "name": "Luka D Radic",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "14582309",
-          "classicalRating": 1916,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "marko-pahljina",
-          "name": "Marko Pahljina",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "14543958",
-          "classicalRating": 1912,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
