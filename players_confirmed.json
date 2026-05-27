@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T19:56:19Z",
-  "playerCount": 565,
+  "generatedAt": "2026-05-27T02:30:26Z",
+  "playerCount": 566,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -801,6 +801,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alex-herrera-pedroso",
+      "name": "Alex Herrera Pedroso",
+      "countryCode": null,
+      "title": null,
+      "fideId": "3531953",
+      "classicalRating": 2212,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+          "title": "Lince Andújar Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-06-27T00:00:00Z",
+          "endDate": "2026-07-03T23:59:59Z",
+          "locationName": "Andújar, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
             "confidence": "high"
           }
         }

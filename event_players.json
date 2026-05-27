@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-26T19:56:19Z",
-  "eventPlayerCount": 589,
+  "generatedAt": "2026-05-27T02:30:26Z",
+  "eventPlayerCount": 590,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 583
+      "count": 584
     },
     {
       "name": "curated",
@@ -4477,6 +4477,21 @@
       "title": "GM",
       "fideId": "3502856",
       "classicalRating": 2226,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "alex-herrera-pedroso",
+      "name": "Alex Herrera Pedroso",
+      "countryCode": null,
+      "title": null,
+      "fideId": "3531953",
+      "classicalRating": 2212,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
