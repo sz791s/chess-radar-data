@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-27T14:54:53Z",
-  "eventCount": 79,
+  "generatedAt": "2026-05-27T19:59:45Z",
+  "eventCount": 80,
   "sources": [
     {
       "name": "curated",
@@ -828,6 +828,55 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-pxkqgiog",
+      "title": "WR Women's Chess Tour 2026 Americas - Online Qualifier",
+      "shortTitle": "WR Women's Chess Tour 2026 Americas - Online Qualifier",
+      "status": "upcoming",
+      "startDate": "2026-05-27T20:00:00Z",
+      "endDate": "2026-05-27T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "lichess.org",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "8-player knockout",
+      "categories": [
+        "blitz",
+        "online",
+        "broadcast",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-americas-online-qualifier/pxKqgIoG",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-americas-online-qualifier/pxKqgIoG"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://wr-chess.com/news/wr-women-s-chess-tour-2026-a-global-knockout-circuit"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://challonge.com/3kzle0ly"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-rvhhnubf",
       "title": "Hans Niemann vs Ian Nepomniachtchi",
       "shortTitle": "Hans Niemann vs Ian Nepomniachtchi",
@@ -1159,6 +1208,7 @@
         "bartol-simunkovic",
         "korneliusz-bartczak",
         "wiktor-czaja",
+        "julian-wagner",
         "ivo-antunovic",
         "efe-ozturk",
         "dey-subhrajit",
@@ -1216,6 +1266,7 @@
         "vladimir-giertli",
         "jakov-jagic",
         "hubert-olbrycht",
+        "guenther-jehnichen",
         "ivo-novak",
         "zvan-sosic",
         "renato-ognjan",
@@ -1249,9 +1300,7 @@
         "adelya-ospanova",
         "igor-fattorich",
         "boris-sauper",
-        "radmila-svaljek",
-        "borna-mihokovic",
-        "andrej-stojkovic"
+        "radmila-svaljek"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/563",
@@ -1335,6 +1384,7 @@
         "bartol-simunkovic",
         "korneliusz-bartczak",
         "wiktor-czaja",
+        "julian-wagner",
         "ivo-antunovic",
         "efe-ozturk",
         "dey-subhrajit",
@@ -1392,6 +1442,7 @@
         "vladimir-giertli",
         "jakov-jagic",
         "hubert-olbrycht",
+        "guenther-jehnichen",
         "ivo-novak",
         "zvan-sosic",
         "renato-ognjan",
@@ -1425,9 +1476,7 @@
         "adelya-ospanova",
         "igor-fattorich",
         "boris-sauper",
-        "radmila-svaljek",
-        "borna-mihokovic",
-        "andrej-stojkovic"
+        "radmila-svaljek"
       ],
       "confirmedPlayers": [
         {
@@ -2277,6 +2326,21 @@
           "title": null,
           "fideId": "41807855",
           "classicalRating": 2129,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "julian-wagner",
+          "name": "Julian Wagner",
+          "countryCode": "GER",
+          "title": null,
+          "fideId": "16257367",
+          "classicalRating": 2125,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -3141,6 +3205,21 @@
           }
         },
         {
+          "playerId": "guenther-jehnichen",
+          "name": "Guenther Jehnichen",
+          "countryCode": "GER",
+          "title": null,
+          "fideId": "4656849",
+          "classicalRating": 1990,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ivo-novak",
           "name": "Ivo Novak",
           "countryCode": "CRO",
@@ -3642,36 +3721,6 @@
           "title": "WFM",
           "fideId": "14501759",
           "classicalRating": 1921,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "borna-mihokovic",
-          "name": "Borna Mihokovic",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "79313442",
-          "classicalRating": 1921,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "andrej-stojkovic",
-          "name": "Andrej Stojkovic",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "79300170",
-          "classicalRating": 1918,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
