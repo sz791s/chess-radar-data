@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-27T09:01:29Z",
-  "eventPlayerCount": 593,
+  "generatedAt": "2026-05-27T14:55:05Z",
+  "eventPlayerCount": 594,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 587
+      "count": 588
     },
     {
       "name": "curated",
@@ -5227,6 +5227,21 @@
       "title": null,
       "fideId": "94743134",
       "classicalRating": 1702,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-lince-and-jar-chess-open-27-jun-3-jul-2026",
+      "playerId": "miguel-moreno-bello",
+      "name": "Miguel Moreno Bello",
+      "countryCode": null,
+      "title": null,
+      "fideId": "22253912",
+      "classicalRating": 1678,
       "status": "confirmed",
       "source": {
         "name": "chess-results",

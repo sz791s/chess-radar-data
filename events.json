@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-27T09:01:20Z",
-  "eventCount": 78,
+  "generatedAt": "2026-05-27T14:54:53Z",
+  "eventCount": 79,
   "sources": [
     {
       "name": "curated",
@@ -173,31 +173,6 @@
           "label": "Official website",
           "type": "official",
           "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2305/"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-2026--i-liga/AYfwz982"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2316/"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-juniorow-ii-liga--mecze-11-18/ImkQWYkc"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2213/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_2213/final_standings_teams&1.html"
         }
       ],
       "source": {
@@ -453,7 +428,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: German Youth Championships 2026.",
-      "description": "753 listed players",
+      "description": "755 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -480,63 +455,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-qrxgkgfg",
-      "title": "Caissa Hotel IM/GM Tournament - Guitar Group | Category B",
-      "shortTitle": "Caissa Hotel IM/GM Tournament - Guitar Group | Category B",
-      "status": "live",
-      "startDate": "2026-05-24T07:10:00Z",
-      "endDate": "2026-05-28T11:10:00Z",
-      "timezone": "Europe/Istanbul",
-      "locationName": "Altınova - Türkiye",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-b/QrXGkGfG",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-b/QrXGkGfG"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.caissachessclub.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1396629.aspx?lan=1&art=1&turdet=YES&flag=30&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/caissa-hotel-imgm-tournament-guitar-group--category-a/ugkQQ9B2"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1371904.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -863,38 +781,42 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-3izfp6kc",
-      "title": "Torneo por Equipos COLEGIO SAN BARTOLOME",
-      "shortTitle": "Torneo por Equipos COLEGIO SAN BARTOLOME",
-      "status": "upcoming",
-      "startDate": "2026-05-27T14:00:00Z",
-      "endDate": "2026-05-27T14:00:00Z",
-      "timezone": "America/Bogota",
-      "locationName": "Bogotá, Colombia",
+      "id": "lichess-pesmohqt",
+      "title": "ITT WRCHESS Venezuela 2026 Circuito de Torneos Internacionales FVA",
+      "shortTitle": "ITT WRCHESS Venezuela 2026 Circuito de Torneos Internacionales FVA",
+      "status": "live",
+      "startDate": "2026-05-26T20:00:00Z",
+      "endDate": "2026-05-30T20:00:00Z",
+      "timezone": "America/Caracas",
+      "locationName": "Nueva Esparta Venezuela",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round swiss for teams",
+      "description": "9-round Swiss",
       "categories": [
-        "rapid",
+        "classical",
         "broadcast",
-        "team",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/torneo-por-equipos-colegio-san-bartolome/3IZFp6KC",
+      "primaryUrl": "https://lichess.org/broadcast/itt-wrchess-venezuela-2026-circuito-de-torneos-internacionales-fva/PeSmOhQT",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/torneo-por-equipos-colegio-san-bartolome/3IZFp6KC"
+          "url": "https://lichess.org/broadcast/itt-wrchess-venezuela-2026-circuito-de-torneos-internacionales-fva/PeSmOhQT"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.fva.com.ve/"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://s2.chess-results.com/tnr1405677.aspx"
+          "url": "https://s3.chess-results.com/tnr1412979.aspx?lan=2&SNode=S0"
         }
       ],
       "source": {
@@ -1029,6 +951,53 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-mxpk3upi",
+      "title": "5th Gambit Closed Tournament",
+      "shortTitle": "5th Gambit Closed Tournament",
+      "status": "upcoming",
+      "startDate": "2026-05-31T13:45:00Z",
+      "endDate": "2026-06-05T08:15:00Z",
+      "timezone": "Europe/Prague",
+      "locationName": "Prague",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/5th-gambit-closed-tournament/MXpk3UPi",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/5th-gambit-closed-tournament/MXpk3UPi"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://gambittournament.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1373873.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -6163,6 +6132,7 @@
         "jonathan-pierre-mauzole",
         "christian-garcia-pascual",
         "gonzalo-perez-odero",
+        "miguel-moreno-bello",
         "alba-ruiz-diaz",
         "francisco-jos-rodriguez-fuentes",
         "rafael-carpio-morano",
@@ -6282,6 +6252,7 @@
         "jonathan-pierre-mauzole",
         "christian-garcia-pascual",
         "gonzalo-perez-odero",
+        "miguel-moreno-bello",
         "alba-ruiz-diaz",
         "francisco-jos-rodriguez-fuentes",
         "rafael-carpio-morano",
@@ -7433,6 +7404,21 @@
           "title": null,
           "fideId": "94743134",
           "classicalRating": 1702,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "miguel-moreno-bello",
+          "name": "Miguel Moreno Bello",
+          "countryCode": null,
+          "title": null,
+          "fideId": "22253912",
+          "classicalRating": 1678,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -9839,6 +9825,53 @@
           }
         }
       ]
+    },
+    {
+      "id": "lichess-z6nihzhc",
+      "title": "XIV Torneo Internacional Ciudad de Pontevedra",
+      "shortTitle": "XIV Torneo Internacional Ciudad de Pontevedra",
+      "status": "upcoming",
+      "startDate": "2026-07-24T14:30:00Z",
+      "endDate": "2026-07-30T07:30:00Z",
+      "timezone": "Europe/Madrid",
+      "locationName": "Pontevedra, Spain",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/xiv-torneo-internacional-ciudad-de-pontevedra/Z6nihzHC",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/xiv-torneo-internacional-ciudad-de-pontevedra/Z6nihzHC"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://xadrezpontevedra.com/index.php/torneo-internacional-ciudad-de-pontevedra/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1360196.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
