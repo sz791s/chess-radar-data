@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T02:03:43Z",
+  "generatedAt": "2026-05-28T09:45:10Z",
   "eventCount": 242,
   "sources": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 17
+      "count": 18
     },
     {
       "name": "uschess",
@@ -588,7 +588,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: German Youth Championships 2026.",
-      "description": "755 listed players",
+      "description": "801 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1117,11 +1117,14 @@
       "description": "Time control: Standard",
       "categories": [
         "classical",
-        "otb"
+        "otb",
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide"
+        "fide",
+        "chesscom"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=12930",
       "links": [
@@ -1134,6 +1137,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/asian-individual-chess-championships-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -4982,6 +4995,7 @@
         "benjamin-snodgrass",
         "michaela-svobodova",
         "sourabh-mhamane",
+        "dumir-vihaan",
         "ladislav-hrbolka",
         "grzegorz-marek",
         "jakub-elias",
@@ -5130,6 +5144,7 @@
         "benjamin-snodgrass",
         "michaela-svobodova",
         "sourabh-mhamane",
+        "dumir-vihaan",
         "ladislav-hrbolka",
         "grzegorz-marek",
         "jakub-elias",
@@ -6562,6 +6577,21 @@
           "title": null,
           "fideId": "25778463",
           "classicalRating": 2003,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "dumir-vihaan",
+          "name": "Dumir Vihaan",
+          "countryCode": "IND",
+          "title": "CM",
+          "fideId": "25901010",
+          "classicalRating": 1989,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
