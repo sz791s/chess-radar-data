@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-28T20:09:03Z",
-  "eventCount": 239,
+  "generatedAt": "2026-05-29T02:09:11Z",
+  "eventCount": 241,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 18
+      "count": 21
     },
     {
       "name": "uschess",
@@ -837,142 +837,31 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-rfszqpsr",
-      "title": "Juegos deportivos nacionales escolares de la educacion basica 2026 | Femenil",
-      "shortTitle": "Juegos deportivos nacionales escolares de la educacion basica 2026 | Femenil",
+      "id": "chesscom-27086",
+      "title": "Cearense Chess Circuit - Stage 2 2026",
+      "shortTitle": "Cearense Chess Circuit - Stage 2 2026",
       "status": "live",
-      "startDate": "2026-05-27T17:10:00Z",
-      "endDate": "2026-05-29T23:10:00Z",
-      "timezone": "America/Mexico_City",
-      "locationName": "Jalisco, Mexico",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/juegos-deportivos-nacionales-escolares-de-la-educacion-basica-2026--femenil/RFszqPSR",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/juegos-deportivos-nacionales-escolares-de-la-educacion-basica-2026--femenil/RFszqPSR"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fenamac.info/"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/juegos-deportivos-nacionales-escolares-de-la-educacion-basica-2026--varonil/2mEY9b2S"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/juegos-deportivos-nacionales-escolares-de-la-educacion-basica-2026--equipos/XbUmZXsc"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1422588.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-stepan-avagyan-memorial-international-round-robin-tournament-28-may-6-jun",
-      "title": "\"Stepan Avagyan Memorial\" International Round Robin Tournament",
-      "shortTitle": "\"Stepan Avagyan Memorial\" International Round Robin Tournament",
-      "status": "live",
-      "startDate": "2026-05-28T00:00:00Z",
-      "endDate": "2026-06-06T23:59:59Z",
+      "startDate": "2026-05-28T18:00:00Z",
+      "endDate": "2026-05-31T19:00:00Z",
       "timezone": "UTC",
-      "locationName": "Jermuk, ARM",
-      "isOnline": false,
-      "summary": "FIDE calendar event: \"Stepan Avagyan Memorial\" International Round Robin Tournament.",
-      "description": "Time control: Standard",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Cearense Chess Circuit - Stage 2 2026.",
+      "description": "8 listed players. 6 rounds",
       "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12934",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12934"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-asian-individual-chess-championship-2026-28-may-7-jun",
-      "title": "Asian Individual Chess Championship 2026",
-      "shortTitle": "Asian Individual Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-05-28T00:00:00Z",
-      "endDate": "2026-06-07T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Ulaanbaatar, MGL",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Asian Individual Chess Championship 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb",
         "online",
         "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide",
         "chesscom"
       ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12930",
+      "primaryUrl": "https://www.chess.com/events/info/cearense-chess-circuit-stage-2-2026",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12930"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Chess.com event",
           "type": "official",
-          "url": "https://www.chess.com/events/info/asian-individual-chess-championships-2026"
+          "url": "https://www.chess.com/events/info/cearense-chess-circuit-stage-2-2026"
         },
         {
           "label": "Chess.com current events",
@@ -981,103 +870,9 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-asian-women-s-individual-chess-championship-2026-28-may-7-jun",
-      "title": "Asian Women's Individual Chess Championship 2026",
-      "shortTitle": "Asian Women's Individual Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-05-28T00:00:00Z",
-      "endDate": "2026-06-07T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Ulaanbaatar, MGL",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Asian Women's Individual Chess Championship 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12929",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12929"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-6u9hv4iy",
-      "title": "2026年全国国际象棋棋协大师赛 (青岛站)",
-      "shortTitle": "2026年全国国际象棋棋协大师赛 (青岛站)",
-      "status": "upcoming",
-      "startDate": "2026-05-29T00:00:00Z",
-      "endDate": "2026-05-31T00:00:00Z",
-      "timezone": "Asia/Hong_Kong",
-      "locationName": "Online",
-      "isOnline": true,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "rapid",
-        "broadcast",
-        "online"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-/6U9Hv4IY",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-/6U9Hv4IY"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1420677.aspx"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-/T6zFRDUd"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1424920.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1086,7 +881,7 @@
       "id": "fide-ghent-congress-29-31-may",
       "title": "Ghent Congress",
       "shortTitle": "Ghent Congress",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-29T00:00:00Z",
       "endDate": "2026-05-31T23:59:59Z",
       "timezone": "UTC",
@@ -1127,7 +922,7 @@
       "id": "fide-vi-irt-internacional-ajedrez-en-alicante-29-31-may",
       "title": "VI IRT Internacional Ajedrez en Alicante.",
       "shortTitle": "VI IRT Internacional Ajedrez en Alicante.",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-29T00:00:00Z",
       "endDate": "2026-05-31T23:59:59Z",
       "timezone": "UTC",
@@ -1165,6 +960,167 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-zyj9pks5",
+      "title": "Asian Individual Chess Championship 2026 | Open",
+      "shortTitle": "Asian Individual Chess Championship 2026 | Open",
+      "status": "upcoming",
+      "startDate": "2026-05-29T07:15:00Z",
+      "endDate": "2026-06-06T02:15:00Z",
+      "timezone": "Asia/Ulaanbaatar",
+      "locationName": "Ulaanbaatar, Mongolia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide",
+        "chesscom"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--open/ZyJ9pks5",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--open/ZyJ9pks5"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chess-results.com/tnr1399377.aspx"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12930"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/asian-individual-chess-championships-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-bikzr7yl",
+      "title": "Asian Individual Chess Championship 2026 | Women",
+      "shortTitle": "Asian Individual Chess Championship 2026 | Women",
+      "status": "upcoming",
+      "startDate": "2026-05-29T07:15:00Z",
+      "endDate": "2026-06-06T02:15:00Z",
+      "timezone": "Asia/Ulaanbaatar",
+      "locationName": "Ulaanbaatar, Mongolia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--women/BIKzR7Yl",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--women/BIKzR7Yl"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chess-results.com/tnr1399378.aspx"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12929"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-26283",
+      "title": "Campeonato de Canarias Sub12 - Sub14 2026",
+      "shortTitle": "Campeonato de Canarias Sub12 - Sub14 2026",
+      "status": "upcoming",
+      "startDate": "2026-05-29T08:00:00Z",
+      "endDate": "2026-05-31T03:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Campeonato de Canarias Sub12 - Sub14 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/campeonato-de-canarias-sub12-sub14-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/campeonato-de-canarias-sub12-sub14-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-rvhhnubf",
       "title": "Hans Niemann vs Ian Nepomniachtchi",
       "shortTitle": "Hans Niemann vs Ian Nepomniachtchi",
@@ -1179,11 +1135,13 @@
       "categories": [
         "classical",
         "broadcast",
-        "otb"
+        "otb",
+        "online"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "lichess",
+        "chesscom"
       ],
       "primaryUrl": "https://lichess.org/broadcast/hans-niemann-vs-ian-nepomniachtchi/RvHHnubf",
       "links": [
@@ -1191,6 +1149,69 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/hans-niemann-vs-ian-nepomniachtchi/RvHHnubf"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/hans-niemann-vs-ian-nepomniachtchi-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-3qny7qen",
+      "title": "7th Stepan Avagyan Memorial",
+      "shortTitle": "7th Stepan Avagyan Memorial",
+      "status": "upcoming",
+      "startDate": "2026-05-29T11:15:00Z",
+      "endDate": "2026-06-06T07:15:00Z",
+      "timezone": "Asia/Yerevan",
+      "locationName": "Jermuk, Armenia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial/3qnY7Qen",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial/3qnY7Qen"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1424362.aspx?art=1"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12934"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -1248,49 +1269,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s1.chess-results.com/tnr1408416.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-zmhifpws",
-      "title": "Trusts Open 2026",
-      "shortTitle": "Trusts Open 2026",
-      "status": "upcoming",
-      "startDate": "2026-05-29T21:30:00Z",
-      "endDate": "2026-06-01T02:30:00Z",
-      "timezone": "Pacific/Auckland",
-      "locationName": "Henderson, Auckland, New Zealand.",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/trusts-open-2026/ZMHIFPWS",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/trusts-open-2026/ZMHIFPWS"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "http://nzcf.newzealandchess.co.nz/tournaments/bp/2026/www48TrustsOpenA/"
         }
       ],
       "source": {
@@ -1437,6 +1415,194 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-pe3wuq8q",
+      "title": "35th Drogheda Chess Congress | Fox Major",
+      "shortTitle": "35th Drogheda Chess Congress | Fox Major",
+      "status": "upcoming",
+      "startDate": "2026-05-30T09:00:00Z",
+      "endDate": "2026-06-01T14:00:00Z",
+      "timezone": "Europe/Dublin",
+      "locationName": "Drogheda, Ireland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/35th-drogheda-chess-congress--fox-major/pe3wUQ8q",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/35th-drogheda-chess-congress--fox-major/pe3wUQ8q"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.icu.ie/events/2069"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1423864.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-umzlacgc",
+      "title": "35th Drogheda Chess Congress | Murray Challengers",
+      "shortTitle": "35th Drogheda Chess Congress | Murray Challengers",
+      "status": "upcoming",
+      "startDate": "2026-05-30T09:00:00Z",
+      "endDate": "2026-06-01T14:00:00Z",
+      "timezone": "Europe/Dublin",
+      "locationName": "Drogheda, Ireland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/35th-drogheda-chess-congress--murray-challengers/UmzLacgc",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/35th-drogheda-chess-congress--murray-challengers/UmzLacgc"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.icu.ie/events/2069"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1423865.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-wymgrdwf",
+      "title": "35th Drogheda Chess Congress | O'Boyle Championship",
+      "shortTitle": "35th Drogheda Chess Congress | O'Boyle Championship",
+      "status": "upcoming",
+      "startDate": "2026-05-30T09:00:00Z",
+      "endDate": "2026-06-01T14:00:00Z",
+      "timezone": "Europe/Dublin",
+      "locationName": "Drogheda, Ireland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/35th-drogheda-chess-congress--oboyle-championship/wyMGRDwf",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/35th-drogheda-chess-congress--oboyle-championship/wyMGRDwf"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.icu.ie/events/2069"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1423862.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-kt4ozbym",
+      "title": "35th Drogheda Chess Congress | Thomson Masters",
+      "shortTitle": "35th Drogheda Chess Congress | Thomson Masters",
+      "status": "upcoming",
+      "startDate": "2026-05-30T09:00:00Z",
+      "endDate": "2026-06-01T14:00:00Z",
+      "timezone": "Europe/Dublin",
+      "locationName": "Drogheda, Ireland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/35th-drogheda-chess-congress--thomson-masters/kt4oZbYm",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/35th-drogheda-chess-congress--thomson-masters/kt4oZbYm"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.icu.ie/events/2069"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1423859.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessaround-memoria-przewo-nika-31-may-7-jun-2026",
       "title": "Memoriał Przewoźnika",
       "shortTitle": "Memoriał Przewoźnika",
@@ -1554,53 +1720,6 @@
           "label": "Official website",
           "type": "official",
           "url": "https://echecs.asso.fr/FicheTournoi.aspx?Ref=71312"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-mxpk3upi",
-      "title": "5th Gambit Closed Tournament",
-      "shortTitle": "5th Gambit Closed Tournament",
-      "status": "upcoming",
-      "startDate": "2026-05-31T13:45:00Z",
-      "endDate": "2026-06-05T08:15:00Z",
-      "timezone": "Europe/Prague",
-      "locationName": "Prague",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/5th-gambit-closed-tournament/MXpk3UPi",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/5th-gambit-closed-tournament/MXpk3UPi"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://gambittournament.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1373873.aspx?art=1"
         }
       ],
       "source": {
