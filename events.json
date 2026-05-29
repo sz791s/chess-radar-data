@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-29T09:35:31Z",
-  "eventCount": 240,
+  "generatedAt": "2026-05-29T14:39:50Z",
+  "eventCount": 243,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 19
+      "count": 20
     },
     {
       "name": "uschess",
@@ -1101,7 +1101,7 @@
       "id": "lichess-3qny7qen",
       "title": "7th Stepan Avagyan Memorial 2026",
       "shortTitle": "7th Stepan Avagyan Memorial 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-29T11:15:00Z",
       "endDate": "2026-06-06T07:15:00Z",
       "timezone": "Asia/Yerevan",
@@ -1203,6 +1203,48 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-26270",
+      "title": "48th Trusts Open 2026",
+      "shortTitle": "48th Trusts Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-05-29T21:00:00Z",
+      "endDate": "2026-06-01T08:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 48th Trusts Open 2026.",
+      "description": "26 listed players. 6 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/48th-trusts-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/48th-trusts-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1520,6 +1562,90 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1423859.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-4xsdrwwl",
+      "title": "V Round Robin Chess Club \"Radnicki\" Kovin | FM",
+      "shortTitle": "V Round Robin Chess Club \"Radnicki\" Kovin | FM",
+      "status": "upcoming",
+      "startDate": "2026-05-30T15:00:00Z",
+      "endDate": "2026-06-05T08:00:00Z",
+      "timezone": "Europe/Belgrade",
+      "locationName": "Kovin, Serbia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/v-round-robin-chess-club-radnicki-kovin--fm/4xsdRWwL",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/v-round-robin-chess-club-radnicki-kovin--fm/4xsdRWwL"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1365614.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-c7lkwmif",
+      "title": "V Round Robin Chess Club \"Radnicki\" Kovin | IM",
+      "shortTitle": "V Round Robin Chess Club \"Radnicki\" Kovin | IM",
+      "status": "upcoming",
+      "startDate": "2026-05-30T15:00:00Z",
+      "endDate": "2026-06-05T08:00:00Z",
+      "timezone": "Europe/Belgrade",
+      "locationName": "Kovin, Serbia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/v-round-robin-chess-club-radnicki-kovin--im/c7LkwmIF",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/v-round-robin-chess-club-radnicki-kovin--im/c7LkwmIF"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1365614.aspx?art=1"
         }
       ],
       "source": {
@@ -15341,44 +15467,27 @@
       ]
     },
     {
-      "id": "lichess-z6nihzhc",
-      "title": "XIV Torneo Internacional Ciudad de Pontevedra",
-      "shortTitle": "XIV Torneo Internacional Ciudad de Pontevedra",
+      "id": "fide-xiv-torneo-internacional-cidade-de-pontevedra-24-30-jul",
+      "title": "XIV Torneo Internacional Cidade de Pontevedra",
+      "shortTitle": "XIV Torneo Internacional Cidade de Pontevedra",
       "status": "upcoming",
-      "startDate": "2026-07-24T14:30:00Z",
-      "endDate": "2026-07-30T07:30:00Z",
-      "timezone": "Europe/Madrid",
-      "locationName": "Pontevedra, Spain",
+      "startDate": "2026-07-24T00:00:00Z",
+      "endDate": "2026-07-30T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Pontevedra, ESP",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "summary": "FIDE calendar event: XIV Torneo Internacional Cidade de Pontevedra.",
+      "description": "Time control: Standard",
       "categories": [
         "classical",
-        "broadcast",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/xiv-torneo-internacional-ciudad-de-pontevedra/Z6nihzHC",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13487",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xiv-torneo-internacional-ciudad-de-pontevedra/Z6nihzHC"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://xadrezpontevedra.com/index.php/torneo-internacional-ciudad-de-pontevedra/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1360196.aspx?art=1"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -15391,9 +15500,9 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
