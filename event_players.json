@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-29T02:09:21Z",
-  "eventPlayerCount": 602,
+  "generatedAt": "2026-05-29T09:35:46Z",
+  "eventPlayerCount": 603,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 596
+      "count": 597
     },
     {
       "name": "curated",
@@ -4417,6 +4417,21 @@
       "title": "FM",
       "fideId": "54549264",
       "classicalRating": 2359,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "siddharth-singh",
+      "name": "Siddharth Singh",
+      "countryCode": null,
+      "title": null,
+      "fideId": "39907023",
+      "classicalRating": 2355,
       "status": "confirmed",
       "source": {
         "name": "chess-results",

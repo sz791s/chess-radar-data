@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-29T02:09:11Z",
-  "eventCount": 241,
+  "generatedAt": "2026-05-29T09:35:31Z",
+  "eventCount": 240,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 21
+      "count": 19
     },
     {
       "name": "uschess",
@@ -387,54 +387,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-s24kx8fr",
-      "title": "Munich Chess Festival 2026 | Open A",
-      "shortTitle": "Munich Chess Festival 2026 | Open A",
-      "status": "live",
-      "startDate": "2026-05-23T16:15:00Z",
-      "endDate": "2026-05-29T08:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "München, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/munich-chess-festival-2026--open-a/s24kx8Fr",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/munich-chess-festival-2026--open-a/s24kx8Fr"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "http://www.schachfestivalmuenchen.de/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1329313.aspx?art=1"
         }
       ],
       "source": {
@@ -847,7 +799,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Cearense Chess Circuit - Stage 2 2026.",
-      "description": "8 listed players. 6 rounds",
+      "description": "13 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -963,7 +915,7 @@
       "id": "lichess-zyj9pks5",
       "title": "Asian Individual Chess Championship 2026 | Open",
       "shortTitle": "Asian Individual Chess Championship 2026 | Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-29T07:15:00Z",
       "endDate": "2026-06-06T02:15:00Z",
       "timezone": "Asia/Ulaanbaatar",
@@ -975,14 +927,12 @@
         "classical",
         "broadcast",
         "open",
-        "otb",
-        "online"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess",
-        "fide",
-        "chesscom"
+        "fide"
       ],
       "primaryUrl": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--open/ZyJ9pks5",
       "links": [
@@ -1005,16 +955,6 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/asian-individual-chess-championships-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -1029,7 +969,7 @@
       "id": "lichess-bikzr7yl",
       "title": "Asian Individual Chess Championship 2026 | Women",
       "shortTitle": "Asian Individual Chess Championship 2026 | Women",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-29T07:15:00Z",
       "endDate": "2026-06-06T02:15:00Z",
       "timezone": "Asia/Ulaanbaatar",
@@ -1083,7 +1023,7 @@
       "id": "chesscom-26283",
       "title": "Campeonato de Canarias Sub12 - Sub14 2026",
       "shortTitle": "Campeonato de Canarias Sub12 - Sub14 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-29T08:00:00Z",
       "endDate": "2026-05-31T03:30:00Z",
       "timezone": "UTC",
@@ -1124,7 +1064,7 @@
       "id": "lichess-rvhhnubf",
       "title": "Hans Niemann vs Ian Nepomniachtchi",
       "shortTitle": "Hans Niemann vs Ian Nepomniachtchi",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-29T08:00:00Z",
       "endDate": "2026-06-01T12:30:00Z",
       "timezone": "Europe/Belgrade",
@@ -1135,13 +1075,11 @@
       "categories": [
         "classical",
         "broadcast",
-        "otb",
-        "online"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
-        "chesscom"
+        "lichess"
       ],
       "primaryUrl": "https://lichess.org/broadcast/hans-niemann-vs-ian-nepomniachtchi/RvHHnubf",
       "links": [
@@ -1149,16 +1087,6 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/hans-niemann-vs-ian-nepomniachtchi/RvHHnubf"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/hans-niemann-vs-ian-nepomniachtchi-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -1171,8 +1099,8 @@
     },
     {
       "id": "lichess-3qny7qen",
-      "title": "7th Stepan Avagyan Memorial",
-      "shortTitle": "7th Stepan Avagyan Memorial",
+      "title": "7th Stepan Avagyan Memorial 2026",
+      "shortTitle": "7th Stepan Avagyan Memorial 2026",
       "status": "upcoming",
       "startDate": "2026-05-29T11:15:00Z",
       "endDate": "2026-06-06T07:15:00Z",
@@ -1191,12 +1119,12 @@
         "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial/3qnY7Qen",
+      "primaryUrl": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial-2026/3qnY7Qen",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial/3qnY7Qen"
+          "url": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial-2026/3qnY7Qen"
         },
         {
           "label": "Standings",
@@ -8644,6 +8572,7 @@
         "roberto-carlos-gomez-ledo",
         "bernardo-cesar-maestre",
         "jaime-rey-martinez",
+        "siddharth-singh",
         "nadya-toncheva",
         "mikelis-vingris",
         "reinis-paikens",
@@ -8776,6 +8705,7 @@
         "roberto-carlos-gomez-ledo",
         "bernardo-cesar-maestre",
         "jaime-rey-martinez",
+        "siddharth-singh",
         "nadya-toncheva",
         "mikelis-vingris",
         "reinis-paikens",
@@ -9060,6 +8990,21 @@
           "title": "FM",
           "fideId": "54549264",
           "classicalRating": 2359,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "siddharth-singh",
+          "name": "Siddharth Singh",
+          "countryCode": null,
+          "title": null,
+          "fideId": "39907023",
+          "classicalRating": 2355,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
