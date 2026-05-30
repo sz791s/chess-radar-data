@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-30T02:04:31Z",
-  "eventCount": 248,
+  "generatedAt": "2026-05-30T08:16:22Z",
+  "eventCount": 249,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 22
+      "count": 23
     },
     {
       "name": "uschess",
@@ -56,47 +56,6 @@
     }
   ],
   "events": [
-    {
-      "id": "chesscom-25199",
-      "title": "9th RedBandit Chess Classic",
-      "shortTitle": "9th RedBandit Chess Classic",
-      "status": "live",
-      "startDate": "2026-05-01T23:30:00Z",
-      "endDate": "2026-05-30T02:15:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 9th RedBandit Chess Classic.",
-      "description": "18 listed players. 4 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/9th-redbandit-chess-classic",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/9th-redbandit-chess-classic"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "chesscom-25404",
       "title": "Cerrados De Jueves - Club Mijail Tal - Grupo A",
@@ -261,40 +220,27 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-ogl8xkik",
-      "title": "17th kiit international chess festival-2026 CAT A",
-      "shortTitle": "17th kiit international chess festival-2026 CAT A",
+      "id": "chesscom-26065",
+      "title": "17th KIIT International Chess Festival 2026 CAT A",
+      "shortTitle": "17th KIIT International Chess Festival 2026 CAT A",
       "status": "live",
       "startDate": "2026-05-23T09:30:00Z",
-      "endDate": "2026-05-30T04:00:00Z",
-      "timezone": "Asia/Calcutta",
-      "locationName": "Bubhaneswar, India",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-round Swiss",
+      "endDate": "2026-05-30T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 17th KIIT International Chess Festival 2026 CAT A.",
+      "description": "145 listed players. 10 rounds",
       "categories": [
-        "classical",
-        "broadcast",
-        "otb",
-        "online"
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
         "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/17th-kiit-international-chess-festival-2026-cat-a/OgL8Xkik",
+      "primaryUrl": "https://www.chess.com/events/info/17th-kiit-international-chess-festival-2026-cat-a",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/17th-kiit-international-chess-festival-2026-cat-a/OgL8Xkik"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1375066.aspx"
-        },
         {
           "label": "Chess.com event",
           "type": "official",
@@ -307,9 +253,9 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1057,6 +1003,53 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-n622tqrc",
+      "title": "2026 ACT Chess Championship",
+      "shortTitle": "2026 ACT Chess Championship",
+      "status": "live",
+      "startDate": "2026-05-29T09:10:00Z",
+      "endDate": "2026-06-01T04:40:00Z",
+      "timezone": "Australia/Sydney",
+      "locationName": "Canberra, Australia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7 round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-act-chess-championship/n622TQrC",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-act-chess-championship/n622TQrC"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "http://actchess.org.au/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.vegaresults.com/vega/8150"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-3qny7qen",
       "title": "7th Stepan Avagyan Memorial 2026",
       "shortTitle": "7th Stepan Avagyan Memorial 2026",
@@ -1110,53 +1103,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-ivdmatok",
-      "title": "Campeonato de Canarias 2026 | Sub-12",
-      "shortTitle": "Campeonato de Canarias 2026 | Sub-12",
-      "status": "live",
-      "startDate": "2026-05-29T16:10:00Z",
-      "endDate": "2026-05-31T09:10:00Z",
-      "timezone": "Atlantic/Canary",
-      "locationName": "Puerto de la Cruz, Santa Cruz de Tenerife, Spain",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7-round Swiss",
-      "categories": [
-        "rapid",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/campeonato-de-canarias-2026--sub-12/ivDMaTok",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/campeonato-de-canarias-2026--sub-12/ivDMaTok"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://federacioncanariadeajedrez.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1408414.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-26270",
       "title": "48th Trusts Open 2026",
       "shortTitle": "48th Trusts Open 2026",
@@ -1167,7 +1113,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 48th Trusts Open 2026.",
-      "description": "28 listed players. 6 rounds",
+      "description": "34 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1283,14 +1229,14 @@
       "id": "chesscom-25405",
       "title": "Dos Hermanas Open 2026",
       "shortTitle": "Dos Hermanas Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-05-30T06:00:00Z",
       "endDate": "2026-05-30T18:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Dos Hermanas Open 2026.",
-      "description": "8 rounds",
+      "description": "152 listed players. 8 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1306,6 +1252,50 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/dos-hermanas-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25325",
+      "title": "Women & Girls FIDE/ECF Classical Congress",
+      "shortTitle": "Women & Girls FIDE/ECF Classical Congress",
+      "status": "live",
+      "startDate": "2026-05-30T07:00:00Z",
+      "endDate": "2026-05-31T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Women & Girls FIDE/ECF Classical Congress.",
+      "description": "5 rounds",
+      "categories": [
+        "classical",
+        "online",
+        "broadcast",
+        "women"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/women-girls-fideecf-classical-congress",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/women-girls-fideecf-classical-congress"
         },
         {
           "label": "Chess.com current events",
@@ -1553,6 +1543,47 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-26062",
+      "title": "Vigevano Over 20 2026",
+      "shortTitle": "Vigevano Over 20 2026",
+      "status": "upcoming",
+      "startDate": "2026-05-30T14:00:00Z",
+      "endDate": "2026-06-02T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Vigevano Over 20 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/vigevano-over-20-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/vigevano-over-20-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
