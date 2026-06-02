@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T21:21:33Z",
-  "eventCount": 238,
+  "generatedAt": "2026-06-02T02:39:01Z",
+  "eventCount": 239,
   "sources": [
     {
       "name": "curated",
@@ -823,6 +823,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-ipca-world-chess-championship-2026-1-13-jun",
+      "title": "IPCA World Chess Championship 2026",
+      "shortTitle": "IPCA World Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-06-01T00:00:00Z",
+      "endDate": "2026-06-13T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Guardamar, ESP",
+      "isOnline": false,
+      "summary": "FIDE calendar event: IPCA World Chess Championship 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13976",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=13976"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-27239",
       "title": "1st Amaravati International Open 2026",
       "shortTitle": "1st Amaravati International Open 2026",
@@ -951,8 +992,8 @@
       "id": "lichess-jkx7yfbg",
       "title": "VI IRT Junio 2026 - Club de Ajedrez CHILE",
       "shortTitle": "VI IRT Junio 2026 - Club de Ajedrez CHILE",
-      "status": "upcoming",
-      "startDate": "2026-06-01T22:30:00Z",
+      "status": "live",
+      "startDate": "2026-06-01T22:45:00Z",
       "endDate": "2026-06-18T22:30:00Z",
       "timezone": "America/Santiago",
       "locationName": "Club de Ajedrez Chile - Serrano 14, Oficina 102, Metro U. de Chile",
@@ -1027,65 +1068,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-td0gjms3",
-      "title": "25th IPCA World Individual Chess Championship 2026 | Standard Open",
-      "shortTitle": "25th IPCA World Individual Chess Championship 2026 | Standard Open",
-      "status": "upcoming",
-      "startDate": "2026-06-02T13:00:00Z",
-      "endDate": "2026-06-12T08:00:00Z",
-      "timezone": "Europe/Madrid",
-      "locationName": "Guardamar del Segura, Alicante, Spain",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "fide"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/25th-ipca-world-individual-chess-championship-2026--standard-open/TD0GJMS3",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/25th-ipca-world-individual-chess-championship-2026--standard-open/TD0GJMS3"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://ipcachess.org/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1355423.aspx?art=1"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13976"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-sly0tuuj",
       "title": "25th IPCA World Individual Chess Championship 2026 | Standard Women",
       "shortTitle": "25th IPCA World Individual Chess Championship 2026 | Standard Women",
@@ -1123,53 +1105,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1355423.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-ar0xhux1",
-      "title": "ECU Senior Chess Championship | W50",
-      "shortTitle": "ECU Senior Chess Championship | W50",
-      "status": "upcoming",
-      "startDate": "2026-06-02T13:15:00Z",
-      "endDate": "2026-06-10T13:15:00Z",
-      "timezone": "Europe/Rome",
-      "locationName": "Acqui Terme Piedmont - Italy",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/ecu-senior-chess-championship--w50/AR0XHux1",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/ecu-senior-chess-championship--w50/AR0XHux1"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.scaccomattissimo.com/ecu-senior2026/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1423739.aspx?art=1"
         }
       ],
       "source": {
@@ -1330,8 +1265,8 @@
     },
     {
       "id": "lichess-x2cswkg7",
-      "title": "Deweloperni Mistrzostwa Polski w Szachach Szybkich 30+, 50+, 65+",
-      "shortTitle": "Deweloperni Mistrzostwa Polski w Szachach Szybkich 30+, 50+, 65+",
+      "title": "Deweloperni Mistrzostwa Polski w Szachach 30+, 50+, 65+ | Szybkich",
+      "shortTitle": "Deweloperni Mistrzostwa Polski w Szachach 30+, 50+, 65+ | Szybkich",
       "status": "upcoming",
       "startDate": "2026-06-04T08:00:00Z",
       "endDate": "2026-06-04T08:00:00Z",
@@ -1349,12 +1284,12 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/deweloperni-mistrzostwa-polski-w-szachach-szybkich-30-50-65/x2cswkG7",
+      "primaryUrl": "https://lichess.org/broadcast/deweloperni-mistrzostwa-polski-w-szachach-30-50-65--szybkich/x2cswkG7",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/deweloperni-mistrzostwa-polski-w-szachach-szybkich-30-50-65/x2cswkG7"
+          "url": "https://lichess.org/broadcast/deweloperni-mistrzostwa-polski-w-szachach-30-50-65--szybkich/x2cswkG7"
         },
         {
           "label": "Standings",
@@ -1497,6 +1432,48 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1427464.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-hkvvpwqa",
+      "title": "Deweloperni Mistrzostwa Polski w Szachach 30+, 50+, 65+ | Błyskawicznych",
+      "shortTitle": "Deweloperni Mistrzostwa Polski w Szachach 30+, 50+, 65+ | Błyskawicznych",
+      "status": "upcoming",
+      "startDate": "2026-06-05T14:00:00Z",
+      "endDate": "2026-06-05T14:00:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Warsaw, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "11-round Swiss",
+      "categories": [
+        "blitz",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/deweloperni-mistrzostwa-polski-w-szachach-30-50-65--byskawicznych/HKVvpwqa",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/deweloperni-mistrzostwa-polski-w-szachach-30-50-65--byskawicznych/HKVvpwqa"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/pl-pl/tournaments/6695112394539008"
         }
       ],
       "source": {
@@ -1853,6 +1830,43 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1427461.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-qdxctfno",
+      "title": "GM Felix Blohberger vs GM David Navara",
+      "shortTitle": "GM Felix Blohberger vs GM David Navara",
+      "status": "upcoming",
+      "startDate": "2026-06-08T13:00:00Z",
+      "endDate": "2026-06-08T13:00:00Z",
+      "timezone": "Europe/Amsterdam",
+      "locationName": "Vienna",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/gm-felix-blohberger-vs-gm-david-navara/QDXcTfNo",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/gm-felix-blohberger-vs-gm-david-navara/QDXcTfNo"
         }
       ],
       "source": {
