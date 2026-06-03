@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-03T16:17:22Z",
-  "eventCount": 234,
+  "generatedAt": "2026-06-03T20:47:25Z",
+  "eventCount": 236,
   "sources": [
     {
       "name": "curated",
@@ -25,13 +25,12 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 41
+      "count": 43
     },
     {
       "name": "chessdom",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "count": 9
     },
     {
       "name": "chessmix",
@@ -48,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 20
+      "count": 21
     },
     {
       "name": "uschess",
@@ -152,6 +151,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -754,6 +763,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -1246,6 +1265,52 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27316",
+      "title": "French Top16 Club Championship 2026",
+      "shortTitle": "French Top16 Club Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-04T04:00:00Z",
+      "endDate": "2026-06-14T21:55:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: French Top16 Club Championship 2026.",
+      "description": "2 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-french-top-16-club-championship",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-french-top-16-club-championship"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "French Top16 | R1",
+          "type": "stream",
+          "url": "https://www.youtube.com/vHF11hJpYWA"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -16554,6 +16619,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -17641,6 +17716,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/596"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
         }
       ],
       "source": {
@@ -17970,6 +18055,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/595"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
         }
       ],
       "source": {
@@ -19282,6 +19377,47 @@
           }
         }
       ]
+    },
+    {
+      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
+      "title": "European Chess Club Cup Open & Women 2026",
+      "shortTitle": "European Chess Club Cup Open & Women 2026",
+      "status": "upcoming",
+      "startDate": "2026-10-16T00:00:00Z",
+      "endDate": "2026-10-24T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Budva - Montenegro",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
+      "description": "Continental Classical Women",
+      "categories": [
+        "classical",
+        "women",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
+      "links": [
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
+        }
+      ],
+      "source": {
+        "name": "chessdom",
+        "url": "https://calendar.chessdom.com/2026-calendar/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
@@ -21169,7 +21305,8 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -21179,6 +21316,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
