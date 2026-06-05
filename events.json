@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T19:54:32Z",
+  "generatedAt": "2026-06-05T02:29:06Z",
   "eventCount": 87,
   "sources": [
     {
@@ -57,47 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "chesscom-25404",
-      "title": "Cerrados De Jueves - Club Mijail Tal - Grupo A",
-      "shortTitle": "Cerrados De Jueves - Club Mijail Tal - Grupo A",
-      "status": "live",
-      "startDate": "2026-05-07T23:00:00Z",
-      "endDate": "2026-06-05T01:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Cerrados De Jueves - Club Mijail Tal - Grupo A.",
-      "description": "6 listed players. 5 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/cerrados-de-jueves-ii-club-mijail-tal-grupo-a",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/cerrados-de-jueves-ii-club-mijail-tal-grupo-a"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "lichess-yk8whtv2",
       "title": "25th European Women's Chess Championship 2026",
@@ -1112,7 +1071,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: I Aberto do Brasil de Meruoca.",
-      "description": "8 listed players. 6 rounds",
+      "description": "12 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1211,7 +1170,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: III Open Sub-1600 de nau64.",
-      "description": "5 rounds",
+      "description": "4 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1227,6 +1186,48 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/iii-open-sub-1600-de-nau64"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27390",
+      "title": "WR Women's Chess Tour - Tokyo 2026",
+      "shortTitle": "WR Women's Chess Tour - Tokyo 2026",
+      "status": "live",
+      "startDate": "2026-06-05T02:00:00Z",
+      "endDate": "2026-06-06T11:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: WR Women's Chess Tour - Tokyo 2026.",
+      "description": "16 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "women"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/wr-womens-chess-tour-tokyo-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/wr-womens-chess-tour-tokyo-2026"
         },
         {
           "label": "Chess.com current events",
@@ -4085,6 +4086,7 @@
         "siddhant-gaikwad",
         "sreeni-warrier-samarth",
         "guy-belkovsky",
+        "paul-david-peglau",
         "mittal-ashvath",
         "vaclav-paulus",
         "aytug-celal-salci",
@@ -4127,6 +4129,7 @@
         "jyoti-bir-yash",
         "yogasimman-kamal",
         "edvard-kolar",
+        "piotr-czeremcha",
         "georgis-vlachopulos",
         "sultan-al-taher-zayed",
         "hong-ming-teo",
@@ -4234,6 +4237,7 @@
         "siddhant-gaikwad",
         "sreeni-warrier-samarth",
         "guy-belkovsky",
+        "paul-david-peglau",
         "mittal-ashvath",
         "vaclav-paulus",
         "aytug-celal-salci",
@@ -4276,6 +4280,7 @@
         "jyoti-bir-yash",
         "yogasimman-kamal",
         "edvard-kolar",
+        "piotr-czeremcha",
         "georgis-vlachopulos",
         "sultan-al-taher-zayed",
         "hong-ming-teo",
@@ -5214,6 +5219,21 @@
           }
         },
         {
+          "playerId": "paul-david-peglau",
+          "name": "Paul David Peglau",
+          "countryCode": "GER",
+          "title": null,
+          "fideId": "16290550",
+          "classicalRating": 2137,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "mittal-ashvath",
           "name": "Mittal Ashvath",
           "countryCode": "IND",
@@ -5835,6 +5855,21 @@
           "title": null,
           "fideId": "23746238",
           "classicalRating": 1947,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "piotr-czeremcha",
+          "name": "Piotr Czeremcha",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "21087741",
+          "classicalRating": 1938,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -8327,12 +8362,14 @@
         "zden-k-holeksa",
         "shivika-rohilla",
         "shaig-guliyev",
+        "titus-bittner",
         "orzechowski-jacek",
         "suvankar-maity",
         "ulrike-roessler",
         "mateusz-myrmus",
         "robin-ol-ar",
         "jan-rzewucki",
+        "ngor-panchol",
         "jan-bjolek",
         "ond-ej-boff",
         "miroslav-forman",
@@ -8383,12 +8420,14 @@
         "zden-k-holeksa",
         "shivika-rohilla",
         "shaig-guliyev",
+        "titus-bittner",
         "orzechowski-jacek",
         "suvankar-maity",
         "ulrike-roessler",
         "mateusz-myrmus",
         "robin-ol-ar",
         "jan-rzewucki",
+        "ngor-panchol",
         "jan-bjolek",
         "ond-ej-boff",
         "miroslav-forman",
@@ -8542,6 +8581,21 @@
           }
         },
         {
+          "playerId": "titus-bittner",
+          "name": "Titus Bittner",
+          "countryCode": "POR",
+          "title": "NM",
+          "fideId": "1973193",
+          "classicalRating": 2103,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "orzechowski-jacek",
           "name": "Orzechowski Jacek",
           "countryCode": "POL",
@@ -8623,6 +8677,21 @@
           "title": null,
           "fideId": "13510630",
           "classicalRating": 2045,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ngor-panchol",
+          "name": "Ngor Panchol",
+          "countryCode": "SSD",
+          "title": "AGM",
+          "fideId": "224560",
+          "classicalRating": 2035,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
