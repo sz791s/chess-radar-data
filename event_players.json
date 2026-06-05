@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-05T09:30:49Z",
-  "eventPlayerCount": 685,
+  "generatedAt": "2026-06-05T14:25:24Z",
+  "eventPlayerCount": 668,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 679
+      "count": 662
     },
     {
       "name": "curated",
@@ -4381,6 +4381,21 @@
     },
     {
       "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "dion-krivenko",
+      "name": "Dion Krivenko",
+      "countryCode": null,
+      "title": "FM",
+      "fideId": "4508378",
+      "classicalRating": 2311,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
       "playerId": "mikelis-vingris",
       "name": "Mikelis Vingris",
       "countryCode": null,
@@ -8321,276 +8336,6 @@
       "source": {
         "name": "chess-results",
         "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "mex",
-      "name": "MEX",
-      "countryCode": null,
-      "title": "3805662",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "swe",
-      "name": "SWE",
-      "countryCode": null,
-      "title": "14116502",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "ukr",
-      "name": "UKR",
-      "countryCode": null,
-      "title": "14100371",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "pol",
-      "name": "POL",
-      "countryCode": null,
-      "title": "1193023",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "ind",
-      "name": "IND",
-      "countryCode": null,
-      "title": "25792059",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "srb",
-      "name": "SRB",
-      "countryCode": null,
-      "title": "921610",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "rou",
-      "name": "ROU",
-      "countryCode": null,
-      "title": "1217674",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "tto",
-      "name": "TTO",
-      "countryCode": null,
-      "title": "7704224",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "fra",
-      "name": "FRA",
-      "countryCode": null,
-      "title": "45115907",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "bel",
-      "name": "BEL",
-      "countryCode": null,
-      "title": "233196",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "esp",
-      "name": "ESP",
-      "countryCode": null,
-      "title": "32040920",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "ger",
-      "name": "GER",
-      "countryCode": null,
-      "title": "4660510",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "svk",
-      "name": "SVK",
-      "countryCode": null,
-      "title": "14963230",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "wls",
-      "name": "WLS",
-      "countryCode": null,
-      "title": "495948",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "kaz",
-      "name": "KAZ",
-      "countryCode": null,
-      "title": "13704745",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "hun",
-      "name": "HUN",
-      "countryCode": null,
-      "title": "785580",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "isr",
-      "name": "ISR",
-      "countryCode": null,
-      "title": "2866498",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-arad-grand-prix-classic-3-9-aug",
-      "playerId": "mas",
-      "name": "MAS",
-      "countryCode": null,
-      "title": "565010469",
-      "fideId": null,
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
         "confidence": "high"
       }
     },

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T09:30:39Z",
-  "eventCount": 242,
+  "generatedAt": "2026-06-05T14:25:14Z",
+  "eventCount": 243,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 22
+      "count": 23
     },
     {
       "name": "uschess",
@@ -1181,7 +1181,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 16th Rhineland-Palatinate Open 2026.",
-      "description": "86 listed players. 7 rounds",
+      "description": "90 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1389,6 +1389,47 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27399",
+      "title": "Leonine Chess Club Invitational 2026",
+      "shortTitle": "Leonine Chess Club Invitational 2026",
+      "status": "live",
+      "startDate": "2026-06-05T07:00:00Z",
+      "endDate": "2026-06-12T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Leonine Chess Club Invitational 2026.",
+      "description": "10 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/leonine-chess-club-invitational-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/leonine-chess-club-invitational-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -8259,6 +8300,7 @@
         "bernardo-cesar-maestre",
         "siddharth-singh",
         "nadya-toncheva",
+        "dion-krivenko",
         "mikelis-vingris",
         "reinis-paikens",
         "abel-carrascoso-morales",
@@ -8401,6 +8443,7 @@
         "bernardo-cesar-maestre",
         "siddharth-singh",
         "nadya-toncheva",
+        "dion-krivenko",
         "mikelis-vingris",
         "reinis-paikens",
         "abel-carrascoso-morales",
@@ -8723,6 +8766,21 @@
           "title": "WGM",
           "fideId": "2924056",
           "classicalRating": 2320,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "dion-krivenko",
+          "name": "Dion Krivenko",
+          "countryCode": null,
+          "title": "FM",
+          "fideId": "4508378",
+          "classicalRating": 2311,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -18334,26 +18392,7 @@
         "otb",
         "open"
       ],
-      "playerIds": [
-        "mex",
-        "swe",
-        "ukr",
-        "pol",
-        "ind",
-        "srb",
-        "rou",
-        "tto",
-        "fra",
-        "bel",
-        "esp",
-        "ger",
-        "svk",
-        "wls",
-        "kaz",
-        "hun",
-        "isr",
-        "mas"
-      ],
+      "playerIds": [],
       "channelIds": [
         "fide"
       ],
@@ -18390,298 +18429,8 @@
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
-      "confirmedPlayerIds": [
-        "mex",
-        "swe",
-        "ukr",
-        "pol",
-        "ind",
-        "srb",
-        "rou",
-        "tto",
-        "fra",
-        "bel",
-        "esp",
-        "ger",
-        "svk",
-        "wls",
-        "kaz",
-        "hun",
-        "isr",
-        "mas"
-      ],
-      "confirmedPlayers": [
-        {
-          "playerId": "mex",
-          "name": "MEX",
-          "countryCode": null,
-          "title": "3805662",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "swe",
-          "name": "SWE",
-          "countryCode": null,
-          "title": "14116502",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ukr",
-          "name": "UKR",
-          "countryCode": null,
-          "title": "14100371",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "pol",
-          "name": "POL",
-          "countryCode": null,
-          "title": "1193023",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ind",
-          "name": "IND",
-          "countryCode": null,
-          "title": "25792059",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "srb",
-          "name": "SRB",
-          "countryCode": null,
-          "title": "921610",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "rou",
-          "name": "ROU",
-          "countryCode": null,
-          "title": "1217674",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "tto",
-          "name": "TTO",
-          "countryCode": null,
-          "title": "7704224",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "fra",
-          "name": "FRA",
-          "countryCode": null,
-          "title": "45115907",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "bel",
-          "name": "BEL",
-          "countryCode": null,
-          "title": "233196",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "esp",
-          "name": "ESP",
-          "countryCode": null,
-          "title": "32040920",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ger",
-          "name": "GER",
-          "countryCode": null,
-          "title": "4660510",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "svk",
-          "name": "SVK",
-          "countryCode": null,
-          "title": "14963230",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "wls",
-          "name": "WLS",
-          "countryCode": null,
-          "title": "495948",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "kaz",
-          "name": "KAZ",
-          "countryCode": null,
-          "title": "13704745",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "hun",
-          "name": "HUN",
-          "countryCode": null,
-          "title": "785580",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "isr",
-          "name": "ISR",
-          "countryCode": null,
-          "title": "2866498",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mas",
-          "name": "MAS",
-          "countryCode": null,
-          "title": "565010469",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "fide-bratislava-chess-summer-3-7-aug",
