@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-05T14:25:24Z",
-  "eventPlayerCount": 668,
+  "generatedAt": "2026-06-05T19:42:02Z",
+  "eventPlayerCount": 673,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 662
+      "count": 663
     },
     {
       "name": "curated",
       "status": "ok",
-      "count": 6
+      "count": 10
     }
   ],
   "eventPlayers": [
@@ -3166,6 +3166,21 @@
     },
     {
       "eventId": "chessaround-teplice-open-13-21-jun-2026",
+      "playerId": "andrei-rudnev",
+      "name": "Andrei Rudnev",
+      "countryCode": "FID",
+      "title": null,
+      "fideId": "13519778",
+      "classicalRating": 2144,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-teplice-open-13-21-jun-2026",
       "playerId": "guy-belkovsky",
       "name": "Guy Belkovsky",
       "countryCode": "ISR",
@@ -3232,6 +3247,21 @@
       "title": "CM",
       "fideId": "26321467",
       "classicalRating": 2115,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-teplice-open-13-21-jun-2026",
+      "playerId": "sergey-borischik",
+      "name": "Sergey Borischik",
+      "countryCode": "POL",
+      "title": "CM",
+      "fideId": "13518720",
+      "classicalRating": 2114,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -3877,21 +3907,6 @@
       "title": null,
       "fideId": "5809576",
       "classicalRating": 1930,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "chessaround-teplice-open-13-21-jun-2026",
-      "playerId": "frantisek-mrkvan",
-      "name": "Frantisek Mrkvan",
-      "countryCode": "CZE",
-      "title": null,
-      "fideId": "23721626",
-      "classicalRating": 1914,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -9945,7 +9960,7 @@
       }
     },
     {
-      "eventId": "lichess-kdquxybe",
+      "eventId": "fide-norway-chess-2026-25-may-5-jun",
       "playerId": "magnus-carlsen",
       "name": "Magnus Carlsen",
       "countryCode": "NOR",
@@ -9960,7 +9975,7 @@
       }
     },
     {
-      "eventId": "lichess-kdquxybe",
+      "eventId": "fide-norway-chess-2026-25-may-5-jun",
       "playerId": "vincent-keymer",
       "name": "Vincent Keymer",
       "countryCode": "GER",
@@ -9975,7 +9990,7 @@
       }
     },
     {
-      "eventId": "lichess-kdquxybe",
+      "eventId": "fide-norway-chess-2026-25-may-5-jun",
       "playerId": "alireza-firouzja",
       "name": "Alireza Firouzja",
       "countryCode": "FRA",
@@ -9990,7 +10005,7 @@
       }
     },
     {
-      "eventId": "lichess-kdquxybe",
+      "eventId": "fide-norway-chess-2026-25-may-5-jun",
       "playerId": "gukesh-dommaraju",
       "name": "Gukesh Dommaraju",
       "countryCode": "IND",
@@ -10005,7 +10020,7 @@
       }
     },
     {
-      "eventId": "lichess-kdquxybe",
+      "eventId": "fide-norway-chess-2026-25-may-5-jun",
       "playerId": "r-praggnanandhaa",
       "name": "R Praggnanandhaa",
       "countryCode": "IND",
@@ -10020,10 +10035,70 @@
       }
     },
     {
-      "eventId": "lichess-kdquxybe",
+      "eventId": "fide-norway-chess-2026-25-may-5-jun",
       "playerId": "wesley-so",
       "name": "Wesley So",
       "countryCode": "USA",
+      "title": "GM",
+      "fideId": null,
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "official",
+        "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
+      "playerId": "ju-wenjun",
+      "name": "Ju Wenjun",
+      "countryCode": "CHN",
+      "title": "GM",
+      "fideId": null,
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "official",
+        "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
+      "playerId": "humpy-koneru",
+      "name": "Humpy Koneru",
+      "countryCode": "IND",
+      "title": "GM",
+      "fideId": null,
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "official",
+        "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
+      "playerId": "zhu-jiner",
+      "name": "Zhu Jiner",
+      "countryCode": "CHN",
+      "title": "GM",
+      "fideId": null,
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "official",
+        "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
+      "playerId": "divya-deshmukh",
+      "name": "Divya Deshmukh",
+      "countryCode": "IND",
       "title": "GM",
       "fideId": null,
       "classicalRating": null,

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T14:25:14Z",
-  "eventCount": 243,
+  "generatedAt": "2026-06-05T19:41:51Z",
+  "eventCount": 248,
   "sources": [
     {
       "name": "curated",
@@ -25,7 +25,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 43
+      "count": 44
     },
     {
       "name": "chessdom",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 23
+      "count": 26
     },
     {
       "name": "uschess",
@@ -114,22 +114,20 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-kdquxybe",
-      "title": "Norway Chess 2026 | Open",
-      "shortTitle": "Norway Chess 2026 | Open",
+      "id": "fide-norway-chess-2026-25-may-5-jun",
+      "title": "Norway Chess 2026",
+      "shortTitle": "Norway Chess 2026",
       "status": "live",
-      "startDate": "2026-05-25T15:00:00Z",
-      "endDate": "2026-06-05T17:00:00Z",
-      "timezone": "Europe/Lisbon",
-      "locationName": "Oslo, Norway",
+      "startDate": "2026-05-25T00:00:00Z",
+      "endDate": "2026-06-05T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Stavanger, NOR",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-player double round-robin",
+      "summary": "FIDE calendar event: Norway Chess 2026.",
+      "description": "Time control: other",
       "categories": [
-        "classical",
-        "broadcast",
-        "open",
         "otb",
+        "classical",
         "elite"
       ],
       "playerIds": [
@@ -141,32 +139,11 @@
         "wesley-so"
       ],
       "channelIds": [
-        "lichess",
-        "norway-chess",
-        "fide"
+        "fide",
+        "norway-chess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/norway-chess-2026--open/kDQUxYbE",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/norway-chess-2026--open/kDQUxYbE"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://norwaychess.no/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://stats.norwaychess.no/2026/standings"
-        },
-        {
-          "label": "Official schedule",
-          "type": "official",
-          "url": "https://norwaychess.no/en/schedule-2026/"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -176,12 +153,17 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Official schedule",
+          "type": "official",
+          "url": "https://norwaychess.no/en/schedule-2026/"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [
         "magnus-carlsen",
@@ -288,45 +270,32 @@
       ]
     },
     {
-      "id": "lichess-njcx8cbn",
-      "title": "Norway Chess 2026 | Women",
-      "shortTitle": "Norway Chess 2026 | Women",
+      "id": "fide-norway-chess-women-2026-25-may-5-jun",
+      "title": "Norway Chess Women 2026",
+      "shortTitle": "Norway Chess Women 2026",
       "status": "live",
-      "startDate": "2026-05-25T15:00:00Z",
-      "endDate": "2026-06-05T17:00:00Z",
-      "timezone": "Europe/Lisbon",
-      "locationName": "Oslo, Norway",
+      "startDate": "2026-05-25T00:00:00Z",
+      "endDate": "2026-06-05T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Oslo, NOR",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-player double round-robin",
+      "summary": "FIDE calendar event: Norway Chess Women 2026.",
+      "description": "Time control: other",
       "categories": [
-        "classical",
-        "broadcast",
         "women",
         "otb"
       ],
-      "playerIds": [],
+      "playerIds": [
+        "ju-wenjun",
+        "humpy-koneru",
+        "zhu-jiner",
+        "divya-deshmukh"
+      ],
       "channelIds": [
-        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/norway-chess-2026--women/NjcX8cBn",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13838",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/norway-chess-2026--women/NjcX8cBn"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://norwaychess.no/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://stats.norwaychess.no/2026-women/standings"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -339,12 +308,78 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
+      "confirmedPlayerIds": [
+        "ju-wenjun",
+        "humpy-koneru",
+        "zhu-jiner",
+        "divya-deshmukh"
+      ],
+      "confirmedPlayers": [
+        {
+          "playerId": "ju-wenjun",
+          "name": "Ju Wenjun",
+          "countryCode": "CHN",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "humpy-koneru",
+          "name": "Humpy Koneru",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "zhu-jiner",
+          "name": "Zhu Jiner",
+          "countryCode": "CHN",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "divya-deshmukh",
+          "name": "Divya Deshmukh",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "official",
+            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
+            "confidence": "high"
+          }
+        }
+      ]
     },
     {
       "id": "lichess-zyj9pks5",
@@ -1436,6 +1471,89 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-27400",
+      "title": "5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto",
+      "shortTitle": "5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto",
+      "status": "upcoming",
+      "startDate": "2026-06-05T23:00:00Z",
+      "endDate": "2026-06-07T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto.",
+      "description": "5 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/5to-aniversario-club-mijail-tal-abierto",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/5to-aniversario-club-mijail-tal-abierto"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-v2ctkf9v",
+      "title": "2026年全国国际象棋棋协大师赛 (嘉兴站)",
+      "shortTitle": "2026年全国国际象棋棋协大师赛 (嘉兴站)",
+      "status": "upcoming",
+      "startDate": "2026-06-06T00:00:00Z",
+      "endDate": "2026-06-08T00:00:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Jiaxing, China",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-/v2CTKF9V",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-/v2CTKF9V"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1426529.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-first-saturday-gm-im-u2250-6-13-jun",
       "title": "First Saturday GM, IM, U2250",
       "shortTitle": "First Saturday GM, IM, U2250",
@@ -1554,6 +1672,89 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27390",
+      "title": "WR Women's Chess Tour - Tokyo 2026",
+      "shortTitle": "WR Women's Chess Tour - Tokyo 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-06T00:00:00Z",
+      "endDate": "2026-06-07T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: WR Women's Chess Tour - Tokyo 2026.",
+      "description": "16 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "women"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/wr-womens-chess-tour-tokyo-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/wr-womens-chess-tour-tokyo-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27332",
+      "title": "2026 SACA Kings Birthday Weekender",
+      "shortTitle": "2026 SACA Kings Birthday Weekender",
+      "status": "upcoming",
+      "startDate": "2026-06-06T00:30:00Z",
+      "endDate": "2026-06-07T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 SACA Kings Birthday Weekender.",
+      "description": "6 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-saca-kings-birthday-weekender",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-saca-kings-birthday-weekender"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -4618,11 +4819,13 @@
         "miguel-suarez-alvarez",
         "siddhant-gaikwad",
         "sreeni-warrier-samarth",
+        "andrei-rudnev",
         "guy-belkovsky",
         "paul-david-peglau",
         "mittal-ashvath",
         "vaclav-paulus",
         "aytug-celal-salci",
+        "sergey-borischik",
         "jan-andrej-bohacek",
         "daniel-yosuke-groessing",
         "petra-sochorova",
@@ -4666,7 +4869,6 @@
         "georgis-vlachopulos",
         "sultan-al-taher-zayed",
         "hong-ming-teo",
-        "frantisek-mrkvan",
         "tomas-gernert",
         "petr-kucera",
         "peter-willer-svendsen",
@@ -4769,11 +4971,13 @@
         "miguel-suarez-alvarez",
         "siddhant-gaikwad",
         "sreeni-warrier-samarth",
+        "andrei-rudnev",
         "guy-belkovsky",
         "paul-david-peglau",
         "mittal-ashvath",
         "vaclav-paulus",
         "aytug-celal-salci",
+        "sergey-borischik",
         "jan-andrej-bohacek",
         "daniel-yosuke-groessing",
         "petra-sochorova",
@@ -4817,7 +5021,6 @@
         "georgis-vlachopulos",
         "sultan-al-taher-zayed",
         "hong-ming-teo",
-        "frantisek-mrkvan",
         "tomas-gernert",
         "petr-kucera",
         "peter-willer-svendsen",
@@ -5737,6 +5940,21 @@
           }
         },
         {
+          "playerId": "andrei-rudnev",
+          "name": "Andrei Rudnev",
+          "countryCode": "FID",
+          "title": null,
+          "fideId": "13519778",
+          "classicalRating": 2144,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "guy-belkovsky",
           "name": "Guy Belkovsky",
           "countryCode": "ISR",
@@ -5803,6 +6021,21 @@
           "title": "CM",
           "fideId": "26321467",
           "classicalRating": 2115,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "sergey-borischik",
+          "name": "Sergey Borischik",
+          "countryCode": "POL",
+          "title": "CM",
+          "fideId": "13518720",
+          "classicalRating": 2114,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -6448,21 +6681,6 @@
           "title": null,
           "fideId": "5809576",
           "classicalRating": 1930,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "frantisek-mrkvan",
-          "name": "Frantisek Mrkvan",
-          "countryCode": "CZE",
-          "title": null,
-          "fideId": "23721626",
-          "classicalRating": 1914,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -16975,6 +17193,50 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chessaround-xi-lech-kaczy-ski-international-chess-festival-in-bydgoszcz-25-26-jul-2026",
+      "title": "XI Lech Kaczyński International Chess Festival in Bydgoszcz",
+      "shortTitle": "XI Lech Kaczyński International Chess Festival in Bydgoszcz",
+      "status": "upcoming",
+      "startDate": "2026-07-25T00:00:00Z",
+      "endDate": "2026-07-26T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Bydgoszcz, Poland",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: XI Lech Kaczyński International Chess Festival in Bydgoszcz.",
+      "description": "Chessaround listing. Time control/type: rapid.",
+      "categories": [
+        "rapid",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/597",
+      "links": [
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/597"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
+        },
+        {
+          "label": "Starting list",
+          "type": "players",
+          "url": "https://www.chessmanager.com/pl-pl/tournaments/5883751502577664"
+        }
+      ],
+      "source": {
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
