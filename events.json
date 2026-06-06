@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T19:41:51Z",
-  "eventCount": 248,
+  "generatedAt": "2026-06-06T02:08:02Z",
+  "eventCount": 246,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 26
+      "count": 27
     },
     {
       "name": "uschess",
@@ -112,274 +112,6 @@
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
-    },
-    {
-      "id": "fide-norway-chess-2026-25-may-5-jun",
-      "title": "Norway Chess 2026",
-      "shortTitle": "Norway Chess 2026",
-      "status": "live",
-      "startDate": "2026-05-25T00:00:00Z",
-      "endDate": "2026-06-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Stavanger, NOR",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Norway Chess 2026.",
-      "description": "Time control: other",
-      "categories": [
-        "otb",
-        "classical",
-        "elite"
-      ],
-      "playerIds": [
-        "magnus-carlsen",
-        "vincent-keymer",
-        "alireza-firouzja",
-        "gukesh-dommaraju",
-        "r-praggnanandhaa",
-        "wesley-so"
-      ],
-      "channelIds": [
-        "fide",
-        "norway-chess"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=6972"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "Official schedule",
-          "type": "official",
-          "url": "https://norwaychess.no/en/schedule-2026/"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [
-        "magnus-carlsen",
-        "vincent-keymer",
-        "alireza-firouzja",
-        "gukesh-dommaraju",
-        "r-praggnanandhaa",
-        "wesley-so"
-      ],
-      "confirmedPlayers": [
-        {
-          "playerId": "magnus-carlsen",
-          "name": "Magnus Carlsen",
-          "countryCode": "NOR",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {
-            "officialWebsite": "https://www.magnuscarlsen.com/",
-            "lichess": "https://lichess.org/@/DrNykterstein"
-          },
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vincent-keymer",
-          "name": "Vincent Keymer",
-          "countryCode": "GER",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alireza-firouzja",
-          "name": "Alireza Firouzja",
-          "countryCode": "FRA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "gukesh-dommaraju",
-          "name": "Gukesh Dommaraju",
-          "countryCode": "IND",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "r-praggnanandhaa",
-          "name": "R Praggnanandhaa",
-          "countryCode": "IND",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "wesley-so",
-          "name": "Wesley So",
-          "countryCode": "USA",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "fide-norway-chess-women-2026-25-may-5-jun",
-      "title": "Norway Chess Women 2026",
-      "shortTitle": "Norway Chess Women 2026",
-      "status": "live",
-      "startDate": "2026-05-25T00:00:00Z",
-      "endDate": "2026-06-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Oslo, NOR",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Norway Chess Women 2026.",
-      "description": "Time control: other",
-      "categories": [
-        "women",
-        "otb"
-      ],
-      "playerIds": [
-        "ju-wenjun",
-        "humpy-koneru",
-        "zhu-jiner",
-        "divya-deshmukh"
-      ],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13838",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13838"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [
-        "ju-wenjun",
-        "humpy-koneru",
-        "zhu-jiner",
-        "divya-deshmukh"
-      ],
-      "confirmedPlayers": [
-        {
-          "playerId": "ju-wenjun",
-          "name": "Ju Wenjun",
-          "countryCode": "CHN",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "humpy-koneru",
-          "name": "Humpy Koneru",
-          "countryCode": "IND",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zhu-jiner",
-          "name": "Zhu Jiner",
-          "countryCode": "CHN",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "divya-deshmukh",
-          "name": "Divya Deshmukh",
-          "countryCode": "IND",
-          "title": "GM",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
     },
     {
       "id": "lichess-zyj9pks5",
@@ -538,89 +270,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-im-fm-round-robin-radnicki-kovin-30-may-5-june-2026-30-may-5-jun",
-      "title": "IM & FM Round Robin \"Radnicki\" Kovin 30 May-5 June 2026",
-      "shortTitle": "IM & FM Round Robin \"Radnicki\" Kovin 30 May-5 June 2026",
-      "status": "live",
-      "startDate": "2026-05-30T00:00:00Z",
-      "endDate": "2026-06-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Kovin, SRB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: IM & FM Round Robin \"Radnicki\" Kovin 30 May-5 June 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14503",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14503"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27333",
-      "title": "Uzbekistan Team Championship 2026",
-      "shortTitle": "Uzbekistan Team Championship 2026",
-      "status": "live",
-      "startDate": "2026-05-30T00:00:00Z",
-      "endDate": "2026-06-05T23:55:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Uzbekistan Team Championship 2026.",
-      "description": "319 listed players",
-      "categories": [
-        "online",
-        "broadcast",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-uzbekistan-championship-between-the-teams",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-uzbekistan-championship-between-the-teams"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1258,7 +907,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: I Aberto do Brasil de Meruoca.",
-      "description": "14 listed players. 6 rounds",
+      "description": "15 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1389,47 +1038,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-psy-100-years-jubilee-tournament-blitz-5jun",
-      "title": "PSY 100 years jubilee tournament - blitz",
-      "shortTitle": "PSY 100 years jubilee tournament - blitz",
-      "status": "live",
-      "startDate": "2026-06-05T00:00:00Z",
-      "endDate": "2026-06-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Pori, FIN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: PSY 100 years jubilee tournament - blitz.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16457",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16457"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27399",
       "title": "Leonine Chess Club Invitational 2026",
       "shortTitle": "Leonine Chess Club Invitational 2026",
@@ -1474,14 +1082,14 @@
       "id": "chesscom-27400",
       "title": "5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto",
       "shortTitle": "5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-05T23:00:00Z",
       "endDate": "2026-06-07T20:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto.",
-      "description": "5 rounds",
+      "description": "32 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1512,52 +1120,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-v2ctkf9v",
-      "title": "2026年全国国际象棋棋协大师赛 (嘉兴站)",
-      "shortTitle": "2026年全国国际象棋棋协大师赛 (嘉兴站)",
-      "status": "upcoming",
-      "startDate": "2026-06-06T00:00:00Z",
-      "endDate": "2026-06-08T00:00:00Z",
-      "timezone": "Asia/Hong_Kong",
-      "locationName": "Jiaxing, China",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-/v2CTKF9V",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-/v2CTKF9V"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1426529.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-first-saturday-gm-im-u2250-6-13-jun",
       "title": "First Saturday GM, IM, U2250",
       "shortTitle": "First Saturday GM, IM, U2250",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T00:00:00Z",
       "endDate": "2026-06-13T23:59:59Z",
       "timezone": "UTC",
@@ -1598,7 +1164,7 @@
       "id": "fide-psy-100-years-jubilee-tournament-rapid-6-7-jun",
       "title": "PSY 100 years jubilee tournament - rapid",
       "shortTitle": "PSY 100 years jubilee tournament - rapid",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T00:00:00Z",
       "endDate": "2026-06-07T23:59:59Z",
       "timezone": "UTC",
@@ -1639,7 +1205,7 @@
       "id": "fide-san-bernardino-2days-open-6-7-jun",
       "title": "SAN BERNARDINO 2DAYS OPEN",
       "shortTitle": "SAN BERNARDINO 2DAYS OPEN",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T00:00:00Z",
       "endDate": "2026-06-07T23:59:59Z",
       "timezone": "UTC",
@@ -1681,7 +1247,7 @@
       "id": "chesscom-27390",
       "title": "WR Women's Chess Tour - Tokyo 2026",
       "shortTitle": "WR Women's Chess Tour - Tokyo 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T00:00:00Z",
       "endDate": "2026-06-07T14:00:00Z",
       "timezone": "UTC",
@@ -1723,14 +1289,14 @@
       "id": "chesscom-27332",
       "title": "2026 SACA Kings Birthday Weekender",
       "shortTitle": "2026 SACA Kings Birthday Weekender",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T00:30:00Z",
       "endDate": "2026-06-07T14:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 SACA Kings Birthday Weekender.",
-      "description": "6 rounds",
+      "description": "14 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1761,39 +1327,133 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-8bvcfgdv",
-      "title": "WR Women's Chess Tour 2026 Asia | Rapid",
-      "shortTitle": "WR Women's Chess Tour 2026 Asia | Rapid",
+      "id": "chesscom-27394",
+      "title": "Susan Polgar Foundation Girls’ Invitational 2026",
+      "shortTitle": "Susan Polgar Foundation Girls’ Invitational 2026",
       "status": "upcoming",
-      "startDate": "2026-06-06T02:00:00Z",
-      "endDate": "2026-06-06T02:00:00Z",
-      "timezone": "Asia/Tokyo",
-      "locationName": "Tokyo, Japan",
+      "startDate": "2026-06-06T07:00:00Z",
+      "endDate": "2026-06-08T06:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Susan Polgar Foundation Girls’ Invitational 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/susan-polgar-foundation-girls-invitational-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/susan-polgar-foundation-girls-invitational-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-hcfi0dz9",
+      "title": "VIII Turniej w Markach dla zawodników od IV kategorii",
+      "shortTitle": "VIII Turniej w Markach dla zawodników od IV kategorii",
+      "status": "upcoming",
+      "startDate": "2026-06-06T08:00:00Z",
+      "endDate": "2026-06-07T08:00:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Marki, Poland",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "8-player Knockout",
+      "description": "7-round Swiss",
       "categories": [
-        "rapid",
+        "classical",
         "broadcast",
-        "women",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-asia--rapid/8bvCFgdv",
+      "primaryUrl": "https://lichess.org/broadcast/viii-turniej-w-markach-dla-zawodnikow-od-iv-kategorii/HcFi0dz9",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-asia--rapid/8bvCFgdv"
+          "url": "https://lichess.org/broadcast/viii-turniej-w-markach-dla-zawodnikow-od-iv-kategorii/HcFi0dz9"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessmanager.com/pl-pl/tournaments/5955123545243648"
         }
       ],
       "source": {
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27428",
+      "title": "The 1st Wrexham Junior FIDE Rapidplay",
+      "shortTitle": "The 1st Wrexham Junior FIDE Rapidplay",
+      "status": "upcoming",
+      "startDate": "2026-06-06T10:00:00Z",
+      "endDate": "2026-06-06T15:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: The 1st Wrexham Junior FIDE Rapidplay.",
+      "description": "1 scheduled stream links",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/the-1st-wrexham-junior-fide-rapidplay",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/the-1st-wrexham-junior-fide-rapidplay"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Wrexham Junior Rapid",
+          "type": "stream",
+          "url": "https://www.twitch.tv/welshchesschat"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -4862,7 +4522,6 @@
         "jakub-elias",
         "vlastimil-vermirovsky",
         "siddique-arman",
-        "jyoti-bir-yash",
         "yogasimman-kamal",
         "edvard-kolar",
         "piotr-czeremcha",
@@ -5014,7 +4673,6 @@
         "jakub-elias",
         "vlastimil-vermirovsky",
         "siddique-arman",
-        "jyoti-bir-yash",
         "yogasimman-kamal",
         "edvard-kolar",
         "piotr-czeremcha",
@@ -6576,21 +6234,6 @@
           "title": null,
           "fideId": "25768719",
           "classicalRating": 1958,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jyoti-bir-yash",
-          "name": "Jyoti Bir Yash",
-          "countryCode": "IND",
-          "title": "WFM",
-          "fideId": "35027263",
-          "classicalRating": 1954,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -19247,6 +18890,88 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-rudar-lv-im-round-robin-8-15-aug",
+      "title": "RUDAR LV - IM ROUND ROBIN",
+      "shortTitle": "RUDAR LV - IM ROUND ROBIN",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Pozarevac, SRB",
+      "isOnline": false,
+      "summary": "FIDE calendar event: RUDAR LV - IM ROUND ROBIN.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16311",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16311"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-rudar-xxxvi-gm-round-robin-8-15-aug",
+      "title": "RUDAR XXXVI - GM ROUND ROBIN",
+      "shortTitle": "RUDAR XXXVI - GM ROUND ROBIN",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Pozarevac, SRB",
+      "isOnline": false,
+      "summary": "FIDE calendar event: RUDAR XXXVI - GM ROUND ROBIN.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16279",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16279"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-sinquefield-cup-2026-8-12-aug",
       "title": "Sinquefield Cup 2026",
       "shortTitle": "Sinquefield Cup 2026",
@@ -19960,6 +19685,7 @@
         "ivan-ivan-i",
         "emilio-milko-fu-ak",
         "stipe-poljak",
+        "alex-marjanovic",
         "lorenc-rama",
         "borna-pehar",
         "predrag-cicovacki",
@@ -19977,6 +19703,7 @@
         "reinhard-mueller",
         "fisnik-zenelaj",
         "tino-glavi-i",
+        "gyorgy-marjanovic",
         "d-emal-red-i",
         "erik-haidinger",
         "mateusz-filipow",
@@ -20080,6 +19807,7 @@
         "ivan-ivan-i",
         "emilio-milko-fu-ak",
         "stipe-poljak",
+        "alex-marjanovic",
         "lorenc-rama",
         "borna-pehar",
         "predrag-cicovacki",
@@ -20097,6 +19825,7 @@
         "reinhard-mueller",
         "fisnik-zenelaj",
         "tino-glavi-i",
+        "gyorgy-marjanovic",
         "d-emal-red-i",
         "erik-haidinger",
         "mateusz-filipow",
@@ -20611,6 +20340,21 @@
           }
         },
         {
+          "playerId": "alex-marjanovic",
+          "name": "Alex Marjanovic",
+          "countryCode": "HUN",
+          "title": null,
+          "fideId": "789739",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "lorenc-rama",
           "name": "Lorenc Rama",
           "countryCode": "ALB",
@@ -20856,6 +20600,21 @@
           "countryCode": "CRO",
           "title": "MK",
           "fideId": "14515075",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "gyorgy-marjanovic",
+          "name": "Gyorgy Marjanovic",
+          "countryCode": "HUN",
+          "title": null,
+          "fideId": "731994",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",

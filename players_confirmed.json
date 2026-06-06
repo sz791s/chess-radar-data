@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T19:42:02Z",
-  "playerCount": 646,
+  "generatedAt": "2026-06-06T02:08:13Z",
+  "playerCount": 637,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -977,6 +977,40 @@
       ]
     },
     {
+      "id": "alex-marjanovic",
+      "name": "Alex Marjanovic",
+      "countryCode": "HUN",
+      "title": null,
+      "fideId": "789739",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-5-open-hvar-2026-19-25-oct-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-5-open-hvar-2026-19-25-oct-2026",
+          "title": "5. Open Hvar 2026",
+          "status": "upcoming",
+          "startDate": "2026-10-19T00:00:00Z",
+          "endDate": "2026-10-25T23:59:59Z",
+          "locationName": "Hvar, Croatia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "alex-moreto-quintana",
       "name": "Alex Moreto Quintana",
       "countryCode": "ESP",
@@ -1272,40 +1306,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "alireza-firouzja",
-      "name": "Alireza Firouzja",
-      "countryCode": "FRA",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-2026-25-may-5-jun",
-          "title": "Norway Chess 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Stavanger, NOR",
-          "isOnline": false,
-          "categories": [
-            "otb",
-            "classical",
-            "elite"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
             "confidence": "high"
           }
         }
@@ -5271,39 +5271,6 @@
       ]
     },
     {
-      "id": "divya-deshmukh",
-      "name": "Divya Deshmukh",
-      "countryCode": "IND",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-women-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
-          "title": "Norway Chess Women 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Oslo, NOR",
-          "isOnline": false,
-          "categories": [
-            "women",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13838",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "dmitriy-migalko",
       "name": "Dmitriy Migalko",
       "countryCode": "CZE",
@@ -7183,40 +7150,6 @@
       ]
     },
     {
-      "id": "gukesh-dommaraju",
-      "name": "Gukesh Dommaraju",
-      "countryCode": "IND",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-2026-25-may-5-jun",
-          "title": "Norway Chess 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Stavanger, NOR",
-          "isOnline": false,
-          "categories": [
-            "otb",
-            "classical",
-            "elite"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "gupta-prishita",
       "name": "Gupta Prishita",
       "countryCode": "IND",
@@ -7313,6 +7246,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gyorgy-marjanovic",
+      "name": "Gyorgy Marjanovic",
+      "countryCode": "HUN",
+      "title": null,
+      "fideId": "731994",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-5-open-hvar-2026-19-25-oct-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-5-open-hvar-2026-19-25-oct-2026",
+          "title": "5. Open Hvar 2026",
+          "status": "upcoming",
+          "startDate": "2026-10-19T00:00:00Z",
+          "endDate": "2026-10-25T23:59:59Z",
+          "locationName": "Hvar, Croatia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -7754,39 +7721,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "humpy-koneru",
-      "name": "Humpy Koneru",
-      "countryCode": "IND",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-women-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
-          "title": "Norway Chess Women 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Oslo, NOR",
-          "isOnline": false,
-          "categories": [
-            "women",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13838",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
             "confidence": "high"
           }
         }
@@ -10256,39 +10190,6 @@
       ]
     },
     {
-      "id": "ju-wenjun",
-      "name": "Ju Wenjun",
-      "countryCode": "CHN",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-women-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
-          "title": "Norway Chess Women 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Oslo, NOR",
-          "isOnline": false,
-          "categories": [
-            "women",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13838",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "juan-antonio-garcia-ballesteros-banos",
       "name": "Juan Antonio Garcia-Ballesteros Banos",
       "countryCode": null,
@@ -10555,40 +10456,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "jyoti-bir-yash",
-      "name": "Jyoti Bir Yash",
-      "countryCode": "IND",
-      "title": "WFM",
-      "fideId": "35027263",
-      "classicalRating": 1954,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-teplice-open-13-21-jun-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-teplice-open-13-21-jun-2026",
-          "title": "Teplice Open",
-          "status": "upcoming",
-          "startDate": "2026-06-13T00:00:00Z",
-          "endDate": "2026-06-21T23:59:59Z",
-          "locationName": "Teplice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/561",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -12290,43 +12157,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "magnus-carlsen",
-      "name": "Magnus Carlsen",
-      "countryCode": "NOR",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {
-        "officialWebsite": "https://www.magnuscarlsen.com/",
-        "lichess": "https://lichess.org/@/DrNykterstein"
-      },
-      "confirmedEventIds": [
-        "fide-norway-chess-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-2026-25-may-5-jun",
-          "title": "Norway Chess 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Stavanger, NOR",
-          "isOnline": false,
-          "categories": [
-            "otb",
-            "classical",
-            "elite"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
             "confidence": "high"
           }
         }
@@ -17527,40 +17357,6 @@
       ]
     },
     {
-      "id": "r-praggnanandhaa",
-      "name": "R Praggnanandhaa",
-      "countryCode": "IND",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-2026-25-may-5-jun",
-          "title": "Norway Chess 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Stavanger, NOR",
-          "isOnline": false,
-          "categories": [
-            "otb",
-            "classical",
-            "elite"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "rafael-carpio-morano",
       "name": "Rafael Carpio Morano",
       "countryCode": null,
@@ -21271,40 +21067,6 @@
       ]
     },
     {
-      "id": "vincent-keymer",
-      "name": "Vincent Keymer",
-      "countryCode": "GER",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-2026-25-may-5-jun",
-          "title": "Norway Chess 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Stavanger, NOR",
-          "isOnline": false,
-          "categories": [
-            "otb",
-            "classical",
-            "elite"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "vitalii-chaika",
       "name": "Vitalii Chaika",
       "countryCode": "UKR",
@@ -21799,40 +21561,6 @@
       ]
     },
     {
-      "id": "wesley-so",
-      "name": "Wesley So",
-      "countryCode": "USA",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-2026-25-may-5-jun",
-          "title": "Norway Chess 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Stavanger, NOR",
-          "isOnline": false,
-          "categories": [
-            "otb",
-            "classical",
-            "elite"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=6972",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "wiktor-czaja",
       "name": "Wiktor Czaja",
       "countryCode": "POL",
@@ -22220,39 +21948,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "zhu-jiner",
-      "name": "Zhu Jiner",
-      "countryCode": "CHN",
-      "title": "GM",
-      "fideId": null,
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-norway-chess-women-2026-25-may-5-jun"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-norway-chess-women-2026-25-may-5-jun",
-          "title": "Norway Chess Women 2026",
-          "status": "live",
-          "startDate": "2026-05-25T00:00:00Z",
-          "endDate": "2026-06-05T23:59:59Z",
-          "locationName": "Oslo, NOR",
-          "isOnline": false,
-          "categories": [
-            "women",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13838",
-          "source": {
-            "name": "official",
-            "url": "https://norwaychess.no/en/2026/02/24/the-full-lineup-for-norway-chess-2026-announced/",
             "confidence": "high"
           }
         }
