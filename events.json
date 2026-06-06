@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-06T02:08:02Z",
-  "eventCount": 246,
+  "generatedAt": "2026-06-06T08:23:52Z",
+  "eventCount": 251,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 27
+      "count": 30
     },
     {
       "name": "uschess",
@@ -114,147 +114,27 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-zyj9pks5",
-      "title": "Asian Individual Chess Championship 2026 | Open",
-      "shortTitle": "Asian Individual Chess Championship 2026 | Open",
+      "id": "fide-stepan-avagyan-memorial-international-round-robin-tournament-28-may-6-jun",
+      "title": "\"Stepan Avagyan Memorial\" International Round Robin Tournament",
+      "shortTitle": "\"Stepan Avagyan Memorial\" International Round Robin Tournament",
       "status": "live",
-      "startDate": "2026-05-29T07:15:00Z",
-      "endDate": "2026-06-06T02:15:00Z",
-      "timezone": "Asia/Ulaanbaatar",
-      "locationName": "Ulaanbaatar, Mongolia",
+      "startDate": "2026-05-28T00:00:00Z",
+      "endDate": "2026-06-06T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Jermuk, ARM",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "summary": "FIDE calendar event: \"Stepan Avagyan Memorial\" International Round Robin Tournament.",
+      "description": "Time control: Standard",
       "categories": [
         "classical",
-        "broadcast",
-        "open",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--open/ZyJ9pks5",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12934",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--open/ZyJ9pks5"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://chess-results.com/tnr1399377.aspx"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12930"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-bikzr7yl",
-      "title": "Asian Individual Chess Championship 2026 | Women",
-      "shortTitle": "Asian Individual Chess Championship 2026 | Women",
-      "status": "live",
-      "startDate": "2026-05-29T07:15:00Z",
-      "endDate": "2026-06-06T02:15:00Z",
-      "timezone": "Asia/Ulaanbaatar",
-      "locationName": "Ulaanbaatar, Mongolia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "fide"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--women/BIKzR7Yl",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/asian-individual-chess-championship-2026--women/BIKzR7Yl"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://chess-results.com/tnr1399378.aspx"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12929"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-3qny7qen",
-      "title": "7th Stepan Avagyan Memorial 2026",
-      "shortTitle": "7th Stepan Avagyan Memorial 2026",
-      "status": "live",
-      "startDate": "2026-05-29T11:15:00Z",
-      "endDate": "2026-06-06T07:15:00Z",
-      "timezone": "Asia/Yerevan",
-      "locationName": "Jermuk, Armenia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "fide"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial-2026/3qnY7Qen",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/7th-stepan-avagyan-memorial-2026/3qnY7Qen"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1424362.aspx?art=1"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -267,9 +147,92 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-asian-individual-chess-championship-2026-28-may-7-jun",
+      "title": "Asian Individual Chess Championship 2026",
+      "shortTitle": "Asian Individual Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-05-28T00:00:00Z",
+      "endDate": "2026-06-07T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Ulaanbaatar, MGL",
+      "isOnline": false,
+      "summary": "FIDE calendar event: Asian Individual Chess Championship 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12930",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12930"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-asian-women-s-individual-chess-championship-2026-28-may-7-jun",
+      "title": "Asian Women's Individual Chess Championship 2026",
+      "shortTitle": "Asian Women's Individual Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-05-28T00:00:00Z",
+      "endDate": "2026-06-07T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Ulaanbaatar, MGL",
+      "isOnline": false,
+      "summary": "FIDE calendar event: Asian Women's Individual Chess Championship 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12929",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12929"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -865,7 +828,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 16th Rhineland-Palatinate Open 2026.",
-      "description": "90 listed players. 7 rounds",
+      "description": "99 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1079,6 +1042,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-27441",
+      "title": "1st Amaravati International Fide Below 1800",
+      "shortTitle": "1st Amaravati International Fide Below 1800",
+      "status": "live",
+      "startDate": "2026-06-05T18:30:00Z",
+      "endDate": "2026-06-08T16:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 1st Amaravati International Fide Below 1800.",
+      "description": "526 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/1st-amaravati-international-fide-below-1800",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/1st-amaravati-international-fide-below-1800"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-27400",
       "title": "5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto",
       "shortTitle": "5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto",
@@ -1089,7 +1094,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5to. ANIVERSARIO CLUB MIJAIL TAL - Abierto.",
-      "description": "32 listed players. 5 rounds",
+      "description": "33 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1296,7 +1301,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 SACA Kings Birthday Weekender.",
-      "description": "14 listed players. 6 rounds",
+      "description": "28 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1327,10 +1332,97 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-kcgzvi5a",
+      "title": "Bihar State Sub-Junior FIDE Rating Chess Championship - 2026 | U-15 Girls",
+      "shortTitle": "Bihar State Sub-Junior FIDE Rating Chess Championship - 2026 | U-15 Girls",
+      "status": "live",
+      "startDate": "2026-06-06T04:45:00Z",
+      "endDate": "2026-06-10T04:15:00Z",
+      "timezone": "Asia/Calcutta",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/bihar-state-sub-junior-fide-rating-chess-championship-2026--u-15-girls/KCGzVi5a",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/bihar-state-sub-junior-fide-rating-chess-championship-2026--u-15-girls/KCGzVi5a"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1424995.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-fo4zodmm",
+      "title": "Bihar State Sub-Junior FIDE Rating Chess Championship - 2026 | U-15 Open",
+      "shortTitle": "Bihar State Sub-Junior FIDE Rating Chess Championship - 2026 | U-15 Open",
+      "status": "live",
+      "startDate": "2026-06-06T04:45:00Z",
+      "endDate": "2026-06-10T04:15:00Z",
+      "timezone": "Asia/Calcutta",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "open",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/bihar-state-sub-junior-fide-rating-chess-championship-2026--u-15-open/fO4ZOdMM",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/bihar-state-sub-junior-fide-rating-chess-championship-2026--u-15-open/fO4ZOdMM"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1424986.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-27394",
       "title": "Susan Polgar Foundation Girls’ Invitational 2026",
       "shortTitle": "Susan Polgar Foundation Girls’ Invitational 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T07:00:00Z",
       "endDate": "2026-06-08T06:00:00Z",
       "timezone": "UTC",
@@ -1371,7 +1463,7 @@
       "id": "lichess-hcfi0dz9",
       "title": "VIII Turniej w Markach dla zawodników od IV kategorii",
       "shortTitle": "VIII Turniej w Markach dla zawodników od IV kategorii",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T08:00:00Z",
       "endDate": "2026-06-07T08:00:00Z",
       "timezone": "Europe/Warsaw",
@@ -1448,6 +1540,88 @@
           "label": "Wrexham Junior Rapid",
           "type": "stream",
           "url": "https://www.twitch.tv/welshchesschat"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27393",
+      "title": "Torneio Expert Na Copa Do Mundo 2026",
+      "shortTitle": "Torneio Expert Na Copa Do Mundo 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-06T10:30:00Z",
+      "endDate": "2026-06-06T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Torneio Expert Na Copa Do Mundo 2026.",
+      "description": "7 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/torneio-expert-na-copa-do-mundo-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/torneio-expert-na-copa-do-mundo-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25889",
+      "title": "4th WIM Ruth Haring Memorial Tournament",
+      "shortTitle": "4th WIM Ruth Haring Memorial Tournament",
+      "status": "upcoming",
+      "startDate": "2026-06-06T16:00:00Z",
+      "endDate": "2026-06-08T05:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 4th WIM Ruth Haring Memorial Tournament.",
+      "description": "4 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/4th-wim-ruth-haring-memorial-tournament",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/4th-wim-ruth-haring-memorial-tournament"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
