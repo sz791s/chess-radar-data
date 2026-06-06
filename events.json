@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-06T08:23:52Z",
-  "eventCount": 251,
+  "generatedAt": "2026-06-06T13:07:29Z",
+  "eventCount": 252,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
       "name": "uschess",
@@ -1125,6 +1125,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-v2ctkf9v",
+      "title": "2026年全国国际象棋棋协大师赛 (嘉兴站)",
+      "shortTitle": "2026年全国国际象棋棋协大师赛 (嘉兴站)",
+      "status": "live",
+      "startDate": "2026-06-06T00:00:00Z",
+      "endDate": "2026-06-08T00:00:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Jiaxing, China",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-/v2CTKF9V",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-/v2CTKF9V"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1426529.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-first-saturday-gm-im-u2250-6-13-jun",
       "title": "First Saturday GM, IM, U2250",
       "shortTitle": "First Saturday GM, IM, U2250",
@@ -1243,48 +1285,6 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27390",
-      "title": "WR Women's Chess Tour - Tokyo 2026",
-      "shortTitle": "WR Women's Chess Tour - Tokyo 2026",
-      "status": "live",
-      "startDate": "2026-06-06T00:00:00Z",
-      "endDate": "2026-06-07T14:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: WR Women's Chess Tour - Tokyo 2026.",
-      "description": "16 listed players",
-      "categories": [
-        "online",
-        "broadcast",
-        "women"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/wr-womens-chess-tour-tokyo-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/wr-womens-chess-tour-tokyo-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -1505,14 +1505,14 @@
       "id": "chesscom-27428",
       "title": "The 1st Wrexham Junior FIDE Rapidplay",
       "shortTitle": "The 1st Wrexham Junior FIDE Rapidplay",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T10:00:00Z",
       "endDate": "2026-06-06T15:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: The 1st Wrexham Junior FIDE Rapidplay.",
-      "description": "1 scheduled stream links",
+      "description": "36 listed players. 1 scheduled stream links",
       "categories": [
         "rapid",
         "online",
@@ -1551,10 +1551,52 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-unngcdnc",
+      "title": "Tournament of the Baltic Countries (Rapid)",
+      "shortTitle": "Tournament of the Baltic Countries (Rapid)",
+      "status": "live",
+      "startDate": "2026-06-06T10:15:00Z",
+      "endDate": "2026-06-07T11:15:00Z",
+      "timezone": "Europe/Riga",
+      "locationName": "Riga (LAT)",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/tournament-of-the-baltic-countries-rapid/uNngCdnC",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/tournament-of-the-baltic-countries-rapid/uNngCdnC"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chess-results.com/tnr1413886.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-27393",
       "title": "Torneio Expert Na Copa Do Mundo 2026",
       "shortTitle": "Torneio Expert Na Copa Do Mundo 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-06T10:30:00Z",
       "endDate": "2026-06-06T14:00:00Z",
       "timezone": "UTC",
@@ -1991,6 +2033,7 @@
         "john-r-richardson",
         "narmin-mammadova",
         "branko-filipovic",
+        "nenad-doric",
         "david-mandalinic",
         "petar-ratkovic",
         "alex-moreto-quintana",
@@ -2031,7 +2074,6 @@
         "sergei-v-ivanov",
         "johanna-paasikangas",
         "anze-danicic",
-        "nikola-vukovic",
         "gerald-waldmann",
         "mirjana-medic",
         "goran-mihalic",
@@ -2056,6 +2098,8 @@
         "ema-jaksa",
         "slobodan-adzic",
         "zuzana-stara",
+        "mateo-busic",
+        "nikola-adamovic",
         "amalie-zadrapova",
         "david-schwarz",
         "niko-bozic",
@@ -2100,9 +2144,7 @@
         "zlatko-konic",
         "borna-mihokovic",
         "milorad-siljan",
-        "josef-roth",
-        "naid-kekic",
-        "patrik-zekic"
+        "josef-roth"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/563",
@@ -2167,6 +2209,7 @@
         "john-r-richardson",
         "narmin-mammadova",
         "branko-filipovic",
+        "nenad-doric",
         "david-mandalinic",
         "petar-ratkovic",
         "alex-moreto-quintana",
@@ -2207,7 +2250,6 @@
         "sergei-v-ivanov",
         "johanna-paasikangas",
         "anze-danicic",
-        "nikola-vukovic",
         "gerald-waldmann",
         "mirjana-medic",
         "goran-mihalic",
@@ -2232,6 +2274,8 @@
         "ema-jaksa",
         "slobodan-adzic",
         "zuzana-stara",
+        "mateo-busic",
+        "nikola-adamovic",
         "amalie-zadrapova",
         "david-schwarz",
         "niko-bozic",
@@ -2276,9 +2320,7 @@
         "zlatko-konic",
         "borna-mihokovic",
         "milorad-siljan",
-        "josef-roth",
-        "naid-kekic",
-        "patrik-zekic"
+        "josef-roth"
       ],
       "confirmedPlayers": [
         {
@@ -2843,6 +2885,21 @@
           "title": "IM",
           "fideId": "14507951",
           "classicalRating": 2197,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nenad-doric",
+          "name": "Nenad Doric",
+          "countryCode": "CRO",
+          "title": "IM",
+          "fideId": "14501694",
+          "classicalRating": 2196,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -3452,21 +3509,6 @@
           }
         },
         {
-          "playerId": "nikola-vukovic",
-          "name": "Nikola Vukovic",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "14508907",
-          "classicalRating": 2088,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "gerald-waldmann",
           "name": "Gerald Waldmann",
           "countryCode": "AUT",
@@ -3818,6 +3860,36 @@
           "title": null,
           "fideId": "23733543",
           "classicalRating": 2047,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "mateo-busic",
+          "name": "Mateo Busic",
+          "countryCode": "BIH",
+          "title": null,
+          "fideId": "14439590",
+          "classicalRating": 2046,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nikola-adamovic",
+          "name": "Nikola Adamovic",
+          "countryCode": "SRB",
+          "title": null,
+          "fideId": "9211068",
+          "classicalRating": 2044,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -4493,36 +4565,6 @@
           "title": "CM",
           "fideId": "4609778",
           "classicalRating": 1954,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "naid-kekic",
-          "name": "Naid Kekic",
-          "countryCode": "BIH",
-          "title": null,
-          "fideId": "14422115",
-          "classicalRating": 1951,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "patrik-zekic",
-          "name": "Patrik Zekic",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "14562006",
-          "classicalRating": 1950,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
