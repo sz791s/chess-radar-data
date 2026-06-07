@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T13:21:36Z",
+  "generatedAt": "2026-06-07T19:06:26Z",
   "list": "top50_women",
   "source": "manualSeed",
   "playerCount": 50,
@@ -361,8 +361,31 @@
       "rapidRating": null,
       "blitzRating": null,
       "profileLinks": {},
-      "confirmedEventIds": [],
-      "confirmedEvents": []
+      "confirmedEventIds": [
+        "fide-19th-paleochora-international-chess-tournament-18-25-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+          "title": "19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT",
+          "status": "upcoming",
+          "startDate": "2026-07-18T00:00:00Z",
+          "endDate": "2026-07-25T23:59:59Z",
+          "locationName": "Paleochora Creta Island, GRE",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb",
+            "open"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=12656",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
     },
     {
       "id": "stavroula-tsolakidou",
