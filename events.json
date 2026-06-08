@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-08T02:39:19Z",
-  "eventCount": 236,
+  "generatedAt": "2026-06-08T10:17:20Z",
+  "eventCount": 235,
   "sources": [
     {
       "name": "curated",
@@ -779,47 +779,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-27394",
-      "title": "Susan Polgar Foundation Girls’ Invitational 2026",
-      "shortTitle": "Susan Polgar Foundation Girls’ Invitational 2026",
-      "status": "live",
-      "startDate": "2026-06-06T07:00:00Z",
-      "endDate": "2026-06-08T06:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Susan Polgar Foundation Girls’ Invitational 2026.",
-      "description": "80 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/susan-polgar-foundation-girls-invitational-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/susan-polgar-foundation-girls-invitational-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27481",
       "title": "Portuguese Women's Championship 2026",
       "shortTitle": "Portuguese Women's Championship 2026",
@@ -846,47 +805,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/portuguese-womens-championship-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-25889",
-      "title": "4th WIM Ruth Haring Memorial Tournament",
-      "shortTitle": "4th WIM Ruth Haring Memorial Tournament",
-      "status": "live",
-      "startDate": "2026-06-06T16:00:00Z",
-      "endDate": "2026-06-08T05:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 4th WIM Ruth Haring Memorial Tournament.",
-      "description": "22 listed players. 4 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/4th-wim-ruth-haring-memorial-tournament",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/4th-wim-ruth-haring-memorial-tournament"
         },
         {
           "label": "Chess.com current events",
@@ -1028,7 +946,7 @@
       "id": "lichess-mtrq2tcr",
       "title": "3rd UzChess Cup 2026 | Challengers",
       "shortTitle": "3rd UzChess Cup 2026 | Challengers",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-08T10:15:00Z",
       "endDate": "2026-06-15T06:15:00Z",
       "timezone": "Asia/Tashkent",
@@ -1067,6 +985,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-27401",
+      "title": "17° Open Internazionale delle Dolomiti | Forni Di Sopra",
+      "shortTitle": "17° Open Internazionale delle Dolomiti | Forni Di Sopra",
+      "status": "upcoming",
+      "startDate": "2026-06-08T13:00:00Z",
+      "endDate": "2026-06-12T22:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 17° Open Internazionale delle Dolomiti | Forni Di Sopra.",
+      "description": "35 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/17-open-internazionale-delle-dolomiti-forni-di-sopra",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/17-open-internazionale-delle-dolomiti-forni-di-sopra"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-qdxctfno",
       "title": "GM Felix Blohberger vs GM David Navara",
       "shortTitle": "GM Felix Blohberger vs GM David Navara",
@@ -1081,11 +1041,13 @@
       "categories": [
         "classical",
         "broadcast",
-        "otb"
+        "otb",
+        "online"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "lichess",
+        "chesscom"
       ],
       "primaryUrl": "https://lichess.org/broadcast/gm-felix-blohberger-vs-gm-david-navara/QDXcTfNo",
       "links": [
@@ -1098,6 +1060,26 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1392147.aspx?art=1"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/gm-felix-blohberger-vs-gm-david-navara"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Round 1",
+          "type": "stream",
+          "url": "https://www.youtube.com/@febloh"
+        },
+        {
+          "label": "GM Blohberger vs GM Navara - Round 1",
+          "type": "stream",
+          "url": "https://www.twitch.tv/gmblohberger"
         }
       ],
       "source": {
@@ -3978,6 +3960,7 @@
         "essam-hamad",
         "nikodem-mrozowski",
         "dumir-vihaan",
+        "hubert-olbrycht",
         "ladislav-hrbolka",
         "grzegorz-marek",
         "jakub-elias",
@@ -3999,6 +3982,7 @@
         "mohammed-dhaidan-n-alotaibi",
         "jan-alfred-klingelhoefer",
         "tamhant-jain-krisha",
+        "krzysztof-iwulski",
         "dominic-czarnuch",
         "ahmet-selim-abdurahman",
         "jain-aadhya",
@@ -4113,6 +4097,7 @@
         "essam-hamad",
         "nikodem-mrozowski",
         "dumir-vihaan",
+        "hubert-olbrycht",
         "ladislav-hrbolka",
         "grzegorz-marek",
         "jakub-elias",
@@ -4134,6 +4119,7 @@
         "mohammed-dhaidan-n-alotaibi",
         "jan-alfred-klingelhoefer",
         "tamhant-jain-krisha",
+        "krzysztof-iwulski",
         "dominic-czarnuch",
         "ahmet-selim-abdurahman",
         "jain-aadhya",
@@ -5373,6 +5359,21 @@
           }
         },
         {
+          "playerId": "hubert-olbrycht",
+          "name": "Hubert Olbrycht",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "91121078",
+          "classicalRating": 1989,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ladislav-hrbolka",
           "name": "Ladislav Hrbolka",
           "countryCode": "CZE",
@@ -5679,6 +5680,21 @@
           "title": null,
           "fideId": "33380252",
           "classicalRating": 1860,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "krzysztof-iwulski",
+          "name": "Krzysztof Iwulski",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "41816846",
+          "classicalRating": 1857,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -22817,6 +22833,7 @@
         "mario-gavilan-diaz",
         "leo-crevatin",
         "martin-oksendal",
+        "ruijun-jin",
         "alex-herrera-pedroso",
         "alejandro-yuste-valenzuela",
         "fredrik-lindh",
@@ -22832,6 +22849,7 @@
         "samuel-dubuisson",
         "camille-blanquet",
         "alberto-bethencourt-hernandez",
+        "adrian-gonzalez-pinar",
         "jose-joaquin-bas-mas",
         "silje-bjerke",
         "shanne-hedegaard-jakobsen",
@@ -22898,9 +22916,7 @@
         "oier-esteban-bernardo",
         "diana-tynyshtyk",
         "laurent-jeanjean",
-        "bartolome-rossello-sanchez",
-        "thorsten-piehl",
-        "diego-jesus-gomez-cerezo"
+        "bartolome-rossello-sanchez"
       ],
       "channelIds": [
         "fide"
@@ -23005,6 +23021,7 @@
         "mario-gavilan-diaz",
         "leo-crevatin",
         "martin-oksendal",
+        "ruijun-jin",
         "alex-herrera-pedroso",
         "alejandro-yuste-valenzuela",
         "fredrik-lindh",
@@ -23020,6 +23037,7 @@
         "samuel-dubuisson",
         "camille-blanquet",
         "alberto-bethencourt-hernandez",
+        "adrian-gonzalez-pinar",
         "jose-joaquin-bas-mas",
         "silje-bjerke",
         "shanne-hedegaard-jakobsen",
@@ -23086,9 +23104,7 @@
         "oier-esteban-bernardo",
         "diana-tynyshtyk",
         "laurent-jeanjean",
-        "bartolome-rossello-sanchez",
-        "thorsten-piehl",
-        "diego-jesus-gomez-cerezo"
+        "bartolome-rossello-sanchez"
       ],
       "confirmedPlayers": [
         {
@@ -24082,6 +24098,21 @@
           }
         },
         {
+          "playerId": "ruijun-jin",
+          "name": "Ruijun Jin",
+          "countryCode": "CHN",
+          "title": null,
+          "fideId": "8623708",
+          "classicalRating": 2236,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "alex-herrera-pedroso",
           "name": "Alex Herrera Pedroso",
           "countryCode": "CUB",
@@ -24298,6 +24329,21 @@
           "title": null,
           "fideId": "54539790",
           "classicalRating": 2155,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "adrian-gonzalez-pinar",
+          "name": "Adrian Gonzalez Pinar",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "54546575",
+          "classicalRating": 2149,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -25303,36 +25349,6 @@
           "title": null,
           "fideId": "32076193",
           "classicalRating": 1855,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "thorsten-piehl",
-          "name": "Thorsten Piehl",
-          "countryCode": "GER",
-          "title": null,
-          "fideId": "533043108",
-          "classicalRating": 1823,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "diego-jesus-gomez-cerezo",
-          "name": "Diego Jesus Gomez Cerezo",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "2263696",
-          "classicalRating": 1822,
           "profileLinks": {},
           "status": "confirmed",
           "source": {

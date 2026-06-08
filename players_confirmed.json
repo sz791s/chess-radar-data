@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T02:39:38Z",
+  "generatedAt": "2026-06-08T10:17:38Z",
   "playerCount": 1106,
   "source": "confirmedEventRosters",
   "players": [
@@ -542,6 +542,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "adrian-gonzalez-pinar",
+      "name": "Adrian Gonzalez Pinar",
+      "countryCode": "ESP",
+      "title": null,
+      "fideId": "54546575",
+      "classicalRating": 2149,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-granada-chess-open-2026-28-jul-2-aug"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+          "title": "Granada Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-28T00:00:00Z",
+          "endDate": "2026-08-02T23:59:59Z",
+          "locationName": "Granada, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -8478,40 +8512,6 @@
       ]
     },
     {
-      "id": "diego-jesus-gomez-cerezo",
-      "name": "Diego Jesus Gomez Cerezo",
-      "countryCode": "ESP",
-      "title": null,
-      "fideId": "2263696",
-      "classicalRating": 1822,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-granada-chess-open-2026-28-jul-2-aug"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-          "title": "Granada Chess Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-28T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Granada, ESP",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "dimitra-alexandri",
       "name": "Dimitra Alexandri",
       "countryCode": "GRE",
@@ -13895,7 +13895,8 @@
       "classicalRating": 1989,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-38th-open-pula-2026-13-21-jun-2026"
+        "chessaround-38th-open-pula-2026-13-21-jun-2026",
+        "chessaround-teplice-open-13-21-jun-2026"
       ],
       "confirmedEvents": [
         {
@@ -13915,6 +13916,26 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "eventId": "chessaround-teplice-open-13-21-jun-2026",
+          "title": "Teplice Open",
+          "status": "upcoming",
+          "startDate": "2026-06-13T00:00:00Z",
+          "endDate": "2026-06-21T23:59:59Z",
+          "locationName": "Teplice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/561",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -19716,6 +19737,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "krzysztof-iwulski",
+      "name": "Krzysztof Iwulski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "41816846",
+      "classicalRating": 1857,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-teplice-open-13-21-jun-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-teplice-open-13-21-jun-2026",
+          "title": "Teplice Open",
+          "status": "upcoming",
+          "startDate": "2026-06-13T00:00:00Z",
+          "endDate": "2026-06-21T23:59:59Z",
+          "locationName": "Teplice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/561",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -31667,13 +31722,14 @@
     {
       "id": "ruijun-jin",
       "name": "Ruijun Jin",
-      "countryCode": null,
+      "countryCode": "CHN",
       "title": null,
       "fideId": "8623708",
       "classicalRating": 2236,
       "profileLinks": {},
       "confirmedEventIds": [
-        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul"
+        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+        "fide-granada-chess-open-2026-28-jul-2-aug"
       ],
       "confirmedEvents": [
         {
@@ -31693,6 +31749,26 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+          "title": "Granada Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-28T00:00:00Z",
+          "endDate": "2026-08-02T23:59:59Z",
+          "locationName": "Granada, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -34969,40 +35045,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "thorsten-piehl",
-      "name": "Thorsten Piehl",
-      "countryCode": "GER",
-      "title": null,
-      "fideId": "533043108",
-      "classicalRating": 1823,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-granada-chess-open-2026-28-jul-2-aug"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-          "title": "Granada Chess Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-28T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Granada, ESP",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
