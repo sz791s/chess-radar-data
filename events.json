@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-10T02:29:37Z",
-  "eventCount": 234,
+  "generatedAt": "2026-06-10T09:40:20Z",
+  "eventCount": 233,
   "sources": [
     {
       "name": "curated",
@@ -933,14 +933,14 @@
       "id": "chesscom-27515",
       "title": "360 One Global Chess Festival",
       "shortTitle": "360 One Global Chess Festival",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-10T04:00:00Z",
       "endDate": "2026-06-18T12:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 360 One Global Chess Festival.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "456 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -974,7 +974,7 @@
       "id": "chesscom-27559",
       "title": "Las Vegas International Chess Festival 2026",
       "shortTitle": "Las Vegas International Chess Festival 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-10T07:00:00Z",
       "endDate": "2026-06-15T06:00:00Z",
       "timezone": "UTC",
@@ -1007,48 +1007,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-qduq9it0",
-      "title": "Security Chess 2026",
-      "shortTitle": "Security Chess 2026",
-      "status": "upcoming",
-      "startDate": "2026-06-10T08:00:00Z",
-      "endDate": "2026-06-10T08:00:00Z",
-      "timezone": "Europe/Warsaw",
-      "locationName": "Warszawa",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "8-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/security-chess-2026/qDuQ9It0",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/security-chess-2026/qDuQ9It0"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.securitychess.pl/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1205,7 +1163,6 @@
         "egor-bogdanov",
         "milovan-ratkovic",
         "aleksandar-kovacevic",
-        "miloje-ratkovic",
         "zaur-mammadov",
         "enkhbaatar-enkhnar",
         "milan-s-popovic",
@@ -1221,7 +1178,6 @@
         "miroslav-zufic",
         "muhamed-sisic",
         "nico-marakovits",
-        "ena-cvitan",
         "nikola-konjevic",
         "joanna-worek",
         "jordanka-belic",
@@ -1264,7 +1220,6 @@
         "wiktor-czaja",
         "andrew-philip-smith",
         "julian-wagner",
-        "ivo-antunovic",
         "peter-j-sowray",
         "dey-subhrajit",
         "chatterjee-aniruddh",
@@ -1350,7 +1305,10 @@
         "josef-roth",
         "naid-kekic",
         "patrik-zekic",
-        "ridhi-varma-danduprolu"
+        "ridhi-varma-danduprolu",
+        "bosko-vasic",
+        "boris-skok",
+        "zdravko-crnkovic"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/563",
@@ -1381,7 +1339,6 @@
         "egor-bogdanov",
         "milovan-ratkovic",
         "aleksandar-kovacevic",
-        "miloje-ratkovic",
         "zaur-mammadov",
         "enkhbaatar-enkhnar",
         "milan-s-popovic",
@@ -1397,7 +1354,6 @@
         "miroslav-zufic",
         "muhamed-sisic",
         "nico-marakovits",
-        "ena-cvitan",
         "nikola-konjevic",
         "joanna-worek",
         "jordanka-belic",
@@ -1440,7 +1396,6 @@
         "wiktor-czaja",
         "andrew-philip-smith",
         "julian-wagner",
-        "ivo-antunovic",
         "peter-j-sowray",
         "dey-subhrajit",
         "chatterjee-aniruddh",
@@ -1526,7 +1481,10 @@
         "josef-roth",
         "naid-kekic",
         "patrik-zekic",
-        "ridhi-varma-danduprolu"
+        "ridhi-varma-danduprolu",
+        "bosko-vasic",
+        "boris-skok",
+        "zdravko-crnkovic"
       ],
       "confirmedPlayers": [
         {
@@ -1581,21 +1539,6 @@
           "title": "GM",
           "fideId": "903124",
           "classicalRating": 2440,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "miloje-ratkovic",
-          "name": "Miloje Ratkovic",
-          "countryCode": "SRB",
-          "title": "GM",
-          "fideId": "914517",
-          "classicalRating": 2437,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -1821,21 +1764,6 @@
           "title": "FM",
           "fideId": "1653253",
           "classicalRating": 2282,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ena-cvitan",
-          "name": "Ena Cvitan",
-          "countryCode": "CRO",
-          "title": "FM",
-          "fideId": "14534215",
-          "classicalRating": 2281,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -2466,21 +2394,6 @@
           "title": null,
           "fideId": "16257367",
           "classicalRating": 2125,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ivo-antunovic",
-          "name": "Ivo Antunovic",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "14505878",
-          "classicalRating": 2124,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -3771,6 +3684,51 @@
           "title": "WCM",
           "fideId": "30988330",
           "classicalRating": 1946,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bosko-vasic",
+          "name": "Bosko Vasic",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "14503972",
+          "classicalRating": 1944,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "boris-skok",
+          "name": "Boris Skok",
+          "countryCode": "SLO",
+          "title": null,
+          "fideId": "14602172",
+          "classicalRating": 1943,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "zdravko-crnkovic",
+          "name": "Zdravko Crnkovic",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "14507854",
+          "classicalRating": 1932,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -9716,47 +9674,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-san-bernardino-senior-over-50-1-5-jul",
-      "title": "San Bernardino SENIOR Over 50",
-      "shortTitle": "San Bernardino SENIOR Over 50",
-      "status": "upcoming",
-      "startDate": "2026-07-01T00:00:00Z",
-      "endDate": "2026-07-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "MESOCCO (GR), SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: San Bernardino SENIOR Over 50.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=6021",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=6021"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-3rd-international-summer-chess-open-of-langenhagen-2-5-jul",
       "title": "3rd International Summer Chess Open of Langenhagen",
       "shortTitle": "3rd International Summer Chess Open of Langenhagen",
@@ -9908,48 +9825,6 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=13506"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-san-bernardino-weekend-open-3-5-jul",
-      "title": "San Bernardino WEEKEND OPEN",
-      "shortTitle": "San Bernardino WEEKEND OPEN",
-      "status": "upcoming",
-      "startDate": "2026-07-03T00:00:00Z",
-      "endDate": "2026-07-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "MESOCCO (GR), SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: San Bernardino WEEKEND OPEN.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=6020",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=6020"
         },
         {
           "label": "FIDE calendar",
@@ -14636,6 +14511,7 @@
         "artem-tytynnik",
         "mihail-triantafilidis",
         "christos-tsarsitalidis",
+        "lokesh-bhakti-brahme-avadhoot",
         "sebastian-ionut-pavel",
         "kostantinos-georgiou",
         "anna-khachatryan",
@@ -14915,6 +14791,7 @@
         "artem-tytynnik",
         "mihail-triantafilidis",
         "christos-tsarsitalidis",
+        "lokesh-bhakti-brahme-avadhoot",
         "sebastian-ionut-pavel",
         "kostantinos-georgiou",
         "anna-khachatryan",
@@ -15877,6 +15754,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "25831488",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "lokesh-bhakti-brahme-avadhoot",
+          "name": "Lokesh Bhakti Brahme Avadhoot",
+          "countryCode": "IND",
+          "title": null,
+          "fideId": "33496463",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -22843,7 +22735,6 @@
         "joseph-girel",
         "jimmy-jubin",
         "hampus-sorensen",
-        "henry-edward-tudor",
         "omar-almeida-quintana",
         "francisco-fiorito",
         "noe-tutisani",
@@ -22858,6 +22749,7 @@
         "ruben-domingo-nu-ez",
         "kamotra-soham",
         "guerau-masague-artero",
+        "tim-janzelj",
         "erdene-baasansuren",
         "l-srihari",
         "marc-narciso-dublan",
@@ -22890,6 +22782,7 @@
         "javier-aguera-naredo",
         "cagatay-burcu",
         "sebastian-almagro-mazariegos",
+        "shadi-sian",
         "daniel-molina-carretero",
         "mario-gavilan-diaz",
         "leo-crevatin",
@@ -22974,8 +22867,7 @@
         "gerardo-domingo-valverde",
         "rafael-carruana-fuentes",
         "changhyung-kim",
-        "pablo-martin-fernandez",
-        "karson-lu"
+        "pablo-martin-fernandez"
       ],
       "channelIds": [
         "fide"
@@ -23031,7 +22923,6 @@
         "joseph-girel",
         "jimmy-jubin",
         "hampus-sorensen",
-        "henry-edward-tudor",
         "omar-almeida-quintana",
         "francisco-fiorito",
         "noe-tutisani",
@@ -23046,6 +22937,7 @@
         "ruben-domingo-nu-ez",
         "kamotra-soham",
         "guerau-masague-artero",
+        "tim-janzelj",
         "erdene-baasansuren",
         "l-srihari",
         "marc-narciso-dublan",
@@ -23078,6 +22970,7 @@
         "javier-aguera-naredo",
         "cagatay-burcu",
         "sebastian-almagro-mazariegos",
+        "shadi-sian",
         "daniel-molina-carretero",
         "mario-gavilan-diaz",
         "leo-crevatin",
@@ -23162,8 +23055,7 @@
         "gerardo-domingo-valverde",
         "rafael-carruana-fuentes",
         "changhyung-kim",
-        "pablo-martin-fernandez",
-        "karson-lu"
+        "pablo-martin-fernandez"
       ],
       "confirmedPlayers": [
         {
@@ -23422,21 +23314,6 @@
           }
         },
         {
-          "playerId": "henry-edward-tudor",
-          "name": "Henry Edward Tudor",
-          "countryCode": "ROU",
-          "title": "IM",
-          "fideId": "2409836",
-          "classicalRating": 2460,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "omar-almeida-quintana",
           "name": "Omar Almeida Quintana",
           "countryCode": "CUB",
@@ -23638,6 +23515,21 @@
           "title": "IM",
           "fideId": "32098952",
           "classicalRating": 2399,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "tim-janzelj",
+          "name": "Tim Janzelj",
+          "countryCode": "SLO",
+          "title": "IM",
+          "fideId": "14607913",
+          "classicalRating": 2398,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -24117,6 +24009,21 @@
           "countryCode": "ESP",
           "title": "FM",
           "fideId": "2221640",
+          "classicalRating": 2259,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "shadi-sian",
+          "name": "Shadi Sian",
+          "countryCode": "NOR",
+          "title": "CM",
+          "fideId": "1532600",
           "classicalRating": 2259,
           "profileLinks": {},
           "status": "confirmed",
@@ -25392,21 +25299,6 @@
           "countryCode": "ESP",
           "title": null,
           "fideId": "54766079",
-          "classicalRating": 1886,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "karson-lu",
-          "name": "Karson Lu",
-          "countryCode": "CAN",
-          "title": null,
-          "fideId": "2661756",
           "classicalRating": 1886,
           "profileLinks": {},
           "status": "confirmed",
@@ -26931,6 +26823,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-brugse-meesters-2026-8-14-aug",
+      "title": "Brugse Meesters 2026",
+      "shortTitle": "Brugse Meesters 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-14T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Brugge, BEL",
+      "isOnline": false,
+      "summary": "FIDE calendar event: Brugse Meesters 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14716",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14716"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-cairns-cup-2026-8-21-aug",
       "title": "Cairns Cup 2026",
       "shortTitle": "Cairns Cup 2026",
@@ -26956,6 +26889,48 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=13839"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-faaker-see-open-2026-8-15-aug",
+      "title": "Faaker See Open 2026",
+      "shortTitle": "Faaker See Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Latschach / Faaker See, AUT",
+      "isOnline": false,
+      "summary": "FIDE calendar event: Faaker See Open 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14174",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14174"
         },
         {
           "label": "FIDE calendar",
