@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-09T19:57:03Z",
-  "playerCount": 1116,
+  "generatedAt": "2026-06-10T02:29:56Z",
+  "playerCount": 1115,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -5524,6 +5524,40 @@
       ]
     },
     {
+      "id": "bla-enko-carevi",
+      "name": "Blaženko Carević",
+      "countryCode": "CRO",
+      "title": null,
+      "fideId": "79346871",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-5-open-hvar-2026-19-25-oct-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-5-open-hvar-2026-19-25-oct-2026",
+          "title": "5. Open Hvar 2026",
+          "status": "upcoming",
+          "startDate": "2026-10-19T00:00:00Z",
+          "endDate": "2026-10-25T23:59:59Z",
+          "locationName": "Hvar, Croatia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "bogdan-borsos",
       "name": "Bogdan Borsos",
       "countryCode": "UKR",
@@ -8370,40 +8404,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dharewa-samyak",
-      "name": "Dharewa Samyak",
-      "countryCode": "IND",
-      "title": "FM",
-      "fideId": "25607103",
-      "classicalRating": 2232,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-teplice-open-13-21-jun-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-teplice-open-13-21-jun-2026",
-          "title": "Teplice Open",
-          "status": "upcoming",
-          "startDate": "2026-06-13T00:00:00Z",
-          "endDate": "2026-06-21T23:59:59Z",
-          "locationName": "Teplice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/561",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -15400,34 +15400,34 @@
       ]
     },
     {
-      "id": "jain-aadhya",
-      "name": "Jain Aadhya",
-      "countryCode": "IND",
+      "id": "jaime-boris-juan-lepp",
+      "name": "Jaime Boris Juan Lepp",
+      "countryCode": null,
       "title": null,
-      "fideId": "25974068",
-      "classicalRating": 1790,
+      "fideId": "24595985",
+      "classicalRating": 2102,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-teplice-open-13-21-jun-2026"
+        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-teplice-open-13-21-jun-2026",
-          "title": "Teplice Open",
+          "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+          "title": "Lince Andújar Chess Open 2026",
           "status": "upcoming",
-          "startDate": "2026-06-13T00:00:00Z",
-          "endDate": "2026-06-21T23:59:59Z",
-          "locationName": "Teplice, Czech Republic",
+          "startDate": "2026-06-27T00:00:00Z",
+          "endDate": "2026-07-03T23:59:59Z",
+          "locationName": "Andújar, ESP",
           "isOnline": false,
           "categories": [
             "classical",
             "open",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/561",
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
           "source": {
             "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
             "confidence": "high"
           }
         }
@@ -15496,40 +15496,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "jain-sachi",
-      "name": "Jain Sachi",
-      "countryCode": "IND",
-      "title": "WFM",
-      "fideId": "25974050",
-      "classicalRating": 2157,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-teplice-open-13-21-jun-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-teplice-open-13-21-jun-2026",
-          "title": "Teplice Open",
-          "status": "upcoming",
-          "startDate": "2026-06-13T00:00:00Z",
-          "endDate": "2026-06-21T23:59:59Z",
-          "locationName": "Teplice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/561",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -32523,6 +32489,40 @@
       ]
     },
     {
+      "id": "santiago-juan-mas",
+      "name": "Santiago Juan Mas",
+      "countryCode": null,
+      "title": null,
+      "fideId": "2215551",
+      "classicalRating": 2011,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+          "title": "Lince Andújar Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-06-27T00:00:00Z",
+          "endDate": "2026-07-03T23:59:59Z",
+          "locationName": "Andújar, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "sarah-djidjeli",
       "name": "Sarah Djidjeli",
       "countryCode": "FRA",
@@ -33101,40 +33101,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1388432.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "shayan-noushad-ibrahim-muhammad",
-      "name": "Shayan Noushad Ibrahim Muhammad",
-      "countryCode": "IND",
-      "title": "AIM",
-      "fideId": "48701300",
-      "classicalRating": 2033,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-teplice-open-13-21-jun-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-teplice-open-13-21-jun-2026",
-          "title": "Teplice Open",
-          "status": "upcoming",
-          "startDate": "2026-06-13T00:00:00Z",
-          "endDate": "2026-06-21T23:59:59Z",
-          "locationName": "Teplice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/561",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
             "confidence": "high"
           }
         }

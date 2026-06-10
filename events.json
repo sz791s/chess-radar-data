@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-09T19:56:27Z",
-  "eventCount": 231,
+  "generatedAt": "2026-06-10T02:29:37Z",
+  "eventCount": 234,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 17
+      "count": 19
     },
     {
       "name": "uschess",
@@ -919,6 +919,130 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1392147.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27515",
+      "title": "360 One Global Chess Festival",
+      "shortTitle": "360 One Global Chess Festival",
+      "status": "upcoming",
+      "startDate": "2026-06-10T04:00:00Z",
+      "endDate": "2026-06-18T12:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 360 One Global Chess Festival.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/360-one-global-chess-festival",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/360-one-global-chess-festival"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27559",
+      "title": "Las Vegas International Chess Festival 2026",
+      "shortTitle": "Las Vegas International Chess Festival 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-10T07:00:00Z",
+      "endDate": "2026-06-15T06:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Las Vegas International Chess Festival 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/las-vegas-international-chess-festival-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/las-vegas-international-chess-festival-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-qduq9it0",
+      "title": "Security Chess 2026",
+      "shortTitle": "Security Chess 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-10T08:00:00Z",
+      "endDate": "2026-06-10T08:00:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Warszawa",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "8-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/security-chess-2026/qDuQ9It0",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/security-chess-2026/qDuQ9It0"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.securitychess.pl/"
         }
       ],
       "source": {
@@ -3741,7 +3865,6 @@
         "filip-ochedzan",
         "agrawal-arnav",
         "bruno-topencik",
-        "dharewa-samyak",
         "al-taher-abdulrahman-mohammad",
         "kyrylo-nesterenko",
         "pavel-freisler",
@@ -3758,7 +3881,6 @@
         "matej-babula",
         "a-charvi",
         "martin-michael-mikulka",
-        "jain-sachi",
         "jan-vaclavik",
         "furtado-ivana-maria",
         "miguel-suarez-alvarez",
@@ -3791,7 +3913,6 @@
         "dominic-nathan-paragua",
         "feliks-rutkowski",
         "krishna-g-ravi",
-        "shayan-noushad-ibrahim-muhammad",
         "benjamin-snodgrass",
         "michaela-svobodova",
         "szczepan-wilgosz",
@@ -3824,7 +3945,6 @@
         "krzysztof-iwulski",
         "dominic-czarnuch",
         "ahmet-selim-abdurahman",
-        "jain-aadhya",
         "daniel-dobaj",
         "oleksandr-boldizhar",
         "abdelhalim-hamitouche"
@@ -3878,7 +3998,6 @@
         "filip-ochedzan",
         "agrawal-arnav",
         "bruno-topencik",
-        "dharewa-samyak",
         "al-taher-abdulrahman-mohammad",
         "kyrylo-nesterenko",
         "pavel-freisler",
@@ -3895,7 +4014,6 @@
         "matej-babula",
         "a-charvi",
         "martin-michael-mikulka",
-        "jain-sachi",
         "jan-vaclavik",
         "furtado-ivana-maria",
         "miguel-suarez-alvarez",
@@ -3928,7 +4046,6 @@
         "dominic-nathan-paragua",
         "feliks-rutkowski",
         "krishna-g-ravi",
-        "shayan-noushad-ibrahim-muhammad",
         "benjamin-snodgrass",
         "michaela-svobodova",
         "szczepan-wilgosz",
@@ -3961,7 +4078,6 @@
         "krzysztof-iwulski",
         "dominic-czarnuch",
         "ahmet-selim-abdurahman",
-        "jain-aadhya",
         "daniel-dobaj",
         "oleksandr-boldizhar",
         "abdelhalim-hamitouche"
@@ -4328,21 +4444,6 @@
           }
         },
         {
-          "playerId": "dharewa-samyak",
-          "name": "Dharewa Samyak",
-          "countryCode": "IND",
-          "title": "FM",
-          "fideId": "25607103",
-          "classicalRating": 2232,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "al-taher-abdulrahman-mohammad",
           "name": "Al Taher Abdulrahman Mohammad",
           "countryCode": "UAE",
@@ -4574,21 +4675,6 @@
           "title": null,
           "fideId": "23730803",
           "classicalRating": 2163,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jain-sachi",
-          "name": "Jain Sachi",
-          "countryCode": "IND",
-          "title": "WFM",
-          "fideId": "25974050",
-          "classicalRating": 2157,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -5078,21 +5164,6 @@
           }
         },
         {
-          "playerId": "shayan-noushad-ibrahim-muhammad",
-          "name": "Shayan Noushad Ibrahim Muhammad",
-          "countryCode": "IND",
-          "title": "AIM",
-          "fideId": "48701300",
-          "classicalRating": 2033,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "benjamin-snodgrass",
           "name": "Benjamin Snodgrass",
           "countryCode": "USA",
@@ -5564,21 +5635,6 @@
           "title": null,
           "fideId": "15014061",
           "classicalRating": 1798,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jain-aadhya",
-          "name": "Jain Aadhya",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "25974068",
-          "classicalRating": 1790,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -7290,6 +7346,7 @@
         "sergio-castillo-gallego",
         "cristofer-luke-brezmes",
         "titus-bittner",
+        "jaime-boris-juan-lepp",
         "klean-shuqja",
         "naomi-maklakova",
         "teodoro-asensio-linan",
@@ -7299,6 +7356,7 @@
         "ismail-eren-midem",
         "david-maloberti",
         "jesumarian-rebecca",
+        "santiago-juan-mas",
         "krisjanis-lazars",
         "alvaro-espinola-gomez",
         "antoine-rodriguez",
@@ -7434,6 +7492,7 @@
         "sergio-castillo-gallego",
         "cristofer-luke-brezmes",
         "titus-bittner",
+        "jaime-boris-juan-lepp",
         "klean-shuqja",
         "naomi-maklakova",
         "teodoro-asensio-linan",
@@ -7443,6 +7502,7 @@
         "ismail-eren-midem",
         "david-maloberti",
         "jesumarian-rebecca",
+        "santiago-juan-mas",
         "krisjanis-lazars",
         "alvaro-espinola-gomez",
         "antoine-rodriguez",
@@ -8145,6 +8205,21 @@
           }
         },
         {
+          "playerId": "jaime-boris-juan-lepp",
+          "name": "Jaime Boris Juan Lepp",
+          "countryCode": null,
+          "title": null,
+          "fideId": "24595985",
+          "classicalRating": 2102,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "klean-shuqja",
           "name": "Klean Shuqja",
           "countryCode": null,
@@ -8271,6 +8346,21 @@
           "title": "WCM",
           "fideId": "35094831",
           "classicalRating": 2012,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "santiago-juan-mas",
+          "name": "Santiago Juan Mas",
+          "countryCode": null,
+          "title": null,
+          "fideId": "2215551",
+          "classicalRating": 2011,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -27657,6 +27747,7 @@
         "benjamin-krstulovi",
         "hildo-rodrigo-medero",
         "mark-boellaard",
+        "bla-enko-carevi",
         "lovro-jeli-i",
         "hongyi-jin",
         "mateusz-kosiarski",
@@ -27781,6 +27872,7 @@
         "benjamin-krstulovi",
         "hildo-rodrigo-medero",
         "mark-boellaard",
+        "bla-enko-carevi",
         "lovro-jeli-i",
         "hongyi-jin",
         "mateusz-kosiarski",
@@ -29174,6 +29266,21 @@
           "countryCode": "CRO",
           "title": null,
           "fideId": "79339484",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bla-enko-carevi",
+          "name": "Blaženko Carević",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "79346871",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
