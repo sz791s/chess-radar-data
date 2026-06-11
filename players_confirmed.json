@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T15:35:13Z",
-  "playerCount": 1179,
+  "generatedAt": "2026-06-11T20:10:13Z",
+  "playerCount": 1180,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -25281,6 +25281,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mate-todashvili",
+      "name": "Mate Todashvili",
+      "countryCode": null,
+      "title": null,
+      "fideId": "13610481",
+      "classicalRating": 1997,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+          "title": "Lince Andújar Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-06-27T00:00:00Z",
+          "endDate": "2026-07-03T23:59:59Z",
+          "locationName": "Andújar, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
             "confidence": "high"
           }
         }

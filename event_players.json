@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-11T15:35:13Z",
-  "eventPlayerCount": 1281,
+  "generatedAt": "2026-06-11T20:10:13Z",
+  "eventPlayerCount": 1282,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1281
+      "count": 1282
     },
     {
       "name": "curated",
@@ -4761,6 +4761,21 @@
       "countryCode": null,
       "title": null,
       "fideId": "523074930",
+      "classicalRating": 1997,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "mate-todashvili",
+      "name": "Mate Todashvili",
+      "countryCode": null,
+      "title": null,
+      "fideId": "13610481",
       "classicalRating": 1997,
       "status": "confirmed",
       "source": {

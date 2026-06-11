@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T15:34:41Z",
-  "eventCount": 231,
+  "generatedAt": "2026-06-11T20:10:01Z",
+  "eventCount": 232,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 20
+      "count": 21
     },
     {
       "name": "uschess",
@@ -242,7 +242,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: III Open Sub-1600 de nau64.",
-      "description": "4 listed players. 5 rounds",
+      "description": "6 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -655,7 +655,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Las Vegas International Chess Festival 2026.",
-      "description": "105 listed players",
+      "description": "106 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -696,7 +696,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Canary Islands Team Championship 2026.",
-      "description": "6 rounds",
+      "description": "40 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -852,6 +852,47 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27519",
+      "title": "Nepal Chess Championship 2026",
+      "shortTitle": "Nepal Chess Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-12T03:15:00Z",
+      "endDate": "2026-06-18T14:15:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Nepal Chess Championship 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/nepal-chess-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/nepal-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -7316,6 +7357,7 @@
         "santiago-juan-mas",
         "krisjanis-lazars",
         "alvaro-espinola-gomez",
+        "mate-todashvili",
         "antoine-rodriguez",
         "dan-clotet-mas",
         "gilles-suez-panama",
@@ -7465,6 +7507,7 @@
         "santiago-juan-mas",
         "krisjanis-lazars",
         "alvaro-espinola-gomez",
+        "mate-todashvili",
         "antoine-rodriguez",
         "dan-clotet-mas",
         "gilles-suez-panama",
@@ -8353,6 +8396,21 @@
           "countryCode": null,
           "title": null,
           "fideId": "523074930",
+          "classicalRating": 1997,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "mate-todashvili",
+          "name": "Mate Todashvili",
+          "countryCode": null,
+          "title": null,
+          "fideId": "13610481",
           "classicalRating": 1997,
           "profileLinks": {},
           "status": "confirmed",
