@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T02:39:42Z",
+  "generatedAt": "2026-06-11T10:05:45Z",
   "playerCount": 1161,
   "source": "confirmedEventRosters",
   "players": [
@@ -30519,40 +30519,6 @@
       ]
     },
     {
-      "id": "pablo-martin-fernandez",
-      "name": "Pablo Martin Fernandez",
-      "countryCode": "ESP",
-      "title": null,
-      "fideId": "54766079",
-      "classicalRating": 1886,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-granada-chess-open-2026-28-jul-2-aug"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-          "title": "Granada Chess Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-28T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Granada, ESP",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "panagiotis-alevizakis",
       "name": "Panagiotis Alevizakis",
       "countryCode": "GER",
@@ -34444,6 +34410,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sameer-sharma",
+      "name": "Sameer Sharma",
+      "countryCode": "JPN",
+      "title": null,
+      "fideId": "7005695",
+      "classicalRating": 1985,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-granada-chess-open-2026-28-jul-2-aug"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+          "title": "Granada Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-28T00:00:00Z",
+          "endDate": "2026-08-02T23:59:59Z",
+          "locationName": "Granada, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }

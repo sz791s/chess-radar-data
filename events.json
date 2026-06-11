@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T02:39:30Z",
+  "generatedAt": "2026-06-11T10:05:32Z",
   "eventCount": 233,
   "sources": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 19
+      "count": 20
     },
     {
       "name": "uschess",
@@ -149,93 +149,28 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-srkbhcsw",
-      "title": "Aktobe Open 2026 - Vladimir Dvorkovich Memorial | Masters",
-      "shortTitle": "Aktobe Open 2026 - Vladimir Dvorkovich Memorial | Masters",
+      "id": "fide-aktobe-open-2026-vladimir-dvorkovich-memorial-3-11-jun",
+      "title": "Aktobe Open 2026 Vladimir Dvorkovich Memorial *",
+      "shortTitle": "Aktobe Open 2026 Vladimir Dvorkovich Memorial *",
       "status": "live",
-      "startDate": "2026-06-03T10:15:00Z",
-      "endDate": "2026-06-11T05:15:00Z",
-      "timezone": "Asia/Aqtobe",
-      "locationName": "Aktobe, Kazakhstan",
+      "startDate": "2026-06-03T00:00:00Z",
+      "endDate": "2026-06-11T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Aktobe, KAZ",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "summary": "FIDE calendar event: Aktobe Open 2026 Vladimir Dvorkovich Memorial *.",
+      "description": "Time control: Standard",
       "categories": [
         "classical",
-        "broadcast",
         "open",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/aktobe-open-2026-vladimir-dvorkovich-memorial--masters/SrkbhcSW",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/aktobe-open-2026-vladimir-dvorkovich-memorial--masters/SrkbhcSW"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://kazchess.kz/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1398255.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-myc8dgfl",
-      "title": "Aktobe Open 2026 - Vladimir Dvorkovich Memorial | Open (U2400)",
-      "shortTitle": "Aktobe Open 2026 - Vladimir Dvorkovich Memorial | Open (U2400)",
-      "status": "live",
-      "startDate": "2026-06-03T10:15:00Z",
-      "endDate": "2026-06-11T05:15:00Z",
-      "timezone": "Asia/Aqtobe",
-      "locationName": "Aktobe, Kazakhstan",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/aktobe-open-2026-vladimir-dvorkovich-memorial--open-u2400/myc8dGFL",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15925",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/aktobe-open-2026-vladimir-dvorkovich-memorial--open-u2400/myc8dGFL"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://kazchess.kz/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1399545.aspx"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -248,9 +183,9 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -679,7 +614,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 360 One Global Chess Festival.",
-      "description": "456 listed players",
+      "description": "462 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -746,6 +681,44 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-mekp7bpp",
+      "title": "360 One Masters Chess Tournament | Challengers",
+      "shortTitle": "360 One Masters Chess Tournament | Challengers",
+      "status": "live",
+      "startDate": "2026-06-10T09:30:00Z",
+      "endDate": "2026-06-12T09:30:00Z",
+      "timezone": "Asia/Calcutta",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9 ROUND Swiss league",
+      "categories": [
+        "classical",
+        "broadcast",
+        "team",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/360-one-masters-chess-tournament--challengers/mEkp7BPp",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/360-one-masters-chess-tournament--challengers/mEkp7BPp"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -838,7 +811,7 @@
       "id": "chesscom-27569",
       "title": "Canary Islands Team Championship 2026",
       "shortTitle": "Canary Islands Team Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-11T07:00:00Z",
       "endDate": "2026-06-14T19:00:00Z",
       "timezone": "UTC",
@@ -23756,6 +23729,7 @@
         "nicholas-schoonmaker",
         "edvard-reinertsen",
         "peter-malachi-khanov",
+        "sameer-sharma",
         "malcolm-j-armstrong",
         "dinmukhammed-makhanbetali",
         "alvaro-garcia-bellido",
@@ -23780,8 +23754,7 @@
         "angel-sanchez-maldonado",
         "gerardo-domingo-valverde",
         "rafael-carruana-fuentes",
-        "changhyung-kim",
-        "pablo-martin-fernandez"
+        "changhyung-kim"
       ],
       "channelIds": [
         "fide"
@@ -23944,6 +23917,7 @@
         "nicholas-schoonmaker",
         "edvard-reinertsen",
         "peter-malachi-khanov",
+        "sameer-sharma",
         "malcolm-j-armstrong",
         "dinmukhammed-makhanbetali",
         "alvaro-garcia-bellido",
@@ -23968,8 +23942,7 @@
         "angel-sanchez-maldonado",
         "gerardo-domingo-valverde",
         "rafael-carruana-fuentes",
-        "changhyung-kim",
-        "pablo-martin-fernandez"
+        "changhyung-kim"
       ],
       "confirmedPlayers": [
         {
@@ -25833,6 +25806,21 @@
           }
         },
         {
+          "playerId": "sameer-sharma",
+          "name": "Sameer Sharma",
+          "countryCode": "JPN",
+          "title": null,
+          "fideId": "7005695",
+          "classicalRating": 1985,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "malcolm-j-armstrong",
           "name": "Malcolm J Armstrong",
           "countryCode": "ENG",
@@ -26199,21 +26187,6 @@
           "title": "AIM",
           "fideId": "13205200",
           "classicalRating": 1893,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "pablo-martin-fernandez",
-          "name": "Pablo Martin Fernandez",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "54766079",
-          "classicalRating": 1886,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
