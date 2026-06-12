@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T14:34:21Z",
+  "generatedAt": "2026-06-12T19:52:43Z",
   "eventCount": 233,
   "sources": [
     {
@@ -479,7 +479,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Canary Islands Team Championship 2026.",
-      "description": "108 listed players. 6 rounds",
+      "description": "112 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -692,7 +692,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Silla International Tournament 2026.",
-      "description": "20 listed players. 6 rounds",
+      "description": "31 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -726,14 +726,14 @@
       "id": "chesscom-27522",
       "title": "French Middle School Team Championship 2026",
       "shortTitle": "French Middle School Team Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-12T15:00:00Z",
       "endDate": "2026-06-14T08:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: French Middle School Team Championship 2026.",
-      "description": "9 rounds",
+      "description": "25 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -768,7 +768,7 @@
       "id": "chesscom-27590",
       "title": "2026 ASEAN E-Sports Chess Cup",
       "shortTitle": "2026 ASEAN E-Sports Chess Cup",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-12T16:00:00Z",
       "endDate": "2026-06-13T16:00:00Z",
       "timezone": "UTC",
@@ -809,7 +809,7 @@
       "id": "chesscom-27675",
       "title": "Carolinas Classic 2026",
       "shortTitle": "Carolinas Classic 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-12T16:00:00Z",
       "endDate": "2026-06-14T17:00:00Z",
       "timezone": "UTC",
@@ -3512,7 +3512,6 @@
         "christoph-dahl",
         "adam-gibala",
         "marcos-llaneza-vega",
-        "mohapatra-sidhant",
         "john-heinrich",
         "singh-arshpreet",
         "mathias-womacka",
@@ -3642,7 +3641,6 @@
         "christoph-dahl",
         "adam-gibala",
         "marcos-llaneza-vega",
-        "mohapatra-sidhant",
         "john-heinrich",
         "singh-arshpreet",
         "mathias-womacka",
@@ -3852,21 +3850,6 @@
           "title": "IM",
           "fideId": "2253585",
           "classicalRating": 2361,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1292831.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mohapatra-sidhant",
-          "name": "Mohapatra Sidhant",
-          "countryCode": "IND",
-          "title": "IM",
-          "fideId": "5028698",
-          "classicalRating": 2360,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -5344,6 +5327,63 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-narrvopr",
+      "title": "2026 ASEAN E-Sports Chess Cup | Group D",
+      "shortTitle": "2026 ASEAN E-Sports Chess Cup | Group D",
+      "status": "upcoming",
+      "startDate": "2026-06-13T03:00:00Z",
+      "endDate": "2026-06-13T03:00:00Z",
+      "timezone": "Asia/Bangkok",
+      "locationName": "Bangkok, Thailand",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-asean-e-sports-chess-cup--group-d/naRrvOpR",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-asean-e-sports-chess-cup--group-d/naRrvOpR"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://wr-chess.com/events/e-sports-bangkok-2026"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-asean-e-sports-chess-cup--group-c/7gF4kXNK"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-asean-e-sports-chess-cup--group-b/OurRvf8c"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-asean-e-sports-chess-cup--group-a/ht0Ib32p"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-11th-templar-tournament-14jun",
       "title": "11th Templar Tournament",
       "shortTitle": "11th Templar Tournament",
@@ -5640,16 +5680,6 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--g16/wgw1ectF"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--o16/nCqW1qd2"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--g18/gO8bZKkr"
         }
       ],
       "source": {
@@ -5863,63 +5893,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-mn3rbyn4",
-      "title": "FIDE World Cadets Cup 2026 | G08",
-      "shortTitle": "FIDE World Cadets Cup 2026 | G08",
-      "status": "upcoming",
-      "startDate": "2026-06-16T11:00:00Z",
-      "endDate": "2026-06-27T06:00:00Z",
-      "timezone": "Asia/Tbilisi",
-      "locationName": "Batumi, Georgia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "11-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/fide-world-cadets-cup-2026--g08/mn3rbYN4",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026--g08/mn3rbYN4"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://wcc2026.fide.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1435097.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026--o08/69HnW9Vw"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1435087.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -23999,6 +23972,7 @@
         "luis-cabrera-ruiz",
         "victor-manuel-vehi-bach",
         "samuel-dubuisson",
+        "jesus-sarrias-granados",
         "nicolas-alba-fernandez",
         "camille-blanquet",
         "alberto-bethencourt-hernandez",
@@ -24055,6 +24029,7 @@
         "jesus-gomez-ferrer",
         "vicente-almagro-recio",
         "willem-broekman",
+        "fernando-villena-delgado",
         "fidel-fiz-criado",
         "juan-adonay-ramirez-maillo",
         "nicolas-morell-altozano",
@@ -24062,9 +24037,7 @@
         "iason-makrylakis",
         "thomas-claudius-thomsen",
         "angel-sanchez-maldonado",
-        "gerardo-domingo-valverde",
-        "rafael-carruana-fuentes",
-        "changhyung-kim"
+        "gerardo-domingo-valverde"
       ],
       "channelIds": [
         "fide"
@@ -24187,6 +24160,7 @@
         "luis-cabrera-ruiz",
         "victor-manuel-vehi-bach",
         "samuel-dubuisson",
+        "jesus-sarrias-granados",
         "nicolas-alba-fernandez",
         "camille-blanquet",
         "alberto-bethencourt-hernandez",
@@ -24243,6 +24217,7 @@
         "jesus-gomez-ferrer",
         "vicente-almagro-recio",
         "willem-broekman",
+        "fernando-villena-delgado",
         "fidel-fiz-criado",
         "juan-adonay-ramirez-maillo",
         "nicolas-morell-altozano",
@@ -24250,9 +24225,7 @@
         "iason-makrylakis",
         "thomas-claudius-thomsen",
         "angel-sanchez-maldonado",
-        "gerardo-domingo-valverde",
-        "rafael-carruana-fuentes",
-        "changhyung-kim"
+        "gerardo-domingo-valverde"
       ],
       "confirmedPlayers": [
         {
@@ -25516,6 +25489,21 @@
           }
         },
         {
+          "playerId": "jesus-sarrias-granados",
+          "name": "Jesus Sarrias Granados",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "54765994",
+          "classicalRating": 2169,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "nicolas-alba-fernandez",
           "name": "Nicolas Alba Fernandez",
           "countryCode": "ESP",
@@ -26356,6 +26344,21 @@
           }
         },
         {
+          "playerId": "fernando-villena-delgado",
+          "name": "Fernando Villena Delgado",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "22231820",
+          "classicalRating": 1933,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "fidel-fiz-criado",
           "name": "Fidel Fiz Criado",
           "countryCode": "ESP",
@@ -26467,36 +26470,6 @@
           "title": null,
           "fideId": "94774498",
           "classicalRating": 1896,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "rafael-carruana-fuentes",
-          "name": "Rafael Carruana Fuentes",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "2253542",
-          "classicalRating": 1896,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "changhyung-kim",
-          "name": "Changhyung Kim",
-          "countryCode": "KOR",
-          "title": "AIM",
-          "fideId": "13205200",
-          "classicalRating": 1893,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
