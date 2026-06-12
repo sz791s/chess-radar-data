@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-12T02:34:54Z",
-  "eventCount": 79,
+  "generatedAt": "2026-06-12T09:56:44Z",
+  "eventCount": 82,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 21
+      "count": 24
     },
     {
       "name": "uschess",
@@ -356,48 +356,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-qdxctfno",
-      "title": "GM Felix Blohberger vs GM David Navara",
-      "shortTitle": "GM Felix Blohberger vs GM David Navara",
-      "status": "live",
-      "startDate": "2026-06-08T13:00:00Z",
-      "endDate": "2026-06-13T13:00:00Z",
-      "timezone": "Europe/Amsterdam",
-      "locationName": "Vienna, Austria",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Chess tournament broadcast with live boards on Lichess.",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/gm-felix-blohberger-vs-gm-david-navara/QDXcTfNo",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/gm-felix-blohberger-vs-gm-david-navara/QDXcTfNo"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1392147.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27515",
       "title": "360 One Global Chess Festival",
       "shortTitle": "360 One Global Chess Festival",
@@ -449,7 +407,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Canary Islands Team Championship 2026.",
-      "description": "40 listed players. 6 rounds",
+      "description": "108 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -532,7 +490,7 @@
       "id": "chesscom-27519",
       "title": "Nepal Chess Championship 2026",
       "shortTitle": "Nepal Chess Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-12T03:15:00Z",
       "endDate": "2026-06-18T14:15:00Z",
       "timezone": "UTC",
@@ -573,7 +531,7 @@
       "id": "chesscom-27608",
       "title": "Silla International Tournament 2026",
       "shortTitle": "Silla International Tournament 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-12T07:00:00Z",
       "endDate": "2026-06-14T07:00:00Z",
       "timezone": "UTC",
@@ -595,6 +553,130 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/silla-international-tournament-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27522",
+      "title": "French Middle School Team Championship 2026",
+      "shortTitle": "French Middle School Team Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-12T15:00:00Z",
+      "endDate": "2026-06-14T08:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: French Middle School Team Championship 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/french-middle-school-team-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/french-middle-school-team-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27590",
+      "title": "2026 ASEAN E-Sports Chess Cup",
+      "shortTitle": "2026 ASEAN E-Sports Chess Cup",
+      "status": "upcoming",
+      "startDate": "2026-06-12T16:00:00Z",
+      "endDate": "2026-06-13T16:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 ASEAN E-Sports Chess Cup.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-asean-e-sports-chess-cup",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-asean-e-sports-chess-cup"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27675",
+      "title": "Carolinas Classic 2026",
+      "shortTitle": "Carolinas Classic 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-12T16:00:00Z",
+      "endDate": "2026-06-14T17:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Carolinas Classic 2026.",
+      "description": "5 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/carolinas-classic-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/carolinas-classic-2026"
         },
         {
           "label": "Chess.com current events",
@@ -650,7 +732,6 @@
         "nikola-konjevic",
         "joanna-worek",
         "jordanka-belic",
-        "enrico-ghersinich",
         "marko-rubil",
         "das-arshiya",
         "julius-ohler",
@@ -695,7 +776,6 @@
         "luka-karlovic",
         "loris-tavernier",
         "bor-zuzek",
-        "petra-kejzar",
         "maity-suvankar",
         "oskar-sniadecki",
         "sergei-v-ivanov",
@@ -716,7 +796,6 @@
         "philipp-raeke",
         "igor-mestek",
         "milutin-b-kostic",
-        "bruno-purini",
         "claus-pitschka",
         "aidan-baker",
         "jan-schleicher-christensen",
@@ -777,7 +856,10 @@
         "ridhi-varma-danduprolu",
         "bosko-vasic",
         "boris-skok",
-        "zdravko-crnkovic"
+        "zdravko-crnkovic",
+        "ljudevit-juranovic",
+        "adelya-ospanova",
+        "jiri-trebicky"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/563",
@@ -826,7 +908,6 @@
         "nikola-konjevic",
         "joanna-worek",
         "jordanka-belic",
-        "enrico-ghersinich",
         "marko-rubil",
         "das-arshiya",
         "julius-ohler",
@@ -871,7 +952,6 @@
         "luka-karlovic",
         "loris-tavernier",
         "bor-zuzek",
-        "petra-kejzar",
         "maity-suvankar",
         "oskar-sniadecki",
         "sergei-v-ivanov",
@@ -892,7 +972,6 @@
         "philipp-raeke",
         "igor-mestek",
         "milutin-b-kostic",
-        "bruno-purini",
         "claus-pitschka",
         "aidan-baker",
         "jan-schleicher-christensen",
@@ -953,7 +1032,10 @@
         "ridhi-varma-danduprolu",
         "bosko-vasic",
         "boris-skok",
-        "zdravko-crnkovic"
+        "zdravko-crnkovic",
+        "ljudevit-juranovic",
+        "adelya-ospanova",
+        "jiri-trebicky"
       ],
       "confirmedPlayers": [
         {
@@ -1278,21 +1360,6 @@
           "title": "WGM",
           "fideId": "4617304",
           "classicalRating": 2270,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "enrico-ghersinich",
-          "name": "Enrico Ghersinich",
-          "countryCode": "CRO",
-          "title": "FM",
-          "fideId": "14540100",
-          "classicalRating": 2263,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -1962,21 +2029,6 @@
           }
         },
         {
-          "playerId": "petra-kejzar",
-          "name": "Petra Kejzar",
-          "countryCode": "SLO",
-          "title": "WFM",
-          "fideId": "14610213",
-          "classicalRating": 2111,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "maity-suvankar",
           "name": "Maity Suvankar",
           "countryCode": "IND",
@@ -2268,21 +2320,6 @@
           "title": "FM",
           "fideId": "903612",
           "classicalRating": 2064,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "bruno-purini",
-          "name": "Bruno Purini",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "14558670",
-          "classicalRating": 2063,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -3198,6 +3235,51 @@
           "title": null,
           "fideId": "14507854",
           "classicalRating": 1932,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ljudevit-juranovic",
+          "name": "Ljudevit Juranovic",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "14589940",
+          "classicalRating": 1932,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "adelya-ospanova",
+          "name": "Adelya Ospanova",
+          "countryCode": "KAZ",
+          "title": null,
+          "fideId": "13751093",
+          "classicalRating": 1929,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1293430.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "jiri-trebicky",
+          "name": "Jiri Trebicky",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "363480",
+          "classicalRating": 1929,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -5094,6 +5176,74 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-d38gp1th",
+      "title": "FIDE World Youth Chess Championships 2026 | G14",
+      "shortTitle": "FIDE World Youth Chess Championships 2026 | G14",
+      "status": "upcoming",
+      "startDate": "2026-06-15T13:15:00Z",
+      "endDate": "2026-06-26T11:45:00Z",
+      "timezone": "Europe/Rome",
+      "locationName": "Montesilvano, Italy",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "11-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--g14/d38gp1tH",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--g14/d38gp1tH"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessworldyouth.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1375162.aspx"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--o14/1YrSvKjA"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--g16/wgw1ectF"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--o16/nCqW1qd2"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--g18/gO8bZKkr"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-mn3rbyn4",
       "title": "FIDE World Cadets Cup 2026 | G08",
       "shortTitle": "FIDE World Cadets Cup 2026 | G08",
@@ -5140,46 +5290,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1435087.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026--g10/TSxNCKBw"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1435098.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026--o10/ppQMB7xe"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1435092.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026--g12/R7wYbRca"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1435099.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026--o12/ixbNFslx"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1435095.aspx?art=1"
         }
       ],
       "source": {
@@ -11471,6 +11581,7 @@
         "tigran-asatryan",
         "cecil-sloan",
         "juyong-ahn",
+        "vasileios-kolovos",
         "panagiotis-n-giannopoulos",
         "alexandros-rompanos",
         "efthymios-bakalis",
@@ -11745,6 +11856,7 @@
         "tigran-asatryan",
         "cecil-sloan",
         "juyong-ahn",
+        "vasileios-kolovos",
         "panagiotis-n-giannopoulos",
         "alexandros-rompanos",
         "efthymios-bakalis",
@@ -14464,6 +14576,21 @@
           "countryCode": "KOR",
           "title": null,
           "fideId": "13203290",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vasileios-kolovos",
+          "name": "Vasileios Kolovos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42173540",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
