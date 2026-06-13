@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-12T19:53:03Z",
-  "eventPlayerCount": 1282,
+  "generatedAt": "2026-06-13T02:16:32Z",
+  "eventPlayerCount": 1285,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1282
+      "count": 1285
     },
     {
       "name": "curated",
@@ -4117,6 +4117,21 @@
       "title": "FM",
       "fideId": "3501507",
       "classicalRating": 2291,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "sebastian-reyes-penas",
+      "name": "Sebastian Reyes Penas",
+      "countryCode": null,
+      "title": null,
+      "fideId": "32035780",
+      "classicalRating": 2280,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -9631,6 +9646,21 @@
     },
     {
       "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "panagiotis-anagnostopoulos",
+      "name": "Panagiotis Anagnostopoulos",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "42149754",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
       "playerId": "harilaos-panagiotis-bardis",
       "name": "Harilaos-Panagiotis Bardis",
       "countryCode": "GRE",
@@ -11361,6 +11391,21 @@
       "countryCode": "GRE",
       "title": null,
       "fideId": "42137969",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "athanasios-na-georgopoulos",
+      "name": "Athanasios Na Georgopoulos",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "42193940",
       "classicalRating": null,
       "status": "confirmed",
       "source": {

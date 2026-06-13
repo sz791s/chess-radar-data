@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-12T19:52:43Z",
-  "eventCount": 233,
+  "generatedAt": "2026-06-13T02:16:15Z",
+  "eventCount": 237,
   "sources": [
     {
       "name": "curated",
@@ -216,48 +216,6 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27401",
-      "title": "17° Open Internazionale delle Dolomiti | Forni Di Sopra",
-      "shortTitle": "17° Open Internazionale delle Dolomiti | Forni Di Sopra",
-      "status": "live",
-      "startDate": "2026-06-06T13:00:00Z",
-      "endDate": "2026-06-12T22:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 17° Open Internazionale delle Dolomiti | Forni Di Sopra.",
-      "description": "35 listed players",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/17-open-internazionale-delle-dolomiti-forni-di-sopra",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/17-open-internazionale-delle-dolomiti-forni-di-sopra"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -600,47 +558,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-waidhofen-chess-masters-1-bene-blitz-trophy-12jun",
-      "title": "Waidhofen Chess Masters 1. bene Blitz Trophy",
-      "shortTitle": "Waidhofen Chess Masters 1. bene Blitz Trophy",
-      "status": "live",
-      "startDate": "2026-06-12T00:00:00Z",
-      "endDate": "2026-06-12T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Waidhofen an der Ybbs, AUT",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Waidhofen Chess Masters 1. bene Blitz Trophy.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17055",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17055"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27519",
       "title": "Nepal Chess Championship 2026",
       "shortTitle": "Nepal Chess Championship 2026",
@@ -816,7 +733,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Carolinas Classic 2026.",
-      "description": "5 rounds",
+      "description": "48 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -850,7 +767,7 @@
       "id": "chessaround-38th-open-pula-2026-13-21-jun-2026",
       "title": "38th Open Pula 2026",
       "shortTitle": "38th Open Pula 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-13T00:00:00Z",
       "endDate": "2026-06-21T23:59:59Z",
       "timezone": "UTC",
@@ -3448,7 +3365,7 @@
       "id": "fide-international-chess-tournament-38th-open-pula-2026-hotel-park-plaza-histria-13-21-jun",
       "title": "International Chess Tournament 38th Open Pula 2026 - Hotel Park Plaza Histria",
       "shortTitle": "International Chess Tournament 38th Open Pula 2026 - Hotel Park Plaza Histria",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-13T00:00:00Z",
       "endDate": "2026-06-21T23:59:59Z",
       "timezone": "UTC",
@@ -3490,7 +3407,7 @@
       "id": "chessaround-teplice-open-13-21-jun-2026",
       "title": "Teplice Open",
       "shortTitle": "Teplice Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-13T00:00:00Z",
       "endDate": "2026-06-21T23:59:59Z",
       "timezone": "UTC",
@@ -5289,7 +5206,7 @@
       "id": "fide-xxii-chess-festival-baltija-cup-2026-13-16-jun",
       "title": "XXII CHESS FESTIVAL BALTIJA CUP 2026",
       "shortTitle": "XXII CHESS FESTIVAL BALTIJA CUP 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-13T00:00:00Z",
       "endDate": "2026-06-16T23:59:59Z",
       "timezone": "UTC",
@@ -5379,6 +5296,52 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27497",
+      "title": "Majstrovstvá Slovenska 2026",
+      "shortTitle": "Majstrovstvá Slovenska 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-13T08:00:00Z",
+      "endDate": "2026-06-21T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Majstrovstvá Slovenska 2026.",
+      "description": "2 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/majstrovstva-slovenska-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/majstrovstva-slovenska-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "kolo 1",
+          "type": "stream",
+          "url": "https://www.youtube.com/live/rlJbXJwJI4w"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -5675,11 +5638,49 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--o14/1YrSvKjA"
-        },
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-huzg9lnf",
+      "title": "LIX Internacional Capablanca in Memoriam 2026 | OPEN",
+      "shortTitle": "LIX Internacional Capablanca in Memoriam 2026 | OPEN",
+      "status": "upcoming",
+      "startDate": "2026-06-15T20:15:00Z",
+      "endDate": "2026-06-24T13:15:00Z",
+      "timezone": "America/Havana",
+      "locationName": "Hotel Nacional -La Habana -Cuba",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9 Rondas Suizo",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/lix-internacional-capablanca-in-memoriam-2026--open/Huzg9lnf",
+      "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-youth-chess-championships-2026--g16/wgw1ectF"
+          "url": "https://lichess.org/broadcast/lix-internacional-capablanca-in-memoriam-2026--open/Huzg9lnf"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1433961.aspx?art=1"
         }
       ],
       "source": {
@@ -7152,6 +7153,7 @@
         "reinis-paikens",
         "abel-carrascoso-morales",
         "carlos-rene-alvarez-fernandez",
+        "sebastian-reyes-penas",
         "daniel-romero-pallares",
         "roberto-florin-neagu",
         "reinis-valdats",
@@ -7302,6 +7304,7 @@
         "reinis-paikens",
         "abel-carrascoso-morales",
         "carlos-rene-alvarez-fernandez",
+        "sebastian-reyes-penas",
         "daniel-romero-pallares",
         "roberto-florin-neagu",
         "reinis-valdats",
@@ -7702,6 +7705,21 @@
           "title": "FM",
           "fideId": "3501507",
           "classicalRating": 2291,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "sebastian-reyes-penas",
+          "name": "Sebastian Reyes Penas",
+          "countryCode": null,
+          "title": null,
+          "fideId": "32035780",
+          "classicalRating": 2280,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -15230,6 +15248,7 @@
         "jakub-szuminski",
         "mehta-aryan",
         "junyan-hu",
+        "panagiotis-anagnostopoulos",
         "harilaos-panagiotis-bardis",
         "anton-johannes-allmendinger",
         "nikolaos-g-seretis",
@@ -15346,6 +15365,7 @@
         "thomas-manikas",
         "xing-wu",
         "dimitrios-metzidakis",
+        "athanasios-na-georgopoulos",
         "syllia-eleftheria-vertoudou",
         "romanos-kotsakis",
         "odysseas-panos-papadopoulos",
@@ -15518,6 +15538,7 @@
         "jakub-szuminski",
         "mehta-aryan",
         "junyan-hu",
+        "panagiotis-anagnostopoulos",
         "harilaos-panagiotis-bardis",
         "anton-johannes-allmendinger",
         "nikolaos-g-seretis",
@@ -15634,6 +15655,7 @@
         "thomas-manikas",
         "xing-wu",
         "dimitrios-metzidakis",
+        "athanasios-na-georgopoulos",
         "syllia-eleftheria-vertoudou",
         "romanos-kotsakis",
         "odysseas-panos-papadopoulos",
@@ -16839,6 +16861,21 @@
           "countryCode": "ENG",
           "title": "CM",
           "fideId": "343401260",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "panagiotis-anagnostopoulos",
+          "name": "Panagiotis Anagnostopoulos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42149754",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -18579,6 +18616,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42137969",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "athanasios-na-georgopoulos",
+          "name": "Athanasios Na Georgopoulos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42193940",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -28875,6 +28927,129 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-rudar-lv-im-round-robin-8-15-aug",
+      "title": "RUDAR LV - IM ROUND ROBIN",
+      "shortTitle": "RUDAR LV - IM ROUND ROBIN",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Pozarevac, SRB",
+      "isOnline": false,
+      "summary": "FIDE calendar event: RUDAR LV - IM ROUND ROBIN.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16311",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16311"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-rudar-xla-fm-round-robin-8-15-aug",
+      "title": "RUDAR XLa - FM ROUND ROBIN",
+      "shortTitle": "RUDAR XLa - FM ROUND ROBIN",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Pozarevac, SRB",
+      "isOnline": false,
+      "summary": "FIDE calendar event: RUDAR XLa - FM ROUND ROBIN.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16315",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16315"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-rudar-xxxvi-gm-round-robin-8-15-aug",
+      "title": "RUDAR XXXVI - GM ROUND ROBIN",
+      "shortTitle": "RUDAR XXXVI - GM ROUND ROBIN",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Pozarevac, SRB",
+      "isOnline": false,
+      "summary": "FIDE calendar event: RUDAR XXXVI - GM ROUND ROBIN.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16279",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16279"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-sinquefield-cup-2026-8-12-aug",
       "title": "Sinquefield Cup 2026",
       "shortTitle": "Sinquefield Cup 2026",
@@ -28911,6 +29086,48 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-fide-iscf-world-schools-team-championship-american-continental-stage-11-16-aug",
+      "title": "FIDE ISCF World Schools Team Championship, American Continental Stage",
+      "shortTitle": "FIDE ISCF World Schools Team Championship, American Continental Stage",
+      "status": "upcoming",
+      "startDate": "2026-08-11T00:00:00Z",
+      "endDate": "2026-08-16T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "San Jose, CRC",
+      "isOnline": false,
+      "summary": "FIDE calendar event: FIDE ISCF World Schools Team Championship, American Continental Stage.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "team",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16285",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16285"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
