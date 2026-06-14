@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:19:04Z",
+  "generatedAt": "2026-06-14T13:28:10Z",
   "eventCount": 234,
   "sources": [
     {
@@ -29,9 +29,8 @@
     },
     {
       "name": "chessdom",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "count": 9
     },
     {
       "name": "chessmix",
@@ -388,54 +387,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-se79iysq",
-      "title": "Championnat de France des Clubs 2026 | Poule Basse",
-      "shortTitle": "Championnat de France des Clubs 2026 | Poule Basse",
-      "status": "live",
-      "startDate": "2026-06-11T12:15:00Z",
-      "endDate": "2026-06-14T11:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Chartres, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "4-Team Round Robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/championnat-de-france-des-clubs-2026-poule-basse/SE79iysQ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/championnat-de-france-des-clubs-2026-poule-basse/SE79iysQ"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://chartres2026.ffechecs.org/"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/championnat-de-france-des-clubs-2026-poule-haute/nMXkKPv9"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-davos-chess-festival-12-14-jun",
       "title": "DAVOS CHESS FESTIVAL",
       "shortTitle": "DAVOS CHESS FESTIVAL",
@@ -652,7 +603,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Majstrovstvá Slovenska 2026.",
-      "description": "20 listed players. 2 scheduled stream links",
+      "description": "20 listed players. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -672,6 +623,11 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "kolo 2",
+          "type": "stream",
+          "url": "https://www.youtube.com/live/vYKd4ea9OEM"
         },
         {
           "label": "kolo 1",
@@ -869,7 +825,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Chess 2 Change June 2026.",
-      "description": "2 scheduled stream links",
+      "description": "2 listed players. 2 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -19291,6 +19247,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -19836,6 +19802,7 @@
         "esat-baglan",
         "karol-kacprzak",
         "pol-sabria-batlle",
+        "angel-serrano-almendros",
         "fabian-fiorito",
         "mohammadamin-molaei",
         "michal-koziorowicz",
@@ -19854,6 +19821,7 @@
         "cagatay-burcu",
         "sebastian-almagro-mazariegos",
         "shadi-sian",
+        "dario-arce-gonzalez",
         "daniel-molina-carretero",
         "mario-gavilan-diaz",
         "leo-crevatin",
@@ -19871,6 +19839,7 @@
         "henrique-rey-malde",
         "shlok-sharnarthi",
         "luis-cabrera-ruiz",
+        "adrian-palenciano-escolar",
         "victor-manuel-vehi-bach",
         "samuel-dubuisson",
         "jesus-sarrias-granados",
@@ -19881,6 +19850,7 @@
         "adrian-gonzalez-pinar",
         "jose-joaquin-bas-mas",
         "silje-bjerke",
+        "alejandro-serrano-almendros",
         "shanne-hedegaard-jakobsen",
         "axel-berglind",
         "pablo-cayon-pelaez",
@@ -19928,14 +19898,10 @@
         "eduardo-cesar-maestre",
         "jesus-maria-navas-rubio",
         "jesus-rodriguez-perez",
+        "elliot-mccallum",
         "martin-otero-ramirez",
         "reinaldo-peinado-ruiz",
-        "joffrey-lebon",
-        "jesus-gomez-ferrer",
-        "vicente-almagro-recio",
-        "willem-broekman",
-        "fernando-villena-delgado",
-        "fidel-fiz-criado"
+        "joffrey-lebon"
       ],
       "channelIds": [
         "fide"
@@ -20024,6 +19990,7 @@
         "esat-baglan",
         "karol-kacprzak",
         "pol-sabria-batlle",
+        "angel-serrano-almendros",
         "fabian-fiorito",
         "mohammadamin-molaei",
         "michal-koziorowicz",
@@ -20042,6 +20009,7 @@
         "cagatay-burcu",
         "sebastian-almagro-mazariegos",
         "shadi-sian",
+        "dario-arce-gonzalez",
         "daniel-molina-carretero",
         "mario-gavilan-diaz",
         "leo-crevatin",
@@ -20059,6 +20027,7 @@
         "henrique-rey-malde",
         "shlok-sharnarthi",
         "luis-cabrera-ruiz",
+        "adrian-palenciano-escolar",
         "victor-manuel-vehi-bach",
         "samuel-dubuisson",
         "jesus-sarrias-granados",
@@ -20069,6 +20038,7 @@
         "adrian-gonzalez-pinar",
         "jose-joaquin-bas-mas",
         "silje-bjerke",
+        "alejandro-serrano-almendros",
         "shanne-hedegaard-jakobsen",
         "axel-berglind",
         "pablo-cayon-pelaez",
@@ -20116,14 +20086,10 @@
         "eduardo-cesar-maestre",
         "jesus-maria-navas-rubio",
         "jesus-rodriguez-perez",
+        "elliot-mccallum",
         "martin-otero-ramirez",
         "reinaldo-peinado-ruiz",
-        "joffrey-lebon",
-        "jesus-gomez-ferrer",
-        "vicente-almagro-recio",
-        "willem-broekman",
-        "fernando-villena-delgado",
-        "fidel-fiz-criado"
+        "joffrey-lebon"
       ],
       "confirmedPlayers": [
         {
@@ -20877,6 +20843,21 @@
           }
         },
         {
+          "playerId": "angel-serrano-almendros",
+          "name": "Angel Serrano Almendros",
+          "countryCode": "ESP",
+          "title": "FM",
+          "fideId": "24561584",
+          "classicalRating": 2333,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "fabian-fiorito",
           "name": "Fabian Fiorito",
           "countryCode": "ARG",
@@ -21147,6 +21128,21 @@
           }
         },
         {
+          "playerId": "dario-arce-gonzalez",
+          "name": "Dario Arce Gonzalez",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "54733294",
+          "classicalRating": 2258,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "daniel-molina-carretero",
           "name": "Daniel Molina Carretero",
           "countryCode": "ESP",
@@ -21402,6 +21398,21 @@
           }
         },
         {
+          "playerId": "adrian-palenciano-escolar",
+          "name": "Adrian Palenciano Escolar",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "32036485",
+          "classicalRating": 2181,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "victor-manuel-vehi-bach",
           "name": "Victor Manuel Vehi Bach",
           "countryCode": "ESP",
@@ -21543,6 +21554,21 @@
           "title": "WIM",
           "fideId": "1502786",
           "classicalRating": 2147,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alejandro-serrano-almendros",
+          "name": "Alejandro Serrano Almendros",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "24561576",
+          "classicalRating": 2140,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -22257,6 +22283,21 @@
           }
         },
         {
+          "playerId": "elliot-mccallum",
+          "name": "Elliot McCallum",
+          "countryCode": "CAN",
+          "title": null,
+          "fideId": "2645718",
+          "classicalRating": 1956,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "martin-otero-ramirez",
           "name": "Martin Otero Ramirez",
           "countryCode": "ESP",
@@ -22293,81 +22334,6 @@
           "title": null,
           "fideId": "623180",
           "classicalRating": 1943,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jesus-gomez-ferrer",
-          "name": "Jesus Gomez Ferrer",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "2285614",
-          "classicalRating": 1939,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vicente-almagro-recio",
-          "name": "Vicente Almagro Recio",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "54586348",
-          "classicalRating": 1938,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "willem-broekman",
-          "name": "Willem Broekman",
-          "countryCode": "NED",
-          "title": null,
-          "fideId": "1005154",
-          "classicalRating": 1936,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "fernando-villena-delgado",
-          "name": "Fernando Villena Delgado",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "22231820",
-          "classicalRating": 1933,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "fidel-fiz-criado",
-          "name": "Fidel Fiz Criado",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "22206930",
-          "classicalRating": 1931,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -26226,6 +26192,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
+      "title": "European Chess Club Cup Open & Women 2026",
+      "shortTitle": "European Chess Club Cup Open & Women 2026",
+      "status": "upcoming",
+      "startDate": "2026-10-16T00:00:00Z",
+      "endDate": "2026-10-24T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Budva - Montenegro",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
+      "description": "Continental Classical Women",
+      "categories": [
+        "classical",
+        "women",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
+      "links": [
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
+        }
+      ],
+      "source": {
+        "name": "chessdom",
+        "url": "https://calendar.chessdom.com/2026-calendar/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -28213,7 +28220,8 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -28223,6 +28231,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
