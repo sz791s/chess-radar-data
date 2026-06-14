@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T02:39:18Z",
-  "eventCount": 236,
+  "generatedAt": "2026-06-14T09:19:04Z",
+  "eventCount": 234,
   "sources": [
     {
       "name": "curated",
@@ -29,8 +29,9 @@
     },
     {
       "name": "chessdom",
-      "status": "ok",
-      "count": 9
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "chessmix",
@@ -47,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 24
+      "count": 23
     },
     {
       "name": "uschess",
@@ -355,7 +356,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Canary Islands Team Championship 2026.",
-      "description": "126 listed players. 6 rounds",
+      "description": "127 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -486,7 +487,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Nepal Chess Championship 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "24 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -501,89 +502,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/nepal-chess-championship-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27608",
-      "title": "Silla International Tournament 2026",
-      "shortTitle": "Silla International Tournament 2026",
-      "status": "live",
-      "startDate": "2026-06-12T07:00:00Z",
-      "endDate": "2026-06-14T07:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Silla International Tournament 2026.",
-      "description": "43 listed players. 6 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/silla-international-tournament-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/silla-international-tournament-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27522",
-      "title": "French Middle School Team Championship 2026",
-      "shortTitle": "French Middle School Team Championship 2026",
-      "status": "live",
-      "startDate": "2026-06-12T15:00:00Z",
-      "endDate": "2026-06-14T08:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: French Middle School Team Championship 2026.",
-      "description": "73 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/french-middle-school-team-championship-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/french-middle-school-team-championship-2026"
         },
         {
           "label": "Chess.com current events",
@@ -821,7 +739,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2 IRT Open Cerinza 2026.",
-      "description": "36 listed players. 10 rounds",
+      "description": "92 listed players. 10 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -935,6 +853,52 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25719",
+      "title": "Chess 2 Change June 2026",
+      "shortTitle": "Chess 2 Change June 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-14T16:00:00Z",
+      "endDate": "2026-06-14T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Chess 2 Change June 2026.",
+      "description": "2 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/chess-2-change-june-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/chess-2-change-june-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Chess 2 Change",
+          "type": "stream",
+          "url": "https://www.twitch.tv/chess2change"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -2652,7 +2616,6 @@
         "jose-avelino-alvarez-calzadilla",
         "taron-shagbazyan",
         "jorge-de-jesus-perez-marimon",
-        "lorenzo-perea-fruet",
         "roberto-carlos-gomez-ledo",
         "bhattacherjee-aayush",
         "bernardo-cesar-maestre",
@@ -2725,7 +2688,6 @@
         "angel-garcia-pascual",
         "marcos-de-la-torre-roldan",
         "adrian-collado-moral",
-        "alba-perea-fruet",
         "diego-garcia-munoz-arias",
         "luis-miguel-saez-iniguez",
         "juan-antonio-villegas-lopez",
@@ -2740,6 +2702,7 @@
         "ali-canel-midem",
         "luis-moreno-carrasco",
         "rafael-carpio-morano",
+        "elena-rosario-ocana-solans",
         "edmunds-surums",
         "adrian-pereira-galan",
         "jose-morata-perez",
@@ -2803,7 +2766,6 @@
         "jose-avelino-alvarez-calzadilla",
         "taron-shagbazyan",
         "jorge-de-jesus-perez-marimon",
-        "lorenzo-perea-fruet",
         "roberto-carlos-gomez-ledo",
         "bhattacherjee-aayush",
         "bernardo-cesar-maestre",
@@ -2876,7 +2838,6 @@
         "angel-garcia-pascual",
         "marcos-de-la-torre-roldan",
         "adrian-collado-moral",
-        "alba-perea-fruet",
         "diego-garcia-munoz-arias",
         "luis-miguel-saez-iniguez",
         "juan-antonio-villegas-lopez",
@@ -2891,6 +2852,7 @@
         "ali-canel-midem",
         "luis-moreno-carrasco",
         "rafael-carpio-morano",
+        "elena-rosario-ocana-solans",
         "edmunds-surums",
         "adrian-pereira-galan",
         "jose-morata-perez",
@@ -3036,21 +2998,6 @@
           "title": "IM",
           "fideId": "3524582",
           "classicalRating": 2404,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "lorenzo-perea-fruet",
-          "name": "Lorenzo Perea Fruet",
-          "countryCode": null,
-          "title": "IM",
-          "fideId": "24595870",
-          "classicalRating": 2392,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -4140,21 +4087,6 @@
           }
         },
         {
-          "playerId": "alba-perea-fruet",
-          "name": "Alba Perea Fruet",
-          "countryCode": null,
-          "title": null,
-          "fideId": "54781191",
-          "classicalRating": 1759,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "diego-garcia-munoz-arias",
           "name": "Diego Garcia-Munoz Arias",
           "countryCode": null,
@@ -4356,6 +4288,21 @@
           "title": null,
           "fideId": "523078847",
           "classicalRating": 1627,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "elena-rosario-ocana-solans",
+          "name": "Elena Rosario Ocana Solans",
+          "countryCode": null,
+          "title": null,
+          "fideId": "523092327",
+          "classicalRating": 1582,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -19344,16 +19291,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -26289,47 +26226,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
-      "title": "European Chess Club Cup Open & Women 2026",
-      "shortTitle": "European Chess Club Cup Open & Women 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-16T00:00:00Z",
-      "endDate": "2026-10-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budva - Montenegro",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
-      "description": "Continental Classical Women",
-      "categories": [
-        "classical",
-        "women",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
-      "links": [
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "chessdom",
-        "url": "https://calendar.chessdom.com/2026-calendar/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -28317,8 +28213,7 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -28328,16 +28223,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
