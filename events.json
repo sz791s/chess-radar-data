@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T02:44:16Z",
-  "eventCount": 229,
+  "generatedAt": "2026-06-15T11:45:31Z",
+  "eventCount": 230,
   "sources": [
     {
       "name": "curated",
@@ -140,39 +140,27 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-qmiw7mzw",
-      "title": "3rd UzChess Cup 2026 | Masters",
-      "shortTitle": "3rd UzChess Cup 2026 | Masters",
+      "id": "fide-3rd-uzchess-cup-masters-7-15-jun",
+      "title": "3rd Uzchess Cup, Masters",
+      "shortTitle": "3rd Uzchess Cup, Masters",
       "status": "live",
-      "startDate": "2026-06-07T10:15:00Z",
-      "endDate": "2026-06-15T06:15:00Z",
-      "timezone": "Asia/Tashkent",
-      "locationName": "Tashkent, Uzbekistan",
+      "startDate": "2026-06-07T00:00:00Z",
+      "endDate": "2026-06-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Tashkent, UZB",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
+      "summary": "FIDE calendar event: 3rd Uzchess Cup, Masters.",
+      "description": "Time control: Standard",
       "categories": [
         "classical",
-        "broadcast",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/3rd-uzchess-cup-2026-masters/QMIw7MZw",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15414",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/3rd-uzchess-cup-2026-masters/QMIw7MZw"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://uzchesscup.uz/en/2026"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -185,53 +173,36 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-7era32kb",
-      "title": "3rd UzChess Cup 2026 | Open",
-      "shortTitle": "3rd UzChess Cup 2026 | Open",
+      "id": "fide-3rd-uzchess-cup-open-7-15-jun",
+      "title": "3rd Uzchess Cup, Open",
+      "shortTitle": "3rd Uzchess Cup, Open",
       "status": "live",
-      "startDate": "2026-06-07T10:15:00Z",
-      "endDate": "2026-06-15T06:15:00Z",
-      "timezone": "Asia/Tashkent",
-      "locationName": "Tashkent, Uzbekistan",
+      "startDate": "2026-06-07T00:00:00Z",
+      "endDate": "2026-06-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Tashkent, UZB",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "summary": "FIDE calendar event: 3rd Uzchess Cup, Open.",
+      "description": "Time control: Standard",
       "categories": [
         "classical",
-        "broadcast",
         "open",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/3rd-uzchess-cup-2026-open/7ERA32KB",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15417",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/3rd-uzchess-cup-2026-open/7ERA32KB"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://uzchesscup.uz/en/2026"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/3rd-uzchess-cup-2026-futures/7vwl29HB"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -254,51 +225,9 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-mtrq2tcr",
-      "title": "3rd UzChess Cup 2026 | Challengers",
-      "shortTitle": "3rd UzChess Cup 2026 | Challengers",
-      "status": "live",
-      "startDate": "2026-06-08T10:15:00Z",
-      "endDate": "2026-06-15T06:15:00Z",
-      "timezone": "Asia/Tashkent",
-      "locationName": "Tashkent, Uzbekistan",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/3rd-uzchess-cup-2026-challengers/mTrq2TCr",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/3rd-uzchess-cup-2026-challengers/mTrq2TCr"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://uzchesscup.uz/en/2026"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1087,6 +1016,73 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-mn3rbyn4",
+      "title": "FIDE World Cadets Cup 2026 | G08",
+      "shortTitle": "FIDE World Cadets Cup 2026 | G08",
+      "status": "upcoming",
+      "startDate": "2026-06-16T11:00:00Z",
+      "endDate": "2026-06-27T06:00:00Z",
+      "timezone": "Asia/Tbilisi",
+      "locationName": "Batumi, Georgia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "11-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/fide-world-cadets-cup-2026-g08/mn3rbYN4",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026-g08/mn3rbYN4"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://wcc2026.fide.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1435097.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026-o08/69HnW9Vw"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1435087.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026-g10/TSxNCKBw"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1435098.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-school-of-chess-house-by-tigran-petrosyan-5th-international-youth-chess-festival-17-27-jun",
       "title": "SCHOOL OF CHESS HOUSE BY TIGRAN PETROSYAN 5th INTERNATIONAL YOUTH CHESS FESTIVAL",
       "shortTitle": "SCHOOL OF CHESS HOUSE BY TIGRAN PETROSYAN 5th INTERNATIONAL YOUTH CHESS FESTIVAL",
@@ -1129,9 +1125,9 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-prgzceh4",
-      "title": "FIDE World Team Rapid & Blitz Chess Championship 2026 | Rapid | Matches 21+",
-      "shortTitle": "FIDE World Team Rapid & Blitz Chess Championship 2026 | Rapid | Matches 21+",
+      "id": "lichess-sncblg3c",
+      "title": "FIDE World Team Rapid & Blitz Chess Championship 2026 | Rapid | Matches 11+",
+      "shortTitle": "FIDE World Team Rapid & Blitz Chess Championship 2026 | Rapid | Matches 11+",
       "status": "upcoming",
       "startDate": "2026-06-17T06:05:00Z",
       "endDate": "2026-06-19T11:05:00Z",
@@ -1151,12 +1147,12 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-rapid-matches-21/prgZceh4",
+      "primaryUrl": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-rapid-matches-11/SNCblg3C",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-rapid-matches-21/prgZceh4"
+          "url": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-rapid-matches-11/SNCblg3C"
         },
         {
           "label": "Official website",
@@ -1167,11 +1163,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1435703.aspx"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-rapid-matches-11-20/SNCblg3C"
         },
         {
           "label": "Watch on Lichess",
@@ -1604,6 +1595,50 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-blitz-pool-a/ExIMb7zV"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-abn0a0lq",
+      "title": "FIDE World Team Rapid & Blitz Chess Championship 2026 | Blitz | Knockout",
+      "shortTitle": "FIDE World Team Rapid & Blitz Chess Championship 2026 | Blitz | Knockout",
+      "status": "upcoming",
+      "startDate": "2026-06-20T11:02:00Z",
+      "endDate": "2026-06-21T12:02:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Hong Kong",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-team Knockout",
+      "categories": [
+        "rapid",
+        "blitz",
+        "broadcast",
+        "team",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-blitz-knockout/AbN0a0LQ",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championship-2026-blitz-knockout/AbN0a0LQ"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://worldrapidblitzteams2026.fide.com/"
         }
       ],
       "source": {
