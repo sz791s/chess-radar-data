@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T16:24:11Z",
-  "eventCount": 232,
+  "generatedAt": "2026-06-16T20:38:01Z",
+  "eventCount": 234,
   "sources": [
     {
       "name": "curated",
@@ -29,9 +29,8 @@
     },
     {
       "name": "chessdom",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "count": 9
     },
     {
       "name": "chessmix",
@@ -1256,6 +1255,48 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27775",
+      "title": "Shenzhen Chinese National Open 2026",
+      "shortTitle": "Shenzhen Chinese National Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-17T00:30:00Z",
+      "endDate": "2026-06-21T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Shenzhen Chinese National Open 2026.",
+      "description": "104 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/shenzhen-chinese-national-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/shenzhen-chinese-national-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -19448,6 +19489,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -26424,6 +26475,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
+      "title": "European Chess Club Cup Open & Women 2026",
+      "shortTitle": "European Chess Club Cup Open & Women 2026",
+      "status": "upcoming",
+      "startDate": "2026-10-16T00:00:00Z",
+      "endDate": "2026-10-24T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Budva - Montenegro",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
+      "description": "Continental Classical Women",
+      "categories": [
+        "classical",
+        "women",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
+      "links": [
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
+        }
+      ],
+      "source": {
+        "name": "chessdom",
+        "url": "https://calendar.chessdom.com/2026-calendar/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -28411,7 +28503,8 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -28421,6 +28514,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
