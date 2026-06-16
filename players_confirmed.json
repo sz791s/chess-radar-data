@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T20:45:37Z",
+  "generatedAt": "2026-06-16T02:47:10Z",
   "playerCount": 1012,
   "source": "confirmedEventRosters",
   "players": [
@@ -15616,40 +15616,6 @@
       "title": null,
       "fideId": "22246380",
       "classicalRating": 2020,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-granada-chess-open-2026-28-jul-2-aug"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-          "title": "Granada Chess Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-28T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Granada, ESP",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "jesus-rodriguez-perez",
-      "name": "Jesus Rodriguez Perez",
-      "countryCode": "ESP",
-      "title": null,
-      "fideId": "523083182",
-      "classicalRating": 1957,
       "profileLinks": {},
       "confirmedEventIds": [
         "fide-granada-chess-open-2026-28-jul-2-aug"
@@ -31381,6 +31347,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stepan-bukharkov",
+      "name": "Stepan Bukharkov",
+      "countryCode": "FID",
+      "title": null,
+      "fideId": "34346643",
+      "classicalRating": 2189,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-granada-chess-open-2026-28-jul-2-aug"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+          "title": "Granada Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-28T00:00:00Z",
+          "endDate": "2026-08-02T23:59:59Z",
+          "locationName": "Granada, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
