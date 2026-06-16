@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-16T10:53:56Z",
-  "eventPlayerCount": 1109,
+  "generatedAt": "2026-06-16T16:24:24Z",
+  "eventPlayerCount": 1111,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1109
+      "count": 1111
     },
     {
       "name": "curated",
@@ -2947,6 +2947,21 @@
       "title": "GM",
       "fideId": "5081483",
       "classicalRating": 2519,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-xxxiv-heart-of-finland-open-13-19-jul",
+      "playerId": "vitaly-sivuk",
+      "name": "Vitaly Sivuk",
+      "countryCode": "SWE",
+      "title": "GM",
+      "fideId": "14116502",
+      "classicalRating": 2511,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -6726,6 +6741,21 @@
       "countryCode": "ROU",
       "title": "WCM",
       "fideId": "42214890",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "lindoro-di-muccio",
+      "name": "Lindoro Di Muccio",
+      "countryCode": "ITA",
+      "title": null,
+      "fideId": "818712",
       "classicalRating": null,
       "status": "confirmed",
       "source": {

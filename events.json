@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T10:53:43Z",
-  "eventCount": 233,
+  "generatedAt": "2026-06-16T16:24:11Z",
+  "eventCount": 232,
   "sources": [
     {
       "name": "curated",
@@ -29,8 +29,9 @@
     },
     {
       "name": "chessdom",
-      "status": "ok",
-      "count": 9
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "chessmix",
@@ -1145,7 +1146,7 @@
       "id": "lichess-mn3rbyn4",
       "title": "FIDE World Cadets Cup 2026 | G08",
       "shortTitle": "FIDE World Cadets Cup 2026 | G08",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-16T11:15:00Z",
       "endDate": "2026-06-27T06:15:00Z",
       "timezone": "Asia/Tbilisi",
@@ -8216,6 +8217,7 @@
       "playerIds": [
         "paulius-pultinevicius",
         "harikrishnan-a-ra",
+        "vitaly-sivuk",
         "mika-karttunen",
         "toivo-kein-nen",
         "tamas-jr-fodor",
@@ -8370,6 +8372,7 @@
       "confirmedPlayerIds": [
         "paulius-pultinevicius",
         "harikrishnan-a-ra",
+        "vitaly-sivuk",
         "mika-karttunen",
         "toivo-kein-nen",
         "tamas-jr-fodor",
@@ -8508,6 +8511,21 @@
           "title": "GM",
           "fideId": "5081483",
           "classicalRating": 2519,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vitaly-sivuk",
+          "name": "Vitaly Sivuk",
+          "countryCode": "SWE",
+          "title": "GM",
+          "fideId": "14116502",
+          "classicalRating": 2511,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -10675,6 +10693,7 @@
         "marilena-papadopoulou",
         "jordi-mas-mestres",
         "eliza-ioana-badescu",
+        "lindoro-di-muccio",
         "inna-iasman",
         "anais-azouni",
         "nikolaos-maggos",
@@ -10975,6 +10994,7 @@
         "marilena-papadopoulou",
         "jordi-mas-mestres",
         "eliza-ioana-badescu",
+        "lindoro-di-muccio",
         "inna-iasman",
         "anais-azouni",
         "nikolaos-maggos",
@@ -13162,6 +13182,21 @@
           "countryCode": "ROU",
           "title": "WCM",
           "fideId": "42214890",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "lindoro-di-muccio",
+          "name": "Lindoro Di Muccio",
+          "countryCode": "ITA",
+          "title": null,
+          "fideId": "818712",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -19413,16 +19448,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -26399,47 +26424,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
-      "title": "European Chess Club Cup Open & Women 2026",
-      "shortTitle": "European Chess Club Cup Open & Women 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-16T00:00:00Z",
-      "endDate": "2026-10-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budva - Montenegro",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
-      "description": "Continental Classical Women",
-      "categories": [
-        "classical",
-        "women",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
-      "links": [
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "chessdom",
-        "url": "https://calendar.chessdom.com/2026-calendar/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -28427,8 +28411,7 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -28438,16 +28421,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
