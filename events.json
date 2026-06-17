@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T20:38:01Z",
-  "eventCount": 234,
+  "generatedAt": "2026-06-17T02:42:40Z",
+  "eventCount": 233,
   "sources": [
     {
       "name": "curated",
@@ -289,47 +289,6 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=12448"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-xxii-chess-festival-baltija-cup-2026-13-16-jun",
-      "title": "XXII CHESS FESTIVAL BALTIJA CUP 2026",
-      "shortTitle": "XXII CHESS FESTIVAL BALTIJA CUP 2026",
-      "status": "live",
-      "startDate": "2026-06-13T00:00:00Z",
-      "endDate": "2026-06-16T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "PALANGA, LTU",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XXII CHESS FESTIVAL BALTIJA CUP 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14657",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14657"
         },
         {
           "label": "FIDE calendar",
@@ -1222,7 +1181,7 @@
       "id": "fide-school-of-chess-house-by-tigran-petrosyan-5th-international-youth-chess-festival-17-27-jun",
       "title": "SCHOOL OF CHESS HOUSE BY TIGRAN PETROSYAN 5th INTERNATIONAL YOUTH CHESS FESTIVAL",
       "shortTitle": "SCHOOL OF CHESS HOUSE BY TIGRAN PETROSYAN 5th INTERNATIONAL YOUTH CHESS FESTIVAL",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-17T00:00:00Z",
       "endDate": "2026-06-27T23:59:59Z",
       "timezone": "UTC",
@@ -1264,7 +1223,7 @@
       "id": "chesscom-27775",
       "title": "Shenzhen Chinese National Open 2026",
       "shortTitle": "Shenzhen Chinese National Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-17T00:30:00Z",
       "endDate": "2026-06-21T13:00:00Z",
       "timezone": "UTC",
@@ -2544,6 +2503,7 @@
         "jorge-de-jesus-perez-marimon",
         "roberto-carlos-gomez-ledo",
         "bhattacherjee-aayush",
+        "angel-jesus-marquez-ruiz",
         "bernardo-cesar-maestre",
         "siddharth-singh",
         "nadya-toncheva",
@@ -2586,7 +2546,6 @@
         "yogesh-kale-vedant",
         "ismail-eren-midem",
         "david-maloberti",
-        "jesumarian-rebecca",
         "santiago-juan-mas",
         "krisjanis-lazars",
         "alvaro-espinola-gomez",
@@ -2697,6 +2656,7 @@
         "jorge-de-jesus-perez-marimon",
         "roberto-carlos-gomez-ledo",
         "bhattacherjee-aayush",
+        "angel-jesus-marquez-ruiz",
         "bernardo-cesar-maestre",
         "siddharth-singh",
         "nadya-toncheva",
@@ -2739,7 +2699,6 @@
         "yogesh-kale-vedant",
         "ismail-eren-midem",
         "david-maloberti",
-        "jesumarian-rebecca",
         "santiago-juan-mas",
         "krisjanis-lazars",
         "alvaro-espinola-gomez",
@@ -2960,6 +2919,21 @@
           "title": "FM",
           "fideId": "35029070",
           "classicalRating": 2381,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "angel-jesus-marquez-ruiz",
+          "name": "Angel Jesus Marquez Ruiz",
+          "countryCode": null,
+          "title": "FM",
+          "fideId": "3903699",
+          "classicalRating": 2377,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -3590,21 +3564,6 @@
           "title": null,
           "fideId": "620149",
           "classicalRating": 2013,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jesumarian-rebecca",
-          "name": "Jesumarian Rebecca",
-          "countryCode": null,
-          "title": "WCM",
-          "fideId": "35094831",
-          "classicalRating": 2012,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -8276,6 +8235,7 @@
         "tripathi-adarsh",
         "henri-torkkola",
         "aku-salonen",
+        "tommi-luukkonen",
         "margareth-olde",
         "barnabas-panda",
         "herman-hietanen",
@@ -8431,6 +8391,7 @@
         "tripathi-adarsh",
         "henri-torkkola",
         "aku-salonen",
+        "tommi-luukkonen",
         "margareth-olde",
         "barnabas-panda",
         "herman-hietanen",
@@ -8822,6 +8783,21 @@
           "title": "FM",
           "fideId": "517577",
           "classicalRating": 2247,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "tommi-luukkonen",
+          "name": "Tommi Luukkonen",
+          "countryCode": "FIN",
+          "title": "FM",
+          "fideId": "501808",
+          "classicalRating": 2230,
           "profileLinks": {},
           "status": "confirmed",
           "source": {

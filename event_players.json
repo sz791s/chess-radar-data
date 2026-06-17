@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-16T20:38:18Z",
-  "eventPlayerCount": 1111,
+  "generatedAt": "2026-06-17T02:42:53Z",
+  "eventPlayerCount": 1112,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1111
+      "count": 1112
     },
     {
       "name": "curated",
@@ -172,6 +172,21 @@
       "title": "FM",
       "fideId": "35029070",
       "classicalRating": 2381,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "angel-jesus-marquez-ruiz",
+      "name": "Angel Jesus Marquez Ruiz",
+      "countryCode": null,
+      "title": "FM",
+      "fideId": "3903699",
+      "classicalRating": 2377,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -802,21 +817,6 @@
       "title": null,
       "fideId": "620149",
       "classicalRating": 2013,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
-      "playerId": "jesumarian-rebecca",
-      "name": "Jesumarian Rebecca",
-      "countryCode": null,
-      "title": "WCM",
-      "fideId": "35094831",
-      "classicalRating": 2012,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -3217,6 +3217,21 @@
       "title": "FM",
       "fideId": "517577",
       "classicalRating": 2247,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-xxxiv-heart-of-finland-open-13-19-jul",
+      "playerId": "tommi-luukkonen",
+      "name": "Tommi Luukkonen",
+      "countryCode": "FIN",
+      "title": "FM",
+      "fideId": "501808",
+      "classicalRating": 2230,
       "status": "confirmed",
       "source": {
         "name": "chess-results",

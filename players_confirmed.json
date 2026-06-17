@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T20:38:18Z",
-  "playerCount": 1024,
+  "generatedAt": "2026-06-17T02:42:53Z",
+  "playerCount": 1026,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -2746,6 +2746,40 @@
       "title": null,
       "fideId": "94753156",
       "classicalRating": 1826,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+          "title": "Lince Andújar Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-06-27T00:00:00Z",
+          "endDate": "2026-07-03T23:59:59Z",
+          "locationName": "Andújar, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "angel-jesus-marquez-ruiz",
+      "name": "Angel Jesus Marquez Ruiz",
+      "countryCode": null,
+      "title": "FM",
+      "fideId": "3903699",
+      "classicalRating": 2377,
       "profileLinks": {},
       "confirmedEventIds": [
         "fide-lince-and-jar-chess-open-2026-27-jun-3-jul"
@@ -15631,30 +15665,9 @@
       "classicalRating": 2012,
       "profileLinks": {},
       "confirmedEventIds": [
-        "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
         "fide-brasov-grand-prix-classic-25-31-jul"
       ],
       "confirmedEvents": [
-        {
-          "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
-          "title": "Lince Andújar Chess Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-06-27T00:00:00Z",
-          "endDate": "2026-07-03T23:59:59Z",
-          "locationName": "Andújar, ESP",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14858",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
-            "confidence": "high"
-          }
-        },
         {
           "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
           "title": "Brasov Grand Prix Classic",
@@ -33582,6 +33595,40 @@
       "title": null,
       "fideId": "503622",
       "classicalRating": 1848,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-xxxiv-heart-of-finland-open-13-19-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-xxxiv-heart-of-finland-open-13-19-jul",
+          "title": "XXXIV Heart of Finland Open",
+          "status": "upcoming",
+          "startDate": "2026-07-13T00:00:00Z",
+          "endDate": "2026-07-19T23:59:59Z",
+          "locationName": "Jyväskylä, FIN",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=11814",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tommi-luukkonen",
+      "name": "Tommi Luukkonen",
+      "countryCode": "FIN",
+      "title": "FM",
+      "fideId": "501808",
+      "classicalRating": 2230,
       "profileLinks": {},
       "confirmedEventIds": [
         "fide-xxxiv-heart-of-finland-open-13-19-jul"
