@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-17T10:25:42Z",
-  "eventCount": 233,
+  "generatedAt": "2026-06-17T14:50:54Z",
+  "eventCount": 232,
   "sources": [
     {
       "name": "curated",
@@ -29,8 +29,9 @@
     },
     {
       "name": "chessdom",
-      "status": "ok",
-      "count": 9
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "chessmix",
@@ -191,7 +192,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Nepal Chess Championship 2026.",
-      "description": "24 listed players",
+      "description": "36 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -10679,6 +10680,7 @@
         "dimitrios-hrisanthopoulos",
         "stavros-marinidis",
         "nikolaos-nikolakopoulos",
+        "georgios-dimitrios-troupis",
         "vaia-tsekoura",
         "sevak-bagdasaryan",
         "ioannis-maris",
@@ -10705,6 +10707,7 @@
         "konstantinos-bakalis",
         "po-hua-wu",
         "benny-abhinav",
+        "nikolaos-s-nikolopoulos",
         "junhan-jia",
         "konstantinos-kotovos",
         "marilena-papadopoulou",
@@ -10712,6 +10715,7 @@
         "eliza-ioana-badescu",
         "lindoro-di-muccio",
         "inna-iasman",
+        "paraskevas-nteneketzis",
         "anais-azouni",
         "nikolaos-maggos",
         "mikayel-sh-sargsyan",
@@ -10742,6 +10746,7 @@
         "eva-serpetsidaki",
         "sicheng-she",
         "georgia-skaraki",
+        "panagiotis-kakaletris",
         "panagiotis-tsigkogiannis",
         "rafail-potamitis",
         "roman-werner",
@@ -10815,6 +10820,7 @@
         "emmanouil-karouzakis",
         "dimitrios-christos-lampousakis",
         "foteini-manousaki",
+        "konstantinos-melegkos",
         "rishik-lalith-murali",
         "isidoros-nikolaidis",
         "nikolaos-ouzounstefanis",
@@ -10980,6 +10986,7 @@
         "dimitrios-hrisanthopoulos",
         "stavros-marinidis",
         "nikolaos-nikolakopoulos",
+        "georgios-dimitrios-troupis",
         "vaia-tsekoura",
         "sevak-bagdasaryan",
         "ioannis-maris",
@@ -11006,6 +11013,7 @@
         "konstantinos-bakalis",
         "po-hua-wu",
         "benny-abhinav",
+        "nikolaos-s-nikolopoulos",
         "junhan-jia",
         "konstantinos-kotovos",
         "marilena-papadopoulou",
@@ -11013,6 +11021,7 @@
         "eliza-ioana-badescu",
         "lindoro-di-muccio",
         "inna-iasman",
+        "paraskevas-nteneketzis",
         "anais-azouni",
         "nikolaos-maggos",
         "mikayel-sh-sargsyan",
@@ -11043,6 +11052,7 @@
         "eva-serpetsidaki",
         "sicheng-she",
         "georgia-skaraki",
+        "panagiotis-kakaletris",
         "panagiotis-tsigkogiannis",
         "rafail-potamitis",
         "roman-werner",
@@ -11116,6 +11126,7 @@
         "emmanouil-karouzakis",
         "dimitrios-christos-lampousakis",
         "foteini-manousaki",
+        "konstantinos-melegkos",
         "rishik-lalith-murali",
         "isidoros-nikolaidis",
         "nikolaos-ouzounstefanis",
@@ -12744,6 +12755,21 @@
           }
         },
         {
+          "playerId": "georgios-dimitrios-troupis",
+          "name": "Georgios-Dimitrios Troupis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25819143",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "vaia-tsekoura",
           "name": "Vaia Tsekoura",
           "countryCode": "GRE",
@@ -13134,6 +13160,21 @@
           }
         },
         {
+          "playerId": "nikolaos-s-nikolopoulos",
+          "name": "Nikolaos S Nikolopoulos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "541009088",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "junhan-jia",
           "name": "Junhan Jia",
           "countryCode": "CHN",
@@ -13229,6 +13270,21 @@
           "countryCode": "FRA",
           "title": null,
           "fideId": "24125563",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "paraskevas-nteneketzis",
+          "name": "Paraskevas Nteneketzis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42137985",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -13679,6 +13735,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "25861190",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "panagiotis-kakaletris",
+          "name": "Panagiotis Kakaletris",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42140218",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -14774,6 +14845,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42189381",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "konstantinos-melegkos",
+          "name": "Konstantinos Melegkos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42188229",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -19465,16 +19551,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -26451,47 +26527,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
-      "title": "European Chess Club Cup Open & Women 2026",
-      "shortTitle": "European Chess Club Cup Open & Women 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-16T00:00:00Z",
-      "endDate": "2026-10-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budva - Montenegro",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
-      "description": "Continental Classical Women",
-      "categories": [
-        "classical",
-        "women",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
-      "links": [
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "chessdom",
-        "url": "https://calendar.chessdom.com/2026-calendar/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -28479,8 +28514,7 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -28490,16 +28524,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
