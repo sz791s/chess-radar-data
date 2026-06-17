@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-17T14:50:54Z",
-  "eventCount": 232,
+  "generatedAt": "2026-06-17T19:59:37Z",
+  "eventCount": 233,
   "sources": [
     {
       "name": "curated",
@@ -29,9 +29,8 @@
     },
     {
       "name": "chessdom",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "count": 9
     },
     {
       "name": "chessmix",
@@ -10604,6 +10603,7 @@
         "vasileios-dim-katsanis",
         "alexandros-papasimakopoulos",
         "spyridon-naoum",
+        "michail-vassis",
         "levon-babujian",
         "sumer-arsh-shaik",
         "anastasios-georgiadis",
@@ -10639,6 +10639,7 @@
         "dimitrios-stoimenidis",
         "shanne-hedegaard-jakobsen",
         "ioannis-tetepoulidis",
+        "anastasios-vassis",
         "ararat-stepanyan",
         "alexander-polak",
         "efstratios-fragakis",
@@ -10663,6 +10664,7 @@
         "nikolaos-panagiotis-galanis",
         "loukas-papadimitriou",
         "konstantinos-koutras",
+        "michail-armaos",
         "konstantinos-kyr-ouzounis",
         "justin-hadi",
         "vasileios-skarlas",
@@ -10815,6 +10817,7 @@
         "ioannis-k-frantzeskakis",
         "elli-gagani",
         "anna-styliani-giakoustidou",
+        "ladislao-gianfrancesco",
         "dimitrios-kalogerakis",
         "ioannis-kampanis",
         "emmanouil-karouzakis",
@@ -10910,6 +10913,7 @@
         "vasileios-dim-katsanis",
         "alexandros-papasimakopoulos",
         "spyridon-naoum",
+        "michail-vassis",
         "levon-babujian",
         "sumer-arsh-shaik",
         "anastasios-georgiadis",
@@ -10945,6 +10949,7 @@
         "dimitrios-stoimenidis",
         "shanne-hedegaard-jakobsen",
         "ioannis-tetepoulidis",
+        "anastasios-vassis",
         "ararat-stepanyan",
         "alexander-polak",
         "efstratios-fragakis",
@@ -10969,6 +10974,7 @@
         "nikolaos-panagiotis-galanis",
         "loukas-papadimitriou",
         "konstantinos-koutras",
+        "michail-armaos",
         "konstantinos-kyr-ouzounis",
         "justin-hadi",
         "vasileios-skarlas",
@@ -11121,6 +11127,7 @@
         "ioannis-k-frantzeskakis",
         "elli-gagani",
         "anna-styliani-giakoustidou",
+        "ladislao-gianfrancesco",
         "dimitrios-kalogerakis",
         "ioannis-kampanis",
         "emmanouil-karouzakis",
@@ -11605,6 +11612,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "4227506",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "michail-vassis",
+          "name": "Michail Vassis",
+          "countryCode": "GRE",
+          "title": "FM",
+          "fideId": "25849018",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -12140,6 +12162,21 @@
           }
         },
         {
+          "playerId": "anastasios-vassis",
+          "name": "Anastasios Vassis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25849000",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ararat-stepanyan",
           "name": "Ararat Stepanyan",
           "countryCode": "ARM",
@@ -12490,6 +12527,21 @@
           "countryCode": "GRE",
           "title": "AIM",
           "fideId": "25866770",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "michail-armaos",
+          "name": "Michail Armaos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25863720",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -14770,6 +14822,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42100038",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ladislao-gianfrancesco",
+          "name": "Ladislao Gianfrancesco",
+          "countryCode": "ITA",
+          "title": null,
+          "fideId": "552008860",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -18145,11 +18212,13 @@
         "nathael-eugene",
         "arun-daakshin",
         "k-p-pranav",
+        "sarayu-velpula",
         "luis-rojas-keim",
         "cosmin-tanasie",
         "gabriel-petcu",
         "ruslan-soltanici",
         "yoann-robert",
+        "david-alexandru-botea",
         "sasha-matei-craciun",
         "stefan-emilian-prisacaru",
         "lehel-vrencian",
@@ -18181,6 +18250,7 @@
         "vlad-petroff",
         "petrut-sandor",
         "tudor-mihai-cruceru-uceanu",
+        "a-peter-anand",
         "jan-wolak",
         "polina-sharapova",
         "alex-cosmin-codreanu",
@@ -18201,10 +18271,10 @@
         "devarsh-m-borkhetariya",
         "marian-david-voinescu",
         "maciej-wolak",
+        "ion-valentin-vaduva",
         "andreea-briana-stanciu",
         "beeri-yehuda",
         "asaf-goldstein",
-        "iacint-bolog",
         "praveen-adwaith",
         "mihai-iucu"
       ],
@@ -18262,11 +18332,13 @@
         "nathael-eugene",
         "arun-daakshin",
         "k-p-pranav",
+        "sarayu-velpula",
         "luis-rojas-keim",
         "cosmin-tanasie",
         "gabriel-petcu",
         "ruslan-soltanici",
         "yoann-robert",
+        "david-alexandru-botea",
         "sasha-matei-craciun",
         "stefan-emilian-prisacaru",
         "lehel-vrencian",
@@ -18298,6 +18370,7 @@
         "vlad-petroff",
         "petrut-sandor",
         "tudor-mihai-cruceru-uceanu",
+        "a-peter-anand",
         "jan-wolak",
         "polina-sharapova",
         "alex-cosmin-codreanu",
@@ -18318,10 +18391,10 @@
         "devarsh-m-borkhetariya",
         "marian-david-voinescu",
         "maciej-wolak",
+        "ion-valentin-vaduva",
         "andreea-briana-stanciu",
         "beeri-yehuda",
         "asaf-goldstein",
-        "iacint-bolog",
         "praveen-adwaith",
         "mihai-iucu"
       ],
@@ -18582,6 +18655,21 @@
           }
         },
         {
+          "playerId": "sarayu-velpula",
+          "name": "Sarayu Velpula",
+          "countryCode": "IND",
+          "title": "WIM",
+          "fideId": "45075204",
+          "classicalRating": 2304,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "luis-rojas-keim",
           "name": "Luis Rojas Keim",
           "countryCode": "CHI",
@@ -18648,6 +18736,21 @@
           "title": "CM",
           "fideId": "36018805",
           "classicalRating": 2272,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "david-alexandru-botea",
+          "name": "David-Alexandru Botea",
+          "countryCode": "ROU",
+          "title": "FM",
+          "fideId": "1263293",
+          "classicalRating": 2270,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -19122,6 +19225,21 @@
           }
         },
         {
+          "playerId": "a-peter-anand",
+          "name": "A Peter Anand",
+          "countryCode": "IND",
+          "title": null,
+          "fideId": "25003801",
+          "classicalRating": 2069,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "jan-wolak",
           "name": "Jan Wolak",
           "countryCode": "POL",
@@ -19422,6 +19540,21 @@
           }
         },
         {
+          "playerId": "ion-valentin-vaduva",
+          "name": "Ion-Valentin Vaduva",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "1268570",
+          "classicalRating": 1938,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "andreea-briana-stanciu",
           "name": "Andreea-Briana Stanciu",
           "countryCode": "ROU",
@@ -19458,21 +19591,6 @@
           "title": null,
           "fideId": "2834448",
           "classicalRating": 1830,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "iacint-bolog",
-          "name": "Iacint Bolog",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "801810",
-          "classicalRating": 1825,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -19551,6 +19669,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -26527,6 +26655,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
+      "title": "European Chess Club Cup Open & Women 2026",
+      "shortTitle": "European Chess Club Cup Open & Women 2026",
+      "status": "upcoming",
+      "startDate": "2026-10-16T00:00:00Z",
+      "endDate": "2026-10-24T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Budva - Montenegro",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
+      "description": "Continental Classical Women",
+      "categories": [
+        "classical",
+        "women",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
+      "links": [
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
+        }
+      ],
+      "source": {
+        "name": "chessdom",
+        "url": "https://calendar.chessdom.com/2026-calendar/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -28514,7 +28683,8 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -28524,6 +28694,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {

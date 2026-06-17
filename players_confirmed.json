@@ -1,8 +1,41 @@
 {
-  "generatedAt": "2026-06-17T14:51:12Z",
-  "playerCount": 1031,
+  "generatedAt": "2026-06-17T19:59:52Z",
+  "playerCount": 1038,
   "source": "confirmedEventRosters",
   "players": [
+    {
+      "id": "a-peter-anand",
+      "name": "A Peter Anand",
+      "countryCode": "IND",
+      "title": null,
+      "fideId": "25003801",
+      "classicalRating": 2069,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-brasov-grand-prix-classic-25-31-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
+          "title": "Brasov Grand Prix Classic",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, ROU",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "id": "a-s-sharvaanica",
       "name": "A S Sharvaanica",
@@ -2387,6 +2420,40 @@
       "countryCode": "GRE",
       "title": "FM",
       "fideId": "25870173",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-19th-paleochora-international-chess-tournament-18-25-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+          "title": "19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT",
+          "status": "upcoming",
+          "startDate": "2026-07-18T00:00:00Z",
+          "endDate": "2026-07-25T23:59:59Z",
+          "locationName": "Paleochora Creta Island, GRE",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb",
+            "open"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=12656",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anastasios-vassis",
+      "name": "Anastasios Vassis",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "25849000",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -7575,6 +7642,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "david-alexandru-botea",
+      "name": "David-Alexandru Botea",
+      "countryCode": "ROU",
+      "title": "FM",
+      "fideId": "1263293",
+      "classicalRating": 2270,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-brasov-grand-prix-classic-25-31-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
+          "title": "Brasov Grand Prix Classic",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, ROU",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -13240,39 +13340,6 @@
       ]
     },
     {
-      "id": "iacint-bolog",
-      "name": "Iacint Bolog",
-      "countryCode": "ITA",
-      "title": null,
-      "fideId": "801810",
-      "classicalRating": 1825,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-brasov-grand-prix-classic-25-31-jul"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
-          "title": "Brasov Grand Prix Classic",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, ROU",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14612",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "idunn-helgadottir",
       "name": "Idunn Helgadottir",
       "countryCode": "ISL",
@@ -13985,6 +14052,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ion-valentin-vaduva",
+      "name": "Ion-Valentin Vaduva",
+      "countryCode": "ROU",
+      "title": "I",
+      "fideId": "1268570",
+      "classicalRating": 1938,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-brasov-grand-prix-classic-25-31-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
+          "title": "Brasov Grand Prix Classic",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, ROU",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -19178,6 +19278,40 @@
       ]
     },
     {
+      "id": "ladislao-gianfrancesco",
+      "name": "Ladislao Gianfrancesco",
+      "countryCode": "ITA",
+      "title": null,
+      "fideId": "552008860",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-19th-paleochora-international-chess-tournament-18-25-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+          "title": "19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT",
+          "status": "upcoming",
+          "startDate": "2026-07-18T00:00:00Z",
+          "endDate": "2026-07-25T23:59:59Z",
+          "locationName": "Paleochora Creta Island, GRE",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb",
+            "open"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=12656",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "ladislav-sarkozy",
       "name": "Ladislav Sarkozy",
       "countryCode": "SVK",
@@ -23057,6 +23191,40 @@
       ]
     },
     {
+      "id": "michail-armaos",
+      "name": "Michail Armaos",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "25863720",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-19th-paleochora-international-chess-tournament-18-25-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+          "title": "19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT",
+          "status": "upcoming",
+          "startDate": "2026-07-18T00:00:00Z",
+          "endDate": "2026-07-25T23:59:59Z",
+          "locationName": "Paleochora Creta Island, GRE",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb",
+            "open"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=12656",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "michail-lampousakis",
       "name": "Michail Lampousakis",
       "countryCode": "GRE",
@@ -23096,6 +23264,40 @@
       "countryCode": "GRE",
       "title": null,
       "fideId": "42163153",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-19th-paleochora-international-chess-tournament-18-25-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+          "title": "19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT",
+          "status": "upcoming",
+          "startDate": "2026-07-18T00:00:00Z",
+          "endDate": "2026-07-25T23:59:59Z",
+          "locationName": "Paleochora Creta Island, GRE",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb",
+            "open"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=12656",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "michail-vassis",
+      "name": "Michail Vassis",
+      "countryCode": "GRE",
+      "title": "FM",
+      "fideId": "25849018",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -30616,6 +30818,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sarayu-velpula",
+      "name": "Sarayu Velpula",
+      "countryCode": "IND",
+      "title": "WIM",
+      "fideId": "45075204",
+      "classicalRating": 2304,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-brasov-grand-prix-classic-25-31-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
+          "title": "Brasov Grand Prix Classic",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, ROU",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=14612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
