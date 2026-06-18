@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-17T19:59:37Z",
-  "eventCount": 233,
+  "generatedAt": "2026-06-18T02:39:39Z",
+  "eventCount": 232,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 24
+      "count": 25
     },
     {
       "name": "uschess",
@@ -67,7 +67,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Madison Area Chess Club - Suns Out, Pawns Out 2026.",
-      "description": "9 listed players. 4 rounds",
+      "description": "11 listed players. 4 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1319,7 +1319,7 @@
       "id": "fide-african-individual-chess-championship-2026-18-27-jun",
       "title": "African Individual Chess Championship 2026",
       "shortTitle": "African Individual Chess Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-18T00:00:00Z",
       "endDate": "2026-06-27T23:59:59Z",
       "timezone": "UTC",
@@ -1359,7 +1359,7 @@
       "id": "fide-international-chess-festival-sheki-open-2026-18-25-jun",
       "title": "International Chess Festival “Sheki Open - 2026”",
       "shortTitle": "International Chess Festival “Sheki Open - 2026”",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-18T00:00:00Z",
       "endDate": "2026-06-25T23:59:59Z",
       "timezone": "UTC",
@@ -1370,11 +1370,14 @@
       "categories": [
         "classical",
         "open",
-        "otb"
+        "otb",
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide"
+        "fide",
+        "chesscom"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=15524",
       "links": [
@@ -1387,6 +1390,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-sheki-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -7669,6 +7682,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-amsterdam-chess-festival-11-19-jul",
+      "title": "Amsterdam Chess Festival",
+      "shortTitle": "Amsterdam Chess Festival",
+      "status": "upcoming",
+      "startDate": "2026-07-11T00:00:00Z",
+      "endDate": "2026-07-19T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Amsterdam, NED",
+      "isOnline": false,
+      "summary": "FIDE calendar event: Amsterdam Chess Festival.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15301",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=15301"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessbase-biel-chess-festival-11-to-24-july-2026",
       "title": "Biel Chess Festival",
       "shortTitle": "Biel Chess Festival",
@@ -10665,6 +10719,7 @@
         "loukas-papadimitriou",
         "konstantinos-koutras",
         "michail-armaos",
+        "ghosh-saparya",
         "konstantinos-kyr-ouzounis",
         "justin-hadi",
         "vasileios-skarlas",
@@ -10774,6 +10829,7 @@
         "efthymios-bakalis",
         "daniel-yarur-elsaca",
         "michail-lampousakis",
+        "evaggelos-g-kouros",
         "osman-kutalp-barlin",
         "ioannis-xeras",
         "christoph-hentschel",
@@ -10975,6 +11031,7 @@
         "loukas-papadimitriou",
         "konstantinos-koutras",
         "michail-armaos",
+        "ghosh-saparya",
         "konstantinos-kyr-ouzounis",
         "justin-hadi",
         "vasileios-skarlas",
@@ -11084,6 +11141,7 @@
         "efthymios-bakalis",
         "daniel-yarur-elsaca",
         "michail-lampousakis",
+        "evaggelos-g-kouros",
         "osman-kutalp-barlin",
         "ioannis-xeras",
         "christoph-hentschel",
@@ -12542,6 +12600,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "25863720",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ghosh-saparya",
+          "name": "Ghosh Saparya",
+          "countryCode": "IND",
+          "title": "WFM",
+          "fideId": "25771280",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -14177,6 +14250,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42189217",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "evaggelos-g-kouros",
+          "name": "Evaggelos G Kouros",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "541000846",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -25202,47 +25290,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-rudar-xla-fm-round-robin-8-15-aug",
-      "title": "RUDAR XLa - FM ROUND ROBIN",
-      "shortTitle": "RUDAR XLa - FM ROUND ROBIN",
-      "status": "upcoming",
-      "startDate": "2026-08-08T00:00:00Z",
-      "endDate": "2026-08-15T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Pozarevac, SRB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: RUDAR XLa - FM ROUND ROBIN.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16315",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16315"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-rudar-xxxvi-gm-round-robin-8-15-aug",
       "title": "RUDAR XXXVI - GM ROUND ROBIN",
       "shortTitle": "RUDAR XXXVI - GM ROUND ROBIN",
@@ -25320,47 +25367,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-japan-chess-classic-2026-9-12-aug",
-      "title": "Japan Chess Classic 2026",
-      "shortTitle": "Japan Chess Classic 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-09T00:00:00Z",
-      "endDate": "2026-08-12T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Osaka, JPN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Japan Chess Classic 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14529",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14529"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
