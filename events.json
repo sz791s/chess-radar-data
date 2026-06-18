@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-18T02:39:39Z",
-  "eventCount": 232,
+  "generatedAt": "2026-06-18T10:04:59Z",
+  "eventCount": 233,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 25
+      "count": 26
     },
     {
       "name": "uschess",
@@ -191,7 +191,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Nepal Chess Championship 2026.",
-      "description": "36 listed players",
+      "description": "24 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1405,6 +1405,48 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27873",
+      "title": "LJ Slovakia Chess Open 2026",
+      "shortTitle": "LJ Slovakia Chess Open 2026",
+      "status": "live",
+      "startDate": "2026-06-18T09:00:00Z",
+      "endDate": "2026-06-21T16:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: LJ Slovakia Chess Open 2026.",
+      "description": "50 listed players. 8 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/lj-slovakia-chess-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/lj-slovakia-chess-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -18352,7 +18394,6 @@
         "sorin-levay",
         "marian-zaim",
         "ivan-onofrasc",
-        "stelian-marian-busuioc",
         "jesumarian-rebecca",
         "bogdan-ovidiu-armenciu",
         "ray-hermans",
@@ -18472,7 +18513,6 @@
         "sorin-levay",
         "marian-zaim",
         "ivan-onofrasc",
-        "stelian-marian-busuioc",
         "jesumarian-rebecca",
         "bogdan-ovidiu-armenciu",
         "ray-hermans",
@@ -19514,21 +19554,6 @@
           "title": "CM",
           "fideId": "42213428",
           "classicalRating": 2016,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stelian-marian-busuioc",
-          "name": "Stelian-Marian Busuioc",
-          "countryCode": "ROU",
-          "title": "I",
-          "fideId": "1253018",
-          "classicalRating": 2013,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
