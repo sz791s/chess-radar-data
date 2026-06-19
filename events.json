@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-18T20:10:51Z",
-  "eventCount": 232,
+  "generatedAt": "2026-06-19T02:56:06Z",
+  "eventCount": 236,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 25
+      "count": 26
     },
     {
       "name": "uschess",
@@ -124,47 +124,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/iii-open-sub-1600-de-nau64"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27766",
-      "title": "Prishtina International Chess Tournament 2026",
-      "shortTitle": "Prishtina International Chess Tournament 2026",
-      "status": "live",
-      "startDate": "2026-06-12T15:00:00Z",
-      "endDate": "2026-06-18T21:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Prishtina International Chess Tournament 2026.",
-      "description": "52 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/prishtina-international-chess-tournament-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/prishtina-international-chess-tournament-2026"
         },
         {
           "label": "Chess.com current events",
@@ -307,17 +266,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-27756",
+      "id": "chesscom-27714",
       "title": "4th Buenos Aires Masters 2026",
       "shortTitle": "4th Buenos Aires Masters 2026",
       "status": "live",
       "startDate": "2026-06-13T18:00:00Z",
-      "endDate": "2026-06-21T19:00:00Z",
+      "endDate": "2026-06-22T01:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 4th Buenos Aires Masters 2026.",
-      "description": "140 listed players. 9 rounds",
+      "description": "130 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -326,12 +285,12 @@
       "channelIds": [
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/4th-buenos-aires-masters-2026",
+      "primaryUrl": "https://www.chess.com/events/info/iv-masters-ciudad-de-buenos-aires",
       "links": [
         {
           "label": "Chess.com event",
           "type": "official",
-          "url": "https://www.chess.com/events/info/4th-buenos-aires-masters-2026"
+          "url": "https://www.chess.com/events/info/iv-masters-ciudad-de-buenos-aires"
         },
         {
           "label": "Chess.com current events",
@@ -893,48 +852,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-fide-world-team-amateur-rapid-chess-cup-2026-16-22-jun",
-      "title": "FIDE World Team Amateur Rapid Chess Cup 2026",
-      "shortTitle": "FIDE World Team Amateur Rapid Chess Cup 2026",
-      "status": "live",
-      "startDate": "2026-06-16T00:00:00Z",
-      "endDate": "2026-06-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "HKG",
-      "isOnline": false,
-      "summary": "FIDE calendar event: FIDE World Team Amateur Rapid Chess Cup 2026.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14795",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14795"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-fide-world-team-blitz-chess-championship-2026-16-22-jun",
       "title": "FIDE World Team Blitz Chess Championship 2026",
       "shortTitle": "FIDE World Team Blitz Chess Championship 2026",
@@ -1055,26 +972,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1435097.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026-o08/69HnW9Vw"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1435087.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026-g10/TSxNCKBw"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1435098.aspx?art=1"
         }
       ],
       "source": {
@@ -1375,6 +1272,76 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-ovehrzxw",
+      "title": "FIDE World Team Amateur Rapid Chess Cup 2026 - Pool A",
+      "shortTitle": "FIDE World Team Amateur Rapid Chess Cup 2026 - Pool A",
+      "status": "live",
+      "startDate": "2026-06-18T01:00:00Z",
+      "endDate": "2026-06-20T03:00:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Hong Kong",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss for Teams",
+      "categories": [
+        "rapid",
+        "classical",
+        "broadcast",
+        "team",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/fide-world-team-amateur-rapid-chess-cup-2026-pool-a/oVEHRZxW",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-team-amateur-rapid-chess-cup-2026-pool-a/oVEHRZxW"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://worldteamamateurrapid2026.hkchessevent.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1439241.aspx"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-team-amateur-rapid-chess-cup-2026-pool-b/B5oN7Wtr"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1439241.aspx?art=1"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14795"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-27873",
       "title": "LJ Slovakia Chess Open 2026",
       "shortTitle": "LJ Slovakia Chess Open 2026",
@@ -1420,7 +1387,7 @@
       "id": "fide-open-ciutat-d-inca-19-21-jun",
       "title": "Open Ciutat d'Inca",
       "shortTitle": "Open Ciutat d'Inca",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-19T00:00:00Z",
       "endDate": "2026-06-21T23:59:59Z",
       "timezone": "UTC",
@@ -1462,7 +1429,7 @@
       "id": "chessbase-superunited-rapid-and-blitz-croatia-19-june-to-6-july-2026",
       "title": "SuperUnited Rapid and Blitz Croatia",
       "shortTitle": "SuperUnited Rapid and Blitz Croatia",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-19T00:00:00Z",
       "endDate": "2026-07-06T23:59:59Z",
       "timezone": "UTC",
@@ -1499,7 +1466,7 @@
       "id": "fide-xlii-r-kosmenti-open-19-21-jun",
       "title": "XLII. Rákosmenti Open",
       "shortTitle": "XLII. Rákosmenti Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-19T00:00:00Z",
       "endDate": "2026-06-21T23:59:59Z",
       "timezone": "UTC",
@@ -1532,6 +1499,89 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27898",
+      "title": "HSG Open 2026",
+      "shortTitle": "HSG Open 2026",
+      "status": "live",
+      "startDate": "2026-06-19T01:30:00Z",
+      "endDate": "2026-06-21T07:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: HSG Open 2026.",
+      "description": "6 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/hsg-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/hsg-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27672",
+      "title": "4th Mini-Match Tournament 2026, by OPAX",
+      "shortTitle": "4th Mini-Match Tournament 2026, by OPAX",
+      "status": "upcoming",
+      "startDate": "2026-06-19T05:00:00Z",
+      "endDate": "2026-06-19T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 4th Mini-Match Tournament 2026, by OPAX.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/4th-mini-match-tournament-2026-by-opax",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/4th-mini-match-tournament-2026-by-opax"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -2512,6 +2562,7 @@
       ],
       "playerIds": [
         "david-anton-guijarro",
+        "brandon-jacobson",
         "adam-kozak",
         "nikoloz-petriashvili",
         "guy-levin",
@@ -2577,6 +2628,7 @@
         "juan-antonio-garcia-ballesteros-banos",
         "sergio-huguet",
         "omar-antonio-del-rio-mora",
+        "lucas-gabriel-moldovan",
         "jose-antonio-garcia-albarracin",
         "alfonso-chamocho-bellido",
         "jose-manuel-perez-bellido",
@@ -2586,12 +2638,14 @@
         "benjamin-sanchez-fritzsche",
         "christian-elias-ksiri-crihana",
         "rodrigo-brito-coelho",
+        "jose-molina-colmenero",
         "faisal-abdulaziz-h-alowayyid",
         "ansis-kantans",
         "nellija-maklakova",
         "diogo-miguel-braz-sousa",
         "angel-garcia-pascual",
         "marcos-de-la-torre-roldan",
+        "manuel-ventaja-jimenez",
         "adrian-collado-moral",
         "diego-garcia-munoz-arias",
         "luis-miguel-saez-iniguez",
@@ -2611,6 +2665,7 @@
         "edmunds-surums",
         "adrian-pereira-galan",
         "jose-morata-perez",
+        "mario-pedrajas-sola",
         "miguel-del-moral-montero",
         "lucia-espinola-gomez",
         "celia-heras-rodriguez",
@@ -2665,6 +2720,7 @@
       },
       "confirmedPlayerIds": [
         "david-anton-guijarro",
+        "brandon-jacobson",
         "adam-kozak",
         "nikoloz-petriashvili",
         "guy-levin",
@@ -2730,6 +2786,7 @@
         "juan-antonio-garcia-ballesteros-banos",
         "sergio-huguet",
         "omar-antonio-del-rio-mora",
+        "lucas-gabriel-moldovan",
         "jose-antonio-garcia-albarracin",
         "alfonso-chamocho-bellido",
         "jose-manuel-perez-bellido",
@@ -2739,12 +2796,14 @@
         "benjamin-sanchez-fritzsche",
         "christian-elias-ksiri-crihana",
         "rodrigo-brito-coelho",
+        "jose-molina-colmenero",
         "faisal-abdulaziz-h-alowayyid",
         "ansis-kantans",
         "nellija-maklakova",
         "diogo-miguel-braz-sousa",
         "angel-garcia-pascual",
         "marcos-de-la-torre-roldan",
+        "manuel-ventaja-jimenez",
         "adrian-collado-moral",
         "diego-garcia-munoz-arias",
         "luis-miguel-saez-iniguez",
@@ -2764,6 +2823,7 @@
         "edmunds-surums",
         "adrian-pereira-galan",
         "jose-morata-perez",
+        "mario-pedrajas-sola",
         "miguel-del-moral-montero",
         "lucia-espinola-gomez",
         "celia-heras-rodriguez",
@@ -2788,6 +2848,21 @@
           "title": "GM",
           "fideId": "2285525",
           "classicalRating": 2657,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "brandon-jacobson",
+          "name": "Brandon Jacobson",
+          "countryCode": null,
+          "title": "GM",
+          "fideId": "30901561",
+          "classicalRating": 2604,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -3772,6 +3847,21 @@
           }
         },
         {
+          "playerId": "lucas-gabriel-moldovan",
+          "name": "Lucas Gabriel Moldovan",
+          "countryCode": null,
+          "title": null,
+          "fideId": "1956744",
+          "classicalRating": 1936,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "jose-antonio-garcia-albarracin",
           "name": "Jose Antonio Garcia Albarracin",
           "countryCode": null,
@@ -3907,6 +3997,21 @@
           }
         },
         {
+          "playerId": "jose-molina-colmenero",
+          "name": "Jose Molina Colmenero",
+          "countryCode": null,
+          "title": null,
+          "fideId": "22226702",
+          "classicalRating": 1881,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "faisal-abdulaziz-h-alowayyid",
           "name": "Faisal Abdulaziz H Alowayyid",
           "countryCode": null,
@@ -3988,6 +4093,21 @@
           "title": null,
           "fideId": "535047402",
           "classicalRating": 1800,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "manuel-ventaja-jimenez",
+          "name": "Manuel Ventaja Jimenez",
+          "countryCode": null,
+          "title": null,
+          "fideId": "54506220",
+          "classicalRating": 1784,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -4273,6 +4393,21 @@
           "title": null,
           "fideId": "24521612",
           "classicalRating": 1561,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "mario-pedrajas-sola",
+          "name": "Mario Pedrajas Sola",
+          "countryCode": null,
+          "title": null,
+          "fideId": "523075210",
+          "classicalRating": 1540,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -18303,6 +18438,7 @@
         "alexandru-ovidiu-stanciu",
         "robert-gabriel-sava",
         "yamac-samani",
+        "g-aakash",
         "nathael-eugene",
         "arun-daakshin",
         "k-p-pranav",
@@ -18310,6 +18446,7 @@
         "luis-rojas-keim",
         "cosmin-tanasie",
         "gabriel-petcu",
+        "dragos-stefan-leu",
         "ruslan-soltanici",
         "yoann-robert",
         "david-alexandru-botea",
@@ -18326,6 +18463,7 @@
         "cristian-clement-daianu",
         "kirill-guretchii",
         "ali-poyraz-uzdemir",
+        "sirin-kalyani",
         "igor-volcov",
         "ema-obada",
         "michal-lahav",
@@ -18348,6 +18486,7 @@
         "jan-wolak",
         "polina-sharapova",
         "alex-cosmin-codreanu",
+        "ioan-dincov",
         "vlad-bogdan-ghita",
         "rom-manyevich",
         "alexandru-mihai-popescu",
@@ -18360,6 +18499,7 @@
         "ivan-onofrasc",
         "jesumarian-rebecca",
         "bogdan-ovidiu-armenciu",
+        "ismail-cinar-keloglu",
         "ray-hermans",
         "devarsh-m-borkhetariya",
         "marian-david-voinescu",
@@ -18422,6 +18562,7 @@
         "alexandru-ovidiu-stanciu",
         "robert-gabriel-sava",
         "yamac-samani",
+        "g-aakash",
         "nathael-eugene",
         "arun-daakshin",
         "k-p-pranav",
@@ -18429,6 +18570,7 @@
         "luis-rojas-keim",
         "cosmin-tanasie",
         "gabriel-petcu",
+        "dragos-stefan-leu",
         "ruslan-soltanici",
         "yoann-robert",
         "david-alexandru-botea",
@@ -18445,6 +18587,7 @@
         "cristian-clement-daianu",
         "kirill-guretchii",
         "ali-poyraz-uzdemir",
+        "sirin-kalyani",
         "igor-volcov",
         "ema-obada",
         "michal-lahav",
@@ -18467,6 +18610,7 @@
         "jan-wolak",
         "polina-sharapova",
         "alex-cosmin-codreanu",
+        "ioan-dincov",
         "vlad-bogdan-ghita",
         "rom-manyevich",
         "alexandru-mihai-popescu",
@@ -18479,6 +18623,7 @@
         "ivan-onofrasc",
         "jesumarian-rebecca",
         "bogdan-ovidiu-armenciu",
+        "ismail-cinar-keloglu",
         "ray-hermans",
         "devarsh-m-borkhetariya",
         "marian-david-voinescu",
@@ -18702,6 +18847,21 @@
           }
         },
         {
+          "playerId": "g-aakash",
+          "name": "G Aakash",
+          "countryCode": "IND",
+          "title": "FM",
+          "fideId": "25644394",
+          "classicalRating": 2312,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "nathael-eugene",
           "name": "Nathael Eugene",
           "countryCode": "FRA",
@@ -18798,6 +18958,21 @@
           "title": "FM",
           "fideId": "28548485",
           "classicalRating": 2295,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "dragos-stefan-leu",
+          "name": "Dragos Stefan Leu",
+          "countryCode": "ROU",
+          "title": "FM",
+          "fideId": "1292730",
+          "classicalRating": 2283,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -19038,6 +19213,21 @@
           "title": "FM",
           "fideId": "51619733",
           "classicalRating": 2194,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "sirin-kalyani",
+          "name": "Sirin Kalyani",
+          "countryCode": "IND",
+          "title": "WIM",
+          "fideId": "33323500",
+          "classicalRating": 2193,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -19377,6 +19567,21 @@
           }
         },
         {
+          "playerId": "ioan-dincov",
+          "name": "Ioan Dincov",
+          "countryCode": "FRA",
+          "title": null,
+          "fideId": "45118612",
+          "classicalRating": 2039,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "vlad-bogdan-ghita",
           "name": "Vlad-Bogdan Ghita",
           "countryCode": "ROU",
@@ -19548,6 +19753,21 @@
           "title": "CM",
           "fideId": "1206621",
           "classicalRating": 2006,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ismail-cinar-keloglu",
+          "name": "Ismail Cinar Keloglu",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "51622610",
+          "classicalRating": 2000,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -25279,6 +25499,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-rudar-xla-fm-round-robin-8-15-aug",
+      "title": "RUDAR XLa - FM ROUND ROBIN",
+      "shortTitle": "RUDAR XLa - FM ROUND ROBIN",
+      "status": "upcoming",
+      "startDate": "2026-08-08T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Pozarevac, SRB",
+      "isOnline": false,
+      "summary": "FIDE calendar event: RUDAR XLa - FM ROUND ROBIN.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16315",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16315"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-rudar-xxxvi-gm-round-robin-8-15-aug",
       "title": "RUDAR XXXVI - GM ROUND ROBIN",
       "shortTitle": "RUDAR XXXVI - GM ROUND ROBIN",
@@ -25356,6 +25617,89 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-japan-chess-classic-2026-9-12-aug",
+      "title": "Japan Chess Classic 2026",
+      "shortTitle": "Japan Chess Classic 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-09T00:00:00Z",
+      "endDate": "2026-08-12T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Osaka, JPN",
+      "isOnline": false,
+      "summary": "FIDE calendar event: Japan Chess Classic 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14529",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=14529"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-fide-iscf-world-schools-team-championship-american-continental-stage-11-16-aug",
+      "title": "FIDE ISCF World Schools Team Championship, American Continental Stage",
+      "shortTitle": "FIDE ISCF World Schools Team Championship, American Continental Stage",
+      "status": "upcoming",
+      "startDate": "2026-08-11T00:00:00Z",
+      "endDate": "2026-08-16T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "San Jose, CRC",
+      "isOnline": false,
+      "summary": "FIDE calendar event: FIDE ISCF World Schools Team Championship, American Continental Stage.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "team",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16285",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16285"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
