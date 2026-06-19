@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-19T02:56:24Z",
-  "eventPlayerCount": 1135,
+  "generatedAt": "2026-06-19T10:12:27Z",
+  "eventPlayerCount": 1136,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1135
+      "count": 1136
     },
     {
       "name": "curated",
@@ -5481,6 +5481,21 @@
       "countryCode": "IND",
       "title": "FM",
       "fideId": "25679791",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "ray-ankit",
+      "name": "Ray Ankit",
+      "countryCode": "IND",
+      "title": "FM",
+      "fideId": "25770624",
       "classicalRating": null,
       "status": "confirmed",
       "source": {

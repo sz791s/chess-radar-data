@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-19T02:56:24Z",
-  "playerCount": 1049,
+  "generatedAt": "2026-06-19T10:12:27Z",
+  "playerCount": 1050,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -29200,6 +29200,40 @@
       "countryCode": "IND",
       "title": null,
       "fideId": "88154530",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-19th-paleochora-international-chess-tournament-18-25-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+          "title": "19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT",
+          "status": "upcoming",
+          "startDate": "2026-07-18T00:00:00Z",
+          "endDate": "2026-07-25T23:59:59Z",
+          "locationName": "Paleochora Creta Island, GRE",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb",
+            "open"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=12656",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ray-ankit",
+      "name": "Ray Ankit",
+      "countryCode": "IND",
+      "title": "FM",
+      "fideId": "25770624",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [

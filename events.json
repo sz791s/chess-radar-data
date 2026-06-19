@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T02:56:06Z",
+  "generatedAt": "2026-06-19T10:12:10Z",
   "eventCount": 236,
   "sources": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 26
+      "count": 25
     },
     {
       "name": "uschess",
@@ -276,7 +276,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 4th Buenos Aires Masters 2026.",
-      "description": "130 listed players. 9 rounds",
+      "description": "131 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1176,14 +1176,11 @@
       "summary": "FIDE calendar event: African Individual Chess Championship 2026.",
       "description": "Time control: other",
       "categories": [
-        "otb",
-        "online",
-        "broadcast"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide",
-        "chesscom"
+        "fide"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=12804",
       "links": [
@@ -1196,16 +1193,6 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-african-individual-championship"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -1505,52 +1492,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-27898",
-      "title": "HSG Open 2026",
-      "shortTitle": "HSG Open 2026",
-      "status": "live",
-      "startDate": "2026-06-19T01:30:00Z",
-      "endDate": "2026-06-21T07:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: HSG Open 2026.",
-      "description": "6 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/hsg-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/hsg-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27672",
       "title": "4th Mini-Match Tournament 2026, by OPAX",
       "shortTitle": "4th Mini-Match Tournament 2026, by OPAX",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-19T05:00:00Z",
       "endDate": "2026-06-19T20:00:00Z",
       "timezone": "UTC",
@@ -1572,6 +1517,48 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/4th-mini-match-tournament-2026-by-opax"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27897",
+      "title": "Sunshine Open & Scholastic 2026",
+      "shortTitle": "Sunshine Open & Scholastic 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-19T17:00:00Z",
+      "endDate": "2026-06-21T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Sunshine Open & Scholastic 2026.",
+      "description": "5 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/sunshine-open-scholastic-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/sunshine-open-scholastic-2026"
         },
         {
           "label": "Chess.com current events",
@@ -10815,6 +10802,7 @@
         "das-arshiya",
         "ali-alper-celik",
         "hemant-agarwal-mukund",
+        "ray-ankit",
         "konstantinos-tsarsitalidis",
         "wojciech-golenia",
         "vasileios-koudounis",
@@ -11127,6 +11115,7 @@
         "das-arshiya",
         "ali-alper-celik",
         "hemant-agarwal-mukund",
+        "ray-ankit",
         "konstantinos-tsarsitalidis",
         "wojciech-golenia",
         "vasileios-koudounis",
@@ -12066,6 +12055,21 @@
           "countryCode": "IND",
           "title": "FM",
           "fideId": "25679791",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ray-ankit",
+          "name": "Ray Ankit",
+          "countryCode": "IND",
+          "title": "FM",
+          "fideId": "25770624",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
