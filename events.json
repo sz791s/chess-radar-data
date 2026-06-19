@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T10:12:10Z",
+  "generatedAt": "2026-06-19T14:43:16Z",
   "eventCount": 236,
   "sources": [
     {
@@ -972,6 +972,16 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1435097.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-cadets-cup-2026-o08/69HnW9Vw"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1435087.aspx?art=1"
         }
       ],
       "source": {
@@ -1105,60 +1115,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-sncblg3c",
-      "title": "FIDE World Team Rapid & Blitz Chess Championships 2026 | Rapid | Matches 11+",
-      "shortTitle": "FIDE World Team Rapid & Blitz Chess Championships 2026 | Rapid | Matches 11+",
-      "status": "live",
-      "startDate": "2026-06-17T06:05:00Z",
-      "endDate": "2026-06-19T11:05:00Z",
-      "timezone": "Asia/Hong_Kong",
-      "locationName": "Hong Kong",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "12-round Swiss for teams",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championships-2026-rapid-matches-11/SNCblg3C",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championships-2026-rapid-matches-11/SNCblg3C"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://worldrapidblitzteams2026.fide.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1435703.aspx"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/fide-world-team-rapid-blitz-chess-championships-2026-rapid-matches-1-10/lD2y4p3R"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1832,6 +1788,54 @@
           "label": "Official website",
           "type": "official",
           "url": "https://worldrapidblitzteams2026.fide.com/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-8sjj3wdy",
+      "title": "Championnat de France féminin de parties Rapides",
+      "shortTitle": "Championnat de France féminin de parties Rapides",
+      "status": "upcoming",
+      "startDate": "2026-06-20T12:00:00Z",
+      "endDate": "2026-06-21T08:00:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Agde,France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Swiss Open",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/championnat-de-france-feminin-de-parties-rapides/8SjJ3Wdy",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/championnat-de-france-feminin-de-parties-rapides/8SjJ3Wdy"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.echecs.asso.fr/Actu.aspx?Ref=16071"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.echecs.asso.fr/FicheTournoi.aspx?Ref=71424"
         }
       ],
       "source": {
