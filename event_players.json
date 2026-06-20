@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-20T02:28:31Z",
-  "eventPlayerCount": 1136,
+  "generatedAt": "2026-06-20T08:40:38Z",
+  "eventPlayerCount": 1137,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1136
+      "count": 1137
     },
     {
       "name": "curated",
@@ -7416,6 +7416,21 @@
       "countryCode": "CHN",
       "title": null,
       "fideId": "8657440",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "grigorios-tamiolakis",
+      "name": "Grigorios Tamiolakis",
+      "countryCode": "GRE",
+      "title": "ACM",
+      "fideId": "42143799",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
