@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T13:27:16Z",
+  "generatedAt": "2026-06-20T19:09:33Z",
   "playerCount": 1052,
   "source": "confirmedEventRosters",
   "players": [
@@ -12327,6 +12327,40 @@
       ]
     },
     {
+      "id": "gustavo-barrenechea-bahamonde",
+      "name": "Gustavo Barrenechea Bahamonde",
+      "countryCode": "ESP",
+      "title": null,
+      "fideId": "2254425",
+      "classicalRating": 2091,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-granada-chess-open-2026-28-jul-2-aug"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+          "title": "Granada Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-28T00:00:00Z",
+          "endDate": "2026-08-02T23:59:59Z",
+          "locationName": "Granada, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "guy-levin",
       "name": "Guy Levin",
       "countryCode": null,
@@ -16133,40 +16167,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "jesus-maria-navas-rubio",
-      "name": "Jesus Maria Navas Rubio",
-      "countryCode": "ESP",
-      "title": null,
-      "fideId": "535058820",
-      "classicalRating": 1958,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-granada-chess-open-2026-28-jul-2-aug"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-          "title": "Granada Chess Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-28T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Granada, ESP",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
