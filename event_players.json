@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-21T02:42:55Z",
-  "eventPlayerCount": 1138,
+  "generatedAt": "2026-06-21T09:35:26Z",
+  "eventPlayerCount": 1139,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1138
+      "count": 1139
     },
     {
       "name": "curated",
@@ -2827,6 +2827,21 @@
       "title": null,
       "fideId": "332488",
       "classicalRating": 2009,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-9-open-bohumin-2026-4-12-jul-2026",
+      "playerId": "besmir-jashari",
+      "name": "besmir jashari",
+      "countryCode": "MKD",
+      "title": "MK",
+      "fideId": "1200",
+      "classicalRating": 2000,
       "status": "confirmed",
       "source": {
         "name": "chess-results",

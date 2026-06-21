@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-21T02:42:43Z",
-  "eventCount": 85,
+  "generatedAt": "2026-06-21T09:35:13Z",
+  "eventCount": 87,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 29
+      "count": 31
     },
     {
       "name": "uschess",
@@ -946,6 +946,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-27598",
+      "title": "Championnat de France féminin de parties rapides",
+      "shortTitle": "Championnat de France féminin de parties rapides",
+      "status": "live",
+      "startDate": "2026-06-20T03:00:00Z",
+      "endDate": "2026-06-21T19:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Championnat de France féminin de parties rapides.",
+      "description": "27 listed players. 9 rounds",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/championnat-de-france-feminin-de-partie-rapide",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/championnat-de-france-feminin-de-partie-rapide"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-23916",
       "title": "V. Rigo Janos Memorial",
       "shortTitle": "V. Rigo Janos Memorial",
@@ -1070,12 +1112,54 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-28046",
+      "title": "German Rapid Championship 2026",
+      "shortTitle": "German Rapid Championship 2026",
+      "status": "live",
+      "startDate": "2026-06-20T11:00:00Z",
+      "endDate": "2026-06-21T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: German Rapid Championship 2026.",
+      "description": "58 listed players",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/german-rapid-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/german-rapid-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-abn0a0lq",
       "title": "FIDE World Team Rapid & Blitz Chess Championships 2026 | Blitz | Knockout",
       "shortTitle": "FIDE World Team Rapid & Blitz Chess Championships 2026 | Blitz | Knockout",
       "status": "live",
       "startDate": "2026-06-20T11:02:00Z",
-      "endDate": "2026-06-21T12:02:00Z",
+      "endDate": "2026-06-21T12:35:00Z",
       "timezone": "Asia/Hong_Kong",
       "locationName": "Hong Kong",
       "isOnline": false,
@@ -1103,66 +1187,11 @@
           "label": "Official website",
           "type": "official",
           "url": "https://worldrapidblitzteams2026.fide.com/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-8sjj3wdy",
-      "title": "Championnat de France féminin de parties Rapides",
-      "shortTitle": "Championnat de France féminin de parties Rapides",
-      "status": "live",
-      "startDate": "2026-06-20T12:00:00Z",
-      "endDate": "2026-06-21T08:00:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Agde,France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Swiss Open",
-      "categories": [
-        "rapid",
-        "broadcast",
-        "open",
-        "otb",
-        "online"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "chesscom"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/championnat-de-france-feminin-de-parties-rapides/8SjJ3Wdy",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/championnat-de-france-feminin-de-parties-rapides/8SjJ3Wdy"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.echecs.asso.fr/Actu.aspx?Ref=16071"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://www.echecs.asso.fr/FicheTournoi.aspx?Ref=71424"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/championnat-de-france-feminin-de-partie-rapide"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
+          "url": "https://s3.chess-results.com/tnr1442227.aspx?art=0"
         }
       ],
       "source": {
@@ -1199,6 +1228,47 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/2nd-sptw-mixed-pairs-invitational-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27692",
+      "title": "IV IRT de Xadrez Rápido de Macatuba",
+      "shortTitle": "IV IRT de Xadrez Rápido de Macatuba",
+      "status": "upcoming",
+      "startDate": "2026-06-21T15:30:00Z",
+      "endDate": "2026-06-21T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: IV IRT de Xadrez Rápido de Macatuba.",
+      "description": "6 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/iv-irt-de-xadrez-rapido-de-macatuba",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/iv-irt-de-xadrez-rapido-de-macatuba"
         },
         {
           "label": "Chess.com current events",
@@ -4263,6 +4333,7 @@
         "ond-ej-boff",
         "josef-lys",
         "miroslav-forman",
+        "besmir-jashari",
         "adam-radecki",
         "viktorie-buchtov",
         "veronika-vancakova",
@@ -4327,6 +4398,7 @@
         "ond-ej-boff",
         "josef-lys",
         "miroslav-forman",
+        "besmir-jashari",
         "adam-radecki",
         "viktorie-buchtov",
         "veronika-vancakova",
@@ -4737,6 +4809,21 @@
           "title": null,
           "fideId": "332488",
           "classicalRating": 2009,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "besmir-jashari",
+          "name": "besmir jashari",
+          "countryCode": "MKD",
+          "title": "MK",
+          "fideId": "1200",
+          "classicalRating": 2000,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
