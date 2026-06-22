@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-22T11:35:00Z",
-  "eventPlayerCount": 1143,
+  "generatedAt": "2026-06-22T16:28:31Z",
+  "eventPlayerCount": 1150,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1143
+      "count": 1150
     },
     {
       "name": "curated",
@@ -121,12 +121,12 @@
     },
     {
       "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
-      "playerId": "taron-shagbazyan",
-      "name": "Taron Shagbazyan",
+      "playerId": "jorge-de-jesus-perez-marimon",
+      "name": "Jorge De Jesus Perez Marimon",
       "countryCode": null,
       "title": "IM",
-      "fideId": "14122073",
-      "classicalRating": 2412,
+      "fideId": "3524582",
+      "classicalRating": 2404,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -136,12 +136,12 @@
     },
     {
       "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
-      "playerId": "jorge-de-jesus-perez-marimon",
-      "name": "Jorge De Jesus Perez Marimon",
+      "playerId": "lennis-martinez-ramirez",
+      "name": "Lennis Martinez Ramirez",
       "countryCode": null,
       "title": "IM",
-      "fideId": "3524582",
-      "classicalRating": 2404,
+      "fideId": "3509079",
+      "classicalRating": 2395,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -229,7 +229,7 @@
       "playerId": "augustin-rodriguez",
       "name": "Augustin Rodriguez",
       "countryCode": null,
-      "title": null,
+      "title": "FM",
       "fideId": "651032171",
       "classicalRating": 2313,
       "status": "confirmed",
@@ -742,21 +742,6 @@
       "title": null,
       "fideId": "2276100",
       "classicalRating": 2076,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
-      "playerId": "a-s-sharvaanica",
-      "name": "A S Sharvaanica",
-      "countryCode": null,
-      "title": "WCM",
-      "fideId": "33419531",
-      "classicalRating": 2068,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -2856,6 +2841,21 @@
       "countryCode": "MKD",
       "title": "MK",
       "fideId": "1200",
+      "classicalRating": 2000,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-9-open-bohumin-2026-4-12-jul-2026",
+      "playerId": "austin-shalom",
+      "name": "austin shalom",
+      "countryCode": "ACF",
+      "title": "MK",
+      "fideId": "2323",
       "classicalRating": 2000,
       "status": "confirmed",
       "source": {
@@ -5236,21 +5236,6 @@
     },
     {
       "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
-      "playerId": "mariam-mkrtchyan",
-      "name": "Mariam Mkrtchyan",
-      "countryCode": "ARM",
-      "title": "WGM",
-      "fideId": "13310828",
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
       "playerId": "vasileios-dim-katsanis",
       "name": "Vasileios Dim Katsanis",
       "countryCode": "GRE",
@@ -5536,6 +5521,21 @@
     },
     {
       "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "aleksandr-avanesyan",
+      "name": "Aleksandr Avanesyan",
+      "countryCode": "ARM",
+      "title": "CM",
+      "fideId": "13317334",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
       "playerId": "hemant-agarwal-mukund",
       "name": "Hemant Agarwal Mukund",
       "countryCode": "IND",
@@ -5676,6 +5676,21 @@
       "countryCode": "IND",
       "title": null,
       "fideId": "33496463",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "wojciech-krawczyk",
+      "name": "Wojciech Krawczyk",
+      "countryCode": "POL",
+      "title": "CM",
+      "fideId": "21812420",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -6106,6 +6121,21 @@
     },
     {
       "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "nanne-van-foreest",
+      "name": "Nanne Van Foreest",
+      "countryCode": "NED",
+      "title": null,
+      "fideId": "1052020",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
       "playerId": "anton-johannes-allmendinger",
       "name": "Anton Johannes Allmendinger",
       "countryCode": "GER",
@@ -6261,6 +6291,21 @@
       "countryCode": "GRE",
       "title": "AFM",
       "fideId": "25842633",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "jael-wierenga",
+      "name": "Jael Wierenga",
+      "countryCode": "NED",
+      "title": null,
+      "fideId": "1058959",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -6916,6 +6961,21 @@
     },
     {
       "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "jean-roger-louvrier-saint-mary",
+      "name": "Jean-Roger Louvrier Saint-Mary",
+      "countryCode": "FRA",
+      "title": null,
+      "fideId": "618349",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
       "playerId": "benny-abhinav",
       "name": "Benny Abhinav",
       "countryCode": "IND",
@@ -6976,6 +7036,21 @@
     },
     {
       "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "georgios-ninios",
+      "name": "Georgios Ninios",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "42170397",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
       "playerId": "marilena-papadopoulou",
       "name": "Marilena Papadopoulou",
       "countryCode": "GRE",
@@ -7026,6 +7101,21 @@
       "countryCode": "ITA",
       "title": null,
       "fideId": "818712",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "orestis-tsouchnikas",
+      "name": "Orestis Tsouchnikas",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "25811150",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -7101,6 +7191,21 @@
       "countryCode": "ARM",
       "title": null,
       "fideId": "13325809",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "luka-l-jovanovic",
+      "name": "Luka L Jovanovic",
+      "countryCode": "NED",
+      "title": null,
+      "fideId": "1091310",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
