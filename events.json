@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T02:45:29Z",
-  "eventCount": 224,
+  "generatedAt": "2026-06-22T11:34:44Z",
+  "eventCount": 223,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 18
+      "count": 17
     },
     {
       "name": "uschess",
@@ -1088,48 +1088,6 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27899",
-      "title": "2026 British Team Challenge Final",
-      "shortTitle": "2026 British Team Challenge Final",
-      "status": "upcoming",
-      "startDate": "2026-06-22T03:40:00Z",
-      "endDate": "2026-06-22T07:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 2026 British Team Challenge Final.",
-      "description": "Listed on the Chess.com current events page.",
-      "categories": [
-        "online",
-        "broadcast",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-british-team-challenge-final",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-british-team-challenge-final"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -3909,6 +3867,53 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-4mrqmn3h",
+      "title": "II Lince Andujar Chess Festival 2026",
+      "shortTitle": "II Lince Andujar Chess Festival 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-27T08:00:00Z",
+      "endDate": "2026-07-03T08:00:00Z",
+      "timezone": "Europe/Madrid",
+      "locationName": "Andujar, Spain",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/ii-lince-andujar-chess-festival-2026/4mrqMn3h",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/ii-lince-andujar-chess-festival-2026/4mrqMn3h"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://linceandujarchessfestival.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1364562.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-o-pohar-primatora-rajeckych-teplic-28jun",
       "title": "O pohar primatora Rajeckych Teplic",
       "shortTitle": "O pohar primatora Rajeckych Teplic",
@@ -4607,54 +4612,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-zqhdrhwv",
-      "title": "EJCOA National Youth Finals U16-20",
-      "shortTitle": "EJCOA National Youth Finals U16-20",
-      "status": "upcoming",
-      "startDate": "2026-07-03T17:30:00Z",
-      "endDate": "2026-07-05T13:30:00Z",
-      "timezone": "Europe/London",
-      "locationName": "Nottingham, London",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5 Round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/ejcoa-national-youth-finals-u16-20/zQhDrHWV",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/ejcoa-national-youth-finals-u16-20/zQhDrHWV"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://ejcoa.co.uk/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1420942.aspx?lan=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -5487,6 +5444,7 @@
         "miroslaw-grabarczyk",
         "maciej-marszalek",
         "zden-k-holeksa",
+        "rafa-tymrakiewicz",
         "shivika-rohilla",
         "josef-mudrak",
         "mat-j-mydl",
@@ -5518,7 +5476,8 @@
         "micha-niesyt",
         "mat-j-lorenc",
         "jan-didi",
-        "otto-hurtak"
+        "otto-hurtak",
+        "mateusz-macura"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/562",
@@ -5553,6 +5512,7 @@
         "miroslaw-grabarczyk",
         "maciej-marszalek",
         "zden-k-holeksa",
+        "rafa-tymrakiewicz",
         "shivika-rohilla",
         "josef-mudrak",
         "mat-j-mydl",
@@ -5584,7 +5544,8 @@
         "micha-niesyt",
         "mat-j-lorenc",
         "jan-didi",
-        "otto-hurtak"
+        "otto-hurtak",
+        "mateusz-macura"
       ],
       "confirmedPlayers": [
         {
@@ -5698,6 +5659,21 @@
           "countryCode": "CZE",
           "title": "FM",
           "fideId": "316261",
+          "classicalRating": 2192,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "rafa-tymrakiewicz",
+          "name": "Rafał Tymrakiewicz",
+          "countryCode": "POL",
+          "title": "FM",
+          "fideId": "1108832",
           "classicalRating": 2192,
           "profileLinks": {},
           "status": "confirmed",
@@ -6178,6 +6154,21 @@
           "countryCode": "CZE",
           "title": null,
           "fideId": "383309",
+          "classicalRating": 1920,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "mateusz-macura",
+          "name": "Mateusz Macura",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "21852510",
           "classicalRating": 1920,
           "profileLinks": {},
           "status": "confirmed",
@@ -10269,6 +10260,7 @@
         "dimitrios-nerantzakis",
         "andreas-trelakas",
         "emmanouela-lampaki",
+        "angelos-konstantinos-mavris",
         "emmanouil-psarianos",
         "kyriakos-psarakis",
         "radamanthys-pavlos-androulakis",
@@ -10584,6 +10576,7 @@
         "dimitrios-nerantzakis",
         "andreas-trelakas",
         "emmanouela-lampaki",
+        "angelos-konstantinos-mavris",
         "emmanouil-psarianos",
         "kyriakos-psarakis",
         "radamanthys-pavlos-androulakis",
@@ -13976,6 +13969,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42185505",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "angelos-konstantinos-mavris",
+          "name": "Angelos Konstantinos Mavris",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42189462",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -19862,6 +19870,7 @@
         "hillel-toledo",
         "serafin-moral-garcia",
         "nikita-rychagov",
+        "roberto-alejandro-avila-bautista",
         "georgi-tomov",
         "gael-arcelin",
         "jose-javier-gonzalez-castillo",
@@ -19949,8 +19958,7 @@
         "malcolm-j-armstrong",
         "dinmukhammed-makhanbetali",
         "alvaro-garcia-bellido",
-        "joaquin-razola-garcia",
-        "zuzanna-adamczyk"
+        "joaquin-razola-garcia"
       ],
       "channelIds": [
         "fide"
@@ -20050,6 +20058,7 @@
         "hillel-toledo",
         "serafin-moral-garcia",
         "nikita-rychagov",
+        "roberto-alejandro-avila-bautista",
         "georgi-tomov",
         "gael-arcelin",
         "jose-javier-gonzalez-castillo",
@@ -20137,8 +20146,7 @@
         "malcolm-j-armstrong",
         "dinmukhammed-makhanbetali",
         "alvaro-garcia-bellido",
-        "joaquin-razola-garcia",
-        "zuzanna-adamczyk"
+        "joaquin-razola-garcia"
       ],
       "confirmedPlayers": [
         {
@@ -21048,6 +21056,21 @@
           "title": "FM",
           "fideId": "4508394",
           "classicalRating": 2295,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "roberto-alejandro-avila-bautista",
+          "name": "Roberto Alejandro Avila Bautista",
+          "countryCode": "MEX",
+          "title": "FM",
+          "fideId": "5119987",
+          "classicalRating": 2286,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -22368,21 +22391,6 @@
           "title": null,
           "fideId": "22201653",
           "classicalRating": 1969,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zuzanna-adamczyk",
-          "name": "Zuzanna Adamczyk",
-          "countryCode": "POL",
-          "title": "WCM",
-          "fideId": "1187570",
-          "classicalRating": 1965,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
