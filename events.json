@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-21T19:14:58Z",
-  "eventCount": 234,
+  "generatedAt": "2026-06-22T02:45:29Z",
+  "eventCount": 224,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 21
+      "count": 18
     },
     {
       "name": "uschess",
@@ -124,89 +124,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/iii-open-sub-1600-de-nau64"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-international-chess-tournament-38th-open-pula-2026-hotel-park-plaza-histria-13-21-jun",
-      "title": "International Chess Tournament 38th Open Pula 2026 - Hotel Park Plaza Histria",
-      "shortTitle": "International Chess Tournament 38th Open Pula 2026 - Hotel Park Plaza Histria",
-      "status": "live",
-      "startDate": "2026-06-13T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Pula, CRO",
-      "isOnline": false,
-      "summary": "FIDE calendar event: International Chess Tournament 38th Open Pula 2026 - Hotel Park Plaza Histria.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12448",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12448"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27714",
-      "title": "4th Buenos Aires Masters 2026",
-      "shortTitle": "4th Buenos Aires Masters 2026",
-      "status": "live",
-      "startDate": "2026-06-13T18:00:00Z",
-      "endDate": "2026-06-22T01:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 4th Buenos Aires Masters 2026.",
-      "description": "131 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/iv-masters-ciudad-de-buenos-aires",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/iv-masters-ciudad-de-buenos-aires"
         },
         {
           "label": "Chess.com current events",
@@ -338,90 +255,6 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=5075"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-silver-lake-2026-open-a-15-21-jun",
-      "title": "SILVER LAKE 2026 OPEN A",
-      "shortTitle": "SILVER LAKE 2026 OPEN A",
-      "status": "live",
-      "startDate": "2026-06-15T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Veliko Gradiste, SRB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: SILVER LAKE 2026 OPEN A.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14742",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14742"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-silver-lake-2026-open-b-15-21-jun",
-      "title": "SILVER LAKE 2026 OPEN B",
-      "shortTitle": "SILVER LAKE 2026 OPEN B",
-      "status": "live",
-      "startDate": "2026-06-15T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Veliko Gradiste, SRB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: SILVER LAKE 2026 OPEN B.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14743",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14743"
         },
         {
           "label": "FIDE calendar",
@@ -571,47 +404,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-27761",
-      "title": "Peruvian Chess Championship 2026",
-      "shortTitle": "Peruvian Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-06-15T15:00:00Z",
-      "endDate": "2026-06-21T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Peruvian Chess Championship 2026.",
-      "description": "24 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/peruvian-chess-championship-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/peruvian-chess-championship-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27765",
       "title": "59th Capablanca Memorial 2026 Open",
       "shortTitle": "59th Capablanca Memorial 2026 Open",
@@ -692,46 +484,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-5th-international-chess-festival-c-sis-16-21-jun",
-      "title": "5th International Chess Festival Cēsis",
-      "shortTitle": "5th International Chess Festival Cēsis",
-      "status": "live",
-      "startDate": "2026-06-16T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Cēsis, LAT",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 5th International Chess Festival Cēsis.",
-      "description": "Time control: other",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12732",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12732"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1181,48 +933,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-open-ciutat-d-inca-19-21-jun",
-      "title": "Open Ciutat d'Inca",
-      "shortTitle": "Open Ciutat d'Inca",
-      "status": "live",
-      "startDate": "2026-06-19T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Inca, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Open Ciutat d'Inca.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16829",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16829"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessbase-superunited-rapid-and-blitz-croatia-19-june-to-6-july-2026",
       "title": "SuperUnited Rapid and Blitz Croatia",
       "shortTitle": "SuperUnited Rapid and Blitz Croatia",
@@ -1254,132 +964,6 @@
       "source": {
         "name": "chessbase",
         "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-xlii-r-kosmenti-open-19-21-jun",
-      "title": "XLII. Rákosmenti Open",
-      "shortTitle": "XLII. Rákosmenti Open",
-      "status": "live",
-      "startDate": "2026-06-19T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budapest, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XLII. Rákosmenti Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17568",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17568"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27897",
-      "title": "Sunshine Open & Scholastic 2026",
-      "shortTitle": "Sunshine Open & Scholastic 2026",
-      "status": "live",
-      "startDate": "2026-06-19T17:00:00Z",
-      "endDate": "2026-06-21T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Sunshine Open & Scholastic 2026.",
-      "description": "22 listed players. 5 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/sunshine-open-scholastic-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/sunshine-open-scholastic-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-3-open-illa-de-mallorca-sub-1600-20-21-jun",
-      "title": "3 Open Illa de Mallorca Sub 1600",
-      "shortTitle": "3 Open Illa de Mallorca Sub 1600",
-      "status": "live",
-      "startDate": "2026-06-20T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Inca, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 3 Open Illa de Mallorca Sub 1600.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16828",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16828"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -1469,93 +1053,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-international-chess-open-isola-del-sole-21jun",
-      "title": "International Chess Open Isola del Sole",
-      "shortTitle": "International Chess Open Isola del Sole",
-      "status": "live",
-      "startDate": "2026-06-21T00:00:00Z",
-      "endDate": "2026-06-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Grado (Go), ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: International Chess Open Isola del Sole.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17216",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17216"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27692",
-      "title": "IV IRT de Xadrez Rápido de Macatuba",
-      "shortTitle": "IV IRT de Xadrez Rápido de Macatuba",
-      "status": "live",
-      "startDate": "2026-06-21T15:30:00Z",
-      "endDate": "2026-06-21T21:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: IV IRT de Xadrez Rápido de Macatuba.",
-      "description": "68 listed players. 6 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/iv-irt-de-xadrez-rapido-de-macatuba",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/iv-irt-de-xadrez-rapido-de-macatuba"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-international-championship-of-novi-sad-u2400-22-24-jun",
       "title": "International Championship of Novi Sad U2400",
       "shortTitle": "International Championship of Novi Sad U2400",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-22T00:00:00Z",
       "endDate": "2026-06-24T23:59:59Z",
       "timezone": "UTC",
@@ -1587,6 +1088,48 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27899",
+      "title": "2026 British Team Challenge Final",
+      "shortTitle": "2026 British Team Challenge Final",
+      "status": "upcoming",
+      "startDate": "2026-06-22T03:40:00Z",
+      "endDate": "2026-06-22T07:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 British Team Challenge Final.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-british-team-challenge-final",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-british-team-challenge-final"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -2026,53 +1569,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-vpvyumry",
-      "title": "HWP Inholland Weekendtoernooi",
-      "shortTitle": "HWP Inholland Weekendtoernooi",
-      "status": "upcoming",
-      "startDate": "2026-06-26T08:00:00Z",
-      "endDate": "2026-06-28T13:00:00Z",
-      "timezone": "Europe/Amsterdam",
-      "locationName": "Haarlem, Netherlands",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Six round swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/hwp-inholland-weekendtoernooi/VPvyUmry",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/hwp-inholland-weekendtoernooi/VPvyUmry"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://haarlemchess.nl/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://haarlemchess.nl/standen/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -5116,6 +4612,54 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-zqhdrhwv",
+      "title": "EJCOA National Youth Finals U16-20",
+      "shortTitle": "EJCOA National Youth Finals U16-20",
+      "status": "upcoming",
+      "startDate": "2026-07-03T17:30:00Z",
+      "endDate": "2026-07-05T13:30:00Z",
+      "timezone": "Europe/London",
+      "locationName": "Nottingham, London",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "5 Round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/ejcoa-national-youth-finals-u16-20/zQhDrHWV",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/ejcoa-national-youth-finals-u16-20/zQhDrHWV"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://ejcoa.co.uk/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1420942.aspx?lan=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-2026-naroditsky-memorial-blitz-4-5-jul",
       "title": "2026 Naroditsky Memorial - Blitz",
       "shortTitle": "2026 Naroditsky Memorial - Blitz",
@@ -5971,6 +5515,7 @@
         "katarzyna-krajewska",
         "alex-macosek",
         "kacper-staniczek",
+        "micha-niesyt",
         "mat-j-lorenc",
         "jan-didi",
         "otto-hurtak"
@@ -6036,6 +5581,7 @@
         "katarzyna-krajewska",
         "alex-macosek",
         "kacper-staniczek",
+        "micha-niesyt",
         "mat-j-lorenc",
         "jan-didi",
         "otto-hurtak"
@@ -6573,6 +6119,21 @@
           "title": null,
           "fideId": "21091790",
           "classicalRating": 1955,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "micha-niesyt",
+          "name": "Michał Niesyt",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "21031568",
+          "classicalRating": 1953,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -25631,6 +25192,46 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=13733"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-62nd-international-akiba-rubinstein-chess-festival-gm-round-robin-tournament-15-23-aug",
+      "title": "62nd International Akiba Rubinstein Chess Festival - GM Round Robin Tournament",
+      "shortTitle": "62nd International Akiba Rubinstein Chess Festival - GM Round Robin Tournament",
+      "status": "upcoming",
+      "startDate": "2026-08-15T00:00:00Z",
+      "endDate": "2026-08-23T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Polanica-Zdroj, POL",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 62nd International Akiba Rubinstein Chess Festival - GM Round Robin Tournament.",
+      "description": "Time control: other",
+      "categories": [
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16356",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16356"
         },
         {
           "label": "FIDE calendar",

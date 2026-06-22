@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-21T19:15:14Z",
-  "eventPlayerCount": 1139,
+  "generatedAt": "2026-06-22T02:45:46Z",
+  "eventPlayerCount": 1140,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1139
+      "count": 1140
     },
     {
       "name": "curated",
@@ -2962,6 +2962,21 @@
       "title": null,
       "fideId": "21091790",
       "classicalRating": 1955,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-9-open-bohumin-2026-4-12-jul-2026",
+      "playerId": "micha-niesyt",
+      "name": "Michał Niesyt",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21031568",
+      "classicalRating": 1953,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
