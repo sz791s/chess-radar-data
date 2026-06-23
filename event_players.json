@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-23T14:27:27Z",
-  "eventPlayerCount": 1233,
+  "generatedAt": "2026-06-23T19:49:51Z",
+  "eventPlayerCount": 1240,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1233
+      "count": 1240
     },
     {
       "name": "curated",
@@ -352,6 +352,21 @@
       "title": "FM",
       "fideId": "54588898",
       "classicalRating": 2266,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "zalan-nemeth",
+      "name": "Zalan Nemeth",
+      "countryCode": null,
+      "title": "FM",
+      "fideId": "2512041",
+      "classicalRating": 2261,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -757,6 +772,21 @@
       "title": null,
       "fideId": "2276100",
       "classicalRating": 2076,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "francisco-javier-ruiz-casado",
+      "name": "Francisco Javier Ruiz Casado",
+      "countryCode": null,
+      "title": null,
+      "fideId": "2245183",
+      "classicalRating": 2030,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -1731,6 +1761,21 @@
       "countryCode": null,
       "title": null,
       "fideId": "553002075",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "juan-2007-moreno-garcia",
+      "name": "Juan 2007 Moreno Garcia",
+      "countryCode": null,
+      "title": null,
+      "fideId": "535019492",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -7591,6 +7636,21 @@
     },
     {
       "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "ilias-ninios",
+      "name": "Ilias Ninios",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "42170400",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
       "playerId": "anais-azouni",
       "name": "Anais Azouni",
       "countryCode": "FRA",
@@ -9471,6 +9531,21 @@
       "countryCode": "FRA",
       "title": null,
       "fideId": "527039862",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "miltiadis-spanoudakis",
+      "name": "Miltiadis Spanoudakis",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "42171725",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -13246,21 +13321,6 @@
     },
     {
       "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-      "playerId": "kamotra-soham",
-      "name": "Kamotra Soham",
-      "countryCode": "IND",
-      "title": "IM",
-      "fideId": "46647490",
-      "classicalRating": 2405,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
       "playerId": "guerau-masague-artero",
       "name": "Guerau Masague Artero",
       "countryCode": "ESP",
@@ -15052,6 +15112,21 @@
       "title": null,
       "fideId": "22201653",
       "classicalRating": 1969,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+      "playerId": "zuzanna-adamczyk",
+      "name": "Zuzanna Adamczyk",
+      "countryCode": "POL",
+      "title": "WCM",
+      "fideId": "1187570",
+      "classicalRating": 1965,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -16951,6 +17026,21 @@
     },
     {
       "eventId": "chessaround-sixdays-swiss-14-19-sep-2026",
+      "playerId": "ritvik-krishnan",
+      "name": "Ritvik Krishnan",
+      "countryCode": "IND",
+      "title": "FM",
+      "fideId": "45055297",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1388432.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-sixdays-swiss-14-19-sep-2026",
       "playerId": "david-berczes",
       "name": "David Berczes",
       "countryCode": "HUN",
@@ -16971,6 +17061,21 @@
       "countryCode": "HUN",
       "title": "FM",
       "fideId": "758817",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1388432.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-sixdays-swiss-14-19-sep-2026",
+      "playerId": "manvel-arakelyan",
+      "name": "Manvel Arakelyan",
+      "countryCode": "ARM",
+      "title": "FM",
+      "fideId": "13317415",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
