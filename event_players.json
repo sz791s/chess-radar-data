@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-22T20:34:29Z",
-  "eventPlayerCount": 1154,
+  "generatedAt": "2026-06-23T02:11:58Z",
+  "eventPlayerCount": 1157,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1154
+      "count": 1157
     },
     {
       "name": "curated",
@@ -561,6 +561,21 @@
       "countryCode": null,
       "title": null,
       "fideId": "2221926",
+      "classicalRating": 2181,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "alex-moreto-quintana",
+      "name": "Alex Moreto Quintana",
+      "countryCode": null,
+      "title": null,
+      "fideId": "2258390",
       "classicalRating": 2181,
       "status": "confirmed",
       "source": {
@@ -1681,11 +1696,41 @@
     },
     {
       "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "ricardo-caballero-camara",
+      "name": "Ricardo Caballero Camara",
+      "countryCode": null,
+      "title": null,
+      "fideId": "535047372",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
       "playerId": "alonso-ferron-porras",
       "name": "Alonso Ferron Porras",
       "countryCode": null,
       "title": null,
       "fideId": "553040520",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-lince-and-jar-chess-open-2026-27-jun-3-jul",
+      "playerId": "jose-maria-garcia-lazaro",
+      "name": "Jose Maria Garcia Lazaro",
+      "countryCode": null,
+      "title": null,
+      "fideId": "553002075",
       "classicalRating": null,
       "status": "confirmed",
       "source": {

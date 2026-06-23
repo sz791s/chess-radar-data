@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T20:34:13Z",
-  "eventCount": 223,
+  "generatedAt": "2026-06-23T02:11:45Z",
+  "eventCount": 220,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 17
+      "count": 18
     },
     {
       "name": "uschess",
@@ -409,7 +409,7 @@
       "shortTitle": "LIX Internacional Capablanca in Memoriam 2026 | OPEN",
       "status": "live",
       "startDate": "2026-06-15T20:15:00Z",
-      "endDate": "2026-06-24T13:15:00Z",
+      "endDate": "2026-06-24T14:15:00Z",
       "timezone": "America/Havana",
       "locationName": "Hotel Nacional -La Habana -Cuba",
       "isOnline": false,
@@ -442,173 +442,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-belgrade-gm-swiss-mix-tournament-16-22-jun",
-      "title": "BELGRADE GM SWISS MIX TOURNAMENT",
-      "shortTitle": "BELGRADE GM SWISS MIX TOURNAMENT",
-      "status": "live",
-      "startDate": "2026-06-16T00:00:00Z",
-      "endDate": "2026-06-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Belgrade, SRB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: BELGRADE GM SWISS MIX TOURNAMENT.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14991",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14991"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-fide-world-team-amateur-rapid-chess-cup-2026-16-22-jun",
-      "title": "FIDE World Team Amateur Rapid Chess Cup 2026",
-      "shortTitle": "FIDE World Team Amateur Rapid Chess Cup 2026",
-      "status": "live",
-      "startDate": "2026-06-16T00:00:00Z",
-      "endDate": "2026-06-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "HKG",
-      "isOnline": false,
-      "summary": "FIDE calendar event: FIDE World Team Amateur Rapid Chess Cup 2026.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14795",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14795"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-fide-world-team-blitz-chess-championship-2026-16-22-jun",
-      "title": "FIDE World Team Blitz Chess Championship 2026",
-      "shortTitle": "FIDE World Team Blitz Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-06-16T00:00:00Z",
-      "endDate": "2026-06-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "HKG",
-      "isOnline": false,
-      "summary": "FIDE calendar event: FIDE World Team Blitz Chess Championship 2026.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14094",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14094"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-fide-world-team-rapid-chess-championship-2026-16-22-jun",
-      "title": "FIDE World Team Rapid Chess Championship 2026",
-      "shortTitle": "FIDE World Team Rapid Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-06-16T00:00:00Z",
-      "endDate": "2026-06-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "HKG",
-      "isOnline": false,
-      "summary": "FIDE calendar event: FIDE World Team Rapid Chess Championship 2026.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14093",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14093"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1055,7 +888,7 @@
       "id": "fide-9th-international-chess-tournament-solta-chess-open-2026-23-30-jun",
       "title": "9th International Chess Tournament, \"Solta Chess Open 2026\"",
       "shortTitle": "9th International Chess Tournament, \"Solta Chess Open 2026\"",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-23T00:00:00Z",
       "endDate": "2026-06-30T23:59:59Z",
       "timezone": "UTC",
@@ -1066,11 +899,14 @@
       "categories": [
         "classical",
         "open",
-        "otb"
+        "otb",
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide"
+        "fide",
+        "chesscom"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=12763",
       "links": [
@@ -1083,6 +919,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-solta-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -1097,7 +943,7 @@
       "id": "fide-olta-open-2026-23-30-jun",
       "title": "Šolta Open 2026",
       "shortTitle": "Šolta Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-23T00:00:00Z",
       "endDate": "2026-06-30T23:59:59Z",
       "timezone": "UTC",
@@ -1139,7 +985,7 @@
       "id": "chesscom-27904",
       "title": "2026 English Schools Chess Championships Final",
       "shortTitle": "2026 English Schools Chess Championships Final",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-23T02:00:00Z",
       "endDate": "2026-06-24T05:00:00Z",
       "timezone": "UTC",
@@ -1790,6 +1636,7 @@
         "andre-mendez-machado",
         "tianxiang-carlos-yu",
         "benjamin-abel-garcia-romero",
+        "alex-moreto-quintana",
         "javier-jimenez-carrazoni",
         "arsenijs-savicevs",
         "aleksejs-adamovics",
@@ -1864,7 +1711,9 @@
         "jordi-muntane-relat",
         "izan-blanco-exposito",
         "thiago-blanco-exposito",
+        "ricardo-caballero-camara",
         "alonso-ferron-porras",
+        "jose-maria-garcia-lazaro",
         "diego-jose-sarabia-sipica",
         "manuela-serra-navarro",
         "enrique-serra-salas",
@@ -1946,6 +1795,7 @@
         "andre-mendez-machado",
         "tianxiang-carlos-yu",
         "benjamin-abel-garcia-romero",
+        "alex-moreto-quintana",
         "javier-jimenez-carrazoni",
         "arsenijs-savicevs",
         "aleksejs-adamovics",
@@ -2020,7 +1870,9 @@
         "jordi-muntane-relat",
         "izan-blanco-exposito",
         "thiago-blanco-exposito",
+        "ricardo-caballero-camara",
         "alonso-ferron-porras",
+        "jose-maria-garcia-lazaro",
         "diego-jose-sarabia-sipica",
         "manuela-serra-navarro",
         "enrique-serra-salas",
@@ -2575,6 +2427,21 @@
           "countryCode": null,
           "title": null,
           "fideId": "2221926",
+          "classicalRating": 2181,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alex-moreto-quintana",
+          "name": "Alex Moreto Quintana",
+          "countryCode": null,
+          "title": null,
+          "fideId": "2258390",
           "classicalRating": 2181,
           "profileLinks": {},
           "status": "confirmed",
@@ -3695,11 +3562,41 @@
           }
         },
         {
+          "playerId": "ricardo-caballero-camara",
+          "name": "Ricardo Caballero Camara",
+          "countryCode": null,
+          "title": null,
+          "fideId": "535047372",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "alonso-ferron-porras",
           "name": "Alonso Ferron Porras",
           "countryCode": null,
           "title": null,
           "fideId": "553040520",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1364562.aspx?lan=2&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "jose-maria-garcia-lazaro",
+          "name": "Jose Maria Garcia Lazaro",
+          "countryCode": null,
+          "title": null,
+          "fideId": "553002075",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -15707,47 +15604,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-xiii-torneio-internacional-cidade-de-famalic-o-20-26-jul",
-      "title": "XIII Torneio Internacional Cidade de Famalicão",
-      "shortTitle": "XIII Torneio Internacional Cidade de Famalicão",
-      "status": "upcoming",
-      "startDate": "2026-07-20T00:00:00Z",
-      "endDate": "2026-07-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Famalicão, POR",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XIII Torneio Internacional Cidade de Famalicão.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17562",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17562"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-50th-international-chess-open-vila-de-sitges-22-30-jul",
       "title": "50th International Chess Open \"Vila de Sitges\"",
       "shortTitle": "50th International Chess Open \"Vila de Sitges\"",
@@ -25460,6 +25316,88 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=13733"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-62nd-international-akiba-rubinstein-chess-festival-gm-round-robin-tournament-15-23-aug",
+      "title": "62nd International Akiba Rubinstein Chess Festival - GM Round Robin Tournament",
+      "shortTitle": "62nd International Akiba Rubinstein Chess Festival - GM Round Robin Tournament",
+      "status": "upcoming",
+      "startDate": "2026-08-15T00:00:00Z",
+      "endDate": "2026-08-23T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Polanica-Zdroj, POL",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 62nd International Akiba Rubinstein Chess Festival - GM Round Robin Tournament.",
+      "description": "Time control: other",
+      "categories": [
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16356",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=16356"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-kanizsa-open-international-chess-tournament-and-hungarian-individual-championship-15-23-aug",
+      "title": "Kanizsa Open - International Chess Tournament and Hungarian Individual Championship",
+      "shortTitle": "Kanizsa Open - International Chess Tournament and Hungarian Individual Championship",
+      "status": "upcoming",
+      "startDate": "2026-08-15T00:00:00Z",
+      "endDate": "2026-08-23T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Nagykanizsa, HUN",
+      "isOnline": false,
+      "summary": "FIDE calendar event: Kanizsa Open - International Chess Tournament and Hungarian Individual Championship.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15368",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=15368"
         },
         {
           "label": "FIDE calendar",
