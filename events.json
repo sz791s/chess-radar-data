@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T19:49:36Z",
-  "eventCount": 220,
+  "generatedAt": "2026-06-24T02:13:24Z",
+  "eventCount": 221,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 18
+      "count": 19
     },
     {
       "name": "uschess",
@@ -1052,11 +1052,13 @@
         "classical",
         "broadcast",
         "team",
-        "otb"
+        "otb",
+        "online"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "lichess",
+        "chesscom"
       ],
       "primaryUrl": "https://lichess.org/broadcast/2026-chinese-chess-league-division-a-round-robin-r1-6/GtTXd69H",
       "links": [
@@ -1069,6 +1071,16 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/tnr1443674.aspx"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-chinese-chess-league-division-a"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -10560,6 +10572,7 @@
         "matei-andrei-badescu",
         "antonis-poullas",
         "kyriakos-zamit",
+        "nicola-giovanni-mastrorilli",
         "evgenia-giakoustidou",
         "vasiliki-alexandri",
         "giovanni-spiga",
@@ -10891,6 +10904,7 @@
         "matei-andrei-badescu",
         "antonis-poullas",
         "kyriakos-zamit",
+        "nicola-giovanni-mastrorilli",
         "evgenia-giakoustidou",
         "vasiliki-alexandri",
         "giovanni-spiga",
@@ -12941,6 +12955,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "4210719",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nicola-giovanni-mastrorilli",
+          "name": "Nicola Giovanni Mastrorilli",
+          "countryCode": "ITA",
+          "title": null,
+          "fideId": "808318",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -20852,6 +20881,7 @@
         "leo-crevatin",
         "martin-oksendal",
         "ruijun-jin",
+        "jan-kokoszczynski",
         "alex-herrera-pedroso",
         "alejandro-yuste-valenzuela",
         "ozgun-sahin",
@@ -20925,8 +20955,7 @@
         "malcolm-j-armstrong",
         "dinmukhammed-makhanbetali",
         "alvaro-garcia-bellido",
-        "joaquin-razola-garcia",
-        "zuzanna-adamczyk"
+        "joaquin-razola-garcia"
       ],
       "channelIds": [
         "fide"
@@ -21040,6 +21069,7 @@
         "leo-crevatin",
         "martin-oksendal",
         "ruijun-jin",
+        "jan-kokoszczynski",
         "alex-herrera-pedroso",
         "alejandro-yuste-valenzuela",
         "ozgun-sahin",
@@ -21113,8 +21143,7 @@
         "malcolm-j-armstrong",
         "dinmukhammed-makhanbetali",
         "alvaro-garcia-bellido",
-        "joaquin-razola-garcia",
-        "zuzanna-adamczyk"
+        "joaquin-razola-garcia"
       ],
       "confirmedPlayers": [
         {
@@ -22243,6 +22272,21 @@
           }
         },
         {
+          "playerId": "jan-kokoszczynski",
+          "name": "Jan Kokoszczynski",
+          "countryCode": "POL",
+          "title": "FM",
+          "fideId": "1174460",
+          "classicalRating": 2231,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "alex-herrera-pedroso",
           "name": "Alex Herrera Pedroso",
           "countryCode": "CUB",
@@ -23344,21 +23388,6 @@
           "title": null,
           "fideId": "22201653",
           "classicalRating": 1969,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zuzanna-adamczyk",
-          "name": "Zuzanna Adamczyk",
-          "countryCode": "POL",
-          "title": "WCM",
-          "fideId": "1187570",
-          "classicalRating": 1965,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -26632,6 +26661,48 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=13299"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-wil-2days-open-15aug",
+      "title": "WIL 2DAYS OPEN",
+      "shortTitle": "WIL 2DAYS OPEN",
+      "status": "upcoming",
+      "startDate": "2026-08-15T00:00:00Z",
+      "endDate": "2026-08-15T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "WIL, SUI",
+      "isOnline": false,
+      "summary": "FIDE calendar event: WIL 2DAYS OPEN.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17624",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=17624"
         },
         {
           "label": "FIDE calendar",

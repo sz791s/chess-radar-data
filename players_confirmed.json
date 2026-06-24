@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T19:49:51Z",
-  "playerCount": 1129,
+  "generatedAt": "2026-06-24T02:13:37Z",
+  "playerCount": 1130,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -16715,6 +16715,40 @@
       ]
     },
     {
+      "id": "jan-kokoszczynski",
+      "name": "Jan Kokoszczynski",
+      "countryCode": "POL",
+      "title": "FM",
+      "fideId": "1174460",
+      "classicalRating": 2231,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-granada-chess-open-2026-28-jul-2-aug"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+          "title": "Granada Chess Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-28T00:00:00Z",
+          "endDate": "2026-08-02T23:59:59Z",
+          "locationName": "Granada, ESP",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "jan-kotisa",
       "name": "Jan Kotisa",
       "countryCode": "CZE",
@@ -27786,6 +27820,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nicola-giovanni-mastrorilli",
+      "name": "Nicola Giovanni Mastrorilli",
+      "countryCode": "ITA",
+      "title": null,
+      "fideId": "808318",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "fide-19th-paleochora-international-chess-tournament-18-25-jul"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+          "title": "19th PALEOCHORA INTERNATIONAL CHESS TOURNAMENT",
+          "status": "upcoming",
+          "startDate": "2026-07-18T00:00:00Z",
+          "endDate": "2026-07-25T23:59:59Z",
+          "locationName": "Paleochora Creta Island, GRE",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb",
+            "open"
+          ],
+          "primaryUrl": "https://calendar.fide.com/calendar.php?id=12656",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
             "confidence": "high"
           }
         }
@@ -40327,40 +40395,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "zuzanna-adamczyk",
-      "name": "Zuzanna Adamczyk",
-      "countryCode": "POL",
-      "title": "WCM",
-      "fideId": "1187570",
-      "classicalRating": 1965,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "fide-granada-chess-open-2026-28-jul-2-aug"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-          "title": "Granada Chess Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-28T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Granada, ESP",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.fide.com/calendar.php?id=13612",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
