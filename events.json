@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:05:59Z",
+  "generatedAt": "2026-06-24T19:26:01Z",
   "eventCount": 77,
   "sources": [
     {
@@ -350,49 +350,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-huzg9lnf",
-      "title": "LIX Internacional Capablanca in Memoriam 2026 | OPEN",
-      "shortTitle": "LIX Internacional Capablanca in Memoriam 2026 | OPEN",
-      "status": "live",
-      "startDate": "2026-06-15T20:15:00Z",
-      "endDate": "2026-06-24T14:15:00Z",
-      "timezone": "America/Havana",
-      "locationName": "Hotel Nacional -La Habana -Cuba",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9 Rondas Suizo",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/lix-internacional-capablanca-in-memoriam-2026-open/Huzg9lnf",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/lix-internacional-capablanca-in-memoriam-2026-open/Huzg9lnf"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1433961.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-mn3rbyn4",
       "title": "FIDE World Cadets Cup 2026 | G08",
       "shortTitle": "FIDE World Cadets Cup 2026 | G08",
@@ -662,7 +619,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 9th Solta Open International Chess Tournament 2026.",
-      "description": "70 listed players",
+      "description": "71 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -801,7 +758,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Roni Eisenstein Memorial Rapid Herzliya 2026.",
-      "description": "140 listed players. 6 rounds",
+      "description": "34 listed players. 6 rounds",
       "categories": [
         "rapid",
         "online",
@@ -3214,6 +3171,53 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-t0f6pabu",
+      "title": "Schack-SM 2026|SM-Blixten",
+      "shortTitle": "Schack-SM 2026|SM-Blixten",
+      "status": "upcoming",
+      "startDate": "2026-07-01T17:05:00Z",
+      "endDate": "2026-07-01T17:05:00Z",
+      "timezone": "Europe/Stockholm",
+      "locationName": "Jönköping, Sweden",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/schack-sm-2026sm-blixten/T0F6PABU",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/schack-sm-2026sm-blixten/T0F6PABU"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://schack.se/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://member.schack.se/ShowTournamentServlet?id=16718"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -7559,6 +7563,7 @@
         "nikolaos-panagiotis-galanis",
         "loukas-papadimitriou",
         "konstantinos-koutras",
+        "andrianna-anastasopoulou",
         "michail-armaos",
         "ghosh-saparya",
         "konstantinos-kyr-ouzounis",
@@ -7761,8 +7766,7 @@
         "maria-terezaki",
         "aram-tumanyan",
         "samvel-tumanyan",
-        "georgia-vertoudou",
-        "zhichun-zhuang"
+        "georgia-vertoudou"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/566",
@@ -7885,6 +7889,7 @@
         "nikolaos-panagiotis-galanis",
         "loukas-papadimitriou",
         "konstantinos-koutras",
+        "andrianna-anastasopoulou",
         "michail-armaos",
         "ghosh-saparya",
         "konstantinos-kyr-ouzounis",
@@ -8087,8 +8092,7 @@
         "maria-terezaki",
         "aram-tumanyan",
         "samvel-tumanyan",
-        "georgia-vertoudou",
-        "zhichun-zhuang"
+        "georgia-vertoudou"
       ],
       "confirmedPlayers": [
         {
@@ -9522,6 +9526,21 @@
           "countryCode": "GRE",
           "title": "AIM",
           "fideId": "25866770",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "andrianna-anastasopoulou",
+          "name": "Andrianna Anastasopoulou",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "4212746",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -12567,21 +12586,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42189055",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zhichun-zhuang",
-          "name": "Zhichun Zhuang",
-          "countryCode": "CHN",
-          "title": null,
-          "fideId": "331110427",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
