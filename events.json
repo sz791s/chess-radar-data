@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-24T19:26:01Z",
-  "eventCount": 77,
+  "generatedAt": "2026-06-25T02:13:29Z",
+  "eventCount": 75,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 21
+      "count": 20
     },
     {
       "name": "uschess",
@@ -57,47 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "chesscom-27348",
-      "title": "Madison Area Chess Club - Suns Out, Pawns Out 2026",
-      "shortTitle": "Madison Area Chess Club - Suns Out, Pawns Out 2026",
-      "status": "live",
-      "startDate": "2026-06-03T21:30:00Z",
-      "endDate": "2026-06-25T02:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Madison Area Chess Club - Suns Out, Pawns Out 2026.",
-      "description": "11 listed players. 4 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/madison-area-chess-club-suns-out-pawns-out-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/madison-area-chess-club-suns-out-pawns-out-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "chesscom-27380",
       "title": "III Open Sub-1600 de nau64",
@@ -303,48 +262,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27765",
-      "title": "59th Capablanca Memorial 2026 Open",
-      "shortTitle": "59th Capablanca Memorial 2026 Open",
-      "status": "live",
-      "startDate": "2026-06-15T20:00:00Z",
-      "endDate": "2026-06-24T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 59th Capablanca Memorial 2026 Open.",
-      "description": "127 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/59th-capablanca-memorial-2026-open",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/59th-capablanca-memorial-2026-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -716,7 +633,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 3rd Quang Ninh GM Open 2026.",
-      "description": "10 listed players. 10 rounds",
+      "description": "15 listed players. 10 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -748,52 +665,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28128",
-      "title": "Roni Eisenstein Memorial Rapid Herzliya 2026",
-      "shortTitle": "Roni Eisenstein Memorial Rapid Herzliya 2026",
-      "status": "live",
-      "startDate": "2026-06-24T13:00:00Z",
-      "endDate": "2026-06-24T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Roni Eisenstein Memorial Rapid Herzliya 2026.",
-      "description": "34 listed players. 6 rounds",
-      "categories": [
-        "rapid",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/roni-eisensteinmemorial-rapid-herzliya-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/roni-eisensteinmemorial-rapid-herzliya-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27852",
       "title": "Kasparov Chess Foundation Friendship Festival 2026",
       "shortTitle": "Kasparov Chess Foundation Friendship Festival 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-24T22:00:00Z",
       "endDate": "2026-06-30T21:00:00Z",
       "timezone": "UTC",
@@ -831,10 +706,51 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-28218",
+      "title": "Llinars del Valles Chess Festival",
+      "shortTitle": "Llinars del Valles Chess Festival",
+      "status": "live",
+      "startDate": "2026-06-24T22:00:00Z",
+      "endDate": "2026-07-04T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Llinars del Valles Chess Festival.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/llinars-del-valles-chess-festival",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/llinars-del-valles-chess-festival"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessaround-vi-llinars-international-chess-open-25-jun-3-jul-2026",
       "title": "VI Llinars International Chess Open",
       "shortTitle": "VI Llinars International Chess Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-25T00:00:00Z",
       "endDate": "2026-07-03T23:59:59Z",
       "timezone": "UTC",
@@ -3176,42 +3092,43 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-t0f6pabu",
-      "title": "Schack-SM 2026|SM-Blixten",
-      "shortTitle": "Schack-SM 2026|SM-Blixten",
+      "id": "lichess-2wszz8r3",
+      "title": "54th annual World Open - 2026",
+      "shortTitle": "54th annual World Open - 2026",
       "status": "upcoming",
-      "startDate": "2026-07-01T17:05:00Z",
-      "endDate": "2026-07-01T17:05:00Z",
-      "timezone": "Europe/Stockholm",
-      "locationName": "Jönköping, Sweden",
+      "startDate": "2026-07-01T23:00:00Z",
+      "endDate": "2026-07-05T21:00:00Z",
+      "timezone": "America/New_York",
+      "locationName": "Washington DC, USA",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round-Swiss",
       "categories": [
         "classical",
         "broadcast",
+        "open",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/schack-sm-2026sm-blixten/T0F6PABU",
+      "primaryUrl": "https://lichess.org/broadcast/54th-annual-world-open-2026/2WsZz8R3",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/schack-sm-2026sm-blixten/T0F6PABU"
+          "url": "https://lichess.org/broadcast/54th-annual-world-open-2026/2WsZz8R3"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://schack.se/"
+          "url": "https://www.chesstour.com/wo26.htm"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://member.schack.se/ShowTournamentServlet?id=16718"
+          "url": "https://chessresults.pro/?whitelbl=3"
         }
       ],
       "source": {
