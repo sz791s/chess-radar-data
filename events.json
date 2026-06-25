@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T08:46:51Z",
+  "generatedAt": "2026-06-25T14:03:24Z",
   "eventCount": 221,
   "sources": [
     {
@@ -460,6 +460,46 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-african-individual-chess-championship-2026-18-27-jun",
+      "title": "African Individual Chess Championship 2026",
+      "shortTitle": "African Individual Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-06-18T00:00:00Z",
+      "endDate": "2026-06-27T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "BOT",
+      "isOnline": false,
+      "summary": "FIDE calendar event: African Individual Chess Championship 2026.",
+      "description": "Time control: other",
+      "categories": [
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12804",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12804"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-international-chess-festival-sheki-open-2026-18-25-jun",
       "title": "International Chess Festival “Sheki Open - 2026”",
       "shortTitle": "International Chess Festival “Sheki Open - 2026”",
@@ -547,59 +587,6 @@
         "name": "chessbase",
         "url": "https://en.chessbase.com/post/chess-calendar-2026",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-vhekfqtn",
-      "title": "2026 African Individual Chess Championships",
-      "shortTitle": "2026 African Individual Chess Championships",
-      "status": "live",
-      "startDate": "2026-06-19T13:52:15Z",
-      "endDate": "2026-06-25T13:10:00Z",
-      "timezone": "Africa/Gaborone",
-      "locationName": "Cresta Hotel,Jwaneng",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-Round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "fide"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-african-individual-chess-championships/vHEkfqtN",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-african-individual-chess-championships/vHEkfqtN"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1417318.aspx?lan=1&art=0&fedb=ALG&turdet=YES&flag=30&SNode=S0"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12804"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -3744,6 +3731,53 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-8zdn2gpr",
+      "title": "Warsaw Chess Festival 2026 | Najdorf Memorial",
+      "shortTitle": "Warsaw Chess Festival 2026 | Najdorf Memorial",
+      "status": "upcoming",
+      "startDate": "2026-06-27T15:00:00Z",
+      "endDate": "2026-07-05T08:00:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Warsaw, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/warsaw-chess-festival-2026-najdorf-memorial/8ZDN2gPr",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/warsaw-chess-festival-2026-najdorf-memorial/8ZDN2gPr"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.poloniachess.pl/warsaw_chess_festival/turniej_2026/general_information/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessarbiter.com/turnieje/2026/ti_2076/results.html"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-o-pohar-primatora-rajeckych-teplic-28jun",
       "title": "O pohar primatora Rajeckych Teplic",
       "shortTitle": "O pohar primatora Rajeckych Teplic",
@@ -4229,54 +4263,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-2wszz8r3",
-      "title": "54th annual World Open - 2026",
-      "shortTitle": "54th annual World Open - 2026",
-      "status": "upcoming",
-      "startDate": "2026-07-01T23:00:00Z",
-      "endDate": "2026-07-05T21:00:00Z",
-      "timezone": "America/New_York",
-      "locationName": "Washington DC, USA",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round-Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/54th-annual-world-open-2026/2WsZz8R3",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/54th-annual-world-open-2026/2WsZz8R3"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.chesstour.com/wo26.htm"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://chessresults.pro/?whitelbl=3"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -20945,7 +20931,6 @@
         "hampus-sorensen",
         "omar-almeida-quintana",
         "francisco-fiorito",
-        "noe-tutisani",
         "milton-pantzar",
         "daniel-garcia-ramos",
         "joaquin-fiorito",
@@ -20953,6 +20938,7 @@
         "himal-gusain",
         "samrug-narayanan",
         "ameya-audi",
+        "diego-vergara-anton",
         "taron-shagbazyan",
         "ruben-domingo-nu-ez",
         "guerau-masague-artero",
@@ -20990,6 +20976,7 @@
         "georgi-tomov",
         "gael-arcelin",
         "jose-javier-gonzalez-castillo",
+        "stefano-maldonado-gonzales",
         "daniel-romero-pallares",
         "javier-aguera-naredo",
         "cagatay-burcu",
@@ -21074,8 +21061,7 @@
         "peter-malachi-khanov",
         "sameer-sharma",
         "malcolm-j-armstrong",
-        "dinmukhammed-makhanbetali",
-        "alvaro-garcia-bellido"
+        "dinmukhammed-makhanbetali"
       ],
       "channelIds": [
         "fide"
@@ -21133,7 +21119,6 @@
         "hampus-sorensen",
         "omar-almeida-quintana",
         "francisco-fiorito",
-        "noe-tutisani",
         "milton-pantzar",
         "daniel-garcia-ramos",
         "joaquin-fiorito",
@@ -21141,6 +21126,7 @@
         "himal-gusain",
         "samrug-narayanan",
         "ameya-audi",
+        "diego-vergara-anton",
         "taron-shagbazyan",
         "ruben-domingo-nu-ez",
         "guerau-masague-artero",
@@ -21178,6 +21164,7 @@
         "georgi-tomov",
         "gael-arcelin",
         "jose-javier-gonzalez-castillo",
+        "stefano-maldonado-gonzales",
         "daniel-romero-pallares",
         "javier-aguera-naredo",
         "cagatay-burcu",
@@ -21262,8 +21249,7 @@
         "peter-malachi-khanov",
         "sameer-sharma",
         "malcolm-j-armstrong",
-        "dinmukhammed-makhanbetali",
-        "alvaro-garcia-bellido"
+        "dinmukhammed-makhanbetali"
       ],
       "confirmedPlayers": [
         {
@@ -21552,21 +21538,6 @@
           }
         },
         {
-          "playerId": "noe-tutisani",
-          "name": "Noe Tutisani",
-          "countryCode": "GEO",
-          "title": "IM",
-          "fideId": "13602853",
-          "classicalRating": 2445,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "milton-pantzar",
           "name": "Milton Pantzar",
           "countryCode": "SWE",
@@ -21663,6 +21634,21 @@
           "title": "IM",
           "fideId": "25034430",
           "classicalRating": 2419,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "diego-vergara-anton",
+          "name": "Diego Vergara Anton",
+          "countryCode": "ESP",
+          "title": "IM",
+          "fideId": "24524310",
+          "classicalRating": 2417,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -22218,6 +22204,21 @@
           "title": "FM",
           "fideId": "24596256",
           "classicalRating": 2282,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "stefano-maldonado-gonzales",
+          "name": "Stefano Maldonado Gonzales",
+          "countryCode": "ITA",
+          "title": "FM",
+          "fideId": "28540778",
+          "classicalRating": 2279,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -23500,21 +23501,6 @@
             "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
-        },
-        {
-          "playerId": "alvaro-garcia-bellido",
-          "name": "Alvaro Garcia Bellido",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "24516236",
-          "classicalRating": 1976,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
         }
       ]
     },
@@ -24710,6 +24696,47 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=15498"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-2026-the-3rd-the-belt-and-road-china-international-chess-open-kuqa-xinjiang-5-12-aug",
+      "title": "2026 The 3rd \"the Belt and Road\" China International Chess Open (Kuqa, Xinjiang)",
+      "shortTitle": "2026 The 3rd \"the Belt and Road\" China International Chess Open (Kuqa, Xinjiang)",
+      "status": "upcoming",
+      "startDate": "2026-08-05T00:00:00Z",
+      "endDate": "2026-08-12T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "KUQA, CHN",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 2026 The 3rd \"the Belt and Road\" China International Chess Open (Kuqa, Xinjiang).",
+      "description": "Time control: other",
+      "categories": [
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17975",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=17975"
         },
         {
           "label": "FIDE calendar",
@@ -26839,12 +26866,12 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-asian-juniors-girls-chess-championship-2026-16-25-aug",
+      "id": "fide-asian-juniors-girls-chess-championship-2026-16-26-aug",
       "title": "Asian Juniors & Girls Chess Championship 2026",
       "shortTitle": "Asian Juniors & Girls Chess Championship 2026",
       "status": "upcoming",
       "startDate": "2026-08-16T00:00:00Z",
-      "endDate": "2026-08-25T23:59:59Z",
+      "endDate": "2026-08-26T23:59:59Z",
       "timezone": "UTC",
       "locationName": "Mumbai, IND",
       "isOnline": false,
@@ -27855,47 +27882,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "fide-recklingh-user-schachwoche-2026-17-23-aug",
-      "title": "Recklinghäuser Schachwoche 2026",
-      "shortTitle": "Recklinghäuser Schachwoche 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-17T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Recklinghausen, GER",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Recklinghäuser Schachwoche 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15160",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15160"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "chessaround-maia-chess-open-2026-21-29-aug-2026",
