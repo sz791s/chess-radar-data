@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T08:25:50Z",
-  "eventCount": 239,
+  "generatedAt": "2026-06-27T13:08:57Z",
+  "eventCount": 244,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 35
     },
     {
       "name": "uschess",
@@ -944,6 +944,54 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-999hzzuz",
+      "title": "4th annual DC International",
+      "shortTitle": "4th annual DC International",
+      "status": "live",
+      "startDate": "2026-06-25T23:15:00Z",
+      "endDate": "2026-06-29T20:15:00Z",
+      "timezone": "America/New_York",
+      "locationName": "Washington DC, USA",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9 - round Open Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/4th-annual-dc-international/999HzzuZ",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/4th-annual-dc-international/999HzzuZ"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessevents.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chessevents.com/event/dcinternational/2026/standings/dci"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-xxx-chalupetzky-open-26-28-jun",
       "title": "XXX. Chalupetzky Open",
       "shortTitle": "XXX. Chalupetzky Open",
@@ -1027,9 +1075,9 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-3zyezwng",
-      "title": "9th Crewe Congress 2026 Major",
-      "shortTitle": "9th Crewe Congress 2026 Major",
+      "id": "lichess-qgyyyppc",
+      "title": "9th Crewe Congress 2026 Open",
+      "shortTitle": "9th Crewe Congress 2026 Open",
       "status": "live",
       "startDate": "2026-06-26T18:15:00Z",
       "endDate": "2026-06-28T13:45:00Z",
@@ -1041,6 +1089,7 @@
       "categories": [
         "classical",
         "broadcast",
+        "open",
         "otb",
         "online"
       ],
@@ -1049,12 +1098,12 @@
         "lichess",
         "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/9th-crewe-congress-2026-major/3zYEzwNg",
+      "primaryUrl": "https://lichess.org/broadcast/9th-crewe-congress-2026-open/qGyYYppC",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/9th-crewe-congress-2026-major/3zYEzwNg"
+          "url": "https://lichess.org/broadcast/9th-crewe-congress-2026-open/qGyYYppC"
         },
         {
           "label": "Official website",
@@ -1065,6 +1114,11 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/Tnr1445073.aspx?lan=1&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/9th-crewe-congress-2026-major/3zYEzwNg"
         },
         {
           "label": "Chess.com event",
@@ -1096,7 +1150,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: French Team Finals 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "32 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -3689,7 +3743,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: II Lince Andujar Chess Festival 2026.",
-      "description": "116 listed players. 9 rounds",
+      "description": "136 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -3721,15 +3775,15 @@
     },
     {
       "id": "chesscom-27688",
-      "title": "HWP Inholland weekend tournament",
-      "shortTitle": "HWP Inholland weekend tournament",
+      "title": "HWP Inholland Weekend Tournament",
+      "shortTitle": "HWP Inholland Weekend Tournament",
       "status": "live",
       "startDate": "2026-06-27T07:00:00Z",
       "endDate": "2026-06-28T17:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: HWP Inholland weekend tournament.",
+      "summary": "Chess.com current event: HWP Inholland Weekend Tournament.",
       "description": "62 listed players. 6 rounds",
       "categories": [
         "online",
@@ -3761,54 +3815,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28277",
-      "title": "Zlatá Praha Junior Rapid Open 2026",
-      "shortTitle": "Zlatá Praha Junior Rapid Open 2026",
-      "status": "live",
-      "startDate": "2026-06-27T07:00:00Z",
-      "endDate": "2026-06-27T12:31:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Zlatá Praha Junior Rapid Open 2026.",
-      "description": "62 listed players. 7 rounds",
-      "categories": [
-        "rapid",
-        "online",
-        "broadcast",
-        "junior",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/zlata-praha-junior-rapid-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/zlata-praha-junior-rapid-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-agq0porx",
       "title": "Finales Nationales 2026 - Coupe de la Parité",
       "shortTitle": "Finales Nationales 2026 - Coupe de la Parité",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-27T11:30:00Z",
       "endDate": "2026-06-28T11:00:00Z",
       "timezone": "Europe/Paris",
@@ -3855,7 +3865,7 @@
       "id": "chesscom-28282",
       "title": "21st Golden Prague Blitz Open / 21. Zlatá Praha Blitz Open",
       "shortTitle": "21st Golden Prague Blitz Open / 21. Zlatá Praha Blitz Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-27T13:00:00Z",
       "endDate": "2026-06-27T17:31:00Z",
       "timezone": "UTC",
@@ -3884,6 +3894,52 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28228",
+      "title": "La Costa - Aniversario",
+      "shortTitle": "La Costa - Aniversario",
+      "status": "live",
+      "startDate": "2026-06-27T13:00:00Z",
+      "endDate": "2026-06-27T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: La Costa - Aniversario.",
+      "description": "7 rounds. 1 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/la-costa-aniversario",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/la-costa-aniversario"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "La Costa - Aniversario",
+          "type": "stream",
+          "url": "https://www.twitch.tv/tacticamente"
         }
       ],
       "source": {
@@ -4042,7 +4098,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Warsaw Chess Festival 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "120 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -4120,6 +4176,93 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-27501",
+      "title": "II Intercollegiate Tournament 2026",
+      "shortTitle": "II Intercollegiate Tournament 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-27T19:00:00Z",
+      "endDate": "2026-06-27T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: II Intercollegiate Tournament 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/ii-intercollegiate-tournament-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/ii-intercollegiate-tournament-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28027",
+      "title": "CopaBlunder 2026",
+      "shortTitle": "CopaBlunder 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-27T20:30:00Z",
+      "endDate": "2026-07-12T02:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: CopaBlunder 2026.",
+      "description": "2 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/copablunder-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/copablunder-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "CopaBlunder 2026",
+          "type": "stream",
+          "url": "https://www.youtube.com/gHI0Bu7cl4o"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "fide-o-pohar-primatora-rajeckych-teplic-28jun",
       "title": "O pohar primatora Rajeckych Teplic",
       "shortTitle": "O pohar primatora Rajeckych Teplic",
@@ -4156,6 +4299,54 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-uw0ugrdt",
+      "title": "21. Zlatá Praha Open 2026 | Rapid",
+      "shortTitle": "21. Zlatá Praha Open 2026 | Rapid",
+      "status": "upcoming",
+      "startDate": "2026-06-28T08:00:00Z",
+      "endDate": "2026-06-28T08:00:00Z",
+      "timezone": "Europe/Prague",
+      "locationName": "Praha, CZ",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7 rd swiss",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/21-zlata-praha-open-2026-rapid/uw0UGRdT",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/21-zlata-praha-open-2026-rapid/uw0UGRdT"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://chess-academy.cz/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1399099.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -4280,6 +4471,53 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-dqg8umrj",
+      "title": "V Magistral Internacional Ciudad de Sant Joan de Alacant",
+      "shortTitle": "V Magistral Internacional Ciudad de Sant Joan de Alacant",
+      "status": "upcoming",
+      "startDate": "2026-06-29T08:00:00Z",
+      "endDate": "2026-07-03T07:00:00Z",
+      "timezone": "Europe/Madrid",
+      "locationName": "Alacant, Spain",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/DqG8UMRj",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/DqG8UMRj"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.facv.org/vi-festival-descacs-sant-joan-dalacant"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://info64.org/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/standings"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
