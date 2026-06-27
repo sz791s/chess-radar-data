@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-26T19:28:01Z",
-  "eventCount": 81,
+  "generatedAt": "2026-06-27T02:10:26Z",
+  "eventCount": 83,
   "sources": [
     {
       "name": "curated",
@@ -26,7 +26,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 41
+      "count": 40
     },
     {
       "name": "chessdom",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 25
+      "count": 27
     },
     {
       "name": "uschess",
@@ -605,7 +605,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Llinars del Valles Chess Festival 2026.",
-      "description": "164 listed players",
+      "description": "165 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -688,7 +688,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Cearense Chess Circuit - Stage 3 2026.",
-      "description": "12 listed players. 6 rounds",
+      "description": "14 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -755,50 +755,6 @@
       "source": {
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-macieja-memorial-26-jun-2026",
-      "title": "Macieja Memorial",
-      "shortTitle": "Macieja Memorial",
-      "status": "live",
-      "startDate": "2026-06-26T00:00:00Z",
-      "endDate": "2026-06-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Warsaw, Poland",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Macieja Memorial.",
-      "description": "Chessaround listing. Time control/type: blitz.",
-      "categories": [
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/571",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/571"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://www.chessarbiter.com/turnieje/2026/ti_2079/results.html?l=pl&tb=2_"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -873,7 +829,7 @@
       "id": "chesscom-28264",
       "title": "French Team Finals 2026",
       "shortTitle": "French Team Finals 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-26T22:00:00Z",
       "endDate": "2026-06-28T21:00:00Z",
       "timezone": "UTC",
@@ -915,7 +871,7 @@
       "id": "chessaround-lince-and-jar-chess-open-27-jun-3-jul-2026",
       "title": "Lince Andújar Chess Open",
       "shortTitle": "Lince Andújar Chess Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-27T00:00:00Z",
       "endDate": "2026-07-03T23:59:59Z",
       "timezone": "UTC",
@@ -3105,7 +3061,7 @@
       "id": "chessaround-xxiv-najdorf-memorial-27-jun-5-jul-2026",
       "title": "XXIV Najdorf Memorial",
       "shortTitle": "XXIV Najdorf Memorial",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-27T00:00:00Z",
       "endDate": "2026-07-05T23:59:59Z",
       "timezone": "UTC",
@@ -3140,6 +3096,132 @@
       "source": {
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28100",
+      "title": "II Lince Andujar Chess Festival 2026",
+      "shortTitle": "II Lince Andujar Chess Festival 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-27T06:00:00Z",
+      "endDate": "2026-07-03T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: II Lince Andujar Chess Festival 2026.",
+      "description": "116 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/ii-lince-andujar-chess-festival-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/ii-lince-andujar-chess-festival-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27688",
+      "title": "HWP Inholland weekend tournament",
+      "shortTitle": "HWP Inholland weekend tournament",
+      "status": "upcoming",
+      "startDate": "2026-06-27T07:00:00Z",
+      "endDate": "2026-06-28T17:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: HWP Inholland weekend tournament.",
+      "description": "6 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/hwp-inholland-weekendtoernooi",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/hwp-inholland-weekendtoernooi"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28277",
+      "title": "Zlatá Praha Junior Rapid Open 2026",
+      "shortTitle": "Zlatá Praha Junior Rapid Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-06-27T07:00:00Z",
+      "endDate": "2026-06-27T12:31:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Zlatá Praha Junior Rapid Open 2026.",
+      "description": "7 rounds",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast",
+        "junior",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/zlata-praha-junior-rapid-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/zlata-praha-junior-rapid-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -17331,6 +17413,7 @@
         "adrian-palenciano-escolar",
         "victor-manuel-vehi-bach",
         "daniel-lopez-gonzalez",
+        "gabriel-fernandez-de-bobadilla-osorio",
         "samuel-dubuisson",
         "jesus-sarrias-granados",
         "nicolas-alba-fernandez",
@@ -17348,6 +17431,7 @@
         "wenzhi-dai",
         "sarah-djidjeli",
         "emilia-dylag",
+        "ewa-barwinska",
         "jorge-marrero-rodriguez",
         "lile-koridze",
         "jose-manuel-lopez-nieto",
@@ -17371,6 +17455,7 @@
         "iuliia-babak",
         "nicolas-leiva-raya",
         "yago-otero-porcel",
+        "javier-latre-rodriguez",
         "benito-vaz-perez",
         "jesus-molina-perez",
         "william-carlos-cezar-junior",
@@ -17383,10 +17468,7 @@
         "denis-zubizarreta-landera",
         "nicholas-schoonmaker",
         "edvard-reinertsen",
-        "peter-malachi-khanov",
-        "sameer-sharma",
-        "malcolm-j-armstrong",
-        "dinmukhammed-makhanbetali"
+        "peter-malachi-khanov"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/598",
@@ -17507,6 +17589,7 @@
         "adrian-palenciano-escolar",
         "victor-manuel-vehi-bach",
         "daniel-lopez-gonzalez",
+        "gabriel-fernandez-de-bobadilla-osorio",
         "samuel-dubuisson",
         "jesus-sarrias-granados",
         "nicolas-alba-fernandez",
@@ -17524,6 +17607,7 @@
         "wenzhi-dai",
         "sarah-djidjeli",
         "emilia-dylag",
+        "ewa-barwinska",
         "jorge-marrero-rodriguez",
         "lile-koridze",
         "jose-manuel-lopez-nieto",
@@ -17547,6 +17631,7 @@
         "iuliia-babak",
         "nicolas-leiva-raya",
         "yago-otero-porcel",
+        "javier-latre-rodriguez",
         "benito-vaz-perez",
         "jesus-molina-perez",
         "william-carlos-cezar-junior",
@@ -17559,10 +17644,7 @@
         "denis-zubizarreta-landera",
         "nicholas-schoonmaker",
         "edvard-reinertsen",
-        "peter-malachi-khanov",
-        "sameer-sharma",
-        "malcolm-j-armstrong",
-        "dinmukhammed-makhanbetali"
+        "peter-malachi-khanov"
       ],
       "confirmedPlayers": [
         {
@@ -18976,6 +19058,21 @@
           }
         },
         {
+          "playerId": "gabriel-fernandez-de-bobadilla-osorio",
+          "name": "Gabriel Fernandez de Bobadilla Osorio",
+          "countryCode": "ESP",
+          "title": "CM",
+          "fideId": "24518107",
+          "classicalRating": 2176,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "samuel-dubuisson",
           "name": "Samuel Dubuisson",
           "countryCode": "FRA",
@@ -19222,6 +19319,21 @@
           "title": "WFM",
           "fideId": "21805172",
           "classicalRating": 2121,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ewa-barwinska",
+          "name": "Ewa Barwinska",
+          "countryCode": "POL",
+          "title": "WFM",
+          "fideId": "21833761",
+          "classicalRating": 2115,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -19576,6 +19688,21 @@
           }
         },
         {
+          "playerId": "javier-latre-rodriguez",
+          "name": "Javier Latre Rodriguez",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "54524393",
+          "classicalRating": 2022,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "benito-vaz-perez",
           "name": "Benito Vaz Perez",
           "countryCode": "ESP",
@@ -19762,51 +19889,6 @@
           "title": null,
           "fideId": "510505",
           "classicalRating": 1986,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sameer-sharma",
-          "name": "Sameer Sharma",
-          "countryCode": "JPN",
-          "title": null,
-          "fideId": "7005695",
-          "classicalRating": 1985,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "malcolm-j-armstrong",
-          "name": "Malcolm J Armstrong",
-          "countryCode": "ENG",
-          "title": null,
-          "fideId": "409049",
-          "classicalRating": 1982,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dinmukhammed-makhanbetali",
-          "name": "Dinmukhammed Makhanbetali",
-          "countryCode": "KAZ",
-          "title": null,
-          "fideId": "13798162",
-          "classicalRating": 1979,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
