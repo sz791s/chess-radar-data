@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T02:31:54Z",
-  "eventCount": 236,
+  "generatedAt": "2026-06-28T08:40:11Z",
+  "eventCount": 228,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
       "name": "uschess",
@@ -617,7 +617,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 11th Baden-Wurttemberg Senior Open 2026.",
-      "description": "109 listed players. 9 rounds",
+      "description": "120 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -773,54 +773,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-999hzzuz",
-      "title": "4th annual DC International",
-      "shortTitle": "4th annual DC International",
-      "status": "live",
-      "startDate": "2026-06-25T23:15:00Z",
-      "endDate": "2026-06-29T20:15:00Z",
-      "timezone": "America/New_York",
-      "locationName": "Washington DC, USA",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Open Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/4th-annual-dc-international/999HzzuZ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/4th-annual-dc-international/999HzzuZ"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.chessevents.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://chessevents.com/event/dcinternational/2026/standings/dci"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-xxx-chalupetzky-open-26-28-jun",
       "title": "XXX. Chalupetzky Open",
       "shortTitle": "XXX. Chalupetzky Open",
@@ -863,17 +815,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28247",
-      "title": "4. Vidovdanski Rejting Turnir SSB",
-      "shortTitle": "4. Vidovdanski Rejting Turnir SSB",
+      "id": "chesscom-28259",
+      "title": "9th Crewe Congress 2026",
+      "shortTitle": "9th Crewe Congress 2026",
       "status": "live",
-      "startDate": "2026-06-26T05:30:00Z",
-      "endDate": "2026-06-28T08:00:00Z",
+      "startDate": "2026-06-26T18:00:00Z",
+      "endDate": "2026-06-28T18:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: 4. Vidovdanski Rejting Turnir SSB.",
-      "description": "52 listed players. 6 rounds",
+      "summary": "Chess.com current event: 9th Crewe Congress 2026.",
+      "description": "146 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -882,73 +834,8 @@
       "channelIds": [
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/4-vidovdanski-rejting-turnir-ssb",
+      "primaryUrl": "https://www.chess.com/events/info/9th-crewe-congress-2026",
       "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/4-vidovdanski-rejting-turnir-ssb"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-qgyyyppc",
-      "title": "9th Crewe Congress 2026 Open",
-      "shortTitle": "9th Crewe Congress 2026 Open",
-      "status": "live",
-      "startDate": "2026-06-26T18:15:00Z",
-      "endDate": "2026-06-28T13:45:00Z",
-      "timezone": "Europe/London",
-      "locationName": "Crewe Alexandra FC",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5 round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb",
-        "online"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "chesscom"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/9th-crewe-congress-2026-open/qGyYYppC",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/9th-crewe-congress-2026-open/qGyYYppC"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://crewechessclub.co.uk/congress/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/Tnr1445073.aspx?lan=1&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/9th-crewe-congress-2026-major/3zYEzwNg"
-        },
         {
           "label": "Chess.com event",
           "type": "official",
@@ -961,9 +848,9 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1338,7 +1225,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: HWP Inholland Weekend Tournament.",
-      "description": "69 listed players. 6 rounds",
+      "description": "70 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1364,48 +1251,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-tejaofcu",
-      "title": "Coupe Loubatière - Phase Finale",
-      "shortTitle": "Coupe Loubatière - Phase Finale",
-      "status": "live",
-      "startDate": "2026-06-27T09:00:00Z",
-      "endDate": "2026-06-28T09:30:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Arras, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/coupe-loubatiere-phase-finale/TEJAOfcu",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/coupe-loubatiere-phase-finale/TEJAOfcu"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "http://www.echecs.asso.fr/Equipes.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1447,147 +1292,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://www.echecs.asso.fr/Equipes.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-zcxkln7c",
-      "title": "Finales Nationales 2026 - Coupe de France",
-      "shortTitle": "Finales Nationales 2026 - Coupe de France",
-      "status": "live",
-      "startDate": "2026-06-27T13:45:00Z",
-      "endDate": "2026-06-28T08:00:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Poitiers, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "élimination directe à 4 équipes",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/finales-nationales-2026-coupe-de-france/zcXKln7C",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/finales-nationales-2026-coupe-de-france/zcXKln7C"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://finalesnationales2026.fr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://www.echecs.asso.fr/Equipes.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-jmf0ebf4",
-      "title": "Finales Nationales 2026 - Top 12 Féminin",
-      "shortTitle": "Finales Nationales 2026 - Top 12 Féminin",
-      "status": "live",
-      "startDate": "2026-06-27T13:45:00Z",
-      "endDate": "2026-06-28T08:00:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Poitiers, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "élimination directe à 4 équipes",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/finales-nationales-2026-top-12-feminin/jMF0eBF4",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/finales-nationales-2026-top-12-feminin/jMF0eBF4"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://finalesnationales2026.fr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://www.echecs.asso.fr/Equipes.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-8zdn2gpr",
-      "title": "Warsaw Chess Festival 2026 | Najdorf Memorial",
-      "shortTitle": "Warsaw Chess Festival 2026 | Najdorf Memorial",
-      "status": "live",
-      "startDate": "2026-06-27T15:00:00Z",
-      "endDate": "2026-07-05T08:00:00Z",
-      "timezone": "Europe/Warsaw",
-      "locationName": "Warsaw, Poland",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/warsaw-chess-festival-2026-najdorf-memorial/8ZDN2gPr",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/warsaw-chess-festival-2026-najdorf-memorial/8ZDN2gPr"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.poloniachess.pl/warsaw_chess_festival/turniej_2026/general_information/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://www.chessarbiter.com/turnieje/2026/ti_2076/results.html"
         }
       ],
       "source": {
@@ -1776,43 +1480,135 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-uw0ugrdt",
-      "title": "21. Zlatá Praha Open 2026 | Rapid",
-      "shortTitle": "21. Zlatá Praha Open 2026 | Rapid",
-      "status": "upcoming",
-      "startDate": "2026-06-28T08:00:00Z",
-      "endDate": "2026-06-28T08:00:00Z",
-      "timezone": "Europe/Prague",
-      "locationName": "Prague, Czech Republic",
+      "id": "lichess-8anvndaz",
+      "title": "XXII Baltic Pearl Chess Festival 2026 - Group C",
+      "shortTitle": "XXII Baltic Pearl Chess Festival 2026 - Group C",
+      "status": "live",
+      "startDate": "2026-06-28T08:15:00Z",
+      "endDate": "2026-07-06T13:15:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Poland",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
       "description": "9-round Swiss",
       "categories": [
-        "rapid",
+        "classical",
         "broadcast",
-        "open",
+        "otb",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/xxii-baltic-pearl-chess-festival-2026-group-c/8anvnDAz",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/xxii-baltic-pearl-chess-festival-2026-group-c/8anvnDAz"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/pl-pl/tournaments/6164573056663552"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/xxii-baltic-pearl-chess-festival-2026-group-a-21-27/hHGjBaKx"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/pl-pl/tournaments/5112704360251392"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/xxii-baltic-pearl-chess-festival-2026-group-a-1-20/QicPNX47"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-upmuiixf",
+      "title": "Colombia Nacional Rápidas y Blitz | Blitz Sub 10",
+      "shortTitle": "Colombia Nacional Rápidas y Blitz | Blitz Sub 10",
+      "status": "upcoming",
+      "startDate": "2026-06-28T14:15:00Z",
+      "endDate": "2026-06-28T14:15:00Z",
+      "timezone": "America/Bogota",
+      "locationName": "Armenia, Colombia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "suizo 9 rondas",
+      "categories": [
+        "blitz",
+        "broadcast",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/21-zlata-praha-open-2026-rapid/uw0UGRdT",
+      "primaryUrl": "https://lichess.org/broadcast/colombia-nacional-rapidas-y-blitz-blitz-sub-10/upmUiixF",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/21-zlata-praha-open-2026-rapid/uw0UGRdT"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://chess-academy.cz/"
+          "url": "https://lichess.org/broadcast/colombia-nacional-rapidas-y-blitz-blitz-sub-10/upmUiixF"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://s1.chess-results.com/tnr1399099.aspx?art=1"
+          "url": "https://s2.chess-results.com/tnr1444108.aspx?lan=2&art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/colombia-nacional-rapidas-y-blitz-blitz-sub-12/A2K4oyiU"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1444113.aspx?lan=2&art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/colombia-nacional-rapidas-y-blitz-blitz-sub-14/VzM1pCCw"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1445236.aspx?lan=2&art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/colombia-nacional-rapidas-y-blitz-blitz-sub-16/XtYnCfXk"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1445238.aspx?lan=2&art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/colombia-nacional-rapidas-y-blitz-blitz-sub-18/dwQWOZgh"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1445240.aspx?lan=2&art=1"
         }
       ],
       "source": {
@@ -1943,90 +1739,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-dqg8umrj",
-      "title": "V Magistral Internacional Ciudad de Sant Joan de Alacant",
-      "shortTitle": "V Magistral Internacional Ciudad de Sant Joan de Alacant",
-      "status": "upcoming",
-      "startDate": "2026-06-29T08:00:00Z",
-      "endDate": "2026-07-03T07:00:00Z",
-      "timezone": "Europe/Madrid",
-      "locationName": "Alacant, Spain",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/DqG8UMRj",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/DqG8UMRj"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.facv.org/vi-festival-descacs-sant-joan-dalacant"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://info64.org/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/standings"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-h2c1hqh4",
-      "title": "Final Marplatense 2025/2026",
-      "shortTitle": "Final Marplatense 2025/2026",
-      "status": "upcoming",
-      "startDate": "2026-06-29T22:30:00Z",
-      "endDate": "2026-07-05T22:30:00Z",
-      "timezone": "America/Buenos_Aires",
-      "locationName": "Moreno 3340 Mar del Plata, Buenos Aires, Argentina",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "2 players match",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/final-marplatense-20252026/h2c1HQh4",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/final-marplatense-20252026/h2c1HQh4"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -5632,53 +5344,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-mhotcmgp",
-      "title": "5th Milton Keynes FIDE Rapid Tournament",
-      "shortTitle": "5th Milton Keynes FIDE Rapid Tournament",
-      "status": "upcoming",
-      "startDate": "2026-07-11T09:30:00Z",
-      "endDate": "2026-07-11T09:30:00Z",
-      "timezone": "Europe/London",
-      "locationName": "Milton Keynes, United Kingdom",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "rapid",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/5th-milton-keynes-fide-rapid-tournament/MHOTcmgp",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/5th-milton-keynes-fide-rapid-tournament/MHOTcmgp"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://mkbishopschess.co.uk/upcoming-events/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/Tnr1436942.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
