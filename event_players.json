@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-28T19:02:32Z",
-  "eventPlayerCount": 1171,
+  "generatedAt": "2026-06-29T02:32:06Z",
+  "eventPlayerCount": 1172,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1171
+      "count": 1172
     },
     {
       "name": "curated",
@@ -1657,6 +1657,21 @@
       "title": null,
       "fideId": "312428",
       "classicalRating": 1948,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-9-open-bohumin-2026-4-12-jul-2026",
+      "playerId": "damian-malinowski",
+      "name": "Damian Malinowski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "1157140",
+      "classicalRating": 1939,
       "status": "confirmed",
       "source": {
         "name": "chess-results",

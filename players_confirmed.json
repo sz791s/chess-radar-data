@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T19:02:32Z",
-  "playerCount": 1077,
+  "generatedAt": "2026-06-29T02:32:06Z",
+  "playerCount": 1078,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -6815,6 +6815,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "damian-malinowski",
+      "name": "Damian Malinowski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "1157140",
+      "classicalRating": 1939,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-9-open-bohumin-2026-4-12-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-9-open-bohumin-2026-4-12-jul-2026",
+          "title": "9. Open Bohumin 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-04T00:00:00Z",
+          "endDate": "2026-07-12T23:59:59Z",
+          "locationName": "Bohumin, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/562",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }

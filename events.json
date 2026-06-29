@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T19:02:23Z",
-  "eventCount": 230,
+  "generatedAt": "2026-06-29T02:31:54Z",
+  "eventCount": 228,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 32
+      "count": 30
     },
     {
       "name": "uschess",
@@ -93,83 +93,6 @@
       "source": {
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-fide-world-cup-u8-u10-u12-15-28-jun",
-      "title": "FIDE World Cup U8, U10, U12",
-      "shortTitle": "FIDE World Cup U8, U10, U12",
-      "status": "live",
-      "startDate": "2026-06-15T00:00:00Z",
-      "endDate": "2026-06-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Batumi, GEO",
-      "isOnline": false,
-      "summary": "FIDE calendar event: FIDE World Cup U8, U10, U12.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "elite",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=5075",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=5075"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessbase-youth-world-cup-u8-u10-u12-15-to-28-june-2026",
-      "title": "Youth World Cup U8, U10, U12",
-      "shortTitle": "Youth World Cup U8, U10, U12",
-      "status": "live",
-      "startDate": "2026-06-15T00:00:00Z",
-      "endDate": "2026-06-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Batumi, Georgia",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Youth World Cup U8, U10, U12.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "junior",
-        "elite",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -609,79 +532,43 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-xxx-chalupetzky-open-26-28-jun",
-      "title": "XXX. Chalupetzky Open",
-      "shortTitle": "XXX. Chalupetzky Open",
+      "id": "lichess-999hzzuz",
+      "title": "4th annual DC International",
+      "shortTitle": "4th annual DC International",
       "status": "live",
-      "startDate": "2026-06-26T00:00:00Z",
-      "endDate": "2026-06-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Gyor, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XXX. Chalupetzky Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17458",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17458"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-4jzmxa3g",
-      "title": "Championnat Ouvert de Laval 2026",
-      "shortTitle": "Championnat Ouvert de Laval 2026",
-      "status": "live",
-      "startDate": "2026-06-26T23:15:00Z",
-      "endDate": "2026-06-28T19:15:00Z",
-      "timezone": "America/Toronto",
-      "locationName": "Laval, Quebec, Canada",
+      "startDate": "2026-06-25T23:15:00Z",
+      "endDate": "2026-06-29T20:15:00Z",
+      "timezone": "America/New_York",
+      "locationName": "Washington DC, USA",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5-round Swiss",
+      "description": "9-round Open Swiss",
       "categories": [
         "classical",
         "broadcast",
+        "open",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/championnat-ouvert-de-laval-2026/4JZMXa3g",
+      "primaryUrl": "https://lichess.org/broadcast/4th-annual-dc-international/999HzzuZ",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/championnat-ouvert-de-laval-2026/4JZMXa3g"
+          "url": "https://lichess.org/broadcast/4th-annual-dc-international/999HzzuZ"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessevents.com/"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://s1.chess-results.com/tnr1444760.aspx?art=1"
+          "url": "https://chessevents.com/event/dcinternational/2026/standings/dci"
         }
       ],
       "source": {
@@ -792,47 +679,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-iii-hiiumaa-chess-festival-rapid-tournament-27-28-jun",
-      "title": "III Hiiumaa Chess Festival - Rapid Tournament",
-      "shortTitle": "III Hiiumaa Chess Festival - Rapid Tournament",
-      "status": "live",
-      "startDate": "2026-06-27T00:00:00Z",
-      "endDate": "2026-06-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Korgessaare, EST",
-      "isOnline": false,
-      "summary": "FIDE calendar event: III Hiiumaa Chess Festival - Rapid Tournament.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17198",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17198"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -1074,7 +920,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Chilean National School Chess Championship 2026.",
-      "description": "40 listed players",
+      "description": "49 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1147,6 +993,53 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-8zdn2gpr",
+      "title": "Warsaw Chess Festival 2026 | Najdorf Memorial",
+      "shortTitle": "Warsaw Chess Festival 2026 | Najdorf Memorial",
+      "status": "live",
+      "startDate": "2026-06-27T15:00:00Z",
+      "endDate": "2026-07-05T08:00:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Warsaw, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/warsaw-chess-festival-2026-najdorf-memorial/8ZDN2gPr",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/warsaw-chess-festival-2026-najdorf-memorial/8ZDN2gPr"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.poloniachess.pl/warsaw_chess_festival/turniej_2026/general_information/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessarbiter.com/turnieje/2026/ti_2076/results.html"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-pgasjkzy",
       "title": "2026 Canadian Junior and Senior Championship",
       "shortTitle": "2026 Canadian Junior and Senior Championship",
@@ -1163,13 +1056,11 @@
         "broadcast",
         "junior",
         "open",
-        "otb",
-        "online"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
-        "chesscom"
+        "lichess"
       ],
       "primaryUrl": "https://lichess.org/broadcast/2026-canadian-junior-and-senior-championship/PgASjKzY",
       "links": [
@@ -1187,21 +1078,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/tnr1406472.aspx?lan=1&art=0&SNode=S0"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/canadian-junior-senior-championships-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-canadian-junior-senior-open"
         }
       ],
       "source": {
@@ -1223,7 +1099,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 60th Stamer Memorial Tournament.",
-      "description": "20 listed players. 4 rounds",
+      "description": "23 listed players. 4 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1259,12 +1135,12 @@
       "shortTitle": "CopaBlunder 2026",
       "status": "live",
       "startDate": "2026-06-27T20:30:00Z",
-      "endDate": "2026-07-12T02:30:00Z",
+      "endDate": "2026-07-12T02:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: CopaBlunder 2026.",
-      "description": "84 listed players. 2 scheduled stream links",
+      "description": "84 listed players. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1294,47 +1170,6 @@
       "source": {
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-o-pohar-primatora-rajeckych-teplic-28jun",
-      "title": "O pohar primatora Rajeckych Teplic",
-      "shortTitle": "O pohar primatora Rajeckych Teplic",
-      "status": "live",
-      "startDate": "2026-06-28T00:00:00Z",
-      "endDate": "2026-06-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Rajecke Teplice, SVK",
-      "isOnline": false,
-      "summary": "FIDE calendar event: O pohar primatora Rajeckych Teplic.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15695",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15695"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -1635,52 +1470,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28356",
-      "title": "Marshall Chess Club Academy Blitz Championship 2026",
-      "shortTitle": "Marshall Chess Club Academy Blitz Championship 2026",
-      "status": "live",
-      "startDate": "2026-06-28T16:00:00Z",
-      "endDate": "2026-06-29T02:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Marshall Chess Club Academy Blitz Championship 2026.",
-      "description": "17 listed players. 13 rounds",
-      "categories": [
-        "blitz",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/marshall-chess-club-academy-blitz-championship-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/marshall-chess-club-academy-blitz-championship-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-12th-cesme-international-open-chess-tournament-29-jun-5-jul",
       "title": "12th Cesme International Open Chess Tournament",
       "shortTitle": "12th Cesme International Open Chess Tournament",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-29T00:00:00Z",
       "endDate": "2026-07-05T23:59:59Z",
       "timezone": "UTC",
@@ -1722,7 +1515,7 @@
       "id": "fide-superunited-blitz-croatia-29-jun-6-jul",
       "title": "SuperUnited Blitz Croatia",
       "shortTitle": "SuperUnited Blitz Croatia",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-29T00:00:00Z",
       "endDate": "2026-07-06T23:59:59Z",
       "timezone": "UTC",
@@ -1763,7 +1556,7 @@
       "id": "fide-superunited-rapid-croatia-29-jun-6-jul",
       "title": "SuperUnited Rapid Croatia",
       "shortTitle": "SuperUnited Rapid Croatia",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-06-29T00:00:00Z",
       "endDate": "2026-07-06T23:59:59Z",
       "timezone": "UTC",
@@ -1796,6 +1589,65 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-dqg8umrj",
+      "title": "V Magistral Internacional Ciudad de Sant Joan de Alacant",
+      "shortTitle": "V Magistral Internacional Ciudad de Sant Joan de Alacant",
+      "status": "upcoming",
+      "startDate": "2026-06-29T08:00:00Z",
+      "endDate": "2026-07-03T07:00:00Z",
+      "timezone": "Europe/Madrid",
+      "locationName": "Alacant, Spain",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "chesscom"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/DqG8UMRj",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/DqG8UMRj"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.facv.org/vi-festival-descacs-sant-joan-dalacant"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://info64.org/v-magistral-internacional-ciudad-de-sant-joan-de-alacant/standings"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/v-magistral-internacional-ciudad-de-sant-joan-de-alacant-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -3600,6 +3452,7 @@
         "tobi-sko-upa",
         "mat-j-lorenc",
         "jan-didi",
+        "damian-malinowski",
         "otto-hurtak",
         "mateusz-macura",
         "mahmoud-ghanem"
@@ -3677,6 +3530,7 @@
         "tobi-sko-upa",
         "mat-j-lorenc",
         "jan-didi",
+        "damian-malinowski",
         "otto-hurtak",
         "mateusz-macura",
         "mahmoud-ghanem"
@@ -4394,6 +4248,21 @@
           "title": null,
           "fideId": "312428",
           "classicalRating": 1948,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "damian-malinowski",
+          "name": "Damian Malinowski",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "1157140",
+          "classicalRating": 1939,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -5472,6 +5341,53 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-mhotcmgp",
+      "title": "5th Milton Keynes FIDE Rapid Tournament",
+      "shortTitle": "5th Milton Keynes FIDE Rapid Tournament",
+      "status": "upcoming",
+      "startDate": "2026-07-11T09:30:00Z",
+      "endDate": "2026-07-11T09:30:00Z",
+      "timezone": "Europe/London",
+      "locationName": "Milton Keynes, United Kingdom",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/5th-milton-keynes-fide-rapid-tournament/MHOTcmgp",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/5th-milton-keynes-fide-rapid-tournament/MHOTcmgp"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://mkbishopschess.co.uk/upcoming-events/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/Tnr1436942.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -26533,6 +26449,47 @@
           "label": "FIDE calendar listing",
           "type": "official",
           "url": "https://calendar.fide.com/calendar.php?id=14760"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-16-g-tersloher-sparkassen-cup-21-23-aug",
+      "title": "16. Gütersloher Sparkassen-Cup",
+      "shortTitle": "16. Gütersloher Sparkassen-Cup",
+      "status": "upcoming",
+      "startDate": "2026-08-21T00:00:00Z",
+      "endDate": "2026-08-23T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Gütersloh, GER",
+      "isOnline": false,
+      "summary": "FIDE calendar event: 16. Gütersloher Sparkassen-Cup.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12954",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12954"
         },
         {
           "label": "FIDE calendar",
