@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T02:26:46Z",
-  "eventCount": 225,
+  "generatedAt": "2026-06-30T08:55:57Z",
+  "eventCount": 226,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 31
+      "count": 30
     },
     {
       "name": "uschess",
@@ -478,6 +478,52 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28296",
+      "title": "10th SESC Caiobá International Chess Tournament",
+      "shortTitle": "10th SESC Caiobá International Chess Tournament",
+      "status": "live",
+      "startDate": "2026-06-26T19:00:00Z",
+      "endDate": "2026-07-05T19:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 10th SESC Caiobá International Chess Tournament.",
+      "description": "805 listed players. 1 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/x-torneio-internacional-de-xadrez-sesc-caioba",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/x-torneio-internacional-de-xadrez-sesc-caioba"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Rodada 2 - Live comentada com Evandro Togni",
+          "type": "stream",
+          "url": "https://www.youtube.com/I8nWG7Isxdc"
         }
       ],
       "source": {
@@ -1005,58 +1051,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28451",
-      "title": "10th SESC Caioba International Open 2026",
-      "shortTitle": "10th SESC Caioba International Open 2026",
-      "status": "live",
-      "startDate": "2026-06-28T17:00:00Z",
-      "endDate": "2026-07-05T18:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 10th SESC Caioba International Open 2026.",
-      "description": "243 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/10th-sesc-caioba-international-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/10th-sesc-caioba-international-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/x-torneio-internacional-de-xadrez-sesc-caioba"
-        },
-        {
-          "label": "Rodada 2 - Live comentada com Evandro Togni",
-          "type": "stream",
-          "url": "https://www.youtube.com/I8nWG7Isxdc"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-superunited-blitz-croatia-29-jun-6-jul",
       "title": "SuperUnited Blitz Croatia",
       "shortTitle": "SuperUnited Blitz Croatia",
@@ -1321,6 +1315,60 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-7m9szyvt",
+      "title": "Pune International Grandmaster Round Robin Tournament",
+      "shortTitle": "Pune International Grandmaster Round Robin Tournament",
+      "status": "live",
+      "startDate": "2026-06-30T04:30:00Z",
+      "endDate": "2026-07-01T04:30:00Z",
+      "timezone": "Asia/Calcutta",
+      "locationName": "Pune, India",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player-round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "chesscom"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/pune-international-grandmaster-round-robin-tournament/7M9szYvT",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/pune-international-grandmaster-round-robin-tournament/7M9szYvT"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://s1.chess-results.com/tnr1443853.aspx?lan=1&SNode=S0"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/pune-international-grandmaster-round-robin-tournament"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-rg7ktkrh",
       "title": "KazChess Masters Almaty 2026",
       "shortTitle": "KazChess Masters Almaty 2026",
@@ -1335,14 +1383,12 @@
       "categories": [
         "classical",
         "broadcast",
-        "otb",
-        "online"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess",
-        "fide",
-        "chesscom"
+        "fide"
       ],
       "primaryUrl": "https://lichess.org/broadcast/kazchess-masters-almaty-2026/rg7KTkrH",
       "links": [
@@ -1370,16 +1416,6 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-kazchess-masters-almaty"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -3213,7 +3249,8 @@
         "jan-didi",
         "damian-malinowski",
         "otto-hurtak",
-        "mateusz-macura"
+        "mateusz-macura",
+        "tereza-horkov"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/562",
@@ -3288,7 +3325,8 @@
         "jan-didi",
         "damian-malinowski",
         "otto-hurtak",
-        "mateusz-macura"
+        "mateusz-macura",
+        "tereza-horkov"
       ],
       "confirmedPlayers": [
         {
@@ -4018,6 +4056,21 @@
           "title": null,
           "fideId": "21852510",
           "classicalRating": 1920,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "tereza-horkov",
+          "name": "Tereza Horková",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23712678",
+          "classicalRating": 1918,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -5746,20 +5799,19 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-2b8fjg0d",
+      "id": "fide-xxxiv-heart-of-finland-open-13-19-jul",
       "title": "XXXIV Heart of Finland Open",
       "shortTitle": "XXXIV Heart of Finland Open",
       "status": "upcoming",
-      "startDate": "2026-07-13T14:15:00Z",
-      "endDate": "2026-07-19T09:15:00Z",
-      "timezone": "Europe/Helsinki",
-      "locationName": "Jyväskylä, Finland",
+      "startDate": "2026-07-13T00:00:00Z",
+      "endDate": "2026-07-19T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Jyväskylä, FIN",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "summary": "FIDE calendar event: XXXIV Heart of Finland Open.",
+      "description": "Time control: Standard",
       "categories": [
         "classical",
-        "broadcast",
         "open",
         "otb"
       ],
@@ -5886,21 +5938,10 @@
         "roni-muhonen"
       ],
       "channelIds": [
-        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/xxxiv-heart-of-finland-open/2B8FJg0d",
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=11814",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxiv-heart-of-finland-open/2B8FJg0d"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://s3.chess-results.com/tnr1317959.aspx?lan=18&SNode=S0"
-        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -5928,9 +5969,9 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [
         "paulius-pultinevicius",
