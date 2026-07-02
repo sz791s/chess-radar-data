@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-02T08:41:40Z",
-  "eventCount": 229,
+  "generatedAt": "2026-07-02T13:28:57Z",
+  "eventCount": 231,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 35
     },
     {
       "name": "uschess",
@@ -802,7 +802,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 22nd Baltic Pearl Chess Festival 2026.",
-      "description": "102 listed players",
+      "description": "105 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1533,6 +1533,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-28522",
+      "title": "Greek Chess Cup Final4",
+      "shortTitle": "Greek Chess Cup Final4",
+      "status": "live",
+      "startDate": "2026-07-02T04:00:00Z",
+      "endDate": "2026-07-03T10:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Greek Chess Cup Final4.",
+      "description": "2 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/greek-chess-cup-final4",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/greek-chess-cup-final4"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-28066",
       "title": "Spanish U8-U16 Championships 2026",
       "shortTitle": "Spanish U8-U16 Championships 2026",
@@ -1543,7 +1585,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U8-U16 Championships 2026.",
-      "description": "1 scheduled stream links",
+      "description": "92 listed players. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1604,6 +1646,48 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/9th-oman-club-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28425",
+      "title": "5th Cape Verde Women's Championship 2026",
+      "shortTitle": "5th Cape Verde Women's Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-02T21:00:00Z",
+      "endDate": "2026-07-05T23:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 5th Cape Verde Women's Championship 2026.",
+      "description": "10 listed players. 7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "women"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/v-campeonato-nacional-feminino",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/v-campeonato-nacional-feminino"
         },
         {
           "label": "Chess.com current events",
