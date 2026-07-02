@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-02T02:12:34Z",
-  "eventCount": 232,
+  "generatedAt": "2026-07-02T08:41:40Z",
+  "eventCount": 229,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 32
+      "count": 33
     },
     {
       "name": "uschess",
@@ -1080,6 +1080,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "fide-kazchess-masters-almaty-2026-30-jun-7-jul",
+      "title": "KazChess Masters Almaty 2026",
+      "shortTitle": "KazChess Masters Almaty 2026",
+      "status": "live",
+      "startDate": "2026-06-30T00:00:00Z",
+      "endDate": "2026-07-07T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Almaty, KAZ",
+      "isOnline": false,
+      "summary": "FIDE calendar event: KazChess Masters Almaty 2026.",
+      "description": "Time control: Standard",
+      "categories": [
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17023",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=17023"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-28466",
       "title": "Pune International Grandmaster Round Robin Tournament",
       "shortTitle": "Pune International Grandmaster Round Robin Tournament",
@@ -1116,64 +1157,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-rg7ktkrh",
-      "title": "KazChess Masters Almaty 2026",
-      "shortTitle": "KazChess Masters Almaty 2026",
-      "status": "live",
-      "startDate": "2026-06-30T10:15:00Z",
-      "endDate": "2026-07-08T06:15:00Z",
-      "timezone": "Asia/Almaty",
-      "locationName": "Almaty, Kazakhstan",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "fide"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/kazchess-masters-almaty-2026/rg7KTkrH",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/kazchess-masters-almaty-2026/rg7KTkrH"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://kazchess.kz/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1447788.aspx?art=1"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17023"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1425,54 +1408,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-szmdpnpf",
-      "title": "GCT: Super Rapid & Blitz Croatia 2026 | Rapid",
-      "shortTitle": "GCT: Super Rapid & Blitz Croatia 2026 | Rapid",
-      "status": "live",
-      "startDate": "2026-07-01T13:00:00Z",
-      "endDate": "2026-07-03T16:00:00Z",
-      "timezone": "Europe/Zagreb",
-      "locationName": "Zagreb, Croatia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/gct-super-rapid-blitz-croatia-2026-rapid/SzMDpnpF",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/gct-super-rapid-blitz-croatia-2026-rapid/SzMDpnpF"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-super-rapid-blitz-croatia/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-super-rapid-blitz-croatia/results/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-22691",
       "title": "6th International Chess Tournament Città di Amelia",
       "shortTitle": "6th International Chess Tournament Città di Amelia",
@@ -1601,7 +1536,7 @@
       "id": "chesscom-28066",
       "title": "Spanish U8-U16 Championships 2026",
       "shortTitle": "Spanish U8-U16 Championships 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-02T07:00:00Z",
       "endDate": "2026-07-30T19:00:00Z",
       "timezone": "UTC",
@@ -1644,40 +1579,42 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-xtvue3zx",
-      "title": "WR Women's Chess Tour 2026 Americas | Blitz",
-      "shortTitle": "WR Women's Chess Tour 2026 Americas | Blitz",
+      "id": "chesscom-28008",
+      "title": "9th Oman Club Chess Championship 2026",
+      "shortTitle": "9th Oman Club Chess Championship 2026",
       "status": "upcoming",
-      "startDate": "2026-07-02T15:00:00Z",
-      "endDate": "2026-07-02T15:00:00Z",
-      "timezone": "America/Santo_Domingo",
-      "locationName": "Punta Cana",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "KO-System",
+      "startDate": "2026-07-02T14:00:00Z",
+      "endDate": "2026-07-10T07:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 9th Oman Club Chess Championship 2026.",
+      "description": "9 rounds",
       "categories": [
-        "blitz",
-        "classical",
-        "broadcast",
-        "women",
-        "otb"
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-americas-blitz/xTVue3zx",
+      "primaryUrl": "https://www.chess.com/events/info/9th-oman-club-chess-championship-2026",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-americas-blitz/xTVue3zx"
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/9th-oman-club-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1890,49 +1827,6 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-fkrn18wc",
-      "title": "2026 Naroditsky Memorial Rapid & Blitz | Rapid",
-      "shortTitle": "2026 Naroditsky Memorial Rapid & Blitz | Rapid",
-      "status": "upcoming",
-      "startDate": "2026-07-03T15:02:00Z",
-      "endDate": "2026-07-03T15:02:00Z",
-      "timezone": "America/New_York",
-      "locationName": "Charlotte, North Carolina, United States",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7-round Swiss",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-naroditsky-memorial-rapid-blitz-rapid/fkrN18wc",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-naroditsky-memorial-rapid-blitz-rapid/fkrN18wc"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://app.charlottechesscenter.org/events/naroditsky-masters/instances/136?tab=description"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -4428,54 +4322,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-tgudrrvc",
-      "title": "GCT: Super Rapid & Blitz Croatia 2026 | Blitz",
-      "shortTitle": "GCT: Super Rapid & Blitz Croatia 2026 | Blitz",
-      "status": "upcoming",
-      "startDate": "2026-07-04T13:00:00Z",
-      "endDate": "2026-07-05T16:00:00Z",
-      "timezone": "Europe/Zagreb",
-      "locationName": "Zagreb, Croatia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player double round-robin",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/gct-super-rapid-blitz-croatia-2026-blitz/TgUDRrvC",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/gct-super-rapid-blitz-croatia-2026-blitz/TgUDRrvC"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-super-rapid-blitz-croatia/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-super-rapid-blitz-croatia/results/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-izmezwvj",
       "title": "2026 Naroditsky Memorial Rapid & Blitz | Blitz",
       "shortTitle": "2026 Naroditsky Memorial Rapid & Blitz | Blitz",
@@ -5506,47 +5352,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-59th-biel-international-chess-festival-rapid-tournament-rap-12jul",
-      "title": "59th Biel International Chess Festival - Rapid Tournament (RAP)",
-      "shortTitle": "59th Biel International Chess Festival - Rapid Tournament (RAP)",
-      "status": "upcoming",
-      "startDate": "2026-07-12T00:00:00Z",
-      "endDate": "2026-07-12T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Biel/Bienne, SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 59th Biel International Chess Festival - Rapid Tournament (RAP).",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12457",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12457"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-vezerkepzo-summer-2026-gm-12-17-jul",
       "title": "Vezerkepzo Summer 2026 GM",
       "shortTitle": "Vezerkepzo Summer 2026 GM",
@@ -5670,6 +5475,60 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-zrfaxij7",
+      "title": "59th Biel International Chess Festival 2026 | Open | Rapid (RAP)",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Open | Rapid (RAP)",
+      "status": "upcoming",
+      "startDate": "2026-07-12T08:50:00Z",
+      "endDate": "2026-07-12T08:50:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9 round swiss",
+      "categories": [
+        "rapid",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-rapid-rap/ZrfAxIJ7",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-rapid-rap/ZrfAxIJ7"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12457"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-qljaogxa",
       "title": "59th Biel International Chess Festival 2026 | Triathlon | Challenge Rapid",
       "shortTitle": "59th Biel International Chess Festival 2026 | Triathlon | Challenge Rapid",
@@ -5749,89 +5608,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-59th-biel-international-chess-festival-free-style-chess-tournament-fsc-13-19-jul",
-      "title": "59th Biel International Chess Festival - Free Style Chess Tournament (FSC)",
-      "shortTitle": "59th Biel International Chess Festival - Free Style Chess Tournament (FSC)",
-      "status": "upcoming",
-      "startDate": "2026-07-13T00:00:00Z",
-      "endDate": "2026-07-19T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Biel/Bienne, SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 59th Biel International Chess Festival - Free Style Chess Tournament (FSC).",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12455",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12455"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-59th-biel-international-chess-festival-masters-open-tournament-mto-13-23-jul",
-      "title": "59th Biel International Chess Festival - Masters Open Tournament (MTO)",
-      "shortTitle": "59th Biel International Chess Festival - Masters Open Tournament (MTO)",
-      "status": "upcoming",
-      "startDate": "2026-07-13T00:00:00Z",
-      "endDate": "2026-07-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Biel/Bienne, SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 59th Biel International Chess Festival - Masters Open Tournament (MTO).",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12452",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12452"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -8213,6 +7989,114 @@
       ]
     },
     {
+      "id": "lichess-vemdc5sb",
+      "title": "59th Biel International Chess Festival 2026 | Open | Free Style 960 (FSC)",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Open | Free Style 960 (FSC)",
+      "status": "upcoming",
+      "startDate": "2026-07-13T08:15:00Z",
+      "endDate": "2026-07-19T08:15:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7-round-Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-free-style-960-fsc/VeMDC5sB",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-free-style-960-fsc/VeMDC5sB"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12455"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-rc1knwka",
+      "title": "59th Biel International Chess Festival 2026 | Open | Masters (MTO)",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Open | Masters (MTO)",
+      "status": "upcoming",
+      "startDate": "2026-07-13T12:15:00Z",
+      "endDate": "2026-07-23T12:15:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10 round swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-masters-mto/RC1kNWka",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-masters-mto/RC1kNWka"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12452"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessaround-59th-biel-chess-festival-2026-master-tournament-14-24-jul-2026",
       "title": "59th Biel Chess Festival 2026 - Master Tournament",
       "shortTitle": "59th Biel Chess Festival 2026 - Master Tournament",
@@ -8252,28 +8136,40 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-59th-biel-international-chess-festival-amateur-open-tournament-ato-14-23-jul",
-      "title": "59th Biel International Chess Festival - Amateur Open Tournament (ATO)",
-      "shortTitle": "59th Biel International Chess Festival - Amateur Open Tournament (ATO)",
+      "id": "lichess-hfewvjhm",
+      "title": "59th Biel International Chess Festival 2026 | Open | Amateur (ATO)",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Open | Amateur (ATO)",
       "status": "upcoming",
-      "startDate": "2026-07-14T00:00:00Z",
-      "endDate": "2026-07-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Biel/Bienne, SUI",
+      "startDate": "2026-07-14T12:15:00Z",
+      "endDate": "2026-07-23T12:15:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
       "isOnline": false,
-      "summary": "FIDE calendar event: 59th Biel International Chess Festival - Amateur Open Tournament (ATO).",
-      "description": "Time control: Standard",
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9 round swiss",
       "categories": [
         "classical",
+        "broadcast",
         "open",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
+        "lichess",
         "fide"
       ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12453",
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-amateur-ato/hfeWvjHM",
       "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-amateur-ato/hfeWvjHM"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        },
         {
           "label": "FIDE calendar listing",
           "type": "official",
@@ -8286,9 +8182,9 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -14010,47 +13906,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-59th-biel-international-chess-festival-blitz-tournament-btz-19jul",
-      "title": "59th Biel International Chess Festival - Blitz Tournament (BTZ)",
-      "shortTitle": "59th Biel International Chess Festival - Blitz Tournament (BTZ)",
-      "status": "upcoming",
-      "startDate": "2026-07-19T00:00:00Z",
-      "endDate": "2026-07-19T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Biel/Bienne, SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 59th Biel International Chess Festival - Blitz Tournament (BTZ).",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12459",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12459"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-andorra-chess-gran-prix-19jul",
       "title": "Andorra Chess Gran Prix",
       "shortTitle": "Andorra Chess Gran Prix",
@@ -14210,6 +14065,60 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-qq7h14jb",
+      "title": "59th Biel International Chess Festival 2026 | Open | Blitz (BTZ)",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Open | Blitz (BTZ)",
+      "status": "upcoming",
+      "startDate": "2026-07-19T11:30:00Z",
+      "endDate": "2026-07-19T11:30:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "13-round Swiss",
+      "categories": [
+        "blitz",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "fide"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-blitz-btz/qQ7H14jB",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-blitz-btz/qQ7H14jB"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        },
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=12459"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -14589,6 +14498,138 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-jn3ztbot",
+      "title": "59th Biel International Chess Festival 2026 | Open | Fast Standard 1699- (WT2)",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Open | Fast Standard 1699- (WT2)",
+      "status": "upcoming",
+      "startDate": "2026-07-20T08:15:00Z",
+      "endDate": "2026-07-24T08:15:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9 round swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-fast-standard-1699-wt2/JN3zTbOt",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-fast-standard-1699-wt2/JN3zTbOt"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-open-fast-standard-1700-wt1/8445k7pV"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-4axcok8y",
+      "title": "59th Biel International Chess Festival 2026 | Triathlon | Challengers Final",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Triathlon | Challengers Final",
+      "status": "upcoming",
+      "startDate": "2026-07-21T12:15:00Z",
+      "endDate": "2026-07-23T12:15:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "4-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-triathlon-challengers-final/4aXCOk8Y",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-triathlon-challengers-final/4aXCOk8Y"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-hevfajpg",
+      "title": "59th Biel International Chess Festival 2026 | Triathlon | Master Final",
+      "shortTitle": "59th Biel International Chess Festival 2026 | Triathlon | Master Final",
+      "status": "upcoming",
+      "startDate": "2026-07-21T12:15:00Z",
+      "endDate": "2026-07-23T12:15:00Z",
+      "timezone": "Europe/Zurich",
+      "locationName": "Biel/Bienne, Switzerland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "4-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-triathlon-master-final/HevfAJPg",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/59th-biel-international-chess-festival-2026-triathlon-master-final/HevfAJPg"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.bielchessfestival.ch/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -30943,132 +30984,6 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-qxj3hewi",
-      "title": "Prague International Chess Festival 2027 | Challengers",
-      "shortTitle": "Prague International Chess Festival 2027 | Challengers",
-      "status": "upcoming",
-      "startDate": "2027-02-16T14:15:00Z",
-      "endDate": "2027-02-25T09:15:00Z",
-      "timezone": "Europe/Prague",
-      "locationName": "Prague, Czechia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/prague-international-chess-festival-2027-challengers/QXj3HEWi",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-challengers/QXj3HEWi"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://praguechessfestival.com/en/2027"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-doh73w7g",
-      "title": "Prague International Chess Festival 2027 | Futures",
-      "shortTitle": "Prague International Chess Festival 2027 | Futures",
-      "status": "upcoming",
-      "startDate": "2027-02-16T14:15:00Z",
-      "endDate": "2027-02-25T09:15:00Z",
-      "timezone": "Europe/Prague",
-      "locationName": "Prague, Czechia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://praguechessfestival.com/en/2027"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-1vcafmbq",
-      "title": "Prague International Chess Festival 2027 | Masters",
-      "shortTitle": "Prague International Chess Festival 2027 | Masters",
-      "status": "upcoming",
-      "startDate": "2027-02-16T14:15:00Z",
-      "endDate": "2027-02-25T09:15:00Z",
-      "timezone": "Europe/Prague",
-      "locationName": "Prague, Czechia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://praguechessfestival.com/en/2027"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
