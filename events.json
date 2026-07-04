@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-04T08:23:46Z",
-  "eventCount": 97,
+  "generatedAt": "2026-07-04T12:59:49Z",
+  "eventCount": 96,
   "sources": [
     {
       "name": "curated",
@@ -30,8 +30,9 @@
     },
     {
       "name": "chessdom",
-      "status": "ok",
-      "count": 9
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "chessmix",
@@ -518,7 +519,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 6th International Chess Tournament Città di Amelia.",
-      "description": "160 listed players",
+      "description": "172 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -633,48 +634,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28585",
-      "title": "Oskemen Open 2026",
-      "shortTitle": "Oskemen Open 2026",
-      "status": "live",
-      "startDate": "2026-07-02T00:00:00Z",
-      "endDate": "2026-07-30T23:55:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Oskemen Open 2026.",
-      "description": "Listed on the Chess.com current events page.",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-oskemen-open",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-oskemen-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-28066",
       "title": "Spanish U8-U16 Championships 2026",
       "shortTitle": "Spanish U8-U16 Championships 2026",
@@ -685,7 +644,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U8-U16 Championships 2026.",
-      "description": "95 listed players. 1 scheduled stream links",
+      "description": "96 listed players. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -855,7 +814,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 19th Paracin International Open 2026.",
-      "description": "50 listed players. 9 rounds",
+      "description": "61 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -945,39 +904,34 @@
         "otb"
       ],
       "playerIds": [
-        "jakub-p-lp-n",
+        "jakub-pulpan",
         "eduard-andreev",
-        "farga-martin",
+        "martin-fargac",
         "marcos-llaneza-vega",
         "jakub-rabatin",
         "laertes-neuhoff",
         "miroslaw-grabarczyk",
         "maciej-marszalek",
         "sebastian-plischki",
-        "zden-k-holeksa",
-        "rafa-tymrakiewicz",
-        "stanislav-jasn",
+        "zdenek-holeksa",
+        "rafal-tymrakiewicz",
+        "stanislav-jasny",
         "josef-mudrak",
-        "mat-j-mydl",
-        "shaig-guliyev",
+        "matej-mydlar",
         "tomasz-posluszny",
-        "shivika-rohilla",
-        "suvankar-maity",
+        "viktorie-buchtova",
         "titus-bittner",
-        "viktorie-buchtov",
         "ulrike-roessler",
         "jan-przybylski",
         "mateusz-myrmus",
         "rostislav-kubos",
-        "robin-ol-ar",
-        "jan-rzewucki",
+        "robin-olsar",
         "tadeusz-helis",
         "tobias-svoboda",
         "lukas-fryc",
         "jan-bjolek",
-        "ond-ej-boff",
+        "ondrej-boff",
         "josef-lys",
-        "miroslav-forman",
         "filip-modzelewski",
         "adam-radecki",
         "franciszek-niesporek",
@@ -987,14 +941,14 @@
         "katarzyna-krajewska",
         "alex-macosek",
         "kacper-staniczek",
-        "micha-niesyt",
-        "tobi-sko-upa",
-        "mat-j-lorenc",
+        "michal-niesyt",
+        "tobias-skorupa",
+        "matej-lorenc",
         "jan-didi",
         "damian-malinowski",
         "mateusz-macura",
         "otto-hurtak",
-        "tereza-horkov"
+        "tereza-horkova"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/562",
@@ -1021,39 +975,34 @@
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
-        "jakub-p-lp-n",
+        "jakub-pulpan",
         "eduard-andreev",
-        "farga-martin",
+        "martin-fargac",
         "marcos-llaneza-vega",
         "jakub-rabatin",
         "laertes-neuhoff",
         "miroslaw-grabarczyk",
         "maciej-marszalek",
         "sebastian-plischki",
-        "zden-k-holeksa",
-        "rafa-tymrakiewicz",
-        "stanislav-jasn",
+        "zdenek-holeksa",
+        "rafal-tymrakiewicz",
+        "stanislav-jasny",
         "josef-mudrak",
-        "mat-j-mydl",
-        "shaig-guliyev",
+        "matej-mydlar",
         "tomasz-posluszny",
-        "shivika-rohilla",
-        "suvankar-maity",
+        "viktorie-buchtova",
         "titus-bittner",
-        "viktorie-buchtov",
         "ulrike-roessler",
         "jan-przybylski",
         "mateusz-myrmus",
         "rostislav-kubos",
-        "robin-ol-ar",
-        "jan-rzewucki",
+        "robin-olsar",
         "tadeusz-helis",
         "tobias-svoboda",
         "lukas-fryc",
         "jan-bjolek",
-        "ond-ej-boff",
+        "ondrej-boff",
         "josef-lys",
-        "miroslav-forman",
         "filip-modzelewski",
         "adam-radecki",
         "franciszek-niesporek",
@@ -1063,19 +1012,19 @@
         "katarzyna-krajewska",
         "alex-macosek",
         "kacper-staniczek",
-        "micha-niesyt",
-        "tobi-sko-upa",
-        "mat-j-lorenc",
+        "michal-niesyt",
+        "tobias-skorupa",
+        "matej-lorenc",
         "jan-didi",
         "damian-malinowski",
         "mateusz-macura",
         "otto-hurtak",
-        "tereza-horkov"
+        "tereza-horkova"
       ],
       "confirmedPlayers": [
         {
-          "playerId": "jakub-p-lp-n",
-          "name": "Jakub Půlpán",
+          "playerId": "jakub-pulpan",
+          "name": "Jakub Pulpan",
           "countryCode": "CZE",
           "title": "IM",
           "fideId": "302759",
@@ -1104,8 +1053,8 @@
           }
         },
         {
-          "playerId": "farga-martin",
-          "name": "Fargač Martin",
+          "playerId": "martin-fargac",
+          "name": "Martin Fargac",
           "countryCode": "CZE",
           "title": "FM",
           "fideId": "345245",
@@ -1209,8 +1158,8 @@
           }
         },
         {
-          "playerId": "zden-k-holeksa",
-          "name": "Zdeněk Holeksa",
+          "playerId": "zdenek-holeksa",
+          "name": "Zdenek Holeksa",
           "countryCode": "CZE",
           "title": "FM",
           "fideId": "316261",
@@ -1224,8 +1173,8 @@
           }
         },
         {
-          "playerId": "rafa-tymrakiewicz",
-          "name": "Rafał Tymrakiewicz",
+          "playerId": "rafal-tymrakiewicz",
+          "name": "Rafal Tymrakiewicz",
           "countryCode": "POL",
           "title": "FM",
           "fideId": "1108832",
@@ -1239,8 +1188,8 @@
           }
         },
         {
-          "playerId": "stanislav-jasn",
-          "name": "Stanislav Jasný",
+          "playerId": "stanislav-jasny",
+          "name": "Stanislav Jasny",
           "countryCode": "CZE",
           "title": "IM",
           "fideId": "311030",
@@ -1269,27 +1218,12 @@
           }
         },
         {
-          "playerId": "mat-j-mydl",
-          "name": "Matěj Mydlář",
+          "playerId": "matej-mydlar",
+          "name": "Matej Mydlar",
           "countryCode": "CZE",
           "title": null,
           "fideId": "23735074",
           "classicalRating": 2123,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "shaig-guliyev",
-          "name": "Shaig Guliyev",
-          "countryCode": "AZE",
-          "title": null,
-          "fideId": "13401475",
-          "classicalRating": 2107,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -1314,27 +1248,12 @@
           }
         },
         {
-          "playerId": "shivika-rohilla",
-          "name": "Shivika Rohilla",
-          "countryCode": "IND",
+          "playerId": "viktorie-buchtova",
+          "name": "Viktorie Buchtova",
+          "countryCode": "CZE",
           "title": "WFM",
-          "fideId": "45015414",
-          "classicalRating": 2094,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "suvankar-maity",
-          "name": "Suvankar Maity",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "25008188",
-          "classicalRating": 2087,
+          "fideId": "23714786",
+          "classicalRating": 2085,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -1347,23 +1266,8 @@
           "playerId": "titus-bittner",
           "name": "Titus Bittner",
           "countryCode": "POR",
-          "title": "NM",
-          "fideId": "1973193",
-          "classicalRating": 2085,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "viktorie-buchtov",
-          "name": "Viktorie Buchtová",
-          "countryCode": "CZE",
           "title": null,
-          "fideId": "23714786",
+          "fideId": "1973193",
           "classicalRating": 2085,
           "profileLinks": {},
           "status": "confirmed",
@@ -1434,27 +1338,12 @@
           }
         },
         {
-          "playerId": "robin-ol-ar",
-          "name": "Robin Olšar",
+          "playerId": "robin-olsar",
+          "name": "Robin Olsar",
           "countryCode": "CZE",
           "title": null,
           "fideId": "322628",
           "classicalRating": 2048,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jan-rzewucki",
-          "name": "Jan Rzewucki",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "13510630",
-          "classicalRating": 2045,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -1524,8 +1413,8 @@
           }
         },
         {
-          "playerId": "ond-ej-boff",
-          "name": "Ondřej Boff",
+          "playerId": "ondrej-boff",
+          "name": "Ondrej Boff",
           "countryCode": "CZE",
           "title": null,
           "fideId": "23733950",
@@ -1545,21 +1434,6 @@
           "title": "FM",
           "fideId": "302244",
           "classicalRating": 2011,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1277248.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "miroslav-forman",
-          "name": "Miroslav Forman",
-          "countryCode": "CZE",
-          "title": null,
-          "fideId": "332488",
-          "classicalRating": 2009,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -1704,8 +1578,8 @@
           }
         },
         {
-          "playerId": "micha-niesyt",
-          "name": "Michał Niesyt",
+          "playerId": "michal-niesyt",
+          "name": "Michal Niesyt",
           "countryCode": "POL",
           "title": null,
           "fideId": "21031568",
@@ -1719,8 +1593,8 @@
           }
         },
         {
-          "playerId": "tobi-sko-upa",
-          "name": "Tobiáš Skořupa",
+          "playerId": "tobias-skorupa",
+          "name": "Tobias Skorupa",
           "countryCode": "CZE",
           "title": null,
           "fideId": "23777494",
@@ -1734,8 +1608,8 @@
           }
         },
         {
-          "playerId": "mat-j-lorenc",
-          "name": "Matěj Lorenc",
+          "playerId": "matej-lorenc",
+          "name": "Matej Lorenc",
           "countryCode": "CZE",
           "title": null,
           "fideId": "23772468",
@@ -1767,7 +1641,7 @@
           "playerId": "damian-malinowski",
           "name": "Damian Malinowski",
           "countryCode": "POL",
-          "title": null,
+          "title": "AGM",
           "fideId": "1157140",
           "classicalRating": 1939,
           "profileLinks": {},
@@ -1809,8 +1683,8 @@
           }
         },
         {
-          "playerId": "tereza-horkov",
-          "name": "Tereza Horková",
+          "playerId": "tereza-horkova",
+          "name": "Tereza Horkova",
           "countryCode": "CZE",
           "title": null,
           "fideId": "23712678",
@@ -1955,60 +1829,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28579",
-      "title": "ECF County Championship Final 2026: Open",
-      "shortTitle": "ECF County Championship Final 2026: Open",
-      "status": "live",
-      "startDate": "2026-07-04T04:30:00Z",
-      "endDate": "2026-07-04T09:30:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: ECF County Championship Final 2026: Open.",
-      "description": "1 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "team",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/ecf-county-championship-final-2026-open",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/ecf-county-championship-final-2026-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-28581",
       "title": "Montenegro Open - Mediterranean 2026",
       "shortTitle": "Montenegro Open - Mediterranean 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-04T10:00:00Z",
       "endDate": "2026-07-11T19:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Montenegro Open - Mediterranean 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "158 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -2043,7 +1874,7 @@
       "id": "chesscom-28243",
       "title": "Dutch Championships 2026",
       "shortTitle": "Dutch Championships 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-04T11:00:00Z",
       "endDate": "2026-07-11T18:00:00Z",
       "timezone": "UTC",
@@ -2084,14 +1915,14 @@
       "id": "chesscom-28395",
       "title": "53rd Greek Team Championship 2026",
       "shortTitle": "53rd Greek Team Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-04T12:00:00Z",
       "endDate": "2026-07-10T13:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 53rd Greek Team Championship 2026.",
-      "description": "7 rounds",
+      "description": "160 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -2107,6 +1938,49 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/53rd-greek-team-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28579",
+      "title": "ECF County Championship Final 2026: Open & Minor U1450",
+      "shortTitle": "ECF County Championship Final 2026: Open & Minor U1450",
+      "status": "live",
+      "startDate": "2026-07-04T12:30:00Z",
+      "endDate": "2026-07-04T18:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: ECF County Championship Final 2026: Open & Minor U1450.",
+      "description": "56 listed players. 1 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "team",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/ecf-county-championship-final-2026-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/ecf-county-championship-final-2026-open"
         },
         {
           "label": "Chess.com current events",
@@ -3491,7 +3365,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 48th Barbera Del Valles Open 2026.",
-      "description": "9 rounds",
+      "description": "52 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -3561,6 +3435,54 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28578",
+      "title": "nau64 FIDE Rapid Tournament July 4, 2026",
+      "shortTitle": "nau64 FIDE Rapid Tournament July 4, 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-04T19:00:00Z",
+      "endDate": "2026-07-05T01:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: nau64 FIDE Rapid Tournament July 4, 2026.",
+      "description": "5 rounds. 1 scheduled stream links",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/torneo-rapido-fide-de-nau64-4-julio-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/torneo-rapido-fide-de-nau64-4-julio-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Rapido nau64",
+          "type": "stream",
+          "url": "https://www.twitch.tv/nau64ajedrez"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -6355,8 +6277,7 @@
       "categories": [
         "team",
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -6366,16 +6287,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -22688,47 +22599,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
-      "title": "European Chess Club Cup Open & Women 2026",
-      "shortTitle": "European Chess Club Cup Open & Women 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-16T00:00:00Z",
-      "endDate": "2026-10-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budva - Montenegro",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
-      "description": "Continental Classical Women",
-      "categories": [
-        "classical",
-        "women",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
-      "links": [
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "chessdom",
-        "url": "https://calendar.chessdom.com/2026-calendar/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -24988,8 +24858,7 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -24999,16 +24868,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
