@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T09:55:29Z",
-  "eventPlayerCount": 1118,
+  "generatedAt": "2026-07-06T14:58:26Z",
+  "eventPlayerCount": 1117,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1118
+      "count": 1117
     },
     {
       "name": "curated",
@@ -352,6 +352,21 @@
       "title": "FM",
       "fideId": "509850",
       "classicalRating": 2224,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-xxxiv-heart-of-finland-open-13-19-jul",
+      "playerId": "ozgun-sahin",
+      "name": "Ozgun Sahin",
+      "countryCode": "TUR",
+      "title": "FM",
+      "fideId": "6328121",
+      "classicalRating": 2209,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -3111,6 +3126,21 @@
       "countryCode": "ENG",
       "title": null,
       "fideId": "453080",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
+      "playerId": "ioannis-k-kollias",
+      "name": "Ioannis K. Kollias",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "4297105",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -6351,21 +6381,6 @@
       "countryCode": "GRE",
       "title": null,
       "fideId": "42193907",
-      "classicalRating": null,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-19th-paleochora-international-chess-tournament-18-25-jul",
-      "playerId": "haiyuan-shi",
-      "name": "Haiyuan Shi",
-      "countryCode": "CHN",
-      "title": null,
-      "fideId": "8636400",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -10006,21 +10021,6 @@
     },
     {
       "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
-      "playerId": "a-peter-anand",
-      "name": "A Peter Anand",
-      "countryCode": "IND",
-      "title": null,
-      "fideId": "25003801",
-      "classicalRating": 2069,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
       "playerId": "razvan-george-parvu",
       "name": "Razvan-George Parvu",
       "countryCode": "ROU",
@@ -10387,21 +10387,6 @@
       "title": null,
       "fideId": "2849127",
       "classicalRating": 1989,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-brasov-grand-prix-classic-25-31-jul",
-      "playerId": "patrick-david-dunca",
-      "name": "Patrick-David Dunca",
-      "countryCode": "ROU",
-      "title": "I",
-      "fideId": "42209978",
-      "classicalRating": 1985,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
@@ -11091,6 +11076,21 @@
       "countryCode": "MGL",
       "title": "IM",
       "fideId": "4902084",
+      "classicalRating": 2393,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
+      "playerId": "sohan-belkaid",
+      "name": "Sohan Belkaid",
+      "countryCode": "FRA",
+      "title": "FM",
+      "fideId": "45180350",
       "classicalRating": 2393,
       "status": "confirmed",
       "source": {
@@ -12832,21 +12832,6 @@
       "title": null,
       "fideId": "1942565",
       "classicalRating": 2017,
-      "status": "confirmed",
-      "source": {
-        "name": "chess-results",
-        "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-        "confidence": "high"
-      }
-    },
-    {
-      "eventId": "fide-granada-chess-open-2026-28-jul-2-aug",
-      "playerId": "nicolas-leiva-raya",
-      "name": "Nicolas Leiva Raya",
-      "countryCode": "ESP",
-      "title": null,
-      "fideId": "54766184",
-      "classicalRating": 2016,
       "status": "confirmed",
       "source": {
         "name": "chess-results",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-06T09:55:18Z",
-  "eventCount": 224,
+  "generatedAt": "2026-07-06T14:58:16Z",
+  "eventCount": 225,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 34
+      "count": 35
     },
     {
       "name": "uschess",
@@ -606,7 +606,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 9th Oman Club Chess Championship 2026.",
-      "description": "98 listed players. 9 rounds",
+      "description": "99 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -673,6 +673,47 @@
           "label": "Sala de Juego",
           "type": "stream",
           "url": "https://www.twitch.tv/eventosfeda"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28556",
+      "title": "Norwegian Championships 2026",
+      "shortTitle": "Norwegian Championships 2026",
+      "status": "live",
+      "startDate": "2026-07-02T22:00:00Z",
+      "endDate": "2026-07-11T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Norwegian Championships 2026.",
+      "description": "511 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/norwegian-national-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/norwegian-national-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -819,7 +860,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 19th Paracin International Open 2026.",
-      "description": "58 listed players. 9 rounds",
+      "description": "65 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -861,7 +902,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 6th La Plagne Chess Festival.",
-      "description": "69 listed players",
+      "description": "81 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1111,7 +1152,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Montenegro Open - Mediterranean 2026.",
-      "description": "163 listed players",
+      "description": "265 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1320,7 +1361,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Moroccan Chess Championship 2025-2026.",
-      "description": "37 listed players. 18 scheduled stream links",
+      "description": "40 listed players. 18 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1447,7 +1488,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: XLV Benasque Open.",
-      "description": "70 listed players. 10 rounds",
+      "description": "113 listed players. 10 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1489,7 +1530,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 4th Annual Independence Day Open.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "23 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1724,16 +1765,16 @@
     },
     {
       "id": "chesscom-28640",
-      "title": "39th Indian National Under-9 Open & Girls Chess Championship - 2026",
-      "shortTitle": "39th Indian National Under-9 Open & Girls Chess Championship - 2026",
-      "status": "upcoming",
+      "title": "39th Indian U9 Open & Girls Championships 2026",
+      "shortTitle": "39th Indian U9 Open & Girls Championships 2026",
+      "status": "live",
       "startDate": "2026-07-06T10:00:00Z",
       "endDate": "2026-07-12T09:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: 39th Indian National Under-9 Open & Girls Chess Championship - 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "summary": "Chess.com current event: 39th Indian U9 Open & Girls Championships 2026.",
+      "description": "16 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -2848,6 +2889,7 @@
         "margareth-olde",
         "tommi-luukkonen",
         "teemu-virtanen",
+        "ozgun-sahin",
         "barnabas-panda",
         "jonathan-chen",
         "herman-hietanen",
@@ -3010,6 +3052,7 @@
         "margareth-olde",
         "tommi-luukkonen",
         "teemu-virtanen",
+        "ozgun-sahin",
         "barnabas-panda",
         "jonathan-chen",
         "herman-hietanen",
@@ -3450,6 +3493,21 @@
           "title": "FM",
           "fideId": "509850",
           "classicalRating": 2224,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ozgun-sahin",
+          "name": "Ozgun Sahin",
+          "countryCode": "TUR",
+          "title": "FM",
+          "fideId": "6328121",
+          "classicalRating": 2209,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -5610,6 +5668,7 @@
         "tomasz-pietrzak",
         "maity-suvankar",
         "dimitrios-levon-zakarian",
+        "ioannis-k-kollias",
         "panagiotis-anagnostopoulos",
         "jakub-szuminski",
         "harilaos-panagiotis-bardis",
@@ -5825,8 +5884,7 @@
         "dimitrios-na-manikas",
         "michaela-mamasi",
         "ioannis-ouzounstefanis",
-        "vasileios-lampakis",
-        "haiyuan-shi"
+        "vasileios-lampakis"
       ],
       "channelIds": [
         "fide"
@@ -5948,6 +6006,7 @@
         "tomasz-pietrzak",
         "maity-suvankar",
         "dimitrios-levon-zakarian",
+        "ioannis-k-kollias",
         "panagiotis-anagnostopoulos",
         "jakub-szuminski",
         "harilaos-panagiotis-bardis",
@@ -6163,8 +6222,7 @@
         "dimitrios-na-manikas",
         "michaela-mamasi",
         "ioannis-ouzounstefanis",
-        "vasileios-lampakis",
-        "haiyuan-shi"
+        "vasileios-lampakis"
       ],
       "confirmedPlayers": [
         {
@@ -7403,6 +7461,21 @@
           "countryCode": "ENG",
           "title": null,
           "fideId": "453080",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ioannis-k-kollias",
+          "name": "Ioannis K. Kollias",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "4297105",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -10643,21 +10716,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42193907",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "haiyuan-shi",
-          "name": "Haiyuan Shi",
-          "countryCode": "CHN",
-          "title": null,
-          "fideId": "8636400",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -14751,7 +14809,6 @@
         "maciej-wolak",
         "k-b-praveen",
         "tudor-mihai-cruceru-uceanu",
-        "a-peter-anand",
         "razvan-george-parvu",
         "alina-mihailova",
         "yiheng-tang",
@@ -14777,7 +14834,6 @@
         "latife-yade-gunasti",
         "rom-manyevich",
         "daniel-vardi",
-        "patrick-david-dunca",
         "riccardo-soncin",
         "kun-fang",
         "maria-antonia-aldea",
@@ -14921,7 +14977,6 @@
         "maciej-wolak",
         "k-b-praveen",
         "tudor-mihai-cruceru-uceanu",
-        "a-peter-anand",
         "razvan-george-parvu",
         "alina-mihailova",
         "yiheng-tang",
@@ -14947,7 +15002,6 @@
         "latife-yade-gunasti",
         "rom-manyevich",
         "daniel-vardi",
-        "patrick-david-dunca",
         "riccardo-soncin",
         "kun-fang",
         "maria-antonia-aldea",
@@ -16344,21 +16398,6 @@
           }
         },
         {
-          "playerId": "a-peter-anand",
-          "name": "A Peter Anand",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "25003801",
-          "classicalRating": 2069,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "razvan-george-parvu",
           "name": "Razvan-George Parvu",
           "countryCode": "ROU",
@@ -16725,21 +16764,6 @@
           "title": null,
           "fideId": "2849127",
           "classicalRating": 1989,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "patrick-david-dunca",
-          "name": "Patrick-David Dunca",
-          "countryCode": "ROU",
-          "title": "I",
-          "fideId": "42209978",
-          "classicalRating": 1985,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -17606,6 +17630,7 @@
         "kashish-manoj-jain",
         "tim-janzelj",
         "erdene-baasansuren",
+        "sohan-belkaid",
         "bartlomiej-niedbala",
         "marc-narciso-dublan",
         "bernardo-cesar-maestre",
@@ -17721,8 +17746,7 @@
         "benito-vaz-perez",
         "jesus-molina-perez",
         "william-carlos-cezar-junior",
-        "filipe-diogo-correia-bartolo",
-        "nicolas-leiva-raya"
+        "filipe-diogo-correia-bartolo"
       ],
       "channelIds": [
         "fide"
@@ -17794,6 +17818,7 @@
         "kashish-manoj-jain",
         "tim-janzelj",
         "erdene-baasansuren",
+        "sohan-belkaid",
         "bartlomiej-niedbala",
         "marc-narciso-dublan",
         "bernardo-cesar-maestre",
@@ -17909,8 +17934,7 @@
         "benito-vaz-perez",
         "jesus-molina-perez",
         "william-carlos-cezar-junior",
-        "filipe-diogo-correia-bartolo",
-        "nicolas-leiva-raya"
+        "filipe-diogo-correia-bartolo"
       ],
       "confirmedPlayers": [
         {
@@ -18399,6 +18423,21 @@
           "countryCode": "MGL",
           "title": "IM",
           "fideId": "4902084",
+          "classicalRating": 2393,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "sohan-belkaid",
+          "name": "Sohan Belkaid",
+          "countryCode": "FRA",
+          "title": "FM",
+          "fideId": "45180350",
           "classicalRating": 2393,
           "profileLinks": {},
           "status": "confirmed",
@@ -20140,21 +20179,6 @@
           "title": null,
           "fideId": "1942565",
           "classicalRating": 2017,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nicolas-leiva-raya",
-          "name": "Nicolas Leiva Raya",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "54766184",
-          "classicalRating": 2016,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
