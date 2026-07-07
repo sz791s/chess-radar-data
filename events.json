@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T19:41:37Z",
+  "generatedAt": "2026-07-07T02:04:00Z",
   "eventCount": 90,
   "sources": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 34
+      "count": 35
     },
     {
       "name": "uschess",
@@ -57,43 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "chessbase-superunited-rapid-and-blitz-croatia-19-june-to-6-july-2026",
-      "title": "SuperUnited Rapid and Blitz Croatia",
-      "shortTitle": "SuperUnited Rapid and Blitz Croatia",
-      "status": "live",
-      "startDate": "2026-06-19T00:00:00Z",
-      "endDate": "2026-07-06T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zagreb, Croatia",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: SuperUnited Rapid and Blitz Croatia.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "rapid",
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "grand-chess-tour"
-      ],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "chesscom-28027",
       "title": "CopaBlunder 2026",
@@ -492,7 +455,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 6th La Plagne Chess Festival.",
-      "description": "283 listed players",
+      "description": "284 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -758,48 +721,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/xlviii-open-internacional-escacs-barbera-del-valles-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-28523",
-      "title": "3rd Czech Junior Super Tournament 2026",
-      "shortTitle": "3rd Czech Junior Super Tournament 2026",
-      "status": "live",
-      "startDate": "2026-07-05T00:00:00Z",
-      "endDate": "2026-07-11T23:55:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 3rd Czech Junior Super Tournament 2026.",
-      "description": "Listed on the Chess.com current events page.",
-      "categories": [
-        "online",
-        "broadcast",
-        "junior"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/junior-super-tournament-3rd-edition",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/junior-super-tournament-3rd-edition"
         },
         {
           "label": "Chess.com current events",
@@ -1088,6 +1009,91 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/39th-national-under-9-open-girls-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28523",
+      "title": "3rd Czech Junior Super Tournament 2026",
+      "shortTitle": "3rd Czech Junior Super Tournament 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-07T05:00:00Z",
+      "endDate": "2026-07-12T19:55:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 3rd Czech Junior Super Tournament 2026.",
+      "description": "15 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/junior-super-tournament-3rd-edition",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/junior-super-tournament-3rd-edition"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28648",
+      "title": "FIDE ISCF World Schools Team Championship - African Stage 2026",
+      "shortTitle": "FIDE ISCF World Schools Team Championship - African Stage 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-07T09:00:00Z",
+      "endDate": "2026-07-10T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: FIDE ISCF World Schools Team Championship - African Stage 2026.",
+      "description": "96 listed players. 8 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/fide-iscf-world-schools-team-championship-african-stage-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/fide-iscf-world-schools-team-championship-african-stage-2026"
         },
         {
           "label": "Chess.com current events",
