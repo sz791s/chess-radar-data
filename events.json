@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T13:30:11Z",
-  "eventCount": 96,
+  "generatedAt": "2026-07-08T19:06:51Z",
+  "eventCount": 95,
   "sources": [
     {
       "name": "curated",
@@ -372,7 +372,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 19th Paracin International Open 2026.",
-      "description": "71 listed players. 9 rounds",
+      "description": "72 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1246,7 +1246,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Canadian Youth Chess Championships.",
-      "description": "245 listed players",
+      "description": "249 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1329,7 +1329,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: II. Árpád-házi Jolán Open.",
-      "description": "9 rounds",
+      "description": "67 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1665,6 +1665,7 @@
         "toni-p-nni",
         "johanna-paasikangas",
         "mateusz-skomial",
+        "felix-wiger-nord-s",
         "maciej-gajdzica",
         "aaro-salmelin",
         "carlos-pappier",
@@ -1819,6 +1820,7 @@
         "toni-p-nni",
         "johanna-paasikangas",
         "mateusz-skomial",
+        "felix-wiger-nord-s",
         "maciej-gajdzica",
         "aaro-salmelin",
         "carlos-pappier",
@@ -2515,6 +2517,21 @@
           "title": null,
           "fideId": "1141678",
           "classicalRating": 2118,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "felix-wiger-nord-s",
+          "name": "Felix Wiger-Nordås",
+          "countryCode": "NOR",
+          "title": null,
+          "fideId": "1557203",
+          "classicalRating": 2111,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -20748,6 +20765,7 @@
         "erik-haidinger",
         "nikolina-golub",
         "mateusz-filipow",
+        "pedro-2006-fernandez-lopez",
         "jakob-grimm",
         "volkhard-hetzer",
         "jan-choina",
@@ -20755,6 +20773,7 @@
         "ivana-miki",
         "bo-o-mi-kovi",
         "ivica-kolumbi",
+        "diego-vazquez-alvarez",
         "nino-tomasovi",
         "kristijan-bogi",
         "tord-albrigtsen",
@@ -20894,6 +20913,7 @@
         "erik-haidinger",
         "nikolina-golub",
         "mateusz-filipow",
+        "pedro-2006-fernandez-lopez",
         "jakob-grimm",
         "volkhard-hetzer",
         "jan-choina",
@@ -20901,6 +20921,7 @@
         "ivana-miki",
         "bo-o-mi-kovi",
         "ivica-kolumbi",
+        "diego-vazquez-alvarez",
         "nino-tomasovi",
         "kristijan-bogi",
         "tord-albrigtsen",
@@ -21857,6 +21878,21 @@
           }
         },
         {
+          "playerId": "pedro-2006-fernandez-lopez",
+          "name": "Pedro 2006 Fernandez Lopez",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "24525162",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "jakob-grimm",
           "name": "Jakob Grimm",
           "countryCode": "GER",
@@ -21952,6 +21988,21 @@
           "countryCode": "CRO",
           "title": "II",
           "fideId": "14520168",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "diego-vazquez-alvarez",
+          "name": "Diego Vazquez Alvarez",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "22254846",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -23362,48 +23413,6 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://praguechessfestival.com/en/2027"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-1vcafmbq",
-      "title": "Prague International Chess Festival 2027 | Masters",
-      "shortTitle": "Prague International Chess Festival 2027 | Masters",
-      "status": "upcoming",
-      "startDate": "2027-02-16T14:15:00Z",
-      "endDate": "2027-02-25T09:15:00Z",
-      "timezone": "Europe/Prague",
-      "locationName": "Prague, Czechia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ"
         },
         {
           "label": "Official website",
