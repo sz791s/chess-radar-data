@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07T19:40:34Z",
-  "eventCount": 96,
+  "generatedAt": "2026-07-08T01:45:06Z",
+  "eventCount": 97,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 42
+      "count": 43
     },
     {
       "name": "uschess",
@@ -68,7 +68,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: CopaBlunder 2026.",
-      "description": "105 listed players. 6 scheduled stream links",
+      "description": "108 listed players. 6 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -455,7 +455,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 6th La Plagne Chess Festival.",
-      "description": "284 listed players",
+      "description": "285 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1287,7 +1287,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Canadian Youth Chess Championships.",
-      "description": "227 listed players",
+      "description": "233 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1322,14 +1322,14 @@
       "id": "chesscom-28511",
       "title": "Marshall Summer Six Day Invitational 2026",
       "shortTitle": "Marshall Summer Six Day Invitational 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-07T22:00:00Z",
       "endDate": "2026-07-13T00:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Marshall Summer Six Day Invitational 2026.",
-      "description": "50 listed players",
+      "description": "30 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1344,6 +1344,48 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/marshall-summer-six-day-invitational-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-25945",
+      "title": "II. Árpád-házi Jolán Open",
+      "shortTitle": "II. Árpád-házi Jolán Open",
+      "status": "upcoming",
+      "startDate": "2026-07-08T04:00:00Z",
+      "endDate": "2026-07-12T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: II. Árpád-házi Jolán Open.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/ii-arpad-hazi-jolan-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/ii-arpad-hazi-jolan-open"
         },
         {
           "label": "Chess.com current events",
