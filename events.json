@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-09T09:20:54Z",
-  "eventCount": 96,
+  "generatedAt": "2026-07-09T14:30:09Z",
+  "eventCount": 97,
   "sources": [
     {
       "name": "curated",
@@ -30,8 +30,9 @@
     },
     {
       "name": "chessdom",
-      "status": "ok",
-      "count": 9
+      "status": "error",
+      "count": 0,
+      "error": "Remote end closed connection without response"
     },
     {
       "name": "chessmix",
@@ -48,7 +49,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 42
+      "count": 44
     },
     {
       "name": "uschess",
@@ -1036,7 +1037,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Italian Championship Semifinals & Categories 2026.",
-      "description": "101 listed players. 9 rounds",
+      "description": "110 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1246,7 +1247,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Canadian Youth Chess Championships.",
-      "description": "251 listed players",
+      "description": "774 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1345,6 +1346,133 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/ii-arpad-hazi-jolan-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28828",
+      "title": "15. Nyírség Championship",
+      "shortTitle": "15. Nyírség Championship",
+      "status": "live",
+      "startDate": "2026-07-09T01:00:00Z",
+      "endDate": "2026-07-11T06:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 15. Nyírség Championship.",
+      "description": "54 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/xvl-nyirseg-torna",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/xvl-nyirseg-torna"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-q9b2onh1",
+      "title": "WR Women's Chess Tour 2026 Europe | Online Qualifier",
+      "shortTitle": "WR Women's Chess Tour 2026 Europe | Online Qualifier",
+      "status": "upcoming",
+      "startDate": "2026-07-09T16:00:00Z",
+      "endDate": "2026-07-09T16:00:00Z",
+      "timezone": "UTC",
+      "locationName": "lichess.org",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "8-player knockout",
+      "categories": [
+        "blitz",
+        "online",
+        "broadcast",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-europe-online-qualifier/q9b2Onh1",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-europe-online-qualifier/q9b2Onh1"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://wr-chess.com/events/wr-womens-chess-tour-2026-saint-tropez"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28754",
+      "title": "Peter Stuart Memorial Open 2026",
+      "shortTitle": "Peter Stuart Memorial Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-09T21:30:00Z",
+      "endDate": "2026-07-12T08:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Peter Stuart Memorial Open 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/peter-stuart-memorial-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/peter-stuart-memorial-open-2026"
         },
         {
           "label": "Chess.com current events",
@@ -1749,6 +1877,7 @@
         "marcela-fernandez-van-raap",
         "ulf-pruner",
         "olli-salmela",
+        "lily-popovics",
         "pauli-kiviaho",
         "helmi-j-rvel",
         "hilla-j-rvel",
@@ -1904,6 +2033,7 @@
         "marcela-fernandez-van-raap",
         "ulf-pruner",
         "olli-salmela",
+        "lily-popovics",
         "pauli-kiviaho",
         "helmi-j-rvel",
         "hilla-j-rvel",
@@ -3786,6 +3916,21 @@
           }
         },
         {
+          "playerId": "lily-popovics",
+          "name": "Lily Popovics",
+          "countryCode": "SWE",
+          "title": null,
+          "fideId": "1765019",
+          "classicalRating": 1542,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "pauli-kiviaho",
           "name": "Pauli Kiviaho",
           "countryCode": "FIN",
@@ -4114,8 +4259,7 @@
       "categories": [
         "team",
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -4125,16 +4269,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -12305,6 +12439,7 @@
         "cristobal-henriquez-villagra",
         "anand-pranav",
         "s-l-narayanan",
+        "francesco-sonis",
         "martin-petrov",
         "momchil-petkov",
         "emin-ohanyan",
@@ -12328,6 +12463,7 @@
         "andrei-filip",
         "yamac-samani",
         "robert-gabriel-sava",
+        "lucian-ioan-filip",
         "nathael-eugene",
         "mobina-alinasab",
         "alexandru-manea",
@@ -12340,8 +12476,10 @@
         "miruna-daria-lehaci",
         "rao-s-v-srinath",
         "k-p-pranav",
+        "vidar-seiger",
         "dragos-stefan-leu",
         "sarayu-velpula",
+        "vladimir-poley",
         "yoann-robert",
         "david-alexandru-botea",
         "ruslan-soltanici",
@@ -12359,27 +12497,33 @@
         "jemal-ovezdurdyyeva",
         "matei-teodor-dodoi",
         "hunor-zoltan-antal",
+        "eric-matei-prelipcean",
         "evgeniya-doluhanova",
         "seshadri-srija",
         "cristian-clement-daianu",
         "iosif-ciocani",
         "kirill-guretchii",
         "igor-volcov",
+        "andreea-marioara-cosman",
         "ema-obada",
         "michal-lahav",
+        "yellumahanthi-setumadhav",
         "alexandru-david-korcsek",
         "dragos-nicolae-dumitrache",
         "victor-muntean",
         "rafael-ienasoaie",
         "razvan-alexandru-panait",
         "tudor-gabriel-danila",
+        "radu-tampea",
         "angela-dragomirescu",
         "sirin-kalyani",
+        "martin-dimitrov",
         "david-saioc",
         "alin-ardeleanu",
         "carlo-marzano",
         "bastien-muller-moingt",
         "alan-zawisza",
+        "alexandru-balaban-voia",
         "victor-dominic-onica",
         "iwan-cave",
         "jan-wolak",
@@ -12409,7 +12553,9 @@
         "gabriel-ienasoaie",
         "devarsh-m-borkhetariya",
         "marian-zaim",
+        "ana-petricenco",
         "ivan-onofrasc",
+        "ovidiu-lupu",
         "bogdan-ovidiu-armenciu",
         "ray-hermans",
         "marian-david-voinescu",
@@ -12424,9 +12570,13 @@
         "ion-valentin-vaduva",
         "yanis-andrei-ganea",
         "stefan-mironescu",
+        "alexia-ioana-hoanca",
         "noam-slutsky",
+        "andrei-sfichi",
         "vlad-albu",
         "andreea-briana-stanciu",
+        "vasiliki-alexandri",
+        "dimitra-alexandri",
         "asaf-goldstein",
         "beeri-yehuda",
         "huseyin-cagan-taskiran",
@@ -12462,6 +12612,7 @@
         "cristobal-henriquez-villagra",
         "anand-pranav",
         "s-l-narayanan",
+        "francesco-sonis",
         "martin-petrov",
         "momchil-petkov",
         "emin-ohanyan",
@@ -12485,6 +12636,7 @@
         "andrei-filip",
         "yamac-samani",
         "robert-gabriel-sava",
+        "lucian-ioan-filip",
         "nathael-eugene",
         "mobina-alinasab",
         "alexandru-manea",
@@ -12497,8 +12649,10 @@
         "miruna-daria-lehaci",
         "rao-s-v-srinath",
         "k-p-pranav",
+        "vidar-seiger",
         "dragos-stefan-leu",
         "sarayu-velpula",
+        "vladimir-poley",
         "yoann-robert",
         "david-alexandru-botea",
         "ruslan-soltanici",
@@ -12516,27 +12670,33 @@
         "jemal-ovezdurdyyeva",
         "matei-teodor-dodoi",
         "hunor-zoltan-antal",
+        "eric-matei-prelipcean",
         "evgeniya-doluhanova",
         "seshadri-srija",
         "cristian-clement-daianu",
         "iosif-ciocani",
         "kirill-guretchii",
         "igor-volcov",
+        "andreea-marioara-cosman",
         "ema-obada",
         "michal-lahav",
+        "yellumahanthi-setumadhav",
         "alexandru-david-korcsek",
         "dragos-nicolae-dumitrache",
         "victor-muntean",
         "rafael-ienasoaie",
         "razvan-alexandru-panait",
         "tudor-gabriel-danila",
+        "radu-tampea",
         "angela-dragomirescu",
         "sirin-kalyani",
+        "martin-dimitrov",
         "david-saioc",
         "alin-ardeleanu",
         "carlo-marzano",
         "bastien-muller-moingt",
         "alan-zawisza",
+        "alexandru-balaban-voia",
         "victor-dominic-onica",
         "iwan-cave",
         "jan-wolak",
@@ -12566,7 +12726,9 @@
         "gabriel-ienasoaie",
         "devarsh-m-borkhetariya",
         "marian-zaim",
+        "ana-petricenco",
         "ivan-onofrasc",
+        "ovidiu-lupu",
         "bogdan-ovidiu-armenciu",
         "ray-hermans",
         "marian-david-voinescu",
@@ -12581,9 +12743,13 @@
         "ion-valentin-vaduva",
         "yanis-andrei-ganea",
         "stefan-mironescu",
+        "alexia-ioana-hoanca",
         "noam-slutsky",
+        "andrei-sfichi",
         "vlad-albu",
         "andreea-briana-stanciu",
+        "vasiliki-alexandri",
+        "dimitra-alexandri",
         "asaf-goldstein",
         "beeri-yehuda",
         "huseyin-cagan-taskiran",
@@ -12643,6 +12809,21 @@
           "title": "GM",
           "fideId": "5058422",
           "classicalRating": 2581,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "francesco-sonis",
+          "name": "Francesco Sonis",
+          "countryCode": "ITA",
+          "title": "GM",
+          "fideId": "895733",
+          "classicalRating": 2540,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -12997,6 +13178,21 @@
           }
         },
         {
+          "playerId": "lucian-ioan-filip",
+          "name": "Lucian-Ioan Filip",
+          "countryCode": "ROU",
+          "title": "IM",
+          "fideId": "1208900",
+          "classicalRating": 2313,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "nathael-eugene",
           "name": "Nathael Eugene",
           "countryCode": "FRA",
@@ -13177,6 +13373,21 @@
           }
         },
         {
+          "playerId": "vidar-seiger",
+          "name": "Vidar Seiger",
+          "countryCode": "SWE",
+          "title": "FM",
+          "fideId": "1756079",
+          "classicalRating": 2287,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "dragos-stefan-leu",
           "name": "Dragos Stefan Leu",
           "countryCode": "ROU",
@@ -13198,6 +13409,21 @@
           "title": "WIM",
           "fideId": "45075204",
           "classicalRating": 2280,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vladimir-poley",
+          "name": "Vladimir Poley",
+          "countryCode": "FID",
+          "title": "IM",
+          "fideId": "13500090",
+          "classicalRating": 2276,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -13462,6 +13688,21 @@
           }
         },
         {
+          "playerId": "eric-matei-prelipcean",
+          "name": "Eric-Matei Prelipcean",
+          "countryCode": "ROU",
+          "title": "CM",
+          "fideId": "1263269",
+          "classicalRating": 2210,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "evgeniya-doluhanova",
           "name": "Evgeniya Doluhanova",
           "countryCode": "UKR",
@@ -13552,6 +13793,21 @@
           }
         },
         {
+          "playerId": "andreea-marioara-cosman",
+          "name": "Andreea-Marioara Cosman",
+          "countryCode": "ROU",
+          "title": "WIM",
+          "fideId": "1217968",
+          "classicalRating": 2187,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ema-obada",
           "name": "Ema Obada",
           "countryCode": "ROU",
@@ -13573,6 +13829,21 @@
           "title": "WIM",
           "fideId": "2813742",
           "classicalRating": 2181,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "yellumahanthi-setumadhav",
+          "name": "Yellumahanthi Setumadhav",
+          "countryCode": "IND",
+          "title": "FM",
+          "fideId": "25920669",
+          "classicalRating": 2178,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -13672,6 +13943,21 @@
           }
         },
         {
+          "playerId": "radu-tampea",
+          "name": "Radu Tampea",
+          "countryCode": "ROU",
+          "title": "CM",
+          "fideId": "1242768",
+          "classicalRating": 2157,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "angela-dragomirescu",
           "name": "Angela Dragomirescu",
           "countryCode": "ROU",
@@ -13693,6 +13979,21 @@
           "title": "WIM",
           "fideId": "33323500",
           "classicalRating": 2150,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "martin-dimitrov",
+          "name": "Martin Dimitrov",
+          "countryCode": "BUL",
+          "title": null,
+          "fideId": "2924099",
+          "classicalRating": 2144,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -13768,6 +14069,21 @@
           "title": null,
           "fideId": "91131456",
           "classicalRating": 2112,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alexandru-balaban-voia",
+          "name": "Alexandru Balaban-Voia",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "1241575",
+          "classicalRating": 2106,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -14212,12 +14528,42 @@
           }
         },
         {
+          "playerId": "ana-petricenco",
+          "name": "Ana Petricenco",
+          "countryCode": "MDA",
+          "title": "WFM",
+          "fideId": "13908596",
+          "classicalRating": 2018,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ivan-onofrasc",
           "name": "Ivan Onofrasc",
           "countryCode": "ROU",
           "title": "CM",
           "fideId": "42213428",
           "classicalRating": 2016,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ovidiu-lupu",
+          "name": "Ovidiu Lupu",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "1283413",
+          "classicalRating": 2012,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -14437,12 +14783,42 @@
           }
         },
         {
+          "playerId": "alexia-ioana-hoanca",
+          "name": "Alexia-Ioana Hoanca",
+          "countryCode": "ROU",
+          "title": "WCM",
+          "fideId": "1285629",
+          "classicalRating": 1926,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "noam-slutsky",
           "name": "Noam Slutsky",
           "countryCode": "ISR",
           "title": null,
           "fideId": "2837200",
           "classicalRating": 1922,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "andrei-sfichi",
+          "name": "Andrei Sfichi",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "42219612",
+          "classicalRating": 1898,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -14473,6 +14849,36 @@
           "title": "WCM",
           "fideId": "1233769",
           "classicalRating": 1884,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vasiliki-alexandri",
+          "name": "Vasiliki Alexandri",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42103606",
+          "classicalRating": 1874,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "dimitra-alexandri",
+          "name": "Dimitra Alexandri",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42107989",
+          "classicalRating": 1855,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -20614,47 +21020,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
-      "title": "European Chess Club Cup Open & Women 2026",
-      "shortTitle": "European Chess Club Cup Open & Women 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-16T00:00:00Z",
-      "endDate": "2026-10-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budva - Montenegro",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
-      "description": "Continental Classical Women",
-      "categories": [
-        "classical",
-        "women",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
-      "links": [
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "chessdom",
-        "url": "https://calendar.chessdom.com/2026-calendar/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -23016,8 +23381,7 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -23027,16 +23391,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -23413,48 +23767,6 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://praguechessfestival.com/en/2027"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-1vcafmbq",
-      "title": "Prague International Chess Festival 2027 | Masters",
-      "shortTitle": "Prague International Chess Festival 2027 | Masters",
-      "status": "upcoming",
-      "startDate": "2027-02-16T14:15:00Z",
-      "endDate": "2027-02-25T09:15:00Z",
-      "timezone": "Europe/Prague",
-      "locationName": "Prague, Czechia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ"
         },
         {
           "label": "Official website",
