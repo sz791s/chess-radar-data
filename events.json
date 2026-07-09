@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T19:06:51Z",
-  "eventCount": 95,
+  "generatedAt": "2026-07-09T01:56:10Z",
+  "eventCount": 96,
   "sources": [
     {
       "name": "curated",
@@ -875,7 +875,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 4th Annual Independence Day Open.",
-      "description": "34 listed players",
+      "description": "35 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1246,7 +1246,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Canadian Youth Chess Championships.",
-      "description": "249 listed players",
+      "description": "252 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -14748,6 +14748,7 @@
         "alejandro-yuste-valenzuela",
         "fredrik-lindh",
         "daniel-aishwin",
+        "garg-vedant",
         "alvaro-rodriguez-avila",
         "ismael-amador-garcia",
         "miguel-roquero-redondo",
@@ -14769,6 +14770,7 @@
         "miguel-bas-mas",
         "ruben-valhondo-morales",
         "jose-joaquin-bas-mas",
+        "das-suvradeepta",
         "silje-bjerke",
         "alejandro-serrano-almendros",
         "catalin-conon",
@@ -14791,7 +14793,6 @@
         "pablo-cayon-pelaez",
         "luke-widjaja",
         "daniel-gomez",
-        "r-anirudh",
         "gustavo-barrenechea-bahamonde",
         "antonio-galvez-ruiz",
         "roxanny-matute-escobar",
@@ -14808,8 +14809,7 @@
         "yago-otero-porcel",
         "javier-latre-rodriguez",
         "benito-vaz-perez",
-        "jesus-molina-perez",
-        "william-carlos-cezar-junior"
+        "jesus-molina-perez"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/598",
@@ -14924,6 +14924,7 @@
         "alejandro-yuste-valenzuela",
         "fredrik-lindh",
         "daniel-aishwin",
+        "garg-vedant",
         "alvaro-rodriguez-avila",
         "ismael-amador-garcia",
         "miguel-roquero-redondo",
@@ -14945,6 +14946,7 @@
         "miguel-bas-mas",
         "ruben-valhondo-morales",
         "jose-joaquin-bas-mas",
+        "das-suvradeepta",
         "silje-bjerke",
         "alejandro-serrano-almendros",
         "catalin-conon",
@@ -14967,7 +14969,6 @@
         "pablo-cayon-pelaez",
         "luke-widjaja",
         "daniel-gomez",
-        "r-anirudh",
         "gustavo-barrenechea-bahamonde",
         "antonio-galvez-ruiz",
         "roxanny-matute-escobar",
@@ -14984,8 +14985,7 @@
         "yago-otero-porcel",
         "javier-latre-rodriguez",
         "benito-vaz-perez",
-        "jesus-molina-perez",
-        "william-carlos-cezar-junior"
+        "jesus-molina-perez"
       ],
       "confirmedPlayers": [
         {
@@ -16309,6 +16309,21 @@
           }
         },
         {
+          "playerId": "garg-vedant",
+          "name": "Garg Vedant",
+          "countryCode": "IND",
+          "title": null,
+          "fideId": "33422362",
+          "classicalRating": 2218,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "alvaro-rodriguez-avila",
           "name": "Alvaro Rodriguez Avila",
           "countryCode": "ESP",
@@ -16615,6 +16630,21 @@
           "title": "FM",
           "fideId": "22219064",
           "classicalRating": 2148,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "das-suvradeepta",
+          "name": "Das Suvradeepta",
+          "countryCode": "IND",
+          "title": "FM",
+          "fideId": "5058031",
+          "classicalRating": 2147,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -16954,21 +16984,6 @@
           }
         },
         {
-          "playerId": "r-anirudh",
-          "name": "R Anirudh",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "25775677",
-          "classicalRating": 2092,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "gustavo-barrenechea-bahamonde",
           "name": "Gustavo Barrenechea Bahamonde",
           "countryCode": "ESP",
@@ -17215,21 +17230,6 @@
           "title": null,
           "fideId": "22246380",
           "classicalRating": 2020,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "william-carlos-cezar-junior",
-          "name": "William Carlos Cezar Junior",
-          "countryCode": "BRA",
-          "title": null,
-          "fideId": "2130769",
-          "classicalRating": 2019,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -23413,6 +23413,48 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://praguechessfestival.com/en/2027"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-1vcafmbq",
+      "title": "Prague International Chess Festival 2027 | Masters",
+      "shortTitle": "Prague International Chess Festival 2027 | Masters",
+      "status": "upcoming",
+      "startDate": "2027-02-16T14:15:00Z",
+      "endDate": "2027-02-25T09:15:00Z",
+      "timezone": "Europe/Prague",
+      "locationName": "Prague, Czechia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ"
         },
         {
           "label": "Official website",
