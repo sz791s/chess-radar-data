@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T14:30:09Z",
+  "generatedAt": "2026-07-09T19:22:11Z",
   "eventCount": 97,
   "sources": [
     {
@@ -30,9 +30,8 @@
     },
     {
       "name": "chessdom",
-      "status": "error",
-      "count": 0,
-      "error": "Remote end closed connection without response"
+      "status": "ok",
+      "count": 9
     },
     {
       "name": "chessmix",
@@ -49,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 44
+      "count": 43
     },
     {
       "name": "uschess",
@@ -245,7 +244,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U8-U16 Championships 2026.",
-      "description": "230 listed players. 1 scheduled stream links",
+      "description": "231 listed players. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -783,47 +782,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28649",
-      "title": "Seleksi Tim Olimpiade Catur Indonesia 2026",
-      "shortTitle": "Seleksi Tim Olimpiade Catur Indonesia 2026",
-      "status": "live",
-      "startDate": "2026-07-05T14:00:00Z",
-      "endDate": "2026-07-09T18:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Seleksi Tim Olimpiade Catur Indonesia 2026.",
-      "description": "20 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/seleksi-tim-olimpiade-catur-indonesia",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/seleksi-tim-olimpiade-catur-indonesia"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-28129",
       "title": "XLV Benasque Open",
       "shortTitle": "XLV Benasque Open",
@@ -876,7 +834,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 4th Annual Independence Day Open.",
-      "description": "35 listed players",
+      "description": "36 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1363,16 +1321,16 @@
     },
     {
       "id": "chesscom-28828",
-      "title": "15. Nyírség Championship",
-      "shortTitle": "15. Nyírség Championship",
+      "title": "45. Nyírség Championship",
+      "shortTitle": "45. Nyírség Championship",
       "status": "live",
       "startDate": "2026-07-09T01:00:00Z",
       "endDate": "2026-07-11T06:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: 15. Nyírség Championship.",
-      "description": "54 listed players",
+      "summary": "Chess.com current event: 45. Nyírség Championship.",
+      "description": "55 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1398,50 +1356,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-q9b2onh1",
-      "title": "WR Women's Chess Tour 2026 Europe | Online Qualifier",
-      "shortTitle": "WR Women's Chess Tour 2026 Europe | Online Qualifier",
-      "status": "upcoming",
-      "startDate": "2026-07-09T16:00:00Z",
-      "endDate": "2026-07-09T16:00:00Z",
-      "timezone": "UTC",
-      "locationName": "lichess.org",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "8-player knockout",
-      "categories": [
-        "blitz",
-        "online",
-        "broadcast",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-europe-online-qualifier/q9b2Onh1",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/wr-womens-chess-tour-2026-europe-online-qualifier/q9b2Onh1"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://wr-chess.com/events/wr-womens-chess-tour-2026-saint-tropez"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1777,6 +1691,7 @@
         "tommi-luukkonen",
         "teemu-virtanen",
         "ozgun-sahin",
+        "igor-ivanov",
         "barnabas-panda",
         "jonathan-chen",
         "herman-hietanen",
@@ -1933,6 +1848,7 @@
         "tommi-luukkonen",
         "teemu-virtanen",
         "ozgun-sahin",
+        "igor-ivanov",
         "barnabas-panda",
         "jonathan-chen",
         "herman-hietanen",
@@ -2407,6 +2323,21 @@
           "title": "FM",
           "fideId": "6328121",
           "classicalRating": 2209,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "igor-ivanov",
+          "name": "Igor Ivanov",
+          "countryCode": "LAT",
+          "title": null,
+          "fideId": "34137430",
+          "classicalRating": 2205,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -4259,7 +4190,8 @@
       "categories": [
         "team",
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -4269,6 +4201,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -21020,6 +20962,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
+      "title": "European Chess Club Cup Open & Women 2026",
+      "shortTitle": "European Chess Club Cup Open & Women 2026",
+      "status": "upcoming",
+      "startDate": "2026-10-16T00:00:00Z",
+      "endDate": "2026-10-24T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Budva - Montenegro",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
+      "description": "Continental Classical Women",
+      "categories": [
+        "classical",
+        "women",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
+      "links": [
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
+        }
+      ],
+      "source": {
+        "name": "chessdom",
+        "url": "https://calendar.chessdom.com/2026-calendar/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -23381,7 +23364,8 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -23391,6 +23375,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
@@ -23767,6 +23761,48 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-futures/DOH73W7G"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://praguechessfestival.com/en/2027"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-1vcafmbq",
+      "title": "Prague International Chess Festival 2027 | Masters",
+      "shortTitle": "Prague International Chess Festival 2027 | Masters",
+      "status": "upcoming",
+      "startDate": "2027-02-16T14:15:00Z",
+      "endDate": "2027-02-25T09:15:00Z",
+      "timezone": "Europe/Prague",
+      "locationName": "Prague, Czechia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/prague-international-chess-festival-2027-masters/1VcAFMbQ"
         },
         {
           "label": "Official website",

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-09T14:30:17Z",
-  "eventPlayerCount": 1156,
+  "generatedAt": "2026-07-09T19:22:24Z",
+  "eventPlayerCount": 1157,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 1156
+      "count": 1157
     },
     {
       "name": "curated",
@@ -382,6 +382,21 @@
       "title": "FM",
       "fideId": "6328121",
       "classicalRating": 2209,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-xxxiv-heart-of-finland-open-13-19-jul-2026",
+      "playerId": "igor-ivanov",
+      "name": "Igor Ivanov",
+      "countryCode": "LAT",
+      "title": null,
+      "fideId": "34137430",
+      "classicalRating": 2205,
       "status": "confirmed",
       "source": {
         "name": "chess-results",
