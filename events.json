@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T01:56:10Z",
+  "generatedAt": "2026-07-09T09:20:54Z",
   "eventCount": 96,
   "sources": [
     {
@@ -244,7 +244,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U8-U16 Championships 2026.",
-      "description": "222 listed players. 1 scheduled stream links",
+      "description": "230 listed players. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -496,7 +496,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Kazakhstan Youth Championship 2026 Stage 4.",
-      "description": "60 listed players",
+      "description": "62 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -833,7 +833,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: XLV Benasque Open.",
-      "description": "509 listed players. 10 rounds",
+      "description": "510 listed players. 10 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1036,7 +1036,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Italian Championship Semifinals & Categories 2026.",
-      "description": "95 listed players. 9 rounds",
+      "description": "101 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1162,7 +1162,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: FIDE ISCF World Schools Team Championship - African Stage 2026.",
-      "description": "113 listed players. 8 rounds",
+      "description": "118 listed players. 8 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1246,7 +1246,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Canadian Youth Chess Championships.",
-      "description": "252 listed players",
+      "description": "251 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1329,7 +1329,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: II. Árpád-házi Jolán Open.",
-      "description": "67 listed players. 9 rounds",
+      "description": "77 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -4399,6 +4399,7 @@
         "roman-werner",
         "rafail-potamitis",
         "vasileios-volanis",
+        "emmanouil-ntagkounakis",
         "yixuan-deng",
         "eleni-tzavara",
         "andrew-yu",
@@ -4461,8 +4462,7 @@
         "sonni-vladan",
         "kyriakos-psarakis",
         "alexandros-stratoudakis",
-        "michail-lavdakis",
-        "giorgis-nikolaidis"
+        "michail-lavdakis"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/566",
@@ -4725,6 +4725,7 @@
         "roman-werner",
         "rafail-potamitis",
         "vasileios-volanis",
+        "emmanouil-ntagkounakis",
         "yixuan-deng",
         "eleni-tzavara",
         "andrew-yu",
@@ -4787,8 +4788,7 @@
         "sonni-vladan",
         "kyriakos-psarakis",
         "alexandros-stratoudakis",
-        "michail-lavdakis",
-        "giorgis-nikolaidis"
+        "michail-lavdakis"
       ],
       "confirmedPlayers": [
         {
@@ -8332,6 +8332,21 @@
           }
         },
         {
+          "playerId": "emmanouil-ntagkounakis",
+          "name": "Emmanouil Ntagkounakis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25881833",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "yixuan-deng",
           "name": "Yixuan Deng",
           "countryCode": "CHN",
@@ -9267,21 +9282,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42163153",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "giorgis-nikolaidis",
-          "name": "Giorgis Nikolaidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541006380",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -14754,6 +14754,7 @@
         "miguel-roquero-redondo",
         "ozgun-sahin",
         "samuel-dubuisson",
+        "bence-sagi",
         "jose-manuel-perez-gonzalez",
         "victor-manuel-vehi-bach",
         "camille-blanquet",
@@ -14808,8 +14809,7 @@
         "iuliia-babak",
         "yago-otero-porcel",
         "javier-latre-rodriguez",
-        "benito-vaz-perez",
-        "jesus-molina-perez"
+        "benito-vaz-perez"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/598",
@@ -14930,6 +14930,7 @@
         "miguel-roquero-redondo",
         "ozgun-sahin",
         "samuel-dubuisson",
+        "bence-sagi",
         "jose-manuel-perez-gonzalez",
         "victor-manuel-vehi-bach",
         "camille-blanquet",
@@ -14984,8 +14985,7 @@
         "iuliia-babak",
         "yago-otero-porcel",
         "javier-latre-rodriguez",
-        "benito-vaz-perez",
-        "jesus-molina-perez"
+        "benito-vaz-perez"
       ],
       "confirmedPlayers": [
         {
@@ -16399,6 +16399,21 @@
           }
         },
         {
+          "playerId": "bence-sagi",
+          "name": "Bence Sagi",
+          "countryCode": "HUN",
+          "title": null,
+          "fideId": "783706",
+          "classicalRating": 2206,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "jose-manuel-perez-gonzalez",
           "name": "Jose Manuel Perez Gonzalez",
           "countryCode": "ESP",
@@ -17214,21 +17229,6 @@
           "countryCode": "ESP",
           "title": null,
           "fideId": "32097409",
-          "classicalRating": 2020,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jesus-molina-perez",
-          "name": "Jesus Molina Perez",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "22246380",
           "classicalRating": 2020,
           "profileLinks": {},
           "status": "confirmed",
