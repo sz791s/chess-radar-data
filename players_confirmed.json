@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T09:18:26Z",
-  "playerCount": 1132,
+  "generatedAt": "2026-07-10T13:58:27Z",
+  "playerCount": 1133,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -11135,6 +11135,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "frans-valli",
+      "name": "Frans Valli",
+      "countryCode": "FIN",
+      "title": "FM",
+      "fideId": "506087",
+      "classicalRating": 2227,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-xxxiv-heart-of-finland-open-13-19-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-xxxiv-heart-of-finland-open-13-19-jul-2026",
+          "title": "XXXIV Heart of Finland Open",
+          "status": "upcoming",
+          "startDate": "2026-07-13T00:00:00Z",
+          "endDate": "2026-07-19T23:59:59Z",
+          "locationName": "Jyväskylä, Finland",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/548",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
             "confidence": "high"
           }
         }
@@ -36950,9 +36984,30 @@
       "classicalRating": 2287,
       "profileLinks": {},
       "confirmedEventIds": [
+        "chessaround-xxxiv-heart-of-finland-open-13-19-jul-2026",
         "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
       ],
       "confirmedEvents": [
+        {
+          "eventId": "chessaround-xxxiv-heart-of-finland-open-13-19-jul-2026",
+          "title": "XXXIV Heart of Finland Open",
+          "status": "upcoming",
+          "startDate": "2026-07-13T00:00:00Z",
+          "endDate": "2026-07-19T23:59:59Z",
+          "locationName": "Jyväskylä, Finland",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/548",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1317959.aspx?lan=1&flag=30&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
         {
           "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
           "title": "Brasov Grand Prix Classic 2026",
