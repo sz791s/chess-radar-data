@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-15T07:50:16Z",
-  "playerCount": 2335,
+  "generatedAt": "2026-07-15T13:11:26Z",
+  "playerCount": 2365,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -1479,10 +1479,11 @@
       "countryCode": "IND",
       "title": "IM",
       "fideId": "5092442",
-      "classicalRating": null,
+      "classicalRating": 2442,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026"
+        "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026",
+        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
       ],
       "confirmedEvents": [
         {
@@ -1502,6 +1503,25 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1373991.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
+          "title": "24th Spilimbergo International Chess Tournament",
+          "status": "upcoming",
+          "startDate": "2026-08-08T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Spilimbergo, Italy",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -2098,6 +2118,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aleksander-brzozka",
+      "name": "Aleksander Brzozka",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "91183715",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -3561,39 +3614,6 @@
       "title": "FM",
       "fideId": "1217674",
       "classicalRating": 2328,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "alexia-ioana-hoanca",
-      "name": "Alexia-Ioana Hoanca",
-      "countryCode": "ROU",
-      "title": "WCM",
-      "fideId": "1285629",
-      "classicalRating": 1926,
       "profileLinks": {},
       "confirmedEventIds": [
         "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
@@ -5205,39 +5225,6 @@
       ]
     },
     {
-      "id": "andrea-cocchi",
-      "name": "Andrea Cocchi",
-      "countryCode": "ITA",
-      "title": "FM",
-      "fideId": "800970",
-      "classicalRating": 2094,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
-          "title": "24th Spilimbergo International Chess Tournament",
-          "status": "upcoming",
-          "startDate": "2026-08-08T00:00:00Z",
-          "endDate": "2026-08-15T23:59:59Z",
-          "locationName": "Spilimbergo, Italy",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "andrea-della-pietra",
       "name": "Andrea Della Pietra",
       "countryCode": "ITA",
@@ -5668,39 +5655,6 @@
       "title": null,
       "fideId": "2003058",
       "classicalRating": 2255,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "andrei-sfichi",
-      "name": "Andrei Sfichi",
-      "countryCode": "ROU",
-      "title": "I",
-      "fideId": "42219612",
-      "classicalRating": 1898,
       "profileLinks": {},
       "confirmedEventIds": [
         "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
@@ -7175,6 +7129,72 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "antoni-kulpinski",
+      "name": "Antoni Kulpinski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21087539",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "antoni-stepien",
+      "name": "Antoni Stepien",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "91143969",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -8766,6 +8786,40 @@
       ]
     },
     {
+      "id": "artem-mikhno",
+      "name": "Artem Mikhno",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "34141359",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "artem-odegov",
       "name": "Artem Odegov",
       "countryCode": "FID",
@@ -8828,6 +8882,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "artem-t-mamikonyan",
+      "name": "Artem T Mamikonyan",
+      "countryCode": "ARM",
+      "title": "CM",
+      "fideId": "55613993",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "upcoming",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -10565,6 +10653,39 @@
       ]
     },
     {
+      "id": "bartlomiej-golebiowski",
+      "name": "Bartlomiej Golebiowski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21023778",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "bartlomiej-heberla",
       "name": "Bartlomiej Heberla",
       "countryCode": "POL",
@@ -11412,6 +11533,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blanka-cieplak",
+      "name": "Blanka Cieplak",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21036721",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -13636,6 +13790,40 @@
       ]
     },
     {
+      "id": "chloe-badenhorst",
+      "name": "Chloe Badenhorst",
+      "countryCode": "RSA",
+      "title": "WFM",
+      "fideId": "14339463",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "chongsheng-zeng",
       "name": "Chongsheng Zeng",
       "countryCode": "CHN",
@@ -13766,6 +13954,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1338669.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "christian-paseka",
+      "name": "Christian Paseka",
+      "countryCode": "AUT",
+      "title": null,
+      "fideId": "1602748",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -14767,40 +14989,6 @@
       ]
     },
     {
-      "id": "cristian-vitier-vazquez",
-      "name": "Cristian Vitier Vazquez",
-      "countryCode": "CUB",
-      "title": "IM",
-      "fideId": "3513157",
-      "classicalRating": 2375,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-50th-international-chess-open-vila-de-sitges-22-30-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-50th-international-chess-open-vila-de-sitges-22-30-jul-2026",
-          "title": "50th International Chess Open \"Vila de Sitges\"",
-          "status": "upcoming",
-          "startDate": "2026-07-22T00:00:00Z",
-          "endDate": "2026-07-30T23:59:59Z",
-          "locationName": "Sitges, Spain",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/624",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333178.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "cristian-clement-daianu",
       "name": "Cristian-Clement Daianu",
       "countryCode": "ROU",
@@ -15187,6 +15375,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "daniel-badenhorst",
+      "name": "Daniel Badenhorst",
+      "countryCode": "RSA",
+      "title": null,
+      "fideId": "14350769",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -16133,6 +16355,39 @@
       ]
     },
     {
+      "id": "daria-cieplak",
+      "name": "Daria Cieplak",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21035059",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "daria-ana-marcu",
       "name": "Daria-Ana Marcu",
       "countryCode": "ROU",
@@ -16844,6 +17099,40 @@
       ]
     },
     {
+      "id": "david-monteagudo-sabate",
+      "name": "David Monteagudo Sabate",
+      "countryCode": "MEX",
+      "title": null,
+      "fideId": "5104955",
+      "classicalRating": 1995,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-50th-international-chess-open-vila-de-sitges-22-30-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-50th-international-chess-open-vila-de-sitges-22-30-jul-2026",
+          "title": "50th International Chess Open \"Vila de Sitges\"",
+          "status": "upcoming",
+          "startDate": "2026-07-22T00:00:00Z",
+          "endDate": "2026-07-30T23:59:59Z",
+          "locationName": "Sitges, Spain",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/624",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333178.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "david-murko",
       "name": "David Murko",
       "countryCode": "SLO",
@@ -17007,6 +17296,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1338669.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "david-vognic",
+      "name": "David Vognic",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "23780673",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -17354,6 +17677,39 @@
       "countryCode": "POL",
       "title": null,
       "fideId": "1139142",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dawid-ostojski",
+      "name": "Dawid Ostojski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21894914",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -19630,6 +19986,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1338669.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dominik-krupa",
+      "name": "Dominik Krupa",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21836132",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -22235,39 +22624,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ernesto-squasi",
-      "name": "Ernesto Squasi",
-      "countryCode": "AUT",
-      "title": null,
-      "fideId": "1684507",
-      "classicalRating": 2091,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
-          "title": "24th Spilimbergo International Chess Tournament",
-          "status": "upcoming",
-          "startDate": "2026-08-08T00:00:00Z",
-          "endDate": "2026-08-15T23:59:59Z",
-          "locationName": "Spilimbergo, Italy",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -29420,6 +29776,40 @@
       ]
     },
     {
+      "id": "hubert-meers",
+      "name": "Hubert Meers",
+      "countryCode": "POL",
+      "title": "FM",
+      "fideId": "21817014",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "hubert-olbrycht",
       "name": "Hubert Olbrycht",
       "countryCode": "POL",
@@ -30274,39 +30664,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ilinca-petra-batagan",
-      "name": "Ilinca-Petra Batagan",
-      "countryCode": "ROU",
-      "title": "WCM",
-      "fideId": "1261002",
-      "classicalRating": 1965,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -31618,39 +31975,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ion-valentin-vaduva",
-      "name": "Ion-Valentin Vaduva",
-      "countryCode": "ROU",
-      "title": "I",
-      "fideId": "1268570",
-      "classicalRating": 1964,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -35727,39 +36051,6 @@
       ]
     },
     {
-      "id": "jonas-unterweger",
-      "name": "Jonas Unterweger",
-      "countryCode": "ITA",
-      "title": null,
-      "fideId": "28538013",
-      "classicalRating": 2088,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
-          "title": "24th Spilimbergo International Chess Tournament",
-          "status": "upcoming",
-          "startDate": "2026-08-08T00:00:00Z",
-          "endDate": "2026-08-15T23:59:59Z",
-          "locationName": "Spilimbergo, Italy",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "jonathan-de-kleuver",
       "name": "Jonathan De Kleuver",
       "countryCode": "NED",
@@ -38245,6 +38536,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kajetan-mich",
+      "name": "Kajetan Mich",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "91110890",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -41578,6 +41902,40 @@
       ]
     },
     {
+      "id": "krzysztof-zawal",
+      "name": "Krzysztof Zawal",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21023255",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "ksenia-usatenko",
       "name": "Ksenia Usatenko",
       "countryCode": "UKR",
@@ -43345,6 +43703,39 @@
       ]
     },
     {
+      "id": "lia-alexandra-maria",
+      "name": "Lia-Alexandra Maria",
+      "countryCode": "ROU",
+      "title": "WFM",
+      "fideId": "1248952",
+      "classicalRating": 2001,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "liam-putnam",
       "name": "Liam Putnam",
       "countryCode": "USA",
@@ -44402,6 +44793,39 @@
       ]
     },
     {
+      "id": "lucas-rusu",
+      "name": "Lucas Rusu",
+      "countryCode": "ROU",
+      "title": "CM",
+      "fideId": "42206472",
+      "classicalRating": 2191,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "lucian-ioan-filip",
       "name": "Lucian-Ioan Filip",
       "countryCode": "ROU",
@@ -44753,6 +45177,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lukas-dubsky",
+      "name": "Lukas Dubsky",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "23716908",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -45298,6 +45756,39 @@
       ]
     },
     {
+      "id": "maciej-kulpinski",
+      "name": "Maciej Kulpinski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21037949",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "maciej-wolak",
       "name": "Maciej Wolak",
       "countryCode": "POL",
@@ -45611,6 +46102,39 @@
       ]
     },
     {
+      "id": "maja-golebiowska",
+      "name": "Maja Golebiowska",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21036730",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "maksym-khymchenko",
       "name": "Maksym Khymchenko",
       "countryCode": "UKR",
@@ -45786,10 +46310,11 @@
       "countryCode": "ARM",
       "title": "GM",
       "fideId": "13308300",
-      "classicalRating": null,
+      "classicalRating": 2485,
       "profileLinks": {},
       "confirmedEventIds": [
         "chessaround-19th-paleochora-open-chess-tournament-18-25-jul-2026",
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
         "chessaround-5-open-hvar-2026-19-25-oct-2026"
       ],
       "confirmedEvents": [
@@ -45810,6 +46335,25 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        },
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         },
@@ -46799,6 +47343,39 @@
       ]
     },
     {
+      "id": "marek-partyka",
+      "name": "Marek Partyka",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "91169470",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "marek-skrinar",
       "name": "Marek Skrinar",
       "countryCode": "SVK",
@@ -47167,39 +47744,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "maria-antonia-aldea",
-      "name": "Maria-Antonia Aldea",
-      "countryCode": "ROU",
-      "title": "WCM",
-      "fideId": "1285769",
-      "classicalRating": 1965,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -49133,6 +49677,39 @@
       ]
     },
     {
+      "id": "matias-perez-gormaz",
+      "name": "Matias Perez Gormaz",
+      "countryCode": "CHI",
+      "title": "IM",
+      "fideId": "3406342",
+      "classicalRating": 2388,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "matic-lavrencic",
       "name": "Matic Lavrencic",
       "countryCode": "SLO",
@@ -50881,7 +51458,8 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-open-stare-mesto-7-15-aug-2026"
+        "chessaround-open-stare-mesto-7-15-aug-2026",
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
       ],
       "confirmedEvents": [
         {
@@ -50901,6 +51479,25 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -51135,6 +51732,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "michele-godena",
+      "name": "Michele Godena",
+      "countryCode": "ITA",
+      "title": "GM",
+      "fideId": "800090",
+      "classicalRating": 2446,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
+          "title": "24th Spilimbergo International Chess Tournament",
+          "status": "upcoming",
+          "startDate": "2026-08-08T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Spilimbergo, Italy",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -51731,39 +52361,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "mihnea-constantin-costescu",
-      "name": "Mihnea-Constantin Costescu",
-      "countryCode": "ROU",
-      "title": "I",
-      "fideId": "1256122",
-      "classicalRating": 1912,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -56006,15 +56603,16 @@
       ]
     },
     {
-      "id": "noam-slutsky",
-      "name": "Noam Slutsky",
-      "countryCode": "ISR",
-      "title": null,
-      "fideId": "2837200",
-      "classicalRating": 1922,
+      "id": "nodar-lortkipanidze",
+      "name": "Nodar Lortkipanidze",
+      "countryCode": "GEO",
+      "title": "IM",
+      "fideId": "13604058",
+      "classicalRating": 2374,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+        "chessaround-rodos-palace-hotel-abve2-international-open-chess-tournament-24-aug-2-sep-2026"
       ],
       "confirmedEvents": [
         {
@@ -56035,21 +56633,7 @@
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
-        }
-      ]
-    },
-    {
-      "id": "nodar-lortkipanidze",
-      "name": "Nodar Lortkipanidze",
-      "countryCode": "GEO",
-      "title": "IM",
-      "fideId": "13604058",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-rodos-palace-hotel-abve2-international-open-chess-tournament-24-aug-2-sep-2026"
-      ],
-      "confirmedEvents": [
+        },
         {
           "eventId": "chessaround-rodos-palace-hotel-abve2-international-open-chess-tournament-24-aug-2-sep-2026",
           "title": "Rodos Palace Hotel abve2 International Open Chess Tournament",
@@ -56427,6 +57011,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofek-magen",
+      "name": "Ofek Magen",
+      "countryCode": "ISR",
+      "title": null,
+      "fideId": "2841240",
+      "classicalRating": 2115,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -56948,6 +57565,39 @@
       ]
     },
     {
+      "id": "omri-mond",
+      "name": "Omri Mond",
+      "countryCode": "ISR",
+      "title": null,
+      "fideId": "2851261",
+      "classicalRating": 2120,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "ondrej-hronek",
       "name": "Ondrej Hronek",
       "countryCode": "CZE",
@@ -57318,6 +57968,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ori-golan",
+      "name": "Ori Golan",
+      "countryCode": "ISR",
+      "title": null,
+      "fideId": "2861828",
+      "classicalRating": 2107,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -61359,6 +62042,105 @@
       ]
     },
     {
+      "id": "piotr-kulpinski",
+      "name": "Piotr Kulpinski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "1121413",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "piotr-puchala",
+      "name": "Piotr Puchala",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "91110904",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "piotr-wisniewski",
+      "name": "Piotr Wisniewski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "545070091",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "platon-galperin",
       "name": "Platon Galperin",
       "countryCode": "SWE",
@@ -61557,6 +62339,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "polina-ni",
+      "name": "Polina Ni",
+      "countryCode": "LAT",
+      "title": null,
+      "fideId": "11602481",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -63809,6 +64624,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishi-sardana",
+      "name": "Rishi Sardana",
+      "countryCode": "AUS",
+      "title": "IM",
+      "fideId": "25004301",
+      "classicalRating": 2506,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
+          "title": "24th Spilimbergo International Chess Tournament",
+          "status": "upcoming",
+          "startDate": "2026-08-08T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Spilimbergo, Italy",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -70395,6 +71243,40 @@
       ]
     },
     {
+      "id": "stanislav-slacky",
+      "name": "Stanislav Slacky",
+      "countryCode": "SVK",
+      "title": null,
+      "fideId": "14907828",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "stanislaw-korszanski",
       "name": "Stanislaw Korszanski",
       "countryCode": "POL",
@@ -70682,39 +71564,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "stefan-mironescu",
-      "name": "Stefan Mironescu",
-      "countryCode": "ROU",
-      "title": "I",
-      "fideId": "42213134",
-      "classicalRating": 1943,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
@@ -71977,6 +72826,39 @@
       ]
     },
     {
+      "id": "swaminathan-soumya",
+      "name": "Swaminathan Soumya",
+      "countryCode": "IND",
+      "title": "IM",
+      "fideId": "5016193",
+      "classicalRating": 2266,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
+          "title": "Brasov Grand Prix Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-25T00:00:00Z",
+          "endDate": "2026-07-31T23:59:59Z",
+          "locationName": "Brasov, Romania",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "syllia-eleftheria-vertoudou",
       "name": "Syllia Eleftheria Vertoudou",
       "countryCode": "GRE",
@@ -72073,6 +72955,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1341226.aspx?lan=1&SNode=S0&tno=1341226&zeilen=99999",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szymon-rudowski",
+      "name": "Szymon Rudowski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "2085380",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -74032,6 +74948,72 @@
       ]
     },
     {
+      "id": "tomas-hanak",
+      "name": "Tomas Hanak",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "358070",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tomas-kosut",
+      "name": "Tomas Kosut",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "354686",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "tomas-ludvik",
       "name": "Tomas Ludvik",
       "countryCode": "CZE",
@@ -75315,6 +76297,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1338669.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unurbayar-munkhbayar",
+      "name": "Unurbayar Munkhbayar",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "23778598",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-summer-prague-open-2026-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
+          "title": "Summer Prague Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Prague, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/552",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1352465.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -77611,6 +78627,39 @@
       ]
     },
     {
+      "id": "vit-kratochvil",
+      "name": "Vit Kratochvil",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "333808",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "vit-vaclav-valenta",
       "name": "Vit Vaclav Valenta",
       "countryCode": "CZE",
@@ -78842,6 +79891,39 @@
       ]
     },
     {
+      "id": "wiktor-partyka",
+      "name": "Wiktor Partyka",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21881065",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "wilberth-sebastian-lopez-fuentes",
       "name": "Wilberth Sebastian Lopez Fuentes",
       "countryCode": "MEX",
@@ -79040,6 +80122,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wojciech-partyka",
+      "name": "Wojciech Partyka",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "21881073",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
+          "title": "Olomouc Chess Summer 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-16T00:00:00Z",
+          "endDate": "2026-08-23T23:59:59Z",
+          "locationName": "Olomouc, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -79547,39 +80662,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1373991.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "yanis-andrei-ganea",
-      "name": "Yanis-Andrei Ganea",
-      "countryCode": "ROU",
-      "title": "I",
-      "fideId": "42206790",
-      "classicalRating": 1957,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-brasov-grand-prix-classic-2026-25-31-jul-2026",
-          "title": "Brasov Grand Prix Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-25T00:00:00Z",
-          "endDate": "2026-07-31T23:59:59Z",
-          "locationName": "Brasov, Romania",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
         }
