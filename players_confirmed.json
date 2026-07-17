@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T13:03:59Z",
-  "playerCount": 2378,
+  "generatedAt": "2026-07-17T18:53:14Z",
+  "playerCount": 2377,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -6163,7 +6163,8 @@
       "classicalRating": 2273,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-42th-andorra-chess-open-18-26-jul-2026"
+        "chessaround-42th-andorra-chess-open-18-26-jul-2026",
+        "chessaround-granada-chess-open-28-jul-2-aug-2026"
       ],
       "confirmedEvents": [
         {
@@ -6183,6 +6184,26 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1338669.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "eventId": "chessaround-granada-chess-open-28-jul-2-aug-2026",
+          "title": "Granada Chess Open",
+          "status": "upcoming",
+          "startDate": "2026-07-28T00:00:00Z",
+          "endDate": "2026-08-02T23:59:59Z",
+          "locationName": "Granada, Spain",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/598",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -32418,40 +32439,6 @@
       ]
     },
     {
-      "id": "isaac-coelho-dos-prazeres",
-      "name": "Isaac Coelho Dos Prazeres",
-      "countryCode": "POR",
-      "title": null,
-      "fideId": "1986023",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026",
-          "title": "Leça Chess Open - Portugal 2026",
-          "status": "upcoming",
-          "startDate": "2026-07-31T00:00:00Z",
-          "endDate": "2026-08-06T23:59:59Z",
-          "locationName": "Leça da Palmeira, Portugal",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/627",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1373991.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "isaak-huh",
       "name": "Isaak Huh",
       "countryCode": "KOR",
@@ -37725,6 +37712,40 @@
       "countryCode": "POR",
       "title": null,
       "fideId": "1981315",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026",
+          "title": "Leça Chess Open - Portugal 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-31T00:00:00Z",
+          "endDate": "2026-08-06T23:59:59Z",
+          "locationName": "Leça da Palmeira, Portugal",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/627",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1373991.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jo-o-lvaro-ferreira",
+      "name": "João Álvaro Ferreira",
+      "countryCode": "POR",
+      "title": null,
+      "fideId": "1975331",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -52075,40 +52096,6 @@
       ]
     },
     {
-      "id": "miguel-angel-vazquez-pino",
-      "name": "Miguel Angel Vazquez Pino",
-      "countryCode": "ESP",
-      "title": null,
-      "fideId": "32041713",
-      "classicalRating": 2049,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-granada-chess-open-28-jul-2-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-granada-chess-open-28-jul-2-aug-2026",
-          "title": "Granada Chess Open",
-          "status": "upcoming",
-          "startDate": "2026-07-28T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Granada, Spain",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/598",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "miguel-antonio-neto-silva",
       "name": "Miguel Antonio Neto Silva",
       "countryCode": "POR",
@@ -57326,40 +57313,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ognian-stoychev",
-      "name": "Ognian Stoychev",
-      "countryCode": "BUL",
-      "title": null,
-      "fideId": "2943573",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "upcoming",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -81528,6 +81481,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yigit-efe-oner",
+      "name": "Yigit Efe Oner",
+      "countryCode": "TUR",
+      "title": null,
+      "fideId": "51683202",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "upcoming",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
