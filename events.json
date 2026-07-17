@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T07:51:46Z",
-  "eventCount": 115,
+  "generatedAt": "2026-07-17T13:03:35Z",
+  "eventCount": 118,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 36
+      "count": 39
     },
     {
       "name": "uschess",
@@ -57,53 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "chesscom-28035",
-      "title": "Welsh Esports League Season 11: Chess",
-      "shortTitle": "Welsh Esports League Season 11: Chess",
-      "status": "live",
-      "startDate": "2026-07-01T10:00:00Z",
-      "endDate": "2026-07-22T12:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Welsh Esports League Season 11: Chess.",
-      "description": "2 scheduled stream links",
-      "categories": [
-        "online",
-        "broadcast",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/welsh-esports-league-season-11-chess",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/welsh-esports-league-season-11-chess"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "WEL11 1&2",
-          "type": "stream",
-          "url": "https://www.twitch.tv/esportswales"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "chesscom-28066",
       "title": "Spanish U8-U16 Championships 2026",
@@ -115,7 +68,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U8-U16 Championships 2026.",
-      "description": "372 listed players. 1 scheduled stream links",
+      "description": "375 listed players. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -319,7 +272,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Swiss Chess Championships 2026.",
-      "description": "81 listed players",
+      "description": "82 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -996,6 +949,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29081",
+      "title": "Canary Islands Championship 2026",
+      "shortTitle": "Canary Islands Championship 2026",
+      "status": "live",
+      "startDate": "2026-07-15T16:00:00Z",
+      "endDate": "2026-07-19T14:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Canary Islands Championship 2026.",
+      "description": "54 listed players. 7 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/campeonato-de-canarias-absoluto-y-femenino-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/campeonato-de-canarias-absoluto-y-femenino-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessbase-european-youth-team-championship-16-to-26-july-2026",
       "title": "European Youth Team Championship",
       "shortTitle": "European Youth Team Championship",
@@ -1135,7 +1129,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Shamakhi Open 2026.",
-      "description": "94 listed players. 9 rounds",
+      "description": "96 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1167,6 +1161,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29202",
+      "title": "Zenica Open 2026",
+      "shortTitle": "Zenica Open 2026",
+      "status": "live",
+      "startDate": "2026-07-16T14:00:00Z",
+      "endDate": "2026-07-19T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Zenica Open 2026.",
+      "description": "40 listed players. 7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/zenica-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/zenica-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-29108",
       "title": "New Zealand Seniors Chess Championship 2026",
       "shortTitle": "New Zealand Seniors Chess Championship 2026",
@@ -1177,7 +1213,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: New Zealand Seniors Chess Championship 2026.",
-      "description": "43 listed players. 6 rounds",
+      "description": "42 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1256,10 +1292,51 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29179",
+      "title": "2026 BetXplosion Botswana Chess Championship",
+      "shortTitle": "2026 BetXplosion Botswana Chess Championship",
+      "status": "live",
+      "startDate": "2026-07-17T06:30:00Z",
+      "endDate": "2026-07-21T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 BetXplosion Botswana Chess Championship.",
+      "description": "151 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-betxplosion-national-chess-championship",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-betxplosion-national-chess-championship"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-28102",
       "title": "38th German Senior Championships 2026",
       "shortTitle": "38th German Senior Championships 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-17T08:00:00Z",
       "endDate": "2026-07-25T18:00:00Z",
       "timezone": "UTC",
@@ -1297,17 +1374,64 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28680",
-      "title": "German Chess Championships 2026",
-      "shortTitle": "German Chess Championships 2026",
-      "status": "upcoming",
-      "startDate": "2026-07-17T08:00:00Z",
-      "endDate": "2026-07-26T18:00:00Z",
+      "id": "chesscom-28035",
+      "title": "Welsh Esports League Season 11: Chess",
+      "shortTitle": "Welsh Esports League Season 11: Chess",
+      "status": "live",
+      "startDate": "2026-07-17T10:00:00Z",
+      "endDate": "2026-08-07T12:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: German Chess Championships 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "summary": "Chess.com current event: Welsh Esports League Season 11: Chess.",
+      "description": "2 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/welsh-esports-league-season-11-chess",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/welsh-esports-league-season-11-chess"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "WEL11 1&2",
+          "type": "stream",
+          "url": "https://www.twitch.tv/esportswales"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28989",
+      "title": "Speed Management U1800",
+      "shortTitle": "Speed Management U1800",
+      "status": "upcoming",
+      "startDate": "2026-07-17T17:00:00Z",
+      "endDate": "2026-07-19T15:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Speed Management U1800.",
+      "description": "7 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1316,12 +1440,12 @@
       "channelIds": [
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/german-chess-championships-2026",
+      "primaryUrl": "https://www.chess.com/events/info/speed-management-u1800",
       "links": [
         {
           "label": "Chess.com event",
           "type": "official",
-          "url": "https://www.chess.com/events/info/german-chess-championships-2026"
+          "url": "https://www.chess.com/events/info/speed-management-u1800"
         },
         {
           "label": "Chess.com current events",
@@ -25684,6 +25808,7 @@
         "armanda-ivica",
         "egovi-goran",
         "cuzovic-ognjen",
+        "kantorik-marian",
         "richterova-natasa",
         "bili-kov-vjekoslav",
         "vu-enovi-damian",
@@ -25699,6 +25824,7 @@
         "jakhria-kushal",
         "brewer-callum-d",
         "pehar-borna",
+        "michalicka-milan",
         "arhan-jain",
         "ari-kristina",
         "mimica-matija",
@@ -25715,6 +25841,7 @@
         "malari-marko",
         "davidsson-oskar-vikingur",
         "klem-davor",
+        "sarmir-milos",
         "basari-sr-an",
         "nimac-kalcina-vito",
         "estevez-sacristan-deva",
@@ -25730,6 +25857,7 @@
         "rakulji-stanko",
         "glavi-i-tino",
         "wolfmaier-johannes-joshua",
+        "giertli-vladimir",
         "rehak-bo-idar",
         "pietrzak-tomasz",
         "jina-taran",
@@ -25772,6 +25900,7 @@
         "domislovi-helena",
         "spiegel-johannes",
         "santini-maksim",
+        "fedenko-herman",
         "pardovicki-duje",
         "cats-sven",
         "grubec-tomislav",
@@ -25803,10 +25932,7 @@
         "brajkovi-poljak-gabriel",
         "brali-lucija",
         "delion-helge",
-        "hyassat-timur",
-        "jakhria-kiaan",
-        "papageorgiou-m-georgios",
-        "vili-egon"
+        "hyassat-timur"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/631",
@@ -25857,6 +25983,7 @@
         "armanda-ivica",
         "egovi-goran",
         "cuzovic-ognjen",
+        "kantorik-marian",
         "richterova-natasa",
         "bili-kov-vjekoslav",
         "vu-enovi-damian",
@@ -25872,6 +25999,7 @@
         "jakhria-kushal",
         "brewer-callum-d",
         "pehar-borna",
+        "michalicka-milan",
         "arhan-jain",
         "ari-kristina",
         "mimica-matija",
@@ -25888,6 +26016,7 @@
         "malari-marko",
         "davidsson-oskar-vikingur",
         "klem-davor",
+        "sarmir-milos",
         "basari-sr-an",
         "nimac-kalcina-vito",
         "estevez-sacristan-deva",
@@ -25903,6 +26032,7 @@
         "rakulji-stanko",
         "glavi-i-tino",
         "wolfmaier-johannes-joshua",
+        "giertli-vladimir",
         "rehak-bo-idar",
         "pietrzak-tomasz",
         "jina-taran",
@@ -25945,6 +26075,7 @@
         "domislovi-helena",
         "spiegel-johannes",
         "santini-maksim",
+        "fedenko-herman",
         "pardovicki-duje",
         "cats-sven",
         "grubec-tomislav",
@@ -25976,10 +26107,7 @@
         "brajkovi-poljak-gabriel",
         "brali-lucija",
         "delion-helge",
-        "hyassat-timur",
-        "jakhria-kiaan",
-        "papageorgiou-m-georgios",
-        "vili-egon"
+        "hyassat-timur"
       ],
       "confirmedPlayers": [
         {
@@ -26343,6 +26471,21 @@
           }
         },
         {
+          "playerId": "kantorik-marian",
+          "name": "Kantorik Marian",
+          "countryCode": "SVK",
+          "title": "IM",
+          "fideId": "14900513",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "richterova-natasa",
           "name": "Richterova Natasa",
           "countryCode": "CZE",
@@ -26558,6 +26701,21 @@
           "countryCode": "CRO",
           "title": "MK",
           "fideId": "14416689",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "michalicka-milan",
+          "name": "Michalicka Milan",
+          "countryCode": "SVK",
+          "title": null,
+          "fideId": "14913089",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -26808,6 +26966,21 @@
           }
         },
         {
+          "playerId": "sarmir-milos",
+          "name": "Sarmir Milos",
+          "countryCode": "SVK",
+          "title": null,
+          "fideId": "14901889",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "basari-sr-an",
           "name": "Basarić Srđan",
           "countryCode": "CRO",
@@ -27023,6 +27196,21 @@
           "countryCode": "GER",
           "title": null,
           "fideId": "34643303",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "giertli-vladimir",
+          "name": "Giertli Vladimir",
+          "countryCode": "SVK",
+          "title": null,
+          "fideId": "14903350",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -27663,6 +27851,21 @@
           }
         },
         {
+          "playerId": "fedenko-herman",
+          "name": "Fedenko Herman",
+          "countryCode": "AUT",
+          "title": null,
+          "fideId": "530014484",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "pardovicki-duje",
           "name": "Pardovicki Duje",
           "countryCode": "CRO",
@@ -28133,51 +28336,6 @@
           "countryCode": "AUT",
           "title": null,
           "fideId": "530012821",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jakhria-kiaan",
-          "name": "Jakhria Kiaan",
-          "countryCode": "ENG",
-          "title": null,
-          "fideId": "343440649",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "papageorgiou-m-georgios",
-          "name": "Papageorgiou M. Georgios",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4240189",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vili-egon",
-          "name": "Vilić Egon",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "79336450",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
