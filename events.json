@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T18:55:40Z",
-  "eventCount": 231,
+  "generatedAt": "2026-07-17T01:45:41Z",
+  "eventCount": 232,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 34
+      "count": 36
     },
     {
       "name": "uschess",
@@ -107,7 +107,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Welsh Esports League Season 11: Chess.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "2 scheduled stream links",
       "categories": [
         "online",
         "broadcast",
@@ -128,6 +128,11 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "WEL11 1&2",
+          "type": "stream",
+          "url": "https://www.twitch.tv/esportswales"
         }
       ],
       "source": {
@@ -395,48 +400,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-34th-national-open-chess-championship-9th-national-women-championship-11-16-jul",
-      "title": "34th National Open Chess Championship 9th National Women Championship",
-      "shortTitle": "34th National Open Chess Championship 9th National Women Championship",
-      "status": "live",
-      "startDate": "2026-07-11T00:00:00Z",
-      "endDate": "2026-07-16T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Karachi, PAK",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 34th National Open Chess Championship 9th National Women Championship.",
-      "description": "Time control: other",
-      "categories": [
-        "women",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18552",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18552"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -1114,48 +1077,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-open-d-t-du-corsica-chess-club-2026-13-16-jul",
-      "title": "Open d'été du Corsica Chess Club 2026",
-      "shortTitle": "Open d'été du Corsica Chess Club 2026",
-      "status": "live",
-      "startDate": "2026-07-13T00:00:00Z",
-      "endDate": "2026-07-16T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Bastia, FRA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Open d'été du Corsica Chess Club 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16585",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16585"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "fide-rudaga-kaissa-2026-summer-13-19-jul",
       "title": "Rudaga – Kaissa 2026 Summer",
       "shortTitle": "Rudaga – Kaissa 2026 Summer",
@@ -1677,7 +1598,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Israeli Youth Championships 2026.",
-      "description": "169 listed players. 9 rounds",
+      "description": "171 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1932,7 +1853,7 @@
       "id": "fide-circuit-blitz-estiu-2026-t3-17jul",
       "title": "Circuit Blitz estiu 2026 T3",
       "shortTitle": "Circuit Blitz estiu 2026 T3",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-17T00:00:00Z",
       "endDate": "2026-07-17T23:59:59Z",
       "timezone": "UTC",
@@ -1973,7 +1894,7 @@
       "id": "fide-german-chess-championship-2026-17-25-jul",
       "title": "German Chess Championship 2026 *",
       "shortTitle": "German Chess Championship 2026 *",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-17T00:00:00Z",
       "endDate": "2026-07-25T23:59:59Z",
       "timezone": "UTC",
@@ -1982,11 +1903,14 @@
       "summary": "FIDE calendar event: German Chess Championship 2026 *.",
       "description": "Time control: other",
       "categories": [
-        "otb"
+        "otb",
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide"
+        "fide",
+        "chesscom"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=18648",
       "links": [
@@ -1999,6 +1923,16 @@
           "label": "FIDE calendar",
           "type": "source",
           "url": "https://calendar.fide.com/calendar.php"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/german-chess-championships-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -2013,7 +1947,7 @@
       "id": "fide-stockholm-summer-nights-open-17-25-jul",
       "title": "Stockholm Summer Nights Open",
       "shortTitle": "Stockholm Summer Nights Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-17T00:00:00Z",
       "endDate": "2026-07-25T23:59:59Z",
       "timezone": "UTC",
@@ -2055,7 +1989,7 @@
       "id": "fide-viii-open-los-molinos-u-2400-and-u-1800-17-19-jul",
       "title": "VIII Open Los Molinos U 2400 and U 1800",
       "shortTitle": "VIII Open Los Molinos U 2400 and U 1800",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-17T00:00:00Z",
       "endDate": "2026-07-19T23:59:59Z",
       "timezone": "UTC",
@@ -2097,7 +2031,7 @@
       "id": "lichess-ibzbsd6h",
       "title": "28th Asian Youth Chess Championships 2026 | Classical | G10",
       "shortTitle": "28th Asian Youth Chess Championships 2026 | Classical | G10",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-17T01:00:00Z",
       "endDate": "2026-07-24T01:00:00Z",
       "timezone": "Asia/Hong_Kong",
@@ -2156,7 +2090,7 @@
       "id": "chesscom-29108",
       "title": "New Zealand Seniors Chess Championship 2026",
       "shortTitle": "New Zealand Seniors Chess Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-17T01:00:00Z",
       "endDate": "2026-07-19T08:00:00Z",
       "timezone": "UTC",
@@ -2178,6 +2112,47 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/new-zealand-seniors-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28102",
+      "title": "38th German Senior Championships 2026",
+      "shortTitle": "38th German Senior Championships 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-17T08:00:00Z",
+      "endDate": "2026-07-25T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 38th German Senior Championships 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/38th-german-senior-championships-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/38th-german-senior-championships-2026"
         },
         {
           "label": "Chess.com current events",
@@ -15835,8 +15810,6 @@
         "s-l-narayanan",
         "francesco-sonis",
         "david-gavrilescu",
-        "martin-petrov",
-        "momchil-petkov",
         "emin-ohanyan",
         "filip-magold",
         "arda-camlar",
@@ -15978,7 +15951,9 @@
         "rom-manyevich",
         "daniel-vardi",
         "riccardo-soncin",
-        "mehta-aryan"
+        "mehta-aryan",
+        "kun-fang",
+        "shree-reddy-keerti"
       ],
       "channelIds": [
         "fide"
@@ -16023,8 +15998,6 @@
         "s-l-narayanan",
         "francesco-sonis",
         "david-gavrilescu",
-        "martin-petrov",
-        "momchil-petkov",
         "emin-ohanyan",
         "filip-magold",
         "arda-camlar",
@@ -16166,7 +16139,9 @@
         "rom-manyevich",
         "daniel-vardi",
         "riccardo-soncin",
-        "mehta-aryan"
+        "mehta-aryan",
+        "kun-fang",
+        "shree-reddy-keerti"
       ],
       "confirmedPlayers": [
         {
@@ -16251,36 +16226,6 @@
           "title": "GM",
           "fideId": "1227190",
           "classicalRating": 2537,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "martin-petrov",
-          "name": "Martin Petrov",
-          "countryCode": "BUL",
-          "title": "GM",
-          "fideId": "2911086",
-          "classicalRating": 2530,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "momchil-petkov",
-          "name": "Momchil Petkov",
-          "countryCode": "BUL",
-          "title": "GM",
-          "fideId": "2921642",
-          "classicalRating": 2528,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -18411,6 +18356,36 @@
           "title": null,
           "fideId": "33329664",
           "classicalRating": 1979,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "kun-fang",
+          "name": "Kun Fang",
+          "countryCode": "SGP",
+          "title": "WFM",
+          "fideId": "5819660",
+          "classicalRating": 1971,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "shree-reddy-keerti",
+          "name": "Shree Reddy Keerti",
+          "countryCode": "IND",
+          "title": "WFM",
+          "fideId": "45094640",
+          "classicalRating": 1969,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -21702,6 +21677,7 @@
         "miguel-lazaro-azcutia",
         "sebastian-almagro-mazariegos",
         "dario-arce-gonzalez",
+        "maximo-lorente-melcon",
         "daniel-molina-carretero",
         "hillel-toledo",
         "naitik-r-mehta",
@@ -21715,6 +21691,7 @@
         "alejandro-yuste-valenzuela",
         "fredrik-lindh",
         "daniel-aishwin",
+        "cristian-fernandez-diaz",
         "garg-vedant",
         "alvaro-rodriguez-avila",
         "ismael-amador-garcia",
@@ -21759,6 +21736,7 @@
         "lile-koridze",
         "jose-manuel-lopez-nieto",
         "narek-gaitan-galstyan",
+        "jordi-bals-hernandez",
         "louis-juan-tillet",
         "adrian-gonzalez-pinar",
         "pablo-cayon-pelaez",
@@ -21773,10 +21751,7 @@
         "eduardo-cesar-maestre",
         "saul-perez-garcia",
         "mohamed-sadki",
-        "miguel-angel-vazquez-pino",
-        "luis-laliena-solanes",
-        "antonio-oscar-barrios-mu-oz",
-        "iuliia-babak"
+        "miguel-angel-vazquez-pino"
       ],
       "channelIds": [
         "fide"
@@ -21890,6 +21865,7 @@
         "miguel-lazaro-azcutia",
         "sebastian-almagro-mazariegos",
         "dario-arce-gonzalez",
+        "maximo-lorente-melcon",
         "daniel-molina-carretero",
         "hillel-toledo",
         "naitik-r-mehta",
@@ -21903,6 +21879,7 @@
         "alejandro-yuste-valenzuela",
         "fredrik-lindh",
         "daniel-aishwin",
+        "cristian-fernandez-diaz",
         "garg-vedant",
         "alvaro-rodriguez-avila",
         "ismael-amador-garcia",
@@ -21947,6 +21924,7 @@
         "lile-koridze",
         "jose-manuel-lopez-nieto",
         "narek-gaitan-galstyan",
+        "jordi-bals-hernandez",
         "louis-juan-tillet",
         "adrian-gonzalez-pinar",
         "pablo-cayon-pelaez",
@@ -21961,10 +21939,7 @@
         "eduardo-cesar-maestre",
         "saul-perez-garcia",
         "mohamed-sadki",
-        "miguel-angel-vazquez-pino",
-        "luis-laliena-solanes",
-        "antonio-oscar-barrios-mu-oz",
-        "iuliia-babak"
+        "miguel-angel-vazquez-pino"
       ],
       "confirmedPlayers": [
         {
@@ -23093,6 +23068,21 @@
           }
         },
         {
+          "playerId": "maximo-lorente-melcon",
+          "name": "Maximo Lorente Melcon",
+          "countryCode": "ESP",
+          "title": "FM",
+          "fideId": "54538769",
+          "classicalRating": 2255,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "daniel-molina-carretero",
           "name": "Daniel Molina Carretero",
           "countryCode": "ESP",
@@ -23279,6 +23269,21 @@
           "title": "CM",
           "fideId": "25037714",
           "classicalRating": 2222,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "cristian-fernandez-diaz",
+          "name": "Cristian Fernandez Diaz",
+          "countryCode": "ESP",
+          "title": "FM",
+          "fideId": "22256687",
+          "classicalRating": 2218,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -23948,6 +23953,21 @@
           }
         },
         {
+          "playerId": "jordi-bals-hernandez",
+          "name": "Jordi Bals Hernandez",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "2201968",
+          "classicalRating": 2108,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "louis-juan-tillet",
           "name": "Louis-Juan Tillet",
           "countryCode": "FRA",
@@ -24164,51 +24184,6 @@
           "title": null,
           "fideId": "32041713",
           "classicalRating": 2049,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "luis-laliena-solanes",
-          "name": "Luis Laliena Solanes",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "2212560",
-          "classicalRating": 2036,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "antonio-oscar-barrios-mu-oz",
-          "name": "Antonio Oscar Barrios Muñoz",
-          "countryCode": "ESP",
-          "title": null,
-          "fideId": "2250713",
-          "classicalRating": 2028,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "iuliia-babak",
-          "name": "Iuliia Babak",
-          "countryCode": "FID",
-          "title": "WCM",
-          "fideId": "24103829",
-          "classicalRating": 2027,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -28028,6 +28003,7 @@
         "filip-cerny",
         "daniel-bednar",
         "karol-samko",
+        "nora-ferenczy",
         "yuriy-savchuk",
         "aliaksandr-tyszecki",
         "erhan-demirciler",
@@ -28112,6 +28088,7 @@
         "filip-cerny",
         "daniel-bednar",
         "karol-samko",
+        "nora-ferenczy",
         "yuriy-savchuk",
         "aliaksandr-tyszecki",
         "erhan-demirciler",
@@ -28375,6 +28352,21 @@
           "countryCode": "SVK",
           "title": null,
           "fideId": "14908832",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nora-ferenczy",
+          "name": "Nora Ferenczy",
+          "countryCode": "HUN",
+          "title": null,
+          "fideId": "17012805",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -48697,6 +48689,90 @@
           }
         }
       ]
+    },
+    {
+      "id": "fide-african-junior-blitz-chess-championship-2026-28aug",
+      "title": "African Junior Blitz Chess Championship 2026",
+      "shortTitle": "African Junior Blitz Chess Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-28T00:00:00Z",
+      "endDate": "2026-08-28T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "BDI",
+      "isOnline": false,
+      "summary": "FIDE calendar event: African Junior Blitz Chess Championship 2026.",
+      "description": "Time control: Blitz",
+      "categories": [
+        "blitz",
+        "junior",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13250",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=13250"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "fide-african-junior-rapid-chess-championship-2026-28aug",
+      "title": "African Junior Rapid Chess Championship 2026",
+      "shortTitle": "African Junior Rapid Chess Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-28T00:00:00Z",
+      "endDate": "2026-08-28T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "BDI",
+      "isOnline": false,
+      "summary": "FIDE calendar event: African Junior Rapid Chess Championship 2026.",
+      "description": "Time control: Rapid",
+      "categories": [
+        "rapid",
+        "junior",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "fide"
+      ],
+      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13249",
+      "links": [
+        {
+          "label": "FIDE calendar listing",
+          "type": "official",
+          "url": "https://calendar.fide.com/calendar.php?id=13249"
+        },
+        {
+          "label": "FIDE calendar",
+          "type": "source",
+          "url": "https://calendar.fide.com/calendar.php"
+        }
+      ],
+      "source": {
+        "name": "fide",
+        "url": "https://calendar.fide.com/calendar.php",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "chessaround-escala-emporium-chess-open-31-aug-6-sep-2026",
