@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T01:43:41Z",
+  "generatedAt": "2026-07-19T07:58:21Z",
   "eventCount": 115,
   "sources": [
     {
@@ -68,7 +68,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U8-U16 Championships 2026.",
-      "description": "376 listed players. 1 scheduled stream links",
+      "description": "456 listed players. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -753,7 +753,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Shamakhi Open 2026.",
-      "description": "96 listed players. 9 rounds",
+      "description": "97 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1022,7 +1022,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 BetXplosion Botswana Chess Championship.",
-      "description": "162 listed players. 9 rounds",
+      "description": "164 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1063,7 +1063,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Youth Affairs Agency Cup 2026 | Republican stage.",
-      "description": "69 listed players",
+      "description": "82 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1152,7 +1152,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Speed Management U1800.",
-      "description": "133 listed players. 7 rounds",
+      "description": "134 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1443,7 +1443,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Japan Women’s / Senior Chess Championship 2026.",
-      "description": "12 listed players. 6 rounds",
+      "description": "25 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -20609,7 +20609,6 @@
         "martin-cerveny",
         "oleksii-nakonechnyi",
         "sebastian-plischki",
-        "sreeni-warrier-samarth",
         "vladimir-vojtek",
         "boris-maryasin",
         "krystof-mikulas-travnicek",
@@ -20618,6 +20617,7 @@
         "arsenii-iankin",
         "vladimir-karlik",
         "matej-babula",
+        "matej-slaby",
         "josef-mudrak",
         "maity-suvankar",
         "vladimir-pala",
@@ -20711,7 +20711,6 @@
         "martin-cerveny",
         "oleksii-nakonechnyi",
         "sebastian-plischki",
-        "sreeni-warrier-samarth",
         "vladimir-vojtek",
         "boris-maryasin",
         "krystof-mikulas-travnicek",
@@ -20720,6 +20719,7 @@
         "arsenii-iankin",
         "vladimir-karlik",
         "matej-babula",
+        "matej-slaby",
         "josef-mudrak",
         "maity-suvankar",
         "vladimir-pala",
@@ -20860,21 +20860,6 @@
           }
         },
         {
-          "playerId": "sreeni-warrier-samarth",
-          "name": "Sreeni Warrier Samarth",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "33312982",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "vladimir-vojtek",
           "name": "Vladimir Vojtek",
           "countryCode": "SVK",
@@ -20985,6 +20970,21 @@
           "countryCode": "CZE",
           "title": null,
           "fideId": "398322",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "matej-slaby",
+          "name": "Matej Slaby",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23734876",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -23676,6 +23676,7 @@
         "marco-materia",
         "vladyslav-larkin",
         "rishi-sardana",
+        "yevgeniy-roshka",
         "renato-r-quintiliano",
         "imran-md",
         "matic-lavrencic",
@@ -23687,6 +23688,7 @@
         "ilia-martinovici",
         "diego-rafael-di-berardino",
         "ortik-nigmatov",
+        "piotr-brodowski",
         "michele-godena",
         "artyom-bogdanov",
         "al-muthaiah",
@@ -23710,7 +23712,9 @@
         "mihail-marin",
         "german-gonzalo-quirhuayo-chumbe",
         "francesco-bettalli",
+        "marcin-sieciechowicz",
         "oliwia-kiolbasa",
+        "piotr-nguyen",
         "amit-doshi-moksh",
         "aleksandra-maltsevskaya",
         "anna-m-sargsyan",
@@ -23737,6 +23741,7 @@
         "nikolay-tregubenko",
         "juan-sebastian-herrera",
         "g-aakash",
+        "claudio-paduano",
         "sofiia-hryzlova",
         "andras-bonk",
         "andrew-jing",
@@ -23802,12 +23807,7 @@
         "hajra-chandreyee",
         "ivano-tomljanovic",
         "vishwa-shah",
-        "yash-darvekar",
-        "andrea-della-pietra",
-        "paolo-vezzosi",
-        "francesco-mattia-liloni",
-        "mirko-lizzul-coppe",
-        "giulio-simoni"
+        "yash-darvekar"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
@@ -23852,6 +23852,7 @@
         "marco-materia",
         "vladyslav-larkin",
         "rishi-sardana",
+        "yevgeniy-roshka",
         "renato-r-quintiliano",
         "imran-md",
         "matic-lavrencic",
@@ -23863,6 +23864,7 @@
         "ilia-martinovici",
         "diego-rafael-di-berardino",
         "ortik-nigmatov",
+        "piotr-brodowski",
         "michele-godena",
         "artyom-bogdanov",
         "al-muthaiah",
@@ -23886,7 +23888,9 @@
         "mihail-marin",
         "german-gonzalo-quirhuayo-chumbe",
         "francesco-bettalli",
+        "marcin-sieciechowicz",
         "oliwia-kiolbasa",
+        "piotr-nguyen",
         "amit-doshi-moksh",
         "aleksandra-maltsevskaya",
         "anna-m-sargsyan",
@@ -23913,6 +23917,7 @@
         "nikolay-tregubenko",
         "juan-sebastian-herrera",
         "g-aakash",
+        "claudio-paduano",
         "sofiia-hryzlova",
         "andras-bonk",
         "andrew-jing",
@@ -23978,12 +23983,7 @@
         "hajra-chandreyee",
         "ivano-tomljanovic",
         "vishwa-shah",
-        "yash-darvekar",
-        "andrea-della-pietra",
-        "paolo-vezzosi",
-        "francesco-mattia-liloni",
-        "mirko-lizzul-coppe",
-        "giulio-simoni"
+        "yash-darvekar"
       ],
       "confirmedPlayers": [
         {
@@ -24257,6 +24257,21 @@
           }
         },
         {
+          "playerId": "yevgeniy-roshka",
+          "name": "Yevgeniy Roshka",
+          "countryCode": "UKR",
+          "title": "IM",
+          "fideId": "14129558",
+          "classicalRating": 2497,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "renato-r-quintiliano",
           "name": "Renato R. Quintiliano",
           "countryCode": "BRA",
@@ -24413,6 +24428,21 @@
           "title": "GM",
           "fideId": "14202131",
           "classicalRating": 2455,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "piotr-brodowski",
+          "name": "Piotr Brodowski",
+          "countryCode": "POL",
+          "title": "IM",
+          "fideId": "1124480",
+          "classicalRating": 2452,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -24767,12 +24797,42 @@
           }
         },
         {
+          "playerId": "marcin-sieciechowicz",
+          "name": "Marcin Sieciechowicz",
+          "countryCode": "POL",
+          "title": "IM",
+          "fideId": "1130170",
+          "classicalRating": 2391,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "oliwia-kiolbasa",
           "name": "Oliwia Kiolbasa",
           "countryCode": "POL",
           "title": "IM",
           "fideId": "1154613",
           "classicalRating": 2378,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "piotr-nguyen",
+          "name": "Piotr Nguyen",
+          "countryCode": "POL",
+          "title": "IM",
+          "fideId": "1127993",
+          "classicalRating": 2374,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -25163,6 +25223,21 @@
           "title": "FM",
           "fideId": "25644394",
           "classicalRating": 2301,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "claudio-paduano",
+          "name": "Claudio Paduano",
+          "countryCode": "ITA",
+          "title": "FM",
+          "fideId": "2806393",
+          "classicalRating": 2300,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -26153,81 +26228,6 @@
           "title": "CM",
           "fideId": "2624150",
           "classicalRating": 2133,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "andrea-della-pietra",
-          "name": "Andrea Della Pietra",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "810223",
-          "classicalRating": 2132,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "paolo-vezzosi",
-          "name": "Paolo Vezzosi",
-          "countryCode": "ITA",
-          "title": "IM",
-          "fideId": "800341",
-          "classicalRating": 2131,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "francesco-mattia-liloni",
-          "name": "Francesco Mattia Liloni",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "2872264",
-          "classicalRating": 2130,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mirko-lizzul-coppe",
-          "name": "Mirko Lizzul Coppe",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "2809716",
-          "classicalRating": 2130,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "giulio-simoni",
-          "name": "Giulio Simoni",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "886866",
-          "classicalRating": 2130,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
