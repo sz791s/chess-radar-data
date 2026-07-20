@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T18:50:44Z",
-  "eventCount": 109,
+  "generatedAt": "2026-07-20T01:59:22Z",
+  "eventCount": 105,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 30
     },
     {
       "name": "uschess",
@@ -817,54 +817,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-z6rmoo6x",
-      "title": "28th Asian Youth Chess Championships 2026 | Classical | G14",
-      "shortTitle": "28th Asian Youth Chess Championships 2026 | Classical | G14",
-      "status": "live",
-      "startDate": "2026-07-17T01:15:00Z",
-      "endDate": "2026-07-24T01:15:00Z",
-      "timezone": "Asia/Hong_Kong",
-      "locationName": "Shenzhen, China",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/28th-asian-youth-chess-championships-2026-classical-g14/Z6Rmoo6x",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/28th-asian-youth-chess-championships-2026-classical-g14/Z6Rmoo6x"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://aycc2026.chesstournament.org/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1449530.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29179",
       "title": "2026 BetXplosion Botswana Chess Championship",
       "shortTitle": "2026 BetXplosion Botswana Chess Championship",
@@ -984,89 +936,6 @@
           "label": "WEL11 1&2",
           "type": "stream",
           "url": "https://www.twitch.tv/esportswales"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29213",
-      "title": "2026 Chicago Class",
-      "shortTitle": "2026 Chicago Class",
-      "status": "live",
-      "startDate": "2026-07-17T22:00:00Z",
-      "endDate": "2026-07-20T01:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 2026 Chicago Class.",
-      "description": "19 listed players. 5 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-chicago-class",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-chicago-class"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29214",
-      "title": "CCA 34th Annual Southern Open 2026",
-      "shortTitle": "CCA 34th Annual Southern Open 2026",
-      "status": "live",
-      "startDate": "2026-07-17T22:00:00Z",
-      "endDate": "2026-07-19T23:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: CCA 34th Annual Southern Open 2026.",
-      "description": "28 listed players. 5 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/cca-34th-annual-southern-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/cca-34th-annual-southern-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -1204,47 +1073,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29231",
-      "title": "DKC Summer Swiss",
-      "shortTitle": "DKC Summer Swiss",
-      "status": "live",
-      "startDate": "2026-07-18T16:00:00Z",
-      "endDate": "2026-07-20T00:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: DKC Summer Swiss.",
-      "description": "33 listed players. 5 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/dkc-summer-swiss",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/dkc-summer-swiss"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-28577",
       "title": "Japan Women’s / Senior Chess Championship 2026",
       "shortTitle": "Japan Women’s / Senior Chess Championship 2026",
@@ -1328,96 +1156,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29270",
-      "title": "Mechanics' Institute Full Day Quads - July",
-      "shortTitle": "Mechanics' Institute Full Day Quads - July",
-      "status": "live",
-      "startDate": "2026-07-19T17:00:00Z",
-      "endDate": "2026-07-20T00:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Mechanics' Institute Full Day Quads - July.",
-      "description": "12 listed players. 3 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/mechanics-institute-full-day-quads-july",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/mechanics-institute-full-day-quads-july"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-open-internacional-de-oviedo-2026-20-26-jul-2026",
-      "title": "Open Internacional de Oviedo 2026",
-      "shortTitle": "Open Internacional de Oviedo 2026",
-      "status": "upcoming",
-      "startDate": "2026-07-20T00:00:00Z",
-      "endDate": "2026-07-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Oviedo, Spain",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Open Internacional de Oviedo 2026.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/599",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/599"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://info64.org/open-internacional-de-oviedo-2026"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessaround-pozna-summer-chess-festival-20-28-jul-2026",
       "title": "Poznań Summer Chess Festival",
       "shortTitle": "Poznań Summer Chess Festival",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-20T00:00:00Z",
       "endDate": "2026-07-28T23:59:59Z",
       "timezone": "UTC",
@@ -1452,6 +1194,65 @@
       "source": {
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29177",
+      "title": "Open Internacional Ciudad de Oviedo 2026",
+      "shortTitle": "Open Internacional Ciudad de Oviedo 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-20T05:30:00Z",
+      "endDate": "2026-07-26T07:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Open Internacional Ciudad de Oviedo 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open",
+        "classical",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/open-ciudad-de-oviedo-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/open-ciudad-de-oviedo-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/599"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
+        },
+        {
+          "label": "Starting list",
+          "type": "players",
+          "url": "https://info64.org/open-internacional-de-oviedo-2026"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -28671,6 +28472,54 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-0tavbiwo",
+      "title": "Kanizsa Open 2026 | Group A | Lower boards",
+      "shortTitle": "Kanizsa Open 2026 | Group A | Lower boards",
+      "status": "upcoming",
+      "startDate": "2026-08-15T13:15:00Z",
+      "endDate": "2026-08-23T08:15:00Z",
+      "timezone": "Europe/Budapest",
+      "locationName": "Hungary, Nagykanizsa",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-lower-boards/0TAvbIwo",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-lower-boards/0TAvbIwo"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://kanizsaopen.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/Tnr1379871.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
