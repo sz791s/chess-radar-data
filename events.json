@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T01:42:57Z",
-  "eventCount": 103,
+  "generatedAt": "2026-07-22T08:08:13Z",
+  "eventCount": 104,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 28
+      "count": 30
     },
     {
       "name": "uschess",
@@ -612,7 +612,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Youth Affairs Agency Cup 2026 | Republican stage.",
-      "description": "158 listed players",
+      "description": "190 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1032,6 +1032,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29320",
+      "title": "4th Fuby Academy Norm Series 2026",
+      "shortTitle": "4th Fuby Academy Norm Series 2026",
+      "status": "live",
+      "startDate": "2026-07-20T13:00:00Z",
+      "endDate": "2026-07-25T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 4th Fuby Academy Norm Series 2026.",
+      "description": "20 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/4th-fuby-academy-norm-series-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/4th-fuby-academy-norm-series-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-29293",
       "title": "ØBRO & CXU International 2026",
       "shortTitle": "ØBRO & CXU International 2026",
@@ -1083,7 +1124,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 13th Famalicao International Open 2026.",
-      "description": "106 listed players. 9 rounds",
+      "description": "107 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1368,20 +1409,64 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-50th-international-chess-open-vila-de-sitges-22-30-jul-2026",
-      "title": "50th International Chess Open \"Vila de Sitges\"",
-      "shortTitle": "50th International Chess Open \"Vila de Sitges\"",
+      "id": "chesscom-29307",
+      "title": "Czech Open 2026",
+      "shortTitle": "Czech Open 2026",
       "status": "live",
-      "startDate": "2026-07-22T00:00:00Z",
-      "endDate": "2026-07-30T23:59:59Z",
+      "startDate": "2026-07-22T08:00:00Z",
+      "endDate": "2026-08-01T18:00:00Z",
       "timezone": "UTC",
-      "locationName": "Sitges, Spain",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 50th International Chess Open \"Vila de Sitges\".",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Czech Open 2026.",
+      "description": "Listed on the Chess.com current events page.",
       "categories": [
-        "classical",
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/czech-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/czech-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29206",
+      "title": "50 Open Internacional d'Escacs Vila de Sitges",
+      "shortTitle": "50 Open Internacional d'Escacs Vila de Sitges",
+      "status": "upcoming",
+      "startDate": "2026-07-22T14:30:00Z",
+      "endDate": "2026-07-30T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 50 Open Internacional d'Escacs Vila de Sitges.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
         "open",
+        "classical",
         "otb"
       ],
       "playerIds": [
@@ -1450,8 +1535,9 @@
         "sharanya-gade",
         "chaudhary-shaurya",
         "zain-patel",
-        "tania-miranda-rodriguez",
         "victor-fernandez-escabia",
+        "rohan-gore",
+        "krishna-g-ravi",
         "batra-om",
         "jon-calderon-tocino",
         "wilberth-sebastian-lopez-fuentes",
@@ -1463,14 +1549,13 @@
         "daniel-santos-izquierdo",
         "joaquin-noria-silvestre",
         "aarush-dolas",
-        "ferran-riera-fregoso",
         "prasad-shitiz",
         "stephen-noble-s-samuel",
         "kameron-grose",
         "jose-valencia-jimenez",
         "shivansh-tiwari",
+        "sharma-rishit",
         "sachdev-vivaan",
-        "david-monteagudo-sabate",
         "adria-ruiz-soria",
         "erik-martinez-marcos",
         "florian-schmidt",
@@ -1488,9 +1573,21 @@
         "datta-rajanya",
         "michael-wigger"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/624",
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/50-open-internacional-descacs-vila-de-sitges",
       "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/50-open-internacional-descacs-vila-de-sitges"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -1508,8 +1605,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -1578,8 +1675,9 @@
         "sharanya-gade",
         "chaudhary-shaurya",
         "zain-patel",
-        "tania-miranda-rodriguez",
         "victor-fernandez-escabia",
+        "rohan-gore",
+        "krishna-g-ravi",
         "batra-om",
         "jon-calderon-tocino",
         "wilberth-sebastian-lopez-fuentes",
@@ -1591,14 +1689,13 @@
         "daniel-santos-izquierdo",
         "joaquin-noria-silvestre",
         "aarush-dolas",
-        "ferran-riera-fregoso",
         "prasad-shitiz",
         "stephen-noble-s-samuel",
         "kameron-grose",
         "jose-valencia-jimenez",
         "shivansh-tiwari",
+        "sharma-rishit",
         "sachdev-vivaan",
-        "david-monteagudo-sabate",
         "adria-ruiz-soria",
         "erik-martinez-marcos",
         "florian-schmidt",
@@ -2593,12 +2690,12 @@
           }
         },
         {
-          "playerId": "tania-miranda-rodriguez",
-          "name": "Tania Miranda Rodriguez",
-          "countryCode": "MEX",
-          "title": "WIM",
-          "fideId": "3510417",
-          "classicalRating": 2076,
+          "playerId": "victor-fernandez-escabia",
+          "name": "Victor Fernandez Escabia",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "54720222",
+          "classicalRating": 2073,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -2608,12 +2705,27 @@
           }
         },
         {
-          "playerId": "victor-fernandez-escabia",
-          "name": "Victor Fernandez Escabia",
-          "countryCode": "ESP",
+          "playerId": "rohan-gore",
+          "name": "Rohan Gore",
+          "countryCode": "SWE",
           "title": null,
-          "fideId": "54720222",
+          "fideId": "1773917",
           "classicalRating": 2073,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333178.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "krishna-g-ravi",
+          "name": "Krishna G Ravi",
+          "countryCode": "IND",
+          "title": "AIM",
+          "fideId": "25707817",
+          "classicalRating": 2072,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -2788,21 +2900,6 @@
           }
         },
         {
-          "playerId": "ferran-riera-fregoso",
-          "name": "Ferran Riera Fregoso",
-          "countryCode": "MEX",
-          "title": null,
-          "fideId": "5185610",
-          "classicalRating": 2017,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333178.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "prasad-shitiz",
           "name": "Prasad Shitiz",
           "countryCode": "IND",
@@ -2878,12 +2975,12 @@
           }
         },
         {
-          "playerId": "sachdev-vivaan",
-          "name": "Sachdev Vivaan",
+          "playerId": "sharma-rishit",
+          "name": "Sharma Rishit",
           "countryCode": "IND",
           "title": null,
-          "fideId": "25138189",
-          "classicalRating": 1997,
+          "fideId": "25119958",
+          "classicalRating": 2002,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -2893,12 +2990,12 @@
           }
         },
         {
-          "playerId": "david-monteagudo-sabate",
-          "name": "David Monteagudo Sabate",
-          "countryCode": "MEX",
+          "playerId": "sachdev-vivaan",
+          "name": "Sachdev Vivaan",
+          "countryCode": "IND",
           "title": null,
-          "fideId": "5104955",
-          "classicalRating": 1995,
+          "fideId": "25138189",
+          "classicalRating": 1997,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -3031,7 +3128,7 @@
           "playerId": "xavier-castaner-harster",
           "name": "Xavier Castaner Harster",
           "countryCode": "ESP",
-          "title": null,
+          "title": "MC",
           "fideId": "2208326",
           "classicalRating": 1974,
           "profileLinks": {},
@@ -3148,48 +3245,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "chesscom-29307",
-      "title": "Czech Open 2026",
-      "shortTitle": "Czech Open 2026",
-      "status": "upcoming",
-      "startDate": "2026-07-22T08:00:00Z",
-      "endDate": "2026-08-01T18:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Czech Open 2026.",
-      "description": "Listed on the Chess.com current events page.",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/czech-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/czech-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
@@ -5914,6 +5969,7 @@
         "angela-dragomirescu",
         "oleh-stoyko",
         "sirin-kalyani",
+        "kumar-j-akshit",
         "martin-dimitrov",
         "david-saioc",
         "yoni-grabinsky",
@@ -5951,11 +6007,10 @@
         "yiheng-tang",
         "artem-hyron",
         "polina-sharapova",
+        "bogdan-andrei-ivancescu",
         "alex-cosmin-codreanu",
         "ioan-dincov",
-        "v-rindhiya",
-        "vlad-bogdan-ghita",
-        "alexandru-mihai-popescu"
+        "v-rindhiya"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
@@ -6090,6 +6145,7 @@
         "angela-dragomirescu",
         "oleh-stoyko",
         "sirin-kalyani",
+        "kumar-j-akshit",
         "martin-dimitrov",
         "david-saioc",
         "yoni-grabinsky",
@@ -6127,11 +6183,10 @@
         "yiheng-tang",
         "artem-hyron",
         "polina-sharapova",
+        "bogdan-andrei-ivancescu",
         "alex-cosmin-codreanu",
         "ioan-dincov",
-        "v-rindhiya",
-        "vlad-bogdan-ghita",
-        "alexandru-mihai-popescu"
+        "v-rindhiya"
       ],
       "confirmedPlayers": [
         {
@@ -7755,6 +7810,21 @@
           }
         },
         {
+          "playerId": "kumar-j-akshit",
+          "name": "Kumar J Akshit",
+          "countryCode": "IND",
+          "title": "CM",
+          "fideId": "25097431",
+          "classicalRating": 2150,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "martin-dimitrov",
           "name": "Martin Dimitrov",
           "countryCode": "BUL",
@@ -8310,6 +8380,21 @@
           }
         },
         {
+          "playerId": "bogdan-andrei-ivancescu",
+          "name": "Bogdan-Andrei Ivancescu",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "1274473",
+          "classicalRating": 2044,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "alex-cosmin-codreanu",
           "name": "Alex-Cosmin Codreanu",
           "countryCode": "ROU",
@@ -8346,36 +8431,6 @@
           "title": "WFM",
           "fideId": "25040529",
           "classicalRating": 2038,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vlad-bogdan-ghita",
-          "name": "Vlad-Bogdan Ghita",
-          "countryCode": "ROU",
-          "title": "I",
-          "fideId": "1222198",
-          "classicalRating": 2035,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexandru-mihai-popescu",
-          "name": "Alexandru-Mihai Popescu",
-          "countryCode": "ROU",
-          "title": "I",
-          "fideId": "1267051",
-          "classicalRating": 2033,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
