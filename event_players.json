@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-23T08:11:31Z",
-  "eventPlayerCount": 2007,
+  "generatedAt": "2026-07-23T13:23:56Z",
+  "eventPlayerCount": 2008,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 2007
+      "count": 2008
     },
     {
       "name": "curated",
@@ -11631,6 +11631,21 @@
       "countryCode": "SVK",
       "title": null,
       "fideId": "14973308",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-bratislava-chess-summer-3-7-aug-2026",
+      "playerId": "blaz-korosec",
+      "name": "Blaz Korosec",
+      "countryCode": "SLO",
+      "title": null,
+      "fideId": "14671085",
       "classicalRating": null,
       "status": "confirmed",
       "source": {

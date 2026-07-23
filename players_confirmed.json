@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T08:11:31Z",
-  "playerCount": 1909,
+  "generatedAt": "2026-07-23T13:23:56Z",
+  "playerCount": 1910,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -9228,6 +9228,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blaz-korosec",
+      "name": "Blaz Korosec",
+      "countryCode": "SLO",
+      "title": null,
+      "fideId": "14671085",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-bratislava-chess-summer-3-7-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-bratislava-chess-summer-3-7-aug-2026",
+          "title": "Bratislava Chess Summer",
+          "status": "upcoming",
+          "startDate": "2026-08-03T00:00:00Z",
+          "endDate": "2026-08-07T23:59:59Z",
+          "locationName": "Bratislava, Slovakia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/628",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
             "confidence": "high"
           }
         }
