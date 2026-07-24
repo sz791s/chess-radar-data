@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T08:07:14Z",
-  "playerCount": 1913,
+  "generatedAt": "2026-07-24T13:17:22Z",
+  "playerCount": 1916,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -1870,9 +1870,30 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
         "chessaround-olomouc-chess-summer-2026-16-23-aug-2026"
       ],
       "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
         {
           "eventId": "chessaround-olomouc-chess-summer-2026-16-23-aug-2026",
           "title": "Olomouc Chess Summer 2026",
@@ -3195,40 +3216,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "altair-kazhmurat",
-      "name": "Altair Kazhmurat",
-      "countryCode": "KAZ",
-      "title": null,
-      "fideId": "13750208",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -8251,6 +8238,40 @@
       ]
     },
     {
+      "id": "baris-cinar-sahbudak",
+      "name": "Baris Cinar Sahbudak",
+      "countryCode": "TUR",
+      "title": "CM",
+      "fideId": "26351633",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "upcoming",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "bart-lemstra",
       "name": "Bart Lemstra",
       "countryCode": "NED",
@@ -12602,6 +12623,40 @@
       ]
     },
     {
+      "id": "damian-balinski",
+      "name": "Damian Balinski",
+      "countryCode": "POL",
+      "title": null,
+      "fideId": "1120913",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "dana-kochavi",
       "name": "Dana Kochavi",
       "countryCode": "ISR",
@@ -13527,40 +13582,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "darko-kurtovic",
-      "name": "Darko Kurtovic",
-      "countryCode": "CRO",
-      "title": null,
-      "fideId": "14580225",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -16150,6 +16171,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dominik-novotny",
+      "name": "Dominik Novotny",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "23755601",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -20174,6 +20229,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fraser-john",
+      "name": "Fraser John",
+      "countryCode": "ENG",
+      "title": null,
+      "fideId": "436453",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-15th-split-chess-open-6-14-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-15th-split-chess-open-6-14-aug-2026",
+          "title": "15th Split Chess Open",
+          "status": "upcoming",
+          "startDate": "2026-08-06T00:00:00Z",
+          "endDate": "2026-08-14T23:59:59Z",
+          "locationName": "Split, Croatia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/631",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -26017,40 +26106,6 @@
       ]
     },
     {
-      "id": "jain-krishay",
-      "name": "Jain Krishay",
-      "countryCode": "IND",
-      "title": "CM",
-      "fideId": "25129597",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "jairo-quintiliano-de-oliveira",
       "name": "Jairo Quintiliano De Oliveira",
       "countryCode": "BRA",
@@ -28031,40 +28086,6 @@
       ]
     },
     {
-      "id": "joakim-nilsson",
-      "name": "Joakim Nilsson",
-      "countryCode": "SWE",
-      "title": "FM",
-      "fideId": "1723383",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "joakim-pedersen-berg",
       "name": "Joakim Pedersen Berg",
       "countryCode": "BEL",
@@ -29622,40 +29643,6 @@
       ]
     },
     {
-      "id": "juan-jose-benavente-vazquez",
-      "name": "Juan Jose Benavente Vazquez",
-      "countryCode": "MEX",
-      "title": "CM",
-      "fideId": "5106273",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "juan-sebastian-herrera",
       "name": "Juan Sebastian Herrera",
       "countryCode": "COL",
@@ -30513,40 +30500,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "kannan-vaidyanathan",
-      "name": "Kannan Vaidyanathan",
-      "countryCode": "USA",
-      "title": "FM",
-      "fideId": "30987245",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -32494,40 +32447,6 @@
       ]
     },
     {
-      "id": "konstantinos-stefanidis",
-      "name": "Konstantinos Stefanidis",
-      "countryCode": "GRE",
-      "title": null,
-      "fideId": "42180180",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-19th-international-open-tournament-of-kalamaria-2026-28-aug-4-sep-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-19th-international-open-tournament-of-kalamaria-2026-28-aug-4-sep-2026",
-          "title": "19th International Open Tournament of Kalamaria 2026",
-          "status": "upcoming",
-          "startDate": "2026-08-28T00:00:00Z",
-          "endDate": "2026-09-04T23:59:59Z",
-          "locationName": "Thessaloniki, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "konstantinos-stefanou",
       "name": "Konstantinos Stefanou",
       "countryCode": "GRE",
@@ -33402,6 +33321,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kyrylo-rostalnyi",
+      "name": "Kyrylo Rostalnyi",
+      "countryCode": "UKR",
+      "title": null,
+      "fideId": "34139958",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -35038,6 +34991,40 @@
       ]
     },
     {
+      "id": "lucia-sevcikova",
+      "name": "Lucia Sevcikova",
+      "countryCode": "SVK",
+      "title": "WFM",
+      "fideId": "14940744",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "lucian-ioan-filip",
       "name": "Lucian-Ioan Filip",
       "countryCode": "ROU",
@@ -35906,40 +35893,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "maksym-khymchenko",
-      "name": "Maksym Khymchenko",
-      "countryCode": "UKR",
-      "title": null,
-      "fideId": "34182616",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "upcoming",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -38048,6 +38001,40 @@
       ]
     },
     {
+      "id": "martin-mitacek",
+      "name": "Martin Mitacek",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "23754346",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-open-stare-mesto-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-open-stare-mesto-7-15-aug-2026",
+          "title": "Open Stare Mesto",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Staré Město, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/630",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "martin-oksendal",
       "name": "Martin Oksendal",
       "countryCode": "NOR",
@@ -38143,6 +38130,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "martin-stocek",
+      "name": "Martin Stocek",
+      "countryCode": "CZE",
+      "title": null,
+      "fideId": "380121",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -38832,6 +38853,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matous-eret",
+      "name": "Matous Eret",
+      "countryCode": "CZE",
+      "title": "FM",
+      "fideId": "364509",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -42029,40 +42084,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "mohapatra-sidhant",
-      "name": "Mohapatra Sidhant",
-      "countryCode": "IND",
-      "title": "IM",
-      "fideId": "5028698",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -48192,6 +48213,40 @@
       ]
     },
     {
+      "id": "philipp-biedenkopf",
+      "name": "Philipp Biedenkopf",
+      "countryCode": "GER",
+      "title": null,
+      "fideId": "16281560",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "phineas-weingarten",
       "name": "Phineas Weingarten",
       "countryCode": "USA",
@@ -49454,6 +49509,40 @@
       ]
     },
     {
+      "id": "rou",
+      "name": "ROU",
+      "countryCode": null,
+      "title": "1285629",
+      "fideId": null,
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-41-open-sestao-basque-country-8-13-sep-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-41-open-sestao-basque-country-8-13-sep-2026",
+          "title": "41.º Open Sestao Basque Country",
+          "status": "upcoming",
+          "startDate": "2026-09-08T00:00:00Z",
+          "endDate": "2026-09-13T23:59:59Z",
+          "locationName": "Sestao, Spain",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/549",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "radek-bujnoch",
       "name": "Radek Bujnoch",
       "countryCode": "CZE",
@@ -49775,6 +49864,40 @@
       ]
     },
     {
+      "id": "rainer-ter-stal",
+      "name": "Rainer ter Stal",
+      "countryCode": "GER",
+      "title": "CM",
+      "fideId": "12993603",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "raja-p-karthick",
       "name": "Raja P Karthick",
       "countryCode": "IND",
@@ -49817,30 +49940,9 @@
       "classicalRating": 2202,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
         "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
       ],
       "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
         {
           "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
           "title": "24th Spilimbergo International Chess Tournament",
@@ -50651,6 +50753,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "renars-muzis",
+      "name": "Renars Muzis",
+      "countryCode": "LAT",
+      "title": null,
+      "fideId": "11626348",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -54057,6 +54193,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "semen-grebeniuk",
+      "name": "Semen Grebeniuk",
+      "countryCode": "UKR",
+      "title": null,
+      "fideId": "14117509",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -59082,40 +59252,6 @@
       ]
     },
     {
-      "id": "timur-balmagambetov",
-      "name": "Timur Balmagambetov",
-      "countryCode": "KAZ",
-      "title": null,
-      "fideId": "13730258",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "timur-melestean",
       "name": "Timur Melestean",
       "countryCode": "GER",
@@ -61011,6 +61147,40 @@
       ]
     },
     {
+      "id": "vaclav-rajlich",
+      "name": "Vaclav Rajlich",
+      "countryCode": "POL",
+      "title": "CM",
+      "fideId": "21048525",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
+          "title": "CZECH OPEN Pardubice - Open A",
+          "status": "live",
+          "startDate": "2026-07-24T00:00:00Z",
+          "endDate": "2026-08-01T23:59:59Z",
+          "locationName": "Pardubice, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "vadim-myachin",
       "name": "Vadim Myachin",
       "countryCode": "FID",
@@ -61383,40 +61553,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "vasik-rajlich",
-      "name": "Vasik Rajlich",
-      "countryCode": "POL",
-      "title": "IM",
-      "fideId": "2011190",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -62565,30 +62701,9 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
         "chessaround-summer-prague-open-2026-7-15-aug-2026"
       ],
       "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
         {
           "eventId": "chessaround-summer-prague-open-2026-7-15-aug-2026",
           "title": "Summer Prague Open 2026",
@@ -64196,6 +64311,40 @@
       ]
     },
     {
+      "id": "yekta-efe-metiner",
+      "name": "Yekta Efe Metiner",
+      "countryCode": "TUR",
+      "title": null,
+      "fideId": "51618141",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-19th-international-open-tournament-of-kalamaria-2026-28-aug-4-sep-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-19th-international-open-tournament-of-kalamaria-2026-28-aug-4-sep-2026",
+          "title": "19th International Open Tournament of Kalamaria 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-28T00:00:00Z",
+          "endDate": "2026-09-04T23:59:59Z",
+          "locationName": "Thessaloniki, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "yellumahanthi-setumadhav",
       "name": "Yellumahanthi Setumadhav",
       "countryCode": "IND",
@@ -65264,40 +65413,6 @@
       ]
     },
     {
-      "id": "zdenek-davidek",
-      "name": "Zdenek Davidek",
-      "countryCode": "CZE",
-      "title": null,
-      "fideId": "23725001",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-czech-open-pardubice-open-a-24-jul-1-aug-2026",
-          "title": "CZECH OPEN Pardubice - Open A",
-          "status": "live",
-          "startDate": "2026-07-24T00:00:00Z",
-          "endDate": "2026-08-01T23:59:59Z",
-          "locationName": "Pardubice, Czech Republic",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/580",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1357472.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "zdenek-krejci",
       "name": "Zdenek Krejci",
       "countryCode": "CZE",
@@ -66042,40 +66157,6 @@
       "countryCode": "CRO",
       "title": "I",
       "fideId": "14585731",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-15th-split-chess-open-6-14-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-15th-split-chess-open-6-14-aug-2026",
-          "title": "15th Split Chess Open",
-          "status": "upcoming",
-          "startDate": "2026-08-06T00:00:00Z",
-          "endDate": "2026-08-14T23:59:59Z",
-          "locationName": "Split, Croatia",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/631",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ale-meri",
-      "name": "Čale Meri",
-      "countryCode": "CRO",
-      "title": "IV",
-      "fideId": "79322344",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
