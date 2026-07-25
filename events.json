@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-25T07:49:58Z",
-  "eventCount": 116,
+  "generatedAt": "2026-07-25T12:59:54Z",
+  "eventCount": 114,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 47
+      "count": 52
     },
     {
       "name": "uschess",
@@ -191,63 +191,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-nhewvyvr",
-      "title": "German Chess Championship 2026 | Seniors 50+",
-      "shortTitle": "German Chess Championship 2026 | Seniors 50+",
-      "status": "live",
-      "startDate": "2026-07-17T08:15:00Z",
-      "endDate": "2026-07-25T08:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dresden, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/german-chess-championship-2026-seniors-50/NhEwvYVr",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/german-chess-championship-2026-seniors-50/NhEwvYVr"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.schachgipfel.de/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1267856.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/german-chess-championship-2026-seniors-65/xObRXzTq"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1267810.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-28035",
       "title": "Welsh Esports League Season 11: Chess",
       "shortTitle": "Welsh Esports League Season 11: Chess",
@@ -290,101 +233,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-q8orlij4",
-      "title": "German Chess Championship 2026 | Masters Men",
-      "shortTitle": "German Chess Championship 2026 | Masters Men",
-      "status": "live",
-      "startDate": "2026-07-17T12:15:00Z",
-      "endDate": "2026-07-25T09:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dresden, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/german-chess-championship-2026-masters-men/q8orlij4",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/german-chess-championship-2026-masters-men/q8orlij4"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.schachgipfel.de/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1447809.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-0sys9fxi",
-      "title": "German Chess Championship 2026 | Masters Women",
-      "shortTitle": "German Chess Championship 2026 | Masters Women",
-      "status": "live",
-      "startDate": "2026-07-17T12:15:00Z",
-      "endDate": "2026-07-25T09:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dresden, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/german-chess-championship-2026-masters-women/0sys9FxI",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/german-chess-championship-2026-masters-women/0sys9FxI"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.schachgipfel.de/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1373517.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -448,7 +296,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 40th Avoine Open 2026.",
-      "description": "56 listed players. 9 rounds",
+      "description": "58 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -565,150 +413,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-fnrkv0z0",
-      "title": "German Chess Championship 2026 | Candidates Men",
-      "shortTitle": "German Chess Championship 2026 | Candidates Men",
-      "status": "live",
-      "startDate": "2026-07-19T12:15:00Z",
-      "endDate": "2026-07-25T09:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dresden, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "elite",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/german-chess-championship-2026-candidates-men/FnrKv0Z0",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/german-chess-championship-2026-candidates-men/FnrKv0Z0"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.schachgipfel.de/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1447732.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-mpj5jcmj",
-      "title": "German Chess Championship 2026 | Candidates Women",
-      "shortTitle": "German Chess Championship 2026 | Candidates Women",
-      "status": "live",
-      "startDate": "2026-07-19T12:15:00Z",
-      "endDate": "2026-07-25T09:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dresden, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "elite",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/german-chess-championship-2026-candidates-women/mpJ5JCMj",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/german-chess-championship-2026-candidates-women/mpJ5JCMj"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.schachgipfel.de/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1373533.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-ghbjgl4u",
-      "title": "German Chess Championship 2026 | Handicapped Players",
-      "shortTitle": "German Chess Championship 2026 | Handicapped Players",
-      "status": "live",
-      "startDate": "2026-07-19T12:15:00Z",
-      "endDate": "2026-07-25T09:15:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dresden, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/german-chess-championship-2026-handicapped-players/GHBjGl4U",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/german-chess-championship-2026-handicapped-players/GHBjGl4U"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.schachgipfel.de/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1335401.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1184,15 +888,15 @@
     },
     {
       "id": "chesscom-29206",
-      "title": "50 Open Internacional d'Escacs Vila de Sitges",
-      "shortTitle": "50 Open Internacional d'Escacs Vila de Sitges",
+      "title": "50th Vila De Sitges International Open",
+      "shortTitle": "50th Vila De Sitges International Open",
       "status": "live",
       "startDate": "2026-07-22T14:30:00Z",
       "endDate": "2026-07-30T18:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: 50 Open Internacional d'Escacs Vila de Sitges.",
+      "summary": "Chess.com current event: 50th Vila De Sitges International Open.",
       "description": "103 listed players. 9 rounds",
       "categories": [
         "online",
@@ -1235,7 +939,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: German Amateur Chess Championship 2026.",
-      "description": "143 listed players",
+      "description": "146 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1400,7 +1104,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Bergen Spillfestival 2026.",
-      "description": "38 listed players",
+      "description": "40 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1589,11 +1293,9 @@
         "gabriele-lumachi",
         "samuel-timotei-ghimpu",
         "maximillian-lu",
-        "nazar-firman",
         "jakub-fus",
         "marius-manolache",
         "antoni-kozak",
-        "arad-nazari",
         "mircea-talu",
         "saxena-apaar",
         "miaoyi-lu",
@@ -1616,7 +1318,6 @@
         "lucian-ioan-filip",
         "robert-gabriel-sava",
         "nathael-eugene",
-        "mobina-alinasab",
         "alexandru-manea",
         "luis-rojas-keim",
         "cosmin-tanasie",
@@ -1633,9 +1334,7 @@
         "vladimir-poley",
         "yoann-robert",
         "david-alexandru-botea",
-        "zoran-s-ilic",
         "ruslan-soltanici",
-        "swaminathan-soumya",
         "ali-poyraz-uzdemir",
         "sasha-matei-craciun",
         "stefan-emilian-prisacaru",
@@ -1721,7 +1420,12 @@
         "polina-sharapova",
         "bogdan-andrei-ivancescu",
         "alex-cosmin-codreanu",
-        "ioan-dincov"
+        "ioan-dincov",
+        "v-rindhiya",
+        "vlad-bogdan-ghita",
+        "alexandru-mihai-popescu",
+        "luciana-gabriela-stan",
+        "simon-alexandru-barbu"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/590",
@@ -1765,11 +1469,9 @@
         "gabriele-lumachi",
         "samuel-timotei-ghimpu",
         "maximillian-lu",
-        "nazar-firman",
         "jakub-fus",
         "marius-manolache",
         "antoni-kozak",
-        "arad-nazari",
         "mircea-talu",
         "saxena-apaar",
         "miaoyi-lu",
@@ -1792,7 +1494,6 @@
         "lucian-ioan-filip",
         "robert-gabriel-sava",
         "nathael-eugene",
-        "mobina-alinasab",
         "alexandru-manea",
         "luis-rojas-keim",
         "cosmin-tanasie",
@@ -1809,9 +1510,7 @@
         "vladimir-poley",
         "yoann-robert",
         "david-alexandru-botea",
-        "zoran-s-ilic",
         "ruslan-soltanici",
-        "swaminathan-soumya",
         "ali-poyraz-uzdemir",
         "sasha-matei-craciun",
         "stefan-emilian-prisacaru",
@@ -1897,7 +1596,12 @@
         "polina-sharapova",
         "bogdan-andrei-ivancescu",
         "alex-cosmin-codreanu",
-        "ioan-dincov"
+        "ioan-dincov",
+        "v-rindhiya",
+        "vlad-bogdan-ghita",
+        "alexandru-mihai-popescu",
+        "luciana-gabriela-stan",
+        "simon-alexandru-barbu"
       ],
       "confirmedPlayers": [
         {
@@ -2156,21 +1860,6 @@
           }
         },
         {
-          "playerId": "nazar-firman",
-          "name": "Nazar Firman",
-          "countryCode": "UKR",
-          "title": "GM",
-          "fideId": "14104490",
-          "classicalRating": 2452,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "jakub-fus",
           "name": "Jakub Fus",
           "countryCode": "POL",
@@ -2207,21 +1896,6 @@
           "title": null,
           "fideId": "21832030",
           "classicalRating": 2426,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "arad-nazari",
-          "name": "Arad Nazari",
-          "countryCode": "IRI",
-          "title": "IM",
-          "fideId": "12577324",
-          "classicalRating": 2419,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -2561,21 +2235,6 @@
           }
         },
         {
-          "playerId": "mobina-alinasab",
-          "name": "Mobina Alinasab",
-          "countryCode": "IRI",
-          "title": "WGM",
-          "fideId": "12528897",
-          "classicalRating": 2306,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "alexandru-manea",
           "name": "Alexandru Manea",
           "countryCode": "ROU",
@@ -2816,42 +2475,12 @@
           }
         },
         {
-          "playerId": "zoran-s-ilic",
-          "name": "Zoran S Ilic",
-          "countryCode": "SRB",
-          "title": "IM",
-          "fideId": "901733",
-          "classicalRating": 2270,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "ruslan-soltanici",
           "name": "Ruslan Soltanici",
           "countryCode": "MDA",
           "title": "IM",
           "fideId": "13900889",
           "classicalRating": 2269,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "swaminathan-soumya",
-          "name": "Swaminathan Soumya",
-          "countryCode": "IND",
-          "title": "IM",
-          "fideId": "5016193",
-          "classicalRating": 2266,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -4149,6 +3778,81 @@
             "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
             "confidence": "high"
           }
+        },
+        {
+          "playerId": "v-rindhiya",
+          "name": "V Rindhiya",
+          "countryCode": "IND",
+          "title": "WFM",
+          "fideId": "25040529",
+          "classicalRating": 2038,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vlad-bogdan-ghita",
+          "name": "Vlad-Bogdan Ghita",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "1222198",
+          "classicalRating": 2035,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alexandru-mihai-popescu",
+          "name": "Alexandru-Mihai Popescu",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "1267051",
+          "classicalRating": 2033,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "luciana-gabriela-stan",
+          "name": "Luciana-Gabriela Stan",
+          "countryCode": "ROU",
+          "title": "WCM",
+          "fideId": "1248286",
+          "classicalRating": 2028,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "simon-alexandru-barbu",
+          "name": "Simon-Alexandru Barbu",
+          "countryCode": "ROU",
+          "title": "I",
+          "fideId": "1257170",
+          "classicalRating": 2027,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1284091.aspx?lan=1&art=0&turdet=YES&flag=NO&SNode=S0",
+            "confidence": "high"
+          }
         }
       ]
     },
@@ -4198,8 +3902,8 @@
     },
     {
       "id": "lichess-4chzsowu",
-      "title": "4th China Chess King 2026 | Stage 3 (Main Event)",
-      "shortTitle": "4th China Chess King 2026 | Stage 3 (Main Event)",
+      "title": "4th China Chess King Tournament 2026 | Stage 3 (Main Event)",
+      "shortTitle": "4th China Chess King Tournament 2026 | Stage 3 (Main Event)",
       "status": "live",
       "startDate": "2026-07-25T02:00:00Z",
       "endDate": "2026-07-26T07:05:00Z",
@@ -4217,12 +3921,12 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/4th-china-chess-king-2026-stage-3-main-event/4CHzSOwU",
+      "primaryUrl": "https://lichess.org/broadcast/4th-china-chess-king-tournament-2026-stage-3-main-event/4CHzSOwU",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/4th-china-chess-king-2026-stage-3-main-event/4CHzSOwU"
+          "url": "https://lichess.org/broadcast/4th-china-chess-king-tournament-2026-stage-3-main-event/4CHzSOwU"
         },
         {
           "label": "Standings",
@@ -4240,16 +3944,16 @@
     },
     {
       "id": "chesscom-29467",
-      "title": "Bihar State Chess Championship u17 2026",
-      "shortTitle": "Bihar State Chess Championship u17 2026",
+      "title": "Bihar U17 State Chess Championship 2026",
+      "shortTitle": "Bihar U17 State Chess Championship 2026",
       "status": "live",
       "startDate": "2026-07-25T03:30:00Z",
       "endDate": "2026-07-29T13:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: Bihar State Chess Championship u17 2026.",
-      "description": "20 listed players",
+      "summary": "Chess.com current event: Bihar U17 State Chess Championship 2026.",
+      "description": "31 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -4290,7 +3994,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Hungarian Individual Rapid Championship 2026.",
-      "description": "11 rounds",
+      "description": "78 listed players. 11 rounds",
       "categories": [
         "rapid",
         "online",
@@ -4369,12 +4073,12 @@
       "shortTitle": "Shumen Rapid 2026",
       "status": "live",
       "startDate": "2026-07-25T07:00:00Z",
-      "endDate": "2026-07-26T07:00:00Z",
+      "endDate": "2026-07-26T16:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Shumen Rapid 2026.",
-      "description": "9 rounds",
+      "description": "41 listed players. 9 rounds",
       "categories": [
         "rapid",
         "online",
@@ -4407,17 +4111,18 @@
     },
     {
       "id": "chesscom-28753",
-      "title": "X Open Internacional Rápidas Quart de Poblet",
-      "shortTitle": "X Open Internacional Rápidas Quart de Poblet",
-      "status": "upcoming",
+      "title": "10th Quart De Poblet Rapid Open",
+      "shortTitle": "10th Quart De Poblet Rapid Open",
+      "status": "live",
       "startDate": "2026-07-25T08:00:00Z",
       "endDate": "2026-07-25T17:45:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: X Open Internacional Rápidas Quart de Poblet.",
-      "description": "9 rounds",
+      "summary": "Chess.com current event: 10th Quart De Poblet Rapid Open.",
+      "description": "36 listed players. 9 rounds",
       "categories": [
+        "rapid",
         "online",
         "broadcast",
         "open"
@@ -4448,10 +4153,92 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29431",
+      "title": "Jönköping Chess Festival 2026",
+      "shortTitle": "Jönköping Chess Festival 2026",
+      "status": "live",
+      "startDate": "2026-07-25T09:00:00Z",
+      "endDate": "2026-08-01T21:59:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Jönköping Chess Festival 2026.",
+      "description": "35 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/jonkoping-chess-festival-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/jonkoping-chess-festival-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29473",
+      "title": "3rd Jonkoping Chess Festival 2026",
+      "shortTitle": "3rd Jonkoping Chess Festival 2026",
+      "status": "live",
+      "startDate": "2026-07-25T11:30:00Z",
+      "endDate": "2026-08-01T16:15:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 3rd Jonkoping Chess Festival 2026.",
+      "description": "29 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/3rd-jonkoping-chess-festival-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/3rd-jonkoping-chess-festival-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-29463",
       "title": "13th annual Washington International",
       "shortTitle": "13th annual Washington International",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-07-25T12:00:00Z",
       "endDate": "2026-07-29T17:00:00Z",
       "timezone": "UTC",
@@ -4515,6 +4302,134 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/liga-uruguaya-de-ajedrez-regional-este-absoluta"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29332",
+      "title": "25th Wilkerson Memorial Tournament",
+      "shortTitle": "25th Wilkerson Memorial Tournament",
+      "status": "upcoming",
+      "startDate": "2026-07-25T16:00:00Z",
+      "endDate": "2026-07-27T05:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 25th Wilkerson Memorial Tournament.",
+      "description": "4 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/25th-wilkerson-memorial-tournament",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/25th-wilkerson-memorial-tournament"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29459",
+      "title": "Quick Sabanito Birthday Boy from nau64",
+      "shortTitle": "Quick Sabanito Birthday Boy from nau64",
+      "status": "upcoming",
+      "startDate": "2026-07-25T19:00:00Z",
+      "endDate": "2026-07-25T23:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Quick Sabanito Birthday Boy from nau64.",
+      "description": "5 rounds. 1 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/rapido-sabanito-cumpleanero-de-nau64",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/rapido-sabanito-cumpleanero-de-nau64"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Rapido nau64",
+          "type": "stream",
+          "url": "https://www.twitch.tv/nau64ajedrez"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29464",
+      "title": "25th Central American & Caribbean Games Santo Domingo 2026",
+      "shortTitle": "25th Central American & Caribbean Games Santo Domingo 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-25T19:05:00Z",
+      "endDate": "2026-07-28T01:05:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 25th Central American & Caribbean Games Santo Domingo 2026.",
+      "description": "62 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/25th-central-american-caribbean-games-santo-domingo-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/25th-central-american-caribbean-games-santo-domingo-2026"
         },
         {
           "label": "Chess.com current events",
@@ -9899,49 +9814,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "lichess-zcnoxceq",
-      "title": "2026 Chinese Chess League Division B 中国国际象棋乙级联赛",
-      "shortTitle": "2026 Chinese Chess League Division B 中国国际象棋乙级联赛",
-      "status": "upcoming",
-      "startDate": "2026-07-28T01:15:00Z",
-      "endDate": "2026-08-02T01:15:00Z",
-      "timezone": "Asia/Shanghai",
-      "locationName": "Shaoxing, China",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss for Teams",
-      "categories": [
-        "classical",
-        "broadcast",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-chinese-chess-league-division-b/zCNOXceQ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-chinese-chess-league-division-b/zCNOXceQ"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1457633.aspx?lan=1&art=0&turdet=YES&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "chessbase-saint-louis-rapid-and-blitz-29-july-to-6-august-2026",
@@ -24840,6 +24712,11 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/Tnr1379871.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-top-boards/gVby6S8V"
         }
       ],
       "source": {
@@ -32024,8 +31901,8 @@
         "mas",
         "sui",
         "bel",
-        "lux",
-        "rou"
+        "rou",
+        "lux"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/549",
@@ -32071,8 +31948,8 @@
         "mas",
         "sui",
         "bel",
-        "lux",
-        "rou"
+        "rou",
+        "lux"
       ],
       "confirmedPlayers": [
         {
@@ -32361,10 +32238,10 @@
           }
         },
         {
-          "playerId": "lux",
-          "name": "LUX",
+          "playerId": "rou",
+          "name": "ROU",
           "countryCode": null,
-          "title": "4007190",
+          "title": "1234803",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -32376,10 +32253,10 @@
           }
         },
         {
-          "playerId": "rou",
-          "name": "ROU",
+          "playerId": "lux",
+          "name": "LUX",
           "countryCode": null,
-          "title": "1285629",
+          "title": "4007190",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
