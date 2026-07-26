@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T08:08:01Z",
+  "generatedAt": "2026-07-26T12:57:42Z",
   "playerCount": 1651,
   "source": "confirmedEventRosters",
   "players": [
@@ -20867,6 +20867,39 @@
       ]
     },
     {
+      "id": "hiroshi-manabe",
+      "name": "Hiroshi Manabe",
+      "countryCode": "JPN",
+      "title": null,
+      "fideId": "7000820",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-japan-chess-classic-2026-9-12-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-japan-chess-classic-2026-9-12-aug-2026",
+          "title": "Japan Chess Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-09T00:00:00Z",
+          "endDate": "2026-08-12T23:59:59Z",
+          "locationName": "Osaka, Japan",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/632",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "hiroto-taga",
       "name": "Hiroto Taga",
       "countryCode": "JPN",
@@ -32059,39 +32092,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "marcos-cesar-minamoto",
-      "name": "Marcos Cesar Minamoto",
-      "countryCode": "JPN",
-      "title": null,
-      "fideId": "7002483",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-japan-chess-classic-2026-9-12-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-japan-chess-classic-2026-9-12-aug-2026",
-          "title": "Japan Chess Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-08-09T00:00:00Z",
-          "endDate": "2026-08-12T23:59:59Z",
-          "locationName": "Osaka, Japan",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/632",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
