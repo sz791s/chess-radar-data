@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T01:56:44Z",
-  "playerCount": 1730,
+  "generatedAt": "2026-07-27T09:30:04Z",
+  "playerCount": 1733,
   "source": "confirmedEventRosters",
   "players": [
     {
@@ -236,22 +236,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -557,23 +559,25 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
+        "chesscom-27822",
         "chessaround-summer-prague-open-2026-7-15-aug-2026"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -645,22 +649,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -908,6 +914,39 @@
       ]
     },
     {
+      "id": "agrawal-nimay",
+      "name": "Agrawal Nimay",
+      "countryCode": "IND",
+      "title": "CM",
+      "fideId": "25900803",
+      "classicalRating": 2243,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
+          "title": "24th Spilimbergo International Chess Tournament",
+          "status": "upcoming",
+          "startDate": "2026-08-08T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Spilimbergo, Italy",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "ahmed-bouzidi",
       "name": "Ahmed Bouzidi",
       "countryCode": "TUN",
@@ -1139,22 +1178,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -1889,22 +1930,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -2898,22 +2941,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -3229,6 +3274,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anamarija-radikovic",
+      "name": "Anamarija Radikovic",
+      "countryCode": "CRO",
+      "title": "WFM",
+      "fideId": "14546264",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "live",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -3637,22 +3716,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -5583,22 +5664,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -6157,22 +6240,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -6190,22 +6275,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -10072,39 +10159,6 @@
       ]
     },
     {
-      "id": "chi-ngo-chan",
-      "name": "Chi Ngo Chan",
-      "countryCode": "HKG",
-      "title": null,
-      "fideId": "6015905",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-japan-chess-classic-2026-9-12-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-japan-chess-classic-2026-9-12-aug-2026",
-          "title": "Japan Chess Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-08-09T00:00:00Z",
-          "endDate": "2026-08-12T23:59:59Z",
-          "locationName": "Osaka, Japan",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/632",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "ching-ting-chang",
       "name": "Ching-Ting Chang",
       "countryCode": "TPE",
@@ -10438,6 +10492,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "christos-goutoufas",
+      "name": "Christos Goutoufas",
+      "countryCode": "GRE",
+      "title": null,
+      "fideId": "25824090",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "live",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -11470,22 +11558,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -11605,22 +11695,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -12275,10 +12367,11 @@
       "countryCode": "IND",
       "title": null,
       "fideId": "25077155",
-      "classicalRating": null,
+      "classicalRating": 2324,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026"
+        "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026",
+        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
       ],
       "confirmedEvents": [
         {
@@ -12298,6 +12391,25 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1373991.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
+          "title": "24th Spilimbergo International Chess Tournament",
+          "status": "upcoming",
+          "startDate": "2026-08-08T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Spilimbergo, Italy",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -13195,22 +13307,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -13383,22 +13497,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -13450,22 +13566,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -14530,22 +14648,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -14798,22 +14918,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -15035,22 +15157,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -19079,40 +19203,6 @@
       ]
     },
     {
-      "id": "georgia-grapsa",
-      "name": "Georgia Grapsa",
-      "countryCode": "GRE",
-      "title": "WFM",
-      "fideId": "4206436",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "georgios-bougas",
       "name": "Georgios Bougas",
       "countryCode": "GRE",
@@ -19852,22 +19942,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -20123,22 +20215,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -20664,22 +20758,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -20765,22 +20861,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -20798,22 +20896,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -21271,25 +21371,61 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "henrik-cernov",
+      "name": "Henrik Cernov",
+      "countryCode": "GER",
+      "title": "FM",
+      "fideId": "16258312",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-open-stare-mesto-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-open-stare-mesto-7-15-aug-2026",
+          "title": "Open Stare Mesto",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Staré Město, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/630",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -21335,39 +21471,6 @@
       "countryCode": "JPN",
       "title": null,
       "fideId": "7004842",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-japan-chess-classic-2026-9-12-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-japan-chess-classic-2026-9-12-aug-2026",
-          "title": "Japan Chess Classic 2026",
-          "status": "upcoming",
-          "startDate": "2026-08-09T00:00:00Z",
-          "endDate": "2026-08-12T23:59:59Z",
-          "locationName": "Osaka, Japan",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/632",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "hikaru-tamura",
-      "name": "Hikaru Tamura",
-      "countryCode": "JPN",
-      "title": null,
-      "fideId": "7004060",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -22244,22 +22347,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -22478,22 +22583,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -22511,22 +22618,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -22679,22 +22788,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -23426,23 +23537,25 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
+        "chesscom-27822",
         "chessaround-japan-chess-classic-2026-9-12-aug-2026"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -24815,22 +24928,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -25759,22 +25874,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -26537,22 +26654,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -27584,22 +27703,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -27988,22 +28109,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -28197,6 +28320,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1323252.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kata-sara-vasenszky",
+      "name": "Kata Sara Vasenszky",
+      "countryCode": "HUN",
+      "title": null,
+      "fideId": "17009278",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-bratislava-chess-summer-3-7-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-bratislava-chess-summer-3-7-aug-2026",
+          "title": "Bratislava Chess Summer",
+          "status": "upcoming",
+          "startDate": "2026-08-03T00:00:00Z",
+          "endDate": "2026-08-07T23:59:59Z",
+          "locationName": "Bratislava, Slovakia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/628",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
             "confidence": "high"
           }
         }
@@ -28850,22 +29006,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -29927,22 +30085,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -30028,22 +30188,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -30197,22 +30359,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -30396,40 +30560,6 @@
       "countryCode": "IND",
       "title": "CM",
       "fideId": "25642200",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "kunal-patil-aditya",
-      "name": "Kunal Patil Aditya",
-      "countryCode": "IND",
-      "title": "CM",
-      "fideId": "25656716",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -31239,39 +31369,6 @@
       ]
     },
     {
-      "id": "leonardo-maglioni",
-      "name": "Leonardo Maglioni",
-      "countryCode": "ITA",
-      "title": null,
-      "fideId": "2896830",
-      "classicalRating": 2165,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
-          "title": "24th Spilimbergo International Chess Tournament",
-          "status": "upcoming",
-          "startDate": "2026-08-08T00:00:00Z",
-          "endDate": "2026-08-15T23:59:59Z",
-          "locationName": "Spilimbergo, Italy",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "leonid-leonov",
       "name": "Leonid Leonov",
       "countryCode": "AUT",
@@ -31450,22 +31547,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -31652,22 +31751,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -32580,22 +32681,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -32782,22 +32885,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -33240,22 +33345,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -34250,22 +34357,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -34832,6 +34941,39 @@
       ]
     },
     {
+      "id": "mashu-tsuboi",
+      "name": "Mashu Tsuboi",
+      "countryCode": "JPN",
+      "title": null,
+      "fideId": "7006446",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-japan-chess-classic-2026-9-12-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-japan-chess-classic-2026-9-12-aug-2026",
+          "title": "Japan Chess Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-09T00:00:00Z",
+          "endDate": "2026-08-12T23:59:59Z",
+          "locationName": "Osaka, Japan",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/632",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "massimiliano-botta",
       "name": "Massimiliano Botta",
       "countryCode": "ITA",
@@ -35063,22 +35205,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -36106,22 +36250,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -36139,22 +36285,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -37262,22 +37410,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -37295,22 +37445,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -38474,22 +38626,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -38527,39 +38681,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "narayanan-p-s-sanjay",
-      "name": "Narayanan P S Sanjay",
-      "countryCode": "IND",
-      "title": "CM",
-      "fideId": "25154540",
-      "classicalRating": 2161,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
-          "title": "24th Spilimbergo International Chess Tournament",
-          "status": "upcoming",
-          "startDate": "2026-08-08T00:00:00Z",
-          "endDate": "2026-08-15T23:59:59Z",
-          "locationName": "Spilimbergo, Italy",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -38856,7 +38977,7 @@
     },
     {
       "id": "niccolo-casadio",
-      "name": "Niccolo` Casadio",
+      "name": "Niccolo Casadio",
       "countryCode": "ITA",
       "title": "FM",
       "fideId": "2827951",
@@ -39083,22 +39204,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -39150,22 +39273,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -39216,23 +39341,25 @@
       "classicalRating": 2278,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
+        "chesscom-27822",
         "chessaround-granada-chess-open-28-jul-2-aug-2026"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -39324,22 +39451,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -39425,22 +39554,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -40463,6 +40594,40 @@
       ]
     },
     {
+      "id": "ognian-stoychev",
+      "name": "Ognian Stoychev",
+      "countryCode": "BUL",
+      "title": null,
+      "fideId": "2943573",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "live",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "ognjenovi-nenad",
       "name": "Ognjenović Nenad",
       "countryCode": "CRO",
@@ -40572,22 +40737,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -40605,22 +40772,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -40841,22 +41010,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -41282,22 +41453,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -41451,22 +41624,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -42314,22 +42489,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -42441,6 +42618,40 @@
       ]
     },
     {
+      "id": "patricie-naymanova",
+      "name": "Patricie Naymanova",
+      "countryCode": "BUL",
+      "title": "WFM",
+      "fideId": "2925907",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "live",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "patrik-1968-nilsson",
       "name": "Patrik 1968 Nilsson",
       "countryCode": "SWE",
@@ -42483,22 +42694,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -42549,22 +42762,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -43800,23 +44015,25 @@
       "classicalRating": 2222,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
+        "chesscom-27822",
         "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -44156,22 +44373,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -44460,40 +44679,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "platon-galperin",
-      "name": "Platon Galperin",
-      "countryCode": "SWE",
-      "title": "GM",
-      "fideId": "14165414",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -45251,23 +45436,25 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
+        "chesscom-27822",
         "chessaround-japan-chess-classic-2026-9-12-aug-2026"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -45609,22 +45796,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -45642,22 +45831,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -45708,22 +45899,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -46607,22 +46800,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -47133,22 +47328,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -47432,22 +47629,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -48507,22 +48706,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -49403,7 +49604,7 @@
       "profileLinks": {},
       "confirmedEventIds": [
         "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
@@ -49427,18 +49628,20 @@
           }
         },
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -49611,23 +49814,25 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
+        "chesscom-27822",
         "chessaround-bratislava-chess-summer-3-7-aug-2026"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -49816,6 +50021,40 @@
       "countryCode": "POR",
       "title": null,
       "fideId": "1904787",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "live",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "simeon-andreev",
+      "name": "Simeon Andreev",
+      "countryCode": "BUL",
+      "title": null,
+      "fideId": "2941694",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -50121,22 +50360,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -50188,22 +50429,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -50288,22 +50531,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -52754,22 +52999,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -53171,40 +53418,6 @@
       ]
     },
     {
-      "id": "thota-dhruva",
-      "name": "Thota Dhruva",
-      "countryCode": "IND",
-      "title": "IM",
-      "fideId": "25996533",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "tiago-brand-o-de-pinho",
       "name": "Tiago Brandão De Pinho",
       "countryCode": "POR",
@@ -53586,22 +53799,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -53819,22 +54034,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -53852,22 +54069,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -54258,22 +54477,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -54443,6 +54664,39 @@
       "countryCode": "HKG",
       "title": null,
       "fideId": "6002340",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-japan-chess-classic-2026-9-12-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-japan-chess-classic-2026-9-12-aug-2026",
+          "title": "Japan Chess Classic 2026",
+          "status": "upcoming",
+          "startDate": "2026-08-09T00:00:00Z",
+          "endDate": "2026-08-12T23:59:59Z",
+          "locationName": "Osaka, Japan",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/632",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tsz-yiu-ethan-ngai",
+      "name": "Tsz Yiu Ethan Ngai",
+      "countryCode": "HKG",
+      "title": null,
+      "fideId": "6016820",
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
@@ -55065,6 +55319,40 @@
       ]
     },
     {
+      "id": "vadim-cernov",
+      "name": "Vadim Cernov",
+      "countryCode": "ROU",
+      "title": "IM",
+      "fideId": "1210629",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-open-stare-mesto-7-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-open-stare-mesto-7-15-aug-2026",
+          "title": "Open Stare Mesto",
+          "status": "upcoming",
+          "startDate": "2026-08-07T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Staré Město, Czech Republic",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/630",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "vadim-myachin",
       "name": "Vadim Myachin",
       "countryCode": "FID",
@@ -55349,22 +55637,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -56399,22 +56689,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -56963,74 +57255,6 @@
       ]
     },
     {
-      "id": "vojtech-plat",
-      "name": "Vojtech Plat",
-      "countryCode": "SVK",
-      "title": "GM",
-      "fideId": "325740",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "vojtech-zwardon",
-      "name": "Vojtech Zwardon",
-      "countryCode": "CZE",
-      "title": "IM",
-      "fideId": "325511",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
-          "title": "35th International Chess Open Tournament of Kavala 2025",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-04T23:59:59Z",
-          "locationName": "Kavala, Greece",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "volkhard-hetzer",
       "name": "Volkhard Hetzer",
       "countryCode": "GER",
@@ -57127,6 +57351,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vuk-cirkovic",
+      "name": "Vuk Cirkovic",
+      "countryCode": "SRB",
+      "title": null,
+      "fideId": "992917",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-35th-international-chess-open-tournament-of-kavala-2025-27-jul-4-aug-2026",
+          "title": "35th International Chess Open Tournament of Kavala 2025",
+          "status": "live",
+          "startDate": "2026-07-27T00:00:00Z",
+          "endDate": "2026-08-04T23:59:59Z",
+          "locationName": "Kavala, Greece",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/568",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1338271.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }
@@ -58550,22 +58808,24 @@
       "classicalRating": null,
       "profileLinks": {},
       "confirmedEventIds": [
-        "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026"
+        "chesscom-27822"
       ],
       "confirmedEvents": [
         {
-          "eventId": "chessaround-7th-paul-keres-memorial-festival-27-jul-2-aug-2026",
-          "title": "7th Paul Keres Memorial Festival",
-          "status": "live",
-          "startDate": "2026-07-27T00:00:00Z",
-          "endDate": "2026-08-02T23:59:59Z",
-          "locationName": "Pärnu, Estonia",
-          "isOnline": false,
+          "eventId": "chesscom-27822",
+          "title": "7th Paul Keres Memorial Festival 2026",
+          "status": "upcoming",
+          "startDate": "2026-07-27T13:00:00Z",
+          "endDate": "2026-08-02T20:00:00Z",
+          "locationName": "Online broadcast",
+          "isOnline": true,
           "categories": [
+            "online",
+            "broadcast",
             "classical",
             "otb"
           ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/625",
+          "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1134261.aspx?SNode=S0",
@@ -59430,6 +59690,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zoltan-gyorgy-vasenszky",
+      "name": "Zoltan Gyorgy Vasenszky",
+      "countryCode": "HUN",
+      "title": null,
+      "fideId": "17009286",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-bratislava-chess-summer-3-7-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-bratislava-chess-summer-3-7-aug-2026",
+          "title": "Bratislava Chess Summer",
+          "status": "upcoming",
+          "startDate": "2026-08-03T00:00:00Z",
+          "endDate": "2026-08-07T23:59:59Z",
+          "locationName": "Bratislava, Slovakia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/628",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
             "confidence": "high"
           }
         }
