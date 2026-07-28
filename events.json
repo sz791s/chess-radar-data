@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T13:29:41Z",
-  "eventCount": 93,
+  "generatedAt": "2026-07-28T19:06:56Z",
+  "eventCount": 94,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 39
+      "count": 41
     },
     {
       "name": "uschess",
@@ -410,7 +410,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Pontevedra Open 2026.",
-      "description": "67 listed players",
+      "description": "71 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -535,7 +535,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Jönköping Chess Festival 2026.",
-      "description": "154 listed players. 2 scheduled stream links",
+      "description": "147 listed players. 2 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -700,6 +700,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29464",
+      "title": "25th Central American & Caribbean Games Santo Domingo 2026",
+      "shortTitle": "25th Central American & Caribbean Games Santo Domingo 2026",
+      "status": "live",
+      "startDate": "2026-07-25T19:05:00Z",
+      "endDate": "2026-07-29T04:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 25th Central American & Caribbean Games Santo Domingo 2026.",
+      "description": "126 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/25th-central-american-caribbean-games-santo-domingo-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/25th-central-american-caribbean-games-santo-domingo-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-29542",
       "title": "Creon International 2026",
       "shortTitle": "Creon International 2026",
@@ -794,7 +835,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 36th Pan American Youth Chess Festival 2026 Colombia.",
-      "description": "432 listed players",
+      "description": "509 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -933,7 +974,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2nd Vitoria-Gasteiz International Open 2026.",
-      "description": "188 listed players. 9 rounds",
+      "description": "188 listed players. 9 rounds. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast",
@@ -954,6 +995,11 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Ronda 3",
+          "type": "stream",
+          "url": "https://www.youtube.com/DTslYvnIQCE"
         }
       ],
       "source": {
@@ -1004,6 +1050,48 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29589",
+      "title": "2026 Glorney International",
+      "shortTitle": "2026 Glorney International",
+      "status": "live",
+      "startDate": "2026-07-27T23:00:00Z",
+      "endDate": "2026-07-29T23:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Glorney International.",
+      "description": "28 listed players. 5 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-glorney-international",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-glorney-international"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1061,7 +1149,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2nd Bangkok Summer International Chess Open.",
-      "description": "214 listed players",
+      "description": "225 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1200,7 +1288,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Granada Chess Open 2026.",
-      "description": "9 rounds",
+      "description": "78 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -3800,54 +3888,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "lichess-0lz9k1vp",
-      "title": "XXV JCC Santo Domingo 2026 - Blitz Masculino",
-      "shortTitle": "XXV JCC Santo Domingo 2026 - Blitz Masculino",
-      "status": "upcoming",
-      "startDate": "2026-07-28T17:30:00Z",
-      "endDate": "2026-07-28T17:30:00Z",
-      "timezone": "America/Santo_Domingo",
-      "locationName": "Santo Domingo, Dominican Republic",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Liga (Round-robin)",
-      "categories": [
-        "blitz",
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/xxv-jcc-santo-domingo-2026-blitz-masculino/0LZ9k1vP",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxv-jcc-santo-domingo-2026-blitz-masculino/0LZ9k1vP"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://jcc2026.org/es"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1453995.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "chessbase-saint-louis-rapid-and-blitz-29-july-to-6-august-2026",
@@ -10469,6 +10509,7 @@
         "josef-prihoda",
         "vadim-myachin",
         "nikita-sokolovs",
+        "vaclav-mach",
         "sainbayar-delgerdalai",
         "shrikant-panigrahi-dhruvi",
         "tomas-skladal",
@@ -10590,6 +10631,7 @@
         "josef-prihoda",
         "vadim-myachin",
         "nikita-sokolovs",
+        "vaclav-mach",
         "sainbayar-delgerdalai",
         "shrikant-panigrahi-dhruvi",
         "tomas-skladal",
@@ -11630,6 +11672,21 @@
           "countryCode": "LAT",
           "title": "AGM",
           "fideId": "34212523",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vaclav-mach",
+          "name": "Vaclav Mach",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23789808",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -23431,6 +23488,7 @@
         "amarnani-harshit",
         "ninoslav-milovanovic",
         "dimitra-amiridou",
+        "klearhos-gountras",
         "anastasios-samakas",
         "evangelia-siskou",
         "konstantinos-dermatopoulos",
@@ -23531,8 +23589,7 @@
         "savvas-poursaitidis",
         "odysseas-panos-papadopoulos",
         "filippos-f-georgopoulos",
-        "marios-diamantopoulos",
-        "christoforos-pelivanidis"
+        "marios-diamantopoulos"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -23607,6 +23664,7 @@
         "amarnani-harshit",
         "ninoslav-milovanovic",
         "dimitra-amiridou",
+        "klearhos-gountras",
         "anastasios-samakas",
         "evangelia-siskou",
         "konstantinos-dermatopoulos",
@@ -23707,8 +23765,7 @@
         "savvas-poursaitidis",
         "odysseas-panos-papadopoulos",
         "filippos-f-georgopoulos",
-        "marios-diamantopoulos",
-        "christoforos-pelivanidis"
+        "marios-diamantopoulos"
       ],
       "confirmedPlayers": [
         {
@@ -24422,6 +24479,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "4218230",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "klearhos-gountras",
+          "name": "Klearhos Gountras",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "4206495",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -25945,21 +26017,6 @@
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
-        },
-        {
-          "playerId": "christoforos-pelivanidis",
-          "name": "Christoforos Pelivanidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42145597",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
         }
       ]
     },
@@ -26921,6 +26978,7 @@
         "goran-radulovi",
         "dragan-boljat",
         "kenny-rauhut",
+        "rudra-badgujar",
         "himzo-ga-tan",
         "luka-huc",
         "zdravko-bulj",
@@ -26938,8 +26996,7 @@
         "anita-buljuba-i",
         "mark-boellaard",
         "bla-enko-carevi",
-        "hongyi-jin",
-        "mateusz-kosiarski"
+        "hongyi-jin"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
@@ -27095,6 +27152,7 @@
         "goran-radulovi",
         "dragan-boljat",
         "kenny-rauhut",
+        "rudra-badgujar",
         "himzo-ga-tan",
         "luka-huc",
         "zdravko-bulj",
@@ -27112,8 +27170,7 @@
         "anita-buljuba-i",
         "mark-boellaard",
         "bla-enko-carevi",
-        "hongyi-jin",
-        "mateusz-kosiarski"
+        "hongyi-jin"
       ],
       "confirmedPlayers": [
         {
@@ -29052,6 +29109,21 @@
           }
         },
         {
+          "playerId": "rudra-badgujar",
+          "name": "Rudra Badgujar",
+          "countryCode": "NED",
+          "title": null,
+          "fideId": "40123120",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "himzo-ga-tan",
           "name": "Himzo Gaštan",
           "countryCode": "BIH",
@@ -29312,21 +29384,6 @@
           "countryCode": "NED",
           "title": null,
           "fideId": "40110206",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mateusz-kosiarski",
-          "name": "Mateusz Kosiarski",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "545061459",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
