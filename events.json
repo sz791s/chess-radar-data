@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T13:44:56Z",
+  "generatedAt": "2026-07-29T18:56:43Z",
   "eventCount": 94,
   "sources": [
     {
@@ -369,7 +369,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Pontevedra Open 2026.",
-      "description": "71 listed players",
+      "description": "72 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -478,47 +478,6 @@
           "label": "Rapid Open",
           "type": "stream",
           "url": "https://youtube.com/playlist?list=PLNbcYATFyjkk&si=Y4PxW1VIcqSbLcgC"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29463",
-      "title": "13th Annual Washington International",
-      "shortTitle": "13th Annual Washington International",
-      "status": "live",
-      "startDate": "2026-07-25T12:00:00Z",
-      "endDate": "2026-07-29T17:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 13th Annual Washington International.",
-      "description": "43 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/13th-annual-washington-international",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/13th-annual-washington-international"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -712,7 +671,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 36th Pan American Youth Chess Festival 2026 Colombia.",
-      "description": "513 listed players",
+      "description": "549 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -856,7 +815,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2nd Vitoria-Gasteiz International Open 2026.",
-      "description": "188 listed players. 9 rounds. 1 scheduled stream links",
+      "description": "188 listed players. 9 rounds. 2 scheduled stream links",
       "categories": [
         "online",
         "broadcast",
@@ -882,6 +841,11 @@
           "label": "Ronda 3",
           "type": "stream",
           "url": "https://www.youtube.com/DTslYvnIQCE"
+        },
+        {
+          "label": "4º Ronda",
+          "type": "stream",
+          "url": "https://www.youtube.com/X0UyN4MUZps"
         }
       ],
       "source": {
@@ -1071,7 +1035,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Youth Arab Chess Championship 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "56 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1268,6 +1232,49 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29414",
+      "title": "Open Dutch Youth Championships ABC 2026",
+      "shortTitle": "Open Dutch Youth Championships ABC 2026",
+      "status": "upcoming",
+      "startDate": "2026-07-30T02:30:00Z",
+      "endDate": "2026-08-05T03:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Open Dutch Youth Championships ABC 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/open-nederlandse-jeugdkampioenschappen-abc-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/open-nederlandse-jeugdkampioenschappen-abc-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessaround-le-a-chess-open-portugal-2026-31-jul-6-aug-2026",
       "title": "Leça Chess Open - Portugal 2026",
       "shortTitle": "Leça Chess Open - Portugal 2026",
@@ -1310,7 +1317,6 @@
         "warre-de-waele",
         "panagiotis-christodoulou",
         "lennert-lenaerts",
-        "amit-doshi-moksh",
         "luis-daniel-rodriguez-hernandez",
         "jose-barria",
         "david-nuno-moita-esteves-farias",
@@ -1434,7 +1440,8 @@
         "andrea-lopez-milian",
         "fernando-moreira-pinho",
         "jos-pedro-figueiredo-alves",
-        "jiang-yifan"
+        "jiang-yifan",
+        "jorge-coelho"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/627",
@@ -1486,7 +1493,6 @@
         "warre-de-waele",
         "panagiotis-christodoulou",
         "lennert-lenaerts",
-        "amit-doshi-moksh",
         "luis-daniel-rodriguez-hernandez",
         "jose-barria",
         "david-nuno-moita-esteves-farias",
@@ -1610,7 +1616,8 @@
         "andrea-lopez-milian",
         "fernando-moreira-pinho",
         "jos-pedro-figueiredo-alves",
-        "jiang-yifan"
+        "jiang-yifan",
+        "jorge-coelho"
       ],
       "confirmedPlayers": [
         {
@@ -1979,21 +1986,6 @@
           "countryCode": "BEL",
           "title": "FM",
           "fideId": "211435",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1373991.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "amit-doshi-moksh",
-          "name": "Amit Doshi Moksh",
-          "countryCode": "IND",
-          "title": "IM",
-          "fideId": "25064967",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3854,6 +3846,21 @@
           "countryCode": "CHN",
           "title": null,
           "fideId": "1970569",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1373991.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "jorge-coelho",
+          "name": "Jorge Coelho",
+          "countryCode": "POR",
+          "title": null,
+          "fideId": "1907069",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -7915,6 +7922,7 @@
         "libor-beroun",
         "ladislav-vojtech",
         "simon-stary",
+        "martin-ondercin",
         "ludmila-a-tsifanskaya",
         "marek-skrinar",
         "dusan-mikulas",
@@ -7945,6 +7953,7 @@
         "sara-peskova",
         "martin-mitacek",
         "radek-hrabal",
+        "jan-vavra",
         "valeria-dotan",
         "radek-sudrich",
         "jaroslav-travnicek",
@@ -8038,6 +8047,7 @@
         "libor-beroun",
         "ladislav-vojtech",
         "simon-stary",
+        "martin-ondercin",
         "ludmila-a-tsifanskaya",
         "marek-skrinar",
         "dusan-mikulas",
@@ -8068,6 +8078,7 @@
         "sara-peskova",
         "martin-mitacek",
         "radek-hrabal",
+        "jan-vavra",
         "valeria-dotan",
         "radek-sudrich",
         "jaroslav-travnicek",
@@ -8572,6 +8583,21 @@
           }
         },
         {
+          "playerId": "martin-ondercin",
+          "name": "Martin Ondercin",
+          "countryCode": "SVK",
+          "title": null,
+          "fideId": "14933136",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ludmila-a-tsifanskaya",
           "name": "Ludmila A Tsifanskaya",
           "countryCode": "ISR",
@@ -9012,6 +9038,21 @@
           "countryCode": "CZE",
           "title": null,
           "fideId": "329150",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "jan-vavra",
+          "name": "Jan Vavra",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "392103",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -25391,6 +25432,7 @@
         "bartlomiej-niedbala",
         "olaf-wegener",
         "davor-rogi",
+        "kannan-vaidyanathan",
         "mariam-mkrtchyan",
         "zdenko-plenkovi",
         "ergit-ramaj",
@@ -25526,8 +25568,7 @@
         "hildo-rodrigo-medero",
         "anita-buljuba-i",
         "mark-boellaard",
-        "bla-enko-carevi",
-        "hongyi-jin"
+        "bla-enko-carevi"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
@@ -25565,6 +25606,7 @@
         "bartlomiej-niedbala",
         "olaf-wegener",
         "davor-rogi",
+        "kannan-vaidyanathan",
         "mariam-mkrtchyan",
         "zdenko-plenkovi",
         "ergit-ramaj",
@@ -25700,8 +25742,7 @@
         "hildo-rodrigo-medero",
         "anita-buljuba-i",
         "mark-boellaard",
-        "bla-enko-carevi",
-        "hongyi-jin"
+        "bla-enko-carevi"
       ],
       "confirmedPlayers": [
         {
@@ -25860,6 +25901,21 @@
           "countryCode": "CRO",
           "title": "GM",
           "fideId": "14501228",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "kannan-vaidyanathan",
+          "name": "Kannan Vaidyanathan",
+          "countryCode": "USA",
+          "title": "FM",
+          "fideId": "30987245",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -27900,21 +27956,6 @@
           "countryCode": "CRO",
           "title": null,
           "fideId": "79346871",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "hongyi-jin",
-          "name": "Hongyi Jin",
-          "countryCode": "NED",
-          "title": null,
-          "fideId": "40110206",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
