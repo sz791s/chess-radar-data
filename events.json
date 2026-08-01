@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-01T12:55:44Z",
-  "eventCount": 189,
+  "generatedAt": "2026-08-01T18:53:57Z",
+  "eventCount": 190,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 42
+      "count": 41
     },
     {
       "name": "uschess",
@@ -284,48 +284,6 @@
       "source": {
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29682",
-      "title": "Atmen Desko Liberec Open 2026",
-      "shortTitle": "Atmen Desko Liberec Open 2026",
-      "status": "live",
-      "startDate": "2026-07-25T14:15:00Z",
-      "endDate": "2026-08-01T14:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Atmen Desko Liberec Open 2026.",
-      "description": "84 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/atmen-desko-liberec-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/atmen-desko-liberec-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -605,6 +563,11 @@
           "label": "Ronda 7",
           "type": "stream",
           "url": "https://www.youtube.com/SvM2jrtvvmk"
+        },
+        {
+          "label": "Ronda 8",
+          "type": "stream",
+          "url": "https://www.youtube.com/n2TBHysuOdA"
         }
       ],
       "source": {
@@ -749,7 +712,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 36th Pan American Youth Chess Festival 2026 Colombia.",
-      "description": "585 listed players",
+      "description": "591 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -818,185 +781,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29494",
-      "title": "SixDays Budapest July 2026",
-      "shortTitle": "SixDays Budapest July 2026",
-      "status": "live",
-      "startDate": "2026-07-27T14:00:00Z",
-      "endDate": "2026-08-01T14:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: SixDays Budapest July 2026.",
-      "description": "54 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/sixdays-budapest-july-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/sixdays-budapest-july-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-nntt7qvg",
-      "title": "XXXVI Pan-American Youth Chess Festival | G08",
-      "shortTitle": "XXXVI Pan-American Youth Chess Festival | G08",
-      "status": "live",
-      "startDate": "2026-07-27T15:10:00Z",
-      "endDate": "2026-08-01T14:10:00Z",
-      "timezone": "America/Bogota",
-      "locationName": "Medellin, Colombia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-g08/NNtt7QVG",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-g08/NNtt7QVG"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fideamerica.net/xxxvi-panamerican-youth-chess-festival-open-and-girls/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463295.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-o08/CrAkfgVh"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463293.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-g10/q5PFG4WC"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463297.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-o10/bDVhSPsm"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463296.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-g12/tMaHZgFN"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463301.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-o12/fBJ8JyPM"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463298.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-g14/sobRFhFP"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463303.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-o14/0CSZ2mGp"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463302.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-g16/xjbfWIDo"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463306.aspx?art=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxxvi-pan-american-youth-chess-festival-o16/aqj6pTsr"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1463304.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1811,7 +1595,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Leca Chess Open 2026.",
-      "description": "209 listed players. 9 rounds",
+      "description": "211 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1853,7 +1637,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Finnish Team Blitz Championship.",
-      "description": "32 listed players",
+      "description": "88 listed players",
       "categories": [
         "blitz",
         "online",
@@ -2034,11 +1818,14 @@
       "description": "Time control: Rapid",
       "categories": [
         "rapid",
-        "otb"
+        "otb",
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide"
+        "fide",
+        "chesscom"
       ],
       "primaryUrl": "https://calendar.fide.com/calendar.php?id=15506",
       "links": [
@@ -2066,6 +1853,16 @@
           "label": "Starting list",
           "type": "players",
           "url": "https://www.chessmanager.com/pl-pl/tournaments/5378503793049600/players"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/adolf-anderssen-chess-festival-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -2414,14 +2211,14 @@
       "id": "chesscom-29726",
       "title": "August $1,000 Open 2026",
       "shortTitle": "August $1,000 Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-01T13:00:00Z",
       "endDate": "2026-08-02T00:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: August $1,000 Open 2026.",
-      "description": "4 rounds",
+      "description": "9 listed players. 4 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -2456,7 +2253,7 @@
       "id": "lichess-jfepuuzg",
       "title": "Sparkassen Chess Trophy 2026 | Open A",
       "shortTitle": "Sparkassen Chess Trophy 2026 | Open A",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-01T13:15:00Z",
       "endDate": "2026-08-09T08:45:00Z",
       "timezone": "Europe/Berlin",
@@ -2496,10 +2293,58 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-ob2vukiy",
+      "title": "2026 British Chess Championships: Major Open",
+      "shortTitle": "2026 British Chess Championships: Major Open",
+      "status": "live",
+      "startDate": "2026-08-01T13:30:00Z",
+      "endDate": "2026-08-09T09:00:00Z",
+      "timezone": "Europe/London",
+      "locationName": "University of Warwick, Coventry",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-british-chess-championships-major-open/Ob2vUkIy",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-major-open/Ob2vUkIy"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.britishchesschampionships.co.uk/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452108.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-u9kr3cyy",
       "title": "Alba Grand Prix Rapid 2026",
       "shortTitle": "Alba Grand Prix Rapid 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-01T14:00:00Z",
       "endDate": "2026-08-02T12:00:00Z",
       "timezone": "Europe/Bucharest",
@@ -2546,14 +2391,14 @@
       "id": "chesscom-29715",
       "title": "Torneo Invierno 2026 Club Social Ajedrez Capra",
       "shortTitle": "Torneo Invierno 2026 Club Social Ajedrez Capra",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-01T14:00:00Z",
       "endDate": "2026-08-01T20:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Torneo Invierno 2026 Club Social Ajedrez Capra.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "68 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -2585,16 +2430,16 @@
     },
     {
       "id": "chesscom-29487",
-      "title": "II IRT of Xadrez Rápido Matão 128 years old",
-      "shortTitle": "II IRT of Xadrez Rápido Matão 128 years old",
-      "status": "upcoming",
+      "title": "II IRT de Xadrez Rápido Matão 128 anos",
+      "shortTitle": "II IRT de Xadrez Rápido Matão 128 anos",
+      "status": "live",
       "startDate": "2026-08-01T15:30:00Z",
       "endDate": "2026-08-01T21:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: II IRT of Xadrez Rápido Matão 128 years old.",
-      "description": "6 rounds",
+      "summary": "Chess.com current event: II IRT de Xadrez Rápido Matão 128 anos.",
+      "description": "72 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -2800,6 +2645,93 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-tnkn4r9u",
+      "title": "2026 British Chess Championships: Under 8",
+      "shortTitle": "2026 British Chess Championships: Under 8",
+      "status": "upcoming",
+      "startDate": "2026-08-02T08:15:00Z",
+      "endDate": "2026-08-08T08:15:00Z",
+      "timezone": "Europe/London",
+      "locationName": "University of Warwick, Coventry",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-british-chess-championships-under-8/tNkN4r9u",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-8/tNkN4r9u"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.britishchesschampionships.co.uk/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452115.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-10/kIvAhEHV"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452114.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-12/caIugNWd"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452113.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-14/G1vZCVWk"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452112.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-16/N2GaxUr4"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452111.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -3971,6 +3903,63 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-xmw6dyyg",
+      "title": "2026 British Chess Championships: Over 65",
+      "shortTitle": "2026 British Chess Championships: Over 65",
+      "status": "upcoming",
+      "startDate": "2026-08-03T13:30:00Z",
+      "endDate": "2026-08-09T09:00:00Z",
+      "timezone": "Europe/London",
+      "locationName": "University of Warwick, Coventry",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-british-chess-championships-over-65/xMw6dYYg",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-over-65/xMw6dYYg"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.britishchesschampionships.co.uk/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452110.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-british-chess-championships-over-50/NinASVXQ"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1452109.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-usyupadw",
       "title": "Sparkassen Chess Trophy 2026 | International Women's Tournament - Tiebreak Blitz",
       "shortTitle": "Sparkassen Chess Trophy 2026 | International Women's Tournament - Tiebreak Blitz",
@@ -4331,15 +4320,14 @@
         "johannesson-oliver",
         "grgantov-marin",
         "ale-sr-an",
+        "franc-borna",
         "armanda-ivica",
         "egovi-goran",
         "cuzovic-ognjen",
         "hinterreiter-markus",
         "ivanov-igor",
-        "kantorik-marian",
         "richterova-natasa",
         "bili-kov-vjekoslav",
-        "vu-enovi-damian",
         "milat-marcel",
         "markovi-franjo-josip",
         "turel-tugrul",
@@ -4354,7 +4342,6 @@
         "brewer-callum-d",
         "pehar-borna",
         "sperat-czar-nicolas",
-        "michalicka-milan",
         "arhan-jain",
         "ari-kristina",
         "mimica-matija",
@@ -4370,26 +4357,21 @@
         "hardarson-jon-trausti",
         "ba-eti-marin",
         "zagorac-lara",
-        "kalinski-krunoslav",
         "lazor-vladimir",
         "rosenboom-niko",
         "malari-marko",
         "veladzic-isak",
         "davidsson-oskar-vikingur",
         "klem-davor",
-        "sarmir-milos",
+        "bori-jakov",
         "basari-sr-an",
-        "nimac-kalcina-vito",
-        "estevez-sacristan-deva",
         "saratlija-davor",
         "ivkovi-mihovil",
         "miro-evi-lovre",
-        "labrovi-jakov",
         "mato-in-jurica",
         "krni-ivan",
         "petri-roko",
         "glenzer-andre",
-        "tadi-jure",
         "novak-ivo",
         "rakulji-stanko",
         "glavi-i-tino",
@@ -4397,7 +4379,6 @@
         "fraser-john",
         "wolfmaier-johannes-joshua",
         "juri-paula",
-        "giertli-vladimir",
         "rehak-bo-idar",
         "pietrzak-tomasz",
         "jina-taran",
@@ -4415,10 +4396,10 @@
         "petrik-matus",
         "zheng-leran",
         "barabas-ales",
-        "pejkovi-andro",
         "ra-ov-bogav-i-ognjen",
         "ognjenovi-nenad",
         "hauksdottir-hrund",
+        "prki-marko",
         "romac-ante",
         "hyassat-milana",
         "mesic-merim",
@@ -4427,7 +4408,6 @@
         "segal-jamie-dylan",
         "ari-branko",
         "medi-vito",
-        "babi-i-ina-ki-fran",
         "klari-ante",
         "arugadoss-bharath",
         "badescu-eliza-ioana",
@@ -4443,7 +4423,6 @@
         "richter-rudolf",
         "bolan-a-tino",
         "papageorgiou-martinella-ilios",
-        "vu-enovi-diara",
         "magnusdottir-veronika-steinunn",
         "bulat-milan",
         "coric-ivan",
@@ -4456,7 +4435,17 @@
         "pardovicki-duje",
         "cats-sven",
         "grubec-tomislav",
-        "duran-leonardo"
+        "duran-leonardo",
+        "omic-aleksandar",
+        "mimica-ivan",
+        "malari-nikola",
+        "hyassat-violetta",
+        "stuckle-ostojic-mihael",
+        "njardarson-arnar-ingi",
+        "gombosi-zarja",
+        "ciganovi-marko",
+        "horvat-ru-er",
+        "bartol-tomislav"
       ],
       "channelIds": [
         "fide"
@@ -4519,15 +4508,14 @@
         "johannesson-oliver",
         "grgantov-marin",
         "ale-sr-an",
+        "franc-borna",
         "armanda-ivica",
         "egovi-goran",
         "cuzovic-ognjen",
         "hinterreiter-markus",
         "ivanov-igor",
-        "kantorik-marian",
         "richterova-natasa",
         "bili-kov-vjekoslav",
-        "vu-enovi-damian",
         "milat-marcel",
         "markovi-franjo-josip",
         "turel-tugrul",
@@ -4542,7 +4530,6 @@
         "brewer-callum-d",
         "pehar-borna",
         "sperat-czar-nicolas",
-        "michalicka-milan",
         "arhan-jain",
         "ari-kristina",
         "mimica-matija",
@@ -4558,26 +4545,21 @@
         "hardarson-jon-trausti",
         "ba-eti-marin",
         "zagorac-lara",
-        "kalinski-krunoslav",
         "lazor-vladimir",
         "rosenboom-niko",
         "malari-marko",
         "veladzic-isak",
         "davidsson-oskar-vikingur",
         "klem-davor",
-        "sarmir-milos",
+        "bori-jakov",
         "basari-sr-an",
-        "nimac-kalcina-vito",
-        "estevez-sacristan-deva",
         "saratlija-davor",
         "ivkovi-mihovil",
         "miro-evi-lovre",
-        "labrovi-jakov",
         "mato-in-jurica",
         "krni-ivan",
         "petri-roko",
         "glenzer-andre",
-        "tadi-jure",
         "novak-ivo",
         "rakulji-stanko",
         "glavi-i-tino",
@@ -4585,7 +4567,6 @@
         "fraser-john",
         "wolfmaier-johannes-joshua",
         "juri-paula",
-        "giertli-vladimir",
         "rehak-bo-idar",
         "pietrzak-tomasz",
         "jina-taran",
@@ -4603,10 +4584,10 @@
         "petrik-matus",
         "zheng-leran",
         "barabas-ales",
-        "pejkovi-andro",
         "ra-ov-bogav-i-ognjen",
         "ognjenovi-nenad",
         "hauksdottir-hrund",
+        "prki-marko",
         "romac-ante",
         "hyassat-milana",
         "mesic-merim",
@@ -4615,7 +4596,6 @@
         "segal-jamie-dylan",
         "ari-branko",
         "medi-vito",
-        "babi-i-ina-ki-fran",
         "klari-ante",
         "arugadoss-bharath",
         "badescu-eliza-ioana",
@@ -4631,7 +4611,6 @@
         "richter-rudolf",
         "bolan-a-tino",
         "papageorgiou-martinella-ilios",
-        "vu-enovi-diara",
         "magnusdottir-veronika-steinunn",
         "bulat-milan",
         "coric-ivan",
@@ -4644,7 +4623,17 @@
         "pardovicki-duje",
         "cats-sven",
         "grubec-tomislav",
-        "duran-leonardo"
+        "duran-leonardo",
+        "omic-aleksandar",
+        "mimica-ivan",
+        "malari-nikola",
+        "hyassat-violetta",
+        "stuckle-ostojic-mihael",
+        "njardarson-arnar-ingi",
+        "gombosi-zarja",
+        "ciganovi-marko",
+        "horvat-ru-er",
+        "bartol-tomislav"
       ],
       "confirmedPlayers": [
         {
@@ -5008,6 +4997,21 @@
           }
         },
         {
+          "playerId": "franc-borna",
+          "name": "Franc Borna",
+          "countryCode": "CRO",
+          "title": "FM",
+          "fideId": "14555948",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "armanda-ivica",
           "name": "Armanda Ivica",
           "countryCode": "CRO",
@@ -5083,21 +5087,6 @@
           }
         },
         {
-          "playerId": "kantorik-marian",
-          "name": "Kantorik Marian",
-          "countryCode": "SVK",
-          "title": "IM",
-          "fideId": "14900513",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "richterova-natasa",
           "name": "Richterova Natasa",
           "countryCode": "CZE",
@@ -5118,21 +5107,6 @@
           "countryCode": "CRO",
           "title": "FM",
           "fideId": "14502720",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vu-enovi-damian",
-          "name": "Vučenović Damian",
-          "countryCode": "CRO",
-          "title": "FM",
-          "fideId": "14553252",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5343,21 +5317,6 @@
           "countryCode": "FRA",
           "title": null,
           "fideId": "551007827",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michalicka-milan",
-          "name": "Michalicka Milan",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14913089",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5593,21 +5552,6 @@
           }
         },
         {
-          "playerId": "kalinski-krunoslav",
-          "name": "Kalinski Krunoslav",
-          "countryCode": "CRO",
-          "title": "MK",
-          "fideId": "14504880",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "lazor-vladimir",
           "name": "Lazor Vladimir",
           "countryCode": "SRB",
@@ -5698,11 +5642,11 @@
           }
         },
         {
-          "playerId": "sarmir-milos",
-          "name": "Sarmir Milos",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14901889",
+          "playerId": "bori-jakov",
+          "name": "Borić Jakov",
+          "countryCode": "CRO",
+          "title": "MK",
+          "fideId": "14593165",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5718,36 +5662,6 @@
           "countryCode": "CRO",
           "title": "MK",
           "fideId": "14512130",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nimac-kalcina-vito",
-          "name": "Nimac-Kalcina Vito",
-          "countryCode": "CRO",
-          "title": "II",
-          "fideId": "14598620",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "estevez-sacristan-deva",
-          "name": "Estevez Sacristan Deva",
-          "countryCode": "ESP",
-          "title": "CM",
-          "fideId": "32041101",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5793,21 +5707,6 @@
           "countryCode": "CRO",
           "title": "II",
           "fideId": "14564386",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "labrovi-jakov",
-          "name": "Labrović Jakov",
-          "countryCode": "CRO",
-          "title": "I",
-          "fideId": "14549786",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5868,21 +5767,6 @@
           "countryCode": "GER",
           "title": null,
           "fideId": "24617598",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "tadi-jure",
-          "name": "Tadić Jure",
-          "countryCode": "CRO",
-          "title": "I",
-          "fideId": "14577470",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5988,21 +5872,6 @@
           "countryCode": "CRO",
           "title": "WCM",
           "fideId": "14598159",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "giertli-vladimir",
-          "name": "Giertli Vladimir",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14903350",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6268,21 +6137,6 @@
           }
         },
         {
-          "playerId": "pejkovi-andro",
-          "name": "Pejković Andro",
-          "countryCode": "CRO",
-          "title": "II",
-          "fideId": "14573636",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "ra-ov-bogav-i-ognjen",
           "name": "Ražov Bogavčić Ognjen",
           "countryCode": "CRO",
@@ -6318,6 +6172,21 @@
           "countryCode": "ISL",
           "title": null,
           "fideId": "2302608",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "prki-marko",
+          "name": "Prkić Marko",
+          "countryCode": "CRO",
+          "title": "III",
+          "fideId": "79306209",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6438,21 +6307,6 @@
           "countryCode": "CRO",
           "title": "III",
           "fideId": "14599147",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "babi-i-ina-ki-fran",
-          "name": "Babić Šišinački Fran",
-          "countryCode": "CRO",
-          "title": "III",
-          "fideId": "14587742",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6688,21 +6542,6 @@
           }
         },
         {
-          "playerId": "vu-enovi-diara",
-          "name": "Vučenović Diara",
-          "countryCode": "CRO",
-          "title": "MK",
-          "fideId": "14557142",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "magnusdottir-veronika-steinunn",
           "name": "Magnusdottir Veronika Steinunn",
           "countryCode": "ISL",
@@ -6896,6 +6735,156 @@
             "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
+        },
+        {
+          "playerId": "omic-aleksandar",
+          "name": "Omic Aleksandar",
+          "countryCode": "SRB",
+          "title": null,
+          "fideId": "9251426",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "mimica-ivan",
+          "name": "Mimica Ivan",
+          "countryCode": "CRO",
+          "title": "IV",
+          "fideId": "14596911",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "malari-nikola",
+          "name": "Malarić Nikola",
+          "countryCode": "CRO",
+          "title": "III",
+          "fideId": "14594978",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "hyassat-violetta",
+          "name": "Hyassat Violetta",
+          "countryCode": "AUT",
+          "title": null,
+          "fideId": "1680722",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "stuckle-ostojic-mihael",
+          "name": "Stuckle Ostojic Mihael",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "14574403",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "njardarson-arnar-ingi",
+          "name": "Njardarson Arnar Ingi",
+          "countryCode": "ISL",
+          "title": null,
+          "fideId": "2310015",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "gombosi-zarja",
+          "name": "Gombosi Zarja",
+          "countryCode": "SLO",
+          "title": null,
+          "fideId": "14656574",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ciganovi-marko",
+          "name": "Ciganović Marko",
+          "countryCode": "CRO",
+          "title": "III",
+          "fideId": "14575051",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "horvat-ru-er",
+          "name": "Horvat Ruđer",
+          "countryCode": "CRO",
+          "title": "IV",
+          "fideId": "14586746",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bartol-tomislav",
+          "name": "Bartol Tomislav",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "14586436",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
         }
       ]
     },
@@ -6961,7 +6950,6 @@
         "petr-haba",
         "eduard-andreev",
         "martin-cerveny",
-        "oleksii-nakonechnyi",
         "vadim-cernov",
         "sebastian-plischki",
         "henrik-cernov",
@@ -7110,7 +7098,6 @@
         "petr-haba",
         "eduard-andreev",
         "martin-cerveny",
-        "oleksii-nakonechnyi",
         "vadim-cernov",
         "sebastian-plischki",
         "henrik-cernov",
@@ -7256,21 +7243,6 @@
           "countryCode": "CZE",
           "title": "IM",
           "fideId": "321141",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "oleksii-nakonechnyi",
-          "name": "Oleksii Nakonechnyi",
-          "countryCode": "POL",
-          "title": "FM",
-          "fideId": "34173714",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -14383,7 +14355,6 @@
         "satoshi-tanaka",
         "yunosuke-kuroda",
         "chang-jyu-sun",
-        "changhyung-kim",
         "atsuya-yamamichi",
         "sotaro-ushiyama",
         "maxence-ralaivao",
@@ -14454,7 +14425,6 @@
         "bang-fu-yeh",
         "nicholas-tsai",
         "hugo-ozaki",
-        "aaron-yu-hsi-huang",
         "hibiki-ishii",
         "pin-jui-chen",
         "ethan-ma",
@@ -14505,7 +14475,9 @@
         "gareth-lo",
         "zejing-wang",
         "mashu-tsuboi",
-        "tsz-yiu-ethan-ngai"
+        "tsz-yiu-ethan-ngai",
+        "junze-dai",
+        "yi-li-hsieh"
       ],
       "channelIds": [
         "fide"
@@ -14571,7 +14543,6 @@
         "satoshi-tanaka",
         "yunosuke-kuroda",
         "chang-jyu-sun",
-        "changhyung-kim",
         "atsuya-yamamichi",
         "sotaro-ushiyama",
         "maxence-ralaivao",
@@ -14642,7 +14613,6 @@
         "bang-fu-yeh",
         "nicholas-tsai",
         "hugo-ozaki",
-        "aaron-yu-hsi-huang",
         "hibiki-ishii",
         "pin-jui-chen",
         "ethan-ma",
@@ -14693,7 +14663,9 @@
         "gareth-lo",
         "zejing-wang",
         "mashu-tsuboi",
-        "tsz-yiu-ethan-ngai"
+        "tsz-yiu-ethan-ngai",
+        "junze-dai",
+        "yi-li-hsieh"
       ],
       "confirmedPlayers": [
         {
@@ -15092,21 +15064,6 @@
           "countryCode": "TPE",
           "title": null,
           "fideId": "16303466",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "changhyung-kim",
-          "name": "Changhyung Kim",
-          "countryCode": "KOR",
-          "title": "AIM",
-          "fideId": "13205200",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -16167,21 +16124,6 @@
           }
         },
         {
-          "playerId": "aaron-yu-hsi-huang",
-          "name": "Aaron Yu-Hsi Huang",
-          "countryCode": "TPE",
-          "title": null,
-          "fideId": "16303555",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "hibiki-ishii",
           "name": "Hibiki Ishii",
           "countryCode": "JPN",
@@ -16945,6 +16887,36 @@
             "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
+        },
+        {
+          "playerId": "junze-dai",
+          "name": "Junze Dai",
+          "countryCode": "CHN",
+          "title": null,
+          "fideId": "8662851",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "yi-li-hsieh",
+          "name": "Yi-Li Hsieh",
+          "countryCode": "TPE",
+          "title": null,
+          "fideId": "16304985",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
         }
       ]
     },
@@ -17491,6 +17463,54 @@
         "name": "fide",
         "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-0tavbiwo",
+      "title": "Kanizsa Open 2026 | Group A | Lower boards",
+      "shortTitle": "Kanizsa Open 2026 | Group A | Lower boards",
+      "status": "upcoming",
+      "startDate": "2026-08-15T13:15:00Z",
+      "endDate": "2026-08-23T08:15:00Z",
+      "timezone": "Europe/Budapest",
+      "locationName": "Hungary, Nagykanizsa",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-lower-boards/0TAvbIwo",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-lower-boards/0TAvbIwo"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://kanizsaopen.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/Tnr1379871.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
