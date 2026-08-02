@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T01:48:21Z",
-  "eventCount": 88,
+  "generatedAt": "2026-08-02T08:04:44Z",
+  "eventCount": 91,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 36
+      "count": 38
     },
     {
       "name": "uschess",
@@ -307,7 +307,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 7th Paul Keres Memorial Festival 2026.",
-      "description": "71 listed players. 6 scheduled stream links",
+      "description": "91 listed players. 6 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -378,7 +378,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2nd Bangkok Summer International Chess Open.",
-      "description": "437 listed players",
+      "description": "457 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -544,7 +544,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 29th Pannonia Cup 2026.",
-      "description": "107 listed players",
+      "description": "100 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -753,7 +753,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Leca Chess Open 2026.",
-      "description": "213 listed players. 9 rounds",
+      "description": "211 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -795,7 +795,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Finnish Team Blitz Championship.",
-      "description": "88 listed players",
+      "description": "104 listed players",
       "categories": [
         "blitz",
         "online",
@@ -838,7 +838,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Bauhinia Summer Chess Open 2026.",
-      "description": "46 listed players",
+      "description": "47 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1014,101 +1014,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-cdvyxqml",
-      "title": "2026 British Chess Championships: Championship",
-      "shortTitle": "2026 British Chess Championships: Championship",
-      "status": "live",
-      "startDate": "2026-08-01T13:30:00Z",
-      "endDate": "2026-08-09T09:00:00Z",
-      "timezone": "Europe/London",
-      "locationName": "University of Warwick, Coventry, England",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-british-chess-championships-championship/CDVYxqmL",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-championship/CDVYxqmL"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.britishchesschampionships.co.uk/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452107.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-ob2vukiy",
-      "title": "2026 British Chess Championships: Major Open",
-      "shortTitle": "2026 British Chess Championships: Major Open",
-      "status": "live",
-      "startDate": "2026-08-01T13:30:00Z",
-      "endDate": "2026-08-09T09:00:00Z",
-      "timezone": "Europe/London",
-      "locationName": "University of Warwick, Coventry",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-british-chess-championships-major-open/Ob2vUkIy",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-major-open/Ob2vUkIy"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.britishchesschampionships.co.uk/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452108.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-u9kr3cyy",
       "title": "Alba Grand Prix Rapid 2026",
       "shortTitle": "Alba Grand Prix Rapid 2026",
@@ -1232,52 +1137,55 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s1.chess-results.com/tnr1452115.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-10/kIvAhEHV"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452114.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-12/caIugNWd"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452113.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-14/G1vZCVWk"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452112.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-16/N2GaxUr4"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452111.aspx?art=1&turdet=YES&flag=30&SNode=S0"
         }
       ],
       "source": {
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28806",
+      "title": "FIDE World Amateur Rapid Chess Championships 2026",
+      "shortTitle": "FIDE World Amateur Rapid Chess Championships 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-02T11:00:00Z",
+      "endDate": "2026-08-04T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: FIDE World Amateur Rapid Chess Championships 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/fide-world-amateur-rapid-chess-championships-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/fide-world-amateur-rapid-chess-championships-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1321,6 +1229,48 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29335",
+      "title": "50th Badalona International Open",
+      "shortTitle": "50th Badalona International Open",
+      "status": "upcoming",
+      "startDate": "2026-08-02T15:00:00Z",
+      "endDate": "2026-08-10T19:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 50th Badalona International Open.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/50-obert-internacional-descacs-ciutat-de-badalona",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/50-obert-internacional-descacs-ciutat-de-badalona"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1450,7 +1400,6 @@
         "daniel-bednar",
         "adam-gavriel",
         "alexander-savchuk",
-        "samuel-havalda",
         "filip-cerny",
         "teodor-malaschitz",
         "nora-ferenczy",
@@ -1465,6 +1414,7 @@
         "blaz-korosec",
         "zoltan-gyorgy-vasenszky",
         "carlos-amado-blanco",
+        "dominik-zilkay",
         "martin-srnak",
         "tobias-nosal",
         "robin-hy",
@@ -1530,7 +1480,6 @@
         "daniel-bednar",
         "adam-gavriel",
         "alexander-savchuk",
-        "samuel-havalda",
         "filip-cerny",
         "teodor-malaschitz",
         "nora-ferenczy",
@@ -1545,6 +1494,7 @@
         "blaz-korosec",
         "zoltan-gyorgy-vasenszky",
         "carlos-amado-blanco",
+        "dominik-zilkay",
         "martin-srnak",
         "tobias-nosal",
         "robin-hy",
@@ -1797,21 +1747,6 @@
           }
         },
         {
-          "playerId": "samuel-havalda",
-          "name": "Samuel Havalda",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14955490",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "filip-cerny",
           "name": "Filip Cerny",
           "countryCode": "SVK",
@@ -2012,6 +1947,21 @@
           "countryCode": "SUI",
           "title": null,
           "fideId": "1333100",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "dominik-zilkay",
+          "name": "Dominik Zilkay",
+          "countryCode": "SVK",
+          "title": null,
+          "fideId": "14937557",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2384,52 +2334,91 @@
       ]
     },
     {
-      "id": "lichess-xmw6dyyg",
-      "title": "2026 British Chess Championships: Over 65",
-      "shortTitle": "2026 British Chess Championships: Over 65",
+      "id": "lichess-0hmnglvx",
+      "title": "Esports World Cup 2026 | Last Chance Qualifier B",
+      "shortTitle": "Esports World Cup 2026 | Last Chance Qualifier B",
       "status": "upcoming",
-      "startDate": "2026-08-03T13:30:00Z",
-      "endDate": "2026-08-09T09:00:00Z",
-      "timezone": "Europe/London",
-      "locationName": "University of Warwick, Coventry",
+      "startDate": "2026-08-04T10:00:00Z",
+      "endDate": "2026-08-04T10:00:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Paris, France",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
       "categories": [
         "classical",
         "broadcast",
+        "elite",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-british-chess-championships-over-65/xMw6dYYg",
+      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-b/0hmngLvx",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-over-65/xMw6dYYg"
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-b/0hmngLvx"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://www.britishchesschampionships.co.uk/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452110.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
         },
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-over-50/NinASVXQ"
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-a/OELIVRbo"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-dutk4i1r",
+      "title": "Esports World Cup 2026 | Last Chance Qualifier D",
+      "shortTitle": "Esports World Cup 2026 | Last Chance Qualifier D",
+      "status": "upcoming",
+      "startDate": "2026-08-04T13:25:00Z",
+      "endDate": "2026-08-04T13:25:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Paris, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "classical",
+        "broadcast",
+        "elite",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-d/dUtK4i1r",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-d/dUtK4i1r"
         },
         {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452109.aspx?art=1&turdet=YES&flag=30&SNode=S0"
+          "label": "Official website",
+          "type": "official",
+          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-c/0a0oiwVF"
         }
       ],
       "source": {
@@ -2523,6 +2512,102 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-ohtzcxuc",
+      "title": "Esports World Cup 2026 | Last Chance Qualifier F",
+      "shortTitle": "Esports World Cup 2026 | Last Chance Qualifier F",
+      "status": "upcoming",
+      "startDate": "2026-08-05T10:00:00Z",
+      "endDate": "2026-08-05T10:00:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Paris, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "classical",
+        "broadcast",
+        "elite",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-f/ohtzcxuC",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-f/ohtzcxuC"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-e/W1sWaVUQ"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-gwleh8qv",
+      "title": "Esports World Cup 2026 | Last Chance Qualifier H",
+      "shortTitle": "Esports World Cup 2026 | Last Chance Qualifier H",
+      "status": "upcoming",
+      "startDate": "2026-08-05T13:25:00Z",
+      "endDate": "2026-08-05T13:25:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Paris, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "classical",
+        "broadcast",
+        "elite",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-h/gwLeH8Qv",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-h/gwLeH8Qv"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-g/M6pJfP9W"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -9762,7 +9847,6 @@
         "agrawal-nimay",
         "daniil-yasmo",
         "davide-pulvirenti",
-        "enzo-tripodi",
         "danilo-brozzi",
         "dehankar-mrudul",
         "gabriel-petcu",
@@ -9794,7 +9878,8 @@
         "aleks-centrih",
         "parmar-paarshva",
         "nejc-herega",
-        "robin-duson"
+        "robin-duson",
+        "sinha-alaukik"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
@@ -9938,7 +10023,6 @@
         "agrawal-nimay",
         "daniil-yasmo",
         "davide-pulvirenti",
-        "enzo-tripodi",
         "danilo-brozzi",
         "dehankar-mrudul",
         "gabriel-petcu",
@@ -9970,7 +10054,8 @@
         "aleks-centrih",
         "parmar-paarshva",
         "nejc-herega",
-        "robin-duson"
+        "robin-duson",
+        "sinha-alaukik"
       ],
       "confirmedPlayers": [
         {
@@ -11729,21 +11814,6 @@
           }
         },
         {
-          "playerId": "enzo-tripodi",
-          "name": "Enzo Tripodi",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "2822674",
-          "classicalRating": 2254,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "danilo-brozzi",
           "name": "Danilo Brozzi",
           "countryCode": "ITA",
@@ -12215,6 +12285,21 @@
           "title": "WIM",
           "fideId": "1055038",
           "classicalRating": 2184,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "sinha-alaukik",
+          "name": "Sinha Alaukik",
+          "countryCode": "IND",
+          "title": "CM",
+          "fideId": "25798537",
+          "classicalRating": 2183,
           "profileLinks": {},
           "status": "confirmed",
           "source": {

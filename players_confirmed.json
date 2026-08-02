@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T01:48:32Z",
+  "generatedAt": "2026-08-02T08:04:55Z",
   "playerCount": 1337,
   "source": "confirmedEventRosters",
   "players": [
@@ -10569,6 +10569,39 @@
       ]
     },
     {
+      "id": "dominik-zilkay",
+      "name": "Dominik Zilkay",
+      "countryCode": "SVK",
+      "title": null,
+      "fideId": "14937557",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-bratislava-chess-summer-3-7-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-bratislava-chess-summer-3-7-aug-2026",
+          "title": "Bratislava Chess Summer",
+          "status": "upcoming",
+          "startDate": "2026-08-03T00:00:00Z",
+          "endDate": "2026-08-07T23:59:59Z",
+          "locationName": "Bratislava, Slovakia",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/628",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
       "id": "domislovi-helena",
       "name": "Domislović Helena",
       "countryCode": "CRO",
@@ -11678,39 +11711,6 @@
           "source": {
             "name": "chess-results",
             "url": "https://s1.chess-results.com/tnr1433615.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "id": "enzo-tripodi",
-      "name": "Enzo Tripodi",
-      "countryCode": "ITA",
-      "title": null,
-      "fideId": "2822674",
-      "classicalRating": 2254,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
-          "title": "24th Spilimbergo International Chess Tournament",
-          "status": "upcoming",
-          "startDate": "2026-08-08T00:00:00Z",
-          "endDate": "2026-08-15T23:59:59Z",
-          "locationName": "Spilimbergo, Italy",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
@@ -36012,39 +36012,6 @@
       ]
     },
     {
-      "id": "samuel-havalda",
-      "name": "Samuel Havalda",
-      "countryCode": "SVK",
-      "title": null,
-      "fideId": "14955490",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-bratislava-chess-summer-3-7-aug-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-bratislava-chess-summer-3-7-aug-2026",
-          "title": "Bratislava Chess Summer",
-          "status": "upcoming",
-          "startDate": "2026-08-03T00:00:00Z",
-          "endDate": "2026-08-07T23:59:59Z",
-          "locationName": "Bratislava, Slovakia",
-          "isOnline": false,
-          "categories": [
-            "classical",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/628",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "samuel-zenelaj",
       "name": "Samuel Zenelaj",
       "countryCode": "BIH",
@@ -37485,6 +37452,39 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sinha-alaukik",
+      "name": "Sinha Alaukik",
+      "countryCode": "IND",
+      "title": "CM",
+      "fideId": "25798537",
+      "classicalRating": 2183,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
+          "title": "24th Spilimbergo International Chess Tournament",
+          "status": "upcoming",
+          "startDate": "2026-08-08T00:00:00Z",
+          "endDate": "2026-08-15T23:59:59Z",
+          "locationName": "Spilimbergo, Italy",
+          "isOnline": false,
+          "categories": [
+            "classical",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
         }
