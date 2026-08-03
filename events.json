@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T18:54:39Z",
-  "eventCount": 82,
+  "generatedAt": "2026-08-03T01:50:45Z",
+  "eventCount": 78,
   "sources": [
     {
       "name": "curated",
@@ -26,13 +26,12 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 45
+      "count": 43
     },
     {
       "name": "chessdom",
-      "status": "error",
-      "count": 0,
-      "error": "<urlopen error timed out>"
+      "status": "ok",
+      "count": 9
     },
     {
       "name": "chessmix",
@@ -49,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 31
+      "count": 28
     },
     {
       "name": "uschess",
@@ -137,144 +136,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29430",
-      "title": "2nd Vitoria-Gasteiz International Open 2026",
-      "shortTitle": "2nd Vitoria-Gasteiz International Open 2026",
-      "status": "live",
-      "startDate": "2026-07-27T13:00:00Z",
-      "endDate": "2026-08-02T21:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 2nd Vitoria-Gasteiz International Open 2026.",
-      "description": "188 listed players. 9 rounds. 5 scheduled stream links",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/ii-open-internacional-ciudad-de-vitoria-gasteiz",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/ii-open-internacional-ciudad-de-vitoria-gasteiz"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Ronda 3",
-          "type": "stream",
-          "url": "https://www.youtube.com/DTslYvnIQCE"
-        },
-        {
-          "label": "4º Ronda",
-          "type": "stream",
-          "url": "https://www.youtube.com/X0UyN4MUZps"
-        },
-        {
-          "label": "Ronda 6",
-          "type": "stream",
-          "url": "https://www.youtube.com/K7A7hgA0SXI"
-        },
-        {
-          "label": "Ronda 7",
-          "type": "stream",
-          "url": "https://www.youtube.com/SvM2jrtvvmk"
-        },
-        {
-          "label": "Ronda 8",
-          "type": "stream",
-          "url": "https://www.youtube.com/n2TBHysuOdA"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-27822",
-      "title": "7th Paul Keres Memorial Festival 2026",
-      "shortTitle": "7th Paul Keres Memorial Festival 2026",
-      "status": "live",
-      "startDate": "2026-07-27T13:00:00Z",
-      "endDate": "2026-08-02T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 7th Paul Keres Memorial Festival 2026.",
-      "description": "124 listed players. 6 scheduled stream links",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/7th-paul-keres-memorial-festival-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "7th Paul Keres Memorial Festival",
-          "type": "stream",
-          "url": "https://www.youtube.com/LypC-MpQQSA"
-        },
-        {
-          "label": "7th Paul Keres Memorial Festival",
-          "type": "stream",
-          "url": "https://www.youtube.com/Tf8Z9TpIw50"
-        },
-        {
-          "label": "7th Paul Keres Memorial Festival",
-          "type": "stream",
-          "url": "https://www.youtube.com/aeN0nFbXEdo"
-        },
-        {
-          "label": "7th Paul Keres Memorial Festival",
-          "type": "stream",
-          "url": "https://www.youtube.com/qzyszwEQqf4"
-        },
-        {
-          "label": "7th Paul Keres Memorial Festival",
-          "type": "stream",
-          "url": "https://www.youtube.com/Fg7Zunu8j2Q"
-        },
-        {
-          "label": "7th Paul Keres Memorial Festival",
-          "type": "stream",
-          "url": "https://www.youtube.com/@GMNeiksans"
         }
       ],
       "source": {
@@ -412,89 +273,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29721",
-      "title": "Peru Independence Cup Open 2026",
-      "shortTitle": "Peru Independence Cup Open 2026",
-      "status": "live",
-      "startDate": "2026-07-30T21:30:00Z",
-      "endDate": "2026-08-03T01:30:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Peru Independence Cup Open 2026.",
-      "description": "88 listed players. 7 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/peru-independence-cup-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/peru-independence-cup-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-28647",
-      "title": "100 Jahre Schachklub Kufstein",
-      "shortTitle": "100 Jahre Schachklub Kufstein",
-      "status": "live",
-      "startDate": "2026-07-31T15:00:00Z",
-      "endDate": "2026-08-02T19:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 100 Jahre Schachklub Kufstein.",
-      "description": "80 listed players. 5 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/100-jahre-schachklub-kufstein",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/100-jahre-schachklub-kufstein"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29240",
       "title": "Leca Chess Open 2026",
       "shortTitle": "Leca Chess Open 2026",
@@ -521,49 +299,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/leca-chess-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29678",
-      "title": "Finnish Team Blitz Championship",
-      "shortTitle": "Finnish Team Blitz Championship",
-      "status": "live",
-      "startDate": "2026-07-31T22:00:00Z",
-      "endDate": "2026-08-02T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Finnish Team Blitz Championship.",
-      "description": "200 listed players",
-      "categories": [
-        "blitz",
-        "online",
-        "broadcast",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/finnish-team-blitz-championship",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/finnish-team-blitz-championship"
         },
         {
           "label": "Chess.com current events",
@@ -641,9 +376,7 @@
       "description": "379 listed players",
       "categories": [
         "online",
-        "broadcast",
-        "classical",
-        "otb"
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
@@ -660,21 +393,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/595"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://www.chessmanager.com/pl-pl/tournaments/6004080073900032/players"
         }
       ],
       "source": {
@@ -729,46 +447,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-50-open-internacional-ciudad-de-badalona-2-10-aug-2026",
-      "title": "50 Open Internacional Ciudad de Badalona",
-      "shortTitle": "50 Open Internacional Ciudad de Badalona",
-      "status": "live",
-      "startDate": "2026-08-02T00:00:00Z",
-      "endDate": "2026-08-10T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Badalona, Spain",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 50 Open Internacional Ciudad de Badalona.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/588",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/588"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1010,7 +688,7 @@
       "id": "chessaround-19th-arad-open-grand-prix-classic-3-9-aug-2026",
       "title": "19th Arad Open Grand Prix Classic",
       "shortTitle": "19th Arad Open Grand Prix Classic",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-03T00:00:00Z",
       "endDate": "2026-08-09T23:59:59Z",
       "timezone": "UTC",
@@ -1052,18 +730,20 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-bratislava-chess-summer-3-7-aug-2026",
+      "id": "chesscom-29439",
       "title": "Bratislava Chess Summer",
       "shortTitle": "Bratislava Chess Summer",
       "status": "upcoming",
-      "startDate": "2026-08-03T00:00:00Z",
-      "endDate": "2026-08-07T23:59:59Z",
+      "startDate": "2026-08-03T07:00:00Z",
+      "endDate": "2026-08-06T22:00:00Z",
       "timezone": "UTC",
-      "locationName": "Bratislava, Slovakia",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Bratislava Chess Summer.",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Bratislava Chess Summer.",
+      "description": "9 rounds",
       "categories": [
+        "online",
+        "broadcast",
         "classical",
         "otb"
       ],
@@ -1125,9 +805,21 @@
         "kata-sara-vasenszky",
         "daniel-patay"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/628",
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/bratislava-chess-summer",
       "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/bratislava-chess-summer"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -1145,8 +837,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -2051,6 +1743,47 @@
       ]
     },
     {
+      "id": "chesscom-29668",
+      "title": "Spanish U18 Championship 2026",
+      "shortTitle": "Spanish U18 Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-03T08:00:00Z",
+      "endDate": "2026-08-08T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Spanish U18 Championship 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/campeonato-de-espana-sub-18-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/campeonato-de-espana-sub-18-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-0hmnglvx",
       "title": "Esports World Cup 2026 | Last Chance Qualifier B",
       "shortTitle": "Esports World Cup 2026 | Last Chance Qualifier B",
@@ -2479,6 +2212,7 @@
         "veladzic-isak",
         "rakulji-stanko",
         "glavi-i-tino",
+        "de-man-luuk",
         "foglia-maurizio",
         "fraser-john",
         "juri-paula",
@@ -2549,8 +2283,7 @@
         "njardarson-arnar-ingi",
         "ciganovi-marko",
         "horvat-ru-er",
-        "bartol-tomislav",
-        "i-ina-ki-goran"
+        "bartol-tomislav"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/631",
@@ -2655,6 +2388,7 @@
         "veladzic-isak",
         "rakulji-stanko",
         "glavi-i-tino",
+        "de-man-luuk",
         "foglia-maurizio",
         "fraser-john",
         "juri-paula",
@@ -2725,8 +2459,7 @@
         "njardarson-arnar-ingi",
         "ciganovi-marko",
         "horvat-ru-er",
-        "bartol-tomislav",
-        "i-ina-ki-goran"
+        "bartol-tomislav"
       ],
       "confirmedPlayers": [
         {
@@ -3900,6 +3633,21 @@
           }
         },
         {
+          "playerId": "de-man-luuk",
+          "name": "De Man Luuk",
+          "countryCode": "NED",
+          "title": null,
+          "fideId": "1057464",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "foglia-maurizio",
           "name": "Foglia Maurizio",
           "countryCode": "ITA",
@@ -4955,21 +4703,6 @@
           "countryCode": "CRO",
           "title": null,
           "fideId": "14586436",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "i-ina-ki-goran",
-          "name": "Šišinački Goran",
-          "countryCode": "CRO",
-          "title": "V",
-          "fideId": "79326706",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -23041,6 +22774,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
+      "title": "European Chess Club Cup Open & Women 2026",
+      "shortTitle": "European Chess Club Cup Open & Women 2026",
+      "status": "upcoming",
+      "startDate": "2026-10-16T00:00:00Z",
+      "endDate": "2026-10-24T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Budva - Montenegro",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
+      "description": "Continental Classical Women",
+      "categories": [
+        "classical",
+        "women",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
+      "links": [
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
+        }
+      ],
+      "source": {
+        "name": "chessdom",
+        "url": "https://calendar.chessdom.com/2026-calendar/",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -26316,7 +26090,8 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb"
+        "otb",
+        "classical"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -26326,6 +26101,16 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        },
+        {
+          "label": "Event website",
+          "type": "official",
+          "url": "https://www.europechess.org/ecu-calendar-2026/"
+        },
+        {
+          "label": "Chessdom calendar",
+          "type": "source",
+          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
