@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T01:50:45Z",
-  "eventCount": 78,
+  "generatedAt": "2026-08-03T09:20:22Z",
+  "eventCount": 75,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 28
+      "count": 29
     },
     {
       "name": "uschess",
@@ -283,7 +283,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Leca Chess Open 2026.",
-      "description": "211 listed players. 9 rounds",
+      "description": "212 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -315,49 +315,42 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-mcrw7gfu",
-      "title": "Sparkassen Chess Trophy 2026 | Open B",
-      "shortTitle": "Sparkassen Chess Trophy 2026 | Open B",
+      "id": "chesscom-29751",
+      "title": "Scheldemond Schaaktoernooi",
+      "shortTitle": "Scheldemond Schaaktoernooi",
       "status": "live",
-      "startDate": "2026-08-01T08:45:00Z",
-      "endDate": "2026-08-08T08:45:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dortmund, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "8-round Swiss",
+      "startDate": "2026-08-01T07:30:00Z",
+      "endDate": "2026-08-08T08:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Scheldemond Schaaktoernooi.",
+      "description": "270 listed players. 9 rounds",
       "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/sparkassen-chess-trophy-2026-open-b/MCrW7gFu",
+      "primaryUrl": "https://www.chess.com/events/info/scheldemond-schaaktoernooi",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/sparkassen-chess-trophy-2026-open-b/MCrW7gFu"
-        },
-        {
-          "label": "Official website",
+          "label": "Chess.com event",
           "type": "official",
-          "url": "https://sparkassen-chess-trophy.de/index.php/en/"
+          "url": "https://www.chess.com/events/info/scheldemond-schaaktoernooi"
         },
         {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1467845.aspx?art=1"
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -399,111 +392,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-jfepuuzg",
-      "title": "Sparkassen Chess Trophy 2026 | Open A",
-      "shortTitle": "Sparkassen Chess Trophy 2026 | Open A",
-      "status": "live",
-      "startDate": "2026-08-01T13:15:00Z",
-      "endDate": "2026-08-09T08:45:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dortmund, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/sparkassen-chess-trophy-2026-open-a/jfEpUuzg",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/sparkassen-chess-trophy-2026-open-a/jfEpUuzg"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://sparkassen-chess-trophy.de/index.php/en/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1468018.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-tnkn4r9u",
-      "title": "2026 British Chess Championships: Under 8",
-      "shortTitle": "2026 British Chess Championships: Under 8",
-      "status": "live",
-      "startDate": "2026-08-02T08:15:00Z",
-      "endDate": "2026-08-08T08:15:00Z",
-      "timezone": "Europe/London",
-      "locationName": "University of Warwick, Coventry",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-british-chess-championships-under-8/tNkN4r9u",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-8/tNkN4r9u"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.britishchesschampionships.co.uk/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452115.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-british-chess-championships-under-10/kIvAhEHV"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1452114.aspx?art=1&turdet=YES&flag=30&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -552,49 +440,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-mgz6p89p",
-      "title": "Sparkassen Chess Trophy 2026 | International Women's Tournament",
-      "shortTitle": "Sparkassen Chess Trophy 2026 | International Women's Tournament",
-      "status": "live",
-      "startDate": "2026-08-02T13:15:00Z",
-      "endDate": "2026-08-09T08:45:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Dortmund, Germany",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "4-player double round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/sparkassen-chess-trophy-2026-international-womens-tournament/mGz6p89p",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/sparkassen-chess-trophy-2026-international-womens-tournament/mGz6p89p"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://sparkassen-chess-trophy.de/index.php/en/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29335",
       "title": "50th Badalona International Open",
       "shortTitle": "50th Badalona International Open",
@@ -605,7 +450,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 50th Badalona International Open.",
-      "description": "20 listed players. 9 rounds",
+      "description": "70 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -685,62 +530,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-19th-arad-open-grand-prix-classic-3-9-aug-2026",
-      "title": "19th Arad Open Grand Prix Classic",
-      "shortTitle": "19th Arad Open Grand Prix Classic",
-      "status": "live",
-      "startDate": "2026-08-03T00:00:00Z",
-      "endDate": "2026-08-09T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Arad, Romania",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 19th Arad Open Grand Prix Classic.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/591",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/591"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29439",
       "title": "Bratislava Chess Summer",
       "shortTitle": "Bratislava Chess Summer",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-03T07:00:00Z",
       "endDate": "2026-08-06T22:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Bratislava Chess Summer.",
-      "description": "9 rounds",
+      "description": "10 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1746,14 +1546,14 @@
       "id": "chesscom-29668",
       "title": "Spanish U18 Championship 2026",
       "shortTitle": "Spanish U18 Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-03T08:00:00Z",
       "endDate": "2026-08-08T14:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U18 Championship 2026.",
-      "description": "9 rounds",
+      "description": "150 listed players. 9 rounds. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1773,12 +1573,149 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "CE Sub-18 Ronda 1",
+          "type": "stream",
+          "url": "https://www.youtube.com/zitEIhjHy2U"
         }
       ],
       "source": {
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-kdrqt47u",
+      "title": "19th Arad Open Grand Prix Classic 2026 | Open B",
+      "shortTitle": "19th Arad Open Grand Prix Classic 2026 | Open B",
+      "status": "upcoming",
+      "startDate": "2026-08-03T13:15:00Z",
+      "endDate": "2026-08-09T06:45:00Z",
+      "timezone": "Europe/Bucharest",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "online",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-b/kDRQt47u",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-b/kDRQt47u"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.romaniagp.ro/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1342553.aspx"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-a/9LKWe9TU"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/591"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
+        },
+        {
+          "label": "Starting list",
+          "type": "players",
+          "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-eqg8yxjm",
+      "title": "FIDE World University Team Chess Championship 2026 (Finals) | Pool D",
+      "shortTitle": "FIDE World University Team Chess Championship 2026 (Finals) | Pool D",
+      "status": "upcoming",
+      "startDate": "2026-08-04T08:45:00Z",
+      "endDate": "2026-08-06T12:45:00Z",
+      "timezone": "Asia/Qyzylorda",
+      "locationName": "Almaty, Kazakhstan",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "4-team Round Robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "team",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/fide-world-university-team-chess-championship-2026-finals-pool-d/eQg8YXJM",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-university-team-chess-championship-2026-finals-pool-d/eQg8YXJM"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://worlduniversities2026.fide.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chess-results.com/tnr1468181.aspx?"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-university-team-chess-championship-2026-finals-pool-c/6EKgLarO"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-university-team-chess-championship-2026-finals-pool-b/O7xyvUMV"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/fide-world-university-team-chess-championship-2026-finals-pool-a/MqhY6zxG"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -9299,6 +9236,7 @@
         "tadeas-balacek",
         "mauricio-emmanuel-marrujo-pardo",
         "sayantan-das",
+        "guido-caprio",
         "cristhian-camilo-rios-gomez",
         "bala-chandra-prasad-dhulipalla",
         "lars-goldbeck",
@@ -9375,6 +9313,7 @@
         "daniele-gonella",
         "matteo-montorsi",
         "srishti-pandey",
+        "magnus-mueller",
         "kai-hanache",
         "lut-yin-luke-lau",
         "alex-dobboletta",
@@ -9386,6 +9325,7 @@
         "tamas-tancsa",
         "alexander-doraszelski",
         "thomas-bauer",
+        "andraz-gregoric",
         "rajkhowa-mrinmoy",
         "fabio-colonetti",
         "mohamed-khalil-abdallah",
@@ -9394,10 +9334,7 @@
         "ahmed-bouzidi",
         "krishna-bommi-yasaswi",
         "aleks-centrih",
-        "parmar-paarshva",
-        "nejc-herega",
-        "robin-duson",
-        "sinha-alaukik"
+        "parmar-paarshva"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
@@ -9475,6 +9412,7 @@
         "tadeas-balacek",
         "mauricio-emmanuel-marrujo-pardo",
         "sayantan-das",
+        "guido-caprio",
         "cristhian-camilo-rios-gomez",
         "bala-chandra-prasad-dhulipalla",
         "lars-goldbeck",
@@ -9551,6 +9489,7 @@
         "daniele-gonella",
         "matteo-montorsi",
         "srishti-pandey",
+        "magnus-mueller",
         "kai-hanache",
         "lut-yin-luke-lau",
         "alex-dobboletta",
@@ -9562,6 +9501,7 @@
         "tamas-tancsa",
         "alexander-doraszelski",
         "thomas-bauer",
+        "andraz-gregoric",
         "rajkhowa-mrinmoy",
         "fabio-colonetti",
         "mohamed-khalil-abdallah",
@@ -9570,10 +9510,7 @@
         "ahmed-bouzidi",
         "krishna-bommi-yasaswi",
         "aleks-centrih",
-        "parmar-paarshva",
-        "nejc-herega",
-        "robin-duson",
-        "sinha-alaukik"
+        "parmar-paarshva"
       ],
       "confirmedPlayers": [
         {
@@ -10332,6 +10269,21 @@
           "countryCode": "IND",
           "title": "GM",
           "fideId": "5034426",
+          "classicalRating": 2408,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "guido-caprio",
+          "name": "Guido Caprio",
+          "countryCode": "ITA",
+          "title": "IM",
+          "fideId": "834580",
           "classicalRating": 2408,
           "profileLinks": {},
           "status": "confirmed",
@@ -11482,6 +11434,21 @@
           }
         },
         {
+          "playerId": "magnus-mueller",
+          "name": "Magnus Mueller",
+          "countryCode": "GER",
+          "title": "CM",
+          "fideId": "16230060",
+          "classicalRating": 2224,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "kai-hanache",
           "name": "Kai Hanache",
           "countryCode": "ENG",
@@ -11647,6 +11614,21 @@
           }
         },
         {
+          "playerId": "andraz-gregoric",
+          "name": "Andraz Gregoric",
+          "countryCode": "SLO",
+          "title": null,
+          "fideId": "14629461",
+          "classicalRating": 2203,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "rajkhowa-mrinmoy",
           "name": "Rajkhowa Mrinmoy",
           "countryCode": "IND",
@@ -11773,51 +11755,6 @@
           "title": null,
           "fideId": "33440344",
           "classicalRating": 2189,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nejc-herega",
-          "name": "Nejc Herega",
-          "countryCode": "SLO",
-          "title": "FM",
-          "fideId": "14634058",
-          "classicalRating": 2184,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "robin-duson",
-          "name": "Robin Duson",
-          "countryCode": "NED",
-          "title": "WIM",
-          "fideId": "1055038",
-          "classicalRating": 2184,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sinha-alaukik",
-          "name": "Sinha Alaukik",
-          "countryCode": "IND",
-          "title": "CM",
-          "fideId": "25798537",
-          "classicalRating": 2183,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -14465,54 +14402,6 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-0tavbiwo",
-      "title": "Kanizsa Open 2026 | Group A | Lower boards",
-      "shortTitle": "Kanizsa Open 2026 | Group A | Lower boards",
-      "status": "upcoming",
-      "startDate": "2026-08-15T13:15:00Z",
-      "endDate": "2026-08-23T08:15:00Z",
-      "timezone": "Europe/Budapest",
-      "locationName": "Hungary, Nagykanizsa",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-lower-boards/0TAvbIwo",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-lower-boards/0TAvbIwo"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://kanizsaopen.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/Tnr1379871.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -23024,6 +22913,7 @@
         "emil-jacobsen-jamil",
         "ana-vuljani",
         "jonathan-jiao",
+        "roberts-hops",
         "nathan-de-joya",
         "stipe-mihaljevi",
         "hanna-nurzynska",
@@ -23053,8 +22943,7 @@
         "manuel-raji",
         "grzegorz-forysinski",
         "benjamin-krstulovi",
-        "martin-jonathan-meyer",
-        "hildo-rodrigo-medero"
+        "martin-jonathan-meyer"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
@@ -23200,6 +23089,7 @@
         "emil-jacobsen-jamil",
         "ana-vuljani",
         "jonathan-jiao",
+        "roberts-hops",
         "nathan-de-joya",
         "stipe-mihaljevi",
         "hanna-nurzynska",
@@ -23229,8 +23119,7 @@
         "manuel-raji",
         "grzegorz-forysinski",
         "benjamin-krstulovi",
-        "martin-jonathan-meyer",
-        "hildo-rodrigo-medero"
+        "martin-jonathan-meyer"
       ],
       "confirmedPlayers": [
         {
@@ -25019,6 +24908,21 @@
           }
         },
         {
+          "playerId": "roberts-hops",
+          "name": "Roberts Hops",
+          "countryCode": "LAT",
+          "title": null,
+          "fideId": "11628790",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "nathan-de-joya",
           "name": "Nathan De Joya",
           "countryCode": "NOR",
@@ -25459,21 +25363,6 @@
           "countryCode": "GER",
           "title": null,
           "fideId": "34647406",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "hildo-rodrigo-medero",
-          "name": "Hildo Rodrigo Medero",
-          "countryCode": "ARG",
-          "title": null,
-          "fideId": "20029098",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
