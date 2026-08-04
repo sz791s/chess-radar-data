@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T13:46:59Z",
-  "eventCount": 80,
+  "generatedAt": "2026-08-04T19:18:12Z",
+  "eventCount": 84,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 32
+      "count": 33
     },
     {
       "name": "uschess",
@@ -366,7 +366,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Adolf Anderssen Chess Festival 2026.",
-      "description": "417 listed players",
+      "description": "419 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -439,6 +439,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29820",
+      "title": "41st Geraardsbergen Open 2026",
+      "shortTitle": "41st Geraardsbergen Open 2026",
+      "status": "live",
+      "startDate": "2026-08-02T10:00:00Z",
+      "endDate": "2026-08-06T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 41st Geraardsbergen Open 2026.",
+      "description": "29 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/41st-geraardsbergen-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/41st-geraardsbergen-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-28806",
       "title": "FIDE World Amateur Rapid Chess Championships 2026",
       "shortTitle": "FIDE World Amateur Rapid Chess Championships 2026",
@@ -492,7 +534,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 50th Badalona International Open.",
-      "description": "72 listed players. 9 rounds",
+      "description": "74 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -669,137 +711,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-juukibzu",
-      "title": "2026 Türkiye Satranç Ligi (Turkish League) | Süper Lig",
-      "shortTitle": "2026 Türkiye Satranç Ligi (Turkish League) | Süper Lig",
-      "status": "live",
-      "startDate": "2026-08-03T12:15:00Z",
-      "endDate": "2026-08-15T07:15:00Z",
-      "timezone": "Europe/Istanbul",
-      "locationName": "Ankara, Türkiye",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "15-round, team round robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-turkiye-satranc-ligi-turkish-league-super-lig/JuukiBzu",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-turkiye-satranc-ligi-turkish-league-super-lig/JuukiBzu"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://superlig.tsf.org.tr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/Tnr1469049.aspx?lan=1"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-turkiye-satranc-ligi-turkish-league-birinci-lig/4Aoi3P6S"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://birincilig.tsf.org.tr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1468885.aspx?lan=8&turdet=YES&SNode=S0"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-turkiye-satranc-ligi-turkish-league-ikinci-lig/9afaTZ1I"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://ikincilig.tsf.org.tr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1468934.aspx?lan=8&flag=30&turdet=ALL&SNode=S0"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-kdrqt47u",
-      "title": "19th Arad Open Grand Prix Classic 2026 | Open B",
-      "shortTitle": "19th Arad Open Grand Prix Classic 2026 | Open B",
-      "status": "live",
-      "startDate": "2026-08-03T13:15:00Z",
-      "endDate": "2026-08-09T06:45:00Z",
-      "timezone": "Europe/Bucharest",
-      "locationName": "Online",
-      "isOnline": true,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "online"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-b/kDRQt47u",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-b/kDRQt47u"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.romaniagp.ro/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1342553.aspx"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-a/9LKWe9TU"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29771",
       "title": "2026 National State Invitationals",
       "shortTitle": "2026 National State Invitationals",
@@ -957,7 +868,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Israeli U18 Team Championship 2026.",
-      "description": "32 listed players. 7 rounds",
+      "description": "51 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1028,92 +939,6 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-w1swavuq",
-      "title": "Esports World Cup 2026 | Last Chance Qualifier C",
-      "shortTitle": "Esports World Cup 2026 | Last Chance Qualifier C",
-      "status": "upcoming",
-      "startDate": "2026-08-05T10:00:00Z",
-      "endDate": "2026-08-05T10:00:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Paris, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Chess tournament broadcast with live boards on Lichess.",
-      "categories": [
-        "classical",
-        "broadcast",
-        "elite",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-c/W1sWaVUQ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-c/W1sWaVUQ"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-m6pjfp9w",
-      "title": "Esports World Cup 2026 | Last Chance Qualifier D",
-      "shortTitle": "Esports World Cup 2026 | Last Chance Qualifier D",
-      "status": "upcoming",
-      "startDate": "2026-08-05T13:25:00Z",
-      "endDate": "2026-08-05T13:25:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Paris, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Chess tournament broadcast with live boards on Lichess.",
-      "categories": [
-        "classical",
-        "broadcast",
-        "elite",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-d/M6pJfP9W",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/esports-world-cup-2026-last-chance-qualifier-d/M6pJfP9W"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -3771,103 +3596,6 @@
       ]
     },
     {
-      "id": "lichess-dbxz7lan",
-      "title": "European Junior Chess Championship 2026 | Girls",
-      "shortTitle": "European Junior Chess Championship 2026 | Girls",
-      "status": "upcoming",
-      "startDate": "2026-08-06T13:15:00Z",
-      "endDate": "2026-08-15T12:15:00Z",
-      "timezone": "Europe/Podgorica",
-      "locationName": "Cetinje, Montenegro",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://sahcg.me/ejcc26/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-8vbsfwaf",
-      "title": "European Junior Chess Championship 2026 | Open",
-      "shortTitle": "European Junior Chess Championship 2026 | Open",
-      "status": "upcoming",
-      "startDate": "2026-08-06T13:15:00Z",
-      "endDate": "2026-08-15T12:15:00Z",
-      "timezone": "Europe/Podgorica",
-      "locationName": "Cetinje, Montenegro",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://sahcg.me/ejcc26/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessaround-open-stare-mesto-7-15-aug-2026",
       "title": "Open Stare Mesto",
       "shortTitle": "Open Stare Mesto",
@@ -3896,6 +3624,7 @@
         "arsenii-iankin",
         "anton-vitsiuk",
         "kacper-klys",
+        "zuzana-stara",
         "vladimir-karlik",
         "matej-babula",
         "maity-suvankar",
@@ -3957,6 +3686,7 @@
         "valeria-dotan",
         "arnost-maiwald",
         "sara-peskova",
+        "michal-nisztuk",
         "vadim-myachin",
         "nikita-sokolovs",
         "vaclav-mach",
@@ -4029,6 +3759,7 @@
         "arsenii-iankin",
         "anton-vitsiuk",
         "kacper-klys",
+        "zuzana-stara",
         "vladimir-karlik",
         "matej-babula",
         "maity-suvankar",
@@ -4090,6 +3821,7 @@
         "valeria-dotan",
         "arnost-maiwald",
         "sara-peskova",
+        "michal-nisztuk",
         "vadim-myachin",
         "nikita-sokolovs",
         "vaclav-mach",
@@ -4283,6 +4015,21 @@
           "countryCode": "POL",
           "title": "CM",
           "fideId": "21005281",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "zuzana-stara",
+          "name": "Zuzana Stara",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23733543",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5208,6 +4955,21 @@
           }
         },
         {
+          "playerId": "michal-nisztuk",
+          "name": "Michal Nisztuk",
+          "countryCode": "POL",
+          "title": null,
+          "fideId": "1112392",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "vadim-myachin",
           "name": "Vadim Myachin",
           "countryCode": "FID",
@@ -5733,41 +5495,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "chessbase-sinquefield-cup-7-to-28-august-2026",
-      "title": "Sinquefield Cup",
-      "shortTitle": "Sinquefield Cup",
-      "status": "upcoming",
-      "startDate": "2026-08-07T00:00:00Z",
-      "endDate": "2026-08-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Saint Louis, USA",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Sinquefield Cup.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "saint-louis-chess-club"
-      ],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "chessaround-summer-prague-open-2026-7-15-aug-2026",
@@ -8405,6 +8132,92 @@
           "label": "Standings",
           "type": "results",
           "url": "https://chess-results.com/tnr1468181.aspx?"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-m75gw8id",
+      "title": "French Chess Championship 2026 | Open | First stage",
+      "shortTitle": "French Chess Championship 2026 | Open | First stage",
+      "status": "upcoming",
+      "startDate": "2026-08-07T13:15:00Z",
+      "endDate": "2026-08-08T19:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-first-stage/M75GW8id",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-first-stage/M75GW8id"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-ppe5fls4",
+      "title": "French Chess Championship 2026 | Women | First stage",
+      "shortTitle": "French Chess Championship 2026 | Women | First stage",
+      "status": "upcoming",
+      "startDate": "2026-08-07T13:15:00Z",
+      "endDate": "2026-08-08T19:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-women-first-stage/PPe5fLs4",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-women-first-stage/PPe5fLs4"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
         }
       ],
       "source": {
@@ -13610,6 +13423,273 @@
       ]
     },
     {
+      "id": "lichess-amqjevse",
+      "title": "French Chess Championship 2026 | Open | Quarterfinals",
+      "shortTitle": "French Chess Championship 2026 | Open | Quarterfinals",
+      "status": "upcoming",
+      "startDate": "2026-08-09T12:45:00Z",
+      "endDate": "2026-08-10T19:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-quarterfinals/amqjeVSE",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-quarterfinals/amqjeVSE"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-kz2ajeup",
+      "title": "French Chess Championship 2026 | Women | Quarterfinals",
+      "shortTitle": "French Chess Championship 2026 | Women | Quarterfinals",
+      "status": "upcoming",
+      "startDate": "2026-08-09T12:45:00Z",
+      "endDate": "2026-08-10T19:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-women-quarterfinals/kZ2AJeUP",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-women-quarterfinals/kZ2AJeUP"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-xkh8xaip",
+      "title": "2026 Cairns Cup",
+      "shortTitle": "2026 Cairns Cup",
+      "status": "upcoming",
+      "startDate": "2026-08-10T17:30:00Z",
+      "endDate": "2026-08-19T17:30:00Z",
+      "timezone": "America/Chicago",
+      "locationName": "St. Louis, Missouri, United States",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-cairns-cup/Xkh8XaIP",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-cairns-cup/Xkh8XaIP"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://saintlouischessclub.org/event/2026-cairns-cup/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-2smqschv",
+      "title": "GCT: Sinquefield Cup 2026",
+      "shortTitle": "GCT: Sinquefield Cup 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-10T17:30:00Z",
+      "endDate": "2026-08-19T17:30:00Z",
+      "timezone": "America/Chicago",
+      "locationName": "St. Louis, Missouri, United States",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "saint-louis-chess-club"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/gct-sinquefield-cup-2026/2sMqschv",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/gct-sinquefield-cup-2026/2sMqschv"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-sinquefield-cup/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-sinquefield-cup/results/"
+        },
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://en.chessbase.com/post/chess-calendar-2026"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-vhkqsdua",
+      "title": "French Chess Championship 2026 | Open | Semifinals",
+      "shortTitle": "French Chess Championship 2026 | Open | Semifinals",
+      "status": "upcoming",
+      "startDate": "2026-08-12T12:45:00Z",
+      "endDate": "2026-08-13T19:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-jxkrylmy",
+      "title": "French Chess Championship 2026 | Women | Semifinals",
+      "shortTitle": "French Chess Championship 2026 | Women | Semifinals",
+      "status": "upcoming",
+      "startDate": "2026-08-12T12:45:00Z",
+      "endDate": "2026-08-13T19:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-women-semifinals/JxKrYLmy",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-women-semifinals/JxKrYLmy"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessaround-62-mi-dzynarodowy-festiwal-szachowy-im-akiby-rubinsteina-14-23-aug-2026",
       "title": "62. Międzynarodowy Festiwal Szachowy im. Akiby Rubinsteina",
       "shortTitle": "62. Międzynarodowy Festiwal Szachowy im. Akiby Rubinsteina",
@@ -13649,6 +13729,92 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-mrtxnt6y",
+      "title": "French Chess Championship 2026 | Open | Finals",
+      "shortTitle": "French Chess Championship 2026 | Open | Finals",
+      "status": "upcoming",
+      "startDate": "2026-08-14T12:45:00Z",
+      "endDate": "2026-08-16T10:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-finals/mrtXNT6y",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-finals/mrtXNT6y"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-yzijayjw",
+      "title": "French Chess Championship 2026 | Women | Finals",
+      "shortTitle": "French Chess Championship 2026 | Women | Finals",
+      "status": "upcoming",
+      "startDate": "2026-08-14T12:45:00Z",
+      "endDate": "2026-08-16T10:03:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "16-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "women",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-women-finals/yZIJaYjw",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-women-finals/yZIJaYjw"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -18721,8 +18887,10 @@
         "nikolaos-halkias",
         "konstantinos-karakotsios",
         "vasileios-keramaros",
+        "christos-archontakis",
         "filippos-xouplidis",
         "alexandros-i-triantaphylidis",
+        "daniel-stefanoski",
         "charalampos-parastatidis",
         "dimitrios-batzilis",
         "choudhary-kanishka",
@@ -18779,9 +18947,7 @@
         "dimitrios-botskaris",
         "dimitrios-aggelos-tzellos",
         "pashalis-boudoulis",
-        "iordanis-navrozidis",
-        "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas"
+        "iordanis-navrozidis"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -18897,8 +19063,10 @@
         "nikolaos-halkias",
         "konstantinos-karakotsios",
         "vasileios-keramaros",
+        "christos-archontakis",
         "filippos-xouplidis",
         "alexandros-i-triantaphylidis",
+        "daniel-stefanoski",
         "charalampos-parastatidis",
         "dimitrios-batzilis",
         "choudhary-kanishka",
@@ -18955,9 +19123,7 @@
         "dimitrios-botskaris",
         "dimitrios-aggelos-tzellos",
         "pashalis-boudoulis",
-        "iordanis-navrozidis",
-        "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas"
+        "iordanis-navrozidis"
       ],
       "confirmedPlayers": [
         {
@@ -20296,6 +20462,21 @@
           }
         },
         {
+          "playerId": "christos-archontakis",
+          "name": "Christos Archontakis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "4248597",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "filippos-xouplidis",
           "name": "Filippos Xouplidis",
           "countryCode": "GRE",
@@ -20316,6 +20497,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42142431",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "daniel-stefanoski",
+          "name": "Daniel Stefanoski",
+          "countryCode": "MKD",
+          "title": null,
+          "fideId": "15009386",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -21171,36 +21367,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "541026802",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-na-athanasopoulos",
-          "name": "Nikolaos Na Athanasopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42157455",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "athanasios-koutsionas",
-          "name": "Athanasios Koutsionas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42151694",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
