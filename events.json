@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T19:18:24Z",
-  "eventCount": 75,
+  "generatedAt": "2026-08-04T01:25:58Z",
+  "eventCount": 77,
   "sources": [
     {
       "name": "curated",
@@ -26,7 +26,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 43
+      "count": 41
     },
     {
       "name": "chessdom",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 29
+      "count": 31
     },
     {
       "name": "uschess",
@@ -115,7 +115,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Open 136 de nau64.",
-      "description": "7 listed players. 5 rounds",
+      "description": "9 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -283,7 +283,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Leca Chess Open 2026.",
-      "description": "213 listed players. 9 rounds",
+      "description": "214 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -381,6 +381,48 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/adolf-anderssen-chess-festival-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29803",
+      "title": "Znojemska Rotunda Open 2026",
+      "shortTitle": "Znojemska Rotunda Open 2026",
+      "status": "live",
+      "startDate": "2026-08-01T12:00:00Z",
+      "endDate": "2026-08-07T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Znojemska Rotunda Open 2026.",
+      "description": "31 listed players. 7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/znojemska-rotunda-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/znojemska-rotunda-open-2026"
         },
         {
           "label": "Chess.com current events",
@@ -560,68 +602,9 @@
       "description": "16 listed players. 9 rounds",
       "categories": [
         "online",
-        "broadcast",
-        "classical",
-        "otb"
+        "broadcast"
       ],
-      "playerIds": [
-        "richard-turcan",
-        "giga-goderdzishvili",
-        "tomasz-jaskolka",
-        "ondrej-vadila",
-        "ivan-maravic",
-        "aron-pongo",
-        "ondrej-hronek",
-        "radoslav-panko",
-        "wojciech-smolinski",
-        "siddhant-tamhankar",
-        "oliver-kudela",
-        "cor-kanters",
-        "martin-mazag",
-        "daniel-bednar",
-        "adam-gavriel",
-        "alexander-savchuk",
-        "oliver-kovacik",
-        "filip-cerny",
-        "teodor-malaschitz",
-        "nora-ferenczy",
-        "yuriy-savchuk",
-        "aliaksandr-tyszecki",
-        "erhan-demirciler",
-        "federico-santoni",
-        "david-osvald",
-        "maximilian-piussi",
-        "lukas-janovicek",
-        "filip-vesely",
-        "blaz-korosec",
-        "zoltan-gyorgy-vasenszky",
-        "carlos-amado-blanco",
-        "dominik-zilkay",
-        "martin-srnak",
-        "tobias-nosal",
-        "robin-hy",
-        "jakub-kaman",
-        "mucahit-sazlik",
-        "sviatoslav-molnar",
-        "martin-vavra",
-        "patrik-cerny",
-        "benedikt-pitel",
-        "pavlo-bublyk",
-        "juraj-wallner",
-        "nikita-raschetin",
-        "mykhailo-lukianov",
-        "matus-stolar",
-        "dominik-pitel",
-        "alex-zeman",
-        "lubos-halada",
-        "simon-kosut",
-        "oren-gavriel",
-        "dmytro-peresadko",
-        "jan-gonda",
-        "filip-gallo",
-        "kata-sara-vasenszky",
-        "daniel-patay"
-      ],
+      "playerIds": [],
       "channelIds": [
         "chesscom"
       ],
@@ -636,21 +619,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/628"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0"
         }
       ],
       "source": {
@@ -658,906 +626,8 @@
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
-      "confirmedPlayerIds": [
-        "richard-turcan",
-        "giga-goderdzishvili",
-        "tomasz-jaskolka",
-        "ondrej-vadila",
-        "ivan-maravic",
-        "aron-pongo",
-        "ondrej-hronek",
-        "radoslav-panko",
-        "wojciech-smolinski",
-        "siddhant-tamhankar",
-        "oliver-kudela",
-        "cor-kanters",
-        "martin-mazag",
-        "daniel-bednar",
-        "adam-gavriel",
-        "alexander-savchuk",
-        "oliver-kovacik",
-        "filip-cerny",
-        "teodor-malaschitz",
-        "nora-ferenczy",
-        "yuriy-savchuk",
-        "aliaksandr-tyszecki",
-        "erhan-demirciler",
-        "federico-santoni",
-        "david-osvald",
-        "maximilian-piussi",
-        "lukas-janovicek",
-        "filip-vesely",
-        "blaz-korosec",
-        "zoltan-gyorgy-vasenszky",
-        "carlos-amado-blanco",
-        "dominik-zilkay",
-        "martin-srnak",
-        "tobias-nosal",
-        "robin-hy",
-        "jakub-kaman",
-        "mucahit-sazlik",
-        "sviatoslav-molnar",
-        "martin-vavra",
-        "patrik-cerny",
-        "benedikt-pitel",
-        "pavlo-bublyk",
-        "juraj-wallner",
-        "nikita-raschetin",
-        "mykhailo-lukianov",
-        "matus-stolar",
-        "dominik-pitel",
-        "alex-zeman",
-        "lubos-halada",
-        "simon-kosut",
-        "oren-gavriel",
-        "dmytro-peresadko",
-        "jan-gonda",
-        "filip-gallo",
-        "kata-sara-vasenszky",
-        "daniel-patay"
-      ],
-      "confirmedPlayers": [
-        {
-          "playerId": "richard-turcan",
-          "name": "Richard Turcan",
-          "countryCode": "SVK",
-          "title": "FM",
-          "fideId": "14947951",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "giga-goderdzishvili",
-          "name": "Giga Goderdzishvili",
-          "countryCode": "GEO",
-          "title": "CM",
-          "fideId": "13617249",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "tomasz-jaskolka",
-          "name": "Tomasz Jaskolka",
-          "countryCode": "POL",
-          "title": "CM",
-          "fideId": "1170791",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ondrej-vadila",
-          "name": "Ondrej Vadila",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14944642",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ivan-maravic",
-          "name": "Ivan Maravic",
-          "countryCode": "CRO",
-          "title": null,
-          "fideId": "14539411",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "aron-pongo",
-          "name": "Aron Pongo",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14971100",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ondrej-hronek",
-          "name": "Ondrej Hronek",
-          "countryCode": "CZE",
-          "title": null,
-          "fideId": "23703024",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "radoslav-panko",
-          "name": "Radoslav Panko",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14935635",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "wojciech-smolinski",
-          "name": "Wojciech Smolinski",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "21088683",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "siddhant-tamhankar",
-          "name": "Siddhant Tamhankar",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "5078512",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "oliver-kudela",
-          "name": "Oliver Kudela",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14971755",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "cor-kanters",
-          "name": "Cor Kanters",
-          "countryCode": "NED",
-          "title": null,
-          "fideId": "1045954",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "martin-mazag",
-          "name": "Martin Mazag",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14981270",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "daniel-bednar",
-          "name": "Daniel Bednar",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14989620",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "adam-gavriel",
-          "name": "Adam Gavriel",
-          "countryCode": "ISR",
-          "title": null,
-          "fideId": "2853752",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexander-savchuk",
-          "name": "Alexander Savchuk",
-          "countryCode": "GER",
-          "title": null,
-          "fideId": "34617434",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "oliver-kovacik",
-          "name": "Oliver Kovacik",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "2321963",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "filip-cerny",
-          "name": "Filip Cerny",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14973090",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "teodor-malaschitz",
-          "name": "Teodor Malaschitz",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "73621153",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nora-ferenczy",
-          "name": "Nora Ferenczy",
-          "countryCode": "HUN",
-          "title": null,
-          "fideId": "17012805",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "yuriy-savchuk",
-          "name": "Yuriy Savchuk",
-          "countryCode": "GER",
-          "title": null,
-          "fideId": "34617450",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "aliaksandr-tyszecki",
-          "name": "Aliaksandr Tyszecki",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "21021481",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "erhan-demirciler",
-          "name": "Erhan Demirciler",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "44564597",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "federico-santoni",
-          "name": "Federico Santoni",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "28549210",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "david-osvald",
-          "name": "David Osvald",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14974398",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "maximilian-piussi",
-          "name": "Maximilian Piussi",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14986388",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "lukas-janovicek",
-          "name": "Lukas Janovicek",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14975831",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "filip-vesely",
-          "name": "Filip Vesely",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14988810",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "blaz-korosec",
-          "name": "Blaz Korosec",
-          "countryCode": "SLO",
-          "title": null,
-          "fideId": "14671085",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zoltan-gyorgy-vasenszky",
-          "name": "Zoltan Gyorgy Vasenszky",
-          "countryCode": "HUN",
-          "title": null,
-          "fideId": "17009286",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "carlos-amado-blanco",
-          "name": "Carlos Amado-Blanco",
-          "countryCode": "SUI",
-          "title": null,
-          "fideId": "1333100",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dominik-zilkay",
-          "name": "Dominik Zilkay",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14937557",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "martin-srnak",
-          "name": "Martin Srnak",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14973308",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "tobias-nosal",
-          "name": "Tobias Nosal",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14976293",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "robin-hy",
-          "name": "Robin Hy",
-          "countryCode": "FRA",
-          "title": null,
-          "fideId": "551040840",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jakub-kaman",
-          "name": "Jakub Kaman",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14976838",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mucahit-sazlik",
-          "name": "Mucahit Sazlik",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "34553762",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sviatoslav-molnar",
-          "name": "Sviatoslav Molnar",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14974185",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "martin-vavra",
-          "name": "Martin Vavra",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14979314",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "patrik-cerny",
-          "name": "Patrik Cerny",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14973081",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "benedikt-pitel",
-          "name": "Benedikt Pitel",
-          "countryCode": "ENG",
-          "title": null,
-          "fideId": "496413",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "pavlo-bublyk",
-          "name": "Pavlo Bublyk",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14996391",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "juraj-wallner",
-          "name": "Juraj Wallner",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14929970",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikita-raschetin",
-          "name": "Nikita Raschetin",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "2860376",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mykhailo-lukianov",
-          "name": "Mykhailo Lukianov",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14984709",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "matus-stolar",
-          "name": "Matus Stolar",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "91141672",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dominik-pitel",
-          "name": "Dominik Pitel",
-          "countryCode": "ENG",
-          "title": null,
-          "fideId": "343407110",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alex-zeman",
-          "name": "Alex Zeman",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14998270",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "lubos-halada",
-          "name": "Lubos Halada",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14976153",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "simon-kosut",
-          "name": "Simon Kosut",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14970236",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "oren-gavriel",
-          "name": "Oren Gavriel",
-          "countryCode": "ISR",
-          "title": null,
-          "fideId": "2825449",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dmytro-peresadko",
-          "name": "Dmytro Peresadko",
-          "countryCode": "UKR",
-          "title": null,
-          "fideId": "34169717",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jan-gonda",
-          "name": "Jan Gonda",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14910489",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "filip-gallo",
-          "name": "Filip Gallo",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14971976",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "kata-sara-vasenszky",
-          "name": "Kata Sara Vasenszky",
-          "countryCode": "HUN",
-          "title": null,
-          "fideId": "17009278",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "daniel-patay",
-          "name": "Daniel Patay",
-          "countryCode": "SVK",
-          "title": null,
-          "fideId": "14990830",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1333277.aspx?lan=1&art=0&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "chesscom-29668",
@@ -1570,7 +640,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U18 Championship 2026.",
-      "description": "125 listed players. 9 rounds. 3 scheduled stream links",
+      "description": "150 listed players. 9 rounds. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1709,8 +779,7 @@
         "classical",
         "broadcast",
         "open",
-        "online",
-        "otb"
+        "online"
       ],
       "playerIds": [],
       "channelIds": [
@@ -1737,21 +806,6 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-a/9LKWe9TU"
-        },
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/591"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://s3.chess-results.com/tnr1342553.aspx?lan=20&turdet=YES&SNode=S0"
         }
       ],
       "source": {
@@ -1773,7 +827,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 National State Invitationals.",
-      "description": "6 rounds",
+      "description": "24 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1788,6 +842,49 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/2026-national-invitational-tournaments"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29776",
+      "title": "FIDE World University Teams Championship 2026",
+      "shortTitle": "FIDE World University Teams Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-04T08:30:00Z",
+      "endDate": "2026-08-09T15:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: FIDE World University Teams Championship 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/fide-world-university-teams-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/fide-world-university-teams-championship-2026"
         },
         {
           "label": "Chess.com current events",
@@ -2135,6 +1232,7 @@
         "kelbl-jakob",
         "willson-ollie",
         "mihalic-goran",
+        "zoldan-matteo",
         "botica-vi-eslav",
         "car-filip",
         "hardarson-jon-trausti",
@@ -2220,14 +1318,13 @@
         "fedenko-herman",
         "gombosi-zarja",
         "cats-sven",
+        "goetz-georg",
         "duran-leonardo",
         "omic-aleksandar",
         "grubec-tomislav",
         "malari-nikola",
         "hyassat-violetta",
-        "stuckle-ostojic-mihael",
-        "njardarson-arnar-ingi",
-        "ciganovi-marko"
+        "stuckle-ostojic-mihael"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/631",
@@ -2311,6 +1408,7 @@
         "kelbl-jakob",
         "willson-ollie",
         "mihalic-goran",
+        "zoldan-matteo",
         "botica-vi-eslav",
         "car-filip",
         "hardarson-jon-trausti",
@@ -2396,14 +1494,13 @@
         "fedenko-herman",
         "gombosi-zarja",
         "cats-sven",
+        "goetz-georg",
         "duran-leonardo",
         "omic-aleksandar",
         "grubec-tomislav",
         "malari-nikola",
         "hyassat-violetta",
-        "stuckle-ostojic-mihael",
-        "njardarson-arnar-ingi",
-        "ciganovi-marko"
+        "stuckle-ostojic-mihael"
       ],
       "confirmedPlayers": [
         {
@@ -3252,6 +2349,21 @@
           "countryCode": "CRO",
           "title": null,
           "fideId": "14510898",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "zoldan-matteo",
+          "name": "Zoldan Matteo",
+          "countryCode": "ITA",
+          "title": "CM",
+          "fideId": "805319",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4537,6 +3649,21 @@
           }
         },
         {
+          "playerId": "goetz-georg",
+          "name": "Goetz Georg",
+          "countryCode": "GER",
+          "title": null,
+          "fideId": "533000140",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "duran-leonardo",
           "name": "Duran Leonardo",
           "countryCode": "CRO",
@@ -4617,36 +3744,6 @@
           "countryCode": "CRO",
           "title": null,
           "fideId": "14574403",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "njardarson-arnar-ingi",
-          "name": "Njardarson Arnar Ingi",
-          "countryCode": "ISL",
-          "title": null,
-          "fideId": "2310015",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ciganovi-marko",
-          "name": "Ciganović Marko",
-          "countryCode": "CRO",
-          "title": "III",
-          "fideId": "14575051",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -9240,156 +8337,156 @@
         "otb"
       ],
       "playerIds": [
-        "igor-kovalenko",
-        "shant-sargsyan",
-        "alexander-donchenko",
-        "daniel-dardha",
-        "lorenzo-lodici",
-        "casper-schoppen",
-        "manuel-petrosyan",
-        "leonardo-costa",
-        "ido-gorshtein",
-        "jan-subelj",
-        "bojan-maksimovic",
-        "abdimalik-abdisalimov",
-        "kirk-ghazarian",
-        "momchil-petkov",
-        "jose-gabriel-cardoso-cardoso",
-        "denis-kadric",
-        "marco-materia",
-        "renato-r-quintiliano",
-        "bryan-enming-lin",
-        "rishi-sardana",
-        "imran-md",
-        "yago-de-moura-santiago",
-        "matic-lavrencic",
-        "mark-heimann",
-        "marius-deuer",
-        "ilia-martinovici",
-        "ori-kobo",
-        "yevgeniy-roshka",
-        "diego-rafael-di-berardino",
-        "nico-chasin",
-        "luis-lazaro-aguero-jimenez",
-        "edoardo-di-benedetto",
-        "piotr-brodowski",
-        "valerio-carnicelli",
-        "ortik-nigmatov",
-        "al-muthaiah",
-        "artyom-bogdanov",
-        "michele-godena",
-        "ilan-schnaider",
-        "mark-smirnov",
-        "dey-shahil",
-        "nikhil-p-shyaam",
-        "maximillian-lu",
-        "santiago-lopez-rayo",
-        "diego-saul-rodri-flores-quillas",
-        "manuel-campos-gomez",
-        "khoi-pham",
-        "steven-rojas-salas",
-        "tadeas-balacek",
-        "mauricio-emmanuel-marrujo-pardo",
-        "sayantan-das",
-        "guido-caprio",
-        "cristhian-camilo-rios-gomez",
-        "bala-chandra-prasad-dhulipalla",
-        "lars-goldbeck",
-        "kevin-noboa-silva",
-        "mihail-marin",
-        "azer-mirzoev",
-        "nathan-felipe-filgueiras",
-        "serghei-vedmediuc",
-        "german-gonzalo-quirhuayo-chumbe",
-        "danis-kuandykuly",
-        "francesco-bettalli",
-        "marcin-sieciechowicz",
-        "guntaka-aamuktha",
-        "piotr-nguyen",
-        "amit-doshi-moksh",
-        "alfred-nemitz",
-        "aleksandra-maltsevskaya",
-        "lovro-novosel",
-        "nicolas-perossa",
-        "erekle-tabatadze",
-        "tymur-keleberda",
-        "niccolo-casadio",
-        "anna-m-sargsyan",
-        "alexandro-beliman",
-        "artiom-vedmediuc",
-        "marc-llari",
-        "jernej-kozlovic",
-        "moritz-stoettner",
-        "marco-ferrante",
-        "das-jr-arpan",
-        "boris-golubovic",
-        "nico-marakovits",
-        "benedikt-huber",
-        "lukas-stoettner",
-        "hayk-yeritsyan",
-        "andrew-jing",
-        "seyed-kian-ghoreishi-amiri",
-        "claudio-paduano",
-        "abdumajid-botiraliev",
-        "mathias-andre-casalaspro",
-        "aron-csontos",
-        "juan-sebastian-herrera",
-        "g-aakash",
-        "sofiia-hryzlova",
-        "andras-bonk",
-        "neven-hercegovac",
-        "kenneth-terence-solomon",
-        "edoardo-fulgentini",
-        "mattia-pegno",
-        "gabriel-urbani",
-        "miruna-daria-lehaci",
-        "lucas-fonseca-piccoli",
-        "filipa-fortuna-pipiras",
-        "ivano-sundac",
-        "stefano-maldonado-gonzales",
-        "erik-golubovic",
-        "liwia-jarocka",
-        "massimiliano-botta",
-        "shamsi-garakhanov",
-        "sheralijon-ravshanov",
-        "sargis-v-manukyan",
-        "nikolay-tregubenko",
-        "rhys-arnold",
-        "agrawal-nimay",
-        "daniil-yasmo",
-        "davide-pulvirenti",
-        "danilo-brozzi",
-        "dehankar-mrudul",
-        "gabriel-petcu",
-        "biswas-anustoop",
-        "anna-kubicka",
-        "nikolaus-wallinger",
-        "alejandro-mateus",
-        "daniele-gonella",
-        "matteo-montorsi",
-        "srishti-pandey",
-        "magnus-mueller",
-        "kai-hanache",
-        "lut-yin-luke-lau",
-        "alex-dobboletta",
-        "silvia-alexieva",
-        "phuong-hanh-luong",
-        "danylo-budyi",
-        "dex-webster",
-        "valentina-argote-heredia",
-        "tamas-tancsa",
-        "alexander-doraszelski",
-        "thomas-bauer",
-        "andraz-gregoric",
-        "rajkhowa-mrinmoy",
-        "fabio-colonetti",
-        "mohamed-khalil-abdallah",
-        "giovanni-sorbera",
-        "alexander-heimann",
-        "ahmed-bouzidi",
-        "krishna-bommi-yasaswi",
-        "aleks-centrih",
-        "parmar-paarshva"
+        "kovalenko-igor",
+        "sargsyan-shant",
+        "donchenko-alexander",
+        "dardha-daniel",
+        "lodici-lorenzo",
+        "schoppen-casper",
+        "petrosyan-manuel",
+        "costa-leonardo",
+        "gorshtein-ido",
+        "subelj-jan",
+        "maksimovic-bojan",
+        "abdisalimov-abdimalik",
+        "ghazarian-kirk",
+        "petkov-momchil",
+        "cardoso-cardoso-jose-gabriel",
+        "kadric-denis",
+        "materia-marco",
+        "quintiliano-renato-r",
+        "lin-bryan-enming",
+        "sardana-rishi",
+        "md-imran",
+        "santiago-yago-de-moura",
+        "lavrencic-matic",
+        "heimann-mark",
+        "deuer-marius",
+        "martinovici-ilia",
+        "kobo-ori",
+        "roshka-yevgeniy",
+        "di-berardino-diego-rafael",
+        "chasin-nico",
+        "aguero-jimenez-luis-lazaro",
+        "di-benedetto-edoardo",
+        "brodowski-piotr",
+        "carnicelli-valerio",
+        "nigmatov-ortik",
+        "muthaiah-al",
+        "bogdanov-artyom",
+        "godena-michele",
+        "schnaider-ilan",
+        "smirnov-mark",
+        "shahil-dey",
+        "shyaam-nikhil-p",
+        "lu-maximillian",
+        "lopez-rayo-santiago",
+        "flores-quillas-diego-saul-rodri",
+        "campos-gomez-manuel",
+        "pham-khoi",
+        "rojas-salas-steven",
+        "balacek-tadeas",
+        "marrujo-pardo-mauricio-emmanuel",
+        "das-sayantan",
+        "caprio-guido",
+        "rios-gomez-cristhian-camilo",
+        "dhulipalla-bala-chandra-prasad",
+        "goldbeck-lars",
+        "noboa-silva-kevin",
+        "marin-mihail",
+        "mirzoev-azer",
+        "filgueiras-nathan-felipe",
+        "vedmediuc-serghei",
+        "quirhuayo-chumbe-german-gonzalo",
+        "kuandykuly-danis",
+        "bettalli-francesco",
+        "sieciechowicz-marcin",
+        "aamuktha-guntaka",
+        "nguyen-piotr",
+        "moksh-amit-doshi",
+        "nemitz-alfred",
+        "maltsevskaya-aleksandra",
+        "novosel-lovro",
+        "perossa-nicolas",
+        "tabatadze-erekle",
+        "keleberda-tymur",
+        "casadio-niccolo",
+        "sargsyan-anna-m",
+        "beliman-alexandro",
+        "vedmediuc-artiom",
+        "llari-marc",
+        "kozlovic-jernej",
+        "stoettner-moritz",
+        "ferrante-marco",
+        "arpan-das-jr",
+        "golubovic-boris",
+        "marakovits-nico",
+        "huber-benedikt",
+        "stoettner-lukas",
+        "yeritsyan-hayk",
+        "jing-andrew",
+        "ghoreishi-amiri-seyed-kian",
+        "paduano-claudio",
+        "botiraliev-abdumajid",
+        "casalaspro-mathias-andre",
+        "csontos-aron",
+        "herrera-juan-sebastian",
+        "aakash-g",
+        "hryzlova-sofiia",
+        "bonk-andras",
+        "hercegovac-neven",
+        "solomon-kenneth-terence",
+        "fulgentini-edoardo",
+        "pegno-mattia",
+        "urbani-gabriel",
+        "lehaci-miruna-daria",
+        "piccoli-lucas-fonseca",
+        "pipiras-filipa-fortuna",
+        "sundac-ivano",
+        "maldonado-gonzales-stefano",
+        "golubovic-erik",
+        "jarocka-liwia",
+        "botta-massimiliano",
+        "garakhanov-shamsi",
+        "ravshanov-sheralijon",
+        "manukyan-sargis-v",
+        "tregubenko-nikolay",
+        "arnold-rhys",
+        "nimay-agrawal",
+        "yasmo-daniil",
+        "pulvirenti-davide",
+        "brozzi-danilo",
+        "mrudul-dehankar",
+        "petcu-gabriel",
+        "anustoop-biswas",
+        "kubicka-anna",
+        "wallinger-nikolaus",
+        "mateus-alejandro",
+        "gonella-daniele",
+        "montorsi-matteo",
+        "pandey-srishti",
+        "mueller-magnus",
+        "hanache-kai",
+        "lau-lut-yin-luke",
+        "dobboletta-alex",
+        "alexieva-silvia",
+        "luong-phuong-hanh",
+        "budyi-danylo",
+        "webster-dex",
+        "argote-heredia-valentina",
+        "tancsa-tamas",
+        "doraszelski-alexander",
+        "bauer-thomas",
+        "gregoric-andraz",
+        "mrinmoy-rajkhowa",
+        "colonetti-fabio",
+        "abdallah-mohamed-khalil",
+        "sorbera-giovanni",
+        "heimann-alexander",
+        "bouzidi-ahmed",
+        "yasaswi-krishna-bommi",
+        "centrih-aleks",
+        "paarshva-parmar"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
@@ -9416,161 +8513,161 @@
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
-        "igor-kovalenko",
-        "shant-sargsyan",
-        "alexander-donchenko",
-        "daniel-dardha",
-        "lorenzo-lodici",
-        "casper-schoppen",
-        "manuel-petrosyan",
-        "leonardo-costa",
-        "ido-gorshtein",
-        "jan-subelj",
-        "bojan-maksimovic",
-        "abdimalik-abdisalimov",
-        "kirk-ghazarian",
-        "momchil-petkov",
-        "jose-gabriel-cardoso-cardoso",
-        "denis-kadric",
-        "marco-materia",
-        "renato-r-quintiliano",
-        "bryan-enming-lin",
-        "rishi-sardana",
-        "imran-md",
-        "yago-de-moura-santiago",
-        "matic-lavrencic",
-        "mark-heimann",
-        "marius-deuer",
-        "ilia-martinovici",
-        "ori-kobo",
-        "yevgeniy-roshka",
-        "diego-rafael-di-berardino",
-        "nico-chasin",
-        "luis-lazaro-aguero-jimenez",
-        "edoardo-di-benedetto",
-        "piotr-brodowski",
-        "valerio-carnicelli",
-        "ortik-nigmatov",
-        "al-muthaiah",
-        "artyom-bogdanov",
-        "michele-godena",
-        "ilan-schnaider",
-        "mark-smirnov",
-        "dey-shahil",
-        "nikhil-p-shyaam",
-        "maximillian-lu",
-        "santiago-lopez-rayo",
-        "diego-saul-rodri-flores-quillas",
-        "manuel-campos-gomez",
-        "khoi-pham",
-        "steven-rojas-salas",
-        "tadeas-balacek",
-        "mauricio-emmanuel-marrujo-pardo",
-        "sayantan-das",
-        "guido-caprio",
-        "cristhian-camilo-rios-gomez",
-        "bala-chandra-prasad-dhulipalla",
-        "lars-goldbeck",
-        "kevin-noboa-silva",
-        "mihail-marin",
-        "azer-mirzoev",
-        "nathan-felipe-filgueiras",
-        "serghei-vedmediuc",
-        "german-gonzalo-quirhuayo-chumbe",
-        "danis-kuandykuly",
-        "francesco-bettalli",
-        "marcin-sieciechowicz",
-        "guntaka-aamuktha",
-        "piotr-nguyen",
-        "amit-doshi-moksh",
-        "alfred-nemitz",
-        "aleksandra-maltsevskaya",
-        "lovro-novosel",
-        "nicolas-perossa",
-        "erekle-tabatadze",
-        "tymur-keleberda",
-        "niccolo-casadio",
-        "anna-m-sargsyan",
-        "alexandro-beliman",
-        "artiom-vedmediuc",
-        "marc-llari",
-        "jernej-kozlovic",
-        "moritz-stoettner",
-        "marco-ferrante",
-        "das-jr-arpan",
-        "boris-golubovic",
-        "nico-marakovits",
-        "benedikt-huber",
-        "lukas-stoettner",
-        "hayk-yeritsyan",
-        "andrew-jing",
-        "seyed-kian-ghoreishi-amiri",
-        "claudio-paduano",
-        "abdumajid-botiraliev",
-        "mathias-andre-casalaspro",
-        "aron-csontos",
-        "juan-sebastian-herrera",
-        "g-aakash",
-        "sofiia-hryzlova",
-        "andras-bonk",
-        "neven-hercegovac",
-        "kenneth-terence-solomon",
-        "edoardo-fulgentini",
-        "mattia-pegno",
-        "gabriel-urbani",
-        "miruna-daria-lehaci",
-        "lucas-fonseca-piccoli",
-        "filipa-fortuna-pipiras",
-        "ivano-sundac",
-        "stefano-maldonado-gonzales",
-        "erik-golubovic",
-        "liwia-jarocka",
-        "massimiliano-botta",
-        "shamsi-garakhanov",
-        "sheralijon-ravshanov",
-        "sargis-v-manukyan",
-        "nikolay-tregubenko",
-        "rhys-arnold",
-        "agrawal-nimay",
-        "daniil-yasmo",
-        "davide-pulvirenti",
-        "danilo-brozzi",
-        "dehankar-mrudul",
-        "gabriel-petcu",
-        "biswas-anustoop",
-        "anna-kubicka",
-        "nikolaus-wallinger",
-        "alejandro-mateus",
-        "daniele-gonella",
-        "matteo-montorsi",
-        "srishti-pandey",
-        "magnus-mueller",
-        "kai-hanache",
-        "lut-yin-luke-lau",
-        "alex-dobboletta",
-        "silvia-alexieva",
-        "phuong-hanh-luong",
-        "danylo-budyi",
-        "dex-webster",
-        "valentina-argote-heredia",
-        "tamas-tancsa",
-        "alexander-doraszelski",
-        "thomas-bauer",
-        "andraz-gregoric",
-        "rajkhowa-mrinmoy",
-        "fabio-colonetti",
-        "mohamed-khalil-abdallah",
-        "giovanni-sorbera",
-        "alexander-heimann",
-        "ahmed-bouzidi",
-        "krishna-bommi-yasaswi",
-        "aleks-centrih",
-        "parmar-paarshva"
+        "kovalenko-igor",
+        "sargsyan-shant",
+        "donchenko-alexander",
+        "dardha-daniel",
+        "lodici-lorenzo",
+        "schoppen-casper",
+        "petrosyan-manuel",
+        "costa-leonardo",
+        "gorshtein-ido",
+        "subelj-jan",
+        "maksimovic-bojan",
+        "abdisalimov-abdimalik",
+        "ghazarian-kirk",
+        "petkov-momchil",
+        "cardoso-cardoso-jose-gabriel",
+        "kadric-denis",
+        "materia-marco",
+        "quintiliano-renato-r",
+        "lin-bryan-enming",
+        "sardana-rishi",
+        "md-imran",
+        "santiago-yago-de-moura",
+        "lavrencic-matic",
+        "heimann-mark",
+        "deuer-marius",
+        "martinovici-ilia",
+        "kobo-ori",
+        "roshka-yevgeniy",
+        "di-berardino-diego-rafael",
+        "chasin-nico",
+        "aguero-jimenez-luis-lazaro",
+        "di-benedetto-edoardo",
+        "brodowski-piotr",
+        "carnicelli-valerio",
+        "nigmatov-ortik",
+        "muthaiah-al",
+        "bogdanov-artyom",
+        "godena-michele",
+        "schnaider-ilan",
+        "smirnov-mark",
+        "shahil-dey",
+        "shyaam-nikhil-p",
+        "lu-maximillian",
+        "lopez-rayo-santiago",
+        "flores-quillas-diego-saul-rodri",
+        "campos-gomez-manuel",
+        "pham-khoi",
+        "rojas-salas-steven",
+        "balacek-tadeas",
+        "marrujo-pardo-mauricio-emmanuel",
+        "das-sayantan",
+        "caprio-guido",
+        "rios-gomez-cristhian-camilo",
+        "dhulipalla-bala-chandra-prasad",
+        "goldbeck-lars",
+        "noboa-silva-kevin",
+        "marin-mihail",
+        "mirzoev-azer",
+        "filgueiras-nathan-felipe",
+        "vedmediuc-serghei",
+        "quirhuayo-chumbe-german-gonzalo",
+        "kuandykuly-danis",
+        "bettalli-francesco",
+        "sieciechowicz-marcin",
+        "aamuktha-guntaka",
+        "nguyen-piotr",
+        "moksh-amit-doshi",
+        "nemitz-alfred",
+        "maltsevskaya-aleksandra",
+        "novosel-lovro",
+        "perossa-nicolas",
+        "tabatadze-erekle",
+        "keleberda-tymur",
+        "casadio-niccolo",
+        "sargsyan-anna-m",
+        "beliman-alexandro",
+        "vedmediuc-artiom",
+        "llari-marc",
+        "kozlovic-jernej",
+        "stoettner-moritz",
+        "ferrante-marco",
+        "arpan-das-jr",
+        "golubovic-boris",
+        "marakovits-nico",
+        "huber-benedikt",
+        "stoettner-lukas",
+        "yeritsyan-hayk",
+        "jing-andrew",
+        "ghoreishi-amiri-seyed-kian",
+        "paduano-claudio",
+        "botiraliev-abdumajid",
+        "casalaspro-mathias-andre",
+        "csontos-aron",
+        "herrera-juan-sebastian",
+        "aakash-g",
+        "hryzlova-sofiia",
+        "bonk-andras",
+        "hercegovac-neven",
+        "solomon-kenneth-terence",
+        "fulgentini-edoardo",
+        "pegno-mattia",
+        "urbani-gabriel",
+        "lehaci-miruna-daria",
+        "piccoli-lucas-fonseca",
+        "pipiras-filipa-fortuna",
+        "sundac-ivano",
+        "maldonado-gonzales-stefano",
+        "golubovic-erik",
+        "jarocka-liwia",
+        "botta-massimiliano",
+        "garakhanov-shamsi",
+        "ravshanov-sheralijon",
+        "manukyan-sargis-v",
+        "tregubenko-nikolay",
+        "arnold-rhys",
+        "nimay-agrawal",
+        "yasmo-daniil",
+        "pulvirenti-davide",
+        "brozzi-danilo",
+        "mrudul-dehankar",
+        "petcu-gabriel",
+        "anustoop-biswas",
+        "kubicka-anna",
+        "wallinger-nikolaus",
+        "mateus-alejandro",
+        "gonella-daniele",
+        "montorsi-matteo",
+        "pandey-srishti",
+        "mueller-magnus",
+        "hanache-kai",
+        "lau-lut-yin-luke",
+        "dobboletta-alex",
+        "alexieva-silvia",
+        "luong-phuong-hanh",
+        "budyi-danylo",
+        "webster-dex",
+        "argote-heredia-valentina",
+        "tancsa-tamas",
+        "doraszelski-alexander",
+        "bauer-thomas",
+        "gregoric-andraz",
+        "mrinmoy-rajkhowa",
+        "colonetti-fabio",
+        "abdallah-mohamed-khalil",
+        "sorbera-giovanni",
+        "heimann-alexander",
+        "bouzidi-ahmed",
+        "yasaswi-krishna-bommi",
+        "centrih-aleks",
+        "paarshva-parmar"
       ],
       "confirmedPlayers": [
         {
-          "playerId": "igor-kovalenko",
-          "name": "Igor Kovalenko",
+          "playerId": "kovalenko-igor",
+          "name": "Kovalenko Igor",
           "countryCode": "UKR",
           "title": "GM",
           "fideId": "14117908",
@@ -9584,8 +8681,8 @@
           }
         },
         {
-          "playerId": "shant-sargsyan",
-          "name": "Shant Sargsyan",
+          "playerId": "sargsyan-shant",
+          "name": "Sargsyan Shant",
           "countryCode": "ARM",
           "title": "GM",
           "fideId": "13306766",
@@ -9599,8 +8696,8 @@
           }
         },
         {
-          "playerId": "alexander-donchenko",
-          "name": "Alexander Donchenko",
+          "playerId": "donchenko-alexander",
+          "name": "Donchenko Alexander",
           "countryCode": "GER",
           "title": "GM",
           "fideId": "24603295",
@@ -9614,8 +8711,8 @@
           }
         },
         {
-          "playerId": "daniel-dardha",
-          "name": "Daniel Dardha",
+          "playerId": "dardha-daniel",
+          "name": "Dardha Daniel",
           "countryCode": "BEL",
           "title": "GM",
           "fideId": "240990",
@@ -9629,8 +8726,8 @@
           }
         },
         {
-          "playerId": "lorenzo-lodici",
-          "name": "Lorenzo Lodici",
+          "playerId": "lodici-lorenzo",
+          "name": "Lodici Lorenzo",
           "countryCode": "ITA",
           "title": "GM",
           "fideId": "884189",
@@ -9644,8 +8741,8 @@
           }
         },
         {
-          "playerId": "casper-schoppen",
-          "name": "Casper Schoppen",
+          "playerId": "schoppen-casper",
+          "name": "Schoppen Casper",
           "countryCode": "NED",
           "title": "GM",
           "fideId": "1046730",
@@ -9659,8 +8756,8 @@
           }
         },
         {
-          "playerId": "manuel-petrosyan",
-          "name": "Manuel Petrosyan",
+          "playerId": "petrosyan-manuel",
+          "name": "Petrosyan Manuel",
           "countryCode": "ARM",
           "title": "GM",
           "fideId": "13300857",
@@ -9674,8 +8771,8 @@
           }
         },
         {
-          "playerId": "leonardo-costa",
-          "name": "Leonardo Costa",
+          "playerId": "costa-leonardo",
+          "name": "Costa Leonardo",
           "countryCode": "GER",
           "title": "GM",
           "fideId": "16213955",
@@ -9689,8 +8786,8 @@
           }
         },
         {
-          "playerId": "ido-gorshtein",
-          "name": "Ido Gorshtein",
+          "playerId": "gorshtein-ido",
+          "name": "Gorshtein Ido",
           "countryCode": "ISR",
           "title": "GM",
           "fideId": "2815532",
@@ -9704,8 +8801,8 @@
           }
         },
         {
-          "playerId": "jan-subelj",
-          "name": "Jan Subelj",
+          "playerId": "subelj-jan",
+          "name": "Subelj Jan",
           "countryCode": "SLO",
           "title": "GM",
           "fideId": "14618583",
@@ -9719,8 +8816,8 @@
           }
         },
         {
-          "playerId": "bojan-maksimovic",
-          "name": "Bojan Maksimovic",
+          "playerId": "maksimovic-bojan",
+          "name": "Maksimovic Bojan",
           "countryCode": "SRB",
           "title": "GM",
           "fideId": "14408120",
@@ -9734,8 +8831,8 @@
           }
         },
         {
-          "playerId": "abdimalik-abdisalimov",
-          "name": "Abdimalik Abdisalimov",
+          "playerId": "abdisalimov-abdimalik",
+          "name": "Abdisalimov Abdimalik",
           "countryCode": "UZB",
           "title": "GM",
           "fideId": "14206323",
@@ -9749,8 +8846,8 @@
           }
         },
         {
-          "playerId": "kirk-ghazarian",
-          "name": "Kirk Ghazarian",
+          "playerId": "ghazarian-kirk",
+          "name": "Ghazarian Kirk",
           "countryCode": "USA",
           "title": "GM",
           "fideId": "30908604",
@@ -9764,8 +8861,8 @@
           }
         },
         {
-          "playerId": "momchil-petkov",
-          "name": "Momchil Petkov",
+          "playerId": "petkov-momchil",
+          "name": "Petkov Momchil",
           "countryCode": "BUL",
           "title": "GM",
           "fideId": "2921642",
@@ -9779,8 +8876,8 @@
           }
         },
         {
-          "playerId": "jose-gabriel-cardoso-cardoso",
-          "name": "Jose Gabriel Cardoso Cardoso",
+          "playerId": "cardoso-cardoso-jose-gabriel",
+          "name": "Cardoso Cardoso Jose Gabriel",
           "countryCode": "COL",
           "title": "GM",
           "fideId": "4430492",
@@ -9794,8 +8891,8 @@
           }
         },
         {
-          "playerId": "denis-kadric",
-          "name": "Denis Kadric",
+          "playerId": "kadric-denis",
+          "name": "Kadric Denis",
           "countryCode": "MNE",
           "title": "GM",
           "fideId": "14403803",
@@ -9809,8 +8906,8 @@
           }
         },
         {
-          "playerId": "marco-materia",
-          "name": "Marco Materia",
+          "playerId": "materia-marco",
+          "name": "Materia Marco",
           "countryCode": "FRA",
           "title": "IM",
           "fideId": "45150451",
@@ -9824,8 +8921,8 @@
           }
         },
         {
-          "playerId": "renato-r-quintiliano",
-          "name": "Renato R. Quintiliano",
+          "playerId": "quintiliano-renato-r",
+          "name": "Quintiliano Renato R.",
           "countryCode": "BRA",
           "title": "GM",
           "fideId": "2117568",
@@ -9839,8 +8936,8 @@
           }
         },
         {
-          "playerId": "bryan-enming-lin",
-          "name": "Bryan Enming Lin",
+          "playerId": "lin-bryan-enming",
+          "name": "Lin Bryan Enming",
           "countryCode": "USA",
           "title": "IM",
           "fideId": "30987121",
@@ -9854,8 +8951,8 @@
           }
         },
         {
-          "playerId": "rishi-sardana",
-          "name": "Rishi Sardana",
+          "playerId": "sardana-rishi",
+          "name": "Sardana Rishi",
           "countryCode": "AUS",
           "title": "IM",
           "fideId": "25004301",
@@ -9869,8 +8966,8 @@
           }
         },
         {
-          "playerId": "imran-md",
-          "name": "Imran Md",
+          "playerId": "md-imran",
+          "name": "Md Imran",
           "countryCode": "IND",
           "title": "IM",
           "fideId": "25748580",
@@ -9884,8 +8981,8 @@
           }
         },
         {
-          "playerId": "yago-de-moura-santiago",
-          "name": "Yago De Moura Santiago",
+          "playerId": "santiago-yago-de-moura",
+          "name": "Santiago Yago De Moura",
           "countryCode": "BRA",
           "title": "GM",
           "fideId": "2103877",
@@ -9899,8 +8996,8 @@
           }
         },
         {
-          "playerId": "matic-lavrencic",
-          "name": "Matic Lavrencic",
+          "playerId": "lavrencic-matic",
+          "name": "Lavrencic Matic",
           "countryCode": "SLO",
           "title": "IM",
           "fideId": "14637847",
@@ -9914,8 +9011,8 @@
           }
         },
         {
-          "playerId": "mark-heimann",
-          "name": "Mark Heimann",
+          "playerId": "heimann-mark",
+          "name": "Heimann Mark",
           "countryCode": "USA",
           "title": "GM",
           "fideId": "2028441",
@@ -9929,8 +9026,8 @@
           }
         },
         {
-          "playerId": "marius-deuer",
-          "name": "Marius Deuer",
+          "playerId": "deuer-marius",
+          "name": "Deuer Marius",
           "countryCode": "GER",
           "title": "GM",
           "fideId": "16236432",
@@ -9944,8 +9041,8 @@
           }
         },
         {
-          "playerId": "ilia-martinovici",
-          "name": "Ilia Martinovici",
+          "playerId": "martinovici-ilia",
+          "name": "Martinovici Ilia",
           "countryCode": "ITA",
           "title": "IM",
           "fideId": "13907034",
@@ -9959,8 +9056,8 @@
           }
         },
         {
-          "playerId": "ori-kobo",
-          "name": "Ori Kobo",
+          "playerId": "kobo-ori",
+          "name": "Kobo Ori",
           "countryCode": "ISR",
           "title": "GM",
           "fideId": "2812320",
@@ -9974,8 +9071,8 @@
           }
         },
         {
-          "playerId": "yevgeniy-roshka",
-          "name": "Yevgeniy Roshka",
+          "playerId": "roshka-yevgeniy",
+          "name": "Roshka Yevgeniy",
           "countryCode": "UKR",
           "title": "IM",
           "fideId": "14129558",
@@ -9989,8 +9086,8 @@
           }
         },
         {
-          "playerId": "diego-rafael-di-berardino",
-          "name": "Diego Rafael Di Berardino",
+          "playerId": "di-berardino-diego-rafael",
+          "name": "Di Berardino Diego Rafael",
           "countryCode": "BRA",
           "title": "IM",
           "fideId": "2105446",
@@ -10004,8 +9101,8 @@
           }
         },
         {
-          "playerId": "nico-chasin",
-          "name": "Nico Chasin",
+          "playerId": "chasin-nico",
+          "name": "Chasin Nico",
           "countryCode": "USA",
           "title": "GM",
           "fideId": "30908477",
@@ -10019,8 +9116,8 @@
           }
         },
         {
-          "playerId": "luis-lazaro-aguero-jimenez",
-          "name": "Luis Lazaro Aguero Jimenez",
+          "playerId": "aguero-jimenez-luis-lazaro",
+          "name": "Aguero Jimenez Luis Lazaro",
           "countryCode": "CUB",
           "title": "GM",
           "fideId": "3508455",
@@ -10034,8 +9131,8 @@
           }
         },
         {
-          "playerId": "edoardo-di-benedetto",
-          "name": "Edoardo Di Benedetto",
+          "playerId": "di-benedetto-edoardo",
+          "name": "Di Benedetto Edoardo",
           "countryCode": "ITA",
           "title": "IM",
           "fideId": "875740",
@@ -10049,8 +9146,8 @@
           }
         },
         {
-          "playerId": "piotr-brodowski",
-          "name": "Piotr Brodowski",
+          "playerId": "brodowski-piotr",
+          "name": "Brodowski Piotr",
           "countryCode": "POL",
           "title": "IM",
           "fideId": "1124480",
@@ -10064,8 +9161,8 @@
           }
         },
         {
-          "playerId": "valerio-carnicelli",
-          "name": "Valerio Carnicelli",
+          "playerId": "carnicelli-valerio",
+          "name": "Carnicelli Valerio",
           "countryCode": "ITA",
           "title": "IM",
           "fideId": "856185",
@@ -10079,8 +9176,8 @@
           }
         },
         {
-          "playerId": "ortik-nigmatov",
-          "name": "Ortik Nigmatov",
+          "playerId": "nigmatov-ortik",
+          "name": "Nigmatov Ortik",
           "countryCode": "UZB",
           "title": "GM",
           "fideId": "14202131",
@@ -10094,8 +9191,8 @@
           }
         },
         {
-          "playerId": "al-muthaiah",
-          "name": "Al Muthaiah",
+          "playerId": "muthaiah-al",
+          "name": "Muthaiah Al",
           "countryCode": "IND",
           "title": "IM",
           "fideId": "5092442",
@@ -10109,8 +9206,8 @@
           }
         },
         {
-          "playerId": "artyom-bogdanov",
-          "name": "Artyom Bogdanov",
+          "playerId": "bogdanov-artyom",
+          "name": "Bogdanov Artyom",
           "countryCode": "KAZ",
           "title": "IM",
           "fideId": "13749200",
@@ -10124,8 +9221,8 @@
           }
         },
         {
-          "playerId": "michele-godena",
-          "name": "Michele Godena",
+          "playerId": "godena-michele",
+          "name": "Godena Michele",
           "countryCode": "ITA",
           "title": "GM",
           "fideId": "800090",
@@ -10139,8 +9236,8 @@
           }
         },
         {
-          "playerId": "ilan-schnaider",
-          "name": "Ilan Schnaider",
+          "playerId": "schnaider-ilan",
+          "name": "Schnaider Ilan",
           "countryCode": "ARG",
           "title": "IM",
           "fideId": "169013",
@@ -10154,8 +9251,8 @@
           }
         },
         {
-          "playerId": "mark-smirnov",
-          "name": "Mark Smirnov",
+          "playerId": "smirnov-mark",
+          "name": "Smirnov Mark",
           "countryCode": "KAZ",
           "title": "IM",
           "fideId": "13764594",
@@ -10169,8 +9266,8 @@
           }
         },
         {
-          "playerId": "dey-shahil",
-          "name": "Dey Shahil",
+          "playerId": "shahil-dey",
+          "name": "Shahil Dey",
           "countryCode": "IND",
           "title": "IM",
           "fideId": "35062352",
@@ -10184,8 +9281,8 @@
           }
         },
         {
-          "playerId": "nikhil-p-shyaam",
-          "name": "Nikhil P Shyaam",
+          "playerId": "shyaam-nikhil-p",
+          "name": "Shyaam Nikhil P",
           "countryCode": "IND",
           "title": "GM",
           "fideId": "5024218",
@@ -10199,8 +9296,8 @@
           }
         },
         {
-          "playerId": "maximillian-lu",
-          "name": "Maximillian Lu",
+          "playerId": "lu-maximillian",
+          "name": "Lu Maximillian",
           "countryCode": "USA",
           "title": "IM",
           "fideId": "2096242",
@@ -10214,8 +9311,8 @@
           }
         },
         {
-          "playerId": "santiago-lopez-rayo",
-          "name": "Santiago Lopez Rayo",
+          "playerId": "lopez-rayo-santiago",
+          "name": "Lopez Rayo Santiago",
           "countryCode": "COL",
           "title": "IM",
           "fideId": "4455665",
@@ -10229,8 +9326,8 @@
           }
         },
         {
-          "playerId": "diego-saul-rodri-flores-quillas",
-          "name": "Diego Saul Rodri Flores Quillas",
+          "playerId": "flores-quillas-diego-saul-rodri",
+          "name": "Flores Quillas Diego Saul Rodri",
           "countryCode": "PER",
           "title": "IM",
           "fideId": "3822508",
@@ -10244,8 +9341,8 @@
           }
         },
         {
-          "playerId": "manuel-campos-gomez",
-          "name": "Manuel Campos Gomez",
+          "playerId": "campos-gomez-manuel",
+          "name": "Campos Gomez Manuel",
           "countryCode": "COL",
           "title": "IM",
           "fideId": "4444710",
@@ -10259,8 +9356,8 @@
           }
         },
         {
-          "playerId": "khoi-pham",
-          "name": "Khoi Pham",
+          "playerId": "pham-khoi",
+          "name": "Pham Khoi",
           "countryCode": "NED",
           "title": "IM",
           "fideId": "1054988",
@@ -10274,8 +9371,8 @@
           }
         },
         {
-          "playerId": "steven-rojas-salas",
-          "name": "Steven Rojas Salas",
+          "playerId": "rojas-salas-steven",
+          "name": "Rojas Salas Steven",
           "countryCode": "PER",
           "title": "IM",
           "fideId": "3819434",
@@ -10289,8 +9386,8 @@
           }
         },
         {
-          "playerId": "tadeas-balacek",
-          "name": "Tadeas Balacek",
+          "playerId": "balacek-tadeas",
+          "name": "Balacek Tadeas",
           "countryCode": "CZE",
           "title": "CM",
           "fideId": "327646",
@@ -10304,8 +9401,8 @@
           }
         },
         {
-          "playerId": "mauricio-emmanuel-marrujo-pardo",
-          "name": "Mauricio Emmanuel Marrujo Pardo",
+          "playerId": "marrujo-pardo-mauricio-emmanuel",
+          "name": "Marrujo Pardo Mauricio Emmanuel",
           "countryCode": "CHI",
           "title": "FM",
           "fideId": "3943755",
@@ -10319,8 +9416,8 @@
           }
         },
         {
-          "playerId": "sayantan-das",
-          "name": "Sayantan Das",
+          "playerId": "das-sayantan",
+          "name": "Das Sayantan",
           "countryCode": "IND",
           "title": "GM",
           "fideId": "5034426",
@@ -10334,8 +9431,8 @@
           }
         },
         {
-          "playerId": "guido-caprio",
-          "name": "Guido Caprio",
+          "playerId": "caprio-guido",
+          "name": "Caprio Guido",
           "countryCode": "ITA",
           "title": "IM",
           "fideId": "834580",
@@ -10349,8 +9446,8 @@
           }
         },
         {
-          "playerId": "cristhian-camilo-rios-gomez",
-          "name": "Cristhian Camilo Rios Gomez",
+          "playerId": "rios-gomez-cristhian-camilo",
+          "name": "Rios Gomez Cristhian Camilo",
           "countryCode": "COL",
           "title": "GM",
           "fideId": "4403940",
@@ -10364,8 +9461,8 @@
           }
         },
         {
-          "playerId": "bala-chandra-prasad-dhulipalla",
-          "name": "Bala Chandra Prasad Dhulipalla",
+          "playerId": "dhulipalla-bala-chandra-prasad",
+          "name": "Dhulipalla Bala Chandra Prasad",
           "countryCode": "IND",
           "title": "IM",
           "fideId": "25005812",
@@ -10379,8 +9476,8 @@
           }
         },
         {
-          "playerId": "lars-goldbeck",
-          "name": "Lars Goldbeck",
+          "playerId": "goldbeck-lars",
+          "name": "Goldbeck Lars",
           "countryCode": "GER",
           "title": "IM",
           "fideId": "16208188",
@@ -10394,8 +9491,8 @@
           }
         },
         {
-          "playerId": "kevin-noboa-silva",
-          "name": "Kevin Noboa Silva",
+          "playerId": "noboa-silva-kevin",
+          "name": "Noboa Silva Kevin",
           "countryCode": "ECU",
           "title": "IM",
           "fideId": "3618471",
@@ -10409,8 +9506,8 @@
           }
         },
         {
-          "playerId": "mihail-marin",
-          "name": "Mihail Marin",
+          "playerId": "marin-mihail",
+          "name": "Marin Mihail",
           "countryCode": "ROU",
           "title": "GM",
           "fideId": "1200020",
@@ -10424,8 +9521,8 @@
           }
         },
         {
-          "playerId": "azer-mirzoev",
-          "name": "Azer Mirzoev",
+          "playerId": "mirzoev-azer",
+          "name": "Mirzoev Azer",
           "countryCode": "AZE",
           "title": "GM",
           "fideId": "13400304",
@@ -10439,8 +9536,8 @@
           }
         },
         {
-          "playerId": "nathan-felipe-filgueiras",
-          "name": "Nathan Felipe Filgueiras",
+          "playerId": "filgueiras-nathan-felipe",
+          "name": "Filgueiras Nathan Felipe",
           "countryCode": "BRA",
           "title": "IM",
           "fideId": "2188562",
@@ -10454,8 +9551,8 @@
           }
         },
         {
-          "playerId": "serghei-vedmediuc",
-          "name": "Serghei Vedmediuc",
+          "playerId": "vedmediuc-serghei",
+          "name": "Vedmediuc Serghei",
           "countryCode": "MDA",
           "title": "IM",
           "fideId": "13900790",
@@ -10469,8 +9566,8 @@
           }
         },
         {
-          "playerId": "german-gonzalo-quirhuayo-chumbe",
-          "name": "German Gonzalo Quirhuayo Chumbe",
+          "playerId": "quirhuayo-chumbe-german-gonzalo",
+          "name": "Quirhuayo Chumbe German Gonzalo",
           "countryCode": "PER",
           "title": "IM",
           "fideId": "3813509",
@@ -10484,8 +9581,8 @@
           }
         },
         {
-          "playerId": "danis-kuandykuly",
-          "name": "Danis Kuandykuly",
+          "playerId": "kuandykuly-danis",
+          "name": "Kuandykuly Danis",
           "countryCode": "KAZ",
           "title": "FM",
           "fideId": "13752260",
@@ -10499,8 +9596,8 @@
           }
         },
         {
-          "playerId": "francesco-bettalli",
-          "name": "Francesco Bettalli",
+          "playerId": "bettalli-francesco",
+          "name": "Bettalli Francesco",
           "countryCode": "ITA",
           "title": "IM",
           "fideId": "2816453",
@@ -10514,8 +9611,8 @@
           }
         },
         {
-          "playerId": "marcin-sieciechowicz",
-          "name": "Marcin Sieciechowicz",
+          "playerId": "sieciechowicz-marcin",
+          "name": "Sieciechowicz Marcin",
           "countryCode": "POL",
           "title": "IM",
           "fideId": "1130170",
@@ -10529,8 +9626,8 @@
           }
         },
         {
-          "playerId": "guntaka-aamuktha",
-          "name": "Guntaka Aamuktha",
+          "playerId": "aamuktha-guntaka",
+          "name": "Aamuktha Guntaka",
           "countryCode": "IND",
           "title": "WFM",
           "fideId": "33486697",
@@ -10544,8 +9641,8 @@
           }
         },
         {
-          "playerId": "piotr-nguyen",
-          "name": "Piotr Nguyen",
+          "playerId": "nguyen-piotr",
+          "name": "Nguyen Piotr",
           "countryCode": "POL",
           "title": "IM",
           "fideId": "1127993",
@@ -10559,8 +9656,8 @@
           }
         },
         {
-          "playerId": "amit-doshi-moksh",
-          "name": "Amit Doshi Moksh",
+          "playerId": "moksh-amit-doshi",
+          "name": "Moksh Amit Doshi",
           "countryCode": "IND",
           "title": "IM",
           "fideId": "25064967",
@@ -10574,8 +9671,8 @@
           }
         },
         {
-          "playerId": "alfred-nemitz",
-          "name": "Alfred Nemitz",
+          "playerId": "nemitz-alfred",
+          "name": "Nemitz Alfred",
           "countryCode": "GER",
           "title": "FM",
           "fideId": "34601791",
@@ -10589,8 +9686,8 @@
           }
         },
         {
-          "playerId": "aleksandra-maltsevskaya",
-          "name": "Aleksandra Maltsevskaya",
+          "playerId": "maltsevskaya-aleksandra",
+          "name": "Maltsevskaya Aleksandra",
           "countryCode": "POL",
           "title": "IM",
           "fideId": "24174041",
@@ -10604,8 +9701,8 @@
           }
         },
         {
-          "playerId": "lovro-novosel",
-          "name": "Lovro Novosel",
+          "playerId": "novosel-lovro",
+          "name": "Novosel Lovro",
           "countryCode": "CRO",
           "title": "IM",
           "fideId": "14547120",
@@ -10619,8 +9716,8 @@
           }
         },
         {
-          "playerId": "nicolas-perossa",
-          "name": "Nicolas Perossa",
+          "playerId": "perossa-nicolas",
+          "name": "Perossa Nicolas",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2850520",
@@ -10634,8 +9731,8 @@
           }
         },
         {
-          "playerId": "erekle-tabatadze",
-          "name": "Erekle Tabatadze",
+          "playerId": "tabatadze-erekle",
+          "name": "Tabatadze Erekle",
           "countryCode": "GEO",
           "title": "FM",
           "fideId": "13630024",
@@ -10649,8 +9746,8 @@
           }
         },
         {
-          "playerId": "tymur-keleberda",
-          "name": "Tymur Keleberda",
+          "playerId": "keleberda-tymur",
+          "name": "Keleberda Tymur",
           "countryCode": "CAN",
           "title": "IM",
           "fideId": "14174294",
@@ -10664,8 +9761,8 @@
           }
         },
         {
-          "playerId": "niccolo-casadio",
-          "name": "Niccolo` Casadio",
+          "playerId": "casadio-niccolo",
+          "name": "Casadio Niccolo`",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2827951",
@@ -10679,8 +9776,8 @@
           }
         },
         {
-          "playerId": "anna-m-sargsyan",
-          "name": "Anna M. Sargsyan",
+          "playerId": "sargsyan-anna-m",
+          "name": "Sargsyan Anna M.",
           "countryCode": "USA",
           "title": "IM",
           "fideId": "13308130",
@@ -10694,8 +9791,8 @@
           }
         },
         {
-          "playerId": "alexandro-beliman",
-          "name": "Alexandro Beliman",
+          "playerId": "beliman-alexandro",
+          "name": "Beliman Alexandro",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "28512413",
@@ -10709,8 +9806,8 @@
           }
         },
         {
-          "playerId": "artiom-vedmediuc",
-          "name": "Artiom Vedmediuc",
+          "playerId": "vedmediuc-artiom",
+          "name": "Vedmediuc Artiom",
           "countryCode": "ROU",
           "title": "FM",
           "fideId": "13908570",
@@ -10724,8 +9821,8 @@
           }
         },
         {
-          "playerId": "marc-llari",
-          "name": "Marc Llari",
+          "playerId": "llari-marc",
+          "name": "Llari Marc",
           "countryCode": "FRA",
           "title": "FM",
           "fideId": "651044269",
@@ -10739,8 +9836,8 @@
           }
         },
         {
-          "playerId": "jernej-kozlovic",
-          "name": "Jernej Kozlovic",
+          "playerId": "kozlovic-jernej",
+          "name": "Kozlovic Jernej",
           "countryCode": "SLO",
           "title": "FM",
           "fideId": "14638541",
@@ -10754,8 +9851,8 @@
           }
         },
         {
-          "playerId": "moritz-stoettner",
-          "name": "Moritz Stoettner",
+          "playerId": "stoettner-moritz",
+          "name": "Stoettner Moritz",
           "countryCode": "GER",
           "title": null,
           "fideId": "16277163",
@@ -10769,8 +9866,8 @@
           }
         },
         {
-          "playerId": "marco-ferrante",
-          "name": "Marco Ferrante",
+          "playerId": "ferrante-marco",
+          "name": "Ferrante Marco",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2873201",
@@ -10784,8 +9881,8 @@
           }
         },
         {
-          "playerId": "das-jr-arpan",
-          "name": "Das (Jr) Arpan",
+          "playerId": "arpan-das-jr",
+          "name": "Arpan Das (Jr)",
           "countryCode": "IND",
           "title": null,
           "fideId": "25077155",
@@ -10799,8 +9896,8 @@
           }
         },
         {
-          "playerId": "boris-golubovic",
-          "name": "Boris Golubovic",
+          "playerId": "golubovic-boris",
+          "name": "Golubovic Boris",
           "countryCode": "CRO",
           "title": "IM",
           "fideId": "14502160",
@@ -10814,8 +9911,8 @@
           }
         },
         {
-          "playerId": "nico-marakovits",
-          "name": "Nico Marakovits",
+          "playerId": "marakovits-nico",
+          "name": "Marakovits Nico",
           "countryCode": "AUT",
           "title": "FM",
           "fideId": "1653253",
@@ -10829,8 +9926,8 @@
           }
         },
         {
-          "playerId": "benedikt-huber",
-          "name": "Benedikt Huber",
+          "playerId": "huber-benedikt",
+          "name": "Huber Benedikt",
           "countryCode": "GER",
           "title": "FM",
           "fideId": "16281225",
@@ -10844,8 +9941,8 @@
           }
         },
         {
-          "playerId": "lukas-stoettner",
-          "name": "Lukas Stoettner",
+          "playerId": "stoettner-lukas",
+          "name": "Stoettner Lukas",
           "countryCode": "GER",
           "title": "FM",
           "fideId": "16289951",
@@ -10859,8 +9956,8 @@
           }
         },
         {
-          "playerId": "hayk-yeritsyan",
-          "name": "Hayk Yeritsyan",
+          "playerId": "yeritsyan-hayk",
+          "name": "Yeritsyan Hayk",
           "countryCode": "ARM",
           "title": "FM",
           "fideId": "13307320",
@@ -10874,8 +9971,8 @@
           }
         },
         {
-          "playerId": "andrew-jing",
-          "name": "Andrew Jing",
+          "playerId": "jing-andrew",
+          "name": "Jing Andrew",
           "countryCode": "USA",
           "title": "FM",
           "fideId": "30984076",
@@ -10889,8 +9986,8 @@
           }
         },
         {
-          "playerId": "seyed-kian-ghoreishi-amiri",
-          "name": "Seyed Kian Ghoreishi Amiri",
+          "playerId": "ghoreishi-amiri-seyed-kian",
+          "name": "Ghoreishi Amiri Seyed Kian",
           "countryCode": "FRA",
           "title": "FM",
           "fideId": "36757527",
@@ -10904,8 +10001,8 @@
           }
         },
         {
-          "playerId": "claudio-paduano",
-          "name": "Claudio Paduano",
+          "playerId": "paduano-claudio",
+          "name": "Paduano Claudio",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2806393",
@@ -10919,8 +10016,8 @@
           }
         },
         {
-          "playerId": "abdumajid-botiraliev",
-          "name": "Abdumajid Botiraliev",
+          "playerId": "botiraliev-abdumajid",
+          "name": "Botiraliev Abdumajid",
           "countryCode": "UZB",
           "title": "FM",
           "fideId": "14222698",
@@ -10934,8 +10031,8 @@
           }
         },
         {
-          "playerId": "mathias-andre-casalaspro",
-          "name": "Mathias Andre Casalaspro",
+          "playerId": "casalaspro-mathias-andre",
+          "name": "Casalaspro Mathias Andre",
           "countryCode": "BRA",
           "title": "FM",
           "fideId": "22772626",
@@ -10949,8 +10046,8 @@
           }
         },
         {
-          "playerId": "aron-csontos",
-          "name": "Aron Csontos",
+          "playerId": "csontos-aron",
+          "name": "Csontos Aron",
           "countryCode": "HUN",
           "title": "FM",
           "fideId": "17004420",
@@ -10964,8 +10061,8 @@
           }
         },
         {
-          "playerId": "juan-sebastian-herrera",
-          "name": "Juan Sebastian Herrera",
+          "playerId": "herrera-juan-sebastian",
+          "name": "Herrera Juan Sebastian",
           "countryCode": "COL",
           "title": "FM",
           "fideId": "4403266",
@@ -10979,8 +10076,8 @@
           }
         },
         {
-          "playerId": "g-aakash",
-          "name": "G Aakash",
+          "playerId": "aakash-g",
+          "name": "Aakash G",
           "countryCode": "IND",
           "title": "FM",
           "fideId": "25644394",
@@ -10994,8 +10091,8 @@
           }
         },
         {
-          "playerId": "sofiia-hryzlova",
-          "name": "Sofiia Hryzlova",
+          "playerId": "hryzlova-sofiia",
+          "name": "Hryzlova Sofiia",
           "countryCode": "SUI",
           "title": "WIM",
           "fideId": "14174669",
@@ -11009,8 +10106,8 @@
           }
         },
         {
-          "playerId": "andras-bonk",
-          "name": "Andras Bonk",
+          "playerId": "bonk-andras",
+          "name": "Bonk Andras",
           "countryCode": "GER",
           "title": "FM",
           "fideId": "24692123",
@@ -11024,8 +10121,8 @@
           }
         },
         {
-          "playerId": "neven-hercegovac",
-          "name": "Neven Hercegovac",
+          "playerId": "hercegovac-neven",
+          "name": "Hercegovac Neven",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2839135",
@@ -11039,8 +10136,8 @@
           }
         },
         {
-          "playerId": "kenneth-terence-solomon",
-          "name": "Kenneth Terence Solomon",
+          "playerId": "solomon-kenneth-terence",
+          "name": "Solomon Kenneth Terence",
           "countryCode": "RSA",
           "title": "GM",
           "fideId": "14300192",
@@ -11054,8 +10151,8 @@
           }
         },
         {
-          "playerId": "edoardo-fulgentini",
-          "name": "Edoardo Fulgentini",
+          "playerId": "fulgentini-edoardo",
+          "name": "Fulgentini Edoardo",
           "countryCode": "ITA",
           "title": null,
           "fideId": "28557050",
@@ -11069,8 +10166,8 @@
           }
         },
         {
-          "playerId": "mattia-pegno",
-          "name": "Mattia Pegno",
+          "playerId": "pegno-mattia",
+          "name": "Pegno Mattia",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2859870",
@@ -11084,8 +10181,8 @@
           }
         },
         {
-          "playerId": "gabriel-urbani",
-          "name": "Gabriel Urbani",
+          "playerId": "urbani-gabriel",
+          "name": "Urbani Gabriel",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2830138",
@@ -11099,8 +10196,8 @@
           }
         },
         {
-          "playerId": "miruna-daria-lehaci",
-          "name": "Miruna-Daria Lehaci",
+          "playerId": "lehaci-miruna-daria",
+          "name": "Lehaci Miruna-Daria",
           "countryCode": "ROU",
           "title": "WIM",
           "fideId": "1234765",
@@ -11114,8 +10211,8 @@
           }
         },
         {
-          "playerId": "lucas-fonseca-piccoli",
-          "name": "Lucas Fonseca Piccoli",
+          "playerId": "piccoli-lucas-fonseca",
+          "name": "Piccoli Lucas Fonseca",
           "countryCode": "BRA",
           "title": "FM",
           "fideId": "2190788",
@@ -11129,8 +10226,8 @@
           }
         },
         {
-          "playerId": "filipa-fortuna-pipiras",
-          "name": "Filipa Fortuna Pipiras",
+          "playerId": "pipiras-filipa-fortuna",
+          "name": "Pipiras Filipa Fortuna",
           "countryCode": "POR",
           "title": "FM",
           "fideId": "1944894",
@@ -11144,8 +10241,8 @@
           }
         },
         {
-          "playerId": "ivano-sundac",
-          "name": "Ivano Sundac",
+          "playerId": "sundac-ivano",
+          "name": "Sundac Ivano",
           "countryCode": "CRO",
           "title": "FM",
           "fideId": "14580233",
@@ -11159,8 +10256,8 @@
           }
         },
         {
-          "playerId": "stefano-maldonado-gonzales",
-          "name": "Stefano Maldonado Gonzales",
+          "playerId": "maldonado-gonzales-stefano",
+          "name": "Maldonado Gonzales Stefano",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "28540778",
@@ -11174,8 +10271,8 @@
           }
         },
         {
-          "playerId": "erik-golubovic",
-          "name": "Erik Golubovic",
+          "playerId": "golubovic-erik",
+          "name": "Golubovic Erik",
           "countryCode": "CRO",
           "title": "FM",
           "fideId": "14586908",
@@ -11189,8 +10286,8 @@
           }
         },
         {
-          "playerId": "liwia-jarocka",
-          "name": "Liwia Jarocka",
+          "playerId": "jarocka-liwia",
+          "name": "Jarocka Liwia",
           "countryCode": "POL",
           "title": "FM",
           "fideId": "21807558",
@@ -11204,8 +10301,8 @@
           }
         },
         {
-          "playerId": "massimiliano-botta",
-          "name": "Massimiliano Botta",
+          "playerId": "botta-massimiliano",
+          "name": "Botta Massimiliano",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2804340",
@@ -11219,8 +10316,8 @@
           }
         },
         {
-          "playerId": "shamsi-garakhanov",
-          "name": "Shamsi Garakhanov",
+          "playerId": "garakhanov-shamsi",
+          "name": "Garakhanov Shamsi",
           "countryCode": "AZE",
           "title": "FM",
           "fideId": "13449214",
@@ -11234,8 +10331,8 @@
           }
         },
         {
-          "playerId": "sheralijon-ravshanov",
-          "name": "Sheralijon Ravshanov",
+          "playerId": "ravshanov-sheralijon",
+          "name": "Ravshanov Sheralijon",
           "countryCode": "UZB",
           "title": "CM",
           "fideId": "14212170",
@@ -11249,8 +10346,8 @@
           }
         },
         {
-          "playerId": "sargis-v-manukyan",
-          "name": "Sargis V. Manukyan",
+          "playerId": "manukyan-sargis-v",
+          "name": "Manukyan Sargis V.",
           "countryCode": "ARM",
           "title": "FM",
           "fideId": "13303465",
@@ -11264,8 +10361,8 @@
           }
         },
         {
-          "playerId": "nikolay-tregubenko",
-          "name": "Nikolay Tregubenko",
+          "playerId": "tregubenko-nikolay",
+          "name": "Tregubenko Nikolay",
           "countryCode": "FID",
           "title": "FM",
           "fideId": "34358978",
@@ -11279,8 +10376,8 @@
           }
         },
         {
-          "playerId": "rhys-arnold",
-          "name": "Rhys Arnold",
+          "playerId": "arnold-rhys",
+          "name": "Arnold Rhys",
           "countryCode": "NED",
           "title": "FM",
           "fideId": "1068849",
@@ -11294,8 +10391,8 @@
           }
         },
         {
-          "playerId": "agrawal-nimay",
-          "name": "Agrawal Nimay",
+          "playerId": "nimay-agrawal",
+          "name": "Nimay Agrawal",
           "countryCode": "IND",
           "title": "CM",
           "fideId": "25900803",
@@ -11309,8 +10406,8 @@
           }
         },
         {
-          "playerId": "daniil-yasmo",
-          "name": "Daniil Yasmo",
+          "playerId": "yasmo-daniil",
+          "name": "Yasmo Daniil",
           "countryCode": "GER",
           "title": "FM",
           "fideId": "14199165",
@@ -11324,8 +10421,8 @@
           }
         },
         {
-          "playerId": "davide-pulvirenti",
-          "name": "Davide Pulvirenti",
+          "playerId": "pulvirenti-davide",
+          "name": "Pulvirenti Davide",
           "countryCode": "ITA",
           "title": null,
           "fideId": "28573986",
@@ -11339,8 +10436,8 @@
           }
         },
         {
-          "playerId": "danilo-brozzi",
-          "name": "Danilo Brozzi",
+          "playerId": "brozzi-danilo",
+          "name": "Brozzi Danilo",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "2855637",
@@ -11354,8 +10451,8 @@
           }
         },
         {
-          "playerId": "dehankar-mrudul",
-          "name": "Dehankar Mrudul",
+          "playerId": "mrudul-dehankar",
+          "name": "Mrudul Dehankar",
           "countryCode": "IND",
           "title": "WIM",
           "fideId": "25096990",
@@ -11369,8 +10466,8 @@
           }
         },
         {
-          "playerId": "gabriel-petcu",
-          "name": "Gabriel Petcu",
+          "playerId": "petcu-gabriel",
+          "name": "Petcu Gabriel",
           "countryCode": "ITA",
           "title": "FM",
           "fideId": "28548485",
@@ -11384,8 +10481,8 @@
           }
         },
         {
-          "playerId": "biswas-anustoop",
-          "name": "Biswas Anustoop",
+          "playerId": "anustoop-biswas",
+          "name": "Anustoop Biswas",
           "countryCode": "IND",
           "title": null,
           "fideId": "5093821",
@@ -11399,8 +10496,8 @@
           }
         },
         {
-          "playerId": "anna-kubicka",
-          "name": "Anna Kubicka",
+          "playerId": "kubicka-anna",
+          "name": "Kubicka Anna",
           "countryCode": "POL",
           "title": "WIM",
           "fideId": "1152254",
@@ -11414,8 +10511,8 @@
           }
         },
         {
-          "playerId": "nikolaus-wallinger",
-          "name": "Nikolaus Wallinger",
+          "playerId": "wallinger-nikolaus",
+          "name": "Wallinger Nikolaus",
           "countryCode": "AUT",
           "title": null,
           "fideId": "1670387",
@@ -11429,8 +10526,8 @@
           }
         },
         {
-          "playerId": "alejandro-mateus",
-          "name": "Alejandro Mateus",
+          "playerId": "mateus-alejandro",
+          "name": "Mateus Alejandro",
           "countryCode": "COL",
           "title": "FM",
           "fideId": "4402529",
@@ -11444,8 +10541,8 @@
           }
         },
         {
-          "playerId": "daniele-gonella",
-          "name": "Daniele Gonella",
+          "playerId": "gonella-daniele",
+          "name": "Gonella Daniele",
           "countryCode": "ITA",
           "title": null,
           "fideId": "841080",
@@ -11459,8 +10556,8 @@
           }
         },
         {
-          "playerId": "matteo-montorsi",
-          "name": "Matteo Montorsi",
+          "playerId": "montorsi-matteo",
+          "name": "Montorsi Matteo",
           "countryCode": "ITA",
           "title": null,
           "fideId": "2826491",
@@ -11474,8 +10571,8 @@
           }
         },
         {
-          "playerId": "srishti-pandey",
-          "name": "Srishti Pandey",
+          "playerId": "pandey-srishti",
+          "name": "Pandey Srishti",
           "countryCode": "IND",
           "title": "WIM",
           "fideId": "35093290",
@@ -11489,8 +10586,8 @@
           }
         },
         {
-          "playerId": "magnus-mueller",
-          "name": "Magnus Mueller",
+          "playerId": "mueller-magnus",
+          "name": "Mueller Magnus",
           "countryCode": "GER",
           "title": "CM",
           "fideId": "16230060",
@@ -11504,8 +10601,8 @@
           }
         },
         {
-          "playerId": "kai-hanache",
-          "name": "Kai Hanache",
+          "playerId": "hanache-kai",
+          "name": "Hanache Kai",
           "countryCode": "ENG",
           "title": "FM",
           "fideId": "490105",
@@ -11519,8 +10616,8 @@
           }
         },
         {
-          "playerId": "lut-yin-luke-lau",
-          "name": "Lut Yin Luke Lau",
+          "playerId": "lau-lut-yin-luke",
+          "name": "Lau Lut Yin Luke",
           "countryCode": "HKG",
           "title": "CM",
           "fideId": "6002226",
@@ -11534,8 +10631,8 @@
           }
         },
         {
-          "playerId": "alex-dobboletta",
-          "name": "Alex Dobboletta",
+          "playerId": "dobboletta-alex",
+          "name": "Dobboletta Alex",
           "countryCode": "ITA",
           "title": null,
           "fideId": "865397",
@@ -11549,8 +10646,8 @@
           }
         },
         {
-          "playerId": "silvia-alexieva",
-          "name": "Silvia Alexieva",
+          "playerId": "alexieva-silvia",
+          "name": "Alexieva Silvia",
           "countryCode": "FRA",
           "title": "IM",
           "fideId": "2902265",
@@ -11564,8 +10661,8 @@
           }
         },
         {
-          "playerId": "phuong-hanh-luong",
-          "name": "Phuong Hanh Luong",
+          "playerId": "luong-phuong-hanh",
+          "name": "Luong Phuong Hanh",
           "countryCode": "VIE",
           "title": "WGM",
           "fideId": "12401013",
@@ -11579,8 +10676,8 @@
           }
         },
         {
-          "playerId": "danylo-budyi",
-          "name": "Danylo Budyi",
+          "playerId": "budyi-danylo",
+          "name": "Budyi Danylo",
           "countryCode": "ITA",
           "title": null,
           "fideId": "14182041",
@@ -11594,8 +10691,8 @@
           }
         },
         {
-          "playerId": "dex-webster",
-          "name": "Dex Webster",
+          "playerId": "webster-dex",
+          "name": "Webster Dex",
           "countryCode": "USA",
           "title": null,
           "fideId": "2074052",
@@ -11609,8 +10706,8 @@
           }
         },
         {
-          "playerId": "valentina-argote-heredia",
-          "name": "Valentina Argote Heredia",
+          "playerId": "argote-heredia-valentina",
+          "name": "Argote Heredia Valentina",
           "countryCode": "COL",
           "title": "WIM",
           "fideId": "4431022",
@@ -11624,8 +10721,8 @@
           }
         },
         {
-          "playerId": "tamas-tancsa",
-          "name": "Tamas Tancsa",
+          "playerId": "tancsa-tamas",
+          "name": "Tancsa Tamas",
           "countryCode": "HUN",
           "title": "FM",
           "fideId": "783749",
@@ -11639,8 +10736,8 @@
           }
         },
         {
-          "playerId": "alexander-doraszelski",
-          "name": "Alexander Doraszelski",
+          "playerId": "doraszelski-alexander",
+          "name": "Doraszelski Alexander",
           "countryCode": "GER",
           "title": null,
           "fideId": "12996149",
@@ -11654,8 +10751,8 @@
           }
         },
         {
-          "playerId": "thomas-bauer",
-          "name": "Thomas Bauer",
+          "playerId": "bauer-thomas",
+          "name": "Bauer Thomas",
           "countryCode": "AUT",
           "title": "CM",
           "fideId": "1639293",
@@ -11669,8 +10766,8 @@
           }
         },
         {
-          "playerId": "andraz-gregoric",
-          "name": "Andraz Gregoric",
+          "playerId": "gregoric-andraz",
+          "name": "Gregoric Andraz",
           "countryCode": "SLO",
           "title": null,
           "fideId": "14629461",
@@ -11684,8 +10781,8 @@
           }
         },
         {
-          "playerId": "rajkhowa-mrinmoy",
-          "name": "Rajkhowa Mrinmoy",
+          "playerId": "mrinmoy-rajkhowa",
+          "name": "Mrinmoy Rajkhowa",
           "countryCode": "IND",
           "title": "CM",
           "fideId": "25603426",
@@ -11699,8 +10796,8 @@
           }
         },
         {
-          "playerId": "fabio-colonetti",
-          "name": "Fabio Colonetti",
+          "playerId": "colonetti-fabio",
+          "name": "Colonetti Fabio",
           "countryCode": "ITA",
           "title": null,
           "fideId": "897612",
@@ -11714,8 +10811,8 @@
           }
         },
         {
-          "playerId": "mohamed-khalil-abdallah",
-          "name": "Mohamed Khalil Abdallah",
+          "playerId": "abdallah-mohamed-khalil",
+          "name": "Abdallah Mohamed Khalil",
           "countryCode": "TUN",
           "title": "CM",
           "fideId": "5529506",
@@ -11729,8 +10826,8 @@
           }
         },
         {
-          "playerId": "giovanni-sorbera",
-          "name": "Giovanni Sorbera",
+          "playerId": "sorbera-giovanni",
+          "name": "Sorbera Giovanni",
           "countryCode": "ITA",
           "title": null,
           "fideId": "841455",
@@ -11744,8 +10841,8 @@
           }
         },
         {
-          "playerId": "alexander-heimann",
-          "name": "Alexander Heimann",
+          "playerId": "heimann-alexander",
+          "name": "Heimann Alexander",
           "countryCode": "USA",
           "title": null,
           "fideId": "2006073",
@@ -11759,8 +10856,8 @@
           }
         },
         {
-          "playerId": "ahmed-bouzidi",
-          "name": "Ahmed Bouzidi",
+          "playerId": "bouzidi-ahmed",
+          "name": "Bouzidi Ahmed",
           "countryCode": "TUN",
           "title": "CM",
           "fideId": "5501733",
@@ -11774,8 +10871,8 @@
           }
         },
         {
-          "playerId": "krishna-bommi-yasaswi",
-          "name": "Krishna Bommi Yasaswi",
+          "playerId": "yasaswi-krishna-bommi",
+          "name": "Yasaswi Krishna Bommi",
           "countryCode": "IND",
           "title": "WFM",
           "fideId": "33368783",
@@ -11789,8 +10886,8 @@
           }
         },
         {
-          "playerId": "aleks-centrih",
-          "name": "Aleks Centrih",
+          "playerId": "centrih-aleks",
+          "name": "Centrih Aleks",
           "countryCode": "SLO",
           "title": "CM",
           "fideId": "14638231",
@@ -11804,8 +10901,8 @@
           }
         },
         {
-          "playerId": "parmar-paarshva",
-          "name": "Parmar Paarshva",
+          "playerId": "paarshva-parmar",
+          "name": "Paarshva Parmar",
           "countryCode": "IND",
           "title": null,
           "fideId": "33440344",
@@ -19483,6 +18580,7 @@
         "dimitrios-exizoglou",
         "luka-kuntelia",
         "theodoros-vasiliadis",
+        "theodoros-romanos",
         "nikolaos-panagiotis-galanis",
         "evangelos-mixakis",
         "alexandros-hatzis-bakratsas",
@@ -19588,8 +18686,7 @@
         "pashalis-boudoulis",
         "iordanis-navrozidis",
         "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas",
-        "panagiotis-sotiriadis"
+        "athanasios-koutsionas"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -19659,6 +18756,7 @@
         "dimitrios-exizoglou",
         "luka-kuntelia",
         "theodoros-vasiliadis",
+        "theodoros-romanos",
         "nikolaos-panagiotis-galanis",
         "evangelos-mixakis",
         "alexandros-hatzis-bakratsas",
@@ -19764,8 +18862,7 @@
         "pashalis-boudoulis",
         "iordanis-navrozidis",
         "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas",
-        "panagiotis-sotiriadis"
+        "athanasios-koutsionas"
       ],
       "confirmedPlayers": [
         {
@@ -20404,6 +19501,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "4265491",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "theodoros-romanos",
+          "name": "Theodoros Romanos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "4210239",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -22002,21 +21114,6 @@
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
-        },
-        {
-          "playerId": "panagiotis-sotiriadis",
-          "name": "Panagiotis Sotiriadis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42164869",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
         }
       ]
     },
@@ -22163,27 +21260,29 @@
         "otb"
       ],
       "playerIds": [
-        "esp",
         "ltu",
         "fra",
+        "esp",
         "eng",
-        "swe",
+        "ger",
         "pol",
         "cub",
-        "ger",
+        "tur",
         "ind",
         "ukr",
-        "tur",
+        "swe",
         "arg",
-        "col",
-        "gre",
-        "slo",
         "chn",
-        "mas",
-        "sui",
+        "gre",
+        "col",
+        "slo",
+        "ned",
         "bel",
+        "sui",
+        "mas",
         "rou",
-        "lux"
+        "lux",
+        "ita"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/549",
@@ -22210,44 +21309,31 @@
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
-        "esp",
         "ltu",
         "fra",
+        "esp",
         "eng",
-        "swe",
+        "ger",
         "pol",
         "cub",
-        "ger",
+        "tur",
         "ind",
         "ukr",
-        "tur",
+        "swe",
         "arg",
-        "col",
-        "gre",
-        "slo",
         "chn",
-        "mas",
-        "sui",
+        "gre",
+        "col",
+        "slo",
+        "ned",
         "bel",
+        "sui",
+        "mas",
         "rou",
-        "lux"
+        "lux",
+        "ita"
       ],
       "confirmedPlayers": [
-        {
-          "playerId": "esp",
-          "name": "ESP",
-          "countryCode": null,
-          "title": "3901211",
-          "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
-            "confidence": "high"
-          }
-        },
         {
           "playerId": "ltu",
           "name": "LTU",
@@ -22267,7 +21353,22 @@
           "playerId": "fra",
           "name": "FRA",
           "countryCode": null,
-          "title": "633429",
+          "title": "2000024",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "esp",
+          "name": "ESP",
+          "countryCode": null,
+          "title": "3901211",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22294,10 +21395,10 @@
           }
         },
         {
-          "playerId": "swe",
-          "name": "SWE",
+          "playerId": "ger",
+          "name": "GER",
           "countryCode": null,
-          "title": "14116502",
+          "title": "34608966",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22312,7 +21413,7 @@
           "playerId": "pol",
           "name": "POL",
           "countryCode": null,
-          "title": "1179250",
+          "title": "21078882",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22339,10 +21440,10 @@
           }
         },
         {
-          "playerId": "ger",
-          "name": "GER",
+          "playerId": "tur",
+          "name": "TUR",
           "countryCode": null,
-          "title": "34608966",
+          "title": "51607948",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22384,10 +21485,10 @@
           }
         },
         {
-          "playerId": "tur",
-          "name": "TUR",
+          "playerId": "swe",
+          "name": "SWE",
           "countryCode": null,
-          "title": "51607948",
+          "title": "14116502",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22414,10 +21515,10 @@
           }
         },
         {
-          "playerId": "col",
-          "name": "COL",
+          "playerId": "chn",
+          "name": "CHN",
           "countryCode": null,
-          "title": "4455665",
+          "title": "8620229",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22444,6 +21545,21 @@
           }
         },
         {
+          "playerId": "col",
+          "name": "COL",
+          "countryCode": null,
+          "title": "4455665",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "slo",
           "name": "SLO",
           "countryCode": null,
@@ -22459,10 +21575,10 @@
           }
         },
         {
-          "playerId": "chn",
-          "name": "CHN",
+          "playerId": "ned",
+          "name": "NED",
           "countryCode": null,
-          "title": "8619492",
+          "title": "1031660",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22474,10 +21590,10 @@
           }
         },
         {
-          "playerId": "mas",
-          "name": "MAS",
+          "playerId": "bel",
+          "name": "BEL",
           "countryCode": null,
-          "title": "5704715",
+          "title": "258474",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22504,10 +21620,10 @@
           }
         },
         {
-          "playerId": "bel",
-          "name": "BEL",
+          "playerId": "mas",
+          "name": "MAS",
           "countryCode": null,
-          "title": "258474",
+          "title": "5704715",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22538,6 +21654,21 @@
           "name": "LUX",
           "countryCode": null,
           "title": "4007190",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ita",
+          "name": "ITA",
+          "countryCode": null,
+          "title": "814466",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
