@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T01:25:58Z",
-  "eventCount": 77,
+  "generatedAt": "2026-08-04T08:19:49Z",
+  "eventCount": 76,
   "sources": [
     {
       "name": "curated",
@@ -30,8 +30,9 @@
     },
     {
       "name": "chessdom",
-      "status": "ok",
-      "count": 9
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "chessmix",
@@ -407,7 +408,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Znojemska Rotunda Open 2026.",
-      "description": "31 listed players. 7 rounds",
+      "description": "43 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -509,7 +510,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 50th Badalona International Open.",
-      "description": "70 listed players. 9 rounds",
+      "description": "72 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -599,7 +600,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Bratislava Chess Summer.",
-      "description": "16 listed players. 9 rounds",
+      "description": "57 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -640,7 +641,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish U18 Championship 2026.",
-      "description": "150 listed players. 9 rounds. 3 scheduled stream links",
+      "description": "101 listed players. 9 rounds. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -861,8 +862,8 @@
       "id": "chesscom-29776",
       "title": "FIDE World University Teams Championship 2026",
       "shortTitle": "FIDE World University Teams Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-04T08:30:00Z",
+      "status": "live",
+      "startDate": "2026-08-04T06:30:00Z",
       "endDate": "2026-08-09T15:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
@@ -1211,7 +1212,6 @@
         "milat-marcel",
         "arhan-jain",
         "kurtovi-darko",
-        "bravetti-antonio",
         "cornelisse-john",
         "mai-alexander-oliver",
         "pehar-borna",
@@ -1265,7 +1265,6 @@
         "jina-taran",
         "vashchenko-illia",
         "wolfmaier-johannes-joshua",
-        "sri-darshini-t",
         "petrik-matus",
         "davis-holden",
         "lacmanovi-stipe",
@@ -1324,7 +1323,9 @@
         "grubec-tomislav",
         "malari-nikola",
         "hyassat-violetta",
-        "stuckle-ostojic-mihael"
+        "stuckle-ostojic-mihael",
+        "njardarson-arnar-ingi",
+        "ciganovi-marko"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/631",
@@ -1387,7 +1388,6 @@
         "milat-marcel",
         "arhan-jain",
         "kurtovi-darko",
-        "bravetti-antonio",
         "cornelisse-john",
         "mai-alexander-oliver",
         "pehar-borna",
@@ -1441,7 +1441,6 @@
         "jina-taran",
         "vashchenko-illia",
         "wolfmaier-johannes-joshua",
-        "sri-darshini-t",
         "petrik-matus",
         "davis-holden",
         "lacmanovi-stipe",
@@ -1500,7 +1499,9 @@
         "grubec-tomislav",
         "malari-nikola",
         "hyassat-violetta",
-        "stuckle-ostojic-mihael"
+        "stuckle-ostojic-mihael",
+        "njardarson-arnar-ingi",
+        "ciganovi-marko"
       ],
       "confirmedPlayers": [
         {
@@ -2034,21 +2035,6 @@
           "countryCode": "CRO",
           "title": "MK",
           "fideId": "14580225",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "bravetti-antonio",
-          "name": "Bravetti Antonio",
-          "countryCode": "ITA",
-          "title": null,
-          "fideId": "823996",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2844,21 +2830,6 @@
           "countryCode": "GER",
           "title": null,
           "fideId": "34643303",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sri-darshini-t",
-          "name": "Sri Darshini T",
-          "countryCode": "IND",
-          "title": "WCM",
-          "fideId": "33474095",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3752,6 +3723,36 @@
             "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
+        },
+        {
+          "playerId": "njardarson-arnar-ingi",
+          "name": "Njardarson Arnar Ingi",
+          "countryCode": "ISL",
+          "title": null,
+          "fideId": "2310015",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ciganovi-marko",
+          "name": "Ciganović Marko",
+          "countryCode": "CRO",
+          "title": "III",
+          "fideId": "14575051",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
         }
       ]
     },
@@ -3842,7 +3843,6 @@
         "tomas-babula",
         "radek-sudrich",
         "jan-kostka",
-        "jaroslav-travnicek",
         "valeria-dotan",
         "arnost-maiwald",
         "sara-peskova",
@@ -3976,7 +3976,6 @@
         "tomas-babula",
         "radek-sudrich",
         "jan-kostka",
-        "jaroslav-travnicek",
         "valeria-dotan",
         "arnost-maiwald",
         "sara-peskova",
@@ -5043,21 +5042,6 @@
           "countryCode": "CZE",
           "title": null,
           "fideId": "23740620",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "jaroslav-travnicek",
-          "name": "Jaroslav Travnicek",
-          "countryCode": "CZE",
-          "title": null,
-          "fideId": "368547",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -21849,47 +21833,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessdom-european-chess-club-cup-open-women-2026-2026",
-      "title": "European Chess Club Cup Open & Women 2026",
-      "shortTitle": "European Chess Club Cup Open & Women 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-16T00:00:00Z",
-      "endDate": "2026-10-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budva - Montenegro",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: European Chess Club Cup Open & Women 2026.",
-      "description": "Continental Classical Women",
-      "categories": [
-        "classical",
-        "women",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://www.europechess.org/ecu-calendar-2026/",
-      "links": [
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
-        }
-      ],
-      "source": {
-        "name": "chessdom",
-        "url": "https://calendar.chessdom.com/2026-calendar/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessbase-european-club-cup-16-to-24-october-2026",
       "title": "European Club Cup",
       "shortTitle": "European Club Cup",
@@ -25165,8 +25108,7 @@
       "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
         "junior",
-        "otb",
-        "classical"
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [],
@@ -25176,16 +25118,6 @@
           "label": "Event listing",
           "type": "official",
           "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        },
-        {
-          "label": "Event website",
-          "type": "official",
-          "url": "https://www.europechess.org/ecu-calendar-2026/"
-        },
-        {
-          "label": "Chessdom calendar",
-          "type": "source",
-          "url": "https://calendar.chessdom.com/2026-calendar/"
         }
       ],
       "source": {
