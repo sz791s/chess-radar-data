@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T19:18:12Z",
-  "eventCount": 84,
+  "generatedAt": "2026-08-05T01:40:10Z",
+  "eventCount": 82,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 31
     },
     {
       "name": "uschess",
@@ -315,47 +315,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29751",
-      "title": "Scheldemond Schaaktoernooi",
-      "shortTitle": "Scheldemond Schaaktoernooi",
-      "status": "live",
-      "startDate": "2026-08-01T07:30:00Z",
-      "endDate": "2026-08-08T08:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Scheldemond Schaaktoernooi.",
-      "description": "270 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/scheldemond-schaaktoernooi",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/scheldemond-schaaktoernooi"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29740",
       "title": "Adolf Anderssen Chess Festival 2026",
       "shortTitle": "Adolf Anderssen Chess Festival 2026",
@@ -407,7 +366,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Znojemska Rotunda Open 2026.",
-      "description": "41 listed players. 7 rounds",
+      "description": "43 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -481,49 +440,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-28806",
-      "title": "FIDE World Amateur Rapid Chess Championships 2026",
-      "shortTitle": "FIDE World Amateur Rapid Chess Championships 2026",
-      "status": "live",
-      "startDate": "2026-08-02T11:00:00Z",
-      "endDate": "2026-08-04T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: FIDE World Amateur Rapid Chess Championships 2026.",
-      "description": "Listed on the Chess.com current events page.",
-      "categories": [
-        "rapid",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom",
-        "fide"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/fide-world-amateur-rapid-chess-championships-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/fide-world-amateur-rapid-chess-championships-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29335",
       "title": "50th Badalona International Open",
       "shortTitle": "50th Badalona International Open",
@@ -534,7 +450,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 50th Badalona International Open.",
-      "description": "74 listed players. 9 rounds",
+      "description": "73 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -561,54 +477,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-sm3c0x6u",
-      "title": "GCT: Saint Louis Rapid & Blitz 2026 | Rapid",
-      "shortTitle": "GCT: Saint Louis Rapid & Blitz 2026 | Rapid",
-      "status": "live",
-      "startDate": "2026-08-02T17:10:00Z",
-      "endDate": "2026-08-04T20:10:00Z",
-      "timezone": "America/Chicago",
-      "locationName": "St. Louis, Missouri, United States",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/gct-saint-louis-rapid-blitz-2026-rapid/sM3C0X6U",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/gct-saint-louis-rapid-blitz-2026-rapid/sM3C0X6U"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-saint-louis-rapid-blitz/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-saint-louis-rapid-blitz/results/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -721,7 +589,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 National State Invitationals.",
-      "description": "39 listed players. 6 rounds",
+      "description": "54 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -868,7 +736,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Israeli U18 Team Championship 2026.",
-      "description": "51 listed players. 7 rounds",
+      "description": "192 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -903,7 +771,7 @@
       "id": "chessaround-xxxv-int-chess-festival-la-pobla-de-lillet-5-13-aug-2026",
       "title": "XXXV Int. Chess Festival La Pobla de Lillet",
       "shortTitle": "XXXV Int. Chess Festival La Pobla de Lillet",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-05T00:00:00Z",
       "endDate": "2026-08-13T23:59:59Z",
       "timezone": "UTC",
@@ -3594,6 +3462,54 @@
           }
         }
       ]
+    },
+    {
+      "id": "lichess-dbxz7lan",
+      "title": "European Junior Chess Championship 2026 | Girls",
+      "shortTitle": "European Junior Chess Championship 2026 | Girls",
+      "status": "upcoming",
+      "startDate": "2026-08-06T13:15:00Z",
+      "endDate": "2026-08-15T12:15:00Z",
+      "timezone": "Europe/Podgorica",
+      "locationName": "Cetinje, Montenegro",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://sahcg.me/ejcc26/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "chessaround-open-stare-mesto-7-15-aug-2026",
