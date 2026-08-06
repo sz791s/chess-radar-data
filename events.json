@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T01:28:50Z",
-  "eventCount": 85,
+  "generatedAt": "2026-08-06T08:14:25Z",
+  "eventCount": 86,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 36
+      "count": 37
     },
     {
       "name": "uschess",
@@ -3421,7 +3421,7 @@
       "id": "chesscom-29870",
       "title": "16th Nordhausen Open 2026",
       "shortTitle": "16th Nordhausen Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-06T06:00:00Z",
       "endDate": "2026-08-09T13:30:00Z",
       "timezone": "UTC",
@@ -3463,14 +3463,14 @@
       "id": "chesscom-29824",
       "title": "Kuqa Belt And Road International Open 2026",
       "shortTitle": "Kuqa Belt And Road International Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-06T06:00:00Z",
       "endDate": "2026-08-11T14:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Kuqa Belt And Road International Open 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "80 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -3505,7 +3505,7 @@
       "id": "chesscom-29809",
       "title": "European Junior Chess Championship 2026",
       "shortTitle": "European Junior Chess Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-06T07:00:00Z",
       "endDate": "2026-08-15T18:00:00Z",
       "timezone": "UTC",
@@ -3547,7 +3547,7 @@
       "id": "chesscom-29631",
       "title": "5-Kurt-Pape-Open 2026",
       "shortTitle": "5-Kurt-Pape-Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-06T08:00:00Z",
       "endDate": "2026-08-09T09:00:00Z",
       "timezone": "UTC",
@@ -3570,6 +3570,49 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/5-kurt-pape-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28814",
+      "title": "FIDE World Amateur Blitz Chess Championships 2026",
+      "shortTitle": "FIDE World Amateur Blitz Chess Championships 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-06T11:00:00Z",
+      "endDate": "2026-08-07T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: FIDE World Amateur Blitz Chess Championships 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "blitz",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/fide-world-amateur-blitz-chess-championships-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/fide-world-amateur-blitz-chess-championships-2026"
         },
         {
           "label": "Chess.com current events",
@@ -8297,7 +8340,6 @@
         "ghazarian-kirk",
         "petkov-momchil",
         "cardoso-cardoso-jose-gabriel",
-        "kadric-denis",
         "materia-marco",
         "quintiliano-renato-r",
         "lin-bryan-enming",
@@ -8353,13 +8395,13 @@
         "novosel-lovro",
         "perossa-nicolas",
         "tabatadze-erekle",
+        "nissinen-niilo-man",
         "keleberda-tymur",
         "casadio-niccolo",
         "sargsyan-anna-m",
         "beliman-alexandro",
         "vedmediuc-artiom",
         "llari-marc",
-        "kozlovic-jernej",
         "stoettner-moritz",
         "ferrante-marco",
         "arpan-das-jr",
@@ -8367,7 +8409,6 @@
         "marakovits-nico",
         "huber-benedikt",
         "stoettner-lukas",
-        "yeritsyan-hayk",
         "jing-andrew",
         "ghoreishi-amiri-seyed-kian",
         "paduano-claudio",
@@ -8382,6 +8423,7 @@
         "fulgentini-edoardo",
         "pegno-mattia",
         "urbani-gabriel",
+        "rajaram-rohan",
         "lehaci-miruna-daria",
         "wartiovaara-oliver",
         "piccoli-lucas-fonseca",
@@ -8410,7 +8452,6 @@
         "montorsi-matteo",
         "pandey-srishti",
         "mueller-magnus",
-        "hanache-kai",
         "lau-lut-yin-luke",
         "dobboletta-alex",
         "alexieva-silvia",
@@ -8432,7 +8473,9 @@
         "herega-nejc",
         "duson-robin",
         "barranco-cara-francisco-javier",
-        "pellizzieri-fabio-angelo"
+        "pellizzieri-fabio-angelo",
+        "aleksic-nenad",
+        "martin-nils"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
@@ -8473,7 +8516,6 @@
         "ghazarian-kirk",
         "petkov-momchil",
         "cardoso-cardoso-jose-gabriel",
-        "kadric-denis",
         "materia-marco",
         "quintiliano-renato-r",
         "lin-bryan-enming",
@@ -8529,13 +8571,13 @@
         "novosel-lovro",
         "perossa-nicolas",
         "tabatadze-erekle",
+        "nissinen-niilo-man",
         "keleberda-tymur",
         "casadio-niccolo",
         "sargsyan-anna-m",
         "beliman-alexandro",
         "vedmediuc-artiom",
         "llari-marc",
-        "kozlovic-jernej",
         "stoettner-moritz",
         "ferrante-marco",
         "arpan-das-jr",
@@ -8543,7 +8585,6 @@
         "marakovits-nico",
         "huber-benedikt",
         "stoettner-lukas",
-        "yeritsyan-hayk",
         "jing-andrew",
         "ghoreishi-amiri-seyed-kian",
         "paduano-claudio",
@@ -8558,6 +8599,7 @@
         "fulgentini-edoardo",
         "pegno-mattia",
         "urbani-gabriel",
+        "rajaram-rohan",
         "lehaci-miruna-daria",
         "wartiovaara-oliver",
         "piccoli-lucas-fonseca",
@@ -8586,7 +8628,6 @@
         "montorsi-matteo",
         "pandey-srishti",
         "mueller-magnus",
-        "hanache-kai",
         "lau-lut-yin-luke",
         "dobboletta-alex",
         "alexieva-silvia",
@@ -8608,7 +8649,9 @@
         "herega-nejc",
         "duson-robin",
         "barranco-cara-francisco-javier",
-        "pellizzieri-fabio-angelo"
+        "pellizzieri-fabio-angelo",
+        "aleksic-nenad",
+        "martin-nils"
       ],
       "confirmedPlayers": [
         {
@@ -8812,21 +8855,6 @@
           "countryCode": "COL",
           "title": "GM",
           "fideId": "4430492",
-          "classicalRating": 2518,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "kadric-denis",
-          "name": "Kadric Denis",
-          "countryCode": "MNE",
-          "title": "GM",
-          "fideId": "14403803",
           "classicalRating": 2518,
           "profileLinks": {},
           "status": "confirmed",
@@ -9662,6 +9690,21 @@
           }
         },
         {
+          "playerId": "nissinen-niilo-man",
+          "name": "Nissinen Niilo Man",
+          "countryCode": "HKG",
+          "title": "FM",
+          "fideId": "30950767",
+          "classicalRating": 2340,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "keleberda-tymur",
           "name": "Keleberda Tymur",
           "countryCode": "CAN",
@@ -9743,21 +9786,6 @@
           "title": "FM",
           "fideId": "651044269",
           "classicalRating": 2330,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "kozlovic-jernej",
-          "name": "Kozlovic Jernej",
-          "countryCode": "SLO",
-          "title": "FM",
-          "fideId": "14638541",
-          "classicalRating": 2328,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -9863,21 +9891,6 @@
           "title": "FM",
           "fideId": "16289951",
           "classicalRating": 2310,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "yeritsyan-hayk",
-          "name": "Yeritsyan Hayk",
-          "countryCode": "ARM",
-          "title": "FM",
-          "fideId": "13307320",
-          "classicalRating": 2307,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -10088,6 +10101,21 @@
           "title": "FM",
           "fideId": "2830138",
           "classicalRating": 2292,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "rajaram-rohan",
+          "name": "Rajaram Rohan",
+          "countryCode": "USA",
+          "title": "FM",
+          "fideId": "30940729",
+          "classicalRating": 2289,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -10517,21 +10545,6 @@
           }
         },
         {
-          "playerId": "hanache-kai",
-          "name": "Hanache Kai",
-          "countryCode": "ENG",
-          "title": "FM",
-          "fideId": "490105",
-          "classicalRating": 2221,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "lau-lut-yin-luke",
           "name": "Lau Lut Yin Luke",
           "countryCode": "HKG",
@@ -10853,6 +10866,36 @@
           "title": null,
           "fideId": "2851054",
           "classicalRating": 2183,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "aleksic-nenad",
+          "name": "Aleksic Nenad",
+          "countryCode": "SRB",
+          "title": "IM",
+          "fideId": "900990",
+          "classicalRating": 2180,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1364644.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "martin-nils",
+          "name": "Martin Nils",
+          "countryCode": "FRA",
+          "title": "FM",
+          "fideId": "45160473",
+          "classicalRating": 2180,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
