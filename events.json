@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T19:14:14Z",
-  "eventCount": 80,
+  "generatedAt": "2026-08-06T01:28:50Z",
+  "eventCount": 85,
   "sources": [
     {
       "name": "curated",
@@ -26,7 +26,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 41
+      "count": 40
     },
     {
       "name": "chessdom",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 31
+      "count": 36
     },
     {
       "name": "uschess",
@@ -314,6 +314,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29869",
+      "title": "Werner-Ott-Open Kreuzberger Schachsommer 2026",
+      "shortTitle": "Werner-Ott-Open Kreuzberger Schachsommer 2026",
+      "status": "live",
+      "startDate": "2026-08-01T13:00:00Z",
+      "endDate": "2026-08-09T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Werner-Ott-Open Kreuzberger Schachsommer 2026.",
+      "description": "76 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-werner-ott-open-kreuzberger-schachsommer",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-werner-ott-open-kreuzberger-schachsommer"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-29820",
       "title": "41st Geraardsbergen Open 2026",
       "shortTitle": "41st Geraardsbergen Open 2026",
@@ -449,7 +491,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 National State Invitationals.",
-      "description": "62 listed players. 6 rounds",
+      "description": "70 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -638,7 +680,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 33rd Feria De Las Flores International 2026.",
-      "description": "68 listed players. 9 rounds",
+      "description": "84 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -679,12 +721,10 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 35th La Pobla De Lillet Chess Festival 2026.",
-      "description": "60 listed players. 9 rounds",
+      "description": "61 listed players. 9 rounds",
       "categories": [
         "online",
-        "broadcast",
-        "classical",
-        "otb"
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
@@ -701,21 +741,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/629"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://s1.chess-results.com/tnr1406358.aspx?lan=9&art=0&turdet=YES&SNode=S0"
         }
       ],
       "source": {
@@ -784,7 +809,7 @@
       "id": "chesscom-27856",
       "title": "15th Split Open 2026",
       "shortTitle": "15th Split Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-05T22:00:00Z",
       "endDate": "2026-08-14T20:00:00Z",
       "timezone": "UTC",
@@ -3391,6 +3416,174 @@
           }
         }
       ]
+    },
+    {
+      "id": "chesscom-29870",
+      "title": "16th Nordhausen Open 2026",
+      "shortTitle": "16th Nordhausen Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-06T06:00:00Z",
+      "endDate": "2026-08-09T13:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 16th Nordhausen Open 2026.",
+      "description": "7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-16th-nordhausen-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-16th-nordhausen-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29824",
+      "title": "Kuqa Belt And Road International Open 2026",
+      "shortTitle": "Kuqa Belt And Road International Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-06T06:00:00Z",
+      "endDate": "2026-08-11T14:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Kuqa Belt And Road International Open 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/kuqa-belt-and-road-international-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/kuqa-belt-and-road-international-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29809",
+      "title": "European Junior Chess Championship 2026",
+      "shortTitle": "European Junior Chess Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-06T07:00:00Z",
+      "endDate": "2026-08-15T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: European Junior Chess Championship 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/european-junior-chess-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/european-junior-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29631",
+      "title": "5-Kurt-Pape-Open 2026",
+      "shortTitle": "5-Kurt-Pape-Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-06T08:00:00Z",
+      "endDate": "2026-08-09T09:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 5-Kurt-Pape-Open 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/5-kurt-pape-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/5-kurt-pape-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "lichess-dbxz7lan",
@@ -18682,7 +18875,6 @@
         "alexandros-iskos",
         "ioannis-tetepoulidis",
         "aleksandar-tsolov",
-        "marios-konstantinos-skodras",
         "dimitrios-exizoglou",
         "luka-kuntelia",
         "theodoros-vasiliadis",
@@ -18774,9 +18966,7 @@
         "nikolaos-paschalidis",
         "haralampos-betsakos",
         "sofia-betsakou",
-        "dionysios-eleftherios-skodras",
         "odysseas-chasiotis",
-        "dimitra-tzovani",
         "ioannis-noulis",
         "osman-kutalp-barlin",
         "hristos-tsinopoulos",
@@ -18792,7 +18982,10 @@
         "dimitrios-botskaris",
         "dimitrios-aggelos-tzellos",
         "pashalis-boudoulis",
-        "iordanis-navrozidis"
+        "iordanis-navrozidis",
+        "nikolaos-na-athanasopoulos",
+        "athanasios-koutsionas",
+        "panagiotis-sotiriadis"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -18858,7 +19051,6 @@
         "alexandros-iskos",
         "ioannis-tetepoulidis",
         "aleksandar-tsolov",
-        "marios-konstantinos-skodras",
         "dimitrios-exizoglou",
         "luka-kuntelia",
         "theodoros-vasiliadis",
@@ -18950,9 +19142,7 @@
         "nikolaos-paschalidis",
         "haralampos-betsakos",
         "sofia-betsakou",
-        "dionysios-eleftherios-skodras",
         "odysseas-chasiotis",
-        "dimitra-tzovani",
         "ioannis-noulis",
         "osman-kutalp-barlin",
         "hristos-tsinopoulos",
@@ -18968,7 +19158,10 @@
         "dimitrios-botskaris",
         "dimitrios-aggelos-tzellos",
         "pashalis-boudoulis",
-        "iordanis-navrozidis"
+        "iordanis-navrozidis",
+        "nikolaos-na-athanasopoulos",
+        "athanasios-koutsionas",
+        "panagiotis-sotiriadis"
       ],
       "confirmedPlayers": [
         {
@@ -19547,21 +19740,6 @@
           "countryCode": "BUL",
           "title": "AFM",
           "fideId": "2938804",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "marios-konstantinos-skodras",
-          "name": "Marios Konstantinos Skodras",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25866710",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -20937,41 +21115,11 @@
           }
         },
         {
-          "playerId": "dionysios-eleftherios-skodras",
-          "name": "Dionysios Eleftherios Skodras",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42141559",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "odysseas-chasiotis",
           "name": "Odysseas Chasiotis",
           "countryCode": "GRE",
           "title": null,
           "fideId": "25870300",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitra-tzovani",
-          "name": "Dimitra Tzovani",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25820630",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -21212,6 +21360,51 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "541026802",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nikolaos-na-athanasopoulos",
+          "name": "Nikolaos Na Athanasopoulos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42157455",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "athanasios-koutsionas",
+          "name": "Athanasios Koutsionas",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42151694",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "panagiotis-sotiriadis",
+          "name": "Panagiotis Sotiriadis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42164869",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
