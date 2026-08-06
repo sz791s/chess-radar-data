@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T13:40:33Z",
-  "eventCount": 84,
+  "generatedAt": "2026-08-06T23:49:25Z",
+  "eventCount": 83,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 37
+      "count": 33
     },
     {
       "name": "uschess",
@@ -147,42 +147,37 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29240",
-      "title": "Leca Chess Open 2026",
-      "shortTitle": "Leca Chess Open 2026",
+      "id": "chessbase-saint-louis-rapid-and-blitz-29-july-to-6-august-2026",
+      "title": "Saint Louis Rapid and Blitz",
+      "shortTitle": "Saint Louis Rapid and Blitz",
       "status": "live",
-      "startDate": "2026-07-31T15:00:00Z",
-      "endDate": "2026-08-06T19:00:00Z",
+      "startDate": "2026-07-29T00:00:00Z",
+      "endDate": "2026-08-06T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Leca Chess Open 2026.",
-      "description": "215 listed players. 9 rounds",
+      "locationName": "Saint Louis, USA",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: Saint Louis Rapid and Blitz.",
+      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
-        "online",
-        "broadcast",
-        "open"
+        "rapid",
+        "blitz",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "chesscom"
+        "saint-louis-chess-club"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/leca-chess-open-2026",
+      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
       "links": [
         {
-          "label": "Chess.com event",
+          "label": "Event listing",
           "type": "official",
-          "url": "https://www.chess.com/events/info/leca-chess-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
+          "url": "https://en.chessbase.com/post/chess-calendar-2026"
         }
       ],
       "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
+        "name": "chessbase",
+        "url": "https://en.chessbase.com/post/chess-calendar-2026",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -397,48 +392,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29820",
-      "title": "41st Geraardsbergen Open 2026",
-      "shortTitle": "41st Geraardsbergen Open 2026",
-      "status": "live",
-      "startDate": "2026-08-02T10:00:00Z",
-      "endDate": "2026-08-06T14:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 41st Geraardsbergen Open 2026.",
-      "description": "31 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/41st-geraardsbergen-open-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/41st-geraardsbergen-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-29335",
       "title": "50th Badalona International Open",
       "shortTitle": "50th Badalona International Open",
@@ -481,42 +434,117 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29439",
-      "title": "Bratislava Chess Summer",
-      "shortTitle": "Bratislava Chess Summer",
+      "id": "lichess-juukibzu",
+      "title": "2026 Türkiye Satranç Ligi (Turkish League) | Süper Lig",
+      "shortTitle": "2026 Türkiye Satranç Ligi (Turkish League) | Süper Lig",
       "status": "live",
-      "startDate": "2026-08-03T07:00:00Z",
-      "endDate": "2026-08-06T22:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Bratislava Chess Summer.",
-      "description": "57 listed players. 9 rounds",
+      "startDate": "2026-08-03T12:15:00Z",
+      "endDate": "2026-08-15T07:15:00Z",
+      "timezone": "Europe/Istanbul",
+      "locationName": "Ankara, Türkiye",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "15-round, team round robin",
       "categories": [
-        "online",
-        "broadcast"
+        "classical",
+        "broadcast",
+        "team",
+        "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "chesscom"
+        "lichess"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/bratislava-chess-summer",
+      "primaryUrl": "https://lichess.org/broadcast/2026-turkiye-satranc-ligi-turkish-league-super-lig/JuukiBzu",
       "links": [
         {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/bratislava-chess-summer"
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-turkiye-satranc-ligi-turkish-league-super-lig/JuukiBzu"
         },
         {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
+          "label": "Official website",
+          "type": "official",
+          "url": "https://superlig.tsf.org.tr/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/Tnr1469049.aspx?lan=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-turkiye-satranc-ligi-turkish-league-birinci-lig/4Aoi3P6S"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://birincilig.tsf.org.tr/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1468885.aspx?lan=8&turdet=YES&SNode=S0"
         }
       ],
       "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-kdrqt47u",
+      "title": "19th Arad Open Grand Prix Classic 2026 | Open B",
+      "shortTitle": "19th Arad Open Grand Prix Classic 2026 | Open B",
+      "status": "live",
+      "startDate": "2026-08-03T13:15:00Z",
+      "endDate": "2026-08-09T06:45:00Z",
+      "timezone": "Europe/Bucharest",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-b/kDRQt47u",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-b/kDRQt47u"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.romaniagp.ro/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1342553.aspx"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/19th-arad-open-grand-prix-classic-2026-open-a/9LKWe9TU"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -532,7 +560,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 National State Invitationals.",
-      "description": "70 listed players. 6 rounds",
+      "description": "75 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -573,7 +601,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 33rd Feria De Las Flores International 2026.",
-      "description": "84 listed players. 9 rounds",
+      "description": "85 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -645,60 +673,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-d63pvema",
-      "title": "GCT: Saint Louis Rapid & Blitz 2026 | Blitz",
-      "shortTitle": "GCT: Saint Louis Rapid & Blitz 2026 | Blitz",
-      "status": "live",
-      "startDate": "2026-08-05T17:00:00Z",
-      "endDate": "2026-08-06T21:00:00Z",
-      "timezone": "America/Chicago",
-      "locationName": "St. Louis, Missouri, United States",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
-        "saint-louis-chess-club"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/gct-saint-louis-rapid-blitz-2026-blitz/d63PvEma",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/gct-saint-louis-rapid-blitz-2026-blitz/d63PvEma"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-saint-louis-rapid-blitz/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-saint-louis-rapid-blitz/results/"
-        },
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-27856",
       "title": "15th Split Open 2026",
       "shortTitle": "15th Split Open 2026",
@@ -709,7 +683,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 15th Split Open 2026.",
-      "description": "10 rounds",
+      "description": "163 listed players. 10 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -722,15 +696,12 @@
         "pijpers-arthur",
         "palac-mladen",
         "baasansuren-erdene",
-        "aaditya-dhingra",
         "elmi-saad-abobaker",
         "tokhirjonova-gulrukhbegim",
         "plenkovic-zdenko",
         "heimisson-hilmir-freyr",
         "van-osch-mees",
         "gal-andrej",
-        "shamatava-nikolozi",
-        "shaik-sumer-arsh",
         "nikcevic-nebojsa",
         "stankovic-boris",
         "turel-tugrul",
@@ -745,20 +716,16 @@
         "segovic-goran",
         "hinterreiter-markus",
         "richterova-natasa",
-        "biliskov-vjekoslav",
         "markovic-franjo-josip",
         "milat-marcel",
-        "arhan-jain",
         "kurtovic-darko",
         "cornelisse-john",
         "mai-alexander-oliver",
         "pehar-borna",
         "brewer-callum-d",
         "poljak-stipe",
-        "kulic-sasa",
         "jakhria-kushal",
         "zagorac-lara",
-        "sperat-czar-nicolas",
         "leskovac-nikola",
         "saric-kristina",
         "cuzovic-ognjen",
@@ -784,9 +751,7 @@
         "davidsson-oskar-vikingur",
         "klem-davor",
         "boric-jakov",
-        "basaric-srdjan",
         "zivkovic-mihovil",
-        "matosin-jurica",
         "krnic-ivan",
         "petric-roko",
         "glenzer-andre",
@@ -796,6 +761,7 @@
         "de-man-luuk",
         "foglia-maurizio",
         "fraser-john",
+        "perdic-arijan",
         "juric-paula",
         "bluebaum-johanna",
         "pietrzak-tomasz",
@@ -818,7 +784,6 @@
         "barabas-ales",
         "razov-bogavcic-ognjen",
         "moranduzzo-tomislav",
-        "ognjenovic-nenad",
         "hauksdottir-hrund",
         "saric-branko",
         "prkic-marko",
@@ -847,7 +812,6 @@
         "richter-rudolf",
         "domislovic-helena",
         "papageorgiou-martinella-ilios",
-        "bulat-milan",
         "michniak-julia",
         "magnusdottir-veronika-steinunn",
         "coric-ivan",
@@ -862,12 +826,21 @@
         "goetz-georg",
         "duran-leonardo",
         "omic-aleksandar",
-        "grubec-tomislav",
         "malaric-nikola",
         "hyassat-violetta",
         "stuckle-ostojic-mihael",
         "njardarson-arnar-ingi",
-        "ciganovic-marko"
+        "kaleb-djani",
+        "ciganovic-marko",
+        "horvat-rudjer",
+        "bartol-tomislav",
+        "spiridonov-maksym",
+        "wolfmaier-johannes",
+        "krstulovic-benjamin",
+        "kero-ante",
+        "boixader-rojas-eudald",
+        "bucevic-josko",
+        "poljak-elena"
       ],
       "channelIds": [
         "chesscom"
@@ -910,15 +883,12 @@
         "pijpers-arthur",
         "palac-mladen",
         "baasansuren-erdene",
-        "aaditya-dhingra",
         "elmi-saad-abobaker",
         "tokhirjonova-gulrukhbegim",
         "plenkovic-zdenko",
         "heimisson-hilmir-freyr",
         "van-osch-mees",
         "gal-andrej",
-        "shamatava-nikolozi",
-        "shaik-sumer-arsh",
         "nikcevic-nebojsa",
         "stankovic-boris",
         "turel-tugrul",
@@ -933,20 +903,16 @@
         "segovic-goran",
         "hinterreiter-markus",
         "richterova-natasa",
-        "biliskov-vjekoslav",
         "markovic-franjo-josip",
         "milat-marcel",
-        "arhan-jain",
         "kurtovic-darko",
         "cornelisse-john",
         "mai-alexander-oliver",
         "pehar-borna",
         "brewer-callum-d",
         "poljak-stipe",
-        "kulic-sasa",
         "jakhria-kushal",
         "zagorac-lara",
-        "sperat-czar-nicolas",
         "leskovac-nikola",
         "saric-kristina",
         "cuzovic-ognjen",
@@ -972,9 +938,7 @@
         "davidsson-oskar-vikingur",
         "klem-davor",
         "boric-jakov",
-        "basaric-srdjan",
         "zivkovic-mihovil",
-        "matosin-jurica",
         "krnic-ivan",
         "petric-roko",
         "glenzer-andre",
@@ -984,6 +948,7 @@
         "de-man-luuk",
         "foglia-maurizio",
         "fraser-john",
+        "perdic-arijan",
         "juric-paula",
         "bluebaum-johanna",
         "pietrzak-tomasz",
@@ -1006,7 +971,6 @@
         "barabas-ales",
         "razov-bogavcic-ognjen",
         "moranduzzo-tomislav",
-        "ognjenovic-nenad",
         "hauksdottir-hrund",
         "saric-branko",
         "prkic-marko",
@@ -1035,7 +999,6 @@
         "richter-rudolf",
         "domislovic-helena",
         "papageorgiou-martinella-ilios",
-        "bulat-milan",
         "michniak-julia",
         "magnusdottir-veronika-steinunn",
         "coric-ivan",
@@ -1050,12 +1013,21 @@
         "goetz-georg",
         "duran-leonardo",
         "omic-aleksandar",
-        "grubec-tomislav",
         "malaric-nikola",
         "hyassat-violetta",
         "stuckle-ostojic-mihael",
         "njardarson-arnar-ingi",
-        "ciganovic-marko"
+        "kaleb-djani",
+        "ciganovic-marko",
+        "horvat-rudjer",
+        "bartol-tomislav",
+        "spiridonov-maksym",
+        "wolfmaier-johannes",
+        "krstulovic-benjamin",
+        "kero-ante",
+        "boixader-rojas-eudald",
+        "bucevic-josko",
+        "poljak-elena"
       ],
       "confirmedPlayers": [
         {
@@ -1109,21 +1081,6 @@
           "countryCode": "MGL",
           "title": "IM",
           "fideId": "4902084",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "aaditya-dhingra",
-          "name": "Aaditya Dhingra",
-          "countryCode": "IND",
-          "title": "IM",
-          "fideId": "25678191",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -1214,36 +1171,6 @@
           "countryCode": "CRO",
           "title": "FM",
           "fideId": "14567563",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "shamatava-nikolozi",
-          "name": "Shamatava Nikolozi",
-          "countryCode": "GEO",
-          "title": "FM",
-          "fideId": "13619950",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "shaik-sumer-arsh",
-          "name": "Shaik Sumer Arsh",
-          "countryCode": "IND",
-          "title": "FM",
-          "fideId": "45020000",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -1464,21 +1391,6 @@
           }
         },
         {
-          "playerId": "biliskov-vjekoslav",
-          "name": "Biliskov Vjekoslav",
-          "countryCode": "CRO",
-          "title": "FM",
-          "fideId": "14502720",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "markovic-franjo-josip",
           "name": "Markovic Franjo-Josip",
           "countryCode": "CRO",
@@ -1499,21 +1411,6 @@
           "countryCode": "CAN",
           "title": "FM",
           "fideId": "2602105",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "arhan-jain",
-          "name": "Arhan Jain",
-          "countryCode": "IND",
-          "title": "AFM",
-          "fideId": "33397686",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -1614,21 +1511,6 @@
           }
         },
         {
-          "playerId": "kulic-sasa",
-          "name": "Kulic Sasa",
-          "countryCode": "CAN",
-          "title": null,
-          "fideId": "2606658",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "jakhria-kushal",
           "name": "Jakhria Kushal",
           "countryCode": "ENG",
@@ -1649,21 +1531,6 @@
           "countryCode": "CRO",
           "title": "WFM",
           "fideId": "14580250",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sperat-czar-nicolas",
-          "name": "Sperat Czar Nicolas",
-          "countryCode": "FRA",
-          "title": null,
-          "fideId": "551007827",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2049,41 +1916,11 @@
           }
         },
         {
-          "playerId": "basaric-srdjan",
-          "name": "Basaric Srdjan",
-          "countryCode": "CRO",
-          "title": "MK",
-          "fideId": "14512130",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "zivkovic-mihovil",
           "name": "Zivkovic Mihovil",
           "countryCode": "CRO",
           "title": "I",
           "fideId": "14586002",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "matosin-jurica",
-          "name": "Matosin Jurica",
-          "countryCode": "CRO",
-          "title": "I",
-          "fideId": "14552370",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2219,6 +2056,21 @@
           "countryCode": "ENG",
           "title": null,
           "fideId": "436453",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "perdic-arijan",
+          "name": "Perdic Arijan",
+          "countryCode": "CRO",
+          "title": "II",
+          "fideId": "14595290",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2549,21 +2401,6 @@
           "countryCode": "CRO",
           "title": "II",
           "fideId": "14575361",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ognjenovic-nenad",
-          "name": "Ognjenovic Nenad",
-          "countryCode": "CRO",
-          "title": "II",
-          "fideId": "14531380",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2994,21 +2831,6 @@
           }
         },
         {
-          "playerId": "bulat-milan",
-          "name": "Bulat Milan",
-          "countryCode": "CRO",
-          "title": "III",
-          "fideId": "14545381",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "michniak-julia",
           "name": "Michniak Julia",
           "countryCode": "POL",
@@ -3219,21 +3041,6 @@
           }
         },
         {
-          "playerId": "grubec-tomislav",
-          "name": "Grubec Tomislav",
-          "countryCode": "CRO",
-          "title": "IV",
-          "fideId": "79325769",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "malaric-nikola",
           "name": "Malaric Nikola",
           "countryCode": "CRO",
@@ -3294,11 +3101,161 @@
           }
         },
         {
+          "playerId": "kaleb-djani",
+          "name": "Kaleb Djani",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "79327079",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ciganovic-marko",
           "name": "Ciganovic Marko",
           "countryCode": "CRO",
           "title": "III",
           "fideId": "14575051",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "horvat-rudjer",
+          "name": "Horvat Rudjer",
+          "countryCode": "CRO",
+          "title": "IV",
+          "fideId": "14586746",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bartol-tomislav",
+          "name": "Bartol Tomislav",
+          "countryCode": "CRO",
+          "title": null,
+          "fideId": "14586436",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "spiridonov-maksym",
+          "name": "Spiridonov Maksym",
+          "countryCode": "UKR",
+          "title": null,
+          "fideId": "34186727",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "wolfmaier-johannes",
+          "name": "Wolfmaier Johannes",
+          "countryCode": "GER",
+          "title": null,
+          "fideId": "34688196",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "krstulovic-benjamin",
+          "name": "Krstulovic Benjamin",
+          "countryCode": "CRO",
+          "title": "V",
+          "fideId": "79335136",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "kero-ante",
+          "name": "Kero Ante",
+          "countryCode": "CRO",
+          "title": "V",
+          "fideId": "79331475",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "boixader-rojas-eudald",
+          "name": "Boixader Rojas Eudald",
+          "countryCode": "ESP",
+          "title": null,
+          "fideId": "54756103",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bucevic-josko",
+          "name": "Bucevic Josko",
+          "countryCode": "CRO",
+          "title": "V",
+          "fideId": "79324908",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1371053.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "poljak-elena",
+          "name": "Poljak Elena",
+          "countryCode": "CRO",
+          "title": "IV",
+          "fideId": "79304290",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3321,7 +3278,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 16th Nordhausen Open 2026.",
-      "description": "20 listed players. 7 rounds",
+      "description": "86 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -3405,7 +3362,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5-Kurt-Pape-Open 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "140 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -3421,47 +3378,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/5-kurt-pape-open-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29930",
-      "title": "FENAJ Ímpar 2026 - Rápido",
-      "shortTitle": "FENAJ Ímpar 2026 - Rápido",
-      "status": "live",
-      "startDate": "2026-08-06T09:00:00Z",
-      "endDate": "2026-08-06T19:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: FENAJ Ímpar 2026 - Rápido.",
-      "description": "8 listed players. 6 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/fenaj-impar-2026-rapido",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/fenaj-impar-2026-rapido"
         },
         {
           "label": "Chess.com current events",
@@ -3548,6 +3464,55 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://sahcg.me/ejcc26/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-8vbsfwaf",
+      "title": "European Junior Chess Championship 2026 | Open",
+      "shortTitle": "European Junior Chess Championship 2026 | Open",
+      "status": "live",
+      "startDate": "2026-08-06T13:15:00Z",
+      "endDate": "2026-08-15T12:15:00Z",
+      "timezone": "Europe/Podgorica",
+      "locationName": "Cetinje, Montenegro",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf"
         },
         {
           "label": "Official website",
@@ -3670,7 +3635,6 @@
         "marek-skarpa",
         "petr-kalivoda",
         "jakub-macharacek",
-        "zuzanna-farkowska",
         "antonin-becvar",
         "miloslav-bubenicek",
         "martin-klimes",
@@ -3805,7 +3769,6 @@
         "marek-skarpa",
         "petr-kalivoda",
         "jakub-macharacek",
-        "zuzanna-farkowska",
         "antonin-becvar",
         "miloslav-bubenicek",
         "martin-klimes",
@@ -5083,21 +5046,6 @@
           "countryCode": "CZE",
           "title": null,
           "fideId": "23766697",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1321442.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zuzanna-farkowska",
-          "name": "Zuzanna Farkowska",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "91124395",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -16192,40 +16140,41 @@
         "irakli-akhvlediani",
         "angelos-sandalakis",
         "nodar-lortkipanidze",
-        "rodolfos-stamatiou",
+        "a-charvi",
         "alan-safar-ramoutar",
         "eva-repkova",
+        "rodolfos-stamatiou",
         "siddhant-gawai",
         "kesaria-mgeladze",
         "nikolaos-sandalakis",
-        "a-charvi",
-        "panayotis-frendzas",
         "yunqing-zhao",
+        "parmar-paarshva",
+        "panayotis-frendzas",
+        "kagan-torun",
         "alexandros-stathatos",
         "andre-kienitz",
         "milan-kolesar",
-        "kagan-torun",
         "akula-pranay",
         "a-peter-anand",
         "arun-manukonda",
-        "parmar-paarshva",
         "artak-manukian",
         "panagiota-kiousi",
         "yuxin-du",
         "eva-kondou",
+        "aikaterini-argyro-gkoutzouki",
         "ashot-a-avetisyan",
         "ahmet-unal-gurel",
         "davit-melkonyan",
-        "aikaterini-argyro-gkoutzouki",
         "janis-lutz",
         "yassine-rafik",
-        "toprak-gelir",
         "antonios-spyrou",
         "konstantinos-diamantis",
         "ghali-elalmi",
         "antonis-margaritis",
         "ioannis-deligiannis",
+        "toprak-gelir",
         "soumela-athanasiou",
+        "sargis-art-manukyan",
         "polychronis-perrakis",
         "ioannis-frontzos",
         "peter-leijgraaff",
@@ -16236,43 +16185,44 @@
         "zaharias-tiakoudis",
         "kseniya-badrakova",
         "dogan-tugay",
-        "sargis-art-manukyan",
         "iordanis-fotiadis",
         "nikolaos-tsakiris",
+        "myrto-korinioti",
         "stergos-vasilakis",
         "brahim-boudnani",
         "themistoklis-zygourakis",
-        "myrto-korinioti",
         "emmanouil-kasiotis",
         "stavros-m-papadopoulos",
         "charidimos-vasilakis",
         "michail-georgi-diakidis-kostas",
+        "rengina-tsampika-kaka",
         "har-georgiopoulos",
         "ioannis-taladianos",
         "christodoulos-tsompanoudis",
-        "rengina-tsampika-kaka",
         "daniel-yarur-elsaca",
         "emmanouil-maragkakis",
         "orestis-katsiolis",
+        "antonios-p-papadopoulos",
         "alexandros-stavrianos",
         "petros-tsimperopoulos",
-        "marianna-lamprianou",
+        "eleni-nefeli-revelioti",
         "ruzgar-cem-sengul",
         "angelos-tsoumanis",
         "evangelos-fotiadis",
-        "antonios-p-papadopoulos",
         "alkinoos-dimitras",
         "konstantinos-rigopoulos",
         "ayoub-lemssaadi",
+        "hayk-manukyan",
         "galatia-palazi",
         "iraklis-pylarinos",
         "konstantinos-kastanis",
         "angelos-geravelis",
-        "hayk-manukyan",
+        "marianna-lamprianou",
         "athanasios-kechagioglou",
         "selim-ege-gocer",
         "evanthia-malamousi",
         "alkiviadis-tsampikos-kiourtzis",
+        "ali-eren-celik",
         "sotirios-gkougkoustamos",
         "tugrul-ege-keskin",
         "despoina-lamprianou",
@@ -16280,7 +16230,6 @@
         "katholiki-tsampika-barmpantoni",
         "mira-deniz-beler",
         "badr-birrane",
-        "ali-eren-celik",
         "mohamed-yahdih-channane",
         "angelos-chrysostomos-chantziaras",
         "ioulios-chatzigiannakis-kokkidis",
@@ -16331,7 +16280,6 @@
         "michail-angelos-pavlidis",
         "anastasia-perraki",
         "agisilaos-marios-rados",
-        "eleni-nefeli-revelioti",
         "karim-rizgy",
         "cagin-alp-sengul",
         "afroditi-skouta",
@@ -16368,40 +16316,41 @@
         "irakli-akhvlediani",
         "angelos-sandalakis",
         "nodar-lortkipanidze",
-        "rodolfos-stamatiou",
+        "a-charvi",
         "alan-safar-ramoutar",
         "eva-repkova",
+        "rodolfos-stamatiou",
         "siddhant-gawai",
         "kesaria-mgeladze",
         "nikolaos-sandalakis",
-        "a-charvi",
-        "panayotis-frendzas",
         "yunqing-zhao",
+        "parmar-paarshva",
+        "panayotis-frendzas",
+        "kagan-torun",
         "alexandros-stathatos",
         "andre-kienitz",
         "milan-kolesar",
-        "kagan-torun",
         "akula-pranay",
         "a-peter-anand",
         "arun-manukonda",
-        "parmar-paarshva",
         "artak-manukian",
         "panagiota-kiousi",
         "yuxin-du",
         "eva-kondou",
+        "aikaterini-argyro-gkoutzouki",
         "ashot-a-avetisyan",
         "ahmet-unal-gurel",
         "davit-melkonyan",
-        "aikaterini-argyro-gkoutzouki",
         "janis-lutz",
         "yassine-rafik",
-        "toprak-gelir",
         "antonios-spyrou",
         "konstantinos-diamantis",
         "ghali-elalmi",
         "antonis-margaritis",
         "ioannis-deligiannis",
+        "toprak-gelir",
         "soumela-athanasiou",
+        "sargis-art-manukyan",
         "polychronis-perrakis",
         "ioannis-frontzos",
         "peter-leijgraaff",
@@ -16412,43 +16361,44 @@
         "zaharias-tiakoudis",
         "kseniya-badrakova",
         "dogan-tugay",
-        "sargis-art-manukyan",
         "iordanis-fotiadis",
         "nikolaos-tsakiris",
+        "myrto-korinioti",
         "stergos-vasilakis",
         "brahim-boudnani",
         "themistoklis-zygourakis",
-        "myrto-korinioti",
         "emmanouil-kasiotis",
         "stavros-m-papadopoulos",
         "charidimos-vasilakis",
         "michail-georgi-diakidis-kostas",
+        "rengina-tsampika-kaka",
         "har-georgiopoulos",
         "ioannis-taladianos",
         "christodoulos-tsompanoudis",
-        "rengina-tsampika-kaka",
         "daniel-yarur-elsaca",
         "emmanouil-maragkakis",
         "orestis-katsiolis",
+        "antonios-p-papadopoulos",
         "alexandros-stavrianos",
         "petros-tsimperopoulos",
-        "marianna-lamprianou",
+        "eleni-nefeli-revelioti",
         "ruzgar-cem-sengul",
         "angelos-tsoumanis",
         "evangelos-fotiadis",
-        "antonios-p-papadopoulos",
         "alkinoos-dimitras",
         "konstantinos-rigopoulos",
         "ayoub-lemssaadi",
+        "hayk-manukyan",
         "galatia-palazi",
         "iraklis-pylarinos",
         "konstantinos-kastanis",
         "angelos-geravelis",
-        "hayk-manukyan",
+        "marianna-lamprianou",
         "athanasios-kechagioglou",
         "selim-ege-gocer",
         "evanthia-malamousi",
         "alkiviadis-tsampikos-kiourtzis",
+        "ali-eren-celik",
         "sotirios-gkougkoustamos",
         "tugrul-ege-keskin",
         "despoina-lamprianou",
@@ -16456,7 +16406,6 @@
         "katholiki-tsampika-barmpantoni",
         "mira-deniz-beler",
         "badr-birrane",
-        "ali-eren-celik",
         "mohamed-yahdih-channane",
         "angelos-chrysostomos-chantziaras",
         "ioulios-chatzigiannakis-kokkidis",
@@ -16507,7 +16456,6 @@
         "michail-angelos-pavlidis",
         "anastasia-perraki",
         "agisilaos-marios-rados",
-        "eleni-nefeli-revelioti",
         "karim-rizgy",
         "cagin-alp-sengul",
         "afroditi-skouta",
@@ -16605,11 +16553,11 @@
           }
         },
         {
-          "playerId": "rodolfos-stamatiou",
-          "name": "Rodolfos Stamatiou",
-          "countryCode": "GRE",
+          "playerId": "a-charvi",
+          "name": "A Charvi",
+          "countryCode": "IND",
           "title": "FM",
-          "fideId": "25826530",
+          "fideId": "25165518",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -16640,6 +16588,21 @@
           "countryCode": "SVK",
           "title": "IM",
           "fideId": "14900440",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "rodolfos-stamatiou",
+          "name": "Rodolfos Stamatiou",
+          "countryCode": "GRE",
+          "title": "FM",
+          "fideId": "25826530",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -16695,11 +16658,26 @@
           }
         },
         {
-          "playerId": "a-charvi",
-          "name": "A Charvi",
+          "playerId": "yunqing-zhao",
+          "name": "Yunqing Zhao",
+          "countryCode": "CHN",
+          "title": "WIM",
+          "fideId": "8626260",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "parmar-paarshva",
+          "name": "Parmar Paarshva",
           "countryCode": "IND",
-          "title": "FM",
-          "fideId": "25165518",
+          "title": null,
+          "fideId": "33440344",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -16725,11 +16703,11 @@
           }
         },
         {
-          "playerId": "yunqing-zhao",
-          "name": "Yunqing Zhao",
-          "countryCode": "CHN",
-          "title": "WIM",
-          "fideId": "8626260",
+          "playerId": "kagan-torun",
+          "name": "Kagan Torun",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "26317737",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -16785,21 +16763,6 @@
           }
         },
         {
-          "playerId": "kagan-torun",
-          "name": "Kagan Torun",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "26317737",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "akula-pranay",
           "name": "Akula Pranay",
           "countryCode": "IND",
@@ -16835,21 +16798,6 @@
           "countryCode": "IND",
           "title": null,
           "fideId": "5080789",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "parmar-paarshva",
-          "name": "Parmar Paarshva",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "33440344",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -16920,6 +16868,21 @@
           }
         },
         {
+          "playerId": "aikaterini-argyro-gkoutzouki",
+          "name": "Aikaterini Argyro Gkoutzouki",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25838105",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ashot-a-avetisyan",
           "name": "Ashot A. Avetisyan",
           "countryCode": "ARM",
@@ -16965,21 +16928,6 @@
           }
         },
         {
-          "playerId": "aikaterini-argyro-gkoutzouki",
-          "name": "Aikaterini Argyro Gkoutzouki",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25838105",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "janis-lutz",
           "name": "Janis Lutz",
           "countryCode": "SUI",
@@ -17000,21 +16948,6 @@
           "countryCode": "MAR",
           "title": null,
           "fideId": "9019634",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "toprak-gelir",
-          "name": "Toprak Gelir",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "51678152",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17100,11 +17033,41 @@
           }
         },
         {
+          "playerId": "toprak-gelir",
+          "name": "Toprak Gelir",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "51678152",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "soumela-athanasiou",
           "name": "Soumela Athanasiou",
           "countryCode": "GRE",
           "title": null,
           "fideId": "25868748",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "sargis-art-manukyan",
+          "name": "Sargis Art. Manukyan",
+          "countryCode": "ARM",
+          "title": null,
+          "fideId": "13321978",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17265,21 +17228,6 @@
           }
         },
         {
-          "playerId": "sargis-art-manukyan",
-          "name": "Sargis Art. Manukyan",
-          "countryCode": "ARM",
-          "title": null,
-          "fideId": "13321978",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "iordanis-fotiadis",
           "name": "Iordanis Fotiadis",
           "countryCode": "GRE",
@@ -17300,6 +17248,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42144469",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "myrto-korinioti",
+          "name": "Myrto Korinioti",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42153743",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17345,21 +17308,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "4215141",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "myrto-korinioti",
-          "name": "Myrto Korinioti",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153743",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17430,6 +17378,21 @@
           }
         },
         {
+          "playerId": "rengina-tsampika-kaka",
+          "name": "Rengina Tsampika Kaka",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42153794",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "har-georgiopoulos",
           "name": "Har. Georgiopoulos",
           "countryCode": "GRE",
@@ -17465,21 +17428,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42168147",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "rengina-tsampika-kaka",
-          "name": "Rengina Tsampika Kaka",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153794",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17535,6 +17483,21 @@
           }
         },
         {
+          "playerId": "antonios-p-papadopoulos",
+          "name": "Antonios P Papadopoulos",
+          "countryCode": "GRE",
+          "title": "ACM",
+          "fideId": "42153700",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "alexandros-stavrianos",
           "name": "Alexandros Stavrianos",
           "countryCode": "GRE",
@@ -17565,11 +17528,11 @@
           }
         },
         {
-          "playerId": "marianna-lamprianou",
-          "name": "Marianna Lamprianou",
+          "playerId": "eleni-nefeli-revelioti",
+          "name": "Eleni Nefeli Revelioti",
           "countryCode": "GRE",
           "title": null,
-          "fideId": "42153697",
+          "fideId": "42168090",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17625,21 +17588,6 @@
           }
         },
         {
-          "playerId": "antonios-p-papadopoulos",
-          "name": "Antonios P Papadopoulos",
-          "countryCode": "GRE",
-          "title": "ACM",
-          "fideId": "42153700",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "alkinoos-dimitras",
           "name": "Alkinoos Dimitras",
           "countryCode": "GRE",
@@ -17675,6 +17623,21 @@
           "countryCode": "MAR",
           "title": null,
           "fideId": "9047018",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "hayk-manukyan",
+          "name": "Hayk Manukyan",
+          "countryCode": "ARM",
+          "title": null,
+          "fideId": "13324942",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17745,11 +17708,11 @@
           }
         },
         {
-          "playerId": "hayk-manukyan",
-          "name": "Hayk Manukyan",
-          "countryCode": "ARM",
+          "playerId": "marianna-lamprianou",
+          "name": "Marianna Lamprianou",
+          "countryCode": "GRE",
           "title": null,
-          "fideId": "13324942",
+          "fideId": "42153697",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17810,6 +17773,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42168031",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ali-eren-celik",
+          "name": "Ali Eren Celik",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "525044354",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -17915,21 +17893,6 @@
           "countryCode": "MAR",
           "title": null,
           "fideId": null,
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ali-eren-celik",
-          "name": "Ali Eren Celik",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "525044354",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -18690,21 +18653,6 @@
           }
         },
         {
-          "playerId": "eleni-nefeli-revelioti",
-          "name": "Eleni Nefeli Revelioti",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42168090",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "karim-rizgy",
           "name": "Karim Rizgy",
           "countryCode": "MAR",
@@ -18794,6 +18742,7 @@
         "stefanos-magkalakis",
         "alexandros-papasimakopoulos",
         "panayotis-papadopoulos",
+        "parth-moghe",
         "spyridon-naoum",
         "oleksandr-dovgaliuk",
         "christos-tsarsitalidis",
@@ -18932,8 +18881,7 @@
         "pashalis-boudoulis",
         "iordanis-navrozidis",
         "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas",
-        "panagiotis-sotiriadis"
+        "athanasios-koutsionas"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -18970,6 +18918,7 @@
         "stefanos-magkalakis",
         "alexandros-papasimakopoulos",
         "panayotis-papadopoulos",
+        "parth-moghe",
         "spyridon-naoum",
         "oleksandr-dovgaliuk",
         "christos-tsarsitalidis",
@@ -19108,8 +19057,7 @@
         "pashalis-boudoulis",
         "iordanis-navrozidis",
         "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas",
-        "panagiotis-sotiriadis"
+        "athanasios-koutsionas"
       ],
       "confirmedPlayers": [
         {
@@ -19253,6 +19201,21 @@
           "countryCode": "GRE",
           "title": "CM",
           "fideId": "4222636",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "parth-moghe",
+          "name": "Parth Moghe",
+          "countryCode": "IND",
+          "title": "FM",
+          "fideId": "46675957",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -21346,21 +21309,6 @@
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
-        },
-        {
-          "playerId": "panagiotis-sotiriadis",
-          "name": "Panagiotis Sotiriadis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42164869",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
         }
       ]
     },
@@ -21509,6 +21457,7 @@
       "playerIds": [
         "ltu",
         "fra",
+        "per",
         "esp",
         "eng",
         "ger",
@@ -21523,6 +21472,8 @@
         "gre",
         "col",
         "slo",
+        "cze",
+        "nam",
         "ned",
         "bel",
         "sui",
@@ -21558,6 +21509,7 @@
       "confirmedPlayerIds": [
         "ltu",
         "fra",
+        "per",
         "esp",
         "eng",
         "ger",
@@ -21572,6 +21524,8 @@
         "gre",
         "col",
         "slo",
+        "cze",
+        "nam",
         "ned",
         "bel",
         "sui",
@@ -21601,6 +21555,21 @@
           "name": "FRA",
           "countryCode": null,
           "title": "2000024",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "per",
+          "name": "PER",
+          "countryCode": null,
+          "title": "3802272",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -21811,6 +21780,36 @@
           "name": "SLO",
           "countryCode": null,
           "title": "14607913",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "cze",
+          "name": "CZE",
+          "countryCode": null,
+          "title": "391662",
+          "fideId": null,
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1335005.aspx?lan=25&turdet=YES&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nam",
+          "name": "NAM",
+          "countryCode": null,
+          "title": "15200540",
           "fideId": null,
           "classicalRating": null,
           "profileLinks": {},
@@ -22251,6 +22250,7 @@
         "ivano-sunda",
         "vojko-mencinger",
         "vladimir-jr-bukal",
+        "mario-zovko",
         "marin-grgantov",
         "kataria-arun",
         "neboj-a-nikoli",
@@ -22333,7 +22333,9 @@
         "sebastian-sigvaldsen",
         "michel-van-houdt",
         "ivan-unjerga",
+        "cagan-toktas",
         "daniel-o-vollheim",
+        "josipa-zovko",
         "zlatko-katuli",
         "juraj-karkovi",
         "ime-lovrin-evi",
@@ -22371,12 +22373,9 @@
         "szymon-sobura",
         "roko-veki",
         "mustafa-u-upli",
+        "franc-soba",
         "tuure-maki-uuro",
-        "julia-stanowska",
-        "max-rauhut",
-        "manuel-raji",
-        "grzegorz-forysinski",
-        "benjamin-krstulovi"
+        "julia-stanowska"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
@@ -22427,6 +22426,7 @@
         "ivano-sunda",
         "vojko-mencinger",
         "vladimir-jr-bukal",
+        "mario-zovko",
         "marin-grgantov",
         "kataria-arun",
         "neboj-a-nikoli",
@@ -22509,7 +22509,9 @@
         "sebastian-sigvaldsen",
         "michel-van-houdt",
         "ivan-unjerga",
+        "cagan-toktas",
         "daniel-o-vollheim",
+        "josipa-zovko",
         "zlatko-katuli",
         "juraj-karkovi",
         "ime-lovrin-evi",
@@ -22547,12 +22549,9 @@
         "szymon-sobura",
         "roko-veki",
         "mustafa-u-upli",
+        "franc-soba",
         "tuure-maki-uuro",
-        "julia-stanowska",
-        "max-rauhut",
-        "manuel-raji",
-        "grzegorz-forysinski",
-        "benjamin-krstulovi"
+        "julia-stanowska"
       ],
       "confirmedPlayers": [
         {
@@ -22906,6 +22905,21 @@
           "countryCode": "CRO",
           "title": "IM",
           "fideId": "14502941",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "mario-zovko",
+          "name": "Mario Zovko",
+          "countryCode": "CRO",
+          "title": "FM",
+          "fideId": "14509237",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -24146,11 +24160,41 @@
           }
         },
         {
+          "playerId": "cagan-toktas",
+          "name": "Cagan Toktas",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "51682451",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "daniel-o-vollheim",
           "name": "Daniel O Vollheim",
           "countryCode": "NOR",
           "title": null,
           "fideId": "1569520",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "josipa-zovko",
+          "name": "Josipa Zovko",
+          "countryCode": "CRO",
+          "title": "MK",
+          "fideId": "14570009",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -24716,6 +24760,21 @@
           }
         },
         {
+          "playerId": "franc-soba",
+          "name": "Franc Soba",
+          "countryCode": "SLO",
+          "title": null,
+          "fideId": "14655322",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "tuure-maki-uuro",
           "name": "Tuure Maki-Uuro",
           "countryCode": "FIN",
@@ -24736,66 +24795,6 @@
           "countryCode": "POL",
           "title": null,
           "fideId": "21826242",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "max-rauhut",
-          "name": "Max Rauhut",
-          "countryCode": "GER",
-          "title": null,
-          "fideId": "16292545",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "manuel-raji",
-          "name": "Manuel Rajić",
-          "countryCode": "CRO",
-          "title": "V",
-          "fideId": "79304354",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "grzegorz-forysinski",
-          "name": "Grzegorz Forysinski",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "41873610",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "benjamin-krstulovi",
-          "name": "Benjamin Krstulović",
-          "countryCode": "CRO",
-          "title": "V",
-          "fideId": "79335136",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
