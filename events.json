@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T00:51:49Z",
+  "generatedAt": "2026-08-08T06:33:55Z",
   "eventCount": 83,
   "sources": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 34
     },
     {
       "name": "uschess",
@@ -484,7 +484,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Kuqa Belt And Road International Open 2026.",
-      "description": "122 listed players",
+      "description": "126 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -706,7 +706,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: FENAJ Ímpar 2026 - Clássico.",
-      "description": "14 listed players. 6 rounds",
+      "description": "17 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -960,18 +960,361 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-24th-spilimbergo-international-chess-tournament-8-15-aug-2026",
-      "title": "24th Spilimbergo International Chess Tournament",
-      "shortTitle": "24th Spilimbergo International Chess Tournament",
-      "status": "live",
-      "startDate": "2026-08-08T00:00:00Z",
-      "endDate": "2026-08-15T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Spilimbergo, Italy",
+      "id": "lichess-p0kprec0",
+      "title": "French Chess Championship 2026 | Accession",
+      "shortTitle": "French Chess Championship 2026 | Accession",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
       "isOnline": false,
-      "summary": "Upcoming chess tournament: 24th Spilimbergo International Chess Tournament.",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
       "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-accession/p0kPrEc0",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-accession/p0kPrEc0"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-2pduko5c",
+      "title": "French Chess Championship 2026 | Open A",
+      "shortTitle": "French Chess Championship 2026 | Open A",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-a/2Pduko5c",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-a/2Pduko5c"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-5gporavd",
+      "title": "French Chess Championship 2026 | Open B",
+      "shortTitle": "French Chess Championship 2026 | Open B",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-b/5GpOrAvd",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-b/5GpOrAvd"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-z4erhcxu",
+      "title": "French Chess Championship 2026 | Open C",
+      "shortTitle": "French Chess Championship 2026 | Open C",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-c/z4erHcXU",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-c/z4erHcXU"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-7z3t8kv1",
+      "title": "French Chess Championship 2026 | Open D",
+      "shortTitle": "French Chess Championship 2026 | Open D",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-d/7Z3t8kv1",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-d/7Z3t8kv1"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-kcgq4iec",
+      "title": "French Chess Championship 2026 | Open E",
+      "shortTitle": "French Chess Championship 2026 | Open E",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-e/kCgq4iEc",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-e/kCgq4iEc"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-p6orha1y",
+      "title": "French Chess Championship 2026 | Seniors Plus",
+      "shortTitle": "French Chess Championship 2026 | Seniors Plus",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-seniors-plus/p6OrhA1y",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-seniors-plus/p6OrhA1y"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-nehqamf3",
+      "title": "French Chess Championship 2026 | Vétérans",
+      "shortTitle": "French Chess Championship 2026 | Vétérans",
+      "status": "upcoming",
+      "startDate": "2026-08-08T13:15:00Z",
+      "endDate": "2026-08-16T08:15:00Z",
+      "timezone": "Europe/Paris",
+      "locationName": "Vichy, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-veterans/NehQAMF3",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/french-chess-championship-2026-veterans/NehQAMF3"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://vichy2026.ffechecs.org/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-27175",
+      "title": "24th Int. Chess Tournament Spilimbergo 2026",
+      "shortTitle": "24th Int. Chess Tournament Spilimbergo 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-08T14:00:00Z",
+      "endDate": "2026-08-15T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 24th Int. Chess Tournament Spilimbergo 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
         "classical",
         "otb"
       ],
@@ -1127,9 +1470,21 @@
         "pellizzieri-fabio-angelo",
         "aleksic-nenad"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/600",
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/24th-int-chess-tournament-spilimbergo-2026",
       "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/24th-int-chess-tournament-spilimbergo-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
         {
           "label": "Event listing",
           "type": "official",
@@ -1147,8 +1502,8 @@
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -3555,347 +3910,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "lichess-p0kprec0",
-      "title": "French Chess Championship 2026 | Accession",
-      "shortTitle": "French Chess Championship 2026 | Accession",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-accession/p0kPrEc0",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-accession/p0kPrEc0"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-2pduko5c",
-      "title": "French Chess Championship 2026 | Open A",
-      "shortTitle": "French Chess Championship 2026 | Open A",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-a/2Pduko5c",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-a/2Pduko5c"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-5gporavd",
-      "title": "French Chess Championship 2026 | Open B",
-      "shortTitle": "French Chess Championship 2026 | Open B",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-b/5GpOrAvd",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-b/5GpOrAvd"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-z4erhcxu",
-      "title": "French Chess Championship 2026 | Open C",
-      "shortTitle": "French Chess Championship 2026 | Open C",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-c/z4erHcXU",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-c/z4erHcXU"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-7z3t8kv1",
-      "title": "French Chess Championship 2026 | Open D",
-      "shortTitle": "French Chess Championship 2026 | Open D",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-d/7Z3t8kv1",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-d/7Z3t8kv1"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-kcgq4iec",
-      "title": "French Chess Championship 2026 | Open E",
-      "shortTitle": "French Chess Championship 2026 | Open E",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-e/kCgq4iEc",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-e/kCgq4iEc"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-p6orha1y",
-      "title": "French Chess Championship 2026 | Seniors Plus",
-      "shortTitle": "French Chess Championship 2026 | Seniors Plus",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-seniors-plus/p6OrhA1y",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-seniors-plus/p6OrhA1y"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-nehqamf3",
-      "title": "French Chess Championship 2026 | Vétérans",
-      "shortTitle": "French Chess Championship 2026 | Vétérans",
-      "status": "upcoming",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-veterans/NehQAMF3",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-veterans/NehQAMF3"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "chessaround-japan-chess-classic-2026-9-12-aug-2026",
