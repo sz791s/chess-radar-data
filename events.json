@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T00:56:32Z",
-  "eventCount": 83,
+  "generatedAt": "2026-08-11T06:46:53Z",
+  "eventCount": 84,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 36
+      "count": 37
     },
     {
       "name": "uschess",
@@ -1085,7 +1085,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 48th Tringov Memorial 2026.",
-      "description": "51 listed players. 9 rounds",
+      "description": "57 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1345,7 +1345,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Chinese Youth Team Chess Championship 2026.",
-      "description": "346 listed players",
+      "description": "354 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1362,6 +1362,47 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/2026-chinese-youth-team-chess-championship"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30039",
+      "title": "Hotel Stockholm North Young Talents 2026",
+      "shortTitle": "Hotel Stockholm North Young Talents 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-11T09:00:00Z",
+      "endDate": "2026-08-16T17:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Hotel Stockholm North Young Talents 2026.",
+      "description": "20 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/hotel-stockholm-north-young-talents-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/hotel-stockholm-north-young-talents-2026"
         },
         {
           "label": "Chess.com current events",
@@ -1421,38 +1462,43 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-vhkqsdua",
-      "title": "French Chess Championship 2026 | Open | Semifinals",
-      "shortTitle": "French Chess Championship 2026 | Open | Semifinals",
+      "id": "lichess-esn3aebz",
+      "title": "FIDE ISCF World Schools Team Championship 2026 | American Continental Stage",
+      "shortTitle": "FIDE ISCF World Schools Team Championship 2026 | American Continental Stage",
       "status": "upcoming",
-      "startDate": "2026-08-12T12:45:00Z",
-      "endDate": "2026-08-13T19:03:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
+      "startDate": "2026-08-11T17:40:00Z",
+      "endDate": "2026-08-15T19:40:00Z",
+      "timezone": "America/Costa_Rica",
+      "locationName": "San Jose, Costa Rica",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "16-player Knockout",
+      "description": "8 round Swiss",
       "categories": [
         "classical",
         "broadcast",
-        "open",
+        "team",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa",
+      "primaryUrl": "https://lichess.org/broadcast/fide-iscf-world-schools-team-championship-2026-american-continental-stage/esN3AEBZ",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa"
+          "url": "https://lichess.org/broadcast/fide-iscf-world-schools-team-championship-2026-american-continental-stage/esN3AEBZ"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
+          "url": "https://worldschoolteam2026.fide.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1473541.aspx?art=1"
         }
       ],
       "source": {
