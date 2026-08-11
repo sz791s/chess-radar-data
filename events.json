@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T18:42:02Z",
-  "eventCount": 82,
+  "generatedAt": "2026-08-11T00:56:32Z",
+  "eventCount": 83,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 35
+      "count": 36
     },
     {
       "name": "uschess",
@@ -125,48 +125,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/2026-rudar-round-robins"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29335",
-      "title": "50th Badalona International Open",
-      "shortTitle": "50th Badalona International Open",
-      "status": "live",
-      "startDate": "2026-08-02T15:00:00Z",
-      "endDate": "2026-08-10T19:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 50th Badalona International Open.",
-      "description": "84 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/50-obert-internacional-descacs-ciutat-de-badalona",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/50-obert-internacional-descacs-ciutat-de-badalona"
         },
         {
           "label": "Chess.com current events",
@@ -442,7 +400,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Moroccans Of The World Agadir 2026.",
-      "description": "159 listed players. 11 scheduled stream links",
+      "description": "205 listed players. 11 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -511,12 +469,53 @@
         {
           "label": "Blitz",
           "type": "stream",
-          "url": "https://www.youtube.com/d-eflgxXr6c"
+          "url": "https://www.youtube.com/UNVKly5yPOg"
         },
         {
           "label": "Rapid",
           "type": "stream",
           "url": "https://www.youtube.com/ChTdPCPAyVI"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30104",
+      "title": "9th Jugando Con Las Estrellas 2026",
+      "shortTitle": "9th Jugando Con Las Estrellas 2026",
+      "status": "live",
+      "startDate": "2026-08-07T14:00:00Z",
+      "endDate": "2026-08-14T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 9th Jugando Con Las Estrellas 2026.",
+      "description": "148 listed players. 10 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-jugando-con-las-estrellas",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-jugando-con-las-estrellas"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -538,7 +537,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Stare Mesto 2026.",
-      "description": "97 listed players. 5 rounds",
+      "description": "97 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1200,16 +1199,16 @@
     },
     {
       "id": "chesscom-29989",
-      "title": "VII Caraca Chess Open 2026 - STD",
-      "shortTitle": "VII Caraca Chess Open 2026 - STD",
+      "title": "7th Caraca Chess Open 2026",
+      "shortTitle": "7th Caraca Chess Open 2026",
       "status": "live",
       "startDate": "2026-08-10T17:00:00Z",
-      "endDate": "2026-08-13T16:00:00Z",
+      "endDate": "2026-08-13T23:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: VII Caraca Chess Open 2026 - STD.",
-      "description": "5 rounds",
+      "summary": "Chess.com current event: 7th Caraca Chess Open 2026.",
+      "description": "12 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1331,6 +1330,49 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30097",
+      "title": "Chinese Youth Team Chess Championship 2026",
+      "shortTitle": "Chinese Youth Team Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-08-10T22:45:00Z",
+      "endDate": "2026-08-15T06:45:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Chinese Youth Team Chess Championship 2026.",
+      "description": "346 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "team",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-chinese-youth-team-chess-championship",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-chinese-youth-team-chess-championship"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -6638,6 +6680,7 @@
         "anthony-petkidis",
         "shanty-jake",
         "dimitrios-papakonstantinou",
+        "petro-golubka",
         "stefanos-magkalakis",
         "alexandros-papasimakopoulos",
         "panayotis-papadopoulos",
@@ -6684,11 +6727,13 @@
         "ninoslav-milovanovic",
         "stavros-marinidis",
         "dimitra-alexandri",
+        "antonios-exarchos",
         "klearhos-gountras",
         "kemal-bulut",
         "anastasios-samakas",
         "savvas-konstantinides",
         "mehmet-emir-ozkan",
+        "laith-mulhem",
         "dimitra-amiridou",
         "konstantinos-dermatopoulos",
         "konstantinos-kamaretsos",
@@ -6696,6 +6741,7 @@
         "stavros-samakas",
         "ahmet-selim-abdurahman",
         "vasiliki-alexandri",
+        "recep-isik",
         "pantelis-lykouriotis",
         "vaia-tsekoura",
         "darshini-t-sri",
@@ -6776,11 +6822,7 @@
         "ioannis-st-nikolaidis",
         "evangelia-rapti",
         "kalliopi-eginoglou",
-        "stylianos-kakagiannis",
-        "andreas-odontopoulos",
-        "eirini-chaireti",
-        "dimitrios-botskaris",
-        "dimitrios-aggelos-tzellos"
+        "stylianos-kakagiannis"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -6814,6 +6856,7 @@
         "anthony-petkidis",
         "shanty-jake",
         "dimitrios-papakonstantinou",
+        "petro-golubka",
         "stefanos-magkalakis",
         "alexandros-papasimakopoulos",
         "panayotis-papadopoulos",
@@ -6860,11 +6903,13 @@
         "ninoslav-milovanovic",
         "stavros-marinidis",
         "dimitra-alexandri",
+        "antonios-exarchos",
         "klearhos-gountras",
         "kemal-bulut",
         "anastasios-samakas",
         "savvas-konstantinides",
         "mehmet-emir-ozkan",
+        "laith-mulhem",
         "dimitra-amiridou",
         "konstantinos-dermatopoulos",
         "konstantinos-kamaretsos",
@@ -6872,6 +6917,7 @@
         "stavros-samakas",
         "ahmet-selim-abdurahman",
         "vasiliki-alexandri",
+        "recep-isik",
         "pantelis-lykouriotis",
         "vaia-tsekoura",
         "darshini-t-sri",
@@ -6952,11 +6998,7 @@
         "ioannis-st-nikolaidis",
         "evangelia-rapti",
         "kalliopi-eginoglou",
-        "stylianos-kakagiannis",
-        "andreas-odontopoulos",
-        "eirini-chaireti",
-        "dimitrios-botskaris",
-        "dimitrios-aggelos-tzellos"
+        "stylianos-kakagiannis"
       ],
       "confirmedPlayers": [
         {
@@ -7055,6 +7097,21 @@
           "countryCode": "GRE",
           "title": "FM",
           "fideId": "4218655",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "petro-golubka",
+          "name": "Petro Golubka",
+          "countryCode": "CAN",
+          "title": "GM",
+          "fideId": "14114224",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -7755,6 +7812,21 @@
           }
         },
         {
+          "playerId": "antonios-exarchos",
+          "name": "Antonios Exarchos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42158117",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "klearhos-gountras",
           "name": "Klearhos Gountras",
           "countryCode": "GRE",
@@ -7820,6 +7892,21 @@
           "countryCode": "TUR",
           "title": null,
           "fideId": "44581858",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "laith-mulhem",
+          "name": "Laith. Mulhem",
+          "countryCode": "SYR",
+          "title": null,
+          "fideId": "7612648",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -7925,6 +8012,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42103606",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "recep-isik",
+          "name": "Recep Isik",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "6317073",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -9140,66 +9242,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42166829",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "andreas-odontopoulos",
-          "name": "Andreas Odontopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42198011",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eirini-chaireti",
-          "name": "Eirini Chaireti",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42191009",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitrios-botskaris",
-          "name": "Dimitrios Botskaris",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42173019",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitrios-aggelos-tzellos",
-          "name": "Dimitrios-Aggelos Tzellos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25807684",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
