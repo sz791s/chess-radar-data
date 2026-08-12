@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T12:43:01Z",
+  "generatedAt": "2026-08-12T18:47:13Z",
   "eventCount": 82,
   "sources": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 37
+      "count": 36
     },
     {
       "name": "uschess",
@@ -1043,7 +1043,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 75th Warsaw Chess Championship 2026.",
-      "description": "12 listed players. 9 rounds",
+      "description": "15 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1305,7 +1305,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish Team Championship 2nd Division South 2026.",
-      "description": "173 listed players. 7 rounds",
+      "description": "177 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1326,11 +1326,6 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-spanish-team-championship-2nd-division-north"
         }
       ],
       "source": {
@@ -1383,12 +1378,12 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-ptmqornl",
-      "title": "Esports World Cup 2026 | Group Stage | A",
-      "shortTitle": "Esports World Cup 2026 | Group Stage | A",
+      "id": "lichess-ivwt0xe8",
+      "title": "Esports World Cup 2026 | Group Stage | B",
+      "shortTitle": "Esports World Cup 2026 | Group Stage | B",
       "status": "live",
-      "startDate": "2026-08-12T10:00:00Z",
-      "endDate": "2026-08-13T13:20:00Z",
+      "startDate": "2026-08-12T12:20:00Z",
+      "endDate": "2026-08-13T15:40:00Z",
       "timezone": "Asia/Hong_Kong",
       "locationName": "Paris, France",
       "isOnline": false,
@@ -1404,17 +1399,22 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-group-stage-a/PTMqOrNL",
+      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-group-stage-b/IVWt0xe8",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/esports-world-cup-2026-group-stage-a/PTMqOrNL"
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-group-stage-b/IVWt0xe8"
         },
         {
           "label": "Official website",
           "type": "official",
           "url": "https://esportsworldcup.com/en/competitions/2026/chess"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-group-stage-a/PTMqOrNL"
         }
       ],
       "source": {
@@ -1429,7 +1429,7 @@
       "id": "lichess-esn3aebz",
       "title": "FIDE ISCF World Schools Team Championship 2026 | American Continental Stage",
       "shortTitle": "FIDE ISCF World Schools Team Championship 2026 | American Continental Stage",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-12T17:40:00Z",
       "endDate": "2026-08-15T19:40:00Z",
       "timezone": "America/Costa_Rica",
@@ -4298,8 +4298,10 @@
         "rodolfos-stamatiou",
         "siddhant-gawai",
         "kesaria-mgeladze",
+        "jain-sachi",
         "nikolaos-sandalakis",
         "yunqing-zhao",
+        "ramazan-tulegen",
         "parmar-paarshva",
         "panayotis-frendzas",
         "kagan-torun",
@@ -4317,8 +4319,10 @@
         "ashot-a-avetisyan",
         "ahmet-unal-gurel",
         "davit-melkonyan",
+        "tony-zhou",
         "janis-lutz",
         "yassine-rafik",
+        "ioannis-nikitakis",
         "antonios-spyrou",
         "konstantinos-diamantis",
         "ghali-elalmi",
@@ -4346,6 +4350,7 @@
         "emmanouil-kasiotis",
         "stavros-m-papadopoulos",
         "charidimos-vasilakis",
+        "christos-chasapis",
         "michail-georgi-diakidis-kostas",
         "rengina-tsampika-kaka",
         "har-georgiopoulos",
@@ -4378,6 +4383,7 @@
         "sotirios-gkougkoustamos",
         "tugrul-ege-keskin",
         "despoina-lamprianou",
+        "seyyid-mansur-akkaya",
         "yahor-balabolau",
         "katholiki-tsampika-barmpantoni",
         "mira-deniz-beler",
@@ -4429,13 +4435,7 @@
         "theodoros-patakas",
         "panormitis-patellis",
         "christina-tsampika-patinioti",
-        "michail-angelos-pavlidis",
-        "anastasia-perraki",
-        "agisilaos-marios-rados",
-        "karim-rizgy",
-        "cagin-alp-sengul",
-        "afroditi-skouta",
-        "michail-spanos"
+        "michail-angelos-pavlidis"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/637",
@@ -4474,8 +4474,10 @@
         "rodolfos-stamatiou",
         "siddhant-gawai",
         "kesaria-mgeladze",
+        "jain-sachi",
         "nikolaos-sandalakis",
         "yunqing-zhao",
+        "ramazan-tulegen",
         "parmar-paarshva",
         "panayotis-frendzas",
         "kagan-torun",
@@ -4493,8 +4495,10 @@
         "ashot-a-avetisyan",
         "ahmet-unal-gurel",
         "davit-melkonyan",
+        "tony-zhou",
         "janis-lutz",
         "yassine-rafik",
+        "ioannis-nikitakis",
         "antonios-spyrou",
         "konstantinos-diamantis",
         "ghali-elalmi",
@@ -4522,6 +4526,7 @@
         "emmanouil-kasiotis",
         "stavros-m-papadopoulos",
         "charidimos-vasilakis",
+        "christos-chasapis",
         "michail-georgi-diakidis-kostas",
         "rengina-tsampika-kaka",
         "har-georgiopoulos",
@@ -4554,6 +4559,7 @@
         "sotirios-gkougkoustamos",
         "tugrul-ege-keskin",
         "despoina-lamprianou",
+        "seyyid-mansur-akkaya",
         "yahor-balabolau",
         "katholiki-tsampika-barmpantoni",
         "mira-deniz-beler",
@@ -4605,13 +4611,7 @@
         "theodoros-patakas",
         "panormitis-patellis",
         "christina-tsampika-patinioti",
-        "michail-angelos-pavlidis",
-        "anastasia-perraki",
-        "agisilaos-marios-rados",
-        "karim-rizgy",
-        "cagin-alp-sengul",
-        "afroditi-skouta",
-        "michail-spanos"
+        "michail-angelos-pavlidis"
       ],
       "confirmedPlayers": [
         {
@@ -4795,6 +4795,21 @@
           }
         },
         {
+          "playerId": "jain-sachi",
+          "name": "Jain Sachi",
+          "countryCode": "IND",
+          "title": "WFM",
+          "fideId": "25974050",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "nikolaos-sandalakis",
           "name": "Nikolaos Sandalakis",
           "countryCode": "GRE",
@@ -4815,6 +4830,21 @@
           "countryCode": "CHN",
           "title": "WIM",
           "fideId": "8626260",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ramazan-tulegen",
+          "name": "Ramazan Tulegen",
+          "countryCode": "KAZ",
+          "title": "CM",
+          "fideId": "447009349",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5080,6 +5110,21 @@
           }
         },
         {
+          "playerId": "tony-zhou",
+          "name": "Tony Zhou",
+          "countryCode": "HKG",
+          "title": null,
+          "fideId": "6015549",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "janis-lutz",
           "name": "Janis Lutz",
           "countryCode": "SUI",
@@ -5100,6 +5145,21 @@
           "countryCode": "MAR",
           "title": null,
           "fideId": "9019634",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ioannis-nikitakis",
+          "name": "Ioannis Nikitakis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42188407",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5505,6 +5565,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42177987",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "christos-chasapis",
+          "name": "Christos Chasapis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25854542",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5985,6 +6060,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42153689",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "seyyid-mansur-akkaya",
+          "name": "Seyyid Mansur Akkaya",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "525042068",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6773,96 +6863,6 @@
             "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
-        },
-        {
-          "playerId": "anastasia-perraki",
-          "name": "Anastasia Perraki",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42177960",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "agisilaos-marios-rados",
-          "name": "Agisilaos Marios Rados",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541009975",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "karim-rizgy",
-          "name": "Karim Rizgy",
-          "countryCode": "MAR",
-          "title": null,
-          "fideId": "9048472",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "cagin-alp-sengul",
-          "name": "Cagin Alp Sengul",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "525003356",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "afroditi-skouta",
-          "name": "Afroditi Skouta",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42168104",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michail-spanos",
-          "name": "Michail Spanos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42199727",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
         }
       ]
     },
@@ -6983,6 +6983,7 @@
         "alexandros-iskos",
         "ioannis-tetepoulidis",
         "vasileios-sarantos",
+        "ioannis-tselepis",
         "aleksandar-tsolov",
         "dimitrios-exizoglou",
         "luka-kuntelia",
@@ -7090,8 +7091,7 @@
         "sofia-betsakou",
         "odysseas-chasiotis",
         "dimitra-tzovani",
-        "ioannis-noulis",
-        "osman-kutalp-barlin"
+        "ioannis-noulis"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -7159,6 +7159,7 @@
         "alexandros-iskos",
         "ioannis-tetepoulidis",
         "vasileios-sarantos",
+        "ioannis-tselepis",
         "aleksandar-tsolov",
         "dimitrios-exizoglou",
         "luka-kuntelia",
@@ -7266,8 +7267,7 @@
         "sofia-betsakou",
         "odysseas-chasiotis",
         "dimitra-tzovani",
-        "ioannis-noulis",
-        "osman-kutalp-barlin"
+        "ioannis-noulis"
       ],
       "confirmedPlayers": [
         {
@@ -7876,6 +7876,21 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "4203542",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ioannis-tselepis",
+          "name": "Ioannis Tselepis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42105323",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -9504,21 +9519,6 @@
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
-        },
-        {
-          "playerId": "osman-kutalp-barlin",
-          "name": "Osman Kutalp Barlin",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "525010891",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
         }
       ]
     },
@@ -10028,6 +10028,7 @@
         "miikka-maki-uuro",
         "alex-marjanovic",
         "marcel-milat",
+        "g-darshan",
         "branko-vujakovi",
         "darko-kurtovi",
         "lukas-meier",
@@ -10042,6 +10043,7 @@
         "bogdan-bo-inovi",
         "jakob-kelbl",
         "patryk-michalowski",
+        "k-k-gowtham",
         "imun-mrki",
         "laszlo-molnar",
         "romain-mariller",
@@ -10138,9 +10140,7 @@
         "julia-stanowska",
         "max-rauhut",
         "manuel-raji",
-        "grzegorz-forysinski",
-        "benjamin-krstulovi",
-        "martin-jonathan-meyer"
+        "grzegorz-forysinski"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
@@ -10204,6 +10204,7 @@
         "miikka-maki-uuro",
         "alex-marjanovic",
         "marcel-milat",
+        "g-darshan",
         "branko-vujakovi",
         "darko-kurtovi",
         "lukas-meier",
@@ -10218,6 +10219,7 @@
         "bogdan-bo-inovi",
         "jakob-kelbl",
         "patryk-michalowski",
+        "k-k-gowtham",
         "imun-mrki",
         "laszlo-molnar",
         "romain-mariller",
@@ -10314,9 +10316,7 @@
         "julia-stanowska",
         "max-rauhut",
         "manuel-raji",
-        "grzegorz-forysinski",
-        "benjamin-krstulovi",
-        "martin-jonathan-meyer"
+        "grzegorz-forysinski"
       ],
       "confirmedPlayers": [
         {
@@ -10875,6 +10875,21 @@
           }
         },
         {
+          "playerId": "g-darshan",
+          "name": "G Darshan",
+          "countryCode": "IND",
+          "title": "CM",
+          "fideId": "25157760",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "branko-vujakovi",
           "name": "Branko Vujaković",
           "countryCode": "CRO",
@@ -11075,6 +11090,21 @@
           "countryCode": "POL",
           "title": null,
           "fideId": "21871671",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "k-k-gowtham",
+          "name": "K K Gowtham",
+          "countryCode": "IND",
+          "title": null,
+          "fideId": "5096545",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -12530,36 +12560,6 @@
           "countryCode": "POL",
           "title": null,
           "fideId": "41873610",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "benjamin-krstulovi",
-          "name": "Benjamin Krstulović",
-          "countryCode": "CRO",
-          "title": "V",
-          "fideId": "79335136",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "martin-jonathan-meyer",
-          "name": "Martin Jonathan Meyer",
-          "countryCode": "GER",
-          "title": null,
-          "fideId": "34647406",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
