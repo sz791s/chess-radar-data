@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T01:03:02Z",
-  "eventCount": 84,
+  "generatedAt": "2026-08-12T07:07:24Z",
+  "eventCount": 83,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 38
+      "count": 37
     },
     {
       "name": "uschess",
@@ -495,7 +495,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Stare Mesto 2026.",
-      "description": "97 listed players. 6 rounds",
+      "description": "97 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -950,47 +950,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29331",
-      "title": "Japan Chess Classic 2026",
-      "shortTitle": "Japan Chess Classic 2026",
-      "status": "live",
-      "startDate": "2026-08-09T02:30:00Z",
-      "endDate": "2026-08-12T06:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Japan Chess Classic 2026.",
-      "description": "191 listed players. 7 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/japan-chess-classic-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/japan-chess-classic-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30046",
       "title": "PICA's All India Open 2026",
       "shortTitle": "PICA's All India Open 2026",
@@ -1424,38 +1383,38 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-vhkqsdua",
-      "title": "French Chess Championship 2026 | Open | Semifinals",
-      "shortTitle": "French Chess Championship 2026 | Open | Semifinals",
+      "id": "lichess-ptmqornl",
+      "title": "Esports World Cup 2026 | Group Stage | A",
+      "shortTitle": "Esports World Cup 2026 | Group Stage | A",
       "status": "upcoming",
-      "startDate": "2026-08-12T12:45:00Z",
-      "endDate": "2026-08-13T19:03:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
+      "startDate": "2026-08-12T10:00:00Z",
+      "endDate": "2026-08-12T10:00:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Paris, France",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "16-player Knockout",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
       "categories": [
         "classical",
         "broadcast",
-        "open",
+        "elite",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa",
+      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-group-stage-a/PTMqOrNL",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa"
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-group-stage-a/PTMqOrNL"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
+          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
         }
       ],
       "source": {
