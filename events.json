@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T07:07:24Z",
-  "eventCount": 83,
+  "generatedAt": "2026-08-12T12:43:01Z",
+  "eventCount": 82,
   "sources": [
     {
       "name": "curated",
@@ -1305,7 +1305,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Spanish Team Championship 2nd Division South 2026.",
-      "description": "145 listed players. 7 rounds",
+      "description": "173 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1386,9 +1386,9 @@
       "id": "lichess-ptmqornl",
       "title": "Esports World Cup 2026 | Group Stage | A",
       "shortTitle": "Esports World Cup 2026 | Group Stage | A",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-12T10:00:00Z",
-      "endDate": "2026-08-12T10:00:00Z",
+      "endDate": "2026-08-13T13:20:00Z",
       "timezone": "Asia/Hong_Kong",
       "locationName": "Paris, France",
       "isOnline": false,
@@ -1415,49 +1415,6 @@
           "label": "Official website",
           "type": "official",
           "url": "https://esportsworldcup.com/en/competitions/2026/chess"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-jxkrylmy",
-      "title": "French Chess Championship 2026 | Women | Semifinals",
-      "shortTitle": "French Chess Championship 2026 | Women | Semifinals",
-      "status": "upcoming",
-      "startDate": "2026-08-12T12:45:00Z",
-      "endDate": "2026-08-13T19:03:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "16-player Knockout",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-women-semifinals/JxKrYLmy",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-women-semifinals/JxKrYLmy"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
         }
       ],
       "source": {
@@ -7021,6 +6978,7 @@
         "kleanthis-vafiadis",
         "dimitrios-stoimenidis",
         "saadi-araoune",
+        "konstantinos-konstantinidis",
         "ghosh-saparya",
         "alexandros-iskos",
         "ioannis-tetepoulidis",
@@ -7058,6 +7016,7 @@
         "pantelis-lykouriotis",
         "vaia-tsekoura",
         "darshini-t-sri",
+        "anastasios-anagnostis-tzovanis",
         "ovgu-zengin",
         "mehmet-emir-alim",
         "pavel-krstevski",
@@ -7069,6 +7028,7 @@
         "stefanos-anthimos-chalioris",
         "georgios-vasilakopoulos",
         "sinem-cagla-gundogan",
+        "vasileios-polyzos",
         "konstantinos-zouroufidis",
         "georgios-koutsogoulas",
         "evagelos-kotsalis",
@@ -7102,6 +7062,7 @@
         "emmanouil-koutroupas",
         "konstantinos-nikolaos-kaldirimtzis",
         "charalampos-kyriakopoulos",
+        "ioannis-gioras",
         "irmak-somyurek",
         "petros-iliopoulos",
         "apostolos-kostoglou",
@@ -7128,13 +7089,9 @@
         "haralampos-betsakos",
         "sofia-betsakou",
         "odysseas-chasiotis",
+        "dimitra-tzovani",
         "ioannis-noulis",
-        "osman-kutalp-barlin",
-        "hristos-tsinopoulos",
-        "michail-ioannis-pantoulas",
-        "eleni-tzavara",
-        "stavroula-anastasopoulou",
-        "ariadni-georgiadou"
+        "osman-kutalp-barlin"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -7197,6 +7154,7 @@
         "kleanthis-vafiadis",
         "dimitrios-stoimenidis",
         "saadi-araoune",
+        "konstantinos-konstantinidis",
         "ghosh-saparya",
         "alexandros-iskos",
         "ioannis-tetepoulidis",
@@ -7234,6 +7192,7 @@
         "pantelis-lykouriotis",
         "vaia-tsekoura",
         "darshini-t-sri",
+        "anastasios-anagnostis-tzovanis",
         "ovgu-zengin",
         "mehmet-emir-alim",
         "pavel-krstevski",
@@ -7245,6 +7204,7 @@
         "stefanos-anthimos-chalioris",
         "georgios-vasilakopoulos",
         "sinem-cagla-gundogan",
+        "vasileios-polyzos",
         "konstantinos-zouroufidis",
         "georgios-koutsogoulas",
         "evagelos-kotsalis",
@@ -7278,6 +7238,7 @@
         "emmanouil-koutroupas",
         "konstantinos-nikolaos-kaldirimtzis",
         "charalampos-kyriakopoulos",
+        "ioannis-gioras",
         "irmak-somyurek",
         "petros-iliopoulos",
         "apostolos-kostoglou",
@@ -7304,13 +7265,9 @@
         "haralampos-betsakos",
         "sofia-betsakou",
         "odysseas-chasiotis",
+        "dimitra-tzovani",
         "ioannis-noulis",
-        "osman-kutalp-barlin",
-        "hristos-tsinopoulos",
-        "michail-ioannis-pantoulas",
-        "eleni-tzavara",
-        "stavroula-anastasopoulou",
-        "ariadni-georgiadou"
+        "osman-kutalp-barlin"
       ],
       "confirmedPlayers": [
         {
@@ -7844,6 +7801,21 @@
           "countryCode": "ALG",
           "title": "FM",
           "fideId": "7904169",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "konstantinos-konstantinidis",
+          "name": "Konstantinos Konstantinidis",
+          "countryCode": "CYP",
+          "title": null,
+          "fideId": "4216199",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -8409,6 +8381,21 @@
           }
         },
         {
+          "playerId": "anastasios-anagnostis-tzovanis",
+          "name": "Anastasios Anagnostis Tzovanis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25804464",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ovgu-zengin",
           "name": "Ovgu Zengin",
           "countryCode": "TUR",
@@ -8564,6 +8551,21 @@
           "countryCode": "TUR",
           "title": "WFM",
           "fideId": "6325378",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vasileios-polyzos",
+          "name": "Vasileios Polyzos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25885812",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -9069,6 +9071,21 @@
           }
         },
         {
+          "playerId": "ioannis-gioras",
+          "name": "Ioannis Gioras",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25810308",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "irmak-somyurek",
           "name": "Irmak Somyurek",
           "countryCode": "TUR",
@@ -9459,6 +9476,21 @@
           }
         },
         {
+          "playerId": "dimitra-tzovani",
+          "name": "Dimitra Tzovani",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25820630",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ioannis-noulis",
           "name": "Ioannis Noulis",
           "countryCode": "GRE",
@@ -9479,81 +9511,6 @@
           "countryCode": "TUR",
           "title": null,
           "fideId": "525010891",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "hristos-tsinopoulos",
-          "name": "Hristos Tsinopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25807676",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michail-ioannis-pantoulas",
-          "name": "Michail Ioannis Pantoulas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541000153",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eleni-tzavara",
-          "name": "Eleni Tzavara",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25809695",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stavroula-anastasopoulou",
-          "name": "Stavroula Anastasopoulou",
-          "countryCode": "GRE",
-          "title": "AFM",
-          "fideId": "42177235",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ariadni-georgiadou",
-          "name": "Ariadni Georgiadou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42134293",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
