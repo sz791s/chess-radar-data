@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T12:40:17Z",
-  "eventCount": 84,
+  "generatedAt": "2026-08-14T18:40:28Z",
+  "eventCount": 89,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 37
+      "count": 43
     },
     {
       "name": "uschess",
@@ -84,47 +84,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/open-cxxxvi-de-nau64"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-30074",
-      "title": "Rudar Round Robins 2026",
-      "shortTitle": "Rudar Round Robins 2026",
-      "status": "live",
-      "startDate": "2026-07-22T13:00:00Z",
-      "endDate": "2026-08-14T13:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Rudar Round Robins 2026.",
-      "description": "147 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-rudar-round-robins",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-rudar-round-robins"
         },
         {
           "label": "Chess.com current events",
@@ -178,54 +137,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-dbxz7lan",
-      "title": "European Junior Chess Championship 2026 | Girls",
-      "shortTitle": "European Junior Chess Championship 2026 | Girls",
-      "status": "live",
-      "startDate": "2026-08-06T13:15:00Z",
-      "endDate": "2026-08-15T12:15:00Z",
-      "timezone": "Europe/Podgorica",
-      "locationName": "Cetinje, Montenegro",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://sahcg.me/ejcc26/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -410,47 +321,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30104",
-      "title": "9th Jugando Con Las Estrellas 2026",
-      "shortTitle": "9th Jugando Con Las Estrellas 2026",
-      "status": "live",
-      "startDate": "2026-08-07T14:00:00Z",
-      "endDate": "2026-08-14T14:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 9th Jugando Con Las Estrellas 2026.",
-      "description": "148 listed players. 10 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-jugando-con-las-estrellas",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-jugando-con-las-estrellas"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-20924",
       "title": "Stare Mesto 2026",
       "shortTitle": "Stare Mesto 2026",
@@ -560,178 +430,6 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/french-chess-championship-2026-accession/p0kPrEc0"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-2pduko5c",
-      "title": "French Chess Championship 2026 | Open A",
-      "shortTitle": "French Chess Championship 2026 | Open A",
-      "status": "live",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-a/2Pduko5c",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-a/2Pduko5c"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-5gporavd",
-      "title": "French Chess Championship 2026 | Open B",
-      "shortTitle": "French Chess Championship 2026 | Open B",
-      "status": "live",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-b/5GpOrAvd",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-b/5GpOrAvd"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-z4erhcxu",
-      "title": "French Chess Championship 2026 | Open C",
-      "shortTitle": "French Chess Championship 2026 | Open C",
-      "status": "live",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-c/z4erHcXU",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-c/z4erHcXU"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-7z3t8kv1",
-      "title": "French Chess Championship 2026 | Open D",
-      "shortTitle": "French Chess Championship 2026 | Open D",
-      "status": "live",
-      "startDate": "2026-08-08T13:15:00Z",
-      "endDate": "2026-08-16T08:15:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-d/7Z3t8kv1",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-d/7Z3t8kv1"
         },
         {
           "label": "Official website",
@@ -926,7 +624,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 75th Warsaw Chess Championship 2026.",
-      "description": "17 listed players. 9 rounds",
+      "description": "18 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1249,7 +947,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: FISSM 2026 - U2200 Open Satu Mare.",
-      "description": "25 listed players. 7 rounds",
+      "description": "31 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1332,7 +1030,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Colombia Championship Semifinals 2026.",
-      "description": "132 listed players",
+      "description": "156 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1448,6 +1146,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30204",
+      "title": "Oscar Romero Open Hoorns Kampioenschap 2026",
+      "shortTitle": "Oscar Romero Open Hoorns Kampioenschap 2026",
+      "status": "live",
+      "startDate": "2026-08-14T03:00:00Z",
+      "endDate": "2026-08-16T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Oscar Romero Open Hoorns Kampioenschap 2026.",
+      "description": "20 listed players. 6 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/oscar-romero-open-hoorns-kampioenschap-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/oscar-romero-open-hoorns-kampioenschap-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-uodvglup",
       "title": "Esports World Cup 2026 | Playoffs",
       "shortTitle": "Esports World Cup 2026 | Playoffs",
@@ -1491,103 +1231,58 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-mrtxnt6y",
-      "title": "French Chess Championship 2026 | Open | Finals",
-      "shortTitle": "French Chess Championship 2026 | Open | Finals",
-      "status": "upcoming",
-      "startDate": "2026-08-14T12:45:00Z",
-      "endDate": "2026-08-16T10:03:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "16-player Knockout",
+      "id": "chesscom-30306",
+      "title": "36th Slovenian Chess Championship 2026",
+      "shortTitle": "36th Slovenian Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-08-14T14:15:00Z",
+      "endDate": "2026-08-21T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 36th Slovenian Chess Championship 2026.",
+      "description": "22 listed players. 9 rounds",
       "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-finals/mrtXNT6y",
+      "primaryUrl": "https://www.chess.com/events/info/2026-slovenian-chess-championship",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-finals/mrtXNT6y"
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-slovenian-chess-championship"
         },
         {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-yzijayjw",
-      "title": "French Chess Championship 2026 | Women | Finals",
-      "shortTitle": "French Chess Championship 2026 | Women | Finals",
-      "status": "upcoming",
-      "startDate": "2026-08-14T12:45:00Z",
-      "endDate": "2026-08-16T10:03:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "16-player Knockout",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-women-finals/yZIJaYjw",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-women-finals/yZIJaYjw"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
     },
     {
       "id": "chesscom-30042",
-      "title": "West Coast Chess Open by Mediegymnasiet",
-      "shortTitle": "West Coast Chess Open by Mediegymnasiet",
-      "status": "upcoming",
+      "title": "West Coast Chess Open By Mediegymnasiet",
+      "shortTitle": "West Coast Chess Open By Mediegymnasiet",
+      "status": "live",
       "startDate": "2026-08-14T16:35:00Z",
       "endDate": "2026-08-16T21:59:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: West Coast Chess Open by Mediegymnasiet.",
-      "description": "8 rounds",
+      "summary": "Chess.com current event: West Coast Chess Open By Mediegymnasiet.",
+      "description": "76 listed players. 8 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1622,7 +1317,7 @@
       "id": "chesscom-29853",
       "title": "Princeton Forrestal Open",
       "shortTitle": "Princeton Forrestal Open",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-14T17:00:00Z",
       "endDate": "2026-08-16T19:00:00Z",
       "timezone": "UTC",
@@ -1664,7 +1359,7 @@
       "id": "chesscom-29991",
       "title": "VII Caraca Chess Open - BLZ",
       "shortTitle": "VII Caraca Chess Open - BLZ",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-14T18:00:00Z",
       "endDate": "2026-08-14T22:00:00Z",
       "timezone": "UTC",
@@ -1698,6 +1393,548 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30216",
+      "title": "2026 Jesenik Open",
+      "shortTitle": "2026 Jesenik Open",
+      "status": "upcoming",
+      "startDate": "2026-08-14T22:00:00Z",
+      "endDate": "2026-08-23T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Jesenik Open.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-jesenik-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-jesenik-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30224",
+      "title": "Final del Circuito del Oeste 2026",
+      "shortTitle": "Final del Circuito del Oeste 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-14T22:00:00Z",
+      "endDate": "2026-08-16T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Final del Circuito del Oeste 2026.",
+      "description": "4 listed players. 3 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/final-del-circuito-del-oeste-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/final-del-circuito-del-oeste-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30225",
+      "title": "Match del Oeste MN",
+      "shortTitle": "Match del Oeste MN",
+      "status": "upcoming",
+      "startDate": "2026-08-14T22:00:00Z",
+      "endDate": "2026-08-16T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Match del Oeste MN.",
+      "description": "4 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/match-del-oeste-mn",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/match-del-oeste-mn"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28761",
+      "title": "Abu Dhabi Chess Festival 2026",
+      "shortTitle": "Abu Dhabi Chess Festival 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-15T02:00:00Z",
+      "endDate": "2026-08-24T08:55:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Abu Dhabi Chess Festival 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-abu-dhabi-chess-festival",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-abu-dhabi-chess-festival"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28782",
+      "title": "Kanizsa Open 2026",
+      "shortTitle": "Kanizsa Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-15T02:00:00Z",
+      "endDate": "2026-08-23T23:55:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Kanizsa Open 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/kanizsa-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/kanizsa-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-fgfpvoim",
+      "title": "Rubinstein Chess Festival 2026 - Open B",
+      "shortTitle": "Rubinstein Chess Festival 2026 - Open B",
+      "status": "upcoming",
+      "startDate": "2026-08-15T07:45:00Z",
+      "endDate": "2026-08-23T07:45:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Polanica Zdrój, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-b/FGfpvOIM",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-b/FGfpvOIM"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://rubinstein.dzszach.pl/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/tournaments/4867377933844480"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-jtic524x",
+      "title": "Rubinstein Chess Festival 2026 - Open D",
+      "shortTitle": "Rubinstein Chess Festival 2026 - Open D",
+      "status": "upcoming",
+      "startDate": "2026-08-15T07:45:00Z",
+      "endDate": "2026-08-23T07:45:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Polanica Zdrój, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-d/JTIc524x",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-d/JTIc524x"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://rubinstein.dzszach.pl/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/tournaments/4896903418085376"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-nxwudmsc",
+      "title": "Rubinstein Chess Festival 2026 - Open F",
+      "shortTitle": "Rubinstein Chess Festival 2026 - Open F",
+      "status": "upcoming",
+      "startDate": "2026-08-15T07:45:00Z",
+      "endDate": "2026-08-23T07:45:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Polanica Zdrój, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-f/NXWudmSc",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-f/NXWudmSc"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://rubinstein.dzszach.pl/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/tournaments/4860303787163648"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-lbdsl0v2",
+      "title": "Rubinstein Chess Festival 2026 - ALREH GM Round-Robin",
+      "shortTitle": "Rubinstein Chess Festival 2026 - ALREH GM Round-Robin",
+      "status": "upcoming",
+      "startDate": "2026-08-15T13:15:00Z",
+      "endDate": "2026-08-23T13:15:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Polanica Zdrój, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-alreh-gm-round-robin/LBdsl0V2",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-alreh-gm-round-robin/LBdsl0V2"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://rubinstein.dzszach.pl/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/tournaments/4906033813913600"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-zvtlbvk8",
+      "title": "Rubinstein Chess Festival 2026 - Open A",
+      "shortTitle": "Rubinstein Chess Festival 2026 - Open A",
+      "status": "upcoming",
+      "startDate": "2026-08-15T13:15:00Z",
+      "endDate": "2026-08-23T13:15:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Polanica Zdrój, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-a/ZvtLBvk8",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-a/ZvtLBvk8"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://rubinstein.dzszach.pl/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/tournaments/4867377933844480"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-zvy4w0fo",
+      "title": "Rubinstein Chess Festival 2026 - Open C",
+      "shortTitle": "Rubinstein Chess Festival 2026 - Open C",
+      "status": "upcoming",
+      "startDate": "2026-08-15T13:15:00Z",
+      "endDate": "2026-08-23T13:15:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Polanica Zdrój, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-c/ZVY4w0FO",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-c/ZVY4w0FO"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://rubinstein.dzszach.pl/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/tournaments/6228577288454144"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-wcgoif3g",
+      "title": "Rubinstein Chess Festival 2026 - Open E",
+      "shortTitle": "Rubinstein Chess Festival 2026 - Open E",
+      "status": "upcoming",
+      "startDate": "2026-08-15T13:15:00Z",
+      "endDate": "2026-08-23T13:15:00Z",
+      "timezone": "Europe/Warsaw",
+      "locationName": "Polanica Zdrój, Poland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-e/WcgoIF3G",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-open-e/WcgoIF3G"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://rubinstein.dzszach.pl/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://www.chessmanager.com/tournaments/5076077105643520"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1750,6 +1987,7 @@
         "petya-karaivanova",
         "anne-moingt",
         "veronika-vancakova",
+        "ladislav-vojtech",
         "tomas-hanak",
         "mavis-otrubova",
         "dawid-falkowski",
@@ -1772,6 +2010,7 @@
         "kristyna-dorazilova",
         "ivo-vymetalik",
         "michal-kalod",
+        "jan-knapek",
         "vaclav-novak",
         "lukas-smekal",
         "bora-yagiz",
@@ -1784,7 +2023,9 @@
         "deha-zengin",
         "antoni-stepien",
         "polina-ni",
+        "skirmantas-barbsys",
         "ondrej-kasparek",
+        "vejas-cepauskas",
         "gerben-van-der-heide",
         "jachym-vorlik",
         "monika-neumanova",
@@ -1793,9 +2034,9 @@
         "petr-karlik",
         "evert-drijver",
         "martin-slezar",
-        "adam-maj",
         "daria-cieplak",
         "adam-koranda",
+        "pavel-hampl",
         "ondrej-valik",
         "ignacy-lukasiewicz",
         "antonin-vrchotka",
@@ -1813,6 +2054,7 @@
         "maciej-kulpinski",
         "fedde-verf",
         "vadim-myachin",
+        "zdenek-rejzek",
         "nikita-sokolovs",
         "sarka-marxova",
         "radek-vokac",
@@ -1835,15 +2077,17 @@
         "min-han-hsieh",
         "zofie-drahosova",
         "anna-drahosova",
-        "ondrej-pacin",
+        "gabriela-sochorova",
         "ajay-patel-rayna",
         "martin-klimes",
+        "ondrej-rejzek",
         "petr-boleslav",
         "radek-peska",
         "wiktor-kiszkiel",
         "manfred-libal",
         "julia-muller-moingt",
         "aleksander-brzozka",
+        "yannick-jaehn",
         "blanka-cieplak",
         "augustin-carpentier",
         "petr-vorlik",
@@ -1859,12 +2103,9 @@
         "petr-lausman",
         "ola-beskow",
         "amelie-carpentier",
-        "mikul-kop-iva",
+        "mikulas-kopriva",
         "antoni-kulpinski",
-        "wojciech-partyka",
-        "marek-partyka",
-        "cong-zhe-qiu",
-        "simin-zheng"
+        "wojciech-partyka"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/553",
@@ -1922,6 +2163,7 @@
         "petya-karaivanova",
         "anne-moingt",
         "veronika-vancakova",
+        "ladislav-vojtech",
         "tomas-hanak",
         "mavis-otrubova",
         "dawid-falkowski",
@@ -1944,6 +2186,7 @@
         "kristyna-dorazilova",
         "ivo-vymetalik",
         "michal-kalod",
+        "jan-knapek",
         "vaclav-novak",
         "lukas-smekal",
         "bora-yagiz",
@@ -1956,7 +2199,9 @@
         "deha-zengin",
         "antoni-stepien",
         "polina-ni",
+        "skirmantas-barbsys",
         "ondrej-kasparek",
+        "vejas-cepauskas",
         "gerben-van-der-heide",
         "jachym-vorlik",
         "monika-neumanova",
@@ -1965,9 +2210,9 @@
         "petr-karlik",
         "evert-drijver",
         "martin-slezar",
-        "adam-maj",
         "daria-cieplak",
         "adam-koranda",
+        "pavel-hampl",
         "ondrej-valik",
         "ignacy-lukasiewicz",
         "antonin-vrchotka",
@@ -1985,6 +2230,7 @@
         "maciej-kulpinski",
         "fedde-verf",
         "vadim-myachin",
+        "zdenek-rejzek",
         "nikita-sokolovs",
         "sarka-marxova",
         "radek-vokac",
@@ -2007,15 +2253,17 @@
         "min-han-hsieh",
         "zofie-drahosova",
         "anna-drahosova",
-        "ondrej-pacin",
+        "gabriela-sochorova",
         "ajay-patel-rayna",
         "martin-klimes",
+        "ondrej-rejzek",
         "petr-boleslav",
         "radek-peska",
         "wiktor-kiszkiel",
         "manfred-libal",
         "julia-muller-moingt",
         "aleksander-brzozka",
+        "yannick-jaehn",
         "blanka-cieplak",
         "augustin-carpentier",
         "petr-vorlik",
@@ -2031,12 +2279,9 @@
         "petr-lausman",
         "ola-beskow",
         "amelie-carpentier",
-        "mikul-kop-iva",
+        "mikulas-kopriva",
         "antoni-kulpinski",
-        "wojciech-partyka",
-        "marek-partyka",
-        "cong-zhe-qiu",
-        "simin-zheng"
+        "wojciech-partyka"
       ],
       "confirmedPlayers": [
         {
@@ -2505,6 +2750,21 @@
           }
         },
         {
+          "playerId": "ladislav-vojtech",
+          "name": "Ladislav Vojtech",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23760362",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "tomas-hanak",
           "name": "Tomas Hanak",
           "countryCode": "CZE",
@@ -2835,6 +3095,21 @@
           }
         },
         {
+          "playerId": "jan-knapek",
+          "name": "Jan Knapek",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23734329",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "vaclav-novak",
           "name": "Vaclav Novak",
           "countryCode": "CZE",
@@ -3015,11 +3290,41 @@
           }
         },
         {
+          "playerId": "skirmantas-barbsys",
+          "name": "Skirmantas Barbsys",
+          "countryCode": "LTU",
+          "title": null,
+          "fideId": "12861812",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "ondrej-kasparek",
           "name": "Ondrej Kasparek",
           "countryCode": "CZE",
           "title": null,
           "fideId": "303542",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "vejas-cepauskas",
+          "name": "Vejas Cepauskas",
+          "countryCode": "LTU",
+          "title": null,
+          "fideId": "12856037",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3150,21 +3455,6 @@
           }
         },
         {
-          "playerId": "adam-maj",
-          "name": "Adam Maj",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "41830334",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "daria-cieplak",
           "name": "Daria Cieplak",
           "countryCode": "POL",
@@ -3185,6 +3475,21 @@
           "countryCode": "CZE",
           "title": null,
           "fideId": "23767227",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "pavel-hampl",
+          "name": "Pavel Hampl",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23713780",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3440,6 +3745,21 @@
           "countryCode": "FID",
           "title": null,
           "fideId": "13539248",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "zdenek-rejzek",
+          "name": "Zdenek Rejzek",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23778741",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3780,11 +4100,11 @@
           }
         },
         {
-          "playerId": "ondrej-pacin",
-          "name": "Ondrej Pacin",
-          "countryCode": "CAN",
+          "playerId": "gabriela-sochorova",
+          "name": "Gabriela Sochorova",
+          "countryCode": "CZE",
           "title": null,
-          "fideId": "2660083",
+          "fideId": "23777419",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3815,6 +4135,21 @@
           "countryCode": "CZE",
           "title": null,
           "fideId": "23746017",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ondrej-rejzek",
+          "name": "Ondrej Rejzek",
+          "countryCode": "CZE",
+          "title": null,
+          "fideId": "23778733",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3905,6 +4240,21 @@
           "countryCode": "POL",
           "title": null,
           "fideId": "91183715",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "yannick-jaehn",
+          "name": "Yannick Jaehn",
+          "countryCode": "GER",
+          "title": null,
+          "fideId": "533011869",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4140,8 +4490,8 @@
           }
         },
         {
-          "playerId": "mikul-kop-iva",
-          "name": "Mikuláš Kopřiva",
+          "playerId": "mikulas-kopriva",
+          "name": "Mikulas Kopriva",
           "countryCode": "CZE",
           "title": null,
           "fideId": null,
@@ -4175,51 +4525,6 @@
           "countryCode": "POL",
           "title": null,
           "fideId": "21881073",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "marek-partyka",
-          "name": "Marek Partyka",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "91169470",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "cong-zhe-qiu",
-          "name": "Cong-Zhe Qiu",
-          "countryCode": "TPE",
-          "title": null,
-          "fideId": "16306910",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s2.chess-results.com/Tnr1358049.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "simin-zheng",
-          "name": "Simin Zheng",
-          "countryCode": "CHN",
-          "title": null,
-          "fideId": "8660239",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
