@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T18:48:00Z",
+  "generatedAt": "2026-08-14T01:03:07Z",
   "eventCount": 83,
   "sources": [
     {
@@ -178,6 +178,103 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-dbxz7lan",
+      "title": "European Junior Chess Championship 2026 | Girls",
+      "shortTitle": "European Junior Chess Championship 2026 | Girls",
+      "status": "live",
+      "startDate": "2026-08-06T13:15:00Z",
+      "endDate": "2026-08-15T12:15:00Z",
+      "timezone": "Europe/Podgorica",
+      "locationName": "Cetinje, Montenegro",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-girls/DBXZ7lan"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://sahcg.me/ejcc26/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-8vbsfwaf",
+      "title": "European Junior Chess Championship 2026 | Open",
+      "shortTitle": "European Junior Chess Championship 2026 | Open",
+      "status": "live",
+      "startDate": "2026-08-06T13:15:00Z",
+      "endDate": "2026-08-15T12:15:00Z",
+      "timezone": "Europe/Podgorica",
+      "locationName": "Cetinje, Montenegro",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://sahcg.me/ejcc26/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -454,7 +551,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Stare Mesto 2026.",
-      "description": "97 listed players. 8 rounds",
+      "description": "97 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1033,48 +1130,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29989",
-      "title": "7th Caraca Chess Open 2026",
-      "shortTitle": "7th Caraca Chess Open 2026",
-      "status": "live",
-      "startDate": "2026-08-10T17:00:00Z",
-      "endDate": "2026-08-13T23:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 7th Caraca Chess Open 2026.",
-      "description": "13 listed players. 5 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/vii-caraca-chess-open-2026-std",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/vii-caraca-chess-open-2026-std"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-xkh8xaip",
       "title": "2026 Cairns Cup",
       "shortTitle": "2026 Cairns Cup",
@@ -1296,92 +1351,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-vhkqsdua",
-      "title": "French Chess Championship 2026 | Open | Semifinals",
-      "shortTitle": "French Chess Championship 2026 | Open | Semifinals",
-      "status": "live",
-      "startDate": "2026-08-12T12:45:00Z",
-      "endDate": "2026-08-13T19:03:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "16-player Knockout",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-open-semifinals/VHKQsDUa"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-jxkrylmy",
-      "title": "French Chess Championship 2026 | Women | Semifinals",
-      "shortTitle": "French Chess Championship 2026 | Women | Semifinals",
-      "status": "live",
-      "startDate": "2026-08-12T12:45:00Z",
-      "endDate": "2026-08-13T19:03:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Vichy, France",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "16-player Knockout",
-      "categories": [
-        "classical",
-        "broadcast",
-        "women",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/french-chess-championship-2026-women-semifinals/JxKrYLmy",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/french-chess-championship-2026-women-semifinals/JxKrYLmy"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://vichy2026.ffechecs.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-esn3aebz",
       "title": "FIDE ISCF World Schools Team Championship 2026 | American Continental Stage",
       "shortTitle": "FIDE ISCF World Schools Team Championship 2026 | American Continental Stage",
@@ -1485,10 +1454,51 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30205",
+      "title": "Colombia Championship Semifinals 2026",
+      "shortTitle": "Colombia Championship Semifinals 2026",
+      "status": "live",
+      "startDate": "2026-08-13T21:00:00Z",
+      "endDate": "2026-08-17T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Colombia Championship Semifinals 2026.",
+      "description": "126 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-colombia-championship-semifinals",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-colombia-championship-semifinals"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30134",
       "title": "2026 Austrian National Championship",
       "shortTitle": "2026 Austrian National Championship",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-13T22:00:00Z",
       "endDate": "2026-08-23T20:00:00Z",
       "timezone": "UTC",
@@ -1529,7 +1539,7 @@
       "id": "chessaround-62-mi-dzynarodowy-festiwal-szachowy-im-akiby-rubinsteina-14-23-aug-2026",
       "title": "62. Międzynarodowy Festiwal Szachowy im. Akiby Rubinsteina",
       "shortTitle": "62. Międzynarodowy Festiwal Szachowy im. Akiby Rubinsteina",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-14T00:00:00Z",
       "endDate": "2026-08-23T23:59:59Z",
       "timezone": "UTC",
