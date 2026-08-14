@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T01:03:07Z",
-  "eventCount": 83,
+  "generatedAt": "2026-08-14T07:08:20Z",
+  "eventCount": 84,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 36
+      "count": 37
     },
     {
       "name": "uschess",
@@ -226,96 +226,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-8vbsfwaf",
-      "title": "European Junior Chess Championship 2026 | Open",
-      "shortTitle": "European Junior Chess Championship 2026 | Open",
-      "status": "live",
-      "startDate": "2026-08-06T13:15:00Z",
-      "endDate": "2026-08-15T12:15:00Z",
-      "timezone": "Europe/Podgorica",
-      "locationName": "Cetinje, Montenegro",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/european-junior-chess-championship-2026-open/8vBsfwaf"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://sahcg.me/ejcc26/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1433795.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-30072",
-      "title": "Quebec Invitational Championship 2026",
-      "shortTitle": "Quebec Invitational Championship 2026",
-      "status": "live",
-      "startDate": "2026-08-06T20:00:00Z",
-      "endDate": "2026-08-14T03:30:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Quebec Invitational Championship 2026.",
-      "description": "11 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-quebec-invitational-championship",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-quebec-invitational-championship"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1089,6 +999,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30247",
+      "title": "Næstved City Rapid Championship",
+      "shortTitle": "Næstved City Rapid Championship",
+      "status": "live",
+      "startDate": "2026-08-10T08:00:00Z",
+      "endDate": "2026-08-17T10:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Næstved City Rapid Championship.",
+      "description": "8 rounds",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/nstved-city-rapid-championship",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/nstved-city-rapid-championship"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-29813",
       "title": "FISSM IM Tournament 2026",
       "shortTitle": "FISSM IM Tournament 2026",
@@ -1422,7 +1374,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: FISSM 2026 -Open U2200 Satu Mare.",
-      "description": "18 listed players. 7 rounds",
+      "description": "25 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1454,6 +1406,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30215",
+      "title": "2026 Madagascar Championship Open",
+      "shortTitle": "2026 Madagascar Championship Open",
+      "status": "live",
+      "startDate": "2026-08-13T21:00:00Z",
+      "endDate": "2026-08-17T19:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Madagascar Championship Open.",
+      "description": "7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-madagascar-championship-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-madagascar-championship-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30205",
       "title": "Colombia Championship Semifinals 2026",
       "shortTitle": "Colombia Championship Semifinals 2026",
@@ -1464,7 +1458,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Colombia Championship Semifinals 2026.",
-      "description": "126 listed players",
+      "description": "132 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1575,6 +1569,49 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-uodvglup",
+      "title": "Esports World Cup 2026 | Playoffs",
+      "shortTitle": "Esports World Cup 2026 | Playoffs",
+      "status": "upcoming",
+      "startDate": "2026-08-14T11:00:00Z",
+      "endDate": "2026-08-15T11:00:00Z",
+      "timezone": "Asia/Hong_Kong",
+      "locationName": "Paris, France",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "8-player Knockout",
+      "categories": [
+        "classical",
+        "broadcast",
+        "elite",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/esports-world-cup-2026-playoffs/UodVgLup",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/esports-world-cup-2026-playoffs/UodVgLup"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://esportsworldcup.com/en/competitions/2026/chess"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
