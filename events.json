@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T00:37:55Z",
-  "eventCount": 88,
+  "generatedAt": "2026-08-15T06:20:00Z",
+  "eventCount": 91,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 43
+      "count": 46
     },
     {
       "name": "uschess",
@@ -84,47 +84,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/open-cxxxvi-de-nau64"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-29994",
-      "title": "Budapest One Week 2026 August",
-      "shortTitle": "Budapest One Week 2026 August",
-      "status": "live",
-      "startDate": "2026-08-07T05:00:00Z",
-      "endDate": "2026-08-15T05:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Budapest One Week 2026 August.",
-      "description": "40 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/budapest-one-week-2026-august",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/budapest-one-week-2026-august"
         },
         {
           "label": "Chess.com current events",
@@ -289,7 +248,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Stare Mesto 2026.",
-      "description": "97 listed players. 9 rounds",
+      "description": "97 listed players. 10 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -988,7 +947,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Colombia Championship Semifinals 2026.",
-      "description": "156 listed players",
+      "description": "158 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1155,7 +1114,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 36th Slovenian Chess Championship 2026.",
-      "description": "22 listed players. 9 rounds",
+      "description": "52 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -5576,7 +5535,7 @@
       "id": "chesscom-28761",
       "title": "Abu Dhabi Chess Festival 2026",
       "shortTitle": "Abu Dhabi Chess Festival 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-15T02:00:00Z",
       "endDate": "2026-08-24T08:55:00Z",
       "timezone": "UTC",
@@ -5617,7 +5576,7 @@
       "id": "chesscom-28782",
       "title": "Kanizsa Open 2026",
       "shortTitle": "Kanizsa Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-15T02:00:00Z",
       "endDate": "2026-08-23T23:55:00Z",
       "timezone": "UTC",
@@ -5659,7 +5618,7 @@
       "id": "chesscom-30318",
       "title": "Madhya Pradesh State Junior Championship 2026",
       "shortTitle": "Madhya Pradesh State Junior Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-15T03:30:00Z",
       "endDate": "2026-08-18T16:30:00Z",
       "timezone": "UTC",
@@ -5837,6 +5796,171 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30146",
+      "title": "Chessbattle Summer Cup",
+      "shortTitle": "Chessbattle Summer Cup",
+      "status": "upcoming",
+      "startDate": "2026-08-15T10:00:00Z",
+      "endDate": "2026-08-23T16:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Chessbattle Summer Cup.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/chessbattle-summer-cup",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/chessbattle-summer-cup"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29817",
+      "title": "62nd Rubinstein Memorial 2026",
+      "shortTitle": "62nd Rubinstein Memorial 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-15T11:00:00Z",
+      "endDate": "2026-08-23T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 62nd Rubinstein Memorial 2026.",
+      "description": "34 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/62nd-rubinstein-memorial-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/62nd-rubinstein-memorial-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29827",
+      "title": "Austrian Chess Championship 2026",
+      "shortTitle": "Austrian Chess Championship 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-15T11:00:00Z",
+      "endDate": "2026-08-23T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Austrian Chess Championship 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/austrian-chess-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/austrian-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29990",
+      "title": "VII Caraca Chess Open - RPD",
+      "shortTitle": "VII Caraca Chess Open - RPD",
+      "status": "upcoming",
+      "startDate": "2026-08-15T12:30:00Z",
+      "endDate": "2026-08-16T12:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: VII Caraca Chess Open - RPD.",
+      "description": "7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/vii-caraca-chess-open-rpd",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/vii-caraca-chess-open-rpd"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
