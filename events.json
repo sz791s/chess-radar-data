@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T12:21:48Z",
-  "eventCount": 73,
+  "generatedAt": "2026-08-17T18:22:46Z",
+  "eventCount": 77,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 37
     },
     {
       "name": "uschess",
@@ -190,6 +190,47 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30391",
+      "title": "Wurttemberg Individual Championship 2026",
+      "shortTitle": "Wurttemberg Individual Championship 2026",
+      "status": "live",
+      "startDate": "2026-08-12T12:30:00Z",
+      "endDate": "2026-08-23T07:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Wurttemberg Individual Championship 2026.",
+      "description": "54 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/wurttemberg-individual-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/wurttemberg-individual-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -542,6 +583,47 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30386",
+      "title": "2026 Smuk Skak GM Tournament",
+      "shortTitle": "2026 Smuk Skak GM Tournament",
+      "status": "live",
+      "startDate": "2026-08-15T08:00:00Z",
+      "endDate": "2026-08-23T16:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Smuk Skak GM Tournament.",
+      "description": "10 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-smuk-skak-gm-tournament",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-smuk-skak-gm-tournament"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -967,7 +1049,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Olomouc Chess Summer 2026.",
-      "description": "106 listed players",
+      "description": "131 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1132,7 +1214,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5th Kingston Invitational Cup.",
-      "description": "9 rounds",
+      "description": "81 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1163,46 +1245,28 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-tr76dbrm",
-      "title": "III Torneo Internacional El Campello",
-      "shortTitle": "III Torneo Internacional El Campello",
-      "status": "upcoming",
-      "startDate": "2026-08-17T15:00:00Z",
-      "endDate": "2026-08-19T17:00:00Z",
-      "timezone": "Europe/Madrid",
-      "locationName": "El Campello (Alicante), Spain",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
+      "id": "chesscom-30368",
+      "title": "El Campello Open 2026",
+      "shortTitle": "El Campello Open 2026",
+      "status": "live",
+      "startDate": "2026-08-17T08:00:00Z",
+      "endDate": "2026-08-19T08:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: El Campello Open 2026.",
+      "description": "24 listed players. 6 rounds",
       "categories": [
-        "classical",
-        "broadcast",
-        "otb",
         "online",
+        "broadcast",
         "open"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
         "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/iii-torneo-internacional-el-campello/tR76dbRm",
+      "primaryUrl": "https://www.chess.com/events/info/el-campello-open-2026",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/iii-torneo-internacional-el-campello/tR76dbRm"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.facv.org/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://info64.org/iii-torneo-internacional-el-campello/standings"
-        },
         {
           "label": "Chess.com event",
           "type": "official",
@@ -1215,9 +1279,51 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30223",
+      "title": "23. Rheinland-Pfalz Senior Open",
+      "shortTitle": "23. Rheinland-Pfalz Senior Open",
+      "status": "upcoming",
+      "startDate": "2026-08-17T22:00:00Z",
+      "endDate": "2026-08-26T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 23. Rheinland-Pfalz Senior Open.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/23-rheinland-pfalz-senior-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/23-rheinland-pfalz-senior-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1257,48 +1363,6 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-i5kt3rfq",
-      "title": "Marshall Masters 2026 | August",
-      "shortTitle": "Marshall Masters 2026 | August",
-      "status": "upcoming",
-      "startDate": "2026-08-18T23:05:00Z",
-      "endDate": "2026-08-18T23:05:00Z",
-      "timezone": "America/New_York",
-      "locationName": "New York, United States",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "4-round Swiss",
-      "categories": [
-        "rapid",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/marshall-masters-2026-august/I5kt3RfQ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/marshall-masters-2026-august/I5kt3RfQ"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.marshallchessclub.org/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -6718,6 +6782,95 @@
         "name": "chessbase",
         "url": "https://en.chessbase.com/post/chess-calendar-2026",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-ztz7pt1u",
+      "title": "Mülheimer 5 Tagesnorm 2026 | GM-Norm",
+      "shortTitle": "Mülheimer 5 Tagesnorm 2026 | GM-Norm",
+      "status": "upcoming",
+      "startDate": "2026-09-05T09:15:00Z",
+      "endDate": "2026-09-09T09:15:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Mülheim an der Ruhr, Germany",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10 player round robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/mulheimer-5-tagesnorm-2026-gm-norm/ZtZ7pT1U",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/mulheimer-5-tagesnorm-2026-gm-norm/ZtZ7pT1U"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://svmuelheimnord.de/turniere/muelheimer-5-tagesnorm-2026/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1477893.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-wqfidtwj",
+      "title": "Mülheimer 5 Tagesnorm 2026 | IM-Norm",
+      "shortTitle": "Mülheimer 5 Tagesnorm 2026 | IM-Norm",
+      "status": "upcoming",
+      "startDate": "2026-09-05T09:15:00Z",
+      "endDate": "2026-09-09T09:15:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Mülheim an der Ruhr, Germany",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10 player round robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/mulheimer-5-tagesnorm-2026-im-norm/WQFidtWJ",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/mulheimer-5-tagesnorm-2026-im-norm/WQFidtWJ"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://svmuelheimnord.de/turniere/muelheimer-5-tagesnorm-2026/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
