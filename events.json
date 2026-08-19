@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T06:25:27Z",
-  "eventCount": 159,
+  "generatedAt": "2026-08-19T12:23:12Z",
+  "eventCount": 77,
   "sources": [
     {
       "name": "curated",
@@ -14,8 +14,9 @@
     },
     {
       "name": "fide",
-      "status": "ok",
-      "count": 349
+      "status": "error",
+      "count": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "name": "chessbase",
@@ -47,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 36
+      "count": 35
     },
     {
       "name": "uschess",
@@ -56,129 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "fide-gct-finals-29-jul-28-aug",
-      "title": "GCT Finals",
-      "shortTitle": "GCT Finals",
-      "status": "live",
-      "startDate": "2026-07-29T00:00:00Z",
-      "endDate": "2026-08-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Saint Louis, Missouri, USA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: GCT Finals.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=10677",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=10677"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-saint-louis-blitz-29-jul-28-aug",
-      "title": "Saint Louis Blitz",
-      "shortTitle": "Saint Louis Blitz",
-      "status": "live",
-      "startDate": "2026-07-29T00:00:00Z",
-      "endDate": "2026-08-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Saint Louis, Missouri, USA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Saint Louis Blitz.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=10675",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=10675"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-saint-louis-rapid-29-jul-28-aug",
-      "title": "Saint Louis Rapid",
-      "shortTitle": "Saint Louis Rapid",
-      "status": "live",
-      "startDate": "2026-07-29T00:00:00Z",
-      "endDate": "2026-08-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Saint Louis, Missouri, USA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Saint Louis Rapid.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=10674",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=10674"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "lichess-xkh8xaip",
       "title": "2026 Cairns Cup",
@@ -198,8 +76,7 @@
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
-        "fide"
+        "lichess"
       ],
       "primaryUrl": "https://lichess.org/broadcast/2026-cairns-cup/Xkh8XaIP",
       "links": [
@@ -212,16 +89,6 @@
           "label": "Official website",
           "type": "official",
           "url": "https://saintlouischessclub.org/event/2026-cairns-cup/"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13839"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -404,231 +271,6 @@
       "source": {
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-32ndabu-dhabi-international-chess-festival-15-24-aug",
-      "title": "32ndABU DHABI INTERNATIONAL CHESS FESTIVAL",
-      "shortTitle": "32ndABU DHABI INTERNATIONAL CHESS FESTIVAL",
-      "status": "live",
-      "startDate": "2026-08-15T00:00:00Z",
-      "endDate": "2026-08-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Abu Dhabi, UAE",
-      "isOnline": true,
-      "summary": "FIDE calendar event: 32ndABU DHABI INTERNATIONAL CHESS FESTIVAL.",
-      "description": "Platform:",
-      "categories": [
-        "online"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18041",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18041"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-35-k-rntner-schachsommer-15-22-aug",
-      "title": "35. Kärntner Schachsommer",
-      "shortTitle": "35. Kärntner Schachsommer",
-      "status": "live",
-      "startDate": "2026-08-15T00:00:00Z",
-      "endDate": "2026-08-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Feistritz Drau, AUT",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 35. Kärntner Schachsommer.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13733",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13733"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-brasschaat-open-15-23-aug",
-      "title": "Brasschaat Open",
-      "shortTitle": "Brasschaat Open",
-      "status": "live",
-      "startDate": "2026-08-15T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Brasschaat, BEL",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Brasschaat Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide",
-        "chesscom"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18249",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18249"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18250"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-brasschaat-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-kanizsa-open-international-chess-tournament-and-hungarian-individual-championship-15-23-aug",
-      "title": "Kanizsa Open - International Chess Tournament and Hungarian Individual Championship",
-      "shortTitle": "Kanizsa Open - International Chess Tournament and Hungarian Individual Championship",
-      "status": "live",
-      "startDate": "2026-08-15T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Nagykanizsa, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Kanizsa Open - International Chess Tournament and Hungarian Individual Championship.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15368",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15368"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-oberbank-challenger-open-2026-15-23-aug",
-      "title": "OBERBANK-CHALLENGER-OPEN 2026",
-      "shortTitle": "OBERBANK-CHALLENGER-OPEN 2026",
-      "status": "live",
-      "startDate": "2026-08-15T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Linz, AUT",
-      "isOnline": false,
-      "summary": "FIDE calendar event: OBERBANK-CHALLENGER-OPEN 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13299",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13299"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -820,6 +462,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30410",
+      "title": "Brasschaat Open 2026",
+      "shortTitle": "Brasschaat Open 2026",
+      "status": "live",
+      "startDate": "2026-08-15T10:00:00Z",
+      "endDate": "2026-08-23T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Brasschaat Open 2026.",
+      "description": "157 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-brasschaat-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-brasschaat-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30146",
       "title": "Chessbattle Summer Cup",
       "shortTitle": "Chessbattle Summer Cup",
@@ -967,8 +651,7 @@
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess",
-        "fide"
+        "lichess"
       ],
       "primaryUrl": "https://lichess.org/broadcast/rubinstein-chess-festival-2026-alreh-gm-round-robin/LBdsl0V2",
       "links": [
@@ -986,16 +669,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://www.chessmanager.com/tournaments/4906033813913600"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16356"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
         }
       ],
       "source": {
@@ -1161,7 +834,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Asian Junior Chess Championships 2026.",
-      "description": "288 listed players",
+      "description": "436 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1193,122 +866,27 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-18th-debrecen-chess-carnival-16-19-aug",
-      "title": "18th Debrecen Chess Carnival",
-      "shortTitle": "18th Debrecen Chess Carnival",
-      "status": "live",
-      "startDate": "2026-08-16T00:00:00Z",
-      "endDate": "2026-08-19T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Debrecen, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 18th Debrecen Chess Carnival.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18949",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18949"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-asian-juniors-girls-chess-championship-2026-16-26-aug",
-      "title": "Asian Juniors & Girls Chess Championship 2026",
-      "shortTitle": "Asian Juniors & Girls Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-08-16T00:00:00Z",
-      "endDate": "2026-08-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Mumbai, IND",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Asian Juniors & Girls Chess Championship 2026.",
-      "description": "Time control: other",
-      "categories": [
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15292",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15292"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-olomouc-chess-summer-2026-16-23-aug",
+      "id": "chesscom-30196",
       "title": "Olomouc Chess Summer 2026",
       "shortTitle": "Olomouc Chess Summer 2026",
       "status": "live",
-      "startDate": "2026-08-16T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
+      "startDate": "2026-08-15T22:00:00Z",
+      "endDate": "2026-08-23T21:00:00Z",
       "timezone": "UTC",
-      "locationName": "Olomouc, CZE",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Olomouc Chess Summer 2026.",
-      "description": "Time control: Standard",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Olomouc Chess Summer 2026.",
+      "description": "138 listed players",
       "categories": [
-        "classical",
-        "otb",
         "online",
         "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "fide",
         "chesscom"
       ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15130",
+      "primaryUrl": "https://www.chess.com/events/info/olomouc-chess-summer-2026",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15130"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Chess.com event",
           "type": "official",
@@ -1321,8 +899,8 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -1549,183 +1127,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-2nd-kapadokya-international-open-chess-tournament-17-24-aug",
-      "title": "2nd KAPADOKYA INTERNATIONAL OPEN CHESS TOURNAMENT",
-      "shortTitle": "2nd KAPADOKYA INTERNATIONAL OPEN CHESS TOURNAMENT",
-      "status": "live",
-      "startDate": "2026-08-17T00:00:00Z",
-      "endDate": "2026-08-24T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "NEVSEHİR, TUR",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 2nd KAPADOKYA INTERNATIONAL OPEN CHESS TOURNAMENT.",
-      "description": "Time control: other",
-      "categories": [
-        "open",
-        "otb",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide",
-        "chesscom"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17944",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17944"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-kapadokya-international-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-recklingh-user-schachwoche-2026-17-23-aug",
-      "title": "Recklinghäuser Schachwoche 2026",
-      "shortTitle": "Recklinghäuser Schachwoche 2026",
-      "status": "live",
-      "startDate": "2026-08-17T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Recklinghausen, GER",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Recklinghäuser Schachwoche 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15160",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15160"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-xiii-balogh-janos-memorial-17-23-aug",
-      "title": "XIII. Balogh Janos Memorial",
-      "shortTitle": "XIII. Balogh Janos Memorial",
-      "status": "live",
-      "startDate": "2026-08-17T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Miercurea Ciuc, ROU",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XIII. Balogh Janos Memorial.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17558",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17558"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-xxix-caissa-17-23-aug",
-      "title": "XXIX. Caissa",
-      "shortTitle": "XXIX. Caissa",
-      "status": "live",
-      "startDate": "2026-08-17T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Miercurea Ciuc, ROU",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XXIX. Caissa.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17556",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17556"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30214",
       "title": "5th Kingston Invitational Cup",
       "shortTitle": "5th Kingston Invitational Cup",
@@ -1767,17 +1168,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30368",
-      "title": "El Campello Open 2026",
-      "shortTitle": "El Campello Open 2026",
+      "id": "chesscom-30409",
+      "title": "2nd Kapadokya International Open 2026",
+      "shortTitle": "2nd Kapadokya International Open 2026",
       "status": "live",
-      "startDate": "2026-08-17T08:00:00Z",
-      "endDate": "2026-08-19T08:00:00Z",
+      "startDate": "2026-08-17T12:00:00Z",
+      "endDate": "2026-08-23T13:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: El Campello Open 2026.",
-      "description": "40 listed players. 6 rounds",
+      "summary": "Chess.com current event: 2nd Kapadokya International Open 2026.",
+      "description": "100 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1787,12 +1188,12 @@
       "channelIds": [
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/el-campello-open-2026",
+      "primaryUrl": "https://www.chess.com/events/info/2026-kapadokya-international-open",
       "links": [
         {
           "label": "Chess.com event",
           "type": "official",
-          "url": "https://www.chess.com/events/info/el-campello-open-2026"
+          "url": "https://www.chess.com/events/info/2026-kapadokya-international-open"
         },
         {
           "label": "Chess.com current events",
@@ -1898,47 +1299,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-11th-international-chess-tournament-of-anogia-idaion-andron-18-26-aug",
-      "title": "11th International Chess Tournament of Anogia “Idaion Andron”",
-      "shortTitle": "11th International Chess Tournament of Anogia “Idaion Andron”",
-      "status": "live",
-      "startDate": "2026-08-18T00:00:00Z",
-      "endDate": "2026-08-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Anogia, GRE",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 11th International Chess Tournament of Anogia “Idaion Andron”.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16946",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16946"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30047",
       "title": "5th International “Bella Italia” Festival",
       "shortTitle": "5th International “Bella Italia” Festival",
@@ -2021,167 +1381,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-ayxccvyv",
-      "title": "Battle of Minds 2 – Sharjah Cultural & Chess Club | Rapid",
-      "shortTitle": "Battle of Minds 2 – Sharjah Cultural & Chess Club | Rapid",
-      "status": "upcoming",
-      "startDate": "2026-08-19T10:00:00Z",
-      "endDate": "2026-08-19T10:00:00Z",
-      "timezone": "Asia/Dubai",
-      "locationName": "Sharjah, United Arab Emirates",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Match",
-      "categories": [
-        "rapid",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/battle-of-minds-2-sharjah-cultural-chess-club-rapid/Ayxccvyv",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/battle-of-minds-2-sharjah-cultural-chess-club-rapid/Ayxccvyv"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-10th-eastern-asia-youth-chess-championship-2026-20-30-aug",
-      "title": "10th Eastern Asia Youth Chess Championship 2026",
-      "shortTitle": "10th Eastern Asia Youth Chess Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-20T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Hainan, CHN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 10th Eastern Asia Youth Chess Championship 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13461",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13461"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-budapest-blitz-open-championship-20aug",
-      "title": "Budapest Blitz Open Championship",
-      "shortTitle": "Budapest Blitz Open Championship",
-      "status": "upcoming",
-      "startDate": "2026-08-20T00:00:00Z",
-      "endDate": "2026-08-20T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budapest, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Budapest Blitz Open Championship.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19077",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19077"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-pedagogical-chess-union-suzdal-20-23-aug",
-      "title": "Pedagogical Chess Union. Suzdal",
-      "shortTitle": "Pedagogical Chess Union. Suzdal",
-      "status": "upcoming",
-      "startDate": "2026-08-20T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Suzdal, RUS",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Pedagogical Chess Union. Suzdal.",
-      "description": "Time control: other",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14760",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14760"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-wpqiwzfo",
       "title": "Battle of Minds 2 – Sharjah Cultural & Chess Club | Classical",
       "shortTitle": "Battle of Minds 2 – Sharjah Cultural & Chess Club | Classical",
@@ -2219,168 +1418,26 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-16-g-tersloher-sparkassen-cup-21-23-aug",
-      "title": "16. Gütersloher Sparkassen-Cup",
-      "shortTitle": "16. Gütersloher Sparkassen-Cup",
-      "status": "upcoming",
-      "startDate": "2026-08-21T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Gütersloh, GER",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 16. Gütersloher Sparkassen-Cup.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12954",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12954"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-8-open-internacional-sub2200-hotel-v-rtice-sevilla-bormujos-21-23-aug",
-      "title": "8º Open Internacional Sub2200 Hotel Vértice Sevilla Bormujos",
-      "shortTitle": "8º Open Internacional Sub2200 Hotel Vértice Sevilla Bormujos",
-      "status": "upcoming",
-      "startDate": "2026-08-21T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Bormujos (Sevilla), ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 8º Open Internacional Sub2200 Hotel Vértice Sevilla Bormujos.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14045",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14045"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14046"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-bases-del-vi-blitz-nocturno-la-laguna-chess-open-2026-21aug",
-      "title": "BASES DEL VI BLITZ NOCTURNO LA LAGUNA CHESS OPEN 2026",
-      "shortTitle": "BASES DEL VI BLITZ NOCTURNO LA LAGUNA CHESS OPEN 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-21T00:00:00Z",
-      "endDate": "2026-08-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "San Cristóbal de La Laguna (Santa Cruz de Tenerife), ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: BASES DEL VI BLITZ NOCTURNO LA LAGUNA CHESS OPEN 2026.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18571",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18571"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-maia-chess-open-2026-21-29-aug",
+      "id": "chessaround-maia-chess-open-2026-21-29-aug-2026",
       "title": "Maia Chess Open 2026",
       "shortTitle": "Maia Chess Open 2026",
       "status": "upcoming",
       "startDate": "2026-08-21T00:00:00Z",
       "endDate": "2026-08-29T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Maia, POR",
+      "locationName": "Maia, Portugal",
       "isOnline": false,
-      "summary": "FIDE calendar event: Maia Chess Open 2026.",
-      "description": "Time control: Standard",
+      "summary": "Upcoming chess tournament: Maia Chess Open 2026.",
+      "description": "Chessaround listing. Time control/type: standard.",
       "categories": [
         "classical",
         "open",
         "otb"
       ],
       "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17464",
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/582",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17464"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -2398,46 +1455,33 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
     },
     {
-      "id": "fide-open-internacional-de-sants-ciutat-de-barcelona-21-30-aug",
-      "title": "Open Internacional de Sants - Ciutat de Barcelona *",
-      "shortTitle": "Open Internacional de Sants - Ciutat de Barcelona *",
+      "id": "chessaround-obert-de-sants-ciutat-de-barcelona-2026-21-30-aug-2026",
+      "title": "Obert de Sants - Ciutat de Barcelona 2026",
+      "shortTitle": "Obert de Sants - Ciutat de Barcelona 2026",
       "status": "upcoming",
       "startDate": "2026-08-21T00:00:00Z",
       "endDate": "2026-08-30T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Barcelona, ESP",
+      "locationName": "Barcelona, Spain",
       "isOnline": false,
-      "summary": "FIDE calendar event: Open Internacional de Sants - Ciutat de Barcelona *.",
-      "description": "Time control: other",
+      "summary": "Upcoming chess tournament: Obert de Sants - Ciutat de Barcelona 2026.",
+      "description": "Chessaround listing. Time control/type: standard.",
       "categories": [
-        "open",
-        "otb",
-        "classical"
+        "classical",
+        "otb"
       ],
       "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14456",
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/585",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14456"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -2450,446 +1494,25 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
     },
     {
-      "id": "fide-tallinn-chess-festival-2026-taltech-rapid-n-mme-open-21aug",
-      "title": "Tallinn Chess Festival 2026 - TalTech Rapid / Nõmme Open",
-      "shortTitle": "Tallinn Chess Festival 2026 - TalTech Rapid / Nõmme Open",
-      "status": "upcoming",
-      "startDate": "2026-08-21T00:00:00Z",
-      "endDate": "2026-08-21T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Tallinn, EST",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Tallinn Chess Festival 2026 - TalTech Rapid / Nõmme Open.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18796",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18796"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-2026-mind-sports-olympiad-london-rapid-and-blitz-22-23-aug",
-      "title": "2026 Mind Sports Olympiad London Rapid and Blitz",
-      "shortTitle": "2026 Mind Sports Olympiad London Rapid and Blitz",
-      "status": "upcoming",
-      "startDate": "2026-08-22T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "London, ENG",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 2026 Mind Sports Olympiad London Rapid and Blitz.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15984",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15984"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-2-blitz-nocturno-trebejo-solidario-hotel-v-rtice-22aug",
-      "title": "2º Blitz Nocturno Trebejo Solidario Hotel Vértice",
-      "shortTitle": "2º Blitz Nocturno Trebejo Solidario Hotel Vértice",
-      "status": "upcoming",
-      "startDate": "2026-08-22T00:00:00Z",
-      "endDate": "2026-08-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Bormujos (Sevilla), ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 2º Blitz Nocturno Trebejo Solidario Hotel Vértice.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14047",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14047"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-festival-international-de-l-apogee-nimes-caissargues-pont-du-gard-22-30-aug",
-      "title": "Festival International de l'Apogee - Nimes-Caissargues-Pont du Gard",
-      "shortTitle": "Festival International de l'Apogee - Nimes-Caissargues-Pont du Gard",
-      "status": "upcoming",
-      "startDate": "2026-08-22T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Caissargues, FRA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Festival International de l'Apogee - Nimes-Caissargues-Pont du Gard.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16490",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16490"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-schach-tirol-open-2026-22-29-aug",
-      "title": "Schach Tirol Open 2026",
-      "shortTitle": "Schach Tirol Open 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-22T00:00:00Z",
-      "endDate": "2026-08-29T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Innsbruck, AUT",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Schach Tirol Open 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18929",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18929"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-tallinn-chess-festival-2026-4th-taltech-blitz-22aug",
-      "title": "Tallinn Chess Festival 2026 - 4th TalTech Blitz",
-      "shortTitle": "Tallinn Chess Festival 2026 - 4th TalTech Blitz",
-      "status": "upcoming",
-      "startDate": "2026-08-22T00:00:00Z",
-      "endDate": "2026-08-22T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Tallinn, EST",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Tallinn Chess Festival 2026 - 4th TalTech Blitz.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18798",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18798"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-vii-open-internacional-de-ajedrez-san-crist-bal-de-la-laguna-22-29-aug",
-      "title": "VII Open Internacional de ajedrez San Cristóbal de La Laguna",
-      "shortTitle": "VII Open Internacional de ajedrez San Cristóbal de La Laguna",
-      "status": "upcoming",
-      "startDate": "2026-08-22T00:00:00Z",
-      "endDate": "2026-08-29T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "San Cristóbal de La Laguna (Santa Cruz de Tenerife), ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: VII Open Internacional de ajedrez San Cristóbal de La Laguna.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb",
-        "rapid"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18569",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18569"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18572"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-zadar-chess-festival-tournament-a-tournament-b-tournament-c-22-29-aug",
-      "title": "Zadar Chess Festival, Tournament A, Tournament B, Tournament C",
-      "shortTitle": "Zadar Chess Festival, Tournament A, Tournament B, Tournament C",
-      "status": "upcoming",
-      "startDate": "2026-08-22T00:00:00Z",
-      "endDate": "2026-08-29T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zadar, CRO",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Zadar Chess Festival, Tournament A, Tournament B, Tournament C.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16193",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16193"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-african-junior-chess-championship-2026-23-aug-1-sep",
-      "title": "African Junior Chess Championship 2026",
-      "shortTitle": "African Junior Chess Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-23T00:00:00Z",
-      "endDate": "2026-09-01T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "BDI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: African Junior Chess Championship 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=12810",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=12810"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-tallinn-chess-festival-2026-t1-venue-international-rapid-tournament-23aug",
-      "title": "Tallinn Chess Festival 2026 - T1 Venue International Rapid Tournament",
-      "shortTitle": "Tallinn Chess Festival 2026 - T1 Venue International Rapid Tournament",
-      "status": "upcoming",
-      "startDate": "2026-08-23T00:00:00Z",
-      "endDate": "2026-08-23T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Tallinn, EST",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Tallinn Chess Festival 2026 - T1 Venue International Rapid Tournament.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18799",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18799"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-rodos-palace-hotel-abve2-international-open-chess-tournament-24-aug-3-sep",
+      "id": "chessaround-rodos-palace-hotel-abve2-international-open-chess-tournament-24-aug-2-sep-2026",
       "title": "Rodos Palace Hotel abve2 International Open Chess Tournament",
       "shortTitle": "Rodos Palace Hotel abve2 International Open Chess Tournament",
       "status": "upcoming",
       "startDate": "2026-08-24T00:00:00Z",
-      "endDate": "2026-09-03T23:59:59Z",
+      "endDate": "2026-09-02T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Rhodes, GRE",
+      "locationName": "Rhodes, Greece",
       "isOnline": false,
-      "summary": "FIDE calendar event: Rodos Palace Hotel abve2 International Open Chess Tournament.",
-      "description": "Time control: Standard",
+      "summary": "Upcoming chess tournament: Rodos Palace Hotel abve2 International Open Chess Tournament.",
+      "description": "Chessaround listing. Time control/type: standard.",
       "categories": [
         "classical",
         "open",
@@ -2898,33 +1521,25 @@
       "playerIds": [
         "ioannis-papaioannou",
         "chongsheng-zeng",
+        "yunguo-wan",
         "seyed-abolfazl-moosavifar",
         "irakli-akhvlediani",
-        "angelos-sandalakis",
         "nodar-lortkipanidze",
         "a-charvi",
-        "alan-safar-ramoutar",
-        "eva-repkova",
         "rodolfos-stamatiou",
         "siddhant-gawai",
         "kesaria-mgeladze",
         "jain-sachi",
         "nikolaos-sandalakis",
         "yunqing-zhao",
-        "ramazan-tulegen",
         "parmar-paarshva",
-        "panayotis-frendzas",
         "kagan-torun",
-        "alexandros-stathatos",
         "andre-kienitz",
         "milan-kolesar",
         "akula-pranay",
-        "a-peter-anand",
         "arun-manukonda",
         "artak-manukian",
-        "panagiota-kiousi",
         "yuxin-du",
-        "eva-kondou",
         "aikaterini-argyro-gkoutzouki",
         "ashot-a-avetisyan",
         "ahmet-unal-gurel",
@@ -2942,16 +1557,15 @@
         "soumela-athanasiou",
         "sargis-art-manukyan",
         "polychronis-perrakis",
-        "ioannis-frontzos",
+        "stamatios-karavas",
+        "georgios-lapadakis",
         "peter-leijgraaff",
         "yagiz-kasim-atlihan",
         "evaggelos-michelakis",
         "inge-bunschoten",
-        "anastasios-rousakis",
         "zaharias-tiakoudis",
         "kseniya-badrakova",
         "dogan-tugay",
-        "iordanis-fotiadis",
         "nikolaos-tsakiris",
         "myrto-korinioti",
         "stergos-vasilakis",
@@ -2959,9 +1573,7 @@
         "themistoklis-zygourakis",
         "emmanouil-kasiotis",
         "stavros-m-papadopoulos",
-        "charidimos-vasilakis",
         "christos-chasapis",
-        "michail-georgi-diakidis-kostas",
         "rengina-tsampika-kaka",
         "har-georgiopoulos",
         "ioannis-taladianos",
@@ -2974,20 +1586,13 @@
         "petros-tsimperopoulos",
         "eleni-nefeli-revelioti",
         "ruzgar-cem-sengul",
-        "angelos-tsoumanis",
-        "evangelos-fotiadis",
         "alkinoos-dimitras",
-        "konstantinos-rigopoulos",
         "ayoub-lemssaadi",
         "hayk-manukyan",
-        "galatia-palazi",
-        "iraklis-pylarinos",
         "konstantinos-kastanis",
-        "angelos-geravelis",
         "marianna-lamprianou",
         "athanasios-kechagioglou",
         "selim-ege-gocer",
-        "evanthia-malamousi",
         "alkiviadis-tsampikos-kiourtzis",
         "ali-eren-celik",
         "sotirios-gkougkoustamos",
@@ -2995,48 +1600,26 @@
         "despoina-lamprianou",
         "seyyid-mansur-akkaya",
         "yahor-balabolau",
-        "katholiki-tsampika-barmpantoni",
         "mira-deniz-beler",
         "badr-birrane",
         "mohamed-yahdih-channane",
-        "angelos-chrysostomos-chantziaras",
-        "ioulios-chatzigiannakis-kokkidis",
-        "pavlos-marios-chrysochoou",
+        "dimitrios-k-chasapis",
         "konstantinos-angelos-daskalopoulos",
         "mert-emin-devecigil",
         "maximos-dimitras",
-        "kalliopi-doulaptsi",
-        "konstantina-doulaptsi",
-        "nikolaos-efthymiopoulos",
         "thomas-frehner",
         "antonios-gerontas",
-        "emmanouil-angelos-giannias",
         "michail-giannos",
         "stefanos-gkolfinopoulos",
-        "georgios-kaloudis",
         "valasia-tsampika-kampouraki",
         "vasileios-paisios-kampourakis",
-        "aristeidis-kampouropoulos",
-        "sotirios-kampouropoulos",
         "souad-karma",
         "christina-kastani",
         "antonios-dionysios-kazas",
-        "kyriaki-despoina-kontomanoli",
-        "alexandros-achilleas-kote",
         "paraskevi-kleio-kritikou",
-        "vasiliki-kritikou",
-        "chrysostomos-kyriazakos",
         "michail-angelos-lamprianos",
         "mohamed-chekh-loulad",
         "eleni-maria-mantzana",
-        "odysseas-iakovos-margies",
-        "georgios-mariettakis",
-        "andreas-matthaios",
-        "theodosios-matthaios",
-        "eleftherios-mavroudis",
-        "christos-melissas",
-        "georgios-taxiarchis-mitziviris",
-        "tsampika-vasiliki-moskiou",
         "nikolaos-christos-nikolis",
         "alkiviadis-oikonomou",
         "stergios-palazis",
@@ -3044,24 +1627,18 @@
         "vasileios-angelos-papaoikonomou",
         "theodoros-patakas",
         "panormitis-patellis",
-        "christina-tsampika-patinioti",
-        "michail-angelos-pavlidis"
+        "anastasia-perraki",
+        "agisilaos-marios-rados",
+        "konstantinos-tsampikos-rados",
+        "karim-rizgy",
+        "cagin-alp-sengul",
+        "michail-spanos",
+        "ioannis-tsimperopoulos",
+        "anastasios-volanakis"
       ],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14832",
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/637",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14832"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -3079,40 +1656,32 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
         "ioannis-papaioannou",
         "chongsheng-zeng",
+        "yunguo-wan",
         "seyed-abolfazl-moosavifar",
         "irakli-akhvlediani",
-        "angelos-sandalakis",
         "nodar-lortkipanidze",
         "a-charvi",
-        "alan-safar-ramoutar",
-        "eva-repkova",
         "rodolfos-stamatiou",
         "siddhant-gawai",
         "kesaria-mgeladze",
         "jain-sachi",
         "nikolaos-sandalakis",
         "yunqing-zhao",
-        "ramazan-tulegen",
         "parmar-paarshva",
-        "panayotis-frendzas",
         "kagan-torun",
-        "alexandros-stathatos",
         "andre-kienitz",
         "milan-kolesar",
         "akula-pranay",
-        "a-peter-anand",
         "arun-manukonda",
         "artak-manukian",
-        "panagiota-kiousi",
         "yuxin-du",
-        "eva-kondou",
         "aikaterini-argyro-gkoutzouki",
         "ashot-a-avetisyan",
         "ahmet-unal-gurel",
@@ -3130,16 +1699,15 @@
         "soumela-athanasiou",
         "sargis-art-manukyan",
         "polychronis-perrakis",
-        "ioannis-frontzos",
+        "stamatios-karavas",
+        "georgios-lapadakis",
         "peter-leijgraaff",
         "yagiz-kasim-atlihan",
         "evaggelos-michelakis",
         "inge-bunschoten",
-        "anastasios-rousakis",
         "zaharias-tiakoudis",
         "kseniya-badrakova",
         "dogan-tugay",
-        "iordanis-fotiadis",
         "nikolaos-tsakiris",
         "myrto-korinioti",
         "stergos-vasilakis",
@@ -3147,9 +1715,7 @@
         "themistoklis-zygourakis",
         "emmanouil-kasiotis",
         "stavros-m-papadopoulos",
-        "charidimos-vasilakis",
         "christos-chasapis",
-        "michail-georgi-diakidis-kostas",
         "rengina-tsampika-kaka",
         "har-georgiopoulos",
         "ioannis-taladianos",
@@ -3162,20 +1728,13 @@
         "petros-tsimperopoulos",
         "eleni-nefeli-revelioti",
         "ruzgar-cem-sengul",
-        "angelos-tsoumanis",
-        "evangelos-fotiadis",
         "alkinoos-dimitras",
-        "konstantinos-rigopoulos",
         "ayoub-lemssaadi",
         "hayk-manukyan",
-        "galatia-palazi",
-        "iraklis-pylarinos",
         "konstantinos-kastanis",
-        "angelos-geravelis",
         "marianna-lamprianou",
         "athanasios-kechagioglou",
         "selim-ege-gocer",
-        "evanthia-malamousi",
         "alkiviadis-tsampikos-kiourtzis",
         "ali-eren-celik",
         "sotirios-gkougkoustamos",
@@ -3183,48 +1742,26 @@
         "despoina-lamprianou",
         "seyyid-mansur-akkaya",
         "yahor-balabolau",
-        "katholiki-tsampika-barmpantoni",
         "mira-deniz-beler",
         "badr-birrane",
         "mohamed-yahdih-channane",
-        "angelos-chrysostomos-chantziaras",
-        "ioulios-chatzigiannakis-kokkidis",
-        "pavlos-marios-chrysochoou",
+        "dimitrios-k-chasapis",
         "konstantinos-angelos-daskalopoulos",
         "mert-emin-devecigil",
         "maximos-dimitras",
-        "kalliopi-doulaptsi",
-        "konstantina-doulaptsi",
-        "nikolaos-efthymiopoulos",
         "thomas-frehner",
         "antonios-gerontas",
-        "emmanouil-angelos-giannias",
         "michail-giannos",
         "stefanos-gkolfinopoulos",
-        "georgios-kaloudis",
         "valasia-tsampika-kampouraki",
         "vasileios-paisios-kampourakis",
-        "aristeidis-kampouropoulos",
-        "sotirios-kampouropoulos",
         "souad-karma",
         "christina-kastani",
         "antonios-dionysios-kazas",
-        "kyriaki-despoina-kontomanoli",
-        "alexandros-achilleas-kote",
         "paraskevi-kleio-kritikou",
-        "vasiliki-kritikou",
-        "chrysostomos-kyriazakos",
         "michail-angelos-lamprianos",
         "mohamed-chekh-loulad",
         "eleni-maria-mantzana",
-        "odysseas-iakovos-margies",
-        "georgios-mariettakis",
-        "andreas-matthaios",
-        "theodosios-matthaios",
-        "eleftherios-mavroudis",
-        "christos-melissas",
-        "georgios-taxiarchis-mitziviris",
-        "tsampika-vasiliki-moskiou",
         "nikolaos-christos-nikolis",
         "alkiviadis-oikonomou",
         "stergios-palazis",
@@ -3232,8 +1769,14 @@
         "vasileios-angelos-papaoikonomou",
         "theodoros-patakas",
         "panormitis-patellis",
-        "christina-tsampika-patinioti",
-        "michail-angelos-pavlidis"
+        "anastasia-perraki",
+        "agisilaos-marios-rados",
+        "konstantinos-tsampikos-rados",
+        "karim-rizgy",
+        "cagin-alp-sengul",
+        "michail-spanos",
+        "ioannis-tsimperopoulos",
+        "anastasios-volanakis"
       ],
       "confirmedPlayers": [
         {
@@ -3257,6 +1800,21 @@
           "countryCode": "CHN",
           "title": "GM",
           "fideId": "8603847",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "yunguo-wan",
+          "name": "Yunguo Wan",
+          "countryCode": "CHN",
+          "title": "GM",
+          "fideId": "8603189",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3297,21 +1855,6 @@
           }
         },
         {
-          "playerId": "angelos-sandalakis",
-          "name": "Angelos Sandalakis",
-          "countryCode": "GRE",
-          "title": "IM",
-          "fideId": "4207645",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "nodar-lortkipanidze",
           "name": "Nodar Lortkipanidze",
           "countryCode": "GEO",
@@ -3332,36 +1875,6 @@
           "countryCode": "IND",
           "title": "FM",
           "fideId": "25165518",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alan-safar-ramoutar",
-          "name": "Alan-Safar Ramoutar",
-          "countryCode": "TTO",
-          "title": "IM",
-          "fideId": "7704224",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eva-repkova",
-          "name": "Eva Repkova",
-          "countryCode": "SVK",
-          "title": "IM",
-          "fideId": "14900440",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3462,21 +1975,6 @@
           }
         },
         {
-          "playerId": "ramazan-tulegen",
-          "name": "Ramazan Tulegen",
-          "countryCode": "KAZ",
-          "title": "CM",
-          "fideId": "447009349",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "parmar-paarshva",
           "name": "Parmar Paarshva",
           "countryCode": "IND",
@@ -3492,41 +1990,11 @@
           }
         },
         {
-          "playerId": "panayotis-frendzas",
-          "name": "Panayotis Frendzas",
-          "countryCode": "GRE",
-          "title": "IM",
-          "fideId": "4200420",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "kagan-torun",
           "name": "Kagan Torun",
           "countryCode": "TUR",
           "title": null,
           "fideId": "26317737",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexandros-stathatos",
-          "name": "Alexandros Stathatos",
-          "countryCode": "GRE",
-          "title": "AFM",
-          "fideId": "358211008",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3582,21 +2050,6 @@
           }
         },
         {
-          "playerId": "a-peter-anand",
-          "name": "A Peter Anand",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "25003801",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "arun-manukonda",
           "name": "Arun Manukonda",
           "countryCode": "IND",
@@ -3627,41 +2080,11 @@
           }
         },
         {
-          "playerId": "panagiota-kiousi",
-          "name": "Panagiota Kiousi",
-          "countryCode": "GRE",
-          "title": "WFM",
-          "fideId": "25803476",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "yuxin-du",
           "name": "Yuxin Du",
           "countryCode": "CHN",
           "title": null,
           "fideId": "8610282",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eva-kondou",
-          "name": "Eva Kondou",
-          "countryCode": "GRE",
-          "title": "WIM",
-          "fideId": "4200942",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3927,11 +2350,26 @@
           }
         },
         {
-          "playerId": "ioannis-frontzos",
-          "name": "Ioannis Frontzos",
+          "playerId": "stamatios-karavas",
+          "name": "Stamatios Karavas",
           "countryCode": "GRE",
           "title": null,
-          "fideId": "25835157",
+          "fideId": "25820311",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "georgios-lapadakis",
+          "name": "Georgios Lapadakis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "4266978",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4002,21 +2440,6 @@
           }
         },
         {
-          "playerId": "anastasios-rousakis",
-          "name": "Anastasios Rousakis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25848887",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "zaharias-tiakoudis",
           "name": "Zaharias Tiakoudis",
           "countryCode": "GRE",
@@ -4052,21 +2475,6 @@
           "countryCode": "TUR",
           "title": null,
           "fideId": "525003402",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "iordanis-fotiadis",
-          "name": "Iordanis Fotiadis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4272560",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4182,41 +2590,11 @@
           }
         },
         {
-          "playerId": "charidimos-vasilakis",
-          "name": "Charidimos Vasilakis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42177987",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "christos-chasapis",
           "name": "Christos Chasapis",
           "countryCode": "GRE",
           "title": null,
           "fideId": "25854542",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michail-georgi-diakidis-kostas",
-          "name": "Michail Georgi Diakidis Kostas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25830864",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4407,56 +2785,11 @@
           }
         },
         {
-          "playerId": "angelos-tsoumanis",
-          "name": "Angelos Tsoumanis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153824",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "evangelos-fotiadis",
-          "name": "Evangelos Fotiadis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541014618",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "alkinoos-dimitras",
           "name": "Alkinoos Dimitras",
           "countryCode": "GRE",
           "title": null,
           "fideId": "42196132",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-rigopoulos",
-          "name": "Konstantinos Rigopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4272730",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4497,56 +2830,11 @@
           }
         },
         {
-          "playerId": "galatia-palazi",
-          "name": "Galatia Palazi",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153808",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "iraklis-pylarinos",
-          "name": "Iraklis Pylarinos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42124131",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "konstantinos-kastanis",
           "name": "Konstantinos Kastanis",
           "countryCode": "GRE",
           "title": "ACM",
           "fideId": "42169534",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "angelos-geravelis",
-          "name": "Angelos Geravelis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153778",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4592,21 +2880,6 @@
           "countryCode": "TUR",
           "title": null,
           "fideId": "525017578",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "evanthia-malamousi",
-          "name": "Evanthia Malamousi",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42168058",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4722,21 +2995,6 @@
           }
         },
         {
-          "playerId": "katholiki-tsampika-barmpantoni",
-          "name": "Katholiki Tsampika Barmpantoni",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541009908",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "mira-deniz-beler",
           "name": "Mira Deniz Beler",
           "countryCode": "TUR",
@@ -4782,41 +3040,11 @@
           }
         },
         {
-          "playerId": "angelos-chrysostomos-chantziaras",
-          "name": "Angelos Chrysostomos Chantziaras",
+          "playerId": "dimitrios-k-chasapis",
+          "name": "Dimitrios K Chasapis",
           "countryCode": "GRE",
           "title": null,
-          "fideId": "42168155",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ioulios-chatzigiannakis-kokkidis",
-          "name": "Ioulios Chatzigiannakis Kokkidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42168163",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "pavlos-marios-chrysochoou",
-          "name": "Pavlos Marios Chrysochoou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541008464",
+          "fideId": "42116813",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4872,51 +3100,6 @@
           }
         },
         {
-          "playerId": "kalliopi-doulaptsi",
-          "name": "Kalliopi Doulaptsi",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170028",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantina-doulaptsi",
-          "name": "Konstantina Doulaptsi",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170010",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-efthymiopoulos",
-          "name": "Nikolaos Efthymiopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42167990",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "thomas-frehner",
           "name": "Thomas Frehner",
           "countryCode": "SUI",
@@ -4937,21 +3120,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "541009983",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "emmanouil-angelos-giannias",
-          "name": "Emmanouil Angelos Giannias",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170109",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -4992,21 +3160,6 @@
           }
         },
         {
-          "playerId": "georgios-kaloudis",
-          "name": "Georgios Kaloudis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42171784",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "valasia-tsampika-kampouraki",
           "name": "Valasia Tsampika Kampouraki",
           "countryCode": "GRE",
@@ -5027,36 +3180,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "42171733",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "aristeidis-kampouropoulos",
-          "name": "Aristeidis Kampouropoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170060",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sotirios-kampouropoulos",
-          "name": "Sotirios Kampouropoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170052",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5112,71 +3235,11 @@
           }
         },
         {
-          "playerId": "kyriaki-despoina-kontomanoli",
-          "name": "Kyriaki Despoina Kontomanoli",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153786",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexandros-achilleas-kote",
-          "name": "Alexandros Achilleas Kote",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153735",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "paraskevi-kleio-kritikou",
           "name": "Paraskevi Kleio Kritikou",
           "countryCode": "GRE",
           "title": null,
           "fideId": "42153760",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vasiliki-kritikou",
-          "name": "Vasiliki Kritikou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153751",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "chrysostomos-kyriazakos",
-          "name": "Chrysostomos Kyriazakos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42171792",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5222,126 +3285,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "541016726",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "odysseas-iakovos-margies",
-          "name": "Odysseas Iakovos Margies",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541009940",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "georgios-mariettakis",
-          "name": "Georgios Mariettakis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25831089",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "andreas-matthaios",
-          "name": "Andreas Matthaios",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42171768",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "theodosios-matthaios",
-          "name": "Theodosios Matthaios",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170079",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eleftherios-mavroudis",
-          "name": "Eleftherios Mavroudis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541010000",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "christos-melissas",
-          "name": "Christos Melissas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170036",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "georgios-taxiarchis-mitziviris",
-          "name": "Georgios Taxiarchis Mitziviris",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541010019",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "tsampika-vasiliki-moskiou",
-          "name": "Tsampika Vasiliki Moskiou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42170125",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5457,11 +3400,11 @@
           }
         },
         {
-          "playerId": "christina-tsampika-patinioti",
-          "name": "Christina Tsampika Patinioti",
+          "playerId": "anastasia-perraki",
+          "name": "Anastasia Perraki",
           "countryCode": "GRE",
           "title": null,
-          "fideId": "42170117",
+          "fideId": "42177960",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5472,11 +3415,101 @@
           }
         },
         {
-          "playerId": "michail-angelos-pavlidis",
-          "name": "Michail Angelos Pavlidis",
+          "playerId": "agisilaos-marios-rados",
+          "name": "Agisilaos Marios Rados",
           "countryCode": "GRE",
           "title": null,
-          "fideId": "42170087",
+          "fideId": "541009975",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "konstantinos-tsampikos-rados",
+          "name": "Konstantinos Tsampikos Rados",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "541009967",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "karim-rizgy",
+          "name": "Karim Rizgy",
+          "countryCode": "MAR",
+          "title": null,
+          "fideId": "9048472",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "cagin-alp-sengul",
+          "name": "Cagin Alp Sengul",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "525003356",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "michail-spanos",
+          "name": "Michail Spanos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42199727",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ioannis-tsimperopoulos",
+          "name": "Ioannis Tsimperopoulos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "541008421",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1380341.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "anastasios-volanakis",
+          "name": "Anastasios Volanakis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42167957",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -5487,47 +3520,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "fide-vi-mindsports-international-festival-2026-super-swiss-24-29-aug",
-      "title": "VI Mindsports International Festival 2026 - Super Swiss",
-      "shortTitle": "VI Mindsports International Festival 2026 - Super Swiss",
-      "status": "upcoming",
-      "startDate": "2026-08-24T00:00:00Z",
-      "endDate": "2026-08-29T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "London, ENG",
-      "isOnline": false,
-      "summary": "FIDE calendar event: VI Mindsports International Festival 2026 - Super Swiss.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17120",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17120"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
     },
     {
       "id": "lichess-dvas6gnc",
@@ -5562,213 +3554,6 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-25-open-es-vermar-25-30-aug",
-      "title": "25 Open Es Vermar",
-      "shortTitle": "25 Open Es Vermar",
-      "status": "upcoming",
-      "startDate": "2026-08-25T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Binissalem, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 25 Open Es Vermar.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19126",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19126"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-agria-chess-open-2026-25-30-aug",
-      "title": "AGRIA CHESS OPEN 2026",
-      "shortTitle": "AGRIA CHESS OPEN 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-25T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Agria Volos, GRE",
-      "isOnline": false,
-      "summary": "FIDE calendar event: AGRIA CHESS OPEN 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14676",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14676"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-morihana-wellness-chess-tour-croatia-2026-international-chess-tournament-series-26-30-aug",
-      "title": "Morihana Wellness Chess Tour Croatia 2026 International Chess Tournament Series",
-      "shortTitle": "Morihana Wellness Chess Tour Croatia 2026 International Chess Tournament Series",
-      "status": "upcoming",
-      "startDate": "2026-08-26T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Selce-Crikvenica (Croatia), CRO",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Morihana Wellness Chess Tour Croatia 2026 International Chess Tournament Series.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17325",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17325"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-ii-szentmikl-s-open-2026-27-30-aug",
-      "title": "II. Szentmiklós Open 2026",
-      "shortTitle": "II. Szentmiklós Open 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-27T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Törökszentmiklós, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: II. Szentmiklós Open 2026.",
-      "description": "Time control: other",
-      "categories": [
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17619",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17619"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-pedagogical-chess-union-open-sochi-27-30-aug",
-      "title": "Pedagogical Chess Union. Open Sochi",
-      "shortTitle": "Pedagogical Chess Union. Open Sochi",
-      "status": "upcoming",
-      "startDate": "2026-08-27T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Sochi, RUS",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Pedagogical Chess Union. Open Sochi.",
-      "description": "Time control: other",
-      "categories": [
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14458",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14458"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -5822,17 +3607,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-19th-international-open-tournament-of-kalamaria-2026-28-aug-4-sep",
+      "id": "chessaround-19th-international-open-tournament-of-kalamaria-2026-28-aug-4-sep-2026",
       "title": "19th International Open Tournament of Kalamaria 2026",
       "shortTitle": "19th International Open Tournament of Kalamaria 2026",
       "status": "upcoming",
       "startDate": "2026-08-28T00:00:00Z",
       "endDate": "2026-09-04T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Thessaloniki, Kalamaria, GRE",
+      "locationName": "Thessaloniki, Greece",
       "isOnline": false,
-      "summary": "FIDE calendar event: 19th International Open Tournament of Kalamaria 2026.",
-      "description": "Time control: Standard",
+      "summary": "Upcoming chess tournament: 19th International Open Tournament of Kalamaria 2026.",
+      "description": "Chessaround listing. Time control/type: standard.",
       "categories": [
         "classical",
         "open",
@@ -5990,21 +3775,9 @@
         "lida-batsi",
         "petros-papakyriakou"
       ],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16873",
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16873"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -6022,8 +3795,8 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
@@ -8432,455 +6205,26 @@
       ]
     },
     {
-      "id": "fide-21st-malaysian-chess-festival-2026-28-aug-6-sep",
-      "title": "21st Malaysian Chess Festival 2026",
-      "shortTitle": "21st Malaysian Chess Festival 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-28T00:00:00Z",
-      "endDate": "2026-09-06T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Kuala Lumpur, MAS",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 21st Malaysian Chess Festival 2026.",
-      "description": "Time control: other",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18610",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18610"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-african-junior-blitz-chess-championship-2026-28aug",
-      "title": "African Junior Blitz Chess Championship 2026",
-      "shortTitle": "African Junior Blitz Chess Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-28T00:00:00Z",
-      "endDate": "2026-08-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "BDI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: African Junior Blitz Chess Championship 2026.",
-      "description": "Time control: Blitz",
-      "categories": [
-        "blitz",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13250",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13250"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-african-junior-rapid-chess-championship-2026-28aug",
-      "title": "African Junior Rapid Chess Championship 2026",
-      "shortTitle": "African Junior Rapid Chess Championship 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-28T00:00:00Z",
-      "endDate": "2026-08-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "BDI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: African Junior Rapid Chess Championship 2026.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13249",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13249"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-international-festival-scacchi-tra-i-due-mari-xx-giochi-del-mediterraneo-taranto-2026-28-30-aug",
-      "title": "International Festival \"Scacchi tra i Due Mari\" - XX Giochi del Mediterraneo - Taranto 2026",
-      "shortTitle": "International Festival \"Scacchi tra i Due Mari\" - XX Giochi del Mediterraneo - Taranto 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-28T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Taranto, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: International Festival \"Scacchi tra i Due Mari\" - XX Giochi del Mediterraneo - Taranto 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18645",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18645"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-wohlen-amateur-open-28-30-aug",
-      "title": "WOHLEN AMATEUR OPEN,",
-      "shortTitle": "WOHLEN AMATEUR OPEN,",
-      "status": "upcoming",
-      "startDate": "2026-08-28T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "WOHLEN (AG), SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: WOHLEN AMATEUR OPEN,.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17625",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17625"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-28th-international-chess-festival-citt-di-trieste-29-aug-4-sep",
-      "title": "28th International Chess Festival \"Città di Trieste\"",
-      "shortTitle": "28th International Chess Festival \"Città di Trieste\"",
-      "status": "upcoming",
-      "startDate": "2026-08-29T00:00:00Z",
-      "endDate": "2026-09-04T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Trieste, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 28th International Chess Festival \"Città di Trieste\".",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14666",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14666"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-alphachess-royale-u2000-1000-in-prizes-29-30-aug",
-      "title": "AlphaChess Royale: U2000 [£1000+ in Prizes!]",
-      "shortTitle": "AlphaChess Royale: U2000 [£1000+ in Prizes!]",
-      "status": "upcoming",
-      "startDate": "2026-08-29T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "London, ENG",
-      "isOnline": false,
-      "summary": "FIDE calendar event: AlphaChess Royale: U2000 [£1000+ in Prizes!].",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17290",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17290"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-budapest-xvii-district-rapid-and-blitz-open-tournaments-29-30-aug",
-      "title": "Budapest XVII. District Rapid and Blitz Open Tournaments",
-      "shortTitle": "Budapest XVII. District Rapid and Blitz Open Tournaments",
-      "status": "upcoming",
-      "startDate": "2026-08-29T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budapest, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Budapest XVII. District Rapid and Blitz Open Tournaments.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "blitz",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17569",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17569"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-seebach-open-2026-30aug",
-      "title": "Seebach Open 2026",
-      "shortTitle": "Seebach Open 2026",
-      "status": "upcoming",
-      "startDate": "2026-08-30T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zurich, SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Seebach Open 2026.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18863",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18863"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-budapest-xvii-district-open-youth-tournament-31aug",
-      "title": "Budapest XVII. District Open Youth Tournament",
-      "shortTitle": "Budapest XVII. District Open Youth Tournament",
-      "status": "upcoming",
-      "startDate": "2026-08-31T00:00:00Z",
-      "endDate": "2026-08-31T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budapest, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Budapest XVII. District Open Youth Tournament.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "junior",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17570",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17570"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-escala-emporium-chess-open-31-aug-6-sep",
+      "id": "chessaround-escala-emporium-chess-open-31-aug-6-sep-2026",
       "title": "Escala Emporium Chess Open",
       "shortTitle": "Escala Emporium Chess Open",
       "status": "upcoming",
       "startDate": "2026-08-31T00:00:00Z",
       "endDate": "2026-09-06T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "L'Escala, ESP",
+      "locationName": "L’Escala, Spain",
       "isOnline": false,
-      "summary": "FIDE calendar event: Escala Emporium Chess Open.",
-      "description": "Time control: Standard",
+      "summary": "Upcoming chess tournament: Escala Emporium Chess Open.",
+      "description": "Chessaround listing. Time control/type: standard.",
       "categories": [
         "classical",
         "open",
         "otb"
       ],
       "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16871",
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/635",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16871"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -8898,132 +6242,8 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-gaziantep-metropolitan-municipality-1st-gazi-international-open-chess-tournament-31-aug-6-sep",
-      "title": "GAZIANTEP METROPOLITAN MUNICIPALITY 1ST GAZI INTERNATIONAL OPEN CHESS TOURNAMENT",
-      "shortTitle": "GAZIANTEP METROPOLITAN MUNICIPALITY 1ST GAZI INTERNATIONAL OPEN CHESS TOURNAMENT",
-      "status": "upcoming",
-      "startDate": "2026-08-31T00:00:00Z",
-      "endDate": "2026-09-06T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Gaziantep, TUR",
-      "isOnline": false,
-      "summary": "FIDE calendar event: GAZIANTEP METROPOLITAN MUNICIPALITY 1ST GAZI INTERNATIONAL OPEN CHESS TOURNAMENT.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18964",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18964"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-im-round-robin-chess-club-radnicki-kovin-1-14-sep",
-      "title": "IM Round Robin Chess Club Radnicki-Kovin",
-      "shortTitle": "IM Round Robin Chess Club Radnicki-Kovin",
-      "status": "upcoming",
-      "startDate": "2026-09-01T00:00:00Z",
-      "endDate": "2026-09-14T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Kovin, SRB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: IM Round Robin Chess Club Radnicki-Kovin.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19062",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19062"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-global-chess-league-season-4-2-13-sep",
-      "title": "Global Chess League - Season 4",
-      "shortTitle": "Global Chess League - Season 4",
-      "status": "upcoming",
-      "startDate": "2026-09-02T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "TBD, TBD",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Global Chess League - Season 4.",
-      "description": "Time control: other",
-      "categories": [
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=11803",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=11803"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -9066,419 +6286,25 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-2nd-international-chess-festival-guba-open-2026-dedicated-to-the-memory-of-gudrat-ismayilov-3-10-sep",
-      "title": "2nd International Chess Festival “Guba Open - 2026” dedicated to the memory of Gudrat Ismayilov",
-      "shortTitle": "2nd International Chess Festival “Guba Open - 2026” dedicated to the memory of Gudrat Ismayilov",
-      "status": "upcoming",
-      "startDate": "2026-09-03T00:00:00Z",
-      "endDate": "2026-09-10T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Guba, AZE",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 2nd International Chess Festival “Guba Open - 2026” dedicated to the memory of Gudrat Ismayilov.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19047",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19047"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-2026-southern-california-open-4-7-sep",
-      "title": "2026 Southern California Open",
-      "shortTitle": "2026 Southern California Open",
-      "status": "upcoming",
-      "startDate": "2026-09-04T00:00:00Z",
-      "endDate": "2026-09-07T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Glendale, USA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 2026 Southern California Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14269",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14269"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17597"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-mendrisio-lake-summer-open-blitz-4-6-sep",
-      "title": "MENDRISIO LAKE SUMMER OPEN & BLITZ",
-      "shortTitle": "MENDRISIO LAKE SUMMER OPEN & BLITZ",
-      "status": "upcoming",
-      "startDate": "2026-09-04T00:00:00Z",
-      "endDate": "2026-09-06T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Capolago (TI), SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: MENDRISIO LAKE SUMMER OPEN & BLITZ.",
-      "description": "Time control: Standard",
-      "categories": [
-        "blitz",
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17626",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17626"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-2026-montreal-open-5-7-sep",
-      "title": "2026 Montreal Open",
-      "shortTitle": "2026 Montreal Open",
-      "status": "upcoming",
-      "startDate": "2026-09-05T00:00:00Z",
-      "endDate": "2026-09-07T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Montreal, CAN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 2026 Montreal Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19264",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19264"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-4th-g-tersloh-rapid-team-open-5sep",
-      "title": "4th Gütersloh Rapid Team Open",
-      "shortTitle": "4th Gütersloh Rapid Team Open",
-      "status": "upcoming",
-      "startDate": "2026-09-05T00:00:00Z",
-      "endDate": "2026-09-05T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Gütersloh, GER",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 4th Gütersloh Rapid Team Open.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "team",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13136",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13136"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-bratislava-norm-week-gm-and-im-5-11-sep",
-      "title": "Bratislava Norm Week - GM and IM",
-      "shortTitle": "Bratislava Norm Week - GM and IM",
-      "status": "upcoming",
-      "startDate": "2026-09-05T00:00:00Z",
-      "endDate": "2026-09-11T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Bratislava, SVK",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Bratislava Norm Week - GM and IM.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18593",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18593"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-i-cerrado-internacional-gm-myinvestor-5-12-sep",
-      "title": "I Cerrado Internacional GM MyInvestor",
-      "shortTitle": "I Cerrado Internacional GM MyInvestor",
-      "status": "upcoming",
-      "startDate": "2026-09-05T00:00:00Z",
-      "endDate": "2026-09-12T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zaragoza, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: I Cerrado Internacional GM MyInvestor.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17954",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17954"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-i-open-internacional-myinvestor-casablanca-5-12-sep",
-      "title": "I Open Internacional MyInvestor Casablanca",
-      "shortTitle": "I Open Internacional MyInvestor Casablanca",
-      "status": "upcoming",
-      "startDate": "2026-09-05T00:00:00Z",
-      "endDate": "2026-09-12T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zaragoza, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: I Open Internacional MyInvestor Casablanca.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17955",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17955"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-4th-far-west-thessaloniki-chess-festival-2026-memorial-gm-marjanovic-slavoljub-5-6-sep",
-      "title": "«4th Far West Thessaloniki Chess Festival 2026» -Memorial GM Marjanovic Slavoljub",
-      "shortTitle": "«4th Far West Thessaloniki Chess Festival 2026» -Memorial GM Marjanovic Slavoljub",
-      "status": "upcoming",
-      "startDate": "2026-09-05T00:00:00Z",
-      "endDate": "2026-09-06T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Ionia - Thessaloniki, GRE",
-      "isOnline": false,
-      "summary": "FIDE calendar event: «4th Far West Thessaloniki Chess Festival 2026» -Memorial GM Marjanovic Slavoljub.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19147",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19147"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-68-festival-internazionale-di-imperia-the-longest-lived-in-italy-6-13-sep",
-      "title": "68° FESTIVAL INTERNAZIONALE DI IMPERIA – The longest-lived in Italy",
-      "shortTitle": "68° FESTIVAL INTERNAZIONALE DI IMPERIA – The longest-lived in Italy",
+      "id": "chessaround-68-festival-internazionale-di-imperia-6-13-sep-2026",
+      "title": "68° Festival Internazionale DI IMPERIA",
+      "shortTitle": "68° Festival Internazionale DI IMPERIA",
       "status": "upcoming",
       "startDate": "2026-09-06T00:00:00Z",
       "endDate": "2026-09-13T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "18100 - IMPERIA, ITA",
+      "locationName": "Imperia, Italy",
       "isOnline": false,
-      "summary": "FIDE calendar event: 68° FESTIVAL INTERNAZIONALE DI IMPERIA – The longest-lived in Italy.",
-      "description": "Time control: Standard",
+      "summary": "Upcoming chess tournament: 68° Festival Internazionale DI IMPERIA.",
+      "description": "Chessaround listing. Time control/type: standard.",
       "categories": [
         "classical",
         "otb"
       ],
       "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15954",
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/636",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15954"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -9496,254 +6322,34 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
     },
     {
-      "id": "fide-1st-berjaya-global-chess-open-7-14-sep",
-      "title": "1ST BERJAYA GLOBAL CHESS OPEN",
-      "shortTitle": "1ST BERJAYA GLOBAL CHESS OPEN",
-      "status": "upcoming",
-      "startDate": "2026-09-07T00:00:00Z",
-      "endDate": "2026-09-14T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Johor Bahru, MAS",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 1ST BERJAYA GLOBAL CHESS OPEN.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18876",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18876"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-32-festival-internazionale-di-scacchi-grand-hotel-adriatico-7-14-sep",
-      "title": "32° Festival Internazionale di Scacchi Grand Hotel Adriatico",
-      "shortTitle": "32° Festival Internazionale di Scacchi Grand Hotel Adriatico",
-      "status": "upcoming",
-      "startDate": "2026-09-07T00:00:00Z",
-      "endDate": "2026-09-14T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Montesilvano, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 32° Festival Internazionale di Scacchi Grand Hotel Adriatico.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17154",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17154"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-49th-tenkes-cup-7-13-sep",
-      "title": "49th Tenkes Cup",
-      "shortTitle": "49th Tenkes Cup",
-      "status": "upcoming",
-      "startDate": "2026-09-07T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Siklos, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 49th Tenkes Cup.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=16922",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=16922"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-blue-chevaliers-international-open-7-13-sep",
-      "title": "Blue Chevaliers International Open",
-      "shortTitle": "Blue Chevaliers International Open",
-      "status": "upcoming",
-      "startDate": "2026-09-07T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Phuket, THA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Blue Chevaliers International Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14476",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14476"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-xl-open-basque-country-sestao-2026-34-magistral-euskadi-7-13-sep",
-      "title": "XL Open Basque Country Sestao 2026. 34 MAGISTRAL Euskadi",
-      "shortTitle": "XL Open Basque Country Sestao 2026. 34 MAGISTRAL Euskadi",
-      "status": "upcoming",
-      "startDate": "2026-09-07T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Sestao, Basque Country. País Vasco, ESP",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XL Open Basque Country Sestao 2026. 34 MAGISTRAL Euskadi.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=11628",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=11628"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-41-open-sestao-basque-country-34-magistral-internacional-de-euskadi-8-13-sep",
-      "title": "41.º Open Sestao Basque Country – 34.º Magistral Internacional de Euskadi",
-      "shortTitle": "41.º Open Sestao Basque Country – 34.º Magistral Internacional de Euskadi",
+      "id": "chessaround-41-open-sestao-basque-country-8-13-sep-2026",
+      "title": "41.º Open Sestao Basque Country",
+      "shortTitle": "41.º Open Sestao Basque Country",
       "status": "upcoming",
       "startDate": "2026-09-08T00:00:00Z",
       "endDate": "2026-09-13T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Sestao, ESP",
+      "locationName": "Sestao, Spain",
       "isOnline": false,
-      "summary": "FIDE calendar event: 41.º Open Sestao Basque Country – 34.º Magistral Internacional de Euskadi.",
-      "description": "Time control: Standard",
+      "summary": "Upcoming chess tournament: 41.º Open Sestao Basque Country.",
+      "description": "Chessaround listing. Time control/type: standard.",
       "categories": [
         "classical",
         "open",
         "otb"
       ],
       "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15413",
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/549",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15413"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -9761,131 +6367,8 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-3rd-fide-chess-olympiad-for-people-with-disabilities-10-18-sep",
-      "title": "3rd FIDE Chess Olympiad for People with Disabilities",
-      "shortTitle": "3rd FIDE Chess Olympiad for People with Disabilities",
-      "status": "upcoming",
-      "startDate": "2026-09-10T00:00:00Z",
-      "endDate": "2026-09-18T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Samarkand, UZB",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 3rd FIDE Chess Olympiad for People with Disabilities.",
-      "description": "Time control: other",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=11295",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=11295"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-20-werner-obermeyer-open-ortenburg-11-13-sep",
-      "title": "20. Werner-Obermeyer-Open Ortenburg",
-      "shortTitle": "20. Werner-Obermeyer-Open Ortenburg",
-      "status": "upcoming",
-      "startDate": "2026-09-11T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Ortenburg, GER",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 20. Werner-Obermeyer-Open Ortenburg.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13962",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13962"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-craiova-grand-prix-rapid-12-13-sep",
-      "title": "Craiova Grand Prix Rapid",
-      "shortTitle": "Craiova Grand Prix Rapid",
-      "status": "upcoming",
-      "startDate": "2026-09-12T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Craiova, ROU",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Craiova Grand Prix Rapid.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=14622",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=14622"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -9937,89 +6420,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-4th-international-rapid-citta-di-piacenza-13sep",
-      "title": "4th International Rapid \"Citta' di Piacenza\"",
-      "shortTitle": "4th International Rapid \"Citta' di Piacenza\"",
-      "status": "upcoming",
-      "startDate": "2026-09-13T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Piacenza, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 4th International Rapid \"Citta' di Piacenza\".",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18100",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18100"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-piedmont-freestyle-championship-13sep",
-      "title": "Piedmont Freestyle Championship",
-      "shortTitle": "Piedmont Freestyle Championship",
-      "status": "upcoming",
-      "startDate": "2026-09-13T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Valdengo, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Piedmont Freestyle Championship.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "freestyle",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19028",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19028"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chessaround-szansa-chess-open-2026-blitz-13-sep-2026",
       "title": "Szansa Chess Open 2026 - Blitz",
       "shortTitle": "Szansa Chess Open 2026 - Blitz",
@@ -10059,89 +6459,6 @@
       "source": {
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-tut-gardol-en-rapid-13sep",
-      "title": "Tut Gardol en Rapid!",
-      "shortTitle": "Tut Gardol en Rapid!",
-      "status": "upcoming",
-      "startDate": "2026-09-13T00:00:00Z",
-      "endDate": "2026-09-13T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Gardolo di Trento, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Tut Gardol en Rapid!.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18769",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18769"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-sixdays-september-open-norm-edition-14-19-sep",
-      "title": "SixDays September Open norm edition",
-      "shortTitle": "SixDays September Open norm edition",
-      "status": "upcoming",
-      "startDate": "2026-09-14T00:00:00Z",
-      "endDate": "2026-09-19T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budapest, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: SixDays September Open norm edition.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13759",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13759"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -10192,37 +6509,24 @@
       "confirmedPlayers": []
     },
     {
-      "id": "fide-46th-chess-olympiad-2026-15-28-sep",
-      "title": "46th Chess Olympiad 2026",
-      "shortTitle": "46th Chess Olympiad 2026",
+      "id": "chessbase-46th-chess-olympiad-15-to-28-september-2026",
+      "title": "46th Chess Olympiad",
+      "shortTitle": "46th Chess Olympiad",
       "status": "upcoming",
       "startDate": "2026-09-15T00:00:00Z",
       "endDate": "2026-09-28T23:59:59Z",
       "timezone": "UTC",
-      "locationName": "Samarkand, UZB",
+      "locationName": "Samarkand, Uzbekistan",
       "isOnline": false,
-      "summary": "FIDE calendar event: 46th Chess Olympiad 2026.",
-      "description": "Time control: Standard",
+      "summary": "Upcoming chess tournament: 46th Chess Olympiad.",
+      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
-        "classical",
         "otb"
       ],
       "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=5072",
+      "channelIds": [],
+      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
       "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=5072"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -10230,460 +6534,8 @@
         }
       ],
       "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-1-festival-internazionale-di-scacchi-il-tesoro-di-san-gennaro-18-20-sep",
-      "title": "1° Festival Internazionale di Scacchi \"Il Tesoro di San Gennaro\"",
-      "shortTitle": "1° Festival Internazionale di Scacchi \"Il Tesoro di San Gennaro\"",
-      "status": "upcoming",
-      "startDate": "2026-09-18T00:00:00Z",
-      "endDate": "2026-09-20T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Naples, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 1° Festival Internazionale di Scacchi \"Il Tesoro di San Gennaro\".",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18454",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18454"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-fide-congress-2026-19-28-sep",
-      "title": "FIDE Congress 2026",
-      "shortTitle": "FIDE Congress 2026",
-      "status": "upcoming",
-      "startDate": "2026-09-19T00:00:00Z",
-      "endDate": "2026-09-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Samarkand, UZB",
-      "isOnline": true,
-      "summary": "FIDE calendar event: FIDE Congress 2026.",
-      "description": "Platform:",
-      "categories": [
-        "online"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=11293",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=11293"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-sixdays-september-2026-20-25-sep",
-      "title": "SixDays September 2026",
-      "shortTitle": "SixDays September 2026",
-      "status": "upcoming",
-      "startDate": "2026-09-20T00:00:00Z",
-      "endDate": "2026-09-25T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budapest, HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: SixDays September 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=13760",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=13760"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-zagreb-open-8th-krunoslav-hulak-memorial-20-27-sep",
-      "title": "Zagreb Open 8th Krunoslav Hulak Memorial",
-      "shortTitle": "Zagreb Open 8th Krunoslav Hulak Memorial",
-      "status": "upcoming",
-      "startDate": "2026-09-20T00:00:00Z",
-      "endDate": "2026-09-27T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zabreb, CRO",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Zagreb Open 8th Krunoslav Hulak Memorial.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18752",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18752"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-15-torneo-internazionale-citt-di-biella-25-27-sep",
-      "title": "15° Torneo Internazionale \"Città di Biella\"",
-      "shortTitle": "15° Torneo Internazionale \"Città di Biella\"",
-      "status": "upcoming",
-      "startDate": "2026-09-25T00:00:00Z",
-      "endDate": "2026-09-27T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Biella, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 15° Torneo Internazionale \"Città di Biella\".",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19027",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19027"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-xliii-r-kosmenti-open-25-27-sep",
-      "title": "XLIII. Rákosmenti Open",
-      "shortTitle": "XLIII. Rákosmenti Open",
-      "status": "upcoming",
-      "startDate": "2026-09-25T00:00:00Z",
-      "endDate": "2026-09-27T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Budapest, XVII., HUN",
-      "isOnline": false,
-      "summary": "FIDE calendar event: XLIII. Rákosmenti Open.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=19082",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=19082"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-fide-iscf-world-schools-team-championship-european-continental-stage-28-sep-3-oct",
-      "title": "FIDE ISCF World Schools Team Championship, European Continental stage",
-      "shortTitle": "FIDE ISCF World Schools Team Championship, European Continental stage",
-      "status": "upcoming",
-      "startDate": "2026-09-28T00:00:00Z",
-      "endDate": "2026-10-03T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Tsaghkadzor, ARM",
-      "isOnline": false,
-      "summary": "FIDE calendar event: FIDE ISCF World Schools Team Championship, European Continental stage.",
-      "description": "Time control: other",
-      "categories": [
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17936",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17936"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-seebach-friends-no-7-30sep",
-      "title": "Seebach & Friends No. 7",
-      "shortTitle": "Seebach & Friends No. 7",
-      "status": "upcoming",
-      "startDate": "2026-09-30T00:00:00Z",
-      "endDate": "2026-09-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Zürich, SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Seebach & Friends No. 7.",
-      "description": "Time control: Rapid",
-      "categories": [
-        "rapid",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18866",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18866"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-asian-schools-chess-championships-2026-1-11-oct",
-      "title": "Asian Schools Chess Championships 2026",
-      "shortTitle": "Asian Schools Chess Championships 2026",
-      "status": "upcoming",
-      "startDate": "2026-10-01T00:00:00Z",
-      "endDate": "2026-10-11T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Tula, RUS",
-      "isOnline": false,
-      "summary": "FIDE calendar event: Asian Schools Chess Championships 2026.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=15295",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=15295"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-4th-piacenza-chess-festival-2-4-oct",
-      "title": "4th Piacenza Chess Festival",
-      "shortTitle": "4th Piacenza Chess Festival",
-      "status": "upcoming",
-      "startDate": "2026-10-02T00:00:00Z",
-      "endDate": "2026-10-04T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Piacenza, ITA",
-      "isOnline": false,
-      "summary": "FIDE calendar event: 4th Piacenza Chess Festival.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=18099",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=18099"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "fide-z-richsee-festival-ii-2-4-oct",
-      "title": "ZÜRICHSEE FESTIVAL II",
-      "shortTitle": "ZÜRICHSEE FESTIVAL II",
-      "status": "upcoming",
-      "startDate": "2026-10-02T00:00:00Z",
-      "endDate": "2026-10-04T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Pfäffikon (SZ), SUI",
-      "isOnline": false,
-      "summary": "FIDE calendar event: ZÜRICHSEE FESTIVAL II.",
-      "description": "Time control: Standard",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "fide"
-      ],
-      "primaryUrl": "https://calendar.fide.com/calendar.php?id=17627",
-      "links": [
-        {
-          "label": "FIDE calendar listing",
-          "type": "official",
-          "url": "https://calendar.fide.com/calendar.php?id=17627"
-        },
-        {
-          "label": "FIDE calendar",
-          "type": "source",
-          "url": "https://calendar.fide.com/calendar.php"
-        }
-      ],
-      "source": {
-        "name": "fide",
-        "url": "https://calendar.fide.com/calendar.php",
+        "name": "chessbase",
+        "url": "https://en.chessbase.com/post/chess-calendar-2026",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
