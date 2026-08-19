@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:23:12Z",
+  "generatedAt": "2026-08-19T18:18:30Z",
   "eventCount": 77,
   "sources": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 35
+      "count": 36
     },
     {
       "name": "uschess",
@@ -58,86 +58,26 @@
   ],
   "events": [
     {
-      "id": "lichess-xkh8xaip",
-      "title": "2026 Cairns Cup",
-      "shortTitle": "2026 Cairns Cup",
+      "id": "chessbase-sinquefield-cup-7-to-28-august-2026",
+      "title": "Sinquefield Cup",
+      "shortTitle": "Sinquefield Cup",
       "status": "live",
-      "startDate": "2026-08-10T17:30:00Z",
-      "endDate": "2026-08-19T17:30:00Z",
-      "timezone": "America/Chicago",
-      "locationName": "St. Louis, Missouri, United States",
+      "startDate": "2026-08-07T00:00:00Z",
+      "endDate": "2026-08-28T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Saint Louis, USA",
       "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
+      "summary": "Upcoming chess tournament: Sinquefield Cup.",
+      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
       "categories": [
-        "classical",
-        "broadcast",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-cairns-cup/Xkh8XaIP",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-cairns-cup/Xkh8XaIP"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://saintlouischessclub.org/event/2026-cairns-cup/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-2smqschv",
-      "title": "GCT: Sinquefield Cup 2026",
-      "shortTitle": "GCT: Sinquefield Cup 2026",
-      "status": "live",
-      "startDate": "2026-08-10T17:30:00Z",
-      "endDate": "2026-08-19T17:30:00Z",
-      "timezone": "America/Chicago",
-      "locationName": "St. Louis, Missouri, United States",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess",
         "saint-louis-chess-club"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/gct-sinquefield-cup-2026/2sMqschv",
+      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
       "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/gct-sinquefield-cup-2026/2sMqschv"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-sinquefield-cup/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://grandchesstour.org/tours/2026/tournaments/2026-sinquefield-cup/results/"
-        },
         {
           "label": "Event listing",
           "type": "official",
@@ -145,9 +85,9 @@
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chessbase",
+        "url": "https://en.chessbase.com/post/chess-calendar-2026",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -834,7 +774,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Asian Junior Chess Championships 2026.",
-      "description": "436 listed players",
+      "description": "441 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -876,7 +816,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Olomouc Chess Summer 2026.",
-      "description": "138 listed players",
+      "description": "139 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -891,48 +831,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/olomouc-chess-summer-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-28925",
-      "title": "Israeli U14 Team Championship 2026, Nahum Naftali Memorial",
-      "shortTitle": "Israeli U14 Team Championship 2026, Nahum Naftali Memorial",
-      "status": "live",
-      "startDate": "2026-08-16T12:30:00Z",
-      "endDate": "2026-08-19T13:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Israeli U14 Team Championship 2026, Nahum Naftali Memorial.",
-      "description": "227 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/u14-championship",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/u14-championship"
         },
         {
           "label": "Chess.com current events",
@@ -1137,7 +1035,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5th Kingston Invitational Cup.",
-      "description": "81 listed players. 9 rounds",
+      "description": "79 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1309,7 +1207,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5th International “Bella Italia” Festival.",
-      "description": "117 listed players",
+      "description": "122 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1365,6 +1263,88 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/11th-anogia-international-idaion-antro-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30442",
+      "title": "Yuriy Rastryopin Memorial 2026",
+      "shortTitle": "Yuriy Rastryopin Memorial 2026",
+      "status": "live",
+      "startDate": "2026-08-18T09:00:00Z",
+      "endDate": "2026-08-24T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Yuriy Rastryopin Memorial 2026.",
+      "description": "10 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-yuriy-rastryopin-memorial",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-yuriy-rastryopin-memorial"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30234",
+      "title": "Caribbean Chess Cup 2026",
+      "shortTitle": "Caribbean Chess Cup 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-19T23:30:00Z",
+      "endDate": "2026-08-23T17:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Caribbean Chess Cup 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/caribbean-chess-cup-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/caribbean-chess-cup-2026"
         },
         {
           "label": "Chess.com current events",
@@ -3596,6 +3576,16 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/tnr1473297.aspx"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/european-senior-team-championships-2026-senior-65/Ldzi9CYh"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1473298.aspx"
         }
       ],
       "source": {
@@ -9479,21 +9469,27 @@
         "pieter-hopman",
         "nino-maisuradze",
         "titus-teodor-bittner",
+        "alberto-manuel-de-almeida-fernandes",
         "max-eduardo-cohn",
         "luis-filipe-dos-reis-silv-rio",
         "jairo-quintiliano-de-oliveira",
         "romayn-brandsma",
         "gideon-van-der-bent",
         "carlos-manuel-de-almeida-figueiras",
+        "henk-keesman",
         "paulo-jorge-veloso-lameirinhas",
         "jos-salvador-de-almeida-figueiras",
+        "bert-kaizer",
         "diego-jesus-gomez-cerezo",
         "henk-van-ginkel",
         "h-lio-adelino-silva-pena",
         "johannes-pilgaard",
         "jorge-manuel-da-cunha-martins-coelho",
+        "peter-van-de-merwe",
+        "andreas-muhr",
         "marloes-rogge",
-        "perry-koopmans"
+        "perry-koopmans",
+        "john-bakker"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/607",
@@ -9525,21 +9521,27 @@
         "pieter-hopman",
         "nino-maisuradze",
         "titus-teodor-bittner",
+        "alberto-manuel-de-almeida-fernandes",
         "max-eduardo-cohn",
         "luis-filipe-dos-reis-silv-rio",
         "jairo-quintiliano-de-oliveira",
         "romayn-brandsma",
         "gideon-van-der-bent",
         "carlos-manuel-de-almeida-figueiras",
+        "henk-keesman",
         "paulo-jorge-veloso-lameirinhas",
         "jos-salvador-de-almeida-figueiras",
+        "bert-kaizer",
         "diego-jesus-gomez-cerezo",
         "henk-van-ginkel",
         "h-lio-adelino-silva-pena",
         "johannes-pilgaard",
         "jorge-manuel-da-cunha-martins-coelho",
+        "peter-van-de-merwe",
+        "andreas-muhr",
         "marloes-rogge",
-        "perry-koopmans"
+        "perry-koopmans",
+        "john-bakker"
       ],
       "confirmedPlayers": [
         {
@@ -9609,6 +9611,21 @@
           "title": "NM",
           "fideId": "1973193",
           "classicalRating": 2057,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1427194.aspx",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alberto-manuel-de-almeida-fernandes",
+          "name": "Alberto Manuel De Almeida Fernandes",
+          "countryCode": "POR",
+          "title": "NM",
+          "fideId": "1900277",
+          "classicalRating": 2051,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -9708,6 +9725,21 @@
           }
         },
         {
+          "playerId": "henk-keesman",
+          "name": "Henk Keesman",
+          "countryCode": "NED",
+          "title": null,
+          "fideId": "1025520",
+          "classicalRating": 1873,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1427194.aspx",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "paulo-jorge-veloso-lameirinhas",
           "name": "Paulo Jorge Veloso Lameirinhas",
           "countryCode": "POR",
@@ -9729,6 +9761,21 @@
           "title": null,
           "fideId": "1903004",
           "classicalRating": 1845,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1427194.aspx",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "bert-kaizer",
+          "name": "Bert Kaizer",
+          "countryCode": "NED",
+          "title": null,
+          "fideId": "1048937",
+          "classicalRating": 1823,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
@@ -9813,6 +9860,36 @@
           }
         },
         {
+          "playerId": "peter-van-de-merwe",
+          "name": "Peter Van De Merwe",
+          "countryCode": "NED",
+          "title": null,
+          "fideId": "1048970",
+          "classicalRating": 1756,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1427194.aspx",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "andreas-muhr",
+          "name": "Andreas Muhr",
+          "countryCode": "AUT",
+          "title": null,
+          "fideId": "1619683",
+          "classicalRating": 1744,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1427194.aspx",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "marloes-rogge",
           "name": "Marloes Rogge",
           "countryCode": "NED",
@@ -9834,6 +9911,21 @@
           "title": null,
           "fideId": "1031759",
           "classicalRating": 1725,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1427194.aspx",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "john-bakker",
+          "name": "John Bakker",
+          "countryCode": "NED",
+          "title": null,
+          "fideId": "1062794",
+          "classicalRating": 1712,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
