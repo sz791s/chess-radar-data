@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:21:53Z",
+  "generatedAt": "2026-08-19T00:37:51Z",
   "eventCount": 79,
   "sources": [
     {
@@ -26,7 +26,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 33
+      "count": 32
     },
     {
       "name": "chessdom",
@@ -824,54 +824,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-gvby6s8v",
-      "title": "Kanizsa Open 2026 | Group A | Top boards",
-      "shortTitle": "Kanizsa Open 2026 | Group A | Top boards",
-      "status": "live",
-      "startDate": "2026-08-15T13:45:00Z",
-      "endDate": "2026-08-23T08:15:00Z",
-      "timezone": "Europe/Budapest",
-      "locationName": "Hungary, Nagykanizsa",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-top-boards/gVby6S8V",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-top-boards/gVby6S8V"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://kanizsaopen.com/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/Tnr1379871.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30313",
       "title": "Asian Junior Chess Championships 2026",
       "shortTitle": "Asian Junior Chess Championships 2026",
@@ -1079,6 +1031,102 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-wyhtdhig",
+      "title": "Maia Chess Open 2026 | Masters",
+      "shortTitle": "Maia Chess Open 2026 | Masters",
+      "status": "live",
+      "startDate": "2026-08-16T15:15:00Z",
+      "endDate": "2026-08-29T09:15:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://axm.pt/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1369101.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-8egpqets",
+      "title": "Maia Chess Open 2026 | U2000",
+      "shortTitle": "Maia Chess Open 2026 | U2000",
+      "status": "live",
+      "startDate": "2026-08-16T15:15:00Z",
+      "endDate": "2026-08-29T09:15:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://axm.pt/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1369102.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30214",
       "title": "5th Kingston Invitational Cup",
       "shortTitle": "5th Kingston Invitational Cup",
@@ -1130,7 +1178,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: El Campello Open 2026.",
-      "description": "38 listed players. 6 rounds",
+      "description": "40 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1287,45 +1335,6 @@
       "source": {
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-11th-international-chess-tournament-of-anogia-idaion-andron-18-26-aug-2026",
-      "title": "11th International Chess Tournament of Anogia “Idaion Andron”",
-      "shortTitle": "11th International Chess Tournament of Anogia “Idaion Andron”",
-      "status": "live",
-      "startDate": "2026-08-18T00:00:00Z",
-      "endDate": "2026-08-26T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Anogeia, Greece",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 11th International Chess Tournament of Anogia “Idaion Andron”.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/633",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/633"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -4244,16 +4253,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/tnr1473297.aspx"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/european-senior-team-championships-2026-senior-65/Ldzi9CYh"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1473298.aspx"
         }
       ],
       "source": {
