@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T18:18:30Z",
-  "eventCount": 77,
+  "generatedAt": "2026-08-20T00:38:13Z",
+  "eventCount": 79,
   "sources": [
     {
       "name": "curated",
@@ -764,6 +764,102 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-gvby6s8v",
+      "title": "Kanizsa Open 2026 | Group A | Top boards",
+      "shortTitle": "Kanizsa Open 2026 | Group A | Top boards",
+      "status": "live",
+      "startDate": "2026-08-15T13:45:00Z",
+      "endDate": "2026-08-23T08:15:00Z",
+      "timezone": "Europe/Budapest",
+      "locationName": "Hungary, Nagykanizsa",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-top-boards/gVby6S8V",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/kanizsa-open-2026-group-a-top-boards/gVby6S8V"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://kanizsaopen.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/Tnr1379871.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-vcjjo0fe",
+      "title": "Kanizsa Open 2026 | Group B",
+      "shortTitle": "Kanizsa Open 2026 | Group B",
+      "status": "live",
+      "startDate": "2026-08-15T13:45:00Z",
+      "endDate": "2026-08-23T08:15:00Z",
+      "timezone": "Europe/Budapest",
+      "locationName": "Online",
+      "isOnline": true,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/kanizsa-open-2026-group-b/VCjJO0Fe",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/kanizsa-open-2026-group-b/VCjJO0Fe"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://kanizsaopen.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1384777.aspx?lan=1&art=0&turdet=YES&flag=30&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30313",
       "title": "Asian Junior Chess Championships 2026",
       "shortTitle": "Asian Junior Chess Championships 2026",
@@ -816,7 +912,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Olomouc Chess Summer 2026.",
-      "description": "139 listed players",
+      "description": "141 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1323,14 +1419,14 @@
       "id": "chesscom-30234",
       "title": "Caribbean Chess Cup 2026",
       "shortTitle": "Caribbean Chess Cup 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-19T23:30:00Z",
       "endDate": "2026-08-23T17:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Caribbean Chess Cup 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "28 listed players",
       "categories": [
         "online",
         "broadcast"
