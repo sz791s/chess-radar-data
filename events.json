@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T12:26:10Z",
-  "eventCount": 162,
+  "generatedAt": "2026-08-20T18:22:54Z",
+  "eventCount": 164,
   "sources": [
     {
       "name": "curated",
@@ -47,7 +47,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 37
+      "count": 39
     },
     {
       "name": "uschess",
@@ -1807,7 +1807,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 23rd Rheinland-Pfalz Senior Open 2026.",
-      "description": "79 listed players. 9 rounds",
+      "description": "80 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1890,7 +1890,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5th International “Bella Italia” Festival.",
-      "description": "129 listed players",
+      "description": "131 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -2168,6 +2168,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30476",
+      "title": "Haifa-Nesher Summer Festival",
+      "shortTitle": "Haifa-Nesher Summer Festival",
+      "status": "live",
+      "startDate": "2026-08-20T04:45:00Z",
+      "endDate": "2026-08-27T20:59:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Haifa-Nesher Summer Festival.",
+      "description": "26 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/haifa-nesher-summer-festival",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/haifa-nesher-summer-festival"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30370",
       "title": "2nd ISMAGI International University Chess Festival",
       "shortTitle": "2nd ISMAGI International University Chess Festival",
@@ -2178,7 +2219,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2nd ISMAGI International University Chess Festival.",
-      "description": "34 listed players. 3 scheduled stream links",
+      "description": "35 listed players. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -2256,6 +2297,53 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30468",
+      "title": "Aug 20 Mijail Tal Club Cash Blitz 2026",
+      "shortTitle": "Aug 20 Mijail Tal Club Cash Blitz 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-20T23:00:00Z",
+      "endDate": "2026-08-21T02:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Aug 20 Mijail Tal Club Cash Blitz 2026.",
+      "description": "7 rounds. 1 scheduled stream links",
+      "categories": [
+        "blitz",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/efectivo-blit-en-el-mijail-tal",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/efectivo-blit-en-el-mijail-tal"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "EFECTIVO BLIT$ en el Mijail Tal",
+          "type": "stream",
+          "url": "https://www.twitch.tv/tacticamente"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -10466,11 +10554,11 @@
         "neboj-a-nik-evi",
         "darko-ani",
         "ivano-sunda",
-        "vojko-mencinger",
         "vladimir-jr-bukal",
         "mario-zovko",
         "marin-grgantov",
         "kataria-arun",
+        "karthikeya-varma-gunturi-pavan",
         "neboj-a-nikoli",
         "sr-an-ale",
         "borna-franc",
@@ -10480,7 +10568,6 @@
         "ivica-armanda",
         "gabriel-saad",
         "mikkel-vinh-loftgaard",
-        "karthikeya-varma-gunturi-pavan",
         "miikka-maki-uuro",
         "alex-marjanovic",
         "marcel-milat",
@@ -10554,6 +10641,7 @@
         "sebastian-sigvaldsen",
         "michel-van-houdt",
         "ivan-unjerga",
+        "sam-grobet",
         "cagan-toktas",
         "daniel-o-vollheim",
         "josipa-zovko",
@@ -10642,11 +10730,11 @@
         "neboj-a-nik-evi",
         "darko-ani",
         "ivano-sunda",
-        "vojko-mencinger",
         "vladimir-jr-bukal",
         "mario-zovko",
         "marin-grgantov",
         "kataria-arun",
+        "karthikeya-varma-gunturi-pavan",
         "neboj-a-nikoli",
         "sr-an-ale",
         "borna-franc",
@@ -10656,7 +10744,6 @@
         "ivica-armanda",
         "gabriel-saad",
         "mikkel-vinh-loftgaard",
-        "karthikeya-varma-gunturi-pavan",
         "miikka-maki-uuro",
         "alex-marjanovic",
         "marcel-milat",
@@ -10730,6 +10817,7 @@
         "sebastian-sigvaldsen",
         "michel-van-houdt",
         "ivan-unjerga",
+        "sam-grobet",
         "cagan-toktas",
         "daniel-o-vollheim",
         "josipa-zovko",
@@ -11075,21 +11163,6 @@
           }
         },
         {
-          "playerId": "vojko-mencinger",
-          "name": "Vojko Mencinger",
-          "countryCode": "SLO",
-          "title": "IM",
-          "fideId": "14600099",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "vladimir-jr-bukal",
           "name": "Vladimir Jr. Bukal",
           "countryCode": "CRO",
@@ -11140,6 +11213,21 @@
           "countryCode": "IND",
           "title": "FM",
           "fideId": "46630368",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "karthikeya-varma-gunturi-pavan",
+          "name": "Karthikeya Varma Gunturi Pavan",
+          "countryCode": "IND",
+          "title": "FM",
+          "fideId": "25720066",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -11275,21 +11363,6 @@
           "countryCode": "DEN",
           "title": "FM",
           "fideId": "1468480",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "karthikeya-varma-gunturi-pavan",
-          "name": "Karthikeya Varma Gunturi Pavan",
-          "countryCode": "IND",
-          "title": "FM",
-          "fideId": "25720066",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -12385,6 +12458,21 @@
           "countryCode": "CRO",
           "title": "III",
           "fideId": "14579391",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "sam-grobet",
+          "name": "Sam Grobet",
+          "countryCode": "BEL",
+          "title": null,
+          "fideId": "257575",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
