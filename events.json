@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T00:38:13Z",
-  "eventCount": 79,
+  "generatedAt": "2026-08-20T06:26:38Z",
+  "eventCount": 80,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 36
+      "count": 37
     },
     {
       "name": "uschess",
@@ -1426,7 +1426,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Caribbean Chess Cup 2026.",
-      "description": "28 listed players",
+      "description": "34 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1446,6 +1446,67 @@
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30370",
+      "title": "2nd ISMAGI International University Chess Festival",
+      "shortTitle": "2nd ISMAGI International University Chess Festival",
+      "status": "upcoming",
+      "startDate": "2026-08-20T09:00:00Z",
+      "endDate": "2026-08-23T07:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2nd ISMAGI International University Chess Festival.",
+      "description": "4 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2nd-ismagi-international-university-chess-festival",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2nd-ismagi-international-university-chess-festival"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "ISMAGI Blitz",
+          "type": "stream",
+          "url": "https://www.youtube.com/KkFQcC9MxMo"
+        },
+        {
+          "label": "ISMAGI Rapid Day1",
+          "type": "stream",
+          "url": "https://www.youtube.com/ISOfszMh8vc"
+        },
+        {
+          "label": "ISMAGI Rapid Day2",
+          "type": "stream",
+          "url": "https://www.youtube.com/NCQJnkevCIA"
+        },
+        {
+          "label": "ISMAGI Rapid Day3",
+          "type": "stream",
+          "url": "https://www.youtube.com/nSzFrerhS9g"
         }
       ],
       "source": {
