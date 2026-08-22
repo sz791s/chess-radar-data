@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:21:55Z",
+  "generatedAt": "2026-08-22T00:38:09Z",
   "eventCount": 82,
   "sources": [
     {
@@ -26,7 +26,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 32
+      "count": 30
     },
     {
       "name": "chessdom",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 41
+      "count": 43
     },
     {
       "name": "uschess",
@@ -608,47 +608,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30214",
-      "title": "5th Kingston Invitational Cup",
-      "shortTitle": "5th Kingston Invitational Cup",
-      "status": "live",
-      "startDate": "2026-08-17T08:00:00Z",
-      "endDate": "2026-08-21T22:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 5th Kingston Invitational Cup.",
-      "description": "79 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/5th-kingston-invitational-cup",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/5th-kingston-invitational-cup"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30409",
       "title": "2nd Kapadokya International Open 2026",
       "shortTitle": "2nd Kapadokya International Open 2026",
@@ -913,7 +872,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Caribbean Chess Cup 2026.",
-      "description": "40 listed players",
+      "description": "41 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1119,84 +1078,43 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-maia-chess-open-2026-21-29-aug-2026",
-      "title": "Maia Chess Open 2026",
-      "shortTitle": "Maia Chess Open 2026",
+      "id": "chesscom-30541",
+      "title": "Harry Lamb memorial FIDE open",
+      "shortTitle": "Harry Lamb memorial FIDE open",
       "status": "live",
-      "startDate": "2026-08-21T00:00:00Z",
-      "endDate": "2026-08-29T23:59:59Z",
+      "startDate": "2026-08-20T23:00:00Z",
+      "endDate": "2026-08-22T23:00:00Z",
       "timezone": "UTC",
-      "locationName": "Maia, Portugal",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Maia Chess Open 2026.",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Harry Lamb memorial FIDE open.",
+      "description": "51 listed players. 5 rounds",
       "categories": [
-        "classical",
-        "open",
-        "otb"
+        "online",
+        "broadcast",
+        "open"
       ],
       "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/582",
+      "channelIds": [
+        "chesscom",
+        "fide"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/harry-lamb-memorial-fide-open",
       "links": [
         {
-          "label": "Event listing",
+          "label": "Chess.com event",
           "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/582"
+          "url": "https://www.chess.com/events/info/harry-lamb-memorial-fide-open"
         },
         {
-          "label": "chessaround calendar",
+          "label": "Chess.com current events",
           "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://s3.chess-results.com/tnr1369101.aspx?lan=3&SNode=S0"
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chessaround-obert-de-sants-ciutat-de-barcelona-2026-21-30-aug-2026",
-      "title": "Obert de Sants - Ciutat de Barcelona 2026",
-      "shortTitle": "Obert de Sants - Ciutat de Barcelona 2026",
-      "status": "live",
-      "startDate": "2026-08-21T00:00:00Z",
-      "endDate": "2026-08-30T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Barcelona, Spain",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Obert de Sants - Ciutat de Barcelona 2026.",
-      "description": "Chessaround listing. Time control/type: standard.",
-      "categories": [
-        "classical",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/585",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/585"
-        },
-        {
-          "label": "chessaround calendar",
-          "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        }
-      ],
-      "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -1213,7 +1131,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 20. LESSING-OPEN 2026.",
-      "description": "225 listed players",
+      "description": "228 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1354,7 +1272,7 @@
       "id": "chesscom-30462",
       "title": "Uruguay Senior Championship 2026",
       "shortTitle": "Uruguay Senior Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-21T21:00:00Z",
       "endDate": "2026-08-23T22:00:00Z",
       "timezone": "UTC",
@@ -1392,10 +1310,52 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30546",
+      "title": "2026 Chess Slovak Open",
+      "shortTitle": "2026 Chess Slovak Open",
+      "status": "live",
+      "startDate": "2026-08-21T22:00:00Z",
+      "endDate": "2026-08-30T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Chess Slovak Open.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-chess-slovak-open",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-chess-slovak-open"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30200",
       "title": "2026 Zadar Chess Festival",
       "shortTitle": "2026 Zadar Chess Festival",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-21T22:00:00Z",
       "endDate": "2026-08-29T20:00:00Z",
       "timezone": "UTC",
@@ -1417,6 +1377,47 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/2026-zadar-chess-festival"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30150",
+      "title": "VII Torneo Internacional de Ajedrez de San Cristóbal de La Laguna",
+      "shortTitle": "VII Torneo Internacional de Ajedrez de San Cristóbal de La Laguna",
+      "status": "upcoming",
+      "startDate": "2026-08-22T08:00:00Z",
+      "endDate": "2026-08-30T04:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: VII Torneo Internacional de Ajedrez de San Cristóbal de La Laguna.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/vii-torneo-internacional-de-ajedrez-de-san-cristobal-de-la-laguna",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/vii-torneo-internacional-de-ajedrez-de-san-cristobal-de-la-laguna"
         },
         {
           "label": "Chess.com current events",
