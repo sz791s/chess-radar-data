@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T00:38:09Z",
-  "eventCount": 82,
+  "generatedAt": "2026-08-22T06:21:23Z",
+  "eventCount": 86,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 43
+      "count": 47
     },
     {
       "name": "uschess",
@@ -512,102 +512,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-wyhtdhig",
-      "title": "Maia Chess Open 2026 | Masters",
-      "shortTitle": "Maia Chess Open 2026 | Masters",
-      "status": "live",
-      "startDate": "2026-08-16T15:15:00Z",
-      "endDate": "2026-08-29T09:15:00Z",
-      "timezone": "Europe/Lisbon",
-      "locationName": "Maia, Portugal",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://axm.pt/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1369101.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-8egpqets",
-      "title": "Maia Chess Open 2026 | U2000",
-      "shortTitle": "Maia Chess Open 2026 | U2000",
-      "status": "live",
-      "startDate": "2026-08-16T15:15:00Z",
-      "endDate": "2026-08-29T09:15:00Z",
-      "timezone": "Europe/Lisbon",
-      "locationName": "Maia, Portugal",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://axm.pt/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1369102.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30409",
       "title": "2nd Kapadokya International Open 2026",
       "shortTitle": "2nd Kapadokya International Open 2026",
@@ -872,7 +776,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Caribbean Chess Cup 2026.",
-      "description": "41 listed players",
+      "description": "42 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1047,7 +951,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Cearense Chess Circuit - Stage 5 2026.",
-      "description": "21 listed players. 6 rounds",
+      "description": "22 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1131,7 +1035,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 20. LESSING-OPEN 2026.",
-      "description": "228 listed players",
+      "description": "231 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1269,6 +1173,102 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-wyhtdhig",
+      "title": "Maia Chess Open 2026 | Masters",
+      "shortTitle": "Maia Chess Open 2026 | Masters",
+      "status": "live",
+      "startDate": "2026-08-21T18:15:00Z",
+      "endDate": "2026-08-29T09:15:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://axm.pt/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1369101.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-8egpqets",
+      "title": "Maia Chess Open 2026 | U2000",
+      "shortTitle": "Maia Chess Open 2026 | U2000",
+      "status": "live",
+      "startDate": "2026-08-21T18:15:00Z",
+      "endDate": "2026-08-29T09:15:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://axm.pt/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1369102.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30462",
       "title": "Uruguay Senior Championship 2026",
       "shortTitle": "Uruguay Senior Championship 2026",
@@ -1279,7 +1279,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Uruguay Senior Championship 2026.",
-      "description": "18 listed players",
+      "description": "21 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -1418,6 +1418,146 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/vii-torneo-internacional-de-ajedrez-de-san-cristobal-de-la-laguna"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30379",
+      "title": "2026 Mind Sports Olympiad London",
+      "shortTitle": "2026 Mind Sports Olympiad London",
+      "status": "upcoming",
+      "startDate": "2026-08-22T10:00:00Z",
+      "endDate": "2026-08-30T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Mind Sports Olympiad London.",
+      "description": "3 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-mind-sports-olympiad-london",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-mind-sports-olympiad-london"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Mind Sports Olympiad London Rapid 2026 | Day 1",
+          "type": "stream",
+          "url": "https://www.youtube.com/79P-vNbKlsI"
+        },
+        {
+          "label": "Mind Sports Olympiad London Rapid 2026 | Day 2",
+          "type": "stream",
+          "url": "https://www.youtube.com/_G_IygVmVzM"
+        },
+        {
+          "label": "Lula Robs Blitz",
+          "type": "stream",
+          "url": "https://www.twitch.tv/lularobs"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30237",
+      "title": "Chemnitzer Schach Cup 2026",
+      "shortTitle": "Chemnitzer Schach Cup 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-22T12:00:00Z",
+      "endDate": "2026-08-23T10:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Chemnitzer Schach Cup 2026.",
+      "description": "2 listed players. 7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "team"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/chemnitzer-schach-cup-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/chemnitzer-schach-cup-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30424",
+      "title": "I Open Soberane Mall de Xadrez",
+      "shortTitle": "I Open Soberane Mall de Xadrez",
+      "status": "upcoming",
+      "startDate": "2026-08-22T13:00:00Z",
+      "endDate": "2026-08-22T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: I Open Soberane Mall de Xadrez.",
+      "description": "7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/i-open-soberane-mall-de-xadrez",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/i-open-soberane-mall-de-xadrez"
         },
         {
           "label": "Chess.com current events",
@@ -1583,6 +1723,48 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30189",
+      "title": "Tirol Open 2026",
+      "shortTitle": "Tirol Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-22T14:00:00Z",
+      "endDate": "2026-08-29T14:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Tirol Open 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/tirol-open-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/tirol-open-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -7081,6 +7263,7 @@
         "ante-ljubi-i",
         "matias-arhus-fossheim",
         "mikolaj-chudy",
+        "mihael-primorac",
         "oskar-jacobsen-jamil",
         "emil-jacobsen-jamil",
         "ana-vuljani",
@@ -7109,8 +7292,7 @@
         "roko-veki",
         "mustafa-u-upli",
         "franc-soba",
-        "tuure-maki-uuro",
-        "julia-stanowska"
+        "tuure-maki-uuro"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
@@ -7257,6 +7439,7 @@
         "ante-ljubi-i",
         "matias-arhus-fossheim",
         "mikolaj-chudy",
+        "mihael-primorac",
         "oskar-jacobsen-jamil",
         "emil-jacobsen-jamil",
         "ana-vuljani",
@@ -7285,8 +7468,7 @@
         "roko-veki",
         "mustafa-u-upli",
         "franc-soba",
-        "tuure-maki-uuro",
-        "julia-stanowska"
+        "tuure-maki-uuro"
       ],
       "confirmedPlayers": [
         {
@@ -9090,6 +9272,21 @@
           }
         },
         {
+          "playerId": "mihael-primorac",
+          "name": "Mihael Primorac",
+          "countryCode": "CRO",
+          "title": "III",
+          "fideId": "14598655",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "oskar-jacobsen-jamil",
           "name": "Oskar Jacobsen Jamil",
           "countryCode": "FAI",
@@ -9515,21 +9712,6 @@
           "countryCode": "FIN",
           "title": null,
           "fideId": "510599",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "julia-stanowska",
-          "name": "Julia Stanowska",
-          "countryCode": "POL",
-          "title": null,
-          "fideId": "21826242",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
