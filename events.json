@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T06:21:23Z",
-  "eventCount": 86,
+  "generatedAt": "2026-08-22T12:18:20Z",
+  "eventCount": 89,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 47
+      "count": 50
     },
     {
       "name": "uschess",
@@ -269,7 +269,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Chessbattle Summer Cup.",
-      "description": "27 listed players",
+      "description": "64 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -653,7 +653,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 5th International “Bella Italia” Festival.",
-      "description": "133 listed players",
+      "description": "137 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -983,15 +983,15 @@
     },
     {
       "id": "chesscom-30541",
-      "title": "Harry Lamb memorial FIDE open",
-      "shortTitle": "Harry Lamb memorial FIDE open",
+      "title": "Harry Lamb Memorial FIDE Open 2026",
+      "shortTitle": "Harry Lamb Memorial FIDE Open 2026",
       "status": "live",
       "startDate": "2026-08-20T23:00:00Z",
-      "endDate": "2026-08-22T23:00:00Z",
+      "endDate": "2026-08-23T19:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: Harry Lamb memorial FIDE open.",
+      "summary": "Chess.com current event: Harry Lamb Memorial FIDE Open 2026.",
       "description": "51 listed players. 5 rounds",
       "categories": [
         "online",
@@ -1026,15 +1026,15 @@
     },
     {
       "id": "chesscom-30472",
-      "title": "20. LESSING-OPEN 2026",
-      "shortTitle": "20. LESSING-OPEN 2026",
+      "title": "20th Lessing Open 2026",
+      "shortTitle": "20th Lessing Open 2026",
       "status": "live",
       "startDate": "2026-08-21T07:30:00Z",
       "endDate": "2026-08-23T21:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: 20. LESSING-OPEN 2026.",
+      "summary": "Chess.com current event: 20th Lessing Open 2026.",
       "description": "231 listed players",
       "categories": [
         "online",
@@ -1393,10 +1393,93 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30571",
+      "title": "10th Eastern Asia Youth Chess Championship 2026",
+      "shortTitle": "10th Eastern Asia Youth Chess Championship 2026",
+      "status": "live",
+      "startDate": "2026-08-22T01:00:00Z",
+      "endDate": "2026-08-29T10:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 10th Eastern Asia Youth Chess Championship 2026.",
+      "description": "216 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/10th-eastern-asia-youth-chess-championship-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/10th-eastern-asia-youth-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30565",
+      "title": "3rd Koltanowski Memoriał Tournament",
+      "shortTitle": "3rd Koltanowski Memoriał Tournament",
+      "status": "live",
+      "startDate": "2026-08-22T07:00:00Z",
+      "endDate": "2026-08-24T05:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 3rd Koltanowski Memoriał Tournament.",
+      "description": "4 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/3rd-koltanowski-memoria-tournament",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/3rd-koltanowski-memoria-tournament"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30150",
       "title": "VII Torneo Internacional de Ajedrez de San Cristóbal de La Laguna",
       "shortTitle": "VII Torneo Internacional de Ajedrez de San Cristóbal de La Laguna",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-22T08:00:00Z",
       "endDate": "2026-08-30T04:30:00Z",
       "timezone": "UTC",
@@ -1437,14 +1520,14 @@
       "id": "chesscom-30379",
       "title": "2026 Mind Sports Olympiad London",
       "shortTitle": "2026 Mind Sports Olympiad London",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-22T10:00:00Z",
       "endDate": "2026-08-30T21:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Mind Sports Olympiad London.",
-      "description": "3 scheduled stream links",
+      "description": "123 listed players. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1493,7 +1576,7 @@
       "id": "chesscom-30237",
       "title": "Chemnitzer Schach Cup 2026",
       "shortTitle": "Chemnitzer Schach Cup 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-22T12:00:00Z",
       "endDate": "2026-08-23T10:00:00Z",
       "timezone": "UTC",
@@ -1808,6 +1891,53 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30540",
+      "title": "Rapido de nau64 (22 agosto 2026)",
+      "shortTitle": "Rapido de nau64 (22 agosto 2026)",
+      "status": "upcoming",
+      "startDate": "2026-08-22T19:00:00Z",
+      "endDate": "2026-08-23T00:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Rapido de nau64 (22 agosto 2026).",
+      "description": "5 rounds. 1 scheduled stream links",
+      "categories": [
+        "rapid",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/rapido-de-nau64-uruguay-22-agosto-2023",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/rapido-de-nau64-uruguay-22-agosto-2023"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Rapido nau64",
+          "type": "stream",
+          "url": "https://www.twitch.tv/nau64ajedrez"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
