@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:41:04Z",
-  "eventCount": 86,
+  "generatedAt": "2026-08-23T06:22:49Z",
+  "eventCount": 87,
   "sources": [
     {
       "name": "curated",
@@ -35,9 +35,9 @@
     },
     {
       "name": "chessmix",
-      "status": "error",
+      "status": "skipped",
       "count": 0,
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "public Chessmix page does not expose tournament rows without a subscription"
     },
     {
       "name": "chesscalendar.net",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 47
+      "count": 48
     },
     {
       "name": "uschess",
@@ -910,7 +910,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 20th Lessing Open 2026.",
-      "description": "231 listed players",
+      "description": "232 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1278,7 +1278,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 10th Eastern Asia Youth Chess Championship 2026.",
-      "description": "216 listed players",
+      "description": "406 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1361,7 +1361,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 7th San Cristobal De La Laguna International Open 2026.",
-      "description": "74 listed players. 9 rounds",
+      "description": "158 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1403,7 +1403,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Mind Sports Olympiad London.",
-      "description": "272 listed players. 3 scheduled stream links",
+      "description": "348 listed players. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1655,7 +1655,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Tirol Open 2026.",
-      "description": "43 listed players. 9 rounds",
+      "description": "58 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1773,6 +1773,48 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28822",
+      "title": "African Junior Individual Chess Championships 2026",
+      "shortTitle": "African Junior Individual Chess Championships 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-23T12:00:00Z",
+      "endDate": "2026-09-01T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: African Junior Individual Chess Championships 2026.",
+      "description": "Listed on the Chess.com current events page.",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/african-junior-individual-chess-championships-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/african-junior-individual-chess-championships-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
