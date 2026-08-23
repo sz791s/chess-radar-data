@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T06:22:49Z",
-  "eventCount": 87,
+  "generatedAt": "2026-08-23T12:18:39Z",
+  "eventCount": 85,
   "sources": [
     {
       "name": "curated",
@@ -26,7 +26,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 30
+      "count": 31
     },
     {
       "name": "chessdom",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 48
+      "count": 45
     },
     {
       "name": "uschess",
@@ -87,47 +87,6 @@
       "source": {
         "name": "chessbase",
         "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-30391",
-      "title": "Wurttemberg Individual Championship 2026",
-      "shortTitle": "Wurttemberg Individual Championship 2026",
-      "status": "live",
-      "startDate": "2026-08-12T12:30:00Z",
-      "endDate": "2026-08-23T07:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Wurttemberg Individual Championship 2026.",
-      "description": "75 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/wurttemberg-individual-championship-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/wurttemberg-individual-championship-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -269,7 +228,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Chessbattle Summer Cup.",
-      "description": "76 listed players",
+      "description": "116 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -341,6 +300,53 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-138e7ewa",
+      "title": "32nd Abu Dhabi International Chess Festival 2026",
+      "shortTitle": "32nd Abu Dhabi International Chess Festival 2026",
+      "status": "live",
+      "startDate": "2026-08-15T13:00:00Z",
+      "endDate": "2026-08-24T06:00:00Z",
+      "timezone": "Asia/Dubai",
+      "locationName": "Abu Dhabi, UAE",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/32nd-abu-dhabi-international-chess-festival-2026/138e7EwA",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/32nd-abu-dhabi-international-chess-festival-2026/138e7EwA"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.adchessfestival.ae/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1448676.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30313",
       "title": "Asian Junior Chess Championships 2026",
       "shortTitle": "Asian Junior Chess Championships 2026",
@@ -393,7 +399,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Olomouc Chess Summer 2026.",
-      "description": "143 listed players",
+      "description": "145 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -760,62 +766,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30370",
-      "title": "2nd ISMAGI International University Chess Festival",
-      "shortTitle": "2nd ISMAGI International University Chess Festival",
-      "status": "live",
-      "startDate": "2026-08-20T09:00:00Z",
-      "endDate": "2026-08-23T07:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 2nd ISMAGI International University Chess Festival.",
-      "description": "35 listed players. 3 scheduled stream links",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2nd-ismagi-international-university-chess-festival",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2nd-ismagi-international-university-chess-festival"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "ISMAGI Rapid Day1",
-          "type": "stream",
-          "url": "https://www.youtube.com/ISOfszMh8vc"
-        },
-        {
-          "label": "ISMAGI Rapid Day2",
-          "type": "stream",
-          "url": "https://www.youtube.com/NCQJnkevCIA"
-        },
-        {
-          "label": "ISMAGI Rapid Day3",
-          "type": "stream",
-          "url": "https://www.youtube.com/nSzFrerhS9g"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30470",
       "title": "Cearense Chess Circuit - Stage 5 2026",
       "shortTitle": "Cearense Chess Circuit - Stage 5 2026",
@@ -910,7 +860,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 20th Lessing Open 2026.",
-      "description": "232 listed players",
+      "description": "233 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1195,7 +1145,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Chess Slovak Open.",
-      "description": "110 listed players",
+      "description": "125 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1449,48 +1399,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30237",
-      "title": "Chemnitzer Schach Cup 2026",
-      "shortTitle": "Chemnitzer Schach Cup 2026",
-      "status": "live",
-      "startDate": "2026-08-22T12:00:00Z",
-      "endDate": "2026-08-23T10:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Chemnitzer Schach Cup 2026.",
-      "description": "2 listed players. 7 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "team"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/chemnitzer-schach-cup-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/chemnitzer-schach-cup-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "lichess-r1ziyvgv",
       "title": "Chess Slovak Open Skalica 2026 | Open A",
       "shortTitle": "Chess Slovak Open Skalica 2026 | Open A",
@@ -1730,58 +1638,10 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-jlkmdq59",
-      "title": "Chess Slovak Open Skalica 2026 | Blitz",
-      "shortTitle": "Chess Slovak Open Skalica 2026 | Blitz",
-      "status": "upcoming",
-      "startDate": "2026-08-23T07:30:00Z",
-      "endDate": "2026-08-23T07:30:00Z",
-      "timezone": "Europe/Berlin",
-      "locationName": "Skalica, Slovakia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "11-round Swiss",
-      "categories": [
-        "blitz",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-blitz/jLkmDQ59",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-blitz/jLkmDQ59"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.chessslovakopen.sk/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1410903.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-28822",
       "title": "African Junior Individual Chess Championships 2026",
       "shortTitle": "African Junior Individual Chess Championships 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-23T12:00:00Z",
       "endDate": "2026-09-01T20:00:00Z",
       "timezone": "UTC",
@@ -10695,6 +10555,51 @@
       "source": {
         "name": "chessbase",
         "url": "https://en.chessbase.com/post/chess-calendar-2026",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chessaround-jerusalem-rapid-open-2026-17-18-nov-2026",
+      "title": "Jerusalem Rapid Open 2026",
+      "shortTitle": "Jerusalem Rapid Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-11-17T00:00:00Z",
+      "endDate": "2026-11-18T23:59:59Z",
+      "timezone": "UTC",
+      "locationName": "Jerusalem, Israel",
+      "isOnline": false,
+      "summary": "Upcoming chess tournament: Jerusalem Rapid Open 2026.",
+      "description": "Chessaround listing. Time control/type: rapid.",
+      "categories": [
+        "rapid",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [],
+      "primaryUrl": "https://calendar.chessaround.com/tournament/view/640",
+      "links": [
+        {
+          "label": "Event listing",
+          "type": "official",
+          "url": "https://calendar.chessaround.com/tournament/view/640"
+        },
+        {
+          "label": "chessaround calendar",
+          "type": "source",
+          "url": "https://calendar.chessaround.com/"
+        },
+        {
+          "label": "Starting list",
+          "type": "players",
+          "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0"
+        }
+      ],
+      "source": {
+        "name": "chessaround",
+        "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
