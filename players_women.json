@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:40:17Z",
+  "generatedAt": "2026-08-24T06:36:16Z",
   "list": "top50_women",
   "source": "manualSeed",
   "playerCount": 50,
@@ -706,8 +706,31 @@
       "rapidRating": null,
       "blitzRating": null,
       "profileLinks": {},
-      "confirmedEventIds": [],
-      "confirmedEvents": []
+      "confirmedEventIds": [
+        "chessaround-jerusalem-rapid-open-2026-17-18-nov-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-jerusalem-rapid-open-2026-17-18-nov-2026",
+          "title": "Jerusalem Rapid Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-11-17T00:00:00Z",
+          "endDate": "2026-11-18T23:59:59Z",
+          "locationName": "Jerusalem, Israel",
+          "isOnline": false,
+          "categories": [
+            "rapid",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/640",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
     },
     {
       "id": "carissa-yip",

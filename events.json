@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:40:09Z",
+  "generatedAt": "2026-08-24T06:36:08Z",
   "eventCount": 73,
   "sources": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 34
     },
     {
       "name": "uschess",
@@ -88,53 +88,6 @@
         "name": "chessbase",
         "url": "https://en.chessbase.com/post/chess-calendar-2026",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-138e7ewa",
-      "title": "32nd Abu Dhabi International Chess Festival 2026",
-      "shortTitle": "32nd Abu Dhabi International Chess Festival 2026",
-      "status": "live",
-      "startDate": "2026-08-15T13:00:00Z",
-      "endDate": "2026-08-24T06:00:00Z",
-      "timezone": "Asia/Dubai",
-      "locationName": "Abu Dhabi, UAE",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/32nd-abu-dhabi-international-chess-festival-2026/138e7EwA",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/32nd-abu-dhabi-international-chess-festival-2026/138e7EwA"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.adchessfestival.ae/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1448676.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -679,47 +632,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30565",
-      "title": "3rd Koltanowski Memoriał Tournament",
-      "shortTitle": "3rd Koltanowski Memoriał Tournament",
-      "status": "live",
-      "startDate": "2026-08-22T07:00:00Z",
-      "endDate": "2026-08-24T05:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 3rd Koltanowski Memoriał Tournament.",
-      "description": "24 listed players. 4 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/3rd-koltanowski-memoria-tournament",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/3rd-koltanowski-memoria-tournament"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30150",
       "title": "7th San Cristobal De La Laguna International Open 2026",
       "shortTitle": "7th San Cristobal De La Laguna International Open 2026",
@@ -772,7 +684,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Mind Sports Olympiad London.",
-      "description": "458 listed players. 3 scheduled stream links",
+      "description": "461 listed players. 3 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1616,7 +1528,7 @@
       "id": "chesscom-30417",
       "title": "16th Papanastasio Open Tournament 2026 | A Group",
       "shortTitle": "16th Papanastasio Open Tournament 2026 | A Group",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-24T05:00:00Z",
       "endDate": "2026-08-30T20:00:00Z",
       "timezone": "UTC",
@@ -1639,6 +1551,48 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/16th-papanastasio-open-tournament-2026-a-group"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-28759",
+      "title": "19th Montserrat International Open 2026",
+      "shortTitle": "19th Montserrat International Open 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-24T10:00:00Z",
+      "endDate": "2026-08-30T16:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 19th Montserrat International Open 2026.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/xix-open-internacional-montserrat",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/xix-open-internacional-montserrat"
         },
         {
           "label": "Chess.com current events",
@@ -1687,6 +1641,52 @@
         "name": "lichess",
         "url": "https://lichess.org/api/broadcast",
         "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30246",
+      "title": "2026 Menchik Memorial",
+      "shortTitle": "2026 Menchik Memorial",
+      "status": "upcoming",
+      "startDate": "2026-08-24T14:00:00Z",
+      "endDate": "2026-08-30T09:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Menchik Memorial.",
+      "description": "10 listed players. 9 rounds. 1 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-menchik-memorial",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-menchik-memorial"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Official Commentary",
+          "type": "stream",
+          "url": "https://www.twitch.tv/annamaja"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -8465,20 +8465,34 @@
         "otb"
       ],
       "playerIds": [
+        "maxim-chigaev",
         "arseniy-nesterov",
+        "maxim-rodshtein",
         "evgeny-romanov",
         "alexander-motylev",
         "yahli-sokolovsky",
+        "stepan-zilka",
+        "dan-zoler",
+        "plat-vojtech",
         "prraneeth-vuppala",
+        "alexander-evdokimov",
+        "igor-glek",
+        "eline-roebers",
         "ido-ben-artzi",
+        "maksim-shchekachikhin",
         "alexandra-maltsevskaya",
+        "maxim-novik",
         "evgeniya-doluhanova",
         "daniel-moskovich",
+        "tereza-rodshtein",
         "omri-shimony",
         "rotem-namdar",
+        "itamar-brodsky",
+        "rey-goralskiy",
         "eithan-sigalov",
         "guy-venturero",
         "noam-bleicher",
+        "adir-avny",
         "tamir-bleicher",
         "mahmood-abedelhade"
       ],
@@ -8507,30 +8521,74 @@
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
+        "maxim-chigaev",
         "arseniy-nesterov",
+        "maxim-rodshtein",
         "evgeny-romanov",
         "alexander-motylev",
         "yahli-sokolovsky",
+        "stepan-zilka",
+        "dan-zoler",
+        "plat-vojtech",
         "prraneeth-vuppala",
+        "alexander-evdokimov",
+        "igor-glek",
+        "eline-roebers",
         "ido-ben-artzi",
+        "maksim-shchekachikhin",
         "alexandra-maltsevskaya",
+        "maxim-novik",
         "evgeniya-doluhanova",
         "daniel-moskovich",
+        "tereza-rodshtein",
         "omri-shimony",
         "rotem-namdar",
+        "itamar-brodsky",
+        "rey-goralskiy",
         "eithan-sigalov",
         "guy-venturero",
         "noam-bleicher",
+        "adir-avny",
         "tamir-bleicher",
         "mahmood-abedelhade"
       ],
       "confirmedPlayers": [
+        {
+          "playerId": "maxim-chigaev",
+          "name": "Maxim Chigaev",
+          "countryCode": "ESP",
+          "title": "GM",
+          "fideId": "4108116",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
         {
           "playerId": "arseniy-nesterov",
           "name": "Arseniy Nesterov",
           "countryCode": "FID",
           "title": "GM",
           "fideId": "24198455",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "maxim-rodshtein",
+          "name": "Maxim Rodshtein",
+          "countryCode": "ISR",
+          "title": "GM",
+          "fideId": "2806851",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -8586,11 +8644,101 @@
           }
         },
         {
+          "playerId": "stepan-zilka",
+          "name": "Stepan Zilka",
+          "countryCode": "CZE",
+          "title": "GM",
+          "fideId": "315303",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "dan-zoler",
+          "name": "Dan Zoler",
+          "countryCode": "ISR",
+          "title": "GM",
+          "fideId": "2800705",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "plat-vojtech",
+          "name": "Plat Vojtech",
+          "countryCode": "CZE",
+          "title": "GM",
+          "fideId": "325740",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "prraneeth-vuppala",
           "name": "Prraneeth Vuppala",
           "countryCode": "IND",
-          "title": null,
+          "title": "GM",
           "fideId": "46622373",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "alexander-evdokimov",
+          "name": "Alexander Evdokimov",
+          "countryCode": "RUS",
+          "title": "GM",
+          "fideId": "4139275",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "igor-glek",
+          "name": "Igor Glek",
+          "countryCode": "BEL",
+          "title": "GM",
+          "fideId": "4100484",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "eline-roebers",
+          "name": "Eline Roebers",
+          "countryCode": "NLD",
+          "title": "IM",
+          "fideId": "1058401",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -8616,11 +8764,41 @@
           }
         },
         {
+          "playerId": "maksim-shchekachikhin",
+          "name": "Maksim Shchekachikhin",
+          "countryCode": "FID",
+          "title": "IM",
+          "fideId": "24177830",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "alexandra-maltsevskaya",
           "name": "Alexandra Maltsevskaya",
           "countryCode": "POL",
-          "title": "IM",
+          "title": "WGM",
           "fideId": "24174041",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "maxim-novik",
+          "name": "Maxim Novik",
+          "countryCode": "LTU",
+          "title": "GM",
+          "fideId": "4102924",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -8661,6 +8839,21 @@
           }
         },
         {
+          "playerId": "tereza-rodshtein",
+          "name": "Tereza Rodshtein",
+          "countryCode": "CZE",
+          "title": "WGM",
+          "fideId": "325449",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "omri-shimony",
           "name": "Omri Shimony",
           "countryCode": "ISR",
@@ -8681,6 +8874,36 @@
           "countryCode": "ISR",
           "title": null,
           "fideId": "2888408",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "itamar-brodsky",
+          "name": "Itamar Brodsky",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2865076",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "rey-goralskiy",
+          "name": "Rey Goralskiy",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2856336",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -8726,6 +8949,21 @@
           "countryCode": "ISR",
           "title": null,
           "fideId": "2860651",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "adir-avny",
+          "name": "Adir Avny",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2865610",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
