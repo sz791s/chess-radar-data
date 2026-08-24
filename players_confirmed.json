@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T06:36:16Z",
+  "generatedAt": "2026-08-24T12:26:09Z",
   "playerCount": 383,
   "source": "confirmedEventRosters",
   "players": [
@@ -3338,7 +3338,7 @@
     {
       "id": "eline-roebers",
       "name": "Eline Roebers",
-      "countryCode": "NLD",
+      "countryCode": "NED",
       "title": "IM",
       "fideId": "1058401",
       "classicalRating": null,
@@ -10136,40 +10136,6 @@
       ]
     },
     {
-      "id": "plat-vojtech",
-      "name": "Plat Vojtech",
-      "countryCode": "CZE",
-      "title": "GM",
-      "fideId": "325740",
-      "classicalRating": null,
-      "profileLinks": {},
-      "confirmedEventIds": [
-        "chessaround-jerusalem-rapid-open-2026-17-18-nov-2026"
-      ],
-      "confirmedEvents": [
-        {
-          "eventId": "chessaround-jerusalem-rapid-open-2026-17-18-nov-2026",
-          "title": "Jerusalem Rapid Open 2026",
-          "status": "upcoming",
-          "startDate": "2026-11-17T00:00:00Z",
-          "endDate": "2026-11-18T23:59:59Z",
-          "locationName": "Jerusalem, Israel",
-          "isOnline": false,
-          "categories": [
-            "rapid",
-            "open",
-            "otb"
-          ],
-          "primaryUrl": "https://calendar.chessaround.com/tournament/view/640",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
       "id": "predrag-cicovacki",
       "name": "Predrag Cicovacki",
       "countryCode": "USA",
@@ -12544,6 +12510,40 @@
           "source": {
             "name": "chess-results",
             "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vojtech-plat",
+      "name": "Vojtech Plat",
+      "countryCode": "CZE",
+      "title": "GM",
+      "fideId": "325740",
+      "classicalRating": null,
+      "profileLinks": {},
+      "confirmedEventIds": [
+        "chessaround-jerusalem-rapid-open-2026-17-18-nov-2026"
+      ],
+      "confirmedEvents": [
+        {
+          "eventId": "chessaround-jerusalem-rapid-open-2026-17-18-nov-2026",
+          "title": "Jerusalem Rapid Open 2026",
+          "status": "upcoming",
+          "startDate": "2026-11-17T00:00:00Z",
+          "endDate": "2026-11-18T23:59:59Z",
+          "locationName": "Jerusalem, Israel",
+          "isOnline": false,
+          "categories": [
+            "rapid",
+            "open",
+            "otb"
+          ],
+          "primaryUrl": "https://calendar.chessaround.com/tournament/view/640",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
             "confidence": "high"
           }
         }

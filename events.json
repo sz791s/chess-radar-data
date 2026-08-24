@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T06:36:08Z",
-  "eventCount": 73,
+  "generatedAt": "2026-08-24T12:26:03Z",
+  "eventCount": 74,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 34
+      "count": 36
     },
     {
       "name": "uschess",
@@ -87,6 +87,48 @@
       "source": {
         "name": "chessbase",
         "url": "https://en.chessbase.com/post/chess-calendar-2026",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30313",
+      "title": "Asian Junior Chess Championships 2026",
+      "shortTitle": "Asian Junior Chess Championships 2026",
+      "status": "live",
+      "startDate": "2026-08-15T18:30:00Z",
+      "endDate": "2026-08-25T14:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Asian Junior Chess Championships 2026.",
+      "description": "441 listed players",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/asian-junior-chess-championships-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/asian-junior-chess-championships-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
       "confirmedPlayerIds": [],
@@ -1570,7 +1612,7 @@
       "id": "chesscom-28759",
       "title": "19th Montserrat International Open 2026",
       "shortTitle": "19th Montserrat International Open 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-24T10:00:00Z",
       "endDate": "2026-08-30T16:00:00Z",
       "timezone": "UTC",
@@ -1609,43 +1651,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-dvas6gnc",
-      "title": "Battle of Minds 2 – Sharjah Cultural & Chess Club | Blitz",
-      "shortTitle": "Battle of Minds 2 – Sharjah Cultural & Chess Club | Blitz",
-      "status": "upcoming",
-      "startDate": "2026-08-24T10:00:00Z",
-      "endDate": "2026-08-24T10:00:00Z",
-      "timezone": "Asia/Dubai",
-      "locationName": "Sharjah, United Arab Emirates",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Match",
-      "categories": [
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/battle-of-minds-2-sharjah-cultural-chess-club-blitz/dVaS6gnc",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/battle-of-minds-2-sharjah-cultural-chess-club-blitz/dVaS6gnc"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30246",
       "title": "2026 Menchik Memorial",
       "shortTitle": "2026 Menchik Memorial",
@@ -1656,7 +1661,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Menchik Memorial.",
-      "description": "10 listed players. 9 rounds. 1 scheduled stream links",
+      "description": "10 listed players. 9 rounds. 7 scheduled stream links",
       "categories": [
         "online",
         "broadcast"
@@ -1678,9 +1683,50 @@
           "url": "https://www.chess.com/events/current"
         },
         {
-          "label": "Official Commentary",
+          "label": "Menchik Memorial R1",
           "type": "stream",
           "url": "https://www.twitch.tv/annamaja"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30415",
+      "title": "VI Mindsports International Festival 2026 - Super Swiss",
+      "shortTitle": "VI Mindsports International Festival 2026 - Super Swiss",
+      "status": "upcoming",
+      "startDate": "2026-08-24T15:00:00Z",
+      "endDate": "2026-08-29T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: VI Mindsports International Festival 2026 - Super Swiss.",
+      "description": "82 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/vi-mindsports-international-festival-2026-super-swiss",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/vi-mindsports-international-festival-2026-super-swiss"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
@@ -8473,7 +8519,7 @@
         "yahli-sokolovsky",
         "stepan-zilka",
         "dan-zoler",
-        "plat-vojtech",
+        "vojtech-plat",
         "prraneeth-vuppala",
         "alexander-evdokimov",
         "igor-glek",
@@ -8529,7 +8575,7 @@
         "yahli-sokolovsky",
         "stepan-zilka",
         "dan-zoler",
-        "plat-vojtech",
+        "vojtech-plat",
         "prraneeth-vuppala",
         "alexander-evdokimov",
         "igor-glek",
@@ -8674,8 +8720,8 @@
           }
         },
         {
-          "playerId": "plat-vojtech",
-          "name": "Plat Vojtech",
+          "playerId": "vojtech-plat",
+          "name": "Vojtech Plat",
           "countryCode": "CZE",
           "title": "GM",
           "fideId": "325740",
@@ -8736,7 +8782,7 @@
         {
           "playerId": "eline-roebers",
           "name": "Eline Roebers",
-          "countryCode": "NLD",
+          "countryCode": "NED",
           "title": "IM",
           "fideId": "1058401",
           "classicalRating": null,
