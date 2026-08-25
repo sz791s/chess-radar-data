@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T06:27:51Z",
-  "eventCount": 70,
+  "generatedAt": "2026-08-25T12:26:29Z",
+  "eventCount": 77,
   "sources": [
     {
       "name": "curated",
@@ -130,6 +130,53 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-g3goyaof",
+      "title": "Campeonato de España Individual Absoluto y Femenino 2026 (Spanish Championships)",
+      "shortTitle": "Campeonato de España Individual Absoluto y Femenino 2026 (Spanish Championships)",
+      "status": "live",
+      "startDate": "2026-08-17T14:30:00Z",
+      "endDate": "2026-08-25T14:30:00Z",
+      "timezone": "Europe/Madrid",
+      "locationName": "Linares, Spain",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/campeonato-de-espana-individual-absoluto-y-femenino-2026-spanish-championships/G3GOyaOf",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/campeonato-de-espana-individual-absoluto-y-femenino-2026-spanish-championships/G3GOyaOf"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://feda.org/feda2k16/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://info64.org/campeonato-de-espana-individual-absoluto-y-femenino-2026/standings"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -365,6 +412,102 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-wyhtdhig",
+      "title": "Maia Chess Open 2026 | Masters",
+      "shortTitle": "Maia Chess Open 2026 | Masters",
+      "status": "live",
+      "startDate": "2026-08-21T18:15:00Z",
+      "endDate": "2026-08-29T09:15:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/maia-chess-open-2026-masters/wyhtdHiG"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://axm.pt/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1369101.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-8egpqets",
+      "title": "Maia Chess Open 2026 | U2000",
+      "shortTitle": "Maia Chess Open 2026 | U2000",
+      "status": "live",
+      "startDate": "2026-08-21T18:15:00Z",
+      "endDate": "2026-08-29T09:15:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/maia-chess-open-2026-u2000/8eGpqetS"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://axm.pt/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1369102.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30546",
       "title": "2026 Chess Slovak Open",
       "shortTitle": "2026 Chess Slovak Open",
@@ -500,7 +643,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Nimes Apogee Festival 2026.",
-      "description": "41 listed players. 9 rounds",
+      "description": "43 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -670,6 +813,160 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-r1ziyvgv",
+      "title": "Chess Slovak Open Skalica 2026 | Open A",
+      "shortTitle": "Chess Slovak Open Skalica 2026 | Open A",
+      "status": "live",
+      "startDate": "2026-08-22T14:00:00Z",
+      "endDate": "2026-08-30T07:30:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Skalica, Slovakia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-open-a/R1ZiYVGV",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-open-a/R1ZiYVGV"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessslovakopen.sk/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1336015.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-xsi51bjb",
+      "title": "Chess Slovak Open Skalica 2026 | Open B",
+      "shortTitle": "Chess Slovak Open Skalica 2026 | Open B",
+      "status": "live",
+      "startDate": "2026-08-22T14:00:00Z",
+      "endDate": "2026-08-30T07:30:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Skalica, Slovakia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-open-b/xSI51BjB",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-open-b/xSI51BjB"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessslovakopen.sk/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1336019.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-6xyidlsf",
+      "title": "Chess Slovak Open Skalica 2026 | Queen Masters",
+      "shortTitle": "Chess Slovak Open Skalica 2026 | Queen Masters",
+      "status": "live",
+      "startDate": "2026-08-22T14:00:00Z",
+      "endDate": "2026-08-30T07:30:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Skalica, Slovakia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-queen-masters/6xYIDLsF",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-queen-masters/6xYIDLsF"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.chessslovakopen.sk/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1410890.aspx"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-masters/7Bx4aawJ"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1336024.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30189",
       "title": "Tirol Open 2026",
       "shortTitle": "Tirol Open 2026",
@@ -722,7 +1019,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: African Junior Individual Chess Championships 2026.",
-      "description": "Listed on the Chess.com current events page.",
+      "description": "10 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -921,6 +1218,53 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-qzhta8an",
+      "title": "11th Menchik Memorial 2026",
+      "shortTitle": "11th Menchik Memorial 2026",
+      "status": "live",
+      "startDate": "2026-08-24T14:00:00Z",
+      "endDate": "2026-08-30T09:00:00Z",
+      "timezone": "Europe/London",
+      "locationName": "London, England",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/11th-menchik-memorial-2026/QzHta8AN",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/11th-menchik-memorial-2026/QzHta8AN"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.englishchess.org.uk/the-11th-menchik-memorial/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chess-results.com/tnr1471927.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30640",
       "title": "9th Istanbul International Open 2026",
       "shortTitle": "9th Istanbul International Open 2026",
@@ -931,7 +1275,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 9th Istanbul International Open 2026.",
-      "description": "92 listed players",
+      "description": "80 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1007,7 +1351,7 @@
       "id": "chesscom-30567",
       "title": "2026 Sizzling Summer Blitz",
       "shortTitle": "2026 Sizzling Summer Blitz",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-25T07:00:00Z",
       "endDate": "2026-08-26T05:00:00Z",
       "timezone": "UTC",
@@ -1049,7 +1393,7 @@
       "id": "chesscom-30631",
       "title": "Mutxamel Moors & Christians International 2026",
       "shortTitle": "Mutxamel Moors & Christians International 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-25T12:00:00Z",
       "endDate": "2026-08-27T19:30:00Z",
       "timezone": "UTC",
@@ -1090,7 +1434,7 @@
       "id": "lichess-dau9yrqk",
       "title": "WR Women's Chess Tour 2026 Europe | Rapid",
       "shortTitle": "WR Women's Chess Tour 2026 Europe | Rapid",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-25T12:00:00Z",
       "endDate": "2026-09-02T19:00:00Z",
       "timezone": "Europe/Paris",
@@ -1243,7 +1587,6 @@
         "otb"
       ],
       "playerIds": [
-        "stamatis-kourkoulos-arditis",
         "anatole-vlachos",
         "evgenios-ioannidis",
         "evaggelos-patrelakis",
@@ -1252,18 +1595,13 @@
         "shanty-jake",
         "paul-chambers-ezra",
         "dimitrios-papakonstantinou",
-        "petro-golubka",
         "stefanos-magkalakis",
-        "alexandros-papasimakopoulos",
         "panayotis-papadopoulos",
         "parth-moghe",
         "markos-kazakos",
-        "spyridon-naoum",
         "oleksandr-dovgaliuk",
-        "christos-tsarsitalidis",
         "roel-donker",
         "oleksandr-vasynda",
-        "konstantinos-tsarsitalidis",
         "lampros-giannoulakis",
         "themistoklis-kalogridis",
         "vincent-schmit",
@@ -1275,7 +1613,6 @@
         "dionysios-merkouropoulos",
         "susanna-gaboyan",
         "athanasios-panagiotis-ballas",
-        "mihail-triantafilidis",
         "hristos-marinakis",
         "spyridon-kyparissopoulos",
         "georgios-rafail-mantazis",
@@ -1299,6 +1636,7 @@
         "amarnani-harshit",
         "ninoslav-milovanovic",
         "stavros-marinidis",
+        "ismail-berk-canli",
         "dimitra-alexandri",
         "antonios-exarchos",
         "klearhos-gountras",
@@ -1356,7 +1694,6 @@
         "choudhary-kanishka",
         "panagiotis-iliopoulos",
         "ioannis-antoniou-tragoudas",
-        "stella-foinikianaki",
         "despina-barbageorgopoulou",
         "chrysoula-paraskevi-mitraka",
         "athanasios-baroutas",
@@ -1387,12 +1724,19 @@
         "naoum-kalfopoulos",
         "ioannis-bimpikas",
         "panagiotis-th-chronopoulos",
-        "michail-panagiotis-chalkias",
         "orfeas-kasmeridis",
         "nikolaos-paschalidis",
         "haralampos-betsakos",
         "sofia-betsakou",
-        "paschalis-kampouridis"
+        "paschalis-kampouridis",
+        "odysseas-chasiotis",
+        "ioannis-noulis",
+        "osman-kutalp-barlin",
+        "konstantinos-ampatzidis",
+        "hristos-tsinopoulos",
+        "nikolaos-angelidis",
+        "efstathios-teligiannidis",
+        "dimitrios-bampas"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
@@ -1419,7 +1763,6 @@
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
-        "stamatis-kourkoulos-arditis",
         "anatole-vlachos",
         "evgenios-ioannidis",
         "evaggelos-patrelakis",
@@ -1428,18 +1771,13 @@
         "shanty-jake",
         "paul-chambers-ezra",
         "dimitrios-papakonstantinou",
-        "petro-golubka",
         "stefanos-magkalakis",
-        "alexandros-papasimakopoulos",
         "panayotis-papadopoulos",
         "parth-moghe",
         "markos-kazakos",
-        "spyridon-naoum",
         "oleksandr-dovgaliuk",
-        "christos-tsarsitalidis",
         "roel-donker",
         "oleksandr-vasynda",
-        "konstantinos-tsarsitalidis",
         "lampros-giannoulakis",
         "themistoklis-kalogridis",
         "vincent-schmit",
@@ -1451,7 +1789,6 @@
         "dionysios-merkouropoulos",
         "susanna-gaboyan",
         "athanasios-panagiotis-ballas",
-        "mihail-triantafilidis",
         "hristos-marinakis",
         "spyridon-kyparissopoulos",
         "georgios-rafail-mantazis",
@@ -1475,6 +1812,7 @@
         "amarnani-harshit",
         "ninoslav-milovanovic",
         "stavros-marinidis",
+        "ismail-berk-canli",
         "dimitra-alexandri",
         "antonios-exarchos",
         "klearhos-gountras",
@@ -1532,7 +1870,6 @@
         "choudhary-kanishka",
         "panagiotis-iliopoulos",
         "ioannis-antoniou-tragoudas",
-        "stella-foinikianaki",
         "despina-barbageorgopoulou",
         "chrysoula-paraskevi-mitraka",
         "athanasios-baroutas",
@@ -1563,29 +1900,21 @@
         "naoum-kalfopoulos",
         "ioannis-bimpikas",
         "panagiotis-th-chronopoulos",
-        "michail-panagiotis-chalkias",
         "orfeas-kasmeridis",
         "nikolaos-paschalidis",
         "haralampos-betsakos",
         "sofia-betsakou",
-        "paschalis-kampouridis"
+        "paschalis-kampouridis",
+        "odysseas-chasiotis",
+        "ioannis-noulis",
+        "osman-kutalp-barlin",
+        "konstantinos-ampatzidis",
+        "hristos-tsinopoulos",
+        "nikolaos-angelidis",
+        "efstathios-teligiannidis",
+        "dimitrios-bampas"
       ],
       "confirmedPlayers": [
-        {
-          "playerId": "stamatis-kourkoulos-arditis",
-          "name": "Stamatis Kourkoulos-Arditis",
-          "countryCode": "GRE",
-          "title": "GM",
-          "fideId": "4221990",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
         {
           "playerId": "anatole-vlachos",
           "name": "Anatole Vlachos",
@@ -1707,41 +2036,11 @@
           }
         },
         {
-          "playerId": "petro-golubka",
-          "name": "Petro Golubka",
-          "countryCode": "CAN",
-          "title": "GM",
-          "fideId": "14114224",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "stefanos-magkalakis",
           "name": "Stefanos Magkalakis",
           "countryCode": "GRE",
           "title": "FM",
           "fideId": "25834134",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexandros-papasimakopoulos",
-          "name": "Alexandros Papasimakopoulos",
-          "countryCode": "GRE",
-          "title": "IM",
-          "fideId": "4244125",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -1797,41 +2096,11 @@
           }
         },
         {
-          "playerId": "spyridon-naoum",
-          "name": "Spyridon Naoum",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4227506",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "oleksandr-dovgaliuk",
           "name": "Oleksandr Dovgaliuk",
           "countryCode": "UKR",
           "title": "FM",
           "fideId": "14167247",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "christos-tsarsitalidis",
-          "name": "Christos Tsarsitalidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25831488",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -1862,21 +2131,6 @@
           "countryCode": "UKR",
           "title": "FM",
           "fideId": "14176297",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-tsarsitalidis",
-          "name": "Konstantinos Tsarsitalidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4298748",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2042,21 +2296,6 @@
           "countryCode": "GRE",
           "title": null,
           "fideId": "4224078",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mihail-triantafilidis",
-          "name": "Mihail Triantafilidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4282930",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -2402,6 +2641,21 @@
           "countryCode": "GRE",
           "title": "AIM",
           "fideId": "42104904",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ismail-berk-canli",
+          "name": "Ismail Berk Canli",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "51666731",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3267,21 +3521,6 @@
           }
         },
         {
-          "playerId": "stella-foinikianaki",
-          "name": "Stella Foinikianaki",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4295013",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "despina-barbageorgopoulou",
           "name": "Despina Barbageorgopoulou",
           "countryCode": "GRE",
@@ -3732,21 +3971,6 @@
           }
         },
         {
-          "playerId": "michail-panagiotis-chalkias",
-          "name": "Michail Panagiotis Chalkias",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25830660",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "orfeas-kasmeridis",
           "name": "Orfeas Kasmeridis",
           "countryCode": "GRE",
@@ -3820,147 +4044,167 @@
             "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
             "confidence": "high"
           }
+        },
+        {
+          "playerId": "odysseas-chasiotis",
+          "name": "Odysseas Chasiotis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25870300",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "ioannis-noulis",
+          "name": "Ioannis Noulis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42143608",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "osman-kutalp-barlin",
+          "name": "Osman Kutalp Barlin",
+          "countryCode": "TUR",
+          "title": null,
+          "fideId": "525010891",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "konstantinos-ampatzidis",
+          "name": "Konstantinos Ampatzidis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42174660",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "hristos-tsinopoulos",
+          "name": "Hristos Tsinopoulos",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "25807676",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nikolaos-angelidis",
+          "name": "Nikolaos Angelidis",
+          "countryCode": "GRE",
+          "title": "AIM",
+          "fideId": "42158680",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "efstathios-teligiannidis",
+          "name": "Efstathios Teligiannidis",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "42116945",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "dimitrios-bampas",
+          "name": "Dimitrios Bampas",
+          "countryCode": "GRE",
+          "title": null,
+          "fideId": "541027345",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
+            "confidence": "high"
+          }
         }
       ]
     },
     {
-      "id": "lichess-rbdv6q4b",
-      "title": "CIG Italian Youth Championships U18 2026 | G16",
-      "shortTitle": "CIG Italian Youth Championships U18 2026 | G16",
+      "id": "lichess-ycqqml9q",
+      "title": "Chess Slovak Open Skalica 2026 | Rapid",
+      "shortTitle": "Chess Slovak Open Skalica 2026 | Rapid",
       "status": "upcoming",
-      "startDate": "2026-08-29T13:15:00Z",
-      "endDate": "2026-09-05T07:15:00Z",
-      "timezone": "Europe/Rome",
-      "locationName": "Cagliari, Italy",
+      "startDate": "2026-08-29T07:00:00Z",
+      "endDate": "2026-08-29T07:00:00Z",
+      "timezone": "Europe/Berlin",
+      "locationName": "Skalica, Slovakia",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "description": "7-round Swiss",
       "categories": [
-        "classical",
+        "rapid",
         "broadcast",
-        "junior",
+        "open",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g16/rBDV6q4B",
+      "primaryUrl": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-rapid/YcQqML9q",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g16/rBDV6q4B"
+          "url": "https://lichess.org/broadcast/chess-slovak-open-skalica-2026-rapid/YcQqML9q"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://www.scacchinazionali.it/"
+          "url": "https://www.chessslovakopen.sk/"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://vesus.org/tournament/wR74PFJo?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g08/rRpGr8kJ"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/-eFiKiYy?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-o08/caHBcWhX"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/Dqiz2k-O?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g10/YLqmOHtV"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/xOzAxXpZ?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-o10/k21yjV19"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/415rBXy1?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g12/KyIelMJV"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/e6SmX7l0?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-o12/IGPi1b3f"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/jk2uvdP7?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g14/lJVAi23m"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/k2BjTqJM?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-o16/GbTbJbiY"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/Ef3CNPFH?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g18/JsKWSQcV"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/ugw4oNc2?selectedTab=tournament.standing"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-o18/xp3HQwcF"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://vesus.org/tournament/D96qzJMD?selectedTab=tournament.standing"
+          "url": "https://s2.chess-results.com/tnr1410909.aspx"
         }
       ],
       "source": {
@@ -7244,6 +7488,7 @@
         "jose-rafael-gascon-del-nogal",
         "ameya-audi",
         "kevin-barry-spraggett",
+        "v-s-raahul",
         "pieter-hopman",
         "nino-maisuradze",
         "titus-teodor-bittner",
@@ -7298,6 +7543,7 @@
         "jose-rafael-gascon-del-nogal",
         "ameya-audi",
         "kevin-barry-spraggett",
+        "v-s-raahul",
         "pieter-hopman",
         "nino-maisuradze",
         "titus-teodor-bittner",
@@ -7362,6 +7608,21 @@
           "title": "GM",
           "fideId": "2600013",
           "classicalRating": 2414,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s2.chess-results.com/tnr1427194.aspx",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "v-s-raahul",
+          "name": "V S Raahul",
+          "countryCode": "IND",
+          "title": "GM",
+          "fideId": "25035525",
+          "classicalRating": 2395,
           "profileLinks": {},
           "status": "confirmed",
           "source": {
