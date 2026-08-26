@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:40:13Z",
-  "eventCount": 76,
+  "generatedAt": "2026-08-26T06:29:26Z",
+  "eventCount": 75,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 39
+      "count": 38
     },
     {
       "name": "uschess",
@@ -595,7 +595,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 7th San Cristobal De La Laguna International Open 2026.",
-      "description": "160 listed players. 9 rounds",
+      "description": "158 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -693,7 +693,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Panamerican Amateur Chess Championship 2026.",
-      "description": "77 listed players. 9 rounds",
+      "description": "80 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1013,7 +1013,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Republika Srpska 1st League 2026.",
-      "description": "51 listed players. 7 rounds",
+      "description": "52 listed players. 7 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1139,7 +1139,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Kydonia 2026.",
-      "description": "17 listed players. 9 rounds",
+      "description": "61 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1284,48 +1284,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/vi-mindsports-international-festival-2026-super-swiss"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-30567",
-      "title": "2026 Sizzling Summer Blitz",
-      "shortTitle": "2026 Sizzling Summer Blitz",
-      "status": "live",
-      "startDate": "2026-08-25T07:00:00Z",
-      "endDate": "2026-08-26T05:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 2026 Sizzling Summer Blitz.",
-      "description": "Listed on the Chess.com current events page.",
-      "categories": [
-        "blitz",
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-sizzling-summer-blitz",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-sizzling-summer-blitz"
         },
         {
           "label": "Chess.com current events",
@@ -8191,7 +8149,9 @@
         "maxim-rodshtein",
         "abhijit-gupta",
         "evgeny-romanov",
+        "vitaly-sivuk",
         "vladimir-belov",
+        "nodar-lortkipanidze",
         "roman-dehtiarov",
         "alexander-evdokimov",
         "avital-boruchovsky",
@@ -8208,6 +8168,7 @@
         "eline-roebers",
         "maxim-novik",
         "irakli-akhvlediani",
+        "harshavardhan-gopalakrishnan-bhamaa",
         "nikola-kanov",
         "inna-gaponenko",
         "maksim-shchekachikhin",
@@ -8215,6 +8176,7 @@
         "nataliia-buksa",
         "raahul-vs",
         "alexander-raetsky",
+        "petra-papp",
         "rakhmangulova-anastasya",
         "tereza-rodshtein",
         "evgeniya-doluhanova",
@@ -8222,6 +8184,7 @@
         "yedael-stepak",
         "oz-segev",
         "omri-shimony",
+        "lior-hilb",
         "eithan-sigalov",
         "itamar-brodsky",
         "yair-bisa",
@@ -8269,7 +8232,9 @@
         "maxim-rodshtein",
         "abhijit-gupta",
         "evgeny-romanov",
+        "vitaly-sivuk",
         "vladimir-belov",
+        "nodar-lortkipanidze",
         "roman-dehtiarov",
         "alexander-evdokimov",
         "avital-boruchovsky",
@@ -8286,6 +8251,7 @@
         "eline-roebers",
         "maxim-novik",
         "irakli-akhvlediani",
+        "harshavardhan-gopalakrishnan-bhamaa",
         "nikola-kanov",
         "inna-gaponenko",
         "maksim-shchekachikhin",
@@ -8293,6 +8259,7 @@
         "nataliia-buksa",
         "raahul-vs",
         "alexander-raetsky",
+        "petra-papp",
         "rakhmangulova-anastasya",
         "tereza-rodshtein",
         "evgeniya-doluhanova",
@@ -8300,6 +8267,7 @@
         "yedael-stepak",
         "oz-segev",
         "omri-shimony",
+        "lior-hilb",
         "eithan-sigalov",
         "itamar-brodsky",
         "yair-bisa",
@@ -8436,11 +8404,41 @@
           }
         },
         {
+          "playerId": "vitaly-sivuk",
+          "name": "Vitaly Sivuk",
+          "countryCode": "SWE",
+          "title": "GM",
+          "fideId": "14116502",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "vladimir-belov",
           "name": "Vladimir Belov",
           "countryCode": "RUS",
           "title": "GM",
           "fideId": "4132394",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "nodar-lortkipanidze",
+          "name": "Nodar Lortkipanidze",
+          "countryCode": "GEO",
+          "title": "IM",
+          "fideId": "13604058",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -8632,7 +8630,7 @@
         },
         {
           "playerId": "bala-chandra-prasad-dhulipalla",
-          "name": "Bala chandra prasad Dhulipalla",
+          "name": "Bala Chandra Prasad Dhulipalla",
           "countryCode": "IND",
           "title": "IM",
           "fideId": "25005812",
@@ -8681,6 +8679,21 @@
           "countryCode": "GEO",
           "title": "IM",
           "fideId": "13601938",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "harshavardhan-gopalakrishnan-bhamaa",
+          "name": "Harshavardhan Gopalakrishnan Bhamaa",
+          "countryCode": "IND",
+          "title": "IM",
+          "fideId": "25059009",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -8796,6 +8809,21 @@
           }
         },
         {
+          "playerId": "petra-papp",
+          "name": "Petra Papp",
+          "countryCode": "HUN",
+          "title": "WGM",
+          "fideId": "739049",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "rakhmangulova-anastasya",
           "name": "Rakhmangulova Anastasya",
           "countryCode": "UKR",
@@ -8891,6 +8919,21 @@
           "countryCode": "ISR",
           "title": null,
           "fideId": "2869071",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "lior-hilb",
+          "name": "Lior Hilb",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2871599",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
