@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T18:23:32Z",
-  "eventCount": 74,
+  "generatedAt": "2026-08-26T00:40:13Z",
+  "eventCount": 76,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 38
+      "count": 39
     },
     {
       "name": "uschess",
@@ -693,7 +693,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Panamerican Amateur Chess Championship 2026.",
-      "description": "73 listed players. 9 rounds",
+      "description": "77 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1097,7 +1097,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 19th Montserrat International Open 2026.",
-      "description": "17 listed players. 9 rounds",
+      "description": "23 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1113,6 +1113,47 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/xix-open-internacional-montserrat"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30690",
+      "title": "Kydonia 2026",
+      "shortTitle": "Kydonia 2026",
+      "status": "live",
+      "startDate": "2026-08-24T12:00:00Z",
+      "endDate": "2026-08-30T13:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Kydonia 2026.",
+      "description": "17 listed players. 9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-kydonia",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-kydonia"
         },
         {
           "label": "Chess.com current events",
@@ -1311,7 +1352,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Mutxamel Moors & Christians International 2026.",
-      "description": "33 listed players. 6 rounds",
+      "description": "42 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -4068,6 +4109,64 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1410909.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-rbdv6q4b",
+      "title": "CIG Italian Youth Championships U18 2026 | G16",
+      "shortTitle": "CIG Italian Youth Championships U18 2026 | G16",
+      "status": "upcoming",
+      "startDate": "2026-08-29T13:15:00Z",
+      "endDate": "2026-09-05T07:15:00Z",
+      "timezone": "Europe/Rome",
+      "locationName": "Cagliari, Italy",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "junior",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g16/rBDV6q4B",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g16/rBDV6q4B"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.scacchinazionali.it/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://vesus.org/tournament/wR74PFJo?selectedTab=tournament.standing"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/cig-italian-youth-championships-u18-2026-g08/rRpGr8kJ"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://vesus.org/tournament/-eFiKiYy?selectedTab=tournament.standing"
         }
       ],
       "source": {
