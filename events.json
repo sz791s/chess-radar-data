@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T17:52:31Z",
-  "eventCount": 82,
+  "generatedAt": "2026-08-29T01:18:33Z",
+  "eventCount": 88,
   "sources": [
     {
       "name": "curated",
@@ -26,7 +26,7 @@
     {
       "name": "chessaround",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
       "name": "chessdom",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 46
+      "count": 55
     },
     {
       "name": "uschess",
@@ -57,41 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "chessbase-sinquefield-cup-7-to-28-august-2026",
-      "title": "Sinquefield Cup",
-      "shortTitle": "Sinquefield Cup",
-      "status": "live",
-      "startDate": "2026-08-07T00:00:00Z",
-      "endDate": "2026-08-28T23:59:59Z",
-      "timezone": "UTC",
-      "locationName": "Saint Louis, USA",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: Sinquefield Cup.",
-      "description": "Major event listed in the ChessBase 2026 tournament calendar.",
-      "categories": [
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "saint-louis-chess-club"
-      ],
-      "primaryUrl": "https://en.chessbase.com/post/chess-calendar-2026",
-      "links": [
-        {
-          "label": "Event listing",
-          "type": "official",
-          "url": "https://en.chessbase.com/post/chess-calendar-2026"
-        }
-      ],
-      "source": {
-        "name": "chessbase",
-        "url": "https://en.chessbase.com/post/chess-calendar-2026",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "lichess-xelm8jdz",
       "title": "XXVII Open Internacional de Sants - Ciutat de Barcelona 2026 | Group C",
@@ -303,7 +268,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 10th Eastern Asia Youth Chess Championship 2026.",
-      "description": "407 listed players",
+      "description": "404 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1300,6 +1265,47 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30782",
+      "title": "Gudrat Ismayilov Memorial 2026",
+      "shortTitle": "Gudrat Ismayilov Memorial 2026",
+      "status": "live",
+      "startDate": "2026-08-26T20:00:00Z",
+      "endDate": "2026-09-03T18:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Gudrat Ismayilov Memorial 2026.",
+      "description": "20 listed players",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/norm-tournament-dedicated-to-the-memory-gudrat-ismayilov",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/norm-tournament-dedicated-to-the-memory-gudrat-ismayilov"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-ldzi9cyh",
       "title": "European Senior Team Championships 2026 | Senior 65+",
       "shortTitle": "European Senior Team Championships 2026 | Senior 65+",
@@ -1396,6 +1402,48 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-30795",
+      "title": "2026 Stockholms Junior-DM",
+      "shortTitle": "2026 Stockholms Junior-DM",
+      "status": "live",
+      "startDate": "2026-08-27T22:00:00Z",
+      "endDate": "2026-08-30T21:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Stockholms Junior-DM.",
+      "description": "7 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "junior"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-stockholms-junior-dm",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-stockholms-junior-dm"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chesscom-30152",
       "title": "2nd Swindon Chess Congress",
       "shortTitle": "2nd Swindon Chess Congress",
@@ -1437,2602 +1485,88 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chessaround-19th-international-open-tournament-of-kalamaria-2026-28-aug-4-sep-2026",
-      "title": "19th International Open Tournament of Kalamaria 2026",
-      "shortTitle": "19th International Open Tournament of Kalamaria 2026",
+      "id": "chesscom-30788",
+      "title": "12th Greek National Blitz & Rapid Championship 2026",
+      "shortTitle": "12th Greek National Blitz & Rapid Championship 2026",
       "status": "live",
-      "startDate": "2026-08-28T00:00:00Z",
-      "endDate": "2026-09-04T23:59:59Z",
+      "startDate": "2026-08-28T05:00:00Z",
+      "endDate": "2026-08-29T20:00:00Z",
       "timezone": "UTC",
-      "locationName": "Thessaloniki, Greece",
-      "isOnline": false,
-      "summary": "Upcoming chess tournament: 19th International Open Tournament of Kalamaria 2026.",
-      "description": "Chessaround listing. Time control/type: standard.",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 12th Greek National Blitz & Rapid Championship 2026.",
+      "description": "98 listed players",
       "categories": [
-        "classical",
-        "open",
-        "otb"
+        "rapid",
+        "blitz",
+        "online",
+        "broadcast"
       ],
-      "playerIds": [
-        "anatole-vlachos",
-        "evgenios-ioannidis",
-        "evaggelos-patrelakis",
-        "stefanos-magkalakis",
-        "markos-kazakos",
-        "oleksandr-dovgaliuk",
-        "roel-donker",
-        "oleksandr-vasynda",
-        "vincent-schmit",
-        "dionysios-merkouropoulos",
-        "hristos-marinakis",
-        "spyridon-kyparissopoulos",
-        "georgios-rafail-mantazis",
-        "eleftherios-boutikos",
-        "kleanthis-vafiadis",
-        "spiridon-kolytas",
-        "charalampos-theodoridis",
-        "alexandros-iskos",
-        "ioannis-tetepoulidis",
-        "vasileios-sarantos",
-        "dimitrios-exizoglou",
-        "luka-kuntelia",
-        "theodoros-romanos",
-        "nikolaos-panagiotis-galanis",
-        "alexandros-hatzis-bakratsas",
-        "evangelia-siskou",
-        "amarnani-harshit",
-        "ninoslav-milovanovic",
-        "stavros-marinidis",
-        "ismail-berk-canli",
-        "antonios-exarchos",
-        "klearhos-gountras",
-        "boil-banov",
-        "kemal-bulut",
-        "anastasios-samakas",
-        "daiane-hornes",
-        "paschalis-emmanouilidis",
-        "savvas-konstantinides",
-        "mehmet-emir-ozkan",
-        "dimitra-amiridou",
-        "konstantinos-kamaretsos",
-        "ahmet-selim-abdurahman",
-        "pantelis-lykouriotis",
-        "vaia-tsekoura",
-        "charalampos-papakyriakou",
-        "mehmet-emir-alim",
-        "evgenia-giakoustidou",
-        "talha-gunes-turk",
-        "dimitrios-nik-papanikolaou",
-        "stefanos-anthimos-chalioris",
-        "georgios-vasilakopoulos",
-        "konstantinos-zouroufidis",
-        "yekta-efe-metiner",
-        "anastasios-seretis",
-        "nikolaos-gkadakis",
-        "georgios-theoharidis",
-        "anestis-galaras",
-        "nikolaos-halkias",
-        "zeynep-acar",
-        "paisios-exarchos",
-        "vasileios-keramaros",
-        "alexandros-i-triantaphylidis",
-        "aurelian-groapa",
-        "daniel-stefanoski",
-        "nikolaos-christos-tarchanidis",
-        "charalampos-parastatidis",
-        "dimitrios-batzilis",
-        "choudhary-kanishka",
-        "panagiotis-iliopoulos",
-        "despina-barbageorgopoulou",
-        "chrysoula-paraskevi-mitraka",
-        "christos-giannoulas",
-        "alexadros-paris-papadopoulos",
-        "emmanouil-koutroupas",
-        "konstantinos-nikolaos-kaldirimtzis",
-        "charalampos-kyriakopoulos",
-        "ioannis-gioras",
-        "irmak-somyurek",
-        "petros-iliopoulos",
-        "apostolos-kostoglou",
-        "stefanos-skordilis",
-        "zoran-tsintsar",
-        "iasonas-gkalimpas",
-        "spiros-avgerinos-giakoustidis",
-        "christos-orfeas-kougkoulis",
-        "asimakis-kokkos",
-        "georgios-stamatiadis",
-        "panagiotis-arg-sidiropoulos",
-        "lida-batsi",
-        "petros-papakyriakou",
-        "angeliki-adamaki",
-        "savvina-anemogianni",
-        "ioannis-bimpikas",
-        "panagiotis-th-chronopoulos",
-        "orfeas-kasmeridis",
-        "nikolaos-paschalidis",
-        "haralampos-betsakos",
-        "sofia-betsakou",
-        "paschalis-kampouridis",
-        "ioannis-noulis",
-        "osman-kutalp-barlin",
-        "konstantinos-ampatzidis",
-        "efstathios-teligiannidis",
-        "dimitrios-bampas",
-        "michail-ioannis-pantoulas",
-        "eleni-tzavara",
-        "stavroula-anastasopoulou",
-        "ariadni-georgiadou",
-        "michail-megasthenis",
-        "omer-gunes-turk",
-        "ioannis-st-nikolaidis",
-        "evangelia-rapti",
-        "kalliopi-eginoglou",
-        "stylianos-kakagiannis",
-        "andreas-odontopoulos",
-        "dimitrios-aggelos-tzellos",
-        "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas",
-        "damjan-nikolovski",
-        "panagiotis-sotiriadis",
-        "lazaros-th-lazaridis",
-        "charisios-koutsos",
-        "aleksandr-undusk",
-        "emmanouil-bakratsas",
-        "athanasios-41520-tsonoulis",
-        "savvas-poursaitidis",
-        "odysseas-panos-papadopoulos",
-        "anna-iliadou",
-        "alkiviadis-chrysostomidis",
-        "marios-diamantopoulos",
-        "emmanouil-petasakis",
-        "eleftheria-tsormpatzoglou",
-        "theodoros-ioakeimidis",
-        "christoforos-pelivanidis",
-        "konstantinos-zaires-karanasios",
-        "ioannis-filippoglou",
-        "eleni-paschalidou",
-        "michail-angelos-batzakis",
-        "michail-farinis",
-        "konstantinos-stefanidis",
-        "sokratis-raptis",
-        "stylianos-kouroutzidis",
-        "artjom-vinogradov",
-        "vasileios-zeiron-kouvaros",
-        "konstantinos-tsirabidis",
-        "anastasios-avramidis",
-        "margarita-kougioumtzoglou",
-        "spyridon-mimikos",
-        "sofija-belovska",
-        "loukas-georgios-karakotsios"
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
       ],
-      "channelIds": [],
-      "primaryUrl": "https://calendar.chessaround.com/tournament/view/634",
+      "primaryUrl": "https://www.chess.com/events/info/12th-greek-open-individual-blitz-rapid-championship-2026",
       "links": [
         {
-          "label": "Event listing",
+          "label": "Chess.com event",
           "type": "official",
-          "url": "https://calendar.chessaround.com/tournament/view/634"
+          "url": "https://www.chess.com/events/info/12th-greek-open-individual-blitz-rapid-championship-2026"
         },
         {
-          "label": "chessaround calendar",
+          "label": "Chess.com current events",
           "type": "source",
-          "url": "https://calendar.chessaround.com/"
-        },
-        {
-          "label": "Starting list",
-          "type": "players",
-          "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0"
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "chessaround",
-        "url": "https://calendar.chessaround.com/",
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
         "confidence": "medium"
       },
-      "confirmedPlayerIds": [
-        "anatole-vlachos",
-        "evgenios-ioannidis",
-        "evaggelos-patrelakis",
-        "stefanos-magkalakis",
-        "markos-kazakos",
-        "oleksandr-dovgaliuk",
-        "roel-donker",
-        "oleksandr-vasynda",
-        "vincent-schmit",
-        "dionysios-merkouropoulos",
-        "hristos-marinakis",
-        "spyridon-kyparissopoulos",
-        "georgios-rafail-mantazis",
-        "eleftherios-boutikos",
-        "kleanthis-vafiadis",
-        "spiridon-kolytas",
-        "charalampos-theodoridis",
-        "alexandros-iskos",
-        "ioannis-tetepoulidis",
-        "vasileios-sarantos",
-        "dimitrios-exizoglou",
-        "luka-kuntelia",
-        "theodoros-romanos",
-        "nikolaos-panagiotis-galanis",
-        "alexandros-hatzis-bakratsas",
-        "evangelia-siskou",
-        "amarnani-harshit",
-        "ninoslav-milovanovic",
-        "stavros-marinidis",
-        "ismail-berk-canli",
-        "antonios-exarchos",
-        "klearhos-gountras",
-        "boil-banov",
-        "kemal-bulut",
-        "anastasios-samakas",
-        "daiane-hornes",
-        "paschalis-emmanouilidis",
-        "savvas-konstantinides",
-        "mehmet-emir-ozkan",
-        "dimitra-amiridou",
-        "konstantinos-kamaretsos",
-        "ahmet-selim-abdurahman",
-        "pantelis-lykouriotis",
-        "vaia-tsekoura",
-        "charalampos-papakyriakou",
-        "mehmet-emir-alim",
-        "evgenia-giakoustidou",
-        "talha-gunes-turk",
-        "dimitrios-nik-papanikolaou",
-        "stefanos-anthimos-chalioris",
-        "georgios-vasilakopoulos",
-        "konstantinos-zouroufidis",
-        "yekta-efe-metiner",
-        "anastasios-seretis",
-        "nikolaos-gkadakis",
-        "georgios-theoharidis",
-        "anestis-galaras",
-        "nikolaos-halkias",
-        "zeynep-acar",
-        "paisios-exarchos",
-        "vasileios-keramaros",
-        "alexandros-i-triantaphylidis",
-        "aurelian-groapa",
-        "daniel-stefanoski",
-        "nikolaos-christos-tarchanidis",
-        "charalampos-parastatidis",
-        "dimitrios-batzilis",
-        "choudhary-kanishka",
-        "panagiotis-iliopoulos",
-        "despina-barbageorgopoulou",
-        "chrysoula-paraskevi-mitraka",
-        "christos-giannoulas",
-        "alexadros-paris-papadopoulos",
-        "emmanouil-koutroupas",
-        "konstantinos-nikolaos-kaldirimtzis",
-        "charalampos-kyriakopoulos",
-        "ioannis-gioras",
-        "irmak-somyurek",
-        "petros-iliopoulos",
-        "apostolos-kostoglou",
-        "stefanos-skordilis",
-        "zoran-tsintsar",
-        "iasonas-gkalimpas",
-        "spiros-avgerinos-giakoustidis",
-        "christos-orfeas-kougkoulis",
-        "asimakis-kokkos",
-        "georgios-stamatiadis",
-        "panagiotis-arg-sidiropoulos",
-        "lida-batsi",
-        "petros-papakyriakou",
-        "angeliki-adamaki",
-        "savvina-anemogianni",
-        "ioannis-bimpikas",
-        "panagiotis-th-chronopoulos",
-        "orfeas-kasmeridis",
-        "nikolaos-paschalidis",
-        "haralampos-betsakos",
-        "sofia-betsakou",
-        "paschalis-kampouridis",
-        "ioannis-noulis",
-        "osman-kutalp-barlin",
-        "konstantinos-ampatzidis",
-        "efstathios-teligiannidis",
-        "dimitrios-bampas",
-        "michail-ioannis-pantoulas",
-        "eleni-tzavara",
-        "stavroula-anastasopoulou",
-        "ariadni-georgiadou",
-        "michail-megasthenis",
-        "omer-gunes-turk",
-        "ioannis-st-nikolaidis",
-        "evangelia-rapti",
-        "kalliopi-eginoglou",
-        "stylianos-kakagiannis",
-        "andreas-odontopoulos",
-        "dimitrios-aggelos-tzellos",
-        "nikolaos-na-athanasopoulos",
-        "athanasios-koutsionas",
-        "damjan-nikolovski",
-        "panagiotis-sotiriadis",
-        "lazaros-th-lazaridis",
-        "charisios-koutsos",
-        "aleksandr-undusk",
-        "emmanouil-bakratsas",
-        "athanasios-41520-tsonoulis",
-        "savvas-poursaitidis",
-        "odysseas-panos-papadopoulos",
-        "anna-iliadou",
-        "alkiviadis-chrysostomidis",
-        "marios-diamantopoulos",
-        "emmanouil-petasakis",
-        "eleftheria-tsormpatzoglou",
-        "theodoros-ioakeimidis",
-        "christoforos-pelivanidis",
-        "konstantinos-zaires-karanasios",
-        "ioannis-filippoglou",
-        "eleni-paschalidou",
-        "michail-angelos-batzakis",
-        "michail-farinis",
-        "konstantinos-stefanidis",
-        "sokratis-raptis",
-        "stylianos-kouroutzidis",
-        "artjom-vinogradov",
-        "vasileios-zeiron-kouvaros",
-        "konstantinos-tsirabidis",
-        "anastasios-avramidis",
-        "margarita-kougioumtzoglou",
-        "spyridon-mimikos",
-        "sofija-belovska",
-        "loukas-georgios-karakotsios"
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30794",
+      "title": "2026 Aragon Individual Championship",
+      "shortTitle": "2026 Aragon Individual Championship",
+      "status": "live",
+      "startDate": "2026-08-28T06:00:00Z",
+      "endDate": "2026-09-04T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Aragon Individual Championship.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
       ],
-      "confirmedPlayers": [
-        {
-          "playerId": "anatole-vlachos",
-          "name": "Anatole Vlachos",
-          "countryCode": "GRE",
-          "title": "IM",
-          "fideId": "26093189",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "evgenios-ioannidis",
-          "name": "Evgenios Ioannidis",
-          "countryCode": "GRE",
-          "title": "GM",
-          "fideId": "4229274",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "evaggelos-patrelakis",
-          "name": "Evaggelos Patrelakis",
-          "countryCode": "GRE",
-          "title": "IM",
-          "fideId": "4295102",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stefanos-magkalakis",
-          "name": "Stefanos Magkalakis",
-          "countryCode": "GRE",
-          "title": "FM",
-          "fideId": "25834134",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "markos-kazakos",
-          "name": "Markos Kazakos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25811363",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "oleksandr-dovgaliuk",
-          "name": "Oleksandr Dovgaliuk",
-          "countryCode": "UKR",
-          "title": "FM",
-          "fideId": "14167247",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "roel-donker",
-          "name": "Roel Donker",
-          "countryCode": "NED",
-          "title": "CM",
-          "fideId": "1031660",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "oleksandr-vasynda",
-          "name": "Oleksandr Vasynda",
-          "countryCode": "UKR",
-          "title": "FM",
-          "fideId": "14176297",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vincent-schmit",
-          "name": "Vincent Schmit",
-          "countryCode": "FRA",
-          "title": "FM",
-          "fideId": "20622430",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dionysios-merkouropoulos",
-          "name": "Dionysios Merkouropoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25891316",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "hristos-marinakis",
-          "name": "Hristos Marinakis",
-          "countryCode": "GRE",
-          "title": "CM",
-          "fideId": "4294661",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "spyridon-kyparissopoulos",
-          "name": "Spyridon Kyparissopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25827359",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "georgios-rafail-mantazis",
-          "name": "Georgios Rafail Mantazis",
-          "countryCode": "GRE",
-          "title": "AIM",
-          "fideId": "42122570",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eleftherios-boutikos",
-          "name": "Eleftherios Boutikos",
-          "countryCode": "GRE",
-          "title": "CM",
-          "fideId": "42123518",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "kleanthis-vafiadis",
-          "name": "Kleanthis Vafiadis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4201850",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "spiridon-kolytas",
-          "name": "Spiridon Kolytas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4276310",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "charalampos-theodoridis",
-          "name": "Charalampos Theodoridis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25874675",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexandros-iskos",
-          "name": "Alexandros Iskos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4208676",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ioannis-tetepoulidis",
-          "name": "Ioannis Tetepoulidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4243528",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vasileios-sarantos",
-          "name": "Vasileios Sarantos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4203542",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitrios-exizoglou",
-          "name": "Dimitrios Exizoglou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4209923",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "luka-kuntelia",
-          "name": "Luka Kuntelia",
-          "countryCode": "GEO",
-          "title": "CM",
-          "fideId": "13634372",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "theodoros-romanos",
-          "name": "Theodoros Romanos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4210239",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-panagiotis-galanis",
-          "name": "Nikolaos-Panagiotis Galanis",
-          "countryCode": "GRE",
-          "title": "CM",
-          "fideId": "25813862",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexandros-hatzis-bakratsas",
-          "name": "Alexandros Hatzis-Bakratsas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4263375",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "evangelia-siskou",
-          "name": "Evangelia Siskou",
-          "countryCode": "GRE",
-          "title": "WFM",
-          "fideId": "42113938",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "amarnani-harshit",
-          "name": "Amarnani Harshit",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "45047553",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ninoslav-milovanovic",
-          "name": "Ninoslav Milovanovic",
-          "countryCode": "SRB",
-          "title": null,
-          "fideId": "906735",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stavros-marinidis",
-          "name": "Stavros Marinidis",
-          "countryCode": "GRE",
-          "title": "AIM",
-          "fideId": "42104904",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ismail-berk-canli",
-          "name": "Ismail Berk Canli",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "51666731",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "antonios-exarchos",
-          "name": "Antonios Exarchos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42158117",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "klearhos-gountras",
-          "name": "Klearhos Gountras",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4206495",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "boil-banov",
-          "name": "Boil Banov",
-          "countryCode": "BUL",
-          "title": null,
-          "fideId": "2905388",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "kemal-bulut",
-          "name": "Kemal Bulut",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "26362341",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anastasios-samakas",
-          "name": "Anastasios Samakas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4253418",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "daiane-hornes",
-          "name": "Daiane Hornes",
-          "countryCode": "BRA",
-          "title": null,
-          "fideId": "2130866",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "paschalis-emmanouilidis",
-          "name": "Paschalis Emmanouilidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42174945",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "savvas-konstantinides",
-          "name": "Savvas Konstantinides",
-          "countryCode": "CYP",
-          "title": null,
-          "fideId": "5908639",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mehmet-emir-ozkan",
-          "name": "Mehmet Emir Ozkan",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "44581858",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitra-amiridou",
-          "name": "Dimitra Amiridou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4218230",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-kamaretsos",
-          "name": "Konstantinos Kamaretsos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4252144",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ahmet-selim-abdurahman",
-          "name": "Ahmet Selim Abdurahman",
-          "countryCode": "MKD",
-          "title": null,
-          "fideId": "15014061",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "pantelis-lykouriotis",
-          "name": "Pantelis Lykouriotis",
-          "countryCode": "GRE",
-          "title": "AFM",
-          "fideId": "4242661",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vaia-tsekoura",
-          "name": "Vaia Tsekoura",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25828070",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "charalampos-papakyriakou",
-          "name": "Charalampos Papakyriakou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42126576",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "mehmet-emir-alim",
-          "name": "Mehmet Emir Alim",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "51643138",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "evgenia-giakoustidou",
-          "name": "Evgenia Giakoustidou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25865331",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "talha-gunes-turk",
-          "name": "Talha Gunes Turk",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "34588361",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitrios-nik-papanikolaou",
-          "name": "Dimitrios Nik Papanikolaou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25817655",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stefanos-anthimos-chalioris",
-          "name": "Stefanos-Anthimos Chalioris",
-          "countryCode": "GRE",
-          "title": "AIM",
-          "fideId": "4229541",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "georgios-vasilakopoulos",
-          "name": "Georgios Vasilakopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4279336",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-zouroufidis",
-          "name": "Konstantinos Zouroufidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25893432",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "yekta-efe-metiner",
-          "name": "Yekta Efe Metiner",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "51618141",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anastasios-seretis",
-          "name": "Anastasios Seretis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42116767",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-gkadakis",
-          "name": "Nikolaos Gkadakis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42142709",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "georgios-theoharidis",
-          "name": "Georgios Theoharidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4213882",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anestis-galaras",
-          "name": "Anestis Galaras",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4208013",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-halkias",
-          "name": "Nikolaos Halkias",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4229258",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zeynep-acar",
-          "name": "Zeynep Acar",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "44569807",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "paisios-exarchos",
-          "name": "Paisios Exarchos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42158125",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vasileios-keramaros",
-          "name": "Vasileios Keramaros",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42107849",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexandros-i-triantaphylidis",
-          "name": "Alexandros I Triantaphylidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42142431",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "aurelian-groapa",
-          "name": "Aurelian Groapa",
-          "countryCode": "ROU",
-          "title": null,
-          "fideId": "1253220",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "daniel-stefanoski",
-          "name": "Daniel Stefanoski",
-          "countryCode": "MKD",
-          "title": null,
-          "fideId": "15009386",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-christos-tarchanidis",
-          "name": "Nikolaos Christos Tarchanidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25874705",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "charalampos-parastatidis",
-          "name": "Charalampos Parastatidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25857061",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitrios-batzilis",
-          "name": "Dimitrios Batzilis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42160510",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "choudhary-kanishka",
-          "name": "Choudhary Kanishka",
-          "countryCode": "IND",
-          "title": null,
-          "fideId": "25132725",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "panagiotis-iliopoulos",
-          "name": "Panagiotis Iliopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42180252",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "despina-barbageorgopoulou",
-          "name": "Despina Barbageorgopoulou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4216180",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "chrysoula-paraskevi-mitraka",
-          "name": "Chrysoula-Paraskevi Mitraka",
-          "countryCode": "SCO",
-          "title": "WCM",
-          "fideId": "2409968",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "christos-giannoulas",
-          "name": "Christos Giannoulas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42103053",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alexadros-paris-papadopoulos",
-          "name": "Alexadros Paris Papadopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42121213",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "emmanouil-koutroupas",
-          "name": "Emmanouil Koutroupas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42183723",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-nikolaos-kaldirimtzis",
-          "name": "Konstantinos Nikolaos Kaldirimtzis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42197953",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "charalampos-kyriakopoulos",
-          "name": "Charalampos Kyriakopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25884280",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ioannis-gioras",
-          "name": "Ioannis Gioras",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25810308",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "irmak-somyurek",
-          "name": "Irmak Somyurek",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "51620162",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "petros-iliopoulos",
-          "name": "Petros Iliopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42183006",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "apostolos-kostoglou",
-          "name": "Apostolos Kostoglou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42145554",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stefanos-skordilis",
-          "name": "Stefanos Skordilis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541008405",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "zoran-tsintsar",
-          "name": "Zoran Tsintsar",
-          "countryCode": "GER",
-          "title": null,
-          "fideId": "4634250",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "iasonas-gkalimpas",
-          "name": "Iasonas Gkalimpas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42141516",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "spiros-avgerinos-giakoustidis",
-          "name": "Spiros-Avgerinos Giakoustidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4208668",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "christos-orfeas-kougkoulis",
-          "name": "Christos Orfeas Kougkoulis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42199662",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "asimakis-kokkos",
-          "name": "Asimakis Kokkos",
-          "countryCode": "GER",
-          "title": null,
-          "fideId": "533042039",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "georgios-stamatiadis",
-          "name": "Georgios Stamatiadis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4225783",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "panagiotis-arg-sidiropoulos",
-          "name": "Panagiotis Arg Sidiropoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42153352",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "lida-batsi",
-          "name": "Lida Batsi",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4277872",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "petros-papakyriakou",
-          "name": "Petros Papakyriakou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42131855",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "angeliki-adamaki",
-          "name": "Angeliki Adamaki",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42178878",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "savvina-anemogianni",
-          "name": "Savvina Anemogianni",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42121256",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ioannis-bimpikas",
-          "name": "Ioannis Bimpikas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42152194",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "panagiotis-th-chronopoulos",
-          "name": "Panagiotis Th Chronopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42189756",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "orfeas-kasmeridis",
-          "name": "Orfeas Kasmeridis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42159970",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-paschalidis",
-          "name": "Nikolaos Paschalidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42141800",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "haralampos-betsakos",
-          "name": "Haralampos Betsakos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25813820",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sofia-betsakou",
-          "name": "Sofia Betsakou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25802879",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "paschalis-kampouridis",
-          "name": "Paschalis Kampouridis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42106761",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ioannis-noulis",
-          "name": "Ioannis Noulis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42143608",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "osman-kutalp-barlin",
-          "name": "Osman Kutalp Barlin",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "525010891",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-ampatzidis",
-          "name": "Konstantinos Ampatzidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42174660",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "efstathios-teligiannidis",
-          "name": "Efstathios Teligiannidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42116945",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitrios-bampas",
-          "name": "Dimitrios Bampas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541027345",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michail-ioannis-pantoulas",
-          "name": "Michail Ioannis Pantoulas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541000153",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eleni-tzavara",
-          "name": "Eleni Tzavara",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25809695",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stavroula-anastasopoulou",
-          "name": "Stavroula Anastasopoulou",
-          "countryCode": "GRE",
-          "title": "AFM",
-          "fideId": "42177235",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ariadni-georgiadou",
-          "name": "Ariadni Georgiadou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42134293",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michail-megasthenis",
-          "name": "Michail Megasthenis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42163684",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "omer-gunes-turk",
-          "name": "Omer Gunes Turk",
-          "countryCode": "TUR",
-          "title": null,
-          "fideId": "44592418",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ioannis-st-nikolaidis",
-          "name": "Ioannis St Nikolaidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42197996",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "evangelia-rapti",
-          "name": "Evangelia Rapti",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42143543",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "kalliopi-eginoglou",
-          "name": "Kalliopi Eginoglou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42180236",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stylianos-kakagiannis",
-          "name": "Stylianos Kakagiannis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42166829",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "andreas-odontopoulos",
-          "name": "Andreas Odontopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42198011",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "dimitrios-aggelos-tzellos",
-          "name": "Dimitrios-Aggelos Tzellos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25807684",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikolaos-na-athanasopoulos",
-          "name": "Nikolaos Na Athanasopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42157455",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "athanasios-koutsionas",
-          "name": "Athanasios Koutsionas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42151694",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "damjan-nikolovski",
-          "name": "Damjan Nikolovski",
-          "countryCode": "MKD",
-          "title": null,
-          "fideId": "15014584",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "panagiotis-sotiriadis",
-          "name": "Panagiotis Sotiriadis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42164869",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "lazaros-th-lazaridis",
-          "name": "Lazaros Th Lazaridis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541000145",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "charisios-koutsos",
-          "name": "Charisios Koutsos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25886320",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "aleksandr-undusk",
-          "name": "Aleksandr Undusk",
-          "countryCode": "EST",
-          "title": null,
-          "fideId": "4529987",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "emmanouil-bakratsas",
-          "name": "Emmanouil Bakratsas",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42183707",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "athanasios-41520-tsonoulis",
-          "name": "Athanasios 41520 Tsonoulis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25879413",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "savvas-poursaitidis",
-          "name": "Savvas Poursaitidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541010744",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "odysseas-panos-papadopoulos",
-          "name": "Odysseas Panos Papadopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42183758",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anna-iliadou",
-          "name": "Anna Iliadou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25845659",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "alkiviadis-chrysostomidis",
-          "name": "Alkiviadis Chrysostomidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "4209931",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "marios-diamantopoulos",
-          "name": "Marios Diamantopoulos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42145503",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "emmanouil-petasakis",
-          "name": "Emmanouil Petasakis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42126509",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eleftheria-tsormpatzoglou",
-          "name": "Eleftheria Tsormpatzoglou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25893130",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "theodoros-ioakeimidis",
-          "name": "Theodoros Ioakeimidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541000196",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "christoforos-pelivanidis",
-          "name": "Christoforos Pelivanidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42145597",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-zaires-karanasios",
-          "name": "Konstantinos Zaires Karanasios",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25808281",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "ioannis-filippoglou",
-          "name": "Ioannis Filippoglou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42160014",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "eleni-paschalidou",
-          "name": "Eleni Paschalidou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42143330",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michail-angelos-batzakis",
-          "name": "Michail Angelos Batzakis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42157463",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "michail-farinis",
-          "name": "Michail Farinis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541011171",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-stefanidis",
-          "name": "Konstantinos Stefanidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42180180",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sokratis-raptis",
-          "name": "Sokratis Raptis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42101760",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "stylianos-kouroutzidis",
-          "name": "Stylianos Kouroutzidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42175364",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "artjom-vinogradov",
-          "name": "Artjom Vinogradov",
-          "countryCode": "EST",
-          "title": null,
-          "fideId": "4524454",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "vasileios-zeiron-kouvaros",
-          "name": "Vasileios Zeiron Kouvaros",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42166098",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "konstantinos-tsirabidis",
-          "name": "Konstantinos Tsirabidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25814222",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "anastasios-avramidis",
-          "name": "Anastasios Avramidis",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "541009762",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "margarita-kougioumtzoglou",
-          "name": "Margarita Kougioumtzoglou",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42164443",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "spyridon-mimikos",
-          "name": "Spyridon Mimikos",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "42158214",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "sofija-belovska",
-          "name": "Sofija Belovska",
-          "countryCode": "MKD",
-          "title": null,
-          "fideId": "15018229",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "loukas-georgios-karakotsios",
-          "name": "Loukas Georgios Karakotsios",
-          "countryCode": "GRE",
-          "title": null,
-          "fideId": "25877658",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s1.chess-results.com/tnr1383889.aspx?lan=1&art=0&flag=30&SNode=S0",
-            "confidence": "high"
-          }
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/2026-aragon-individual-championship",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-aragon-individual-championship"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
-      ]
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
     },
     {
       "id": "chesscom-30760",
@@ -4045,7 +1579,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: NZ Women’s Championship 2026.",
-      "description": "16 listed players. 6 rounds",
+      "description": "19 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -4128,7 +1662,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Southeast Children And Youth Festival 2026 (STD).",
-      "description": "16 listed players. 5 rounds. 1 scheduled stream links",
+      "description": "14 listed players. 5 rounds. 1 scheduled stream links",
       "categories": [
         "online",
         "broadcast",
@@ -4165,19 +1699,18 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30752",
-      "title": "1st Odiseo Blitz Chess Masters",
-      "shortTitle": "1st Odiseo Blitz Chess Masters",
+      "id": "chesscom-30793",
+      "title": "2026 Best in the West",
+      "shortTitle": "2026 Best in the West",
       "status": "live",
-      "startDate": "2026-08-28T15:00:00Z",
-      "endDate": "2026-08-28T22:30:00Z",
+      "startDate": "2026-08-28T14:00:00Z",
+      "endDate": "2026-08-30T12:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: 1st Odiseo Blitz Chess Masters.",
-      "description": "45 listed players. 9 rounds. 2 scheduled stream links",
+      "summary": "Chess.com current event: 2026 Best in the West.",
+      "description": "5 rounds",
       "categories": [
-        "blitz",
         "online",
         "broadcast"
       ],
@@ -4185,27 +1718,17 @@
       "channelIds": [
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/i-blitz-odiseo-chess-masters",
+      "primaryUrl": "https://www.chess.com/events/info/2026-best-in-the-west",
       "links": [
         {
           "label": "Chess.com event",
           "type": "official",
-          "url": "https://www.chess.com/events/info/i-blitz-odiseo-chess-masters"
+          "url": "https://www.chess.com/events/info/2026-best-in-the-west"
         },
         {
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "Odiseo Chess",
-          "type": "stream",
-          "url": "https://www.twitch.tv/el_divis"
-        },
-        {
-          "label": "Odiseo Chess",
-          "type": "stream",
-          "url": "https://www.youtube.com/@DivisTv"
         }
       ],
       "source": {
@@ -4220,14 +1743,14 @@
       "id": "chesscom-30557",
       "title": "2026 Kapiti Junior Chess Championship",
       "shortTitle": "2026 Kapiti Junior Chess Championship",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-28T19:45:00Z",
       "endDate": "2026-08-29T06:30:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Kapiti Junior Chess Championship.",
-      "description": "6 rounds",
+      "description": "21 listed players. 6 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -4259,33 +1782,74 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30768",
-      "title": "Sofia Cup 2026 - Balkan Rapid and Blitz Championships",
-      "shortTitle": "Sofia Cup 2026 - Balkan Rapid and Blitz Championships",
+      "id": "chesscom-30618",
+      "title": "Italian Youth Chess Championship 2026",
+      "shortTitle": "Italian Youth Chess Championship 2026",
       "status": "upcoming",
-      "startDate": "2026-08-28T22:00:00Z",
-      "endDate": "2026-08-30T20:00:00Z",
+      "startDate": "2026-08-29T04:00:00Z",
+      "endDate": "2026-09-05T08:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: Sofia Cup 2026 - Balkan Rapid and Blitz Championships.",
+      "summary": "Chess.com current event: Italian Youth Chess Championship 2026.",
       "description": "Listed on the Chess.com current events page.",
       "categories": [
-        "rapid",
-        "blitz",
         "online",
-        "broadcast"
+        "broadcast",
+        "junior"
       ],
       "playerIds": [],
       "channelIds": [
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/sofia-cup-2026-balkan-rapid-and-blitz-championships",
+      "primaryUrl": "https://www.chess.com/events/info/italian-youth-chess-championship-2026",
       "links": [
         {
           "label": "Chess.com event",
           "type": "official",
-          "url": "https://www.chess.com/events/info/sofia-cup-2026-balkan-rapid-and-blitz-championships"
+          "url": "https://www.chess.com/events/info/italian-youth-chess-championship-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30771",
+      "title": "All India Open Jashpur CG 2026",
+      "shortTitle": "All India Open Jashpur CG 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-29T04:30:00Z",
+      "endDate": "2026-09-01T14:30:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: All India Open Jashpur CG 2026.",
+      "description": "8 rounds",
+      "categories": [
+        "online",
+        "broadcast",
+        "open"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/all-india-open-jashpur-cg-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/all-india-open-jashpur-cg-2026"
         },
         {
           "label": "Chess.com current events",
@@ -4350,6 +1914,240 @@
       "confirmedPlayers": []
     },
     {
+      "id": "chesscom-29588",
+      "title": "ŠD KRKA Novo mesto 80th Anniversary Blitz Tournament",
+      "shortTitle": "ŠD KRKA Novo mesto 80th Anniversary Blitz Tournament",
+      "status": "upcoming",
+      "startDate": "2026-08-29T07:45:00Z",
+      "endDate": "2026-08-29T20:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: ŠD KRKA Novo mesto 80th Anniversary Blitz Tournament.",
+      "description": "11 rounds",
+      "categories": [
+        "blitz",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/turnir-ob-80-letnici-sd-krka-novo-mesto",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/turnir-ob-80-letnici-sd-krka-novo-mesto"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-29722",
+      "title": "II Memorial Emilio Sánchez Jerez",
+      "shortTitle": "II Memorial Emilio Sánchez Jerez",
+      "status": "upcoming",
+      "startDate": "2026-08-29T08:00:00Z",
+      "endDate": "2026-08-29T19:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: II Memorial Emilio Sánchez Jerez.",
+      "description": "9 rounds",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/ii-memorial-emilio-sanchez-jerez",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/ii-memorial-emilio-sanchez-jerez"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-cr4npcty",
+      "title": "SOFIA CUP 2026 - BALKAN RAPID AND BLITZ CHAMPIONSHIPS | Rapid",
+      "shortTitle": "SOFIA CUP 2026 - BALKAN RAPID AND BLITZ CHAMPIONSHIPS | Rapid",
+      "status": "upcoming",
+      "startDate": "2026-08-29T08:00:00Z",
+      "endDate": "2026-08-29T08:00:00Z",
+      "timezone": "Europe/Sofia",
+      "locationName": "Sofia, Bulgaria",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "rapid",
+        "blitz",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/sofia-cup-2026-balkan-rapid-and-blitz-championships-rapid/cR4nPCty",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/sofia-cup-2026-balkan-rapid-and-blitz-championships-rapid/cR4nPCty"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://sofiachesscup.com/"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30720",
+      "title": "Reunion International Blitz 2026",
+      "shortTitle": "Reunion International Blitz 2026",
+      "status": "upcoming",
+      "startDate": "2026-08-29T08:30:00Z",
+      "endDate": "2026-08-29T13:45:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Reunion International Blitz 2026.",
+      "description": "44 listed players. 9 rounds",
+      "categories": [
+        "blitz",
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/internationaux-de-la-reunion-blitz-2026",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/internationaux-de-la-reunion-blitz-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-9owtwlvi",
+      "title": "SOFIA CUP 2026 - BALKAN RAPID AND BLITZ CHAMPIONSHIPS | Blitz",
+      "shortTitle": "SOFIA CUP 2026 - BALKAN RAPID AND BLITZ CHAMPIONSHIPS | Blitz",
+      "status": "upcoming",
+      "startDate": "2026-08-30T08:00:00Z",
+      "endDate": "2026-08-30T08:00:00Z",
+      "timezone": "Europe/Sofia",
+      "locationName": "Sofia, Bulgaria",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "11-round Swiss",
+      "categories": [
+        "rapid",
+        "blitz",
+        "broadcast",
+        "otb",
+        "online"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess",
+        "chesscom",
+        "gingergm"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/sofia-cup-2026-balkan-rapid-and-blitz-championships-blitz/9OWTwLVI",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/sofia-cup-2026-balkan-rapid-and-blitz-championships-blitz/9OWTwLVI"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://sofiachesscup.com/"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/sofia-cup-2026-balkan-rapid-and-blitz-championships"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "Sofia Cup Rapid",
+          "type": "stream",
+          "url": "https://www.twitch.tv/gingergm"
+        },
+        {
+          "label": "Sofia Cup Rapid",
+          "type": "stream",
+          "url": "https://www.twitch.tv/fionchetta"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessaround-escala-emporium-chess-open-31-aug-6-sep-2026",
       "title": "Escala Emporium Chess Open",
       "shortTitle": "Escala Emporium Chess Open",
@@ -4390,48 +2188,6 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-perdrjv7",
-      "title": "Chess Club \"Radnicki\" Kovin | IM VI",
-      "shortTitle": "Chess Club \"Radnicki\" Kovin | IM VI",
-      "status": "upcoming",
-      "startDate": "2026-09-01T14:00:00Z",
-      "endDate": "2026-09-07T08:00:00Z",
-      "timezone": "Europe/Belgrade",
-      "locationName": "Kovin, Serbia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10 player round robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/chess-club-radnicki-kovin-im-vi/PerdRJV7",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/chess-club-radnicki-kovin-im-vi/PerdRJV7"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1464552.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -4557,48 +2313,6 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-1tqbvmhz",
-      "title": "Chess Club \"Radnicki\" Kovin | IM VII",
-      "shortTitle": "Chess Club \"Radnicki\" Kovin | IM VII",
-      "status": "upcoming",
-      "startDate": "2026-09-08T14:00:00Z",
-      "endDate": "2026-09-14T08:00:00Z",
-      "timezone": "Europe/Belgrade",
-      "locationName": "Kovin, Serbia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10 player round robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/chess-club-radnicki-kovin-im-vii/1TQbvMhZ",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/chess-club-radnicki-kovin-im-vii/1TQbvMhZ"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1464551.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
