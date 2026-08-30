@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T15:42:06Z",
-  "eventCount": 75,
+  "generatedAt": "2026-08-30T20:16:55Z",
+  "eventCount": 70,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 41
+      "count": 35
     },
     {
       "name": "uschess",
@@ -89,49 +89,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1474647.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-a1gaotji",
-      "title": "XXVII Open Internacional de Sants - Ciutat de Barcelona 2026 | Group A",
-      "shortTitle": "XXVII Open Internacional de Sants - Ciutat de Barcelona 2026 | Group A",
-      "status": "live",
-      "startDate": "2026-08-21T14:30:00Z",
-      "endDate": "2026-08-30T15:50:00Z",
-      "timezone": "Europe/Madrid",
-      "locationName": "Barcelona, Spain",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/xxvii-open-internacional-de-sants-ciutat-de-barcelona-2026-group-a/A1GAOTji",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/xxvii-open-internacional-de-sants-ciutat-de-barcelona-2026-group-a/A1GAOTji"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1389038.aspx?art=1"
         }
       ],
       "source": {
@@ -250,7 +207,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: African Junior Individual Chess Championships 2026.",
-      "description": "57 listed players",
+      "description": "59 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -266,90 +223,6 @@
           "label": "Chess.com event",
           "type": "official",
           "url": "https://www.chess.com/events/info/african-junior-individual-chess-championships-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-30417",
-      "title": "16th Papanastasio Open Tournament 2026",
-      "shortTitle": "16th Papanastasio Open Tournament 2026",
-      "status": "live",
-      "startDate": "2026-08-24T05:00:00Z",
-      "endDate": "2026-08-30T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 16th Papanastasio Open Tournament 2026.",
-      "description": "60 listed players. 7 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/16th-papanastasio-open-tournament-2026-a-group",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/16th-papanastasio-open-tournament-2026-a-group"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-28759",
-      "title": "19th Montserrat International Open 2026",
-      "shortTitle": "19th Montserrat International Open 2026",
-      "status": "live",
-      "startDate": "2026-08-24T10:00:00Z",
-      "endDate": "2026-08-30T16:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 19th Montserrat International Open 2026.",
-      "description": "31 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/xix-open-internacional-montserrat",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/xix-open-internacional-montserrat"
         },
         {
           "label": "Chess.com current events",
@@ -670,47 +543,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30806",
-      "title": "Malawi Chess Championship 2026",
-      "shortTitle": "Malawi Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-08-28T05:00:00Z",
-      "endDate": "2026-08-30T19:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Malawi Chess Championship 2026.",
-      "description": "97 listed players",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-malawi-chess-championship",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-malawi-chess-championship"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30794",
       "title": "Aragon Individual Championship 2026",
       "shortTitle": "Aragon Individual Championship 2026",
@@ -793,42 +625,36 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30691",
-      "title": "Southeast Children And Youth Festival 2026",
-      "shortTitle": "Southeast Children And Youth Festival 2026",
+      "id": "chesscom-30849",
+      "title": "12th Feria Agostina International Tournament 2026",
+      "shortTitle": "12th Feria Agostina International Tournament 2026",
       "status": "live",
       "startDate": "2026-08-28T13:00:00Z",
-      "endDate": "2026-08-30T20:00:00Z",
+      "endDate": "2026-08-30T23:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
-      "summary": "Chess.com current event: Southeast Children And Youth Festival 2026.",
-      "description": "27 listed players. 5 rounds. 1 scheduled stream links",
+      "summary": "Chess.com current event: 12th Feria Agostina International Tournament 2026.",
+      "description": "64 listed players. 7 rounds",
       "categories": [
         "online",
-        "broadcast",
-        "junior"
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/festival-sudeste-da-crianca-e-da-juventude-2026-std",
+      "primaryUrl": "https://www.chess.com/events/info/xii-torneo-internacional-feria-agostina-2026",
       "links": [
         {
           "label": "Chess.com event",
           "type": "official",
-          "url": "https://www.chess.com/events/info/festival-sudeste-da-crianca-e-da-juventude-2026-std"
+          "url": "https://www.chess.com/events/info/xii-torneo-internacional-feria-agostina-2026"
         },
         {
           "label": "Chess.com current events",
           "type": "source",
           "url": "https://www.chess.com/events/current"
-        },
-        {
-          "label": "4ª RODADA - STD",
-          "type": "stream",
-          "url": "https://www.youtube.com/iXl9qTPK2Io"
         }
       ],
       "source": {
@@ -934,7 +760,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2026 Iowa Open.",
-      "description": "14 listed players. 5 rounds",
+      "description": "15 listed players. 5 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -1008,190 +834,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30844",
-      "title": "20th Open Grand Prix 2026, by SOXalandriou",
-      "shortTitle": "20th Open Grand Prix 2026, by SOXalandriou",
-      "status": "live",
-      "startDate": "2026-08-30T05:00:00Z",
-      "endDate": "2026-08-30T20:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 20th Open Grand Prix 2026, by SOXalandriou.",
-      "description": "5 listed players",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/20th-open-grand-prix-2026-by-soxalandriou",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/20th-open-grand-prix-2026-by-soxalandriou"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-30238",
-      "title": "8th Seebach Open 2026",
-      "shortTitle": "8th Seebach Open 2026",
-      "status": "live",
-      "startDate": "2026-08-30T07:00:00Z",
-      "endDate": "2026-08-30T16:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: 8th Seebach Open 2026.",
-      "description": "Listed on the Chess.com current events page.",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/8-seebach-open",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/8-seebach-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "chesscom-30825",
-      "title": "X Aberto Ubajarense de Xadrez",
-      "shortTitle": "X Aberto Ubajarense de Xadrez",
-      "status": "live",
-      "startDate": "2026-08-30T08:00:00Z",
-      "endDate": "2026-08-30T16:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: X Aberto Ubajarense de Xadrez.",
-      "description": "20 listed players. 6 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/x-aberto-ubajarense-de-xadrez",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/x-aberto-ubajarense-de-xadrez"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-wlgc5xlw",
-      "title": "20th Open Grand Prix 2026, by SOXalandriou | Blitz",
-      "shortTitle": "20th Open Grand Prix 2026, by SOXalandriou | Blitz",
-      "status": "upcoming",
-      "startDate": "2026-08-30T17:30:00Z",
-      "endDate": "2026-08-30T17:30:00Z",
-      "timezone": "Europe/Athens",
-      "locationName": "Athens, Greece",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round FIDE-rated Swiss",
-      "categories": [
-        "blitz",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/20th-open-grand-prix-2026-by-soxalandriou-blitz/wlGC5xlW",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/20th-open-grand-prix-2026-by-soxalandriou-blitz/wlGC5xlW"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.halandrichess.gr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://chess-results.com/tnr1478037.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30836",
       "title": "Portuguese Championship 2026",
       "shortTitle": "Portuguese Championship 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-30T17:30:00Z",
       "endDate": "2026-09-06T19:00:00Z",
       "timezone": "UTC",
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Portuguese Championship 2026.",
-      "description": "9 rounds",
+      "description": "10 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast"
@@ -1298,6 +951,198 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/tnr1474948.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-og77lxcx",
+      "title": "1st Gazi International Open Chess Tournament | Category A",
+      "shortTitle": "1st Gazi International Open Chess Tournament | Category A",
+      "status": "upcoming",
+      "startDate": "2026-08-31T13:15:00Z",
+      "endDate": "2026-09-06T07:15:00Z",
+      "timezone": "Europe/Istanbul",
+      "locationName": "Gaziantep",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-a/og77lxCx",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-a/og77lxCx"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://gaziopen.tsf.org.tr/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1464031.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-vwjkmrng",
+      "title": "1st Gazi International Open Chess Tournament | Category B",
+      "shortTitle": "1st Gazi International Open Chess Tournament | Category B",
+      "status": "upcoming",
+      "startDate": "2026-08-31T13:15:00Z",
+      "endDate": "2026-09-06T07:15:00Z",
+      "timezone": "Europe/Istanbul",
+      "locationName": "Gaziantep",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-b/vwjkmrng",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-b/vwjkmrng"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://gaziopen.tsf.org.tr/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1464032.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-51krvy7a",
+      "title": "1st Gazi International Open Chess Tournament | Category C",
+      "shortTitle": "1st Gazi International Open Chess Tournament | Category C",
+      "status": "upcoming",
+      "startDate": "2026-08-31T13:15:00Z",
+      "endDate": "2026-09-06T07:15:00Z",
+      "timezone": "Europe/Istanbul",
+      "locationName": "Gaziantep",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-c/51KRVy7a",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-c/51KRVy7a"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://gaziopen.tsf.org.tr/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1464033.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-1v7wdkiy",
+      "title": "1st Gazi International Open Chess Tournament | Category D",
+      "shortTitle": "1st Gazi International Open Chess Tournament | Category D",
+      "status": "upcoming",
+      "startDate": "2026-08-31T13:15:00Z",
+      "endDate": "2026-09-06T07:15:00Z",
+      "timezone": "Europe/Istanbul",
+      "locationName": "Gaziantep",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-d/1V7wdkiY",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-d/1V7wdkiY"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://gaziopen.tsf.org.tr/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1464034.aspx?art=1"
         }
       ],
       "source": {
@@ -1568,54 +1413,6 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s3.chess-results.com/tnr1448061.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-rqizdsrh",
-      "title": "Swiss Youth Individual Championship 2026 | 1st Qualification | U18",
-      "shortTitle": "Swiss Youth Individual Championship 2026 | 1st Qualification | U18",
-      "status": "upcoming",
-      "startDate": "2026-09-04T16:35:00Z",
-      "endDate": "2026-09-06T12:15:00Z",
-      "timezone": "Europe/Vienna",
-      "locationName": "Hergiswil, Switzerland",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/swiss-youth-individual-championship-2026-1st-qualification-u18/rQiZDsRH",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/swiss-youth-individual-championship-2026-1st-qualification-u18/rQiZDsRH"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://jsv-nidwalden.pro/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1448063.aspx?art=1"
         }
       ],
       "source": {
