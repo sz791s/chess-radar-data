@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T02:17:08Z",
-  "eventCount": 67,
+  "generatedAt": "2026-08-31T12:07:35Z",
+  "eventCount": 66,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 31
+      "count": 32
     },
     {
       "name": "uschess",
@@ -100,47 +100,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-29486",
-      "title": "Nimes Apogee Festival 2026",
-      "shortTitle": "Nimes Apogee Festival 2026",
-      "status": "live",
-      "startDate": "2026-08-22T03:30:00Z",
-      "endDate": "2026-08-31T07:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Nimes Apogee Festival 2026.",
-      "description": "45 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/festival-international-de-lapogee-nimes-caissargues-pont-du-gard",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/festival-international-de-lapogee-nimes-caissargues-pont-du-gard"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-28822",
       "title": "African Junior Individual Chess Championships 2026",
       "shortTitle": "African Junior Individual Chess Championships 2026",
@@ -151,7 +110,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: African Junior Individual Chess Championships 2026.",
-      "description": "59 listed players",
+      "description": "80 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -372,7 +331,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 2nd Swindon Chess Congress 2026.",
-      "description": "218 listed players",
+      "description": "219 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -485,48 +444,6 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30618",
-      "title": "Italian Youth Chess Championship 2026",
-      "shortTitle": "Italian Youth Chess Championship 2026",
-      "status": "live",
-      "startDate": "2026-08-29T04:00:00Z",
-      "endDate": "2026-09-05T08:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Italian Youth Chess Championship 2026.",
-      "description": "265 listed players",
-      "categories": [
-        "online",
-        "broadcast",
-        "junior"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/italian-youth-chess-championship-2026",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/italian-youth-chess-championship-2026"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
       "id": "chesscom-30771",
       "title": "All India Open Jashpur CG 2026",
       "shortTitle": "All India Open Jashpur CG 2026",
@@ -579,7 +496,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Polish Team Championship 2nd League 2026.",
-      "description": "361 listed players. 9 rounds",
+      "description": "386 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -611,27 +528,45 @@
       "confirmedPlayers": []
     },
     {
-      "id": "chesscom-30836",
-      "title": "Portuguese Championship 2026",
-      "shortTitle": "Portuguese Championship 2026",
+      "id": "lichess-rrkjskjl",
+      "title": "Portuguese National Championship 2025-2026",
+      "shortTitle": "Portuguese National Championship 2025-2026",
       "status": "live",
-      "startDate": "2026-08-30T17:30:00Z",
-      "endDate": "2026-09-06T19:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Portuguese Championship 2026.",
-      "description": "10 listed players. 9 rounds",
+      "startDate": "2026-08-30T19:30:00Z",
+      "endDate": "2026-09-06T13:00:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
       "categories": [
-        "online",
-        "broadcast"
+        "classical",
+        "broadcast",
+        "otb",
+        "online"
       ],
       "playerIds": [],
       "channelIds": [
+        "lichess",
         "chesscom"
       ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-portuguese-championship",
+      "primaryUrl": "https://lichess.org/broadcast/portuguese-national-championship-2025-2026/RrKJSkjL",
       "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/portuguese-national-championship-2025-2026/RrKJSkjL"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "http://www.fpx.pt/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1487399.aspx?art=1"
+        },
         {
           "label": "Chess.com event",
           "type": "official",
@@ -644,9 +579,9 @@
         }
       ],
       "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -700,7 +635,7 @@
       "id": "chesscom-30513",
       "title": "33rd Nikaia Open Tournament 2026",
       "shortTitle": "33rd Nikaia Open Tournament 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-31T05:00:00Z",
       "endDate": "2026-09-08T20:30:00Z",
       "timezone": "UTC",
@@ -739,43 +674,89 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-w46bwksl",
-      "title": "International Chess Tournament by Green Hills Resort Masters 2026 | Blitz",
-      "shortTitle": "International Chess Tournament by Green Hills Resort Masters 2026 | Blitz",
-      "status": "upcoming",
-      "startDate": "2026-08-31T05:05:00Z",
-      "endDate": "2026-08-31T05:05:00Z",
-      "timezone": "Asia/Tashkent",
-      "locationName": "Tashkent, Uzbekistan",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "8-player round-robin",
+      "id": "chesscom-30868",
+      "title": "1st Gazi International Open 2026",
+      "shortTitle": "1st Gazi International Open 2026",
+      "status": "live",
+      "startDate": "2026-08-31T11:15:00Z",
+      "endDate": "2026-09-06T13:15:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 1st Gazi International Open 2026.",
+      "description": "Listed on the Chess.com current events page.",
       "categories": [
-        "blitz",
+        "online",
         "broadcast",
-        "otb"
+        "open"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/international-chess-tournament-by-green-hills-resort-masters-2026-blitz/w46bwKsL",
+      "primaryUrl": "https://www.chess.com/events/info/2026-gazi-international-open",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/international-chess-tournament-by-green-hills-resort-masters-2026-blitz/w46bwKsL"
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/2026-gazi-international-open"
         },
         {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1474948.aspx"
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "chesscom-30857",
+      "title": "Checkmate: Secret Wars ft. Pratibha 2026 Technophite x SJU Chess Club",
+      "shortTitle": "Checkmate: Secret Wars ft. Pratibha 2026 Technophite x SJU Chess Club",
+      "status": "live",
+      "startDate": "2026-08-31T11:30:00Z",
+      "endDate": "2026-09-04T11:25:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Checkmate: Secret Wars ft. Pratibha 2026 Technophite x SJU Chess Club.",
+      "description": "1 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/checkmate-secret-wars-ft-pratibha-2026-technophite-x-sju-chess-club",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/checkmate-secret-wars-ft-pratibha-2026-technophite-x-sju-chess-club"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "CHECKMATE: SECRET WARS",
+          "type": "stream",
+          "url": "https://www.youtube.com/watch?v=Aukv60q9XTU"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -1718,7 +1699,6 @@
         "g-darshan",
         "lukas-meier",
         "emilio-milko-fu-ak",
-        "borna-pehar",
         "guijue-zhou",
         "indrajeet-mahindrakar",
         "predrag-cicovacki",
@@ -1748,9 +1728,9 @@
         "adan-carballido-bouzas",
         "igor-kne-evi",
         "jakov-labrovi",
-        "jurica-mato-in",
         "teo-dro-ek",
         "reinhard-mueller",
+        "lila-rzadkowska",
         "turbat-todmunkh",
         "tino-glavi-i",
         "d-emal-red-i",
@@ -1795,7 +1775,6 @@
         "mijo-peri",
         "victor-van-houdt",
         "nikola-matkovi",
-        "ante-ljubi-i",
         "matias-arhus-fossheim",
         "mikolaj-chudy",
         "mihael-primorac",
@@ -1827,7 +1806,9 @@
         "roko-veki",
         "franc-soba",
         "tuure-maki-uuro",
-        "julia-stanowska"
+        "julia-stanowska",
+        "max-rauhut",
+        "manuel-raji"
       ],
       "channelIds": [],
       "primaryUrl": "https://calendar.chessaround.com/tournament/view/546",
@@ -1894,7 +1875,6 @@
         "g-darshan",
         "lukas-meier",
         "emilio-milko-fu-ak",
-        "borna-pehar",
         "guijue-zhou",
         "indrajeet-mahindrakar",
         "predrag-cicovacki",
@@ -1924,9 +1904,9 @@
         "adan-carballido-bouzas",
         "igor-kne-evi",
         "jakov-labrovi",
-        "jurica-mato-in",
         "teo-dro-ek",
         "reinhard-mueller",
+        "lila-rzadkowska",
         "turbat-todmunkh",
         "tino-glavi-i",
         "d-emal-red-i",
@@ -1971,7 +1951,6 @@
         "mijo-peri",
         "victor-van-houdt",
         "nikola-matkovi",
-        "ante-ljubi-i",
         "matias-arhus-fossheim",
         "mikolaj-chudy",
         "mihael-primorac",
@@ -2003,7 +1982,9 @@
         "roko-veki",
         "franc-soba",
         "tuure-maki-uuro",
-        "julia-stanowska"
+        "julia-stanowska",
+        "max-rauhut",
+        "manuel-raji"
       ],
       "confirmedPlayers": [
         {
@@ -2607,21 +2588,6 @@
           }
         },
         {
-          "playerId": "borna-pehar",
-          "name": "Borna Pehar",
-          "countryCode": "CRO",
-          "title": "MK",
-          "fideId": "14416689",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "guijue-zhou",
           "name": "Guijue Zhou",
           "countryCode": "CHN",
@@ -3057,21 +3023,6 @@
           }
         },
         {
-          "playerId": "jurica-mato-in",
-          "name": "Jurica Matošin",
-          "countryCode": "CRO",
-          "title": "I",
-          "fideId": "14552370",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "teo-dro-ek",
           "name": "Teo Drožđek",
           "countryCode": "CRO",
@@ -3092,6 +3043,21 @@
           "countryCode": "GER",
           "title": null,
           "fideId": "4679172",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "lila-rzadkowska",
+          "name": "Lila Rzadkowska",
+          "countryCode": "POL",
+          "title": "WCM",
+          "fideId": "21083070",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -3762,21 +3728,6 @@
           }
         },
         {
-          "playerId": "ante-ljubi-i",
-          "name": "Ante Ljubičić",
-          "countryCode": "CRO",
-          "title": "IV",
-          "fideId": "14538482",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
           "playerId": "matias-arhus-fossheim",
           "name": "Matias Arhus Fossheim",
           "countryCode": "NOR",
@@ -4247,6 +4198,36 @@
           "countryCode": "POL",
           "title": null,
           "fideId": "21826242",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "max-rauhut",
+          "name": "Max Rauhut",
+          "countryCode": "GER",
+          "title": null,
+          "fideId": "16292545",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "manuel-raji",
+          "name": "Manuel Rajić",
+          "countryCode": "CRO",
+          "title": "V",
+          "fideId": "79304354",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
