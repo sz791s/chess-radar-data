@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-01T15:44:58Z",
-  "eventPlayerCount": 269,
+  "generatedAt": "2026-09-01T20:18:00Z",
+  "eventPlayerCount": 271,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 269
+      "count": 271
     },
     {
       "name": "curated",
@@ -186,6 +186,21 @@
       "countryCode": "FRA",
       "title": "GM",
       "fideId": "602612",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-5-open-hvar-2026-19-25-oct-2026",
+      "playerId": "borna-franc",
+      "name": "Borna Franc",
+      "countryCode": "CRO",
+      "title": "FM",
+      "fideId": "14555948",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -1521,6 +1536,21 @@
       "countryCode": "NOR",
       "title": null,
       "fideId": "1592394",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-5-open-hvar-2026-19-25-oct-2026",
+      "playerId": "drago-balen",
+      "name": "Drago Balen",
+      "countryCode": "CRO",
+      "title": "III",
+      "fideId": "79303412",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
