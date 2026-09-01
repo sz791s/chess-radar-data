@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-01T02:35:34Z",
-  "eventPlayerCount": 254,
+  "generatedAt": "2026-09-01T10:45:00Z",
+  "eventPlayerCount": 256,
   "sources": [
     {
       "name": "chess-results",
       "status": "ok",
-      "count": 254
+      "count": 256
     },
     {
       "name": "curated",
@@ -426,6 +426,21 @@
       "countryCode": "SUI",
       "title": "CM",
       "fideId": "1329693",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-5-open-hvar-2026-19-25-oct-2026",
+      "playerId": "emilio-milko-fu-ak",
+      "name": "Emilio Milko Fućak",
+      "countryCode": "CRO",
+      "title": "FM",
+      "fideId": "14501023",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
@@ -1041,6 +1056,21 @@
       "countryCode": "CRO",
       "title": "II",
       "fideId": "14589940",
+      "classicalRating": null,
+      "status": "confirmed",
+      "source": {
+        "name": "chess-results",
+        "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+        "confidence": "high"
+      }
+    },
+    {
+      "eventId": "chessaround-5-open-hvar-2026-19-25-oct-2026",
+      "playerId": "petar-dima",
+      "name": "Petar Dimač",
+      "countryCode": "CRO",
+      "title": "II",
+      "fideId": "14585847",
       "classicalRating": null,
       "status": "confirmed",
       "source": {
