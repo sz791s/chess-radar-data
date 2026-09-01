@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:44:55Z",
+  "generatedAt": "2026-09-01T15:44:50Z",
   "eventCount": 65,
   "sources": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 32
+      "count": 33
     },
     {
       "name": "uschess",
@@ -330,7 +330,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 19th Kalamaria International 2026.",
-      "description": "78 listed players",
+      "description": "81 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -413,7 +413,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Polish Team Championship 2nd League 2026.",
-      "description": "390 listed players. 9 rounds",
+      "description": "402 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -580,7 +580,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 1st Gazi International Open 2026.",
-      "description": "338 listed players",
+      "description": "339 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -1165,7 +1165,7 @@
       "startDate": "2026-09-07T14:00:00Z",
       "endDate": "2026-09-14T07:30:00Z",
       "timezone": "Europe/Rome",
-      "locationName": "Montesilvano",
+      "locationName": "Montesilvano, Italy",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
       "description": "9-round Swiss",
@@ -5021,6 +5021,7 @@
         "otb"
       ],
       "playerIds": [
+        "alexey-sarana",
         "denis-lazavik",
         "alexander-motylev",
         "maxim-chigaev",
@@ -5060,7 +5061,7 @@
         "maksim-shchekachikhin",
         "ido-ben-artzi",
         "nataliia-buksa",
-        "lilit-galojan",
+        "lilit-galoyan",
         "raahul-vs",
         "alexander-raetsky",
         "petra-papp",
@@ -5071,7 +5072,10 @@
         "yehuda-gamri",
         "kahn-evarth",
         "daniel-moskovich",
+        "idan-david",
+        "raz-hayohamo",
         "yedael-stepak",
+        "doron-ben-shemesh",
         "oz-segev",
         "igor-berenboym",
         "islambek-baisynov",
@@ -5081,27 +5085,36 @@
         "mordechay-gndelman",
         "ilan-ronin",
         "yonatan-agmon",
+        "zvi-kuritz",
         "lior-hilb",
         "moshe-slav",
         "eithan-sigalov",
         "itamar-brodsky",
         "yair-bisa",
         "slavik-altman",
+        "juda-avraham",
         "rotem-namdar",
         "rey-goralskiy",
+        "alon-yekutiel",
         "yoav-brodsky",
+        "or-tirosh",
         "gili-asraf",
+        "galina-pankratova",
         "ward-shaer",
         "moataz-ganem",
         "shmuel-yeshayahu",
         "guy-venturero",
         "noam-bleicher",
+        "elazar-bloomer",
         "adir-avny",
         "kfir-huri",
         "dan-otcheretianski",
         "dmitry-brodskiy",
+        "avishai-katz",
         "khaled-medleg",
+        "alexander-podkovyrov",
         "tamir-bleicher",
+        "david-nemirovski",
         "mahmood-abedelhade",
         "ram-schnaider"
       ],
@@ -5130,6 +5143,7 @@
         "confidence": "medium"
       },
       "confirmedPlayerIds": [
+        "alexey-sarana",
         "denis-lazavik",
         "alexander-motylev",
         "maxim-chigaev",
@@ -5169,7 +5183,7 @@
         "maksim-shchekachikhin",
         "ido-ben-artzi",
         "nataliia-buksa",
-        "lilit-galojan",
+        "lilit-galoyan",
         "raahul-vs",
         "alexander-raetsky",
         "petra-papp",
@@ -5180,7 +5194,10 @@
         "yehuda-gamri",
         "kahn-evarth",
         "daniel-moskovich",
+        "idan-david",
+        "raz-hayohamo",
         "yedael-stepak",
+        "doron-ben-shemesh",
         "oz-segev",
         "igor-berenboym",
         "islambek-baisynov",
@@ -5190,31 +5207,55 @@
         "mordechay-gndelman",
         "ilan-ronin",
         "yonatan-agmon",
+        "zvi-kuritz",
         "lior-hilb",
         "moshe-slav",
         "eithan-sigalov",
         "itamar-brodsky",
         "yair-bisa",
         "slavik-altman",
+        "juda-avraham",
         "rotem-namdar",
         "rey-goralskiy",
+        "alon-yekutiel",
         "yoav-brodsky",
+        "or-tirosh",
         "gili-asraf",
+        "galina-pankratova",
         "ward-shaer",
         "moataz-ganem",
         "shmuel-yeshayahu",
         "guy-venturero",
         "noam-bleicher",
+        "elazar-bloomer",
         "adir-avny",
         "kfir-huri",
         "dan-otcheretianski",
         "dmitry-brodskiy",
+        "avishai-katz",
         "khaled-medleg",
+        "alexander-podkovyrov",
         "tamir-bleicher",
+        "david-nemirovski",
         "mahmood-abedelhade",
         "ram-schnaider"
       ],
       "confirmedPlayers": [
+        {
+          "playerId": "alexey-sarana",
+          "name": "Alexey Sarana",
+          "countryCode": "SRB",
+          "title": "GM",
+          "fideId": "24133795",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
         {
           "playerId": "denis-lazavik",
           "name": "Denis Lazavik",
@@ -5744,7 +5785,7 @@
           "playerId": "anna-zatonskih",
           "name": "Anna Zatonskih",
           "countryCode": "USA",
-          "title": "WGM",
+          "title": "IM",
           "fideId": "14101572",
           "classicalRating": null,
           "profileLinks": {},
@@ -5789,7 +5830,7 @@
           "playerId": "nataliia-buksa",
           "name": "Nataliia Buksa",
           "countryCode": "UKR",
-          "title": "WGM",
+          "title": "IM",
           "fideId": "14123622",
           "classicalRating": null,
           "profileLinks": {},
@@ -5801,10 +5842,10 @@
           }
         },
         {
-          "playerId": "lilit-galojan",
-          "name": "Lilit Galojan",
+          "playerId": "lilit-galoyan",
+          "name": "Lilit Galoyan",
           "countryCode": "ARM",
-          "title": "WGM",
+          "title": "IM",
           "fideId": "13301314",
           "classicalRating": null,
           "profileLinks": {},
@@ -5966,11 +6007,56 @@
           }
         },
         {
+          "playerId": "idan-david",
+          "name": "Idan David",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2853256",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "raz-hayohamo",
+          "name": "Raz Hayohamo",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2821087",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "yedael-stepak",
           "name": "Yedael Stepak",
           "countryCode": "ISR",
           "title": "FM",
           "fideId": "2800454",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "doron-ben-shemesh",
+          "name": "Doron Ben-Shemesh",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2820510",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6028,7 +6114,7 @@
         {
           "playerId": "david-frankental",
           "name": "David Frankental",
-          "countryCode": "BRA",
+          "countryCode": "ISR",
           "title": null,
           "fideId": "2175061",
           "classicalRating": null,
@@ -6106,6 +6192,21 @@
           "countryCode": "ISR",
           "title": null,
           "fideId": "2813149",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "zvi-kuritz",
+          "name": "Zvi Kuritz",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2837757",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6206,6 +6307,21 @@
           }
         },
         {
+          "playerId": "juda-avraham",
+          "name": "Juda Avraham",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2861526",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "rotem-namdar",
           "name": "Rotem Namdar",
           "countryCode": "ISR",
@@ -6236,6 +6352,21 @@
           }
         },
         {
+          "playerId": "alon-yekutiel",
+          "name": "Alon Yekutiel",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2880270",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "yoav-brodsky",
           "name": "Yoav Brodsky",
           "countryCode": "ISR",
@@ -6251,11 +6382,41 @@
           }
         },
         {
+          "playerId": "or-tirosh",
+          "name": "Or Tirosh",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2876396",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "gili-asraf",
           "name": "Gili Asraf",
           "countryCode": "ISR",
           "title": null,
           "fideId": "2870789",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "galina-pankratova",
+          "name": "Galina Pankratova",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2895315",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6341,6 +6502,21 @@
           }
         },
         {
+          "playerId": "elazar-bloomer",
+          "name": "Elazar Bloomer",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2894629",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "adir-avny",
           "name": "Adir Avny",
           "countryCode": "ISR",
@@ -6401,6 +6577,21 @@
           }
         },
         {
+          "playerId": "avishai-katz",
+          "name": "Avishai Katz",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2885042",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "khaled-medleg",
           "name": "Khaled Medleg",
           "countryCode": "ISR",
@@ -6416,11 +6607,41 @@
           }
         },
         {
+          "playerId": "alexander-podkovyrov",
+          "name": "Alexander Podkovyrov",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2890879",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "tamir-bleicher",
           "name": "Tamir Bleicher",
           "countryCode": "ISR",
           "title": null,
           "fideId": "2859750",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1478696.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
+          "playerId": "david-nemirovski",
+          "name": "David Nemirovski",
+          "countryCode": "ISR",
+          "title": null,
+          "fideId": "2897318",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
@@ -6449,7 +6670,7 @@
           "playerId": "ram-schnaider",
           "name": "Ram Schnaider",
           "countryCode": "ARG",
-          "title": null,
+          "title": "None",
           "fideId": "194174",
           "classicalRating": null,
           "profileLinks": {},
