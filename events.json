@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T10:10:11Z",
-  "eventCount": 65,
+  "generatedAt": "2026-09-02T15:35:26Z",
+  "eventCount": 64,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 33
+      "count": 34
     },
     {
       "name": "uschess",
@@ -141,9 +141,9 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-ldzi9cyh",
-      "title": "European Senior Team Championships 2026 | Senior 65+",
-      "shortTitle": "European Senior Team Championships 2026 | Senior 65+",
+      "id": "lichess-rykfrrrh",
+      "title": "European Senior Team Championships 2026 | Senior 50+",
+      "shortTitle": "European Senior Team Championships 2026 | Senior 50+",
       "status": "live",
       "startDate": "2026-08-27T12:15:00Z",
       "endDate": "2026-09-04T12:15:00Z",
@@ -162,12 +162,12 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/european-senior-team-championships-2026-senior-65/Ldzi9CYh",
+      "primaryUrl": "https://lichess.org/broadcast/european-senior-team-championships-2026-senior-50/RYkFRrrh",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/european-senior-team-championships-2026-senior-65/Ldzi9CYh"
+          "url": "https://lichess.org/broadcast/european-senior-team-championships-2026-senior-50/RYkFRrrh"
         },
         {
           "label": "Official website",
@@ -177,55 +177,17 @@
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://s3.chess-results.com/tnr1473298.aspx"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-i5cbp85g",
-      "title": "CECLUB Primera Division Linares 2026",
-      "shortTitle": "CECLUB Primera Division Linares 2026",
-      "status": "live",
-      "startDate": "2026-08-27T14:30:00Z",
-      "endDate": "2026-09-02T14:30:00Z",
-      "timezone": "Europe/Paris",
-      "locationName": "Linares, Spain",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "8-team round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "team",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/ceclub-primera-division-linares-2026/i5CBp85G",
-      "links": [
+          "url": "https://s3.chess-results.com/tnr1473297.aspx"
+        },
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/ceclub-primera-division-linares-2026/i5CBp85G"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://www.feda.org/"
+          "url": "https://lichess.org/broadcast/european-senior-team-championships-2026-senior-65/Ldzi9CYh"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://info64.org/team/ceclub-primera-division-2026"
+          "url": "https://s3.chess-results.com/tnr1473298.aspx"
         }
       ],
       "source": {
@@ -288,7 +250,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 19th Kalamaria International 2026.",
-      "description": "81 listed players",
+      "description": "85 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -329,7 +291,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Polish Team Championship 2nd League 2026.",
-      "description": "403 listed players. 9 rounds",
+      "description": "413 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -356,48 +318,6 @@
         "name": "chesscom",
         "url": "https://www.chess.com/events/current",
         "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-bykduh7o",
-      "title": "DRUŻYNOWE MISTRZOSTWA POLSKI II LIGA 2026 - Mecz 29",
-      "shortTitle": "DRUŻYNOWE MISTRZOSTWA POLSKI II LIGA 2026 - Mecz 29",
-      "status": "live",
-      "startDate": "2026-08-29T13:15:00Z",
-      "endDate": "2026-09-06T13:15:00Z",
-      "timezone": "Europe/Warsaw",
-      "locationName": "Jastrzębia-Góra",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-ii-liga-2026-mecz-29/byKdUh7O",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/druzynowe-mistrzostwa-polski-ii-liga-2026-mecz-29/byKdUh7O"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://www.chessarbiter.com/turnieje/2026/tdr_4059/"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -528,193 +448,42 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-og77lxcx",
-      "title": "1st Gazi International Open Chess Tournament | Category A",
-      "shortTitle": "1st Gazi International Open Chess Tournament | Category A",
+      "id": "chesscom-30948",
+      "title": "35th Independence Day Matches",
+      "shortTitle": "35th Independence Day Matches",
       "status": "live",
-      "startDate": "2026-08-31T13:15:00Z",
-      "endDate": "2026-09-06T07:15:00Z",
-      "timezone": "Europe/Istanbul",
-      "locationName": "Gaziantep",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
+      "startDate": "2026-09-01T07:00:00Z",
+      "endDate": "2026-09-10T06:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 35th Independence Day Matches.",
+      "description": "4 listed players",
       "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-a/og77lxCx",
+      "primaryUrl": "https://www.chess.com/events/info/35th-independence-day-matches",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-a/og77lxCx"
-        },
-        {
-          "label": "Official website",
+          "label": "Chess.com event",
           "type": "official",
-          "url": "https://gaziopen.tsf.org.tr/"
+          "url": "https://www.chess.com/events/info/35th-independence-day-matches"
         },
         {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1464031.aspx?art=1"
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-vwjkmrng",
-      "title": "1st Gazi International Open Chess Tournament | Category B",
-      "shortTitle": "1st Gazi International Open Chess Tournament | Category B",
-      "status": "live",
-      "startDate": "2026-08-31T13:15:00Z",
-      "endDate": "2026-09-06T07:15:00Z",
-      "timezone": "Europe/Istanbul",
-      "locationName": "Gaziantep",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-b/vwjkmrng",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-b/vwjkmrng"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://gaziopen.tsf.org.tr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1464032.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-51krvy7a",
-      "title": "1st Gazi International Open Chess Tournament | Category C",
-      "shortTitle": "1st Gazi International Open Chess Tournament | Category C",
-      "status": "live",
-      "startDate": "2026-08-31T13:15:00Z",
-      "endDate": "2026-09-06T07:15:00Z",
-      "timezone": "Europe/Istanbul",
-      "locationName": "Gaziantep",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-c/51KRVy7a",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-c/51KRVy7a"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://gaziopen.tsf.org.tr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1464033.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-1v7wdkiy",
-      "title": "1st Gazi International Open Chess Tournament | Category D",
-      "shortTitle": "1st Gazi International Open Chess Tournament | Category D",
-      "status": "live",
-      "startDate": "2026-08-31T13:15:00Z",
-      "endDate": "2026-09-06T07:15:00Z",
-      "timezone": "Europe/Istanbul",
-      "locationName": "Gaziantep",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "open",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-d/1V7wdkiY",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/1st-gazi-international-open-chess-tournament-category-d/1V7wdkiY"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://gaziopen.tsf.org.tr/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1464034.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -894,6 +663,85 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-lzseyyul",
+      "title": "Haustmót TR 2026",
+      "shortTitle": "Haustmót TR 2026",
+      "status": "upcoming",
+      "startDate": "2026-09-02T18:45:00Z",
+      "endDate": "2026-09-20T13:15:00Z",
+      "timezone": "Atlantic/Reykjavik",
+      "locationName": "Reykjavik, Iceland",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "9-player round robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/haustmot-tr-2026/lzsEyyul",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/haustmot-tr-2026/lzsEyyul"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-dg8prqeq",
+      "title": "Saint Charbel Chess Cup IV | Masters",
+      "shortTitle": "Saint Charbel Chess Cup IV | Masters",
+      "status": "upcoming",
+      "startDate": "2026-09-03T06:30:00Z",
+      "endDate": "2026-09-09T06:30:00Z",
+      "timezone": "Europe/Kyiv",
+      "locationName": "Morshyn, Lviv Oblast, Ukraine",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/saint-charbel-chess-cup-iv-masters/DG8prqEQ",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/saint-charbel-chess-cup-iv-masters/DG8prqEQ"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1469459.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "lichess-iqrxddmt",
       "title": "2026 Labor Day Norm Invitational | GM B",
       "shortTitle": "2026 Labor Day Norm Invitational | GM B",
@@ -982,6 +830,49 @@
           "label": "Standings",
           "type": "results",
           "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=standings"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-e6nuaawf",
+      "title": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Rapid",
+      "shortTitle": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Rapid",
+      "status": "upcoming",
+      "startDate": "2026-09-04T16:00:00Z",
+      "endDate": "2026-09-04T16:00:00Z",
+      "timezone": "Europe/Zagreb",
+      "locationName": "Omišalj Croatia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Swiss 7 round",
+      "categories": [
+        "rapid",
+        "blitz",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-rapid/e6NUaAwf",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-rapid/e6NUaAwf"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/Tnr1475954.aspx?art=1"
         }
       ],
       "source": {
@@ -1124,6 +1015,49 @@
           "label": "Standings",
           "type": "results",
           "url": "https://info64.org/iv-torneo-internacional-alfafar-2026-miguel-martinez/standings"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-a8vf0xki",
+      "title": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Blitz",
+      "shortTitle": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Blitz",
+      "status": "upcoming",
+      "startDate": "2026-09-05T15:00:00Z",
+      "endDate": "2026-09-05T15:00:00Z",
+      "timezone": "Europe/Zagreb",
+      "locationName": "Omisalj Croatia",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Swiss 7 rounds",
+      "categories": [
+        "rapid",
+        "blitz",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-blitz/a8VF0XKI",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-blitz/a8VF0XKI"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1475953.aspx?art=1"
         }
       ],
       "source": {
@@ -1579,6 +1513,11 @@
           "label": "chessaround calendar",
           "type": "source",
           "url": "https://calendar.chessaround.com/"
+        },
+        {
+          "label": "Starting list",
+          "type": "players",
+          "url": "https://chessevent.echecs-bretagne.fr/public/inscrList.php?event=BRE_35_OIL2026&tActif=0"
         }
       ],
       "source": {
