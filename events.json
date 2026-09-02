@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T20:17:52Z",
-  "eventCount": 62,
+  "generatedAt": "2026-09-02T01:56:18Z",
+  "eventCount": 64,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 30
+      "count": 32
     },
     {
       "name": "uschess",
@@ -454,7 +454,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 33rd Nikaia Open Tournament 2026.",
-      "description": "65 listed players",
+      "description": "71 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -720,43 +720,42 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-445hjqol",
-      "title": "Malaysia National Rapid Chess Championship 2026",
-      "shortTitle": "Malaysia National Rapid Chess Championship 2026",
+      "id": "chesscom-30928",
+      "title": "Saint Charbel Cup 4 2026",
+      "shortTitle": "Saint Charbel Cup 4 2026",
       "status": "live",
-      "startDate": "2026-09-01T02:00:00Z",
-      "endDate": "2026-09-02T01:00:00Z",
-      "timezone": "Asia/Kuala_Lumpur",
-      "locationName": "The Putra Regency Hotel, Perlis",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9 Round",
+      "startDate": "2026-09-01T14:00:00Z",
+      "endDate": "2026-09-09T13:55:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Saint Charbel Cup 4 2026.",
+      "description": "Listed on the Chess.com current events page.",
       "categories": [
-        "rapid",
-        "broadcast",
-        "otb"
+        "online",
+        "broadcast"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/malaysia-national-rapid-chess-championship-2026/445hjQOl",
+      "primaryUrl": "https://www.chess.com/events/info/saint-charbel-cup-4-2026",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/malaysia-national-rapid-chess-championship-2026/445hjQOl"
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/saint-charbel-cup-4-2026"
         },
         {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1474647.aspx?art=1"
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -765,7 +764,7 @@
       "id": "chessbase-grand-chess-tour-season-4-2-to-13-september-2026",
       "title": "Grand Chess Tour Season 4",
       "shortTitle": "Grand Chess Tour Season 4",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-09-02T00:00:00Z",
       "endDate": "2026-09-13T23:59:59Z",
       "timezone": "UTC",
@@ -798,19 +797,65 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-maqzrsb8",
-      "title": "National Blitz Chess Championship 2026",
-      "shortTitle": "National Blitz Chess Championship 2026",
+      "id": "chesscom-30857",
+      "title": "Checkmate: Secret Wars ft. Pratibha 2026 Technophite x SJU Chess Club",
+      "shortTitle": "Checkmate: Secret Wars ft. Pratibha 2026 Technophite x SJU Chess Club",
       "status": "upcoming",
-      "startDate": "2026-09-02T02:00:00Z",
-      "endDate": "2026-09-02T02:00:00Z",
-      "timezone": "Asia/Kuala_Lumpur",
-      "locationName": "The Putra Regency Hotel, Perlis",
+      "startDate": "2026-09-02T07:30:00Z",
+      "endDate": "2026-09-04T08:25:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: Checkmate: Secret Wars ft. Pratibha 2026 Technophite x SJU Chess Club.",
+      "description": "10 scheduled stream links",
+      "categories": [
+        "online",
+        "broadcast"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "chesscom"
+      ],
+      "primaryUrl": "https://www.chess.com/events/info/checkmate-secret-wars-ft-pratibha-2026-technophite-x-sju-chess-club",
+      "links": [
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/checkmate-secret-wars-ft-pratibha-2026-technophite-x-sju-chess-club"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        },
+        {
+          "label": "CHECKMATE: SECRET WARS",
+          "type": "stream",
+          "url": "https://www.youtube.com/watch?v=Aukv60q9XTU"
+        }
+      ],
+      "source": {
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-iqrxddmt",
+      "title": "2026 Labor Day Norm Invitational | GM B",
+      "shortTitle": "2026 Labor Day Norm Invitational | GM B",
+      "status": "upcoming",
+      "startDate": "2026-09-03T22:15:00Z",
+      "endDate": "2026-09-07T19:15:00Z",
+      "timezone": "EST5EDT",
+      "locationName": "Charlotte, North Carolina, USA",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-Round Swiss",
+      "description": "10-player round-robin",
       "categories": [
-        "blitz",
+        "classical",
         "broadcast",
         "otb"
       ],
@@ -818,17 +863,27 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/national-blitz-chess-championship-2026/maqZRSB8",
+      "primaryUrl": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-gm-b/iqrxDdmT",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/national-blitz-chess-championship-2026/maqZRSB8"
+          "url": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-gm-b/iqrxDdmT"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=description"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://s3.chess-results.com/tnr1474648.aspx?art=1"
+          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=standings"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-gm-a/xlyvoNJs"
         }
       ],
       "source": {
@@ -840,91 +895,42 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-fgshryb1",
-      "title": "Swiss Youth Individual Championship 2026 | 1st Qualification | U10",
-      "shortTitle": "Swiss Youth Individual Championship 2026 | 1st Qualification | U10",
+      "id": "lichess-az68bdoc",
+      "title": "2026 Labor Day Norm Invitational | IM C",
+      "shortTitle": "2026 Labor Day Norm Invitational | IM C",
       "status": "upcoming",
-      "startDate": "2026-09-04T16:35:00Z",
-      "endDate": "2026-09-06T12:15:00Z",
-      "timezone": "Europe/Vienna",
-      "locationName": "Hergiswil, Switzerland",
+      "startDate": "2026-09-03T22:15:00Z",
+      "endDate": "2026-09-07T19:15:00Z",
+      "timezone": "EST5EDT",
+      "locationName": "Charlotte, North Carolina, USA",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7-round Swiss",
+      "description": "10-player round-robin",
       "categories": [
         "classical",
         "broadcast",
-        "junior",
         "otb"
       ],
       "playerIds": [],
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/swiss-youth-individual-championship-2026-1st-qualification-u10/FGshrYb1",
+      "primaryUrl": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-im-c/AZ68bDoc",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/swiss-youth-individual-championship-2026-1st-qualification-u10/FGshrYb1"
+          "url": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-im-c/AZ68bDoc"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://jsv-nidwalden.pro/"
+          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=description"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://s3.chess-results.com/tnr1448055.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-92tzbzlp",
-      "title": "Swiss Youth Individual Championship 2026 | 1st Qualification | U12",
-      "shortTitle": "Swiss Youth Individual Championship 2026 | 1st Qualification | U12",
-      "status": "upcoming",
-      "startDate": "2026-09-04T16:35:00Z",
-      "endDate": "2026-09-06T12:15:00Z",
-      "timezone": "Europe/Vienna",
-      "locationName": "Hergiswil, Switzerland",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "7-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "junior",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/swiss-youth-individual-championship-2026-1st-qualification-u12/92TzbZLP",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/swiss-youth-individual-championship-2026-1st-qualification-u12/92TzbZLP"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://jsv-nidwalden.pro/"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/tnr1448057.aspx?art=1"
+          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=standings"
         }
       ],
       "source": {
@@ -973,6 +979,100 @@
           "label": "Standings",
           "type": "results",
           "url": "https://s2.chess-results.com/tnr1486336.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-wcxcpmyf",
+      "title": "2026 Fall Southeastern FIDE",
+      "shortTitle": "2026 Fall Southeastern FIDE",
+      "status": "upcoming",
+      "startDate": "2026-09-05T14:45:00Z",
+      "endDate": "2026-09-07T14:15:00Z",
+      "timezone": "EST5EDT",
+      "locationName": "Charlotte, USA",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "5-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-fall-southeastern-fide/WcXCPMYf",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-fall-southeastern-fide/WcXCPMYf"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://app.charlottechesscenter.org/events/fall-southeastern-fide/instances/120?tab=description%3E*"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://app.charlottechesscenter.org/events/fall-southeastern-fide/instances/120?tab=standings%3E*"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-thfnirpg",
+      "title": "IV Torneo Internacional de Alfafar Miguel Martinez",
+      "shortTitle": "IV Torneo Internacional de Alfafar Miguel Martinez",
+      "status": "upcoming",
+      "startDate": "2026-09-05T15:00:00Z",
+      "endDate": "2026-09-05T15:00:00Z",
+      "timezone": "Europe/Madrid",
+      "locationName": "Alfafar, Spain",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "8-round Swiss",
+      "categories": [
+        "blitz",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/iv-torneo-internacional-de-alfafar-miguel-martinez/thFnIRpg",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/iv-torneo-internacional-de-alfafar-miguel-martinez/thFnIRpg"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://www.facv.org/iv-torneo-internacional-de-alfafar-miguel-martinez"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://info64.org/iv-torneo-internacional-alfafar-2026-miguel-martinez/standings"
         }
       ],
       "source": {
