@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T15:35:26Z",
+  "generatedAt": "2026-09-02T20:16:27Z",
   "eventCount": 64,
   "sources": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 34
+      "count": 33
     },
     {
       "name": "uschess",
@@ -57,48 +57,6 @@
     }
   ],
   "events": [
-    {
-      "id": "chesscom-30696",
-      "title": "Rodos Palace Chess Open 2026",
-      "shortTitle": "Rodos Palace Chess Open 2026",
-      "status": "live",
-      "startDate": "2026-08-25T11:00:00Z",
-      "endDate": "2026-09-02T18:00:00Z",
-      "timezone": "UTC",
-      "locationName": "Online broadcast",
-      "isOnline": true,
-      "summary": "Chess.com current event: Rodos Palace Chess Open 2026.",
-      "description": "94 listed players. 9 rounds",
-      "categories": [
-        "online",
-        "broadcast",
-        "open"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "chesscom"
-      ],
-      "primaryUrl": "https://www.chess.com/events/info/2026-rodos-palace-chess-open",
-      "links": [
-        {
-          "label": "Chess.com event",
-          "type": "official",
-          "url": "https://www.chess.com/events/info/2026-rodos-palace-chess-open"
-        },
-        {
-          "label": "Chess.com current events",
-          "type": "source",
-          "url": "https://www.chess.com/events/current"
-        }
-      ],
-      "source": {
-        "name": "chesscom",
-        "url": "https://www.chess.com/events/current",
-        "confidence": "medium"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
     {
       "id": "chesscom-30782",
       "title": "Gudrat Ismayilov Memorial 2026",
@@ -374,7 +332,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 33rd Nikaia Open Tournament 2026.",
-      "description": "83 listed players",
+      "description": "89 listed players",
       "categories": [
         "online",
         "broadcast",
@@ -458,7 +416,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 35th Independence Day Matches.",
-      "description": "4 listed players",
+      "description": "8 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -666,7 +624,7 @@
       "id": "lichess-lzseyyul",
       "title": "Haustmót TR 2026",
       "shortTitle": "Haustmót TR 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-09-02T18:45:00Z",
       "endDate": "2026-09-20T13:15:00Z",
       "timezone": "Atlantic/Reykjavik",
@@ -689,6 +647,53 @@
           "label": "Watch on Lichess",
           "type": "liveBoards",
           "url": "https://lichess.org/broadcast/haustmot-tr-2026/lzsEyyul"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-fpvr3vr7",
+      "title": "Portuguese National Amateur Championship 2025-26",
+      "shortTitle": "Portuguese National Amateur Championship 2025-26",
+      "status": "live",
+      "startDate": "2026-09-02T19:15:00Z",
+      "endDate": "2026-09-05T14:15:00Z",
+      "timezone": "Europe/Lisbon",
+      "locationName": "Maia, Portugal",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round Swiss",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/portuguese-national-amateur-championship-2025-26/Fpvr3vr7",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/portuguese-national-amateur-championship-2025-26/Fpvr3vr7"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://fpx.pt/site/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s2.chess-results.com/tnr1488924.aspx?art=1"
         }
       ],
       "source": {
@@ -1601,6 +1606,7 @@
         "jon-underwood",
         "igor-kne-evi",
         "jakov-labrovi",
+        "gregory-macqueron",
         "adan-carballido-bouzas",
         "lila-rzadkowska",
         "teo-dro-ek",
@@ -1646,7 +1652,6 @@
         "juraj-karkovi",
         "mijo-peri",
         "victor-van-houdt",
-        "nikola-matkovi",
         "matias-arhus-fossheim",
         "drago-balen",
         "mikolaj-chudy",
@@ -1772,6 +1777,7 @@
         "jon-underwood",
         "igor-kne-evi",
         "jakov-labrovi",
+        "gregory-macqueron",
         "adan-carballido-bouzas",
         "lila-rzadkowska",
         "teo-dro-ek",
@@ -1817,7 +1823,6 @@
         "juraj-karkovi",
         "mijo-peri",
         "victor-van-houdt",
-        "nikola-matkovi",
         "matias-arhus-fossheim",
         "drago-balen",
         "mikolaj-chudy",
@@ -2690,6 +2695,21 @@
           }
         },
         {
+          "playerId": "gregory-macqueron",
+          "name": "Gregory Macqueron",
+          "countryCode": "FRA",
+          "title": null,
+          "fideId": "551004240",
+          "classicalRating": null,
+          "profileLinks": {},
+          "status": "confirmed",
+          "source": {
+            "name": "chess-results",
+            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
+            "confidence": "high"
+          }
+        },
+        {
           "playerId": "adan-carballido-bouzas",
           "name": "Adan Carballido Bouzas",
           "countryCode": "ESP",
@@ -3355,21 +3375,6 @@
           "countryCode": "BEL",
           "title": null,
           "fideId": "281212",
-          "classicalRating": null,
-          "profileLinks": {},
-          "status": "confirmed",
-          "source": {
-            "name": "chess-results",
-            "url": "https://s3.chess-results.com/tnr1282073.aspx?lan=1&SNode=S0",
-            "confidence": "high"
-          }
-        },
-        {
-          "playerId": "nikola-matkovi",
-          "name": "Nikola Matković",
-          "countryCode": "CRO",
-          "title": "III",
-          "fideId": "14572729",
           "classicalRating": null,
           "profileLinks": {},
           "status": "confirmed",
