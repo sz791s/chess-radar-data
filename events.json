@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T10:21:32Z",
-  "eventCount": 66,
+  "generatedAt": "2026-09-03T15:27:29Z",
+  "eventCount": 67,
   "sources": [
     {
       "name": "curated",
@@ -48,7 +48,7 @@
     {
       "name": "chesscom",
       "status": "ok",
-      "count": 35
+      "count": 38
     },
     {
       "name": "uschess",
@@ -208,7 +208,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: 19th Kalamaria International 2026.",
-      "description": "85 listed players",
+      "description": "88 listed players",
       "categories": [
         "online",
         "broadcast"
@@ -249,7 +249,7 @@
       "locationName": "Online broadcast",
       "isOnline": true,
       "summary": "Chess.com current event: Polish Team Championship 2nd League 2026.",
-      "description": "416 listed players. 9 rounds",
+      "description": "421 listed players. 9 rounds",
       "categories": [
         "online",
         "broadcast",
@@ -611,17 +611,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-lzseyyul",
-      "title": "Haustmót TR 2026",
-      "shortTitle": "Haustmót TR 2026",
+      "id": "lichess-vr7lbcj0",
+      "title": "Chess Experience Exchange Matches Uzbekistan 2026 | Standard",
+      "shortTitle": "Chess Experience Exchange Matches Uzbekistan 2026 | Standard",
       "status": "live",
-      "startDate": "2026-09-02T18:45:00Z",
-      "endDate": "2026-09-20T13:15:00Z",
-      "timezone": "Atlantic/Reykjavik",
-      "locationName": "Reykjavik, Iceland",
+      "startDate": "2026-09-02T09:15:00Z",
+      "endDate": "2026-09-09T09:15:00Z",
+      "timezone": "Asia/Tashkent",
+      "locationName": "Tashkent, Uzbekistan",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "9-player round robin",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
       "categories": [
         "classical",
         "broadcast",
@@ -631,59 +631,17 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/haustmot-tr-2026/lzsEyyul",
+      "primaryUrl": "https://lichess.org/broadcast/chess-experience-exchange-matches-uzbekistan-2026-standard/VR7lbcj0",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/haustmot-tr-2026/lzsEyyul"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-fpvr3vr7",
-      "title": "Portuguese National Amateur Championship 2025-26",
-      "shortTitle": "Portuguese National Amateur Championship 2025-26",
-      "status": "live",
-      "startDate": "2026-09-02T19:15:00Z",
-      "endDate": "2026-09-05T14:15:00Z",
-      "timezone": "Europe/Lisbon",
-      "locationName": "Maia, Portugal",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-round Swiss",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/portuguese-national-amateur-championship-2025-26/Fpvr3vr7",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/portuguese-national-amateur-championship-2025-26/Fpvr3vr7"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://fpx.pt/site/"
+          "url": "https://lichess.org/broadcast/chess-experience-exchange-matches-uzbekistan-2026-standard/VR7lbcj0"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://s2.chess-results.com/tnr1488924.aspx?art=1"
+          "url": "https://s3.chess-results.com/tnr1488209.aspx"
         }
       ],
       "source": {
@@ -736,43 +694,43 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-dg8prqeq",
-      "title": "Saint Charbel Chess Cup IV | Masters",
-      "shortTitle": "Saint Charbel Chess Cup IV | Masters",
+      "id": "chesscom-30987",
+      "title": "33rd Nikaia Open Side Events",
+      "shortTitle": "33rd Nikaia Open Side Events",
       "status": "live",
-      "startDate": "2026-09-03T06:45:00Z",
-      "endDate": "2026-09-09T06:45:00Z",
-      "timezone": "Europe/Kyiv",
-      "locationName": "Morshyn, Lviv Oblast, Ukraine",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
+      "startDate": "2026-09-03T05:00:00Z",
+      "endDate": "2026-09-07T03:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 33rd Nikaia Open Side Events.",
+      "description": "Listed on the Chess.com current events page.",
       "categories": [
-        "classical",
+        "online",
         "broadcast",
-        "otb"
+        "open"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/saint-charbel-chess-cup-iv-masters/DG8prqEQ",
+      "primaryUrl": "https://www.chess.com/events/info/other-events-in-33rd-open-tournament-of-nikaia-2026",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/saint-charbel-chess-cup-iv-masters/DG8prqEQ"
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/other-events-in-33rd-open-tournament-of-nikaia-2026"
         },
         {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s1.chess-results.com/tnr1469459.aspx?art=1"
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
@@ -781,7 +739,7 @@
       "id": "chesscom-30923",
       "title": "Charlotte Labor Day Norm Invitational 2026",
       "shortTitle": "Charlotte Labor Day Norm Invitational 2026",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-09-03T14:00:00Z",
       "endDate": "2026-09-08T00:00:00Z",
       "timezone": "UTC",
@@ -819,174 +777,76 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-iqrxddmt",
-      "title": "2026 Labor Day Norm Invitational | GM B",
-      "shortTitle": "2026 Labor Day Norm Invitational | GM B",
+      "id": "chesscom-30877",
+      "title": "2026 Illinois Open",
+      "shortTitle": "2026 Illinois Open",
       "status": "upcoming",
-      "startDate": "2026-09-03T22:15:00Z",
-      "endDate": "2026-09-07T19:15:00Z",
-      "timezone": "EST5EDT",
-      "locationName": "Charlotte, North Carolina, USA",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
+      "startDate": "2026-09-03T22:00:00Z",
+      "endDate": "2026-09-07T23:00:00Z",
+      "timezone": "UTC",
+      "locationName": "Online broadcast",
+      "isOnline": true,
+      "summary": "Chess.com current event: 2026 Illinois Open.",
+      "description": "9 rounds",
       "categories": [
-        "classical",
+        "online",
         "broadcast",
-        "otb"
+        "open"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-gm-b/iqrxDdmT",
+      "primaryUrl": "https://www.chess.com/events/info/2026-illinois-open",
       "links": [
         {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-gm-b/iqrxDdmT"
-        },
-        {
-          "label": "Official website",
+          "label": "Chess.com event",
           "type": "official",
-          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=description"
+          "url": "https://www.chess.com/events/info/2026-illinois-open"
         },
         {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=standings"
-        },
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-gm-a/xlyvoNJs"
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
         }
       ],
       "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
+        "name": "chesscom",
+        "url": "https://www.chess.com/events/current",
+        "confidence": "medium"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-az68bdoc",
-      "title": "2026 Labor Day Norm Invitational | IM C",
-      "shortTitle": "2026 Labor Day Norm Invitational | IM C",
+      "id": "lichess-yunpxrqs",
+      "title": "2026 NY Marshall Labor Day | GM A Invitational",
+      "shortTitle": "2026 NY Marshall Labor Day | GM A Invitational",
       "status": "upcoming",
-      "startDate": "2026-09-03T22:15:00Z",
-      "endDate": "2026-09-07T19:15:00Z",
-      "timezone": "EST5EDT",
-      "locationName": "Charlotte, North Carolina, USA",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "10-player round-robin",
-      "categories": [
-        "classical",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-im-c/AZ68bDoc",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-labor-day-norm-invitational-im-c/AZ68bDoc"
-        },
-        {
-          "label": "Official website",
-          "type": "official",
-          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=description"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://app.charlottechesscenter.org/events/labordaynorm/instances/145?tab=standings"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-e6nuaawf",
-      "title": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Rapid",
-      "shortTitle": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Rapid",
-      "status": "upcoming",
-      "startDate": "2026-09-04T16:00:00Z",
-      "endDate": "2026-09-04T16:00:00Z",
-      "timezone": "Europe/Zagreb",
-      "locationName": "Omišalj Croatia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Swiss 7 round",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-rapid/e6NUaAwf",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-rapid/e6NUaAwf"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s3.chess-results.com/Tnr1475954.aspx?art=1"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-bzprs8x7",
-      "title": "2026 NY Marshall Labor Day | IM Qualifier Invitational",
-      "shortTitle": "2026 NY Marshall Labor Day | IM Qualifier Invitational",
-      "status": "upcoming",
-      "startDate": "2026-09-04T22:15:00Z",
-      "endDate": "2026-09-06T22:15:00Z",
+      "startDate": "2026-09-03T23:15:00Z",
+      "endDate": "2026-09-07T20:15:00Z",
       "timezone": "America/New_York",
       "locationName": "New York, United States",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "6-player round-robin",
+      "description": "10-player round-robin",
       "categories": [
         "classical",
         "broadcast",
-        "otb"
+        "otb",
+        "online"
       ],
       "playerIds": [],
       "channelIds": [
-        "lichess"
+        "lichess",
+        "chesscom"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-ny-marshall-labor-day-im-qualifier-invitational/BZPRs8x7",
+      "primaryUrl": "https://lichess.org/broadcast/2026-ny-marshall-labor-day-gm-a-invitational/YunPxrQs",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-ny-marshall-labor-day-im-qualifier-invitational/BZPRs8x7"
+          "url": "https://lichess.org/broadcast/2026-ny-marshall-labor-day-gm-a-invitational/YunPxrQs"
         },
         {
           "label": "Official website",
@@ -996,7 +856,123 @@
         {
           "label": "Standings",
           "type": "results",
+          "url": "https://s1.chess-results.com/tnr1479507.aspx?art=1"
+        },
+        {
+          "label": "Chess.com event",
+          "type": "official",
+          "url": "https://www.chess.com/events/info/ny-marshall-labor-day-gm-invitational-2026"
+        },
+        {
+          "label": "Chess.com current events",
+          "type": "source",
+          "url": "https://www.chess.com/events/current"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-ofsr9uir",
+      "title": "2026 NY Marshall Labor Day | IM B Invitational",
+      "shortTitle": "2026 NY Marshall Labor Day | IM B Invitational",
+      "status": "upcoming",
+      "startDate": "2026-09-03T23:15:00Z",
+      "endDate": "2026-09-07T20:15:00Z",
+      "timezone": "America/New_York",
+      "locationName": "New York, United States",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/2026-ny-marshall-labor-day-im-b-invitational/ofsR9uir",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-ny-marshall-labor-day-im-b-invitational/ofsR9uir"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://nycchessnorms.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1479516.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/2026-ny-marshall-labor-day-im-qualifier-invitational/BZPRs8x7"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
           "url": "https://s2.chess-results.com/tnr1479517.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-kpyte7ry",
+      "title": "Other events in 33rd Open Tournament of Nikaia 2026 | 10th Team Blitz 4x4",
+      "shortTitle": "Other events in 33rd Open Tournament of Nikaia 2026 | 10th Team Blitz 4x4",
+      "status": "upcoming",
+      "startDate": "2026-09-04T19:30:00Z",
+      "endDate": "2026-09-04T19:30:00Z",
+      "timezone": "Europe/Athens",
+      "locationName": "Athens, Greece",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "6-round FIDE-rated Team Swiss",
+      "categories": [
+        "blitz",
+        "broadcast",
+        "team",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/other-events-in-33rd-open-tournament-of-nikaia-2026-10th-team-blitz-4x4/KPyTE7rY",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/other-events-in-33rd-open-tournament-of-nikaia-2026-10th-team-blitz-4x4/KPyTE7rY"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://fysiolatris.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chess-results.com/tnr1488302.aspx?lan=1"
         }
       ],
       "source": {
@@ -1056,17 +1032,17 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-wcxcpmyf",
-      "title": "2026 Fall Southeastern FIDE",
-      "shortTitle": "2026 Fall Southeastern FIDE",
+      "id": "lichess-4ejyooty",
+      "title": "2026 Harvey Lerman Florida State Championship",
+      "shortTitle": "2026 Harvey Lerman Florida State Championship",
       "status": "upcoming",
-      "startDate": "2026-09-05T14:45:00Z",
-      "endDate": "2026-09-07T14:15:00Z",
+      "startDate": "2026-09-05T14:10:00Z",
+      "endDate": "2026-09-07T19:40:00Z",
       "timezone": "EST5EDT",
-      "locationName": "Charlotte, USA",
+      "locationName": "Kissimmee, Florida, United States",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "5-round Swiss",
+      "description": "6-round Swiss",
       "categories": [
         "classical",
         "broadcast",
@@ -1076,22 +1052,17 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/2026-fall-southeastern-fide/WcXCPMYf",
+      "primaryUrl": "https://lichess.org/broadcast/2026-harvey-lerman-florida-state-championship/4eJYooty",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/2026-fall-southeastern-fide/WcXCPMYf"
+          "url": "https://lichess.org/broadcast/2026-harvey-lerman-florida-state-championship/4eJYooty"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://app.charlottechesscenter.org/events/fall-southeastern-fide/instances/120?tab=description%3E*"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://app.charlottechesscenter.org/events/fall-southeastern-fide/instances/120?tab=standings%3E*"
+          "url": "https://www.spacecoastchessfoundation.org/event/floridastatechampionship"
         }
       ],
       "source": {
@@ -1103,19 +1074,19 @@
       "confirmedPlayers": []
     },
     {
-      "id": "lichess-thfnirpg",
-      "title": "IV Torneo Internacional de Alfafar Miguel Martinez",
-      "shortTitle": "IV Torneo Internacional de Alfafar Miguel Martinez",
+      "id": "lichess-eikee9xf",
+      "title": "Campeonato Carioca Absoluto FEXERJ 2026",
+      "shortTitle": "Campeonato Carioca Absoluto FEXERJ 2026",
       "status": "upcoming",
-      "startDate": "2026-09-05T15:00:00Z",
-      "endDate": "2026-09-05T15:00:00Z",
-      "timezone": "Europe/Madrid",
-      "locationName": "Alfafar, Spain",
+      "startDate": "2026-09-05T16:30:00Z",
+      "endDate": "2026-09-06T18:45:00Z",
+      "timezone": "America/Sao_Paulo",
+      "locationName": "Tijuca Tenis Clube - Rio de Janeiro, Brazil",
       "isOnline": false,
       "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "8-round Swiss",
+      "description": "6-round Swiss",
       "categories": [
-        "blitz",
+        "classical",
         "broadcast",
         "otb"
       ],
@@ -1123,65 +1094,22 @@
       "channelIds": [
         "lichess"
       ],
-      "primaryUrl": "https://lichess.org/broadcast/iv-torneo-internacional-de-alfafar-miguel-martinez/thFnIRpg",
+      "primaryUrl": "https://lichess.org/broadcast/campeonato-carioca-absoluto-fexerj-2026/eiKEE9xf",
       "links": [
         {
           "label": "Watch on Lichess",
           "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/iv-torneo-internacional-de-alfafar-miguel-martinez/thFnIRpg"
+          "url": "https://lichess.org/broadcast/campeonato-carioca-absoluto-fexerj-2026/eiKEE9xf"
         },
         {
           "label": "Official website",
           "type": "official",
-          "url": "https://www.facv.org/iv-torneo-internacional-de-alfafar-miguel-martinez"
+          "url": "https://fexerj.org.br/blog/campeonato-carioca-absoluto-fexerj-2026/"
         },
         {
           "label": "Standings",
           "type": "results",
-          "url": "https://info64.org/iv-torneo-internacional-alfafar-2026-miguel-martinez/standings"
-        }
-      ],
-      "source": {
-        "name": "lichess",
-        "url": "https://lichess.org/api/broadcast",
-        "confidence": "high"
-      },
-      "confirmedPlayerIds": [],
-      "confirmedPlayers": []
-    },
-    {
-      "id": "lichess-a8vf0xki",
-      "title": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Blitz",
-      "shortTitle": "Ženski šahovski festival \"Omišalj blitz&rapid 2026\" | Blitz",
-      "status": "upcoming",
-      "startDate": "2026-09-05T15:00:00Z",
-      "endDate": "2026-09-05T15:00:00Z",
-      "timezone": "Europe/Zagreb",
-      "locationName": "Omisalj Croatia",
-      "isOnline": false,
-      "summary": "Chess tournament broadcast with live boards on Lichess.",
-      "description": "Swiss 7 rounds",
-      "categories": [
-        "rapid",
-        "blitz",
-        "broadcast",
-        "otb"
-      ],
-      "playerIds": [],
-      "channelIds": [
-        "lichess"
-      ],
-      "primaryUrl": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-blitz/a8VF0XKI",
-      "links": [
-        {
-          "label": "Watch on Lichess",
-          "type": "liveBoards",
-          "url": "https://lichess.org/broadcast/zenski-sahovski-festival-omisalj-blitzrapid-2026-blitz/a8VF0XKI"
-        },
-        {
-          "label": "Standings",
-          "type": "results",
-          "url": "https://s2.chess-results.com/tnr1475953.aspx?art=1"
+          "url": "https://s3.chess-results.com/tnr1479033.aspx?art=1"
         }
       ],
       "source": {
@@ -1237,6 +1165,106 @@
       "confirmedPlayers": []
     },
     {
+      "id": "lichess-bosmb26p",
+      "title": "Other events in 33rd Open Tournament of Nikaia 2026 | 1st Arbiter Blitz",
+      "shortTitle": "Other events in 33rd Open Tournament of Nikaia 2026 | 1st Arbiter Blitz",
+      "status": "upcoming",
+      "startDate": "2026-09-06T19:30:00Z",
+      "endDate": "2026-09-06T19:30:00Z",
+      "timezone": "Europe/Athens",
+      "locationName": "Athens, Greece",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "7-round FIDE-rated Swiss",
+      "categories": [
+        "blitz",
+        "broadcast",
+        "open",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/other-events-in-33rd-open-tournament-of-nikaia-2026-1st-arbiter-blitz/bosmB26P",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/other-events-in-33rd-open-tournament-of-nikaia-2026-1st-arbiter-blitz/bosmB26P"
+        },
+        {
+          "label": "Official website",
+          "type": "official",
+          "url": "https://fysiolatris.com/"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://chess-results.com/tnr1488304.aspx?lan=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-hieniy6s",
+      "title": "Leyendas y Prodigios II (Legends & Prodigies) | Group B",
+      "shortTitle": "Leyendas y Prodigios II (Legends & Prodigies) | Group B",
+      "status": "upcoming",
+      "startDate": "2026-09-07T15:00:00Z",
+      "endDate": "2026-09-12T15:00:00Z",
+      "timezone": "Europe/Madrid",
+      "locationName": "Madrid, Spain",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "10-player round-robin",
+      "categories": [
+        "classical",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/leyendas-y-prodigios-ii-legends-prodigies-group-b/hIenIY6S",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/leyendas-y-prodigios-ii-legends-prodigies-group-b/hIenIY6S"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1471075.aspx?art=1"
+        },
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/leyendas-y-prodigios-ii-legends-prodigies-group-a/0SZaPFp7"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s1.chess-results.com/tnr1471070.aspx?art=1"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
       "id": "chessaround-41-open-sestao-basque-country-8-13-sep-2026",
       "title": "41.º Open Sestao Basque Country",
       "shortTitle": "41.º Open Sestao Basque Country",
@@ -1277,6 +1305,49 @@
         "name": "chessaround",
         "url": "https://calendar.chessaround.com/",
         "confidence": "medium"
+      },
+      "confirmedPlayerIds": [],
+      "confirmedPlayers": []
+    },
+    {
+      "id": "lichess-plbggboa",
+      "title": "Chess Experience Exchange Matches Uzbekistan 2026 | Rapid & Blitz (Match 1 Only)",
+      "shortTitle": "Chess Experience Exchange Matches Uzbekistan 2026 | Rapid & Blitz (Match 1 Only)",
+      "status": "upcoming",
+      "startDate": "2026-09-08T09:00:00Z",
+      "endDate": "2026-09-09T09:00:00Z",
+      "timezone": "Asia/Tashkent",
+      "locationName": "Tashkent, Uzbekistan",
+      "isOnline": false,
+      "summary": "Chess tournament broadcast with live boards on Lichess.",
+      "description": "Chess tournament broadcast with live boards on Lichess.",
+      "categories": [
+        "rapid",
+        "blitz",
+        "broadcast",
+        "otb"
+      ],
+      "playerIds": [],
+      "channelIds": [
+        "lichess"
+      ],
+      "primaryUrl": "https://lichess.org/broadcast/chess-experience-exchange-matches-uzbekistan-2026-rapid-blitz-match-1-only/PLBGgBoa",
+      "links": [
+        {
+          "label": "Watch on Lichess",
+          "type": "liveBoards",
+          "url": "https://lichess.org/broadcast/chess-experience-exchange-matches-uzbekistan-2026-rapid-blitz-match-1-only/PLBGgBoa"
+        },
+        {
+          "label": "Standings",
+          "type": "results",
+          "url": "https://s3.chess-results.com/tnr1488209.aspx"
+        }
+      ],
+      "source": {
+        "name": "lichess",
+        "url": "https://lichess.org/api/broadcast",
+        "confidence": "high"
       },
       "confirmedPlayerIds": [],
       "confirmedPlayers": []
